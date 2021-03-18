@@ -38,6 +38,7 @@ Streamer | Twitch | Other links
 `hackingesports_eng` | [hackingesports_eng](https://twitch.tv/hackingesports_eng) | 
 `hattondog` | [hattondog](https://www.twitch.tv/hattondog) |
 `hey_its_lgg` | [hey_its_lgg](https://twitch.tv/hey_its_lgg) | [Twitter](https://twitter.com/__LGG__)
+`goproslowyo` | (https://www.twitch.tv/goproslowyo) |
 `infinitelogins` | [infinitelogins](https://twitch.tv/infinitelogins) | [YouTube](https://www.youtube.com/channel/UC_nKukFaGysjMzqMVHEIgxQ)
 `JohnHammond010` | [JohnHammond010](https://twitch.tv/johnhammond010) | [YouTube](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
 `jrozner` | [jrozner](https://twitch.tv/jrozner) | 
