@@ -12,6 +12,7 @@ Streamer | Twitch | Other links
 `55keez` | [55keez](https://twitch.tv/55keez) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `alh4zr3d` | [alh4zr3d](https://twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
+`alomancy` | [alomancy](https://www.twitch.tv/alomancy) |
 `ash_f0x` | [ash_f0x](https://twitch.tv/ash_f0x) | 
 `aywang` | [aywang](https://twitch.tv/aywang) | 
 `blindpentester` | [blindpentester](https://twitch.tv/blindpentester) | 
