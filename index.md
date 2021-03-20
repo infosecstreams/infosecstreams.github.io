@@ -12,6 +12,7 @@ Streamer | Twitch | Other links
 `55keez` | [55keez](https://twitch.tv/55keez) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `alh4zr3d` | [alh4zr3d](https://twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
+`alomancy` | [alomancy](https://www.twitch.tv/alomancy) |
 `ash_f0x` | [ash_f0x](https://twitch.tv/ash_f0x) | 
 `aywang` | [aywang](https://twitch.tv/aywang) | 
 `blindpentester` | [blindpentester](https://twitch.tv/blindpentester) | 
@@ -57,6 +58,7 @@ Streamer | Twitch | Other links
 `sawyerone` | [sawyerone](https://twitch.tv/sawyerone) | 
 `slyborgsinner` | [slyborgsinner](https://twitch.tv/slyborgsinner) | 
 `smash8tap` | [smash8tap](https://twitch.tv/smash8tap) | 
+`softexploit` | [softexploit](https://www.twitch.tv/softexploit) |
 `stellargb` | [stellargb](https://twitch.tv/stellargb) | 
 `sup3rhero1` | [sup3rhero1](https://twitch.tv/sup3rhero1) | 
 `Th3lazykid`| [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
