@@ -57,6 +57,7 @@ Streamer | Twitch | Other links
 `sawyerone` | [sawyerone](https://twitch.tv/sawyerone) | 
 `slyborgsinner` | [slyborgsinner](https://twitch.tv/slyborgsinner) | 
 `smash8tap` | [smash8tap](https://twitch.tv/smash8tap) | 
+`softexploit` | [softexploit](https://www.twitch.tv/softexploit) |
 `stellargb` | [stellargb](https://twitch.tv/stellargb) | 
 `sup3rhero1` | [sup3rhero1](https://twitch.tv/sup3rhero1) | 
 `Th3lazykid`| [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
