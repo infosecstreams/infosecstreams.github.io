@@ -34,6 +34,7 @@ Streamer | Twitch | Other links
 `echozach` | [echozach](https://twitch.tv/echozach) | 
 `fearless0523` | [fearless0523](https://twitch.tv/fearless0523) | 
 `foxcap_` | [foxcap_](https://twitch.tv/foxcap_) | 
+`goproslowyo` | [goproslowyo](https://twitch.tv/goproslowyo) | 
 `hackingesports` | [hackingesports](https://twitch.tv/hackingesports) | 
 `hackingesports_eng` | [hackingesports_eng](https://twitch.tv/hackingesports_eng) | 
 `hattondog` | [hattondog](https://www.twitch.tv/hattondog) |
