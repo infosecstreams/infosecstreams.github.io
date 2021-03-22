@@ -16,12 +16,12 @@ Streamer | Twitch | Other links
 `ash_f0x` | [ash_f0x](https://twitch.tv/ash_f0x) | 
 `aywang` | [aywang](https://twitch.tv/aywang) | 
 `blindpentester` | [blindpentester](https://twitch.tv/blindpentester) | 
-`brianbeardsen` | [brianbeardsen](https://www.twitch.tv/brianbeardsen) |
 `chadb_n00b` | [chadb_n00b](https://twitch.tv/chadb_n00b) | 
 `chrissean` | [chrissean](https://twitch.tv/chrissean) | 
 `codingo_` | [codingo_](https://twitch.tv/codingo_) | [YouTube](https://www.youtube.com/channel/UCUfO02gdMDXgOJWdv_jiLMg)
 `crumbswastaken` | [crumbswastaken](https://twitch.tv/crumbswastaken) | 
 `ctrlbyte` | [ctrlbyte](https://twitch.tv/ctrlbyte) | 
+`cybeardsec` | [cybeardsec](https://www.twitch.tv/cybeardsec)
 `cybervno` | [cybervno](https://www.twitch.tv/cybervno) |
 `cyber_insecurity` | [cyber_insecurity](https://twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `cyber_v1s3rion` | [cyber_v1s3rion](https://twitch.tv/cyber_v1s3rion) | 
