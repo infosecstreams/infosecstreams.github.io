@@ -6,6 +6,7 @@ Congrats! You've found an actively maintained list of Information Security-relat
 
 Streamer | Twitch | Other links
 ---: | --- | :---
+`0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) |
 `0xa_lilkelly` | [0xa_lilkelly](https://twitch.tv/0xa_lilkelly) | 
 `0xBufu` | [0xBufu](https://twitch.tv/0xBufu) | 
 `0xtib3rius` | [0xtib3rius](https://twitch.tv/0xtib3rius) | 
@@ -15,6 +16,7 @@ Streamer | Twitch | Other links
 `alomancy` | [alomancy](https://www.twitch.tv/alomancy) |
 `ash_f0x` | [ash_f0x](https://twitch.tv/ash_f0x) | 
 `aywang` | [aywang](https://twitch.tv/aywang) | 
+`biueaider` | [biueaider](https://www.twitch.tv/biueaider) |
 `blindpentester` | [blindpentester](https://twitch.tv/blindpentester) | 
 `chadb_n00b` | [chadb_n00b](https://twitch.tv/chadb_n00b) | 
 `chrissean` | [chrissean](https://twitch.tv/chrissean) | 
@@ -32,6 +34,7 @@ Streamer | Twitch | Other links
 `dccybersec` | [dccybersec](https://twitch.tv/dccybersec) | [YouTube](https://www.youtube.com/channel/UC3sccPO4v8YqCTn8sezZGTw)
 `desyncryan` | [desyncryan](https://www.twitch.tv/desyncryan) | [YouTube](https://www.youtube.com/channel/UChZesZaDGh8_9ngbk3GGG7Q)
 `djax` | [djaz](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
+`dmll606` | [dmll606](https://www.twitch.tv/dmll606) |
 `dowright` | [dowright](https://twitch.tv/dowright) | 
 `echozach` | [echozach](https://twitch.tv/echozach) | 
 `fearless0523` | [fearless0523](https://twitch.tv/fearless0523) | 
@@ -57,6 +60,7 @@ Streamer | Twitch | Other links
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) |
 `saucysec` | [saucysec](https://twitch.tv/saucysec) | 
 `sawyerone` | [sawyerone](https://twitch.tv/sawyerone) | 
+`securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `slyborgsinner` | [slyborgsinner](https://twitch.tv/slyborgsinner) | 
 `smash8tap` | [smash8tap](https://twitch.tv/smash8tap) | 
 `softexploit` | [softexploit](https://www.twitch.tv/softexploit) |
