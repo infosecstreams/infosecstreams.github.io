@@ -6,6 +6,7 @@ Congrats! You've found an actively maintained list of Information Security-relat
 
 Streamer | Twitch | Other links
 ---: | --- | :---
+`0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) |
 `0xa_lilkelly` | [0xa_lilkelly](https://twitch.tv/0xa_lilkelly) | 
 `0xBufu` | [0xBufu](https://twitch.tv/0xBufu) | 
 `0xtib3rius` | [0xtib3rius](https://twitch.tv/0xtib3rius) | 
