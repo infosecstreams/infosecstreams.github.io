@@ -87,6 +87,7 @@ Streamer | Twitch | Other links
 
 Streamer | Twitch | Other links
 ---: | --- | :---
+`theprimeagen` | [theprimeagen](https://twitch.tv/theprimeagen) | 
 `cmgriffing` | [cmgriffing](https://twitch.tv/cmgriffing) | 
 `codingandcoffee` | [codingandcoffee](https://twitch.tv/codingandcoffee) | 
 `dr_dinomight` | [dr_dinomight](https://twitch.tv/dr_dinomight) | 
