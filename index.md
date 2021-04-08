@@ -116,7 +116,7 @@ Link | Description
 [ExplainShell](https://explainshell.com) | Bash Shell Command Explanation
 [0day.exposed](https://www.revshells.com) | Reverse Shell Command Generator
 [CrackStation](https://crackstation.net) | Online Hash Cracking
-
+[Buffer Overflow Notes](https://www.evernote.com/shard/s743/client/snv?noteGuid=3f51bb24-85f9-466b-7bd5-a875449bb09d&noteKey=b24a9f12b50cca3a7465327ba2a77c4b&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs743%2Fsh%2F3f51bb24-85f9-466b-7bd5-a875449bb09d%2Fb24a9f12b50cca3a7465327ba2a77c4b&title=Buffer%2BOverflow%2BSteps%2B%2528Windows%2529) | An In Depth Guide to BoF's by [Alomancy](https://www.twitch.tv/alomancy)
 
 
 ### Credits
