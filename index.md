@@ -116,7 +116,7 @@ Link | Description
 [ExplainShell](https://explainshell.com) | Bash Shell Command Explanation
 [0day.exposed](https://www.revshells.com) | Reverse Shell Command Generator
 [CrackStation](https://crackstation.net) | Online Hash Cracking
-[Buffer Overflow Notes](Alomancy) | An In Depth Guide to BoF's by [Alomancy](https://www.twitch.tv/alomancy)
+
 
 
 ### Credits
