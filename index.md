@@ -13,7 +13,7 @@ Streamer | Twitch | Other links
 `55keez` | [55keez](https://twitch.tv/55keez) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `alh4zr3d` | [alh4zr3d](https://twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
-`alomancy` | [alomancy](https://www.twitch.tv/alomancy) |
+`alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) |
 `ash_f0x` | [ash_f0x](https://twitch.tv/ash_f0x) | 
 `aywang` | [aywang](https://twitch.tv/aywang) | 
@@ -63,6 +63,7 @@ Streamer | Twitch | Other links
 `saucysec` | [saucysec](https://twitch.tv/saucysec) | 
 `sawyerone` | [sawyerone](https://twitch.tv/sawyerone) | 
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
+`sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) |
 `slyborgsinner` | [slyborgsinner](https://twitch.tv/slyborgsinner) | 
 `smash8tap` | [smash8tap](https://twitch.tv/smash8tap) | 
 `softexploit` | [softexploit](https://www.twitch.tv/softexploit) |
@@ -114,6 +115,7 @@ Link | Description
 [ExplainShell](https://explainshell.com) | Bash Shell Command Explanation
 [0day.exposed](https://www.revshells.com) | Reverse Shell Command Generator
 [CrackStation](https://crackstation.net) | Online Hash Cracking
+[Buffer Overflow Notes](Alomancy) | An In Depth Guide to BoF's by [Alomancy](https://www.twitch.tv/alomancy)
 
 
 ### Credits
