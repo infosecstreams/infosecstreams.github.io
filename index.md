@@ -18,8 +18,8 @@ Streamer | Twitch | Other links
 `ash_f0x` | [ash_f0x](https://twitch.tv/ash_f0x) | 
 `aywang` | [aywang](https://twitch.tv/aywang) | 
 `biueaider` | [biueaider](https://www.twitch.tv/biueaider) |
-`blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) |
 `blindpentester` | [blindpentester](https://twitch.tv/blindpentester) | 
+`blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) |
 `chadb_n00b` | [chadb_n00b](https://twitch.tv/chadb_n00b) | 
 `chrissean` | [chrissean](https://twitch.tv/chrissean) | 
 `codingo_` | [codingo_](https://twitch.tv/codingo_) | [YouTube](https://www.youtube.com/channel/UCUfO02gdMDXgOJWdv_jiLMg)
