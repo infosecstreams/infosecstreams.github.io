@@ -2,6 +2,8 @@
 
 ## Contributing / Updating
 
+TL;DR: To add or remove a streamer to the list please update `streamers.csv`.
+
 ### Pull Request Process:
 
 1. Fork the repo in the Github UI or checkout the repo locally.
@@ -10,9 +12,11 @@
     
     `git checkout -b <your-branch>`
 
-1. Make your changes, commit, and push:
+1. Update streamers.csv with your additions and/or deletions.
 
-    `git add index.md; git commit -m'My Change Description'; git push -u origin <your-branch-name>`
+1. Commit and push:
+
+    `git add streamers.csv; git commit -m'My Change Description'; git push -u origin <your-branch-name>`
 
 1. [Create a Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/proposing-changes-to-your-work-with-pull-requests) using the Github UI.
 
