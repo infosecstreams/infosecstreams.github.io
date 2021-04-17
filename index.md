@@ -33,13 +33,13 @@ Streamer | Twitch | Other links
 `ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 `biueaider` | [biueaider](https://www.twitch.tv/biueaider) | 
+`lminzarl` | [lminzarl](https://www.twitch.tv/lminzarl) | 
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
-`lminzarl` | [lminzarl](https://www.twitch.tv/lminzarl) | 
 `cybervno` | [cybervno](https://www.twitch.tv/cybervno) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
