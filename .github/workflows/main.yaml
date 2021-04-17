@@ -30,6 +30,22 @@ jobs:
       - name: Sort index.md
         run: python GetTwoWeekStreamActivity.py
 
+      - name: Temporarily disable main branch protections
+        uses: octokit/request-action@v2.x
+        with:
+          route: PUT /repos/:repository/branches/main/protection
+          repository: ${{ github.repository }}
+          required_status_checks: |
+            null
+          enforce_admins: |
+            null
+          required_pull_request_reviews: |
+            null
+          restrictions: | 
+            null 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_ACTIONS_REPO_ADMIN_CI_TOKEN }}
+
       - name: Commit index.md
         run: |
           git config user.name "${GITHUB_ACTOR}"
@@ -37,3 +53,22 @@ jobs:
           git add index.md
           git commit -am "Sorted index.md"
           git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+
+      - name: Reenable main branch protections
+        uses: octokit/request-action@v2.x
+        with:
+          route: PUT /repos/:repository/branches/main/protection
+          repository: ${{ github.repository }}
+          required_status_checks: |
+            strict: true
+            contexts:
+              - build
+          enforce_admins: |
+            null
+          required_pull_request_reviews: |
+            dismiss_stale_reviews: true
+            required_approving_review_count: 1
+          restrictions: | 
+            null 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_ACTIONS_REPO_ADMIN_CI_TOKEN }}
