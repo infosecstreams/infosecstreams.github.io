@@ -44,7 +44,7 @@ jobs:
           restrictions: | 
             null 
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_ACTIONS_REPO_ADMIN_CI_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit index.md
         run: |
@@ -71,4 +71,4 @@ jobs:
           restrictions: | 
             null 
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_ACTIONS_REPO_ADMIN_CI_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
