@@ -10,14 +10,14 @@ Streamer | Twitch | Other links
 `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
-`xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
+`xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
+`alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `dasrealbert` | [dasrealbert](https://www.twitch.tv/dasrealbert) | 
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
-`alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
@@ -31,7 +31,7 @@ Streamer | Twitch | Other links
 `ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `biueaider` | [biueaider](https://www.twitch.tv/biueaider) | 
-`hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | 
+`hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `lminzarl` | [lminzarl](https://www.twitch.tv/lminzarl) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
