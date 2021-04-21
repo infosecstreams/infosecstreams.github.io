@@ -21,9 +21,10 @@ Streamer | Twitch | Other links
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
-`thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
+`thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
+`lminzarl` | [lminzarl](https://www.twitch.tv/lminzarl) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
@@ -31,17 +32,16 @@ Streamer | Twitch | Other links
 `biueaider` | [biueaider](https://www.twitch.tv/biueaider) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
-`lminzarl` | [lminzarl](https://www.twitch.tv/lminzarl) | 
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
+`securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
 `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
-`securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `digitenchou` | [digitenchou](https://www.twitch.tv/digitenchou) | 
