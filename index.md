@@ -23,6 +23,7 @@ Streamer | Twitch | Other links
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
+`hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
@@ -31,7 +32,6 @@ Streamer | Twitch | Other links
 `ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `biueaider` | [biueaider](https://www.twitch.tv/biueaider) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
-`hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
@@ -80,7 +80,6 @@ Streamer | Twitch | Other links
 `sawyerone` | [sawyerone](https://www.twitch.tv/sawyerone) | 
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
 `Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
-`poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) |
 
 
 
