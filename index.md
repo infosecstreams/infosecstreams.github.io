@@ -94,6 +94,8 @@ Link | Description
 [CyberChef](https://gchq.github.io/CyberChef) | The Cyber Swiss Army Knife for analysing/encoding/decoding data
 [dCode](https://www.dcode.fr/en) | dCode is a toolkit website for decryption, ciphertexts
 [SS64](https://ss64.com) | Commandline Reference
+[JWT Tool](https://jwt.io) | JSON Web Token encoder/decoder 
+[CentralOps.net](https://centralops.net/co/) | Online Network Tools
 [ExplainShell](https://explainshell.com) | Bash Shell Command Explanation
 [0day.exposed](https://www.revshells.com) | Reverse Shell Command Generator
 [CrackStation](https://crackstation.net) | Online Hash Cracking
