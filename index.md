@@ -15,9 +15,9 @@ Streamer | Twitch | Other links
 `xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
+`slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
-`slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
 `dasrealbert` | [dasrealbert](https://www.twitch.tv/dasrealbert) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
@@ -28,10 +28,10 @@ Streamer | Twitch | Other links
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
+`biueaider` | [biueaider](https://www.twitch.tv/biueaider) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
-`biueaider` | [biueaider](https://www.twitch.tv/biueaider) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
