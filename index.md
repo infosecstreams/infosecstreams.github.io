@@ -13,38 +13,38 @@ Streamer | Twitch | Other links
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
-`mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
+`mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `dasrealbert` | [dasrealbert](https://www.twitch.tv/dasrealbert) | 
-`mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
+`mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
-`sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
-`chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
+`thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
-`thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `biueaider` | [biueaider](https://www.twitch.tv/biueaider) | 
+`chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
+`sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `lminzarl` | [lminzarl](https://www.twitch.tv/lminzarl) | 
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
-`themayor11` | [themayor11](https://www.twitch.tv/themayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
 `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
+`themayor11` | [themayor11](https://www.twitch.tv/themayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
 `digitenchou` | [digitenchou](https://www.twitch.tv/digitenchou) | 
 `softexploit` | [softexploit](https://www.twitch.tv/softexploit) | 
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
@@ -94,8 +94,6 @@ Link | Description
 [CyberChef](https://gchq.github.io/CyberChef) | The Cyber Swiss Army Knife for analysing/encoding/decoding data
 [dCode](https://www.dcode.fr/en) | dCode is a toolkit website for decryption, ciphertexts
 [SS64](https://ss64.com) | Commandline Reference
-[JWT Tool](https://jwt.io) | JSON Web Token encoder/decoder 
-[CentralOps.net](https://centralops.net/co/) | Online Network Tools
 [ExplainShell](https://explainshell.com) | Bash Shell Command Explanation
 [0day.exposed](https://www.revshells.com) | Reverse Shell Command Generator
 [CrackStation](https://crackstation.net) | Online Hash Cracking
