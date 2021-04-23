@@ -12,18 +12,18 @@ Streamer | Twitch | Other links
 `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
+`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
-`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `dasrealbert` | [dasrealbert](https://www.twitch.tv/dasrealbert) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
+`thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
-`thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
