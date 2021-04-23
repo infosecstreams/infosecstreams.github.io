@@ -7,7 +7,7 @@ def getTwitchUsernames():
   Returns: List of usernames.
   """
   with open('./streamers.csv', 'r') as f:
-    return [(line.split(',')[0], line.split(',')[1]) for line in f.read().split('\n')]
+    return [(line.split(',')[0], line.split(',')[1]) for line in f.read().split('\n') if len(line) > 0]
 
 
 def getScrapeData(username):
