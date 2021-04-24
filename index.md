@@ -23,6 +23,7 @@ Streamer | Twitch | Other links
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
+`poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
@@ -34,7 +35,6 @@ Streamer | Twitch | Other links
 `slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
-`poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
