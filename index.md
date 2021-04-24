@@ -20,8 +20,8 @@ Streamer | Twitch | Other links
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `dasrealbert` | [dasrealbert](https://www.twitch.tv/dasrealbert) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
-`thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
+`thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
 `poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
@@ -42,11 +42,11 @@ Streamer | Twitch | Other links
 `lminzarl` | [lminzarl](https://www.twitch.tv/lminzarl) | 
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
+`alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
-`alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `digitenchou` | [digitenchou](https://www.twitch.tv/digitenchou) | 
 `softexploit` | [softexploit](https://www.twitch.tv/softexploit) | 
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
@@ -100,7 +100,6 @@ Link | Description
 [JWT Tool](https://jwt.io) | JSON Web Token encoder/decoder
 [PenTest.WS](https://pentest.ws) | Engagement Utility
 [SS64](https://ss64.com) | Commandline Reference
-[HackTricks](https://book.hacktricks.xyz/) | Tricks and Techniques 
 
 ### Credits
 
