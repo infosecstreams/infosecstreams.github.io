@@ -100,6 +100,7 @@ Link | Description
 [JWT Tool](https://jwt.io) | JSON Web Token encoder/decoder
 [PenTest.WS](https://pentest.ws) | Engagement Utility
 [SS64](https://ss64.com) | Commandline Reference
+[HackTricks](https://book.hacktricks.xyz/) | Tricks and Techniques 
 
 ### Credits
 
