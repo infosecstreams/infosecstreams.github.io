@@ -17,15 +17,15 @@ Streamer | Twitch | Other links
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
+`mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `dasrealbert` | [dasrealbert](https://www.twitch.tv/dasrealbert) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
-`mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
+`nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
-`nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `biueaider` | [biueaider](https://www.twitch.tv/biueaider) | 
@@ -38,7 +38,6 @@ Streamer | Twitch | Other links
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
-`hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `lminzarl` | [lminzarl](https://www.twitch.tv/lminzarl) | 
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
@@ -70,6 +69,7 @@ Streamer | Twitch | Other links
 `echozach` | [echozach](https://www.twitch.tv/echozach) | 
 `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
 `foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
+`hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `hattondog` | [hattondog](https://www.twitch.tv/hattondog) | 
 `infinitelogins` | [infinitelogins](https://www.twitch.tv/infinitelogins) | [YouTube](https://www.youtube.com/channel/UC_nKukFaGysjMzqMVHEIgxQ)
 `JohnHammond010` | [JohnHammond010](https://www.twitch.tv/JohnHammond010) | [YouTube](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
@@ -100,6 +100,7 @@ Link | Description
 [JWT Tool](https://jwt.io) | JSON Web Token encoder/decoder
 [PenTest.WS](https://pentest.ws) | Engagement Utility
 [SS64](https://ss64.com) | Commandline Reference
+[HackTricks](https://book.hacktricks.xyz/) | Tricks and Techniques 
 
 ### Credits
 
