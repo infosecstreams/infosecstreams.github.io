@@ -10,6 +10,7 @@ Streamer | Twitch | Other links
 ---: | --- | :---
 `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
+`gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
