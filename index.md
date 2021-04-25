@@ -14,8 +14,8 @@ Streamer | Twitch | Other links
 `xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
-`mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
+`mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `dasrealbert` | [dasrealbert](https://www.twitch.tv/dasrealbert) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
@@ -34,12 +34,12 @@ Streamer | Twitch | Other links
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
+`ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `lminzarl` | [lminzarl](https://www.twitch.tv/lminzarl) | 
-`ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
