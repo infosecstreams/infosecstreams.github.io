@@ -17,18 +17,19 @@ Streamer | Twitch | Other links
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
+`footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 `dasrealbert` | [dasrealbert](https://www.twitch.tv/dasrealbert) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
+`hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
-`footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
-`hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
+`esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
-`poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
+`poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
@@ -37,7 +38,6 @@ Streamer | Twitch | Other links
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
-`esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
 `ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
