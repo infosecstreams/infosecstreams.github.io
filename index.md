@@ -8,8 +8,8 @@ Please contribute missing streamers or errors via a [pull request](https://githu
 
 Streamer | Twitch | Other links
 ---: | --- | :---
-`gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
+`gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
@@ -27,9 +27,9 @@ Streamer | Twitch | Other links
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
+`poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
-`poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
@@ -51,8 +51,8 @@ Streamer | Twitch | Other links
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
-`digitenchou` | [digitenchou](https://www.twitch.tv/digitenchou) | 
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
+`digitenchou` | [digitenchou](https://www.twitch.tv/digitenchou) | 
 `themayor11` | [themayor11](https://www.twitch.tv/themayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
 `softexploit` | [softexploit](https://www.twitch.tv/softexploit) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
