@@ -45,6 +45,7 @@ Streamer | Twitch | Other links
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
+`creminer` | [creminer](https://www.twitch.tv/creminer) | 
 `cybervno` | [cybervno](https://www.twitch.tv/cybervno) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
