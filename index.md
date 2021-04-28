@@ -19,14 +19,14 @@ Streamer | Twitch | Other links
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
+`esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
+`mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
-`mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
-`esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 `poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `dasrealbert` | [dasrealbert](https://www.twitch.tv/dasrealbert) | 
