@@ -35,6 +35,7 @@ Streamer | Twitch | Other links
 `biueaider` | [biueaider](https://www.twitch.tv/biueaider) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
+`sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
 `lminzarl` | [lminzarl](https://www.twitch.tv/lminzarl) | 
@@ -42,7 +43,6 @@ Streamer | Twitch | Other links
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
-`sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 `creminer` | [creminer](https://www.twitch.tv/creminer) | 
