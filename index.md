@@ -20,9 +20,10 @@ Streamer | Twitch | Other links
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
+`creminer` | [creminer](https://www.twitch.tv/creminer) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
-`creminer` | [creminer](https://www.twitch.tv/creminer) | 
+`sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
@@ -30,7 +31,6 @@ Streamer | Twitch | Other links
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 `poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
-`sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
