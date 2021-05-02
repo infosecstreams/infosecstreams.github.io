@@ -13,12 +13,12 @@ Streamer | Twitch | Other links
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
-`anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
+`dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
+`anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `creminer` | [creminer](https://www.twitch.tv/creminer) | 
-`dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
