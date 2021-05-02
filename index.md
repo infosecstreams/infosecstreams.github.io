@@ -36,6 +36,7 @@ Streamer | Twitch | Other links
 `poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
 `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
+`hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
@@ -51,7 +52,6 @@ Streamer | Twitch | Other links
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 `dasrealbert` | [dasrealbert](https://www.twitch.tv/dasrealbert) | 
-`hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `lminzarl` | [lminzarl](https://www.twitch.tv/lminzarl) | 
 `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
