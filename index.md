@@ -12,6 +12,7 @@ Streamer | Twitch | Other links
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
+`securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `creminer` | [creminer](https://www.twitch.tv/creminer) | 
@@ -21,12 +22,12 @@ Streamer | Twitch | Other links
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
+`ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
+`hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
-`ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
-`hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
