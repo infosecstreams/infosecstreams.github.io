@@ -26,13 +26,14 @@ Streamer | Twitch | Other links
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
+`hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
-`hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
+`dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 `poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
@@ -43,7 +44,6 @@ Streamer | Twitch | Other links
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `biueaider` | [biueaider](https://www.twitch.tv/biueaider) | 
-`dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
 `officialwillip` | [officialwillip](https://www.twitch.tv/officialwillip) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
 `slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
