@@ -18,14 +18,14 @@ Streamer | Twitch | Other links
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
+`hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
-`xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
-`hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
+`xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
