@@ -55,6 +55,7 @@ Streamer | Twitch | Other links
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
+`magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `sawyerone` | [sawyerone](https://www.twitch.tv/sawyerone) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
