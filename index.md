@@ -11,16 +11,17 @@ Streamer | Twitch | Other links
 `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
+`dimineko` | [dimineko](https://www.twitch.tv/dimineko) | 
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 `creminer` | [creminer](https://www.twitch.tv/creminer) | 
 `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
+`ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
-`ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
-`endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
+`endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
