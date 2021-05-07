@@ -16,6 +16,7 @@ Streamer | Twitch | Other links
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
+`unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `creminer` | [creminer](https://www.twitch.tv/creminer) | 
 `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
