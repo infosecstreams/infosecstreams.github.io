@@ -35,6 +35,7 @@ Streamer | Twitch | Other links
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 `officialwillip` | [officialwillip](https://www.twitch.tv/officialwillip) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
+`banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
