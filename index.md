@@ -55,11 +55,11 @@ Streamer | Twitch | Other links
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
+`smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
-`smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
 `heyj4x0n` | [heyj4x0n](https://www.twitch.tv/heyj4x0n) | 
 `sawyerone` | [sawyerone](https://www.twitch.tv/sawyerone) | 
