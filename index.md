@@ -17,8 +17,8 @@ Streamer | Twitch | Other links
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
-`creminer` | [creminer](https://www.twitch.tv/creminer) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
+`creminer` | [creminer](https://www.twitch.tv/creminer) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
@@ -61,6 +61,7 @@ Streamer | Twitch | Other links
 `magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
+`heyj4x0n` | [heyj4x0n](https://www.twitch.tv/heyj4x0n) | 
 `sawyerone` | [sawyerone](https://www.twitch.tv/sawyerone) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
