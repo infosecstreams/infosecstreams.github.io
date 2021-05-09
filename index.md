@@ -51,6 +51,7 @@ Streamer | Twitch | Other links
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `biueaider` | [biueaider](https://www.twitch.tv/biueaider) | 
+`ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `lminzarl` | [lminzarl](https://www.twitch.tv/lminzarl) | 
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
@@ -70,7 +71,6 @@ Streamer | Twitch | Other links
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 `aywang` | [aywang](https://www.twitch.tv/aywang) | 
 `blindpentester` | [blindpentester](https://www.twitch.tv/blindpentester) | 
-`ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `codingo_` | [codingo_](https://www.twitch.tv/codingo_) | [YouTube](https://www.youtube.com/channel/UCUfO02gdMDXgOJWdv_jiLMg)
 `crumbswastaken` | [crumbswastaken](https://www.twitch.tv/crumbswastaken) | 
 `ctrlbyte` | [ctrlbyte](https://www.twitch.tv/ctrlbyte) | 
