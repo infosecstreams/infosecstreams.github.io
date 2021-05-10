@@ -9,47 +9,45 @@ Please contribute missing streamers or errors via a [pull request](https://githu
 Streamer | Twitch | Other links
 ---: | --- | :---
 `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
-`dimineko` | [dimineko](https://www.twitch.tv/dimineko) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
-`alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
-`unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
+`alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
+`dimineko` | [dimineko](https://www.twitch.tv/dimineko) | 
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
-`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
+`unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
 `creminer` | [creminer](https://www.twitch.tv/creminer) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
+`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
-`dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
-`gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
-`footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
+`dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
 `officialwillip` | [officialwillip](https://www.twitch.tv/officialwillip) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
 `dowright` | [dowright](https://www.twitch.tv/dowright) | 
+`footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
+`nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 `cybervno` | [cybervno](https://www.twitch.tv/cybervno) | 
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
 `themayor11` | [themayor11](https://www.twitch.tv/themayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
 `xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
-`0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
-`nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `biueaider` | [biueaider](https://www.twitch.tv/biueaider) | 
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
@@ -57,9 +55,9 @@ Streamer | Twitch | Other links
 `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
+`0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 `heyj4x0n` | [heyj4x0n](https://www.twitch.tv/heyj4x0n) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
-`ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
@@ -85,10 +83,12 @@ Streamer | Twitch | Other links
 `echozach` | [echozach](https://www.twitch.tv/echozach) | 
 `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
 `foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
+`gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 `hattondog` | [hattondog](https://www.twitch.tv/hattondog) | 
 `infinitelogins` | [infinitelogins](https://www.twitch.tv/infinitelogins) | [YouTube](https://www.youtube.com/channel/UC_nKukFaGysjMzqMVHEIgxQ)
 `JohnHammond010` | [JohnHammond010](https://www.twitch.tv/JohnHammond010) | [YouTube](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
 `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
+`ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `magneticpenguin` | [magneticpenguin](https://www.twitch.tv/magneticpenguin) | 
 `majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `nidensec` | [nidensec](https://www.twitch.tv/nidensec) | 
