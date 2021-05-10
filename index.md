@@ -51,12 +51,12 @@ Streamer | Twitch | Other links
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `biueaider` | [biueaider](https://www.twitch.tv/biueaider) | 
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
+`heyj4x0n` | [heyj4x0n](https://www.twitch.tv/heyj4x0n) | 
 `lminzarl` | [lminzarl](https://www.twitch.tv/lminzarl) | 
 `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
-`heyj4x0n` | [heyj4x0n](https://www.twitch.tv/heyj4x0n) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
