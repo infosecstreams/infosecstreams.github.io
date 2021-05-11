@@ -25,11 +25,11 @@ Streamer | Twitch | Other links
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
+`ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
-`ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
 `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
