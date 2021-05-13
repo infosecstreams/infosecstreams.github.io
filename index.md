@@ -8,9 +8,9 @@ Please contribute missing streamers or errors via a [pull request](https://githu
 
 Streamer | Twitch | Other links
 ---: | --- | :---
+`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
-`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
@@ -24,8 +24,8 @@ Streamer | Twitch | Other links
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `dowright` | [dowright](https://www.twitch.tv/dowright) | 
-`chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
+`chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
@@ -48,6 +48,7 @@ Streamer | Twitch | Other links
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
+`footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `themayor11` | [themayor11](https://www.twitch.tv/themayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
@@ -77,7 +78,6 @@ Streamer | Twitch | Other links
 `dmll606` | [dmll606](https://www.twitch.tv/dmll606) | 
 `echozach` | [echozach](https://www.twitch.tv/echozach) | 
 `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
-`footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
 `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
