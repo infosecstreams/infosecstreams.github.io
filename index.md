@@ -20,8 +20,8 @@ Streamer | Twitch | Other links
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
-`mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `dowright` | [dowright](https://www.twitch.tv/dowright) | 
+`mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `creminer` | [creminer](https://www.twitch.tv/creminer) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
@@ -31,6 +31,7 @@ Streamer | Twitch | Other links
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
+`footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `heyj4x0n` | [heyj4x0n](https://www.twitch.tv/heyj4x0n) | 
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
 `officialwillip` | [officialwillip](https://www.twitch.tv/officialwillip) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
@@ -42,7 +43,6 @@ Streamer | Twitch | Other links
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
-`footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
