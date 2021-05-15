@@ -54,6 +54,7 @@ Streamer | Twitch | Other links
 `lminzarl` | [lminzarl](https://www.twitch.tv/lminzarl) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 `themayor11` | [themayor11](https://www.twitch.tv/themayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
+`hackthebox` | [hackthebox](https://www.twitch.tv/hackthebox) | 
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
