@@ -20,9 +20,9 @@ Streamer | Twitch | Other links
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
+`dimineko` | [dimineko](https://www.twitch.tv/dimineko) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
-`dimineko` | [dimineko](https://www.twitch.tv/dimineko) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
@@ -43,6 +43,7 @@ Streamer | Twitch | Other links
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
+`hackthebox` | [hackthebox](https://www.twitch.tv/hackthebox) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
@@ -54,7 +55,6 @@ Streamer | Twitch | Other links
 `lminzarl` | [lminzarl](https://www.twitch.tv/lminzarl) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 `themayor11` | [themayor11](https://www.twitch.tv/themayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
-`hackthebox` | [hackthebox](https://www.twitch.tv/hackthebox) | 
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
