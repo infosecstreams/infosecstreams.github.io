@@ -17,10 +17,10 @@ Streamer | Twitch | Other links
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
+`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `dimineko` | [dimineko](https://www.twitch.tv/dimineko) | 
-`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
@@ -44,12 +44,12 @@ Streamer | Twitch | Other links
 `officialwillip` | [officialwillip](https://www.twitch.tv/officialwillip) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
+`data_disciple` | [data_disciple](https://www.twitch.tv/data_disciple) | 
 `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 `hackthebox` | [hackthebox](https://www.twitch.tv/hackthebox) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `hackthebox` | [hackthebox](https://www.twitch.tv/hackthebox) | 
-`data_disciple` | [data_disciple](https://www.twitch.tv/data_disciple) | 
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
