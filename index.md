@@ -32,6 +32,7 @@ Streamer | Twitch | Other links
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `creminer` | [creminer](https://www.twitch.tv/creminer) | 
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
+`nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
