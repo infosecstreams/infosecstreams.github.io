@@ -50,7 +50,6 @@ Streamer | Twitch | Other links
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
-`hackthebox` | [hackthebox](https://www.twitch.tv/hackthebox) | 
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
