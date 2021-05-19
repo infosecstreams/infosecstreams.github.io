@@ -17,8 +17,8 @@ Streamer | Twitch | Other links
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
-`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
+`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
