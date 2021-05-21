@@ -33,9 +33,9 @@ Streamer | Twitch | Other links
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
+`smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
-`smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
@@ -50,11 +50,11 @@ Streamer | Twitch | Other links
 `Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 `nidensec` | [nidensec](https://www.twitch.tv/nidensec) | 
+`poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `officialwillip` | [officialwillip](https://www.twitch.tv/officialwillip) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
-`poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
