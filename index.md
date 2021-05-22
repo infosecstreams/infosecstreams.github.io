@@ -46,13 +46,13 @@ Streamer | Twitch | Other links
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
+`ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
 `Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 `nidensec` | [nidensec](https://www.twitch.tv/nidensec) | 
 `poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
-`ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
