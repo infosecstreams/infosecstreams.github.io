@@ -15,8 +15,8 @@ Streamer | Twitch | Other links
 `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
-`nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
+`nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
@@ -34,9 +34,9 @@ Streamer | Twitch | Other links
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
+`dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
-`dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
@@ -52,6 +52,7 @@ Streamer | Twitch | Other links
 `nidensec` | [nidensec](https://www.twitch.tv/nidensec) | 
 `poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
+`ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
