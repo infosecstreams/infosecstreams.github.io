@@ -43,6 +43,7 @@ Streamer | Twitch | Other links
 `digitenchou` | [digitenchou](https://www.twitch.tv/digitenchou) | 
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
 `dmll606` | [dmll606](https://www.twitch.tv/dmll606) | 
+`d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | 
 `dowright` | [dowright](https://www.twitch.tv/dowright) | 
 `echozach` | [echozach](https://www.twitch.tv/echozach) | 
 `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
