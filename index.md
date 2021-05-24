@@ -39,7 +39,6 @@ Streamer | Twitch | Other links
 `dasrealbert` | [dasrealbert](https://www.twitch.tv/dasrealbert) | 
 `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 `dccybersec` | [dccybersec](https://www.twitch.tv/dccybersec) | [YouTube](https://www.youtube.com/channel/UC3sccPO4v8YqCTn8sezZGTw)
-`desyncryan` | [desyncryan](https://www.twitch.tv/desyncryan) | [YouTube](https://www.youtube.com/channel/UCQWQlNq07_Rumy2i69dpqBw)
 `digitenchou` | [digitenchou](https://www.twitch.tv/digitenchou) | 
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
 `dmll606` | [dmll606](https://www.twitch.tv/dmll606) | 
@@ -56,7 +55,6 @@ Streamer | Twitch | Other links
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
-`hackthebox` | [hackthebox](https://www.twitch.tv/hackthebox) | 
 `hattondog` | [hattondog](https://www.twitch.tv/hattondog) | 
 `heyj4x0n` | [heyj4x0n](https://www.twitch.tv/heyj4x0n) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
