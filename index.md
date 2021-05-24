@@ -4,8 +4,6 @@ Congrats! You've found an actively maintained list of Information Security-relat
 
 Please contribute missing streamers or errors via a [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls), an [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues), or holler at us on the [Discord](https://discord.gg/RftU46K8sn). Thanks!
 
-**If you're a security creator on or off this list, consider DMing aHaquer#5746 on discord to join the private server affiliated with this list.**
-
 ## List of Streamers (sorted)
 
 Streamer | Twitch | Other links
