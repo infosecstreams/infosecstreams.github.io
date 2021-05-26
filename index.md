@@ -67,6 +67,7 @@ Streamer | Twitch | Other links
 `magneticpenguin` | [magneticpenguin](https://www.twitch.tv/magneticpenguin) | 
 `magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
 `majksec` | [majksec](https://www.twitch.tv/majksec) | 
+`majortechbruv` | [majortechbruv](https://www.twitch.tv/majortechbruv) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
