@@ -101,6 +101,7 @@ Streamer | Twitch | Other links
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
+`flangvik` | [flangvik](https://www.twitch.tv/flangvik) | 
 
 
 ### Useful links
