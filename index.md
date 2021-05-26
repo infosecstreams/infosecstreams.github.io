@@ -44,6 +44,7 @@ Streamer | Twitch | Other links
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
+`majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
@@ -90,7 +91,6 @@ Streamer | Twitch | Other links
 `ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `magneticpenguin` | [magneticpenguin](https://www.twitch.tv/magneticpenguin) | 
 `magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
-`majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `officialwillip` | [officialwillip](https://www.twitch.tv/officialwillip) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
 `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
