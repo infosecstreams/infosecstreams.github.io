@@ -17,8 +17,8 @@ Streamer | Twitch | Other links
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
 `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
-`ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
+`ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
@@ -29,6 +29,7 @@ Streamer | Twitch | Other links
 `vandalthegrey` | [vandalthegrey](https://www.twitch.tv/vandalthegrey) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
+`majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `dimineko` | [dimineko](https://www.twitch.tv/dimineko) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
@@ -36,7 +37,6 @@ Streamer | Twitch | Other links
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
-`majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
@@ -59,6 +59,7 @@ Streamer | Twitch | Other links
 `poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
+`foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
@@ -81,7 +82,6 @@ Streamer | Twitch | Other links
 `echozach` | [echozach](https://www.twitch.tv/echozach) | 
 `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
 `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
-`foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
 `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `hattondog` | [hattondog](https://www.twitch.tv/hattondog) | 
