@@ -13,8 +13,8 @@ Streamer | Twitch | Other links
 `dowright` | [dowright](https://www.twitch.tv/dowright) | 
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
-`majortechbruv` | [majortechbruv](https://www.twitch.tv/majortechbruv) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
+`majortechbruv` | [majortechbruv](https://www.twitch.tv/majortechbruv) | 
 `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
@@ -24,7 +24,6 @@ Streamer | Twitch | Other links
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
-`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `vandalthegrey` | [vandalthegrey](https://www.twitch.tv/vandalthegrey) | 
@@ -44,6 +43,7 @@ Streamer | Twitch | Other links
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
+`ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
 `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
@@ -52,7 +52,6 @@ Streamer | Twitch | Other links
 `flangvik` | [flangvik](https://www.twitch.tv/flangvik) | 
 `foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
 `redteammedic` | [redteammedic](https://www.twitch.tv/redteammedic) | 
-`ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
@@ -84,6 +83,7 @@ Streamer | Twitch | Other links
 `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
 `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
 `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
+`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `hattondog` | [hattondog](https://www.twitch.tv/hattondog) | 
 `infinitelogins` | [infinitelogins](https://www.twitch.tv/infinitelogins) | [YouTube](https://www.youtube.com/channel/UC_nKukFaGysjMzqMVHEIgxQ)
