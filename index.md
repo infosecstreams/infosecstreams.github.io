@@ -35,6 +35,7 @@ Streamer | Twitch | Other links
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 `dimineko` | [dimineko](https://www.twitch.tv/dimineko) | 
+`dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
@@ -75,7 +76,6 @@ Streamer | Twitch | Other links
 `cybeardsec` | [cybeardsec](https://www.twitch.tv/cybeardsec) | 
 `cybervno` | [cybervno](https://www.twitch.tv/cybervno) | 
 `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
-`dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `dasrealbert` | [dasrealbert](https://www.twitch.tv/dasrealbert) | 
 `dccybersec` | [dccybersec](https://www.twitch.tv/dccybersec) | [YouTube](https://www.youtube.com/channel/UC3sccPO4v8YqCTn8sezZGTw)
 `digitenchou` | [digitenchou](https://www.twitch.tv/digitenchou) | 
