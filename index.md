@@ -18,18 +18,18 @@ Streamer | Twitch | Other links
 `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
+`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
-`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
+`majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `vandalthegrey` | [vandalthegrey](https://www.twitch.tv/vandalthegrey) | 
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
-`majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
@@ -49,6 +49,7 @@ Streamer | Twitch | Other links
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 `foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
+`maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 `redteammedic` | [redteammedic](https://www.twitch.tv/redteammedic) | 
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
@@ -92,7 +93,6 @@ Streamer | Twitch | Other links
 `ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `magneticpenguin` | [magneticpenguin](https://www.twitch.tv/magneticpenguin) | 
 `magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
-`maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `officialwillip` | [officialwillip](https://www.twitch.tv/officialwillip) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
 `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
