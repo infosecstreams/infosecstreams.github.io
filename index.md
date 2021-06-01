@@ -21,8 +21,8 @@ Streamer | Twitch | Other links
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
-`ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
+`ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 `majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
