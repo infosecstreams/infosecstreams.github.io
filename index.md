@@ -28,12 +28,12 @@ Streamer | Twitch | Other links
 `majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
+`maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `vandalthegrey` | [vandalthegrey](https://www.twitch.tv/vandalthegrey) | 
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
-`maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
@@ -46,12 +46,12 @@ Streamer | Twitch | Other links
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
+`sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 `foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
 `redteammedic` | [redteammedic](https://www.twitch.tv/redteammedic) | 
-`sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `nidensec` | [nidensec](https://www.twitch.tv/nidensec) | 
