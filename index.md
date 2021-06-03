@@ -36,13 +36,13 @@ Streamer | Twitch | Other links
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
+`thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `dimineko` | [dimineko](https://www.twitch.tv/dimineko) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
-`thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
@@ -56,6 +56,7 @@ Streamer | Twitch | Other links
 `poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
+`xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 `flangvik` | [flangvik](https://www.twitch.tv/flangvik) | 
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
@@ -104,7 +105,6 @@ Streamer | Twitch | Other links
 `Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
 `themayor11` | [themayor11](https://www.twitch.tv/themayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
-`xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 
 
 ### Useful links
