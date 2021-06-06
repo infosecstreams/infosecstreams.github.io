@@ -15,8 +15,8 @@ Streamer | Twitch | Other links
 `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
 `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
-`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
+`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `dowright` | [dowright](https://www.twitch.tv/dowright) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
@@ -34,10 +34,10 @@ Streamer | Twitch | Other links
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
+`xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `vandalthegrey` | [vandalthegrey](https://www.twitch.tv/vandalthegrey) | 
-`xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
