@@ -21,19 +21,19 @@ Streamer | Twitch | Other links
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
+`majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
-`majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
+`sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
-`sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
