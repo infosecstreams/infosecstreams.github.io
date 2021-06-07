@@ -20,8 +20,8 @@ Streamer | Twitch | Other links
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
-`cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `majksec` | [majksec](https://www.twitch.tv/majksec) | 
+`cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
