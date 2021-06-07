@@ -17,12 +17,12 @@ Streamer | Twitch | Other links
 `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
+`0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
-`0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
@@ -52,10 +52,10 @@ Streamer | Twitch | Other links
 `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
 `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
+`jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 `flangvik` | [flangvik](https://www.twitch.tv/flangvik) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
-`jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
 `slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
 `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
