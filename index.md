@@ -10,9 +10,9 @@ Streamer | Twitch | Other links
 ---: | --- | :---
 `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
 `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
+`maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
 `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
-`maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
