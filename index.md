@@ -13,9 +13,9 @@ Streamer | Twitch | Other links
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
+`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
 `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
-`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
