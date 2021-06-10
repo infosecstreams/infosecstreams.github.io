@@ -12,10 +12,11 @@ Streamer | Twitch | Other links
 `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
-`bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
-`cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
-`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
+`bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
+`cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
+`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
+`cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
@@ -89,7 +90,6 @@ Streamer | Twitch | Other links
 `ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `magneticpenguin` | [magneticpenguin](https://www.twitch.tv/magneticpenguin) | 
 `magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
-`majortechbruv` | [majortechbruv](https://www.twitch.tv/majortechbruv) | 
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `nidensec` | [nidensec](https://www.twitch.tv/nidensec) | 
 `officialwillip` | [officialwillip](https://www.twitch.tv/officialwillip) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
