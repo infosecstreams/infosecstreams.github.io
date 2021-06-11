@@ -15,9 +15,9 @@ Streamer | Twitch | Other links
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
 `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
+`cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
-`cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
