@@ -21,8 +21,8 @@ Streamer | Twitch | Other links
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
-`ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
+`ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
@@ -52,6 +52,7 @@ Streamer | Twitch | Other links
 `flangvik` | [flangvik](https://www.twitch.tv/flangvik) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
+`sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
 `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
@@ -98,7 +99,6 @@ Streamer | Twitch | Other links
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `softexploit` | [softexploit](https://www.twitch.tv/softexploit) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
-`sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | 
 `Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 `themayor11` | [themayor11](https://www.twitch.tv/themayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
