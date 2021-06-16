@@ -12,20 +12,20 @@ Streamer | Twitch | Other links
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
-`cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
+`cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
+`nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
-`nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
-`ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
-`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
-`footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
+`ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
+`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
+`footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
@@ -37,11 +37,11 @@ Streamer | Twitch | Other links
 `xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
+`securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
+`unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
-`securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
-`unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `ctrlbyte` | [ctrlbyte](https://www.twitch.tv/ctrlbyte) | 
 `dowright` | [dowright](https://www.twitch.tv/dowright) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
@@ -49,6 +49,7 @@ Streamer | Twitch | Other links
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube]( https://www.youtube.com/superhero1)
+`thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 `flangvik` | [flangvik](https://www.twitch.tv/flangvik) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
@@ -100,7 +101,6 @@ Streamer | Twitch | Other links
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 `softexploit` | [softexploit](https://www.twitch.tv/softexploit) | 
 `Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
-`thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 `themayor11` | [themayor11](https://www.twitch.tv/themayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
 `vandalthegrey` | [vandalthegrey](https://www.twitch.tv/vandalthegrey) | 
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
