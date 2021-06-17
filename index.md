@@ -9,8 +9,8 @@ Please contribute missing streamers or errors via a [pull request](https://githu
 Streamer | Twitch | Other links
 ---: | --- | :---
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
-`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
+`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
@@ -53,6 +53,7 @@ Streamer | Twitch | Other links
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
+`xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
@@ -104,7 +105,6 @@ Streamer | Twitch | Other links
 `themayor11` | [themayor11](https://www.twitch.tv/themayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
 `vandalthegrey` | [vandalthegrey](https://www.twitch.tv/vandalthegrey) | 
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
-`xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 
 
 ### Useful links
