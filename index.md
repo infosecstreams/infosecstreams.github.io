@@ -36,10 +36,10 @@ Streamer | Twitch | Other links
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
+`alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `xesquirmy` | [xesquirmy](https://www.twitch.tv/xesquirmy) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
-`alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
@@ -52,6 +52,7 @@ Streamer | Twitch | Other links
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 `flangvik` | [flangvik](https://www.twitch.tv/flangvik) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
+`redteammedic` | [redteammedic](https://www.twitch.tv/redteammedic) | 
 `slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
@@ -95,7 +96,6 @@ Streamer | Twitch | Other links
 `officialwillip` | [officialwillip](https://www.twitch.tv/officialwillip) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
 `poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
-`redteammedic` | [redteammedic](https://www.twitch.tv/redteammedic) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `saucysec` | [saucysec](https://www.twitch.tv/saucysec) | 
 `sawyerone` | [sawyerone](https://www.twitch.tv/sawyerone) | 
