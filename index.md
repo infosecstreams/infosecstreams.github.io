@@ -10,8 +10,8 @@ Streamer | Twitch | Other links
 ---: | --- | :---
 `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
-`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
+`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
@@ -25,9 +25,9 @@ Streamer | Twitch | Other links
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
+`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
-`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
@@ -44,6 +44,7 @@ Streamer | Twitch | Other links
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 `ctrlbyte` | [ctrlbyte](https://www.twitch.tv/ctrlbyte) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
+`hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `redteammedic` | [redteammedic](https://www.twitch.tv/redteammedic) | 
 `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
 `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
@@ -52,7 +53,6 @@ Streamer | Twitch | Other links
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube]( https://www.youtube.com/superhero1)
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 `flangvik` | [flangvik](https://www.twitch.tv/flangvik) | 
-`hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
