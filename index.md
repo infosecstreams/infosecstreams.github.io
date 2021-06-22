@@ -24,9 +24,9 @@ Streamer | Twitch | Other links
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
+`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
-`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
