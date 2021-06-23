@@ -24,12 +24,12 @@ Streamer | Twitch | Other links
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
-`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
+`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
-`0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
+`0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
