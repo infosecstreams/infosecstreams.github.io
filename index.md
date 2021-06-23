@@ -35,6 +35,7 @@ Streamer | Twitch | Other links
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
+`0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
@@ -43,7 +44,6 @@ Streamer | Twitch | Other links
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
-`0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
 `redteammedic` | [redteammedic](https://www.twitch.tv/redteammedic) | 
