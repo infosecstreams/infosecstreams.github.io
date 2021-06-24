@@ -28,6 +28,7 @@ Streamer | Twitch | Other links
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
+`kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
@@ -41,7 +42,6 @@ Streamer | Twitch | Other links
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
-`kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
