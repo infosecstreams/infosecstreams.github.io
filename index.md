@@ -8,9 +8,9 @@ Please contribute missing streamers or errors via a [pull request](https://githu
 
 Streamer | Twitch | Other links
 ---: | --- | :---
-`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
-`s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
+`s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
+`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
@@ -30,17 +30,17 @@ Streamer | Twitch | Other links
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
-`hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
+`0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
+`hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
+`mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
-`0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
-`mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
