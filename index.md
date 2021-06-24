@@ -19,21 +19,22 @@ Streamer | Twitch | Other links
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
-`nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
+`nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
-`55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
+`55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
+`unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
-`unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
+`0xchance` | [0xchance](https://www.twitch.tv/0xchance) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
