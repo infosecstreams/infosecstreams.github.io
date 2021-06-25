@@ -12,9 +12,9 @@ Streamer | Twitch | Other links
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
+`cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
-`cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
 `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
@@ -24,8 +24,8 @@ Streamer | Twitch | Other links
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
-`endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
+`endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
