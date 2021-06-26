@@ -21,25 +21,25 @@ Streamer | Twitch | Other links
 `0xchance` | [0xchance](https://www.twitch.tv/0xchance) | 
 `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
+`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
-`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
+`hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
-`hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
+`alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
-`alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
