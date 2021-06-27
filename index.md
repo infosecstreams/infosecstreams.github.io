@@ -19,14 +19,14 @@ Streamer | Twitch | Other links
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `0xchance` | [0xchance](https://www.twitch.tv/0xchance) | 
+`mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
+`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
-`shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
-`mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
-`endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
+`endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
@@ -34,9 +34,9 @@ Streamer | Twitch | Other links
 `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
+`alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
-`alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
