@@ -25,9 +25,9 @@ Streamer | Twitch | Other links
 `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
+`hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
-`hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
@@ -47,11 +47,11 @@ Streamer | Twitch | Other links
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 `fromastr` | [fromastr](https://www.twitch.tv/fromastr) | 
 `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
+`majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `redteammedic` | [redteammedic](https://www.twitch.tv/redteammedic) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
-`majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 `djax120` | [djax120](https://www.twitch.tv/djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
