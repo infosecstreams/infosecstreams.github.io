@@ -35,12 +35,13 @@ Streamer | Twitch | Other links
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
+`nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
-`nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
+`flangvik` | [flangvik](https://www.twitch.tv/flangvik) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
@@ -49,8 +50,8 @@ Streamer | Twitch | Other links
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `redteammedic` | [redteammedic](https://www.twitch.tv/redteammedic) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
-`flangvik` | [flangvik](https://www.twitch.tv/flangvik) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
+`majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube]( https://www.youtube.com/superhero1)
 `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
@@ -91,7 +92,6 @@ Streamer | Twitch | Other links
 `ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `magneticpenguin` | [magneticpenguin](https://www.twitch.tv/magneticpenguin) | 
 `magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
-`majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
 `nidensec` | [nidensec](https://www.twitch.tv/nidensec) | 
 `officialwillip` | [officialwillip](https://www.twitch.tv/officialwillip) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
