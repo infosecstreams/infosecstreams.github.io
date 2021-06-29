@@ -24,8 +24,8 @@ Streamer | Twitch | Other links
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
-`cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
+`cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
