@@ -29,6 +29,7 @@ Streamer | Twitch | Other links
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
+`thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
@@ -36,7 +37,6 @@ Streamer | Twitch | Other links
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
-`thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
@@ -45,11 +45,11 @@ Streamer | Twitch | Other links
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
+`s1zzurpmane` | [s1zzurpmane](https://www.twitch.tv/s1zzurpmane) | [YouTube]( )
 `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
 `majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `redteammedic` | [redteammedic](https://www.twitch.tv/redteammedic) | 
-`s1zzurpmane` | [s1zzurpmane](https://www.twitch.tv/s1zzurpmane) | [YouTube]( )
 `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
