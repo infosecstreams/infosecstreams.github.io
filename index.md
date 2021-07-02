@@ -8,8 +8,8 @@ Please contribute missing streamers or errors via a [pull request](https://githu
 
 Streamer | Twitch | Other links
 ---: | --- | :---
-`0xchance` | [0xchance](https://www.twitch.tv/0xchance) | 
 `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
+`0xchance` | [0xchance](https://www.twitch.tv/0xchance) | 
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
@@ -17,17 +17,17 @@ Streamer | Twitch | Other links
 `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
+`bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
+`chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
-`bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
-`chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
 `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
-`dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
+`dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
@@ -43,9 +43,9 @@ Streamer | Twitch | Other links
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 `flangvik` | [flangvik](https://www.twitch.tv/flangvik) | 
+`fromastr` | [fromastr](https://www.twitch.tv/fromastr) | 
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
-`fromastr` | [fromastr](https://www.twitch.tv/fromastr) | 
 `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
 `majksec` | [majksec](https://www.twitch.tv/majksec) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
