@@ -23,11 +23,11 @@ Streamer | Twitch | Other links
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
+`endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
 `dowright` | [dowright](https://www.twitch.tv/dowright) | 
-`endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
