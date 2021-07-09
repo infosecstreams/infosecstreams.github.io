@@ -20,11 +20,13 @@ Streamer | Twitch | Other links
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
-`cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
-`footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
+`cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
+`alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
+`footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `dowright` | [dowright](https://www.twitch.tv/dowright) | 
+`endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
@@ -33,8 +35,6 @@ Streamer | Twitch | Other links
 `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
-`alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
-`endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
