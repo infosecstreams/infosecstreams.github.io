@@ -32,8 +32,8 @@ Streamer | Twitch | Other links
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
-`cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
+`cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
 `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
