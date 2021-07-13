@@ -13,13 +13,13 @@ Streamer | Twitch | Other links
 `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
-`cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
+`cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
+`chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
 `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
-`chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
@@ -46,12 +46,12 @@ Streamer | Twitch | Other links
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
+`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
 `fromastr` | [fromastr](https://www.twitch.tv/fromastr) | 
-`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
