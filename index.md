@@ -12,6 +12,7 @@ Streamer | Twitch | Other links
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
+`c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
@@ -31,9 +32,9 @@ Streamer | Twitch | Other links
 `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 `dowright` | [dowright](https://www.twitch.tv/dowright) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
+`infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
-`infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
@@ -41,6 +42,7 @@ Streamer | Twitch | Other links
 `s1zzurpmane` | [s1zzurpmane](https://www.twitch.tv/s1zzurpmane) | [YouTube]( )
 `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
+`dicecreation` | [dicecreation](https://www.twitch.tv/dicecreation) | 
 `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
@@ -53,7 +55,6 @@ Streamer | Twitch | Other links
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
-`dicecreation` | [dicecreation](https://www.twitch.tv/dicecreation) | 
 `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
 `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
