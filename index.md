@@ -15,9 +15,9 @@ Streamer | Twitch | Other links
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
+`cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
-`cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
@@ -39,6 +39,7 @@ Streamer | Twitch | Other links
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
+`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `s1zzurpmane` | [s1zzurpmane](https://www.twitch.tv/s1zzurpmane) | [YouTube]( )
 `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
@@ -48,7 +49,6 @@ Streamer | Twitch | Other links
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
-`goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
