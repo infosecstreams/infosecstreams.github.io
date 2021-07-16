@@ -62,7 +62,7 @@ Streamer | Twitch | Other links
 `blindpentester` | [blindpentester](https://www.twitch.tv/blindpentester) | 
 `codingo_` | [codingo_](https://www.twitch.tv/codingo_) | [YouTube](https://www.youtube.com/channel/UCUfO02gdMDXgOJWdv_jiLMg)
 `creminer` | [creminer](https://www.twitch.tv/creminer) | 
-`crumbswastaken` | [crumbswastaken](https://www.twitch.tv/crumbswastaken) | 
+`MrCrumbs_` | [MrCrumbs_](https://www.twitch.tv/MrCrumbs_) | 
 `ctrlbyte` | [ctrlbyte](https://www.twitch.tv/ctrlbyte) | 
 `cybeardsec` | [cybeardsec](https://www.twitch.tv/cybeardsec) | 
 `cybervno` | [cybervno](https://www.twitch.tv/cybervno) | 
