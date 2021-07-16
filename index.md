@@ -9,6 +9,7 @@ Please contribute missing streamers or errors via a [pull request](https://githu
 Streamer | Twitch | Other links
 ---: | --- | :---
 `0xchance` | [0xchance](https://www.twitch.tv/0xchance) | 
+`oceansgiant` | [oceansgiant](https://www.twitch.tv/oceansgiant) | 
 `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
@@ -26,13 +27,13 @@ Streamer | Twitch | Other links
 `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
+`infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 `bashbunni` | [bashbunni](https://www.twitch.tv/bashbunni) | [YouTube]( )
 `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
 `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 `dowright` | [dowright](https://www.twitch.tv/dowright) | 
 `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
-`infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
 `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
