@@ -15,9 +15,9 @@ Streamer | Twitch | Other links
 `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
+`anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
-`anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
@@ -44,10 +44,10 @@ Streamer | Twitch | Other links
 `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
 `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
+`alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `dicecreation` | [dicecreation](https://www.twitch.tv/dicecreation) | 
 `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
 `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
-`alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
