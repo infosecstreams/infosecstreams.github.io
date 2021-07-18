@@ -1,3 +1,3 @@
 $().ready(function () {
-  $("#goproslowyo").attr("src", "/img/online.jpg");
+  //$("#goproslowyo").attr("src", "/img/online.jpg");
 });
