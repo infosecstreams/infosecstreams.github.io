@@ -101,7 +101,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 &nbsp; | `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
 &nbsp; | `redteammedic` | [redteammedic](https://www.twitch.tv/redteammedic) | 
-&nbsp; | `s1zzurpmane` | [s1zzurpmane](https://www.twitch.tv/s1zzurpmane) | [YouTube]( )
+&nbsp; | `s1zzurpmane` | [s1zzurpmane](https://www.twitch.tv/s1zzurpmane) | 
 &nbsp; | `saucysec` | [saucysec](https://www.twitch.tv/saucysec) | 
 &nbsp; | `sawyerone` | [sawyerone](https://www.twitch.tv/sawyerone) | 
 &nbsp; | `sharghaas` | [sharghaas](https://www.twitch.tv/sharghaas) | 
