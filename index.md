@@ -21,11 +21,11 @@ Online | Streamer | Twitch | Other links
 <img id=maikroservice height=30 width=40 src='/img/trans.png'> | `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 <img id=ch3fez height=30 width=40 src='/img/trans.png'> | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 <img id=goproslowyo height=30 width=40 src='/img/trans.png'> | `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
+<img id=anyascii height=30 width=40 src='/img/trans.png'> | `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 <img id=alh4zr3d height=30 width=40 src='/img/trans.png'> | `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 <img id=cyber_insecurity height=30 width=40 src='/img/trans.png'> | `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 <img id=dal3ksec height=30 width=40 src='/img/trans.png'> | `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 <img id=chrissean height=30 width=40 src='/img/trans.png'> | `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
-<img id=anyascii height=30 width=40 src='/img/trans.png'> | `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 <img id=hackbacc height=30 width=40 src='/img/trans.png'> | `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 <img id=mttaggart height=30 width=40 src='/img/trans.png'> | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 <img id=securityweekly height=30 width=40 src='/img/trans.png'> | `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
@@ -52,6 +52,7 @@ Online | Streamer | Twitch | Other links
 <img id=ahaquer height=30 width=40 src='/img/trans.png'> | `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
 <img id=dicecreation height=30 width=40 src='/img/trans.png'> | `dicecreation` | [dicecreation](https://www.twitch.tv/dicecreation) | 
 <img id=nirloy height=30 width=40 src='/img/trans.png'> | `nirloy` | [nirloy](https://www.twitch.tv/nirloy) | 
+<img id=0xBufu height=30 width=40 src='/img/trans.png'> | `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 <img id=hackingesports height=30 width=40 src='/img/trans.png'> | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 <img id=mbcrump height=30 width=40 src='/img/trans.png'> | `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 <img id=nahamsec height=30 width=40 src='/img/trans.png'> | `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
@@ -61,7 +62,6 @@ Online | Streamer | Twitch | Other links
 <img id=kokencyber height=30 width=40 src='/img/trans.png'> | `kokencyber` | [kokencyber](https://www.twitch.tv/kokencyber) | 
 <img id=stellargb height=30 width=40 src='/img/trans.png'> | `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 <img id=0xa_lilkelly height=30 width=40 src='/img/trans.png'> | `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
-<img id=0xBufu height=30 width=40 src='/img/trans.png'> | `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 <img id=0xtib3rius height=30 width=40 src='/img/trans.png'> | `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 <img id=55keez height=30 width=40 src='/img/trans.png'> | `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 <img id=ash_f0x height=30 width=40 src='/img/trans.png'> | `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
