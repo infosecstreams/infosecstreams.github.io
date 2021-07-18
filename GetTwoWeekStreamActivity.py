@@ -52,9 +52,11 @@ def querySullyGnomeActivityStats(uid, username, timecode):
 def createMarkdown(username, extraData):
   md = ""
   if extraData:
-    md += f"<img id={username} height=30 width=40 src='/img/trans.png'> | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n"
+    #<img id={username} height=10 width=20 src='/img/trans.png'>
+    md += f'<div id="status">&nbsp;</div> | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
   else:
-    md += f"<img id={username} height=30 width=40 src='/img/trans.png'> | `{username}` | [{username}](https://www.twitch.tv/{username}) | \n"
+    #<img id={username} height=10 width=20 src='/img/trans.png'>
+    md += f'<div id="status">&nbsp;</div> | `{username}` | [{username}](https://www.twitch.tv/{username}) | \n'
   return md
 
 
@@ -63,7 +65,7 @@ activityData = list(sorted([(username, querySullyGnomeActivityStats(*getScrapeDa
 sortedMd = ''
 for username, _, extraData in activityData:
   sortedMd += createMarkdown(username, extraData)
-sortedMd = "--: | ---: | --- | :---\n" + sortedMd
+sortedMd = "--: | ---: | --- | :---\n" + sortedMd.strip('\n')
 
 with open('./index.tmpl.md', 'r') as f:
   contents = f.read()
