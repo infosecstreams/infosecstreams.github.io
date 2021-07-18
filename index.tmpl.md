@@ -11,8 +11,8 @@ Please contribute missing streamers or errors via a [pull request](https://githu
 
 ## List of Streamers (sorted)
 
-Streamer | Twitch | Other links
----: | --- | :---
+Online | Streamer | Twitch | Other links
+--: | ---: | --- | :---
 
 ### Useful links
 

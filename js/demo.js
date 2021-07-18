@@ -1,3 +1,3 @@
 $().ready(function () {
-  $("#text").html("Text added by jQuery code.");
+  $("#goproslowyo").src("/img/online.jpg");
 });
