@@ -53,10 +53,10 @@ def createMarkdown(username, extraData):
   md = ""
   if extraData:
     #<img id={username} height=10 width=20 src='/img/trans.png'>
-    md += f'<div id="status">&nbsp;</div> | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
+    md += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
   else:
     #<img id={username} height=10 width=20 src='/img/trans.png'>
-    md += f'<div id="status">&nbsp;</div> | `{username}` | [{username}](https://www.twitch.tv/{username}) | \n'
+    md += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | \n'
   return md
 
 
