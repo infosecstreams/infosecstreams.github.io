@@ -1,3 +1,8 @@
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/demo.js"></script>
+
+<div id="text"></div>
+
 # InfoSec Streamers
 
 Congrats! You've found an actively maintained list of Information Security-related Twitch streams. This list is `sorted` based on 14-day activity to help you find active streamers more easily!
