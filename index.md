@@ -24,11 +24,12 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 &nbsp; | `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 &nbsp; | `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
-&nbsp; | `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
-&nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 &nbsp; | `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
-&nbsp; | `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
+&nbsp; | `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
+&nbsp; | `aywang` | [aywang](https://www.twitch.tv/aywang) | 
+&nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 &nbsp; | `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
+&nbsp; | `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 &nbsp; | `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
 &nbsp; | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 &nbsp; | `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
@@ -41,7 +42,6 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 &nbsp; | `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 &nbsp; | `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
-&nbsp; | `aywang` | [aywang](https://www.twitch.tv/aywang) | 
 &nbsp; | `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
 &nbsp; | `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 &nbsp; | `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
