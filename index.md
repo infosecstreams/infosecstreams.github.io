@@ -1,8 +1,3 @@
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="js/demo.js"></script>
-
-<div id="text"></div>
-
 # InfoSec Streamers
 
 Congrats! You've found an actively maintained list of Information Security-related Twitch streams. This list is `sorted` based on 14-day activity to help you find active streamers more easily!
@@ -14,8 +9,8 @@ Please contribute missing streamers or errors via a [pull request](https://githu
 Online 🟢 | Streamer | Twitch | Other links
 --: | ---: | --- | :---
 &nbsp; | `0xchance` | [0xchance](https://www.twitch.tv/0xchance) | 
-&nbsp; | `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 &nbsp; | `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
+&nbsp; | `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 &nbsp; | `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
@@ -48,11 +43,11 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
 &nbsp; | `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 &nbsp; | `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
+&nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 &nbsp; | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 &nbsp; | `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 &nbsp; | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 &nbsp; | `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
-&nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 &nbsp; | `dicecreation` | [dicecreation](https://www.twitch.tv/dicecreation) | 
 &nbsp; | `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
 &nbsp; | `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
