@@ -37,12 +37,12 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 &nbsp; | `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
+&nbsp; | `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 &nbsp; | `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 &nbsp; | `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 &nbsp; | `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 &nbsp; | `xangrychairx` | [xangrychairx](https://www.twitch.tv/xangrychairx) | [YouTube](https://www.youtube.com/channel/UCS1KHdnVAV1-Qx0jquAiBLA)
 &nbsp; | `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
-&nbsp; | `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 &nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 &nbsp; | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 &nbsp; | `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
