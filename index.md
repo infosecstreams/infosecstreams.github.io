@@ -15,8 +15,8 @@ Online 🟢 | Streamer | Twitch | Other links
 --: | ---: | --- | :---
 &nbsp; | `0xchance` | [0xchance](https://www.twitch.tv/0xchance) | 
 &nbsp; | `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
-&nbsp; | `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 &nbsp; | `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
+&nbsp; | `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 &nbsp; | `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
@@ -36,6 +36,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 &nbsp; | `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 &nbsp; | `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
+&nbsp; | `b7h30` | [b7h30](https://www.twitch.tv/b7h30) | 
 &nbsp; | `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
