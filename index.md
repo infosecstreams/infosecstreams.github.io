@@ -34,9 +34,10 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 &nbsp; | `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 &nbsp; | `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
+&nbsp; | `b7h30` | [b7h30](https://www.twitch.tv/b7h30) | 
+&nbsp; | `Security_Live` | [Security_Live](https://www.twitch.tv/Security_Live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
 &nbsp; | `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 &nbsp; | `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
-&nbsp; | `b7h30` | [b7h30](https://www.twitch.tv/b7h30) | 
 &nbsp; | `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
@@ -51,12 +52,12 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 &nbsp; | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 &nbsp; | `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
+&nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 &nbsp; | `dicecreation` | [dicecreation](https://www.twitch.tv/dicecreation) | 
 &nbsp; | `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
 &nbsp; | `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
 &nbsp; | `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
 &nbsp; | `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
-&nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 &nbsp; | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 &nbsp; | `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 &nbsp; | `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
