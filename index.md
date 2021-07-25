@@ -22,9 +22,9 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `aywang` | [aywang](https://www.twitch.tv/aywang) | 
 &nbsp; | `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
+&nbsp; | `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 &nbsp; | `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
-&nbsp; | `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 &nbsp; | `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
 &nbsp; | `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
