@@ -11,7 +11,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `0xchance` | [0xchance](https://www.twitch.tv/0xchance) | 
 &nbsp; | `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 &nbsp; | `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
-&nbsp; | `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
+🟢 | `S4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 &nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
 &nbsp; | `aywang` | [aywang](https://www.twitch.tv/aywang) | 
 &nbsp; | `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
