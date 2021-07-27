@@ -51,12 +51,19 @@ def querySullyGnomeActivityStats(uid, username, timecode):
 
 def createMarkdown(username, extraData):
   md = ""
-  if extraData:
-    #<img id={username} height=10 width=20 src='/img/trans.png'>
-    md += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
-  else:
-    #<img id={username} height=10 width=20 src='/img/trans.png'>
-    md += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | \n'
+  with open("./index.md", 'r') as f:
+    for line in f.readlines():
+      if username.lower() in line.lower():
+        if '🟢' in line:
+          if extraData:
+            md += f'🟢 | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
+          else:
+            md += f'🟢 | `{username}` | [{username}](https://www.twitch.tv/{username}) | \n'
+        else:
+          if extraData:
+            md += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
+          else:
+            md += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | \n'
   return md
 
 
