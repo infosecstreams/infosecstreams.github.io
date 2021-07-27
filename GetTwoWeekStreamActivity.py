@@ -53,7 +53,7 @@ def createMarkdown(username, extraData):
   md = ""
   with open("./index.md", 'r') as f:
     for line in f.readlines():
-      if username.lower() in line.lower():
+      if ' | `' + username.lower() in line.lower():
         if '🟢' in line:
           if extraData:
             md += f'🟢 | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
