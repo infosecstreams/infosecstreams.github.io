@@ -40,6 +40,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `chadb_n00b` | [chadb_n00b](https://www.twitch.tv/chadb_n00b) | 
 &nbsp; | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 &nbsp; | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
+&nbsp; | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 &nbsp; | `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 &nbsp; | `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 &nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
@@ -53,7 +54,6 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `cyberwarriorstudios` | [cyberwarriorstudios](https://www.twitch.tv/cyberwarriorstudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 &nbsp; | `dicecreation` | [dicecreation](https://www.twitch.tv/dicecreation) | 
 &nbsp; | `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
-&nbsp; | `0xbufu` | [0xbufu](https://www.twitch.tv/0xbufu) | 
 &nbsp; | `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
 &nbsp; | `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
 &nbsp; | `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
@@ -62,6 +62,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `fromastr` | [fromastr](https://www.twitch.tv/fromastr) | 
 &nbsp; | `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 &nbsp; | `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
+&nbsp; | `0xbufu` | [0xbufu](https://www.twitch.tv/0xbufu) | 
 &nbsp; | `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 &nbsp; | `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 &nbsp; | `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
