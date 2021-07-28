@@ -43,7 +43,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
 &nbsp; | `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 &nbsp; | `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
-&nbsp; | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
+🟢 | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 &nbsp; | `UnPentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 &nbsp; | `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 &nbsp; | `cyberwarriorstudios` | [cyberwarriorstudios](https://www.twitch.tv/cyberwarriorstudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
