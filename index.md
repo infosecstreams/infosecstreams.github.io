@@ -21,7 +21,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 &nbsp; | `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 &nbsp; | `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
-🟢 | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
+&nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 &nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 &nbsp; | `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 &nbsp; | `b7h30` | [b7h30](https://www.twitch.tv/b7h30) | 
