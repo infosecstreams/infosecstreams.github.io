@@ -24,7 +24,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `security_live` | [security_live](https://www.twitch.tv/security_live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
 🟢 | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 &nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
-🟢 | `ChrisSean` | [chrissean](https://www.twitch.tv/chrissean) | 
+&nbsp; | `ChrisSean` | [chrissean](https://www.twitch.tv/chrissean) | 
 &nbsp; | `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 &nbsp; | `b7h30` | [b7h30](https://www.twitch.tv/b7h30) | 
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
