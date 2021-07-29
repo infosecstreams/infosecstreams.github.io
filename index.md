@@ -31,7 +31,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 &nbsp; | `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 &nbsp; | `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
-🟢 | `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
+&nbsp; | `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
 &nbsp; | `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
 &nbsp; | `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 &nbsp; | `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
