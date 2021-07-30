@@ -20,7 +20,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 &nbsp; | `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
-🟢 | `Security_Live` | [security_live](https://www.twitch.tv/security_live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
+&nbsp; | `Security_Live` | [security_live](https://www.twitch.tv/security_live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
 &nbsp; | `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 &nbsp; | `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
