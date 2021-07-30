@@ -41,7 +41,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 &nbsp; | `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 &nbsp; | `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
-&nbsp; | `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
+🟢 | `BanjoCrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 &nbsp; | `cyberwarriorstudios` | [cyberwarriorstudios](https://www.twitch.tv/cyberwarriorstudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 &nbsp; | `dicecreation` | [dicecreation](https://www.twitch.tv/dicecreation) | 
 &nbsp; | `fromastr` | [fromastr](https://www.twitch.tv/fromastr) | 
