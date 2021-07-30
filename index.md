@@ -42,7 +42,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 &nbsp; | `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
 &nbsp; | `BanjoCrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
-&nbsp; | `cyberwarriorstudios` | [cyberwarriorstudios](https://www.twitch.tv/cyberwarriorstudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
+🟢 | `CyberWarriorStudios` | [cyberwarriorstudios](https://www.twitch.tv/cyberwarriorstudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 &nbsp; | `dicecreation` | [dicecreation](https://www.twitch.tv/dicecreation) | 
 &nbsp; | `fromastr` | [fromastr](https://www.twitch.tv/fromastr) | 
 &nbsp; | `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
