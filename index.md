@@ -56,7 +56,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 &nbsp; | `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
 &nbsp; | `55keez` | [55keez](https://www.twitch.tv/55keez) | 
-&nbsp; | `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
+🟢 | `alomancy` | [alomancy](https://www.twitch.tv/alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
 &nbsp; | `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
 &nbsp; | `blindpentester` | [blindpentester](https://www.twitch.tv/blindpentester) | 
 &nbsp; | `codingo_` | [codingo_](https://www.twitch.tv/codingo_) | [YouTube](https://www.youtube.com/channel/UCUfO02gdMDXgOJWdv_jiLMg)
