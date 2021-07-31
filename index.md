@@ -8,7 +8,7 @@ Please contribute missing streamers or errors via a [pull request](https://githu
 
 Online 🟢 | Streamer | Twitch | Other links
 --: | ---: | --- | :---
-&nbsp; | `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
+🟢 | `GoProSlowYo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 &nbsp; | `aywang` | [aywang](https://www.twitch.tv/aywang) | 
 &nbsp; | `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 &nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
