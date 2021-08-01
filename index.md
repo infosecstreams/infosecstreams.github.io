@@ -12,15 +12,15 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 &nbsp; | `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 &nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
+&nbsp; | `security_live` | [security_live](https://www.twitch.tv/security_live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
-&nbsp; | `Security_Live` | [security_live](https://www.twitch.tv/security_live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
 &nbsp; | `0xchance` | [0xchance](https://www.twitch.tv/0xchance) | 
 &nbsp; | `shelldredd` | [shelldredd](https://www.twitch.tv/shelldredd) | 
 &nbsp; | `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
-&nbsp; | `Anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
+&nbsp; | `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
+&nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 &nbsp; | `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
-&nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 &nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
@@ -39,6 +39,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 &nbsp; | `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
 &nbsp; | `0reobyte` | [0reobyte](https://www.twitch.tv/0reobyte) | 
+&nbsp; | `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 &nbsp; | `alexchaveriat` | [alexchaveriat](https://www.twitch.tv/alexchaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 &nbsp; | `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 &nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
@@ -55,7 +56,6 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 &nbsp; | `sawyerone` | [sawyerone](https://www.twitch.tv/sawyerone) | 
 &nbsp; | `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
-&nbsp; | `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 &nbsp; | `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
 &nbsp; | `blindpentester` | [blindpentester](https://www.twitch.tv/blindpentester) | 
 &nbsp; | `codingo_` | [codingo_](https://www.twitch.tv/codingo_) | [YouTube](https://www.youtube.com/channel/UCUfO02gdMDXgOJWdv_jiLMg)
