@@ -44,7 +44,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 &nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 &nbsp; | `fromastr` | [fromastr](https://www.twitch.tv/fromastr) | 
-&nbsp; | `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
+🟢 | `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
 &nbsp; | `0xbufu` | [0xbufu](https://www.twitch.tv/0xbufu) | 
 &nbsp; | `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 &nbsp; | `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
