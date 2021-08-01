@@ -8,8 +8,8 @@ Please contribute missing streamers or errors via a [pull request](https://githu
 
 Online 🟢 | Streamer | Twitch | Other links
 --: | ---: | --- | :---
-&nbsp; | `aywang` | [aywang](https://www.twitch.tv/aywang) | 
 🟢 | `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
+&nbsp; | `aywang` | [aywang](https://www.twitch.tv/aywang) | 
 &nbsp; | `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 &nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
 &nbsp; | `security_live` | [security_live](https://www.twitch.tv/security_live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
@@ -23,11 +23,11 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 &nbsp; | `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
+&nbsp; | `b7h30` | [b7h30](https://www.twitch.tv/b7h30) | 
 &nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 &nbsp; | `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 &nbsp; | `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 &nbsp; | `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
-&nbsp; | `B7H30` | [b7h30](https://www.twitch.tv/b7h30) | 
 &nbsp; | `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 &nbsp; | `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
@@ -55,6 +55,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
 &nbsp; | `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 &nbsp; | `sawyerone` | [sawyerone](https://www.twitch.tv/sawyerone) | 
+&nbsp; | `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 &nbsp; | `0xa_lilkelly` | [0xa_lilkelly](https://www.twitch.tv/0xa_lilkelly) | 
 &nbsp; | `ash_f0x` | [ash_f0x](https://www.twitch.tv/ash_f0x) | 
 &nbsp; | `blindpentester` | [blindpentester](https://www.twitch.tv/blindpentester) | 
@@ -77,7 +78,6 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `flangvik` | [flangvik](https://www.twitch.tv/flangvik) | 
 &nbsp; | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 &nbsp; | `foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
-&nbsp; | `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 &nbsp; | `hattondog` | [hattondog](https://www.twitch.tv/hattondog) | 
 &nbsp; | `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 &nbsp; | `heyj4x0n` | [heyj4x0n](https://www.twitch.tv/heyj4x0n) | 
