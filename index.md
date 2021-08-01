@@ -76,7 +76,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `echozach` | [echozach](https://www.twitch.tv/echozach) | 
 &nbsp; | `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
 &nbsp; | `flangvik` | [flangvik](https://www.twitch.tv/flangvik) | 
-&nbsp; | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
+🟢 | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 &nbsp; | `foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
 &nbsp; | `hattondog` | [hattondog](https://www.twitch.tv/hattondog) | 
 &nbsp; | `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
