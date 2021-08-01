@@ -77,7 +77,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `flangvik` | [flangvik](https://www.twitch.tv/flangvik) | 
 &nbsp; | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 &nbsp; | `foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
-&nbsp; | `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
+🟢 | `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 &nbsp; | `hattondog` | [hattondog](https://www.twitch.tv/hattondog) | 
 &nbsp; | `hey_its_lgg` | [hey_its_lgg](https://www.twitch.tv/hey_its_lgg) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 &nbsp; | `heyj4x0n` | [heyj4x0n](https://www.twitch.tv/heyj4x0n) | 
