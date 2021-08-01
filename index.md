@@ -34,7 +34,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
-&nbsp; | `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
+🟢 | `NahamSec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 &nbsp; | `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 &nbsp; | `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 &nbsp; | `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
