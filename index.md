@@ -104,7 +104,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
 &nbsp; | `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 &nbsp; | `softexploit` | [softexploit](https://www.twitch.tv/softexploit) | 
-&nbsp; | `StellaRGB` | [stellargb](https://www.twitch.tv/stellargb) | 
+🟢 | `StellaRGB` | [stellargb](https://www.twitch.tv/stellargb) | 
 &nbsp; | `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube]( https://www.youtube.com/superhero1)
 &nbsp; | `th3lazykid` | [th3lazykid](https://www.twitch.tv/th3lazykid) | 
 &nbsp; | `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
