@@ -32,7 +32,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 &nbsp; | `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
-🟢 | `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
+&nbsp; | `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 &nbsp; | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
