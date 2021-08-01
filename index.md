@@ -8,9 +8,9 @@ Please contribute missing streamers or errors via a [pull request](https://githu
 
 Online 🟢 | Streamer | Twitch | Other links
 --: | ---: | --- | :---
-&nbsp; | `GoProSlowYo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
+&nbsp; | `goproslowyo` | [goproslowyo](https://www.twitch.tv/goproslowyo) | 
 &nbsp; | `aywang` | [aywang](https://www.twitch.tv/aywang) | 
-&nbsp; | `S4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
+&nbsp; | `s4vitaar` | [s4vitaar](https://www.twitch.tv/s4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 🟢 | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
 &nbsp; | `security_live` | [security_live](https://www.twitch.tv/security_live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
@@ -19,7 +19,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `securityweekly` | [securityweekly](https://www.twitch.tv/securityweekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 &nbsp; | `anyascii` | [anyascii](https://www.twitch.tv/anyascii) | 
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
-🟢 | `Alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
+🟢 | `alh4zr3d` | [alh4zr3d](https://www.twitch.tv/alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 &nbsp; | `cyber_insecurity` | [cyber_insecurity](https://www.twitch.tv/cyber_insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 &nbsp; | `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
@@ -31,10 +31,11 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 &nbsp; | `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
+&nbsp; | `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
+🟢 | `nahamsec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 &nbsp; | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `hackingesports_eng` | [hackingesports_eng](https://www.twitch.tv/hackingesports_eng) | 
-🟢 | `NahamSec` | [nahamsec](https://www.twitch.tv/nahamsec) | 
 &nbsp; | `ryskill` | [ryskill](https://www.twitch.tv/ryskill) | 
 &nbsp; | `unpentester` | [unpentester](https://www.twitch.tv/unpentester) | 
 &nbsp; | `xthe_developer` | [xthe_developer](https://www.twitch.tv/xthe_developer) | 
@@ -44,7 +45,6 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `banjocrashland` | [banjocrashland](https://www.twitch.tv/banjocrashland) | 
 &nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 &nbsp; | `fromastr` | [fromastr](https://www.twitch.tv/fromastr) | 
-&nbsp; | `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
 &nbsp; | `0xbufu` | [0xbufu](https://www.twitch.tv/0xbufu) | 
 &nbsp; | `0xtib3rius` | [0xtib3rius](https://www.twitch.tv/0xtib3rius) | 
 &nbsp; | `ahaquer` | [ahaquer](https://www.twitch.tv/ahaquer) | 
@@ -104,7 +104,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `slyborgsinner` | [slyborgsinner](https://www.twitch.tv/slyborgsinner) | 
 &nbsp; | `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
 &nbsp; | `softexploit` | [softexploit](https://www.twitch.tv/softexploit) | 
-🟢 | `StellaRGB` | [stellargb](https://www.twitch.tv/stellargb) | 
+🟢 | `stellargb` | [stellargb](https://www.twitch.tv/stellargb) | 
 &nbsp; | `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube]( https://www.youtube.com/superhero1)
 &nbsp; | `th3lazykid` | [th3lazykid](https://www.twitch.tv/th3lazykid) | 
 &nbsp; | `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
