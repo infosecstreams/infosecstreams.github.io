@@ -9,7 +9,7 @@ Please contribute missing streamers or errors via a [pull request](https://githu
 Online 🟢 | Streamer | Twitch | Other links
 --: | ---: | --- | :---
 &nbsp; | `Security_Live` | [Security_Live](https://www.twitch.tv/Security_Live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
-&nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
+🟢 | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 &nbsp; | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | 
 &nbsp; | `S4vitaar` | [S4vitaar](https://www.twitch.tv/S4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
