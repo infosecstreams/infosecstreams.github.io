@@ -1,0 +1,16 @@
+---
+---
+
+@import "jekyll-theme-hacker";
+
+.streamer-table {
+  th:nth-child(1), th:nth-child(2) {
+    cursor: pointer;
+  }
+}
+th[data-sort="forward"]::after {
+  content: " ▲";
+}
+th[data-sort="backward"]::after {
+  content: " ▼";
+}
