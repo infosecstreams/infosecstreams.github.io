@@ -10,9 +10,7 @@ function restoreInitialSort() {
   currentSort = 'initial';
 }
 
-// Online/Offline sort
-const onlineHeader = table.querySelector('th:nth-child(1)');
-onlineHeader.addEventListener('click', function(e) {
+function toggleOnlineSort(headerElement) {
   document.querySelectorAll('th[data-sort]').forEach(e => e.removeAttribute('data-sort'));
   switch (currentSort) {
     default:
@@ -23,7 +21,7 @@ onlineHeader.addEventListener('click', function(e) {
         .sort((a, b) => a[1].includes('🟢') ? -1 : 1)
         .forEach(r => r[0].parentNode.appendChild(r[0]));
       currentSort = 'online';
-      e.target.setAttribute('data-sort', 'forward');
+      headerElement.setAttribute('data-sort', 'forward');
       break;
     case 'online':
       Array.from(table.rows)
@@ -32,13 +30,19 @@ onlineHeader.addEventListener('click', function(e) {
         .sort((a, b) => a[1].includes('🟢') ? 1 : -1)
         .forEach(r => r[0].parentNode.appendChild(r[0]));
       currentSort = 'offline';
-      e.target.setAttribute('data-sort', 'backward');
+      headerElement.setAttribute('data-sort', 'backward');
       break;
     case 'offline':
       restoreInitialSort();
-      e.target.removeAttribute('data-sort');
+      headerElement.removeAttribute('data-sort');
       break;
   }
+}
+
+// Online/Offline sort
+const onlineHeader = table.querySelector('th:nth-child(1)');
+onlineHeader.addEventListener('click', function(e) {
+  toggleOnlineSort(e.target);
 });
 onlineHeader.setAttribute('title', 'Sort by online status');
 onlineHeader.setAttribute('role', 'button');
@@ -75,3 +79,6 @@ nameHeader.addEventListener('click', function(e) {
 });
 nameHeader.setAttribute('title', 'Sort by streamer name');
 nameHeader.setAttribute('role', 'button');
+
+// Initially start in a sort by online state
+toggleOnlineSort(onlineHeader);
