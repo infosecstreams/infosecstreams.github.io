@@ -28,7 +28,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `chrissean` | [chrissean](https://www.twitch.tv/chrissean) | 
 &nbsp; | `cybertechvibes` | [cybertechvibes](https://www.twitch.tv/cybertechvibes) | 
 &nbsp; | `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
-🟢 | `infosechouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
+&nbsp; | `InfosecHouse` | [infosechouse](https://www.twitch.tv/infosechouse) | 
 &nbsp; | `thegwar` | [thegwar](https://www.twitch.tv/thegwar) | 
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 &nbsp; | `liveoverflow` | [liveoverflow](https://www.twitch.tv/liveoverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
