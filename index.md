@@ -10,7 +10,7 @@ Online 🟢 | Streamer | Twitch | Other links
 --: | ---: | --- | :---
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 &nbsp; | `Security_Live` | [Security_Live](https://www.twitch.tv/Security_Live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
-🟢 | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
+&nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
 &nbsp; | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | 
 🟢 | `S4vitaar` | [S4vitaar](https://www.twitch.tv/S4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 &nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
