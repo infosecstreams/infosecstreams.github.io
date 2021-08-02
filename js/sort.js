@@ -2,6 +2,7 @@
 const table = document.querySelector('table'); // markdown doesn't add ids but we know we want the first table
 table.classList.add('streamer-table');
 
+// Get the initialOrder of rows in table, we can trust this is 2-week activity sorted as it is set by a bot
 const initialOrder = Array.from(table.rows);
 let currentSort = 'initial';
 
@@ -18,7 +19,18 @@ function toggleOnlineSort(headerElement) {
       Array.from(table.rows)
         .map(r => [r, r.querySelector('td:nth-child(1)')?.innerText])
         .filter(r => r[1] !== undefined)
-        .sort((a, b) => a[1].includes('🟢') ? -1 : 1)
+        .sort((a, b) => {
+          if (a[1].includes('🟢') && !b[1].includes('🟢')) {
+            return -1;
+          } else if (b[1].includes('🟢') && !a[1].includes('🟢')) {
+            return 1;
+          }
+
+          const aPos = initialOrder.indexOf(a[0]);
+          const bPos = initialOrder.indexOf(b[0]);
+
+          return aPos-bPos;
+        })
         .forEach(r => r[0].parentNode.appendChild(r[0]));
       currentSort = 'online';
       headerElement.setAttribute('data-sort', 'forward');
@@ -27,7 +39,18 @@ function toggleOnlineSort(headerElement) {
       Array.from(table.rows)
         .map(r => [r, r.querySelector('td:nth-child(1)')?.innerText])
         .filter(r => r[1] !== undefined)
-        .sort((a, b) => a[1].includes('🟢') ? 1 : -1)
+        .sort((a, b) => {
+          if (a[1].includes('🟢') && !b[1].includes('🟢')) {
+            return 1;
+          } else if (b[1].includes('🟢') && !a[1].includes('🟢')) {
+            return -1;
+          }
+
+          const aPos = initialOrder.indexOf(a[0]);
+          const bPos = initialOrder.indexOf(b[0]);
+
+          return aPos-bPos;
+        })
         .forEach(r => r[0].parentNode.appendChild(r[0]));
       currentSort = 'offline';
       headerElement.setAttribute('data-sort', 'backward');
