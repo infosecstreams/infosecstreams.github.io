@@ -49,21 +49,32 @@ def querySullyGnomeActivityStats(uid, username, timecode):
   return total
 
 
+def createLine(username, extraData, line):
+  nl = ''
+  if '🟢' in line:
+    if extraData:
+      nl += f'🟢 | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
+    else:
+      nl += f'🟢 | `{username}` | [{username}](https://www.twitch.tv/{username}) | \n'
+  else:
+    if extraData:
+      nl += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
+    else:
+      nl += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | \n'
+  return nl
+
+
 def createMarkdown(username, extraData):
   md = ""
+  exists = False
   with open("./index.md", 'r') as f:
     for line in f.readlines():
       if ' | `' + username.lower() in line.lower():
-        if '🟢' in line:
-          if extraData:
-            md += f'🟢 | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
-          else:
-            md += f'🟢 | `{username}` | [{username}](https://www.twitch.tv/{username}) | \n'
-        else:
-          if extraData:
-            md += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
-          else:
-            md += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | \n'
+        exists = True
+        md += createLine(username, extraData, line)
+
+    if not exists:
+      md += createLine(username, extraData, line)
   return md
 
 
