@@ -20,7 +20,7 @@ onlineHeader.addEventListener('click', function(e) {
       Array.from(table.rows)
         .map(r => [r, r.querySelector('td:nth-child(1)')?.innerText])
         .filter(r => r[1] !== undefined)
-        .sort((a, b) => a[1] === '🟢' ? 0 : 1)
+        .sort((a, b) => a[1].includes('🟢') ? -1 : 1)
         .forEach(r => r[0].parentNode.appendChild(r[0]));
       currentSort = 'online';
       e.target.setAttribute('data-sort', 'forward');
@@ -29,7 +29,7 @@ onlineHeader.addEventListener('click', function(e) {
       Array.from(table.rows)
         .map(r => [r, r.querySelector('td:nth-child(1)')?.innerText])
         .filter(r => r[1] !== undefined)
-        .sort((a, b) => a[1] === '🟢' ? 1 : 0)
+        .sort((a, b) => a[1].includes('🟢') ? 1 : -1)
         .forEach(r => r[0].parentNode.appendChild(r[0]));
       currentSort = 'offline';
       e.target.setAttribute('data-sort', 'backward');
