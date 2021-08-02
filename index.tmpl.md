@@ -38,3 +38,5 @@ Huge shoutout to [chadb_n00b](https://twitch.tv/chadb_n00b) for starting up and 
 ### Report an Issue
 
 Having trouble with a link? Visit the [InfoSec Community Discord](https://discord.gg/RftU46K8sn) and we’ll help you sort it out.
+
+<script src="./js/sort.js" async="" defer=""></script>
