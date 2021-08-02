@@ -13,6 +13,7 @@ function restoreInitialSort() {
 // Online/Offline sort
 const onlineHeader = table.querySelector('th:nth-child(1)');
 onlineHeader.addEventListener('click', function(e) {
+  document.querySelectorAll('th[data-sort]').forEach(e => e.removeAttribute('data-sort'));
   switch (currentSort) {
     default:
     case 'initial':
@@ -22,7 +23,6 @@ onlineHeader.addEventListener('click', function(e) {
         .sort((a, b) => a[1] === '🟢' ? 0 : 1)
         .forEach(r => r[0].parentNode.appendChild(r[0]));
       currentSort = 'online';
-      document.querySelectorAll('td[data-sort]').forEach(e => e.removeAttribute('data-sort'));
       e.target.setAttribute('data-sort', 'forward');
       break;
     case 'online':
@@ -32,7 +32,6 @@ onlineHeader.addEventListener('click', function(e) {
         .sort((a, b) => a[1] === '🟢' ? 1 : 0)
         .forEach(r => r[0].parentNode.appendChild(r[0]));
       currentSort = 'offline';
-      document.querySelectorAll('td[data-sort]').forEach(e => e.removeAttribute('data-sort'));
       e.target.setAttribute('data-sort', 'backward');
       break;
     case 'offline':
@@ -47,6 +46,7 @@ onlineHeader.setAttribute('role', 'button');
 // Name sort
 const nameHeader = table.querySelector('th:nth-child(2)');
 nameHeader.addEventListener('click', function(e) {
+  document.querySelectorAll('th[data-sort]').forEach(e => e.removeAttribute('data-sort'));
   switch (currentSort) {
     default:
     case 'initial':
@@ -56,7 +56,6 @@ nameHeader.addEventListener('click', function(e) {
         .sort((a, b) => a[1].localeCompare(b[1]))
         .forEach(r => r[0].parentNode.appendChild(r[0]));
       currentSort = 'nameForward';
-      document.querySelectorAll('td[data-sort]').forEach(e => e.removeAttribute('data-sort'));
       e.target.setAttribute('data-sort', 'forward');
       break;
     case 'nameForward':
@@ -66,7 +65,6 @@ nameHeader.addEventListener('click', function(e) {
         .sort((a, b) => b[1].localeCompare(a[1]))
         .forEach(r => r[0].parentNode.appendChild(r[0]));
       currentSort = 'nameBackward';
-      document.querySelectorAll('td[data-sort]').forEach(e => e.removeAttribute('data-sort'));
       e.target.setAttribute('data-sort', 'backward');
       break;
     case 'nameBackward':
