@@ -35,6 +35,7 @@ def getScrapeData(username):
 # (see getScrapeData() above) and returns a username and their
 # two-week activity total.
 def querySullyGnomeActivityStats(uid, username, timecode):
+  if uid == None: return (username, 0)
   url = f'https://sullygnome.com/api/charts/barcharts/getconfig/channelhourstreams/14/{uid}/{username}/%20/%20/0/0/%20/0/0/'
   print(url)
   headers = {
