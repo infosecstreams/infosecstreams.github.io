@@ -77,7 +77,7 @@ def createMarkdown(username, extraData):
   exists = False
   with open("./index.md", 'r') as f:
     for line in f.readlines():
-      if ' | `' + username.lower() in line.lower():
+      if re.match(re.compile(f'^🟢\s\|\s`{username.lower()}`'), line.lower()):
         exists = True
         md += createLine(username, extraData, line)
 
