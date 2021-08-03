@@ -38,7 +38,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | 
 🟢 | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `LiveOverflow` | [LiveOverflow](https://www.twitch.tv/LiveOverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
-&nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
+🟢 | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
 &nbsp; | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
 &nbsp; | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
