@@ -19,6 +19,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `0xChance` | [0xChance](https://www.twitch.tv/0xChance) | 
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `Alh4zr3d` | [Alh4zr3d](https://www.twitch.tv/Alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
+&nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
