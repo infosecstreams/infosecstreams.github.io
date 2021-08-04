@@ -64,7 +64,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 &nbsp; | `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
 &nbsp; | `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
-&nbsp; | `SawyerOne` | [SawyerOne](https://www.twitch.tv/SawyerOne) | 
+🟢 | `SawyerOne` | [SawyerOne](https://www.twitch.tv/SawyerOne) | 
 &nbsp; | `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 &nbsp; | `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 &nbsp; | `StellaRGB` | [StellaRGB](https://www.twitch.tv/StellaRGB) | 
