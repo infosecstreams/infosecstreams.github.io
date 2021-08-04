@@ -28,9 +28,10 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
 &nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
 &nbsp; | `streambytes_` | [streambytes_](https://www.twitch.tv/streambytes_) | 
+&nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
+🟢 | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
 &nbsp; | `InfosecHouse` | [InfosecHouse](https://www.twitch.tv/InfosecHouse) | 
 &nbsp; | `OffSecOfficial` | [OffSecOfficial](https://www.twitch.tv/OffSecOfficial) | 
-&nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `0reoByte` | [0reoByte](https://www.twitch.tv/0reoByte) | 
 &nbsp; | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | 
@@ -41,12 +42,12 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
 &nbsp; | `LiveOverflow` | [LiveOverflow](https://www.twitch.tv/LiveOverflow) | [YouTube]( https://www.youtube.com/c/LiveOverflowCTF)
 &nbsp; | `BanjoCrashland` | [BanjoCrashland](https://www.twitch.tv/BanjoCrashland) | 
-🟢 | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
 &nbsp; | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 &nbsp; | `NahamSec` | [NahamSec](https://www.twitch.tv/NahamSec) | 
 &nbsp; | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 &nbsp; | `SpiceySec` | [SpiceySec](https://www.twitch.tv/SpiceySec) | 
+&nbsp; | `ChadB_n00b` | [ChadB_n00b](https://www.twitch.tv/ChadB_n00b) | 
 &nbsp; | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | 
 &nbsp; | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 &nbsp; | `HackingEsports_eng` | [HackingEsports_eng](https://www.twitch.tv/HackingEsports_eng) | 
@@ -56,7 +57,6 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `xThe_Developer` | [xThe_Developer](https://www.twitch.tv/xThe_Developer) | 
 &nbsp; | `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 &nbsp; | `AlexChaveriat` | [AlexChaveriat](https://www.twitch.tv/AlexChaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
-&nbsp; | `ChadB_n00b` | [ChadB_n00b](https://www.twitch.tv/ChadB_n00b) | 
 &nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 &nbsp; | `FroMastr` | [FroMastr](https://www.twitch.tv/FroMastr) | 
 &nbsp; | `0xTib3rius` | [0xTib3rius](https://www.twitch.tv/0xTib3rius) | 
