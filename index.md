@@ -68,7 +68,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube]( https://www.youtube.com/superhero1)
 &nbsp; | `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 &nbsp; | `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
-&nbsp; | `StellaRGB` | [StellaRGB](https://www.twitch.tv/StellaRGB) | 
+🟢 | `StellaRGB` | [StellaRGB](https://www.twitch.tv/StellaRGB) | 
 &nbsp; | `0xa_LilKelly` | [0xa_LilKelly](https://www.twitch.tv/0xa_LilKelly) | 
 &nbsp; | `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 &nbsp; | `Ash_F0x` | [Ash_F0x](https://www.twitch.tv/Ash_F0x) | 
