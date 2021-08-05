@@ -147,7 +147,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `cryptovillage` | [cryptovillage](https://www.twitch.tv/cryptovillage) | 
 &nbsp; | `dchhv` | [dchhv](https://www.twitch.tv/dchhv) | 
 &nbsp; | `dcpolicy` | [dcpolicy](https://www.twitch.tv/dcpolicy) | 
-&nbsp; | `DEFCON_DCTV_Four` | [defcon_dctv_four](https://www.twitch.tv/defcon_dctv_four) | 
+🟢 | `DEFCON_DCTV_Four` | [defcon_dctv_four](https://www.twitch.tv/defcon_dctv_four) | 
 &nbsp; | `DEFCONorg` | [DEFCONorg](https://www.twitch.tv/DEFCONorg) | 
 &nbsp; | `ethicsvillage` | [ethicsvillage](https://www.twitch.tv/ethicsvillage) | 
 &nbsp; | `hackthesea` | [hackthesea](https://www.twitch.tv/hackthesea) | 
