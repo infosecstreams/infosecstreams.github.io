@@ -33,7 +33,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
 &nbsp; | `streambytes_` | [streambytes_](https://www.twitch.tv/streambytes_) | 
 🟢 | `DEFCON_DCTV_Five` | [DEFCON_DCTV_Five](https://www.twitch.tv/DEFCON_DCTV_Five) | 
-🟢 | `DEFCON_DCTV_Two` | [DEFCON_DCTV_Two](https://www.twitch.tv/DEFCON_DCTV_Two) | 
+&nbsp; | `DEFCON_DCTV_Two` | [DEFCON_DCTV_Two](https://www.twitch.tv/DEFCON_DCTV_Two) | 
 &nbsp; | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | 
 &nbsp; | `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 &nbsp; | `InfosecHouse` | [InfosecHouse](https://www.twitch.tv/InfosecHouse) | 
