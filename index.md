@@ -157,7 +157,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
 &nbsp; | `monerovillage` | [monerovillage](https://www.twitch.tv/monerovillage) | 
 &nbsp; | `passwordvillage` | [passwordvillage](https://www.twitch.tv/passwordvillage) | 
-🟢 | `paymentvillage` | [paymentvillage](https://www.twitch.tv/paymentvillage) | 
+&nbsp; | `paymentvillage` | [paymentvillage](https://www.twitch.tv/paymentvillage) | 
 &nbsp; | `reconvillage` | [reconvillage](https://www.twitch.tv/reconvillage) | 
 &nbsp; | `roguesvillage` | [roguesvillage](https://www.twitch.tv/roguesvillage) | 
 &nbsp; | `toool_us` | [toool_us](https://www.twitch.tv/toool_us) | 
