@@ -33,7 +33,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
 &nbsp; | `0xChance` | [0xChance](https://www.twitch.tv/0xChance) | 
 &nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
-🟢 | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
+&nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
 &nbsp; | `streambytes_` | [streambytes_](https://www.twitch.tv/streambytes_) | 
 &nbsp; | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | 
