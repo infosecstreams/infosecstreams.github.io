@@ -151,7 +151,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `DEFCONorg` | [DEFCONorg](https://www.twitch.tv/DEFCONorg) | 
 &nbsp; | `ethicsvillage` | [ethicsvillage](https://www.twitch.tv/ethicsvillage) | 
 &nbsp; | `hackthesea` | [hackthesea](https://www.twitch.tv/hackthesea) | 
-&nbsp; | `hamradiovillage` | [hamradiovillage](https://www.twitch.tv/hamradiovillage) | 
+🟢 | `hamradiovillage` | [hamradiovillage](https://www.twitch.tv/hamradiovillage) | 
 &nbsp; | `HamRadioVillage` | [HamRadioVillage](https://www.twitch.tv/HamRadioVillage) | 
 &nbsp; | `ics_village` | [ics_village](https://www.twitch.tv/ics_village) | 
 &nbsp; | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
