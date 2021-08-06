@@ -91,7 +91,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `CybeardSec` | [CybeardSec](https://www.twitch.tv/CybeardSec) | 
 &nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 &nbsp; | `cyberVNO` | [cyberVNO](https://www.twitch.tv/cyberVNO) | 
-&nbsp; | `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
+🟢 | `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 &nbsp; | `DCCyberSec` | [DCCyberSec](https://www.twitch.tv/DCCyberSec) | [YouTube](https://www.youtube.com/channel/UC3sccPO4v8YqCTn8sezZGTw)
 &nbsp; | `DevNullZen` | [DevNullZen](https://www.twitch.tv/DevNullZen) | 
 &nbsp; | `dicecreation` | [dicecreation](https://www.twitch.tv/dicecreation) | 
