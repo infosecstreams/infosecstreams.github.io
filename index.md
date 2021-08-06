@@ -154,7 +154,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `ethicsvillage` | [ethicsvillage](https://www.twitch.tv/ethicsvillage) | 
 &nbsp; | `hackthesea` | [hackthesea](https://www.twitch.tv/hackthesea) | 
 &nbsp; | `ics_village` | [ics_village](https://www.twitch.tv/ics_village) | 
-&nbsp; | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
+🟢 | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
 &nbsp; | `monerovillage` | [monerovillage](https://www.twitch.tv/monerovillage) | 
 &nbsp; | `passwordvillage` | [passwordvillage](https://www.twitch.tv/passwordvillage) | 
 &nbsp; | `paymentvillage` | [paymentvillage](https://www.twitch.tv/paymentvillage) | 
