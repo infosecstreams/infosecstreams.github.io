@@ -160,7 +160,7 @@ Online 🟢 | Streamer | Twitch | Other links
 🟢 | `paymentvillage` | [paymentvillage](https://www.twitch.tv/paymentvillage) | 
 &nbsp; | `reconvillage` | [reconvillage](https://www.twitch.tv/reconvillage) | 
 &nbsp; | `roguesvillage` | [roguesvillage](https://www.twitch.tv/roguesvillage) | 
-🟢 | `toool_us` | [toool_us](https://www.twitch.tv/toool_us) | 
+&nbsp; | `toool_us` | [toool_us](https://www.twitch.tv/toool_us) | 
 &nbsp; | `VotingVillageDC` | [votingvillagedc](https://www.twitch.tv/votingvillagedc) | 
 🟢 | `wallofsheep` | [wallofsheep](https://www.twitch.tv/wallofsheep) | 
 &nbsp; | `2ocstream` | [2ocstream](https://www.twitch.tv/2ocstream) | 
