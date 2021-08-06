@@ -20,7 +20,7 @@ Online 🟢 | Streamer | Twitch | Other links
 🟢 | `DEFCON_DCTV_Five` | [DEFCON_DCTV_Five](https://www.twitch.tv/DEFCON_DCTV_Five) | 
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
-&nbsp; | `DEFCON_DCTV_Two` | [DEFCON_DCTV_Two](https://www.twitch.tv/DEFCON_DCTV_Two) | 
+🟢 | `DEFCON_DCTV_Two` | [DEFCON_DCTV_Two](https://www.twitch.tv/DEFCON_DCTV_Two) | 
 &nbsp; | `EightBitOni` | [EightBitOni](https://www.twitch.tv/EightBitOni) | 
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
