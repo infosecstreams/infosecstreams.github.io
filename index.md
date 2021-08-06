@@ -145,7 +145,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `chvtrack001` | [chvtrack001](https://www.twitch.tv/chvtrack001) | 
 &nbsp; | `chvtrack002` | [chvtrack002](https://www.twitch.tv/chvtrack002) | 
 &nbsp; | `cpxsatamericas` | [cpxsatamericas](https://www.twitch.tv/cpxsatamericas) | 
-&nbsp; | `cryptovillage` | [cryptovillage](https://www.twitch.tv/cryptovillage) | 
+🟢 | `CryptoVillage` | [cryptovillage](https://www.twitch.tv/cryptovillage) | 
 &nbsp; | `dchhv` | [dchhv](https://www.twitch.tv/dchhv) | 
 &nbsp; | `dcpolicy` | [dcpolicy](https://www.twitch.tv/dcpolicy) | 
 &nbsp; | `DEFCONorg` | [DEFCONorg](https://www.twitch.tv/DEFCONorg) | 
