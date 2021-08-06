@@ -137,7 +137,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `VandalTheGrey` | [VandalTheGrey](https://www.twitch.tv/VandalTheGrey) | 
 &nbsp; | `XeSquirmy` | [XeSquirmy](https://www.twitch.tv/XeSquirmy) | 
 &nbsp; | `aerospacevillage` | [aerospacevillage](https://www.twitch.tv/aerospacevillage) | 
-&nbsp; | `AIVillage` | [AIVillage](https://www.twitch.tv/AIVillage) | 
+🟢 | `AIVillage` | [AIVillage](https://www.twitch.tv/AIVillage) | 
 &nbsp; | `biohackingvillage` | [biohackingvillage](https://www.twitch.tv/biohackingvillage) | 
 &nbsp; | `bypassvillage` | [bypassvillage](https://www.twitch.tv/bypassvillage) | 
 &nbsp; | `careerhackingvillage` | [careerhackingvillage](https://www.twitch.tv/careerhackingvillage) | 
