@@ -162,7 +162,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `roguesvillage` | [roguesvillage](https://www.twitch.tv/roguesvillage) | 
 &nbsp; | `toool_us` | [toool_us](https://www.twitch.tv/toool_us) | 
 &nbsp; | `votingvillagedc` | [votingvillagedc](https://www.twitch.tv/votingvillagedc) | 
-&nbsp; | `wallofsheep` | [wallofsheep](https://www.twitch.tv/wallofsheep) | 
+🟢 | `wallofsheep` | [wallofsheep](https://www.twitch.tv/wallofsheep) | 
 &nbsp; | `2ocstream` | [2ocstream](https://www.twitch.tv/2ocstream) | 
 &nbsp; | `hackergameshows` | [hackergameshows](https://www.twitch.tv/hackergameshows) | 
 &nbsp; | `TheManyHatsClub` | [TheManyHatsClub](https://www.twitch.tv/TheManyHatsClub) | 
