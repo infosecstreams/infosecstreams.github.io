@@ -31,7 +31,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 &nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
-&nbsp; | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
+🟢 | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
 &nbsp; | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | 
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 &nbsp; | `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
