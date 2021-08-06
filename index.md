@@ -75,7 +75,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `0xCardinal` | [0xCardinal](https://www.twitch.tv/0xCardinal) | 
 &nbsp; | `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 &nbsp; | `xThe_Developer` | [xThe_Developer](https://www.twitch.tv/xThe_Developer) | 
-&nbsp; | `AIVillage` | [AIVillage](https://www.twitch.tv/AIVillage) | 
+🟢 | `AIVillage` | [AIVillage](https://www.twitch.tv/AIVillage) | 
 🟢 | `BlueTeamVillage` | [BlueTeamVillage](https://www.twitch.tv/BlueTeamVillage) | 
 &nbsp; | `redteamvillage` | [redteamvillage](https://www.twitch.tv/redteamvillage) | 
 &nbsp; | `0xa_LilKelly` | [0xa_LilKelly](https://www.twitch.tv/0xa_LilKelly) | 
