@@ -150,7 +150,7 @@ Online 🟢 | Streamer | Twitch | Other links
 🟢 | `cryptovillage` | [cryptovillage](https://www.twitch.tv/cryptovillage) | 
 &nbsp; | `DCHHV` | [dchhv](https://www.twitch.tv/dchhv) | 
 &nbsp; | `dcpolicy` | [dcpolicy](https://www.twitch.tv/dcpolicy) | 
-&nbsp; | `DEFCONorg` | [DEFCONorg](https://www.twitch.tv/DEFCONorg) | 
+🟢 | `DEFCONorg` | [DEFCONorg](https://www.twitch.tv/DEFCONorg) | 
 &nbsp; | `ethicsvillage` | [ethicsvillage](https://www.twitch.tv/ethicsvillage) | 
 &nbsp; | `hackthesea` | [hackthesea](https://www.twitch.tv/hackthesea) | 
 &nbsp; | `ics_village` | [ics_village](https://www.twitch.tv/ics_village) | 
