@@ -139,7 +139,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `XeSquirmy` | [XeSquirmy](https://www.twitch.tv/XeSquirmy) | 
 &nbsp; | `aerospacevillage` | [aerospacevillage](https://www.twitch.tv/aerospacevillage) | 
 &nbsp; | `biohackingvillage` | [biohackingvillage](https://www.twitch.tv/biohackingvillage) | 
-&nbsp; | `bypassvillage` | [bypassvillage](https://www.twitch.tv/bypassvillage) | 
+🟢 | `BypassVillage` | [bypassvillage](https://www.twitch.tv/bypassvillage) | 
 &nbsp; | `careerhackingvillage` | [careerhackingvillage](https://www.twitch.tv/careerhackingvillage) | 
 &nbsp; | `chv101` | [chv101](https://www.twitch.tv/chv101) | 
 &nbsp; | `chvtrack001` | [chvtrack001](https://www.twitch.tv/chvtrack001) | 
