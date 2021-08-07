@@ -33,7 +33,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 &nbsp; | `Alh4zr3d` | [Alh4zr3d](https://www.twitch.tv/Alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 &nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
-🟢 | `BlueTeamVillage` | [BlueTeamVillage](https://www.twitch.tv/BlueTeamVillage) | 
+&nbsp; | `BlueTeamVillage` | [BlueTeamVillage](https://www.twitch.tv/BlueTeamVillage) | 
 &nbsp; | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | 
 &nbsp; | `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
 &nbsp; | `AIVillage` | [AIVillage](https://www.twitch.tv/AIVillage) | 
@@ -41,7 +41,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 &nbsp; | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
 &nbsp; | `redteamvillage` | [redteamvillage](https://www.twitch.tv/redteamvillage) | 
-🟢 | `toool_us` | [toool_us](https://www.twitch.tv/toool_us) | 
+&nbsp; | `toool_us` | [toool_us](https://www.twitch.tv/toool_us) | 
 &nbsp; | `BanjoCrashland` | [BanjoCrashland](https://www.twitch.tv/BanjoCrashland) | 
 &nbsp; | `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 &nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
@@ -57,10 +57,10 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `SpiceySec` | [SpiceySec](https://www.twitch.tv/SpiceySec) | 
 &nbsp; | `streambytes_` | [streambytes_](https://www.twitch.tv/streambytes_) | 
 &nbsp; | `hamradiovillage` | [hamradiovillage](https://www.twitch.tv/hamradiovillage) | 
-🟢 | `hamradiovillage` | [hamradiovillage](https://www.twitch.tv/hamradiovillage) | 
+&nbsp; | `hamradiovillage` | [hamradiovillage](https://www.twitch.tv/hamradiovillage) | 
 &nbsp; | `0reoByte` | [0reoByte](https://www.twitch.tv/0reoByte) | 
 &nbsp; | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | 
-🟢 | `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
+&nbsp; | `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 &nbsp; | `HackingEsports_eng` | [HackingEsports_eng](https://www.twitch.tv/HackingEsports_eng) | 
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 &nbsp; | `MVLWVR3` | [MVLWVR3](https://www.twitch.tv/MVLWVR3) | 
@@ -146,7 +146,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `XeSquirmy` | [XeSquirmy](https://www.twitch.tv/XeSquirmy) | 
 &nbsp; | `aerospacevillage` | [aerospacevillage](https://www.twitch.tv/aerospacevillage) | 
 &nbsp; | `biohackingvillage` | [biohackingvillage](https://www.twitch.tv/biohackingvillage) | 
-🟢 | `bypassvillage` | [bypassvillage](https://www.twitch.tv/bypassvillage) | 
+&nbsp; | `bypassvillage` | [bypassvillage](https://www.twitch.tv/bypassvillage) | 
 &nbsp; | `careerhackingvillage` | [careerhackingvillage](https://www.twitch.tv/careerhackingvillage) | 
 &nbsp; | `chv101` | [chv101](https://www.twitch.tv/chv101) | 
 &nbsp; | `chvtrack001` | [chvtrack001](https://www.twitch.tv/chvtrack001) | 
