@@ -19,7 +19,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `SecurityWeekly` | [SecurityWeekly](https://www.twitch.tv/SecurityWeekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 &nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
 &nbsp; | `DEFCON_DCTV_Two` | [DEFCON_DCTV_Two](https://www.twitch.tv/DEFCON_DCTV_Two) | 
-&nbsp; | `DEFCON_DCTV_Three` | [DEFCON_DCTV_Three](https://www.twitch.tv/DEFCON_DCTV_Three) | 
+🟢 | `DEFCON_DCTV_Three` | [DEFCON_DCTV_Three](https://www.twitch.tv/DEFCON_DCTV_Three) | 
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
 &nbsp; | `EightBitOni` | [EightBitOni](https://www.twitch.tv/EightBitOni) | 
