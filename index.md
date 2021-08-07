@@ -9,7 +9,7 @@ Please contribute missing streamers or errors via a [pull request](https://githu
 Online 🟢 | Streamer | Twitch | Other links
 --: | ---: | --- | :---
 &nbsp; | `Security_Live` | [Security_Live](https://www.twitch.tv/Security_Live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
-&nbsp; | `DEFCON_DCTV_Four` | [DEFCON_DCTV_Four](https://www.twitch.tv/DEFCON_DCTV_Four) | 
+🟢 | `DEFCON_DCTV_Four` | [DEFCON_DCTV_Four](https://www.twitch.tv/DEFCON_DCTV_Four) | 
 🟢 | `DEFCON_DCTV_Five` | [DEFCON_DCTV_Five](https://www.twitch.tv/DEFCON_DCTV_Five) | 
 🟢 | `DEFCON_DCTV_One` | [DEFCON_DCTV_One](https://www.twitch.tv/DEFCON_DCTV_One) | 
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
