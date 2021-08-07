@@ -43,7 +43,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 🟢 | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
 🟢 | `redteamvillage` | [redteamvillage](https://www.twitch.tv/redteamvillage) | 
-&nbsp; | `toool_us` | [toool_us](https://www.twitch.tv/toool_us) | 
+🟢 | `toool_us` | [toool_us](https://www.twitch.tv/toool_us) | 
 &nbsp; | `BanjoCrashland` | [BanjoCrashland](https://www.twitch.tv/BanjoCrashland) | 
 &nbsp; | `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 &nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
