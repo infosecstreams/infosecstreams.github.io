@@ -29,7 +29,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
 &nbsp; | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
 🟢 | `BlueTeamVillage` | [BlueTeamVillage](https://www.twitch.tv/BlueTeamVillage) | 
-🟢 | `BypassVillage` | [BypassVillage](https://www.twitch.tv/BypassVillage) | 
+&nbsp; | `BypassVillage` | [BypassVillage](https://www.twitch.tv/BypassVillage) | 
 &nbsp; | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
 &nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
