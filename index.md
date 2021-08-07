@@ -38,7 +38,7 @@ Online 🟢 | Streamer | Twitch | Other links
 🟢 | `CryptoVillage` | [CryptoVillage](https://www.twitch.tv/CryptoVillage) | 
 &nbsp; | `redteamvillage` | [redteamvillage](https://www.twitch.tv/redteamvillage) | 
 🟢 | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
-&nbsp; | `toool_us` | [toool_us](https://www.twitch.tv/toool_us) | 
+🟢 | `toool_us` | [toool_us](https://www.twitch.tv/toool_us) | 
 &nbsp; | `Alh4zr3d` | [Alh4zr3d](https://www.twitch.tv/Alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 🟢 | `DEFCONorg` | [DEFCONorg](https://www.twitch.tv/DEFCONorg) | 
 &nbsp; | `ChadB_n00b` | [ChadB_n00b](https://www.twitch.tv/ChadB_n00b) | 
