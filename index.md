@@ -39,7 +39,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
 🟢 | `AIVillage` | [AIVillage](https://www.twitch.tv/AIVillage) | 
 🟢 | `CryptoVillage` | [CryptoVillage](https://www.twitch.tv/CryptoVillage) | 
-🟢 | `ChadB_n00b` | [ChadB_n00b](https://www.twitch.tv/ChadB_n00b) | 
+&nbsp; | `ChadB_n00b` | [ChadB_n00b](https://www.twitch.tv/ChadB_n00b) | 
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 🟢 | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
 🟢 | `redteamvillage` | [redteamvillage](https://www.twitch.tv/redteamvillage) | 
