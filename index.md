@@ -74,7 +74,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `SawyerOne` | [SawyerOne](https://www.twitch.tv/SawyerOne) | 
 &nbsp; | `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube](https://www.youtube.com/superhero1)
 &nbsp; | `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
-🟢 | `wallofsheep` | [wallofsheep](https://www.twitch.tv/wallofsheep) | 
+&nbsp; | `wallofsheep` | [wallofsheep](https://www.twitch.tv/wallofsheep) | 
 &nbsp; | `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 &nbsp; | `AlexChaveriat` | [AlexChaveriat](https://www.twitch.tv/AlexChaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 &nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
