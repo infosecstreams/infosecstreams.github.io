@@ -153,7 +153,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `chvtrack002` | [chvtrack002](https://www.twitch.tv/chvtrack002) | 
 &nbsp; | `cpxsatamericas` | [cpxsatamericas](https://www.twitch.tv/cpxsatamericas) | 
 &nbsp; | `cryptovillage` | [cryptovillage](https://www.twitch.tv/cryptovillage) | 
-&nbsp; | `DCHHV` | [dchhv](https://www.twitch.tv/dchhv) | 
+🟢 | `DCHHV` | [dchhv](https://www.twitch.tv/dchhv) | 
 &nbsp; | `dcpolicy` | [dcpolicy](https://www.twitch.tv/dcpolicy) | 
 &nbsp; | `ethicsvillage` | [ethicsvillage](https://www.twitch.tv/ethicsvillage) | 
 &nbsp; | `hackthesea` | [hackthesea](https://www.twitch.tv/hackthesea) | 
