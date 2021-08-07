@@ -53,7 +53,7 @@ Online 🟢 | Streamer | Twitch | Other links
 🟢 | `LiveOverflow` | [LiveOverflow](https://www.twitch.tv/LiveOverflow) | [YouTube](https://www.youtube.com/c/LiveOverflowCTF)
 🟢 | `hamradiovillage` | [hamradiovillage](https://www.twitch.tv/hamradiovillage) | 
 &nbsp; | `hamradiovillage` | [hamradiovillage](https://www.twitch.tv/hamradiovillage) | 
-&nbsp; | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
+🟢 | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 &nbsp; | `InfosecHouse` | [InfosecHouse](https://www.twitch.tv/InfosecHouse) | 
 &nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | 
 &nbsp; | `NahamSec` | [NahamSec](https://www.twitch.tv/NahamSec) | 
