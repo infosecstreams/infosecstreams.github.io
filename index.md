@@ -62,7 +62,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `streambytes_` | [streambytes_](https://www.twitch.tv/streambytes_) | 
 🟢 | `DCHHV` | [DCHHV](https://www.twitch.tv/DCHHV) | 
 🟢 | `DEFCONorg` | [DEFCONorg](https://www.twitch.tv/DEFCONorg) | 
-&nbsp; | `VotingVillageDC` | [VotingVillageDC](https://www.twitch.tv/VotingVillageDC) | 
+🟢 | `VotingVillageDC` | [VotingVillageDC](https://www.twitch.tv/VotingVillageDC) | 
 &nbsp; | `0reoByte` | [0reoByte](https://www.twitch.tv/0reoByte) | 
 &nbsp; | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | 
 &nbsp; | `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
