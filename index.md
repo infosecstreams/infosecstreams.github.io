@@ -41,7 +41,7 @@ Online 🟢 | Streamer | Twitch | Other links
 🟢 | `CryptoVillage` | [CryptoVillage](https://www.twitch.tv/CryptoVillage) | 
 &nbsp; | `ChadB_n00b` | [ChadB_n00b](https://www.twitch.tv/ChadB_n00b) | 
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
-&nbsp; | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
+🟢 | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
 🟢 | `redteamvillage` | [redteamvillage](https://www.twitch.tv/redteamvillage) | 
 🟢 | `toool_us` | [toool_us](https://www.twitch.tv/toool_us) | 
 &nbsp; | `BanjoCrashland` | [BanjoCrashland](https://www.twitch.tv/BanjoCrashland) | 
