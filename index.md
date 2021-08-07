@@ -61,7 +61,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `SpiceySec` | [SpiceySec](https://www.twitch.tv/SpiceySec) | 
 &nbsp; | `streambytes_` | [streambytes_](https://www.twitch.tv/streambytes_) | 
 🟢 | `DCHHV` | [DCHHV](https://www.twitch.tv/DCHHV) | 
-&nbsp; | `DEFCONorg` | [DEFCONorg](https://www.twitch.tv/DEFCONorg) | 
+🟢 | `DEFCONorg` | [DEFCONorg](https://www.twitch.tv/DEFCONorg) | 
 &nbsp; | `VotingVillageDC` | [VotingVillageDC](https://www.twitch.tv/VotingVillageDC) | 
 &nbsp; | `0reoByte` | [0reoByte](https://www.twitch.tv/0reoByte) | 
 &nbsp; | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | 
