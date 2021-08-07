@@ -164,7 +164,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `reconvillage` | [reconvillage](https://www.twitch.tv/reconvillage) | 
 &nbsp; | `roguesvillage` | [roguesvillage](https://www.twitch.tv/roguesvillage) | 
 &nbsp; | `votingvillagedc` | [votingvillagedc](https://www.twitch.tv/votingvillagedc) | 
-&nbsp; | `wallofsheep` | [wallofsheep](https://www.twitch.tv/wallofsheep) | 
+🟢 | `wallofsheep` | [wallofsheep](https://www.twitch.tv/wallofsheep) | 
 &nbsp; | `hackergameshows` | [hackergameshows](https://www.twitch.tv/hackergameshows) | 
 &nbsp; | `TheManyHatsClub` | [TheManyHatsClub](https://www.twitch.tv/TheManyHatsClub) | 
 &nbsp; | `ZephrPhish` | [ZephrPhish](https://www.twitch.tv/ZephrPhish) | 
