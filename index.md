@@ -26,7 +26,7 @@ Online 🟢 | Streamer | Twitch | Other links
 🟢 | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
 &nbsp; | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | 
 🟢 | `BlueTeamVillage` | [BlueTeamVillage](https://www.twitch.tv/BlueTeamVillage) | 
-&nbsp; | `BypassVillage` | [BypassVillage](https://www.twitch.tv/BypassVillage) | 
+🟢 | `BypassVillage` | [BypassVillage](https://www.twitch.tv/BypassVillage) | 
 🟢 | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
 🟢 | `CryptoVillage` | [CryptoVillage](https://www.twitch.tv/CryptoVillage) | 
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
