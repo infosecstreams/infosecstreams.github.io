@@ -35,7 +35,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 &nbsp; | `AIVillage` | [AIVillage](https://www.twitch.tv/AIVillage) | 
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
-🟢 | `CryptoVillage` | [CryptoVillage](https://www.twitch.tv/CryptoVillage) | 
+&nbsp; | `CryptoVillage` | [CryptoVillage](https://www.twitch.tv/CryptoVillage) | 
 🟢 | `redteamvillage` | [redteamvillage](https://www.twitch.tv/redteamvillage) | 
 🟢 | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
 &nbsp; | `toool_us` | [toool_us](https://www.twitch.tv/toool_us) | 
