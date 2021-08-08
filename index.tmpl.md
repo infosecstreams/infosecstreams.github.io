@@ -1,10 +1,10 @@
-# InfoSec Streamers
+# InfoSec Streams
 
-Congrats! You've found an actively maintained list of Information Security-related Twitch streams. This list is `sorted` based on 14-day activity to help you find active streamers more easily!
+Congrats! You've found an actively maintained list of Information Security-related Twitch streams. This list is `sorted` based on 14-day activity to help you find active streams more easily!
 
-Please contribute missing streamers or errors via a [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls), an [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues), or holler at us on the [Discord](https://discord.gg/RftU46K8sn). Thanks!
+Please contribute missing streams or errors via a [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls), an [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues), or holler at us on the [Discord](https://discord.gg/RftU46K8sn). Thanks!
 
-## List of Streamers (sorted)
+## List of Streams (sorted)
 
 Online 🟢 | Streamer | Twitch | Other links
 --: | ---: | --- | :---
