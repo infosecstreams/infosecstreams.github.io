@@ -24,7 +24,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `EightBitOni` | [EightBitOni](https://www.twitch.tv/EightBitOni) | 
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
 🟢 | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
-&nbsp; | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | 
+🟢 | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | 
 🟢 | `BlueTeamVillage` | [BlueTeamVillage](https://www.twitch.tv/BlueTeamVillage) | 
 🟢 | `BypassVillage` | [BypassVillage](https://www.twitch.tv/BypassVillage) | 
 🟢 | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
