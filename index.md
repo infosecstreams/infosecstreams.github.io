@@ -32,7 +32,7 @@ Online 🟢 | Streamer | Twitch | Other links
 🟢 | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | 
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
 &nbsp; | `redteamvillage` | [redteamvillage](https://www.twitch.tv/redteamvillage) | 
-🟢 | `toool_us` | [toool_us](https://www.twitch.tv/toool_us) | 
+&nbsp; | `toool_us` | [toool_us](https://www.twitch.tv/toool_us) | 
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `zerialkillerhacking` | [zerialkillerhacking](https://www.twitch.tv/zerialkillerhacking) | 
 &nbsp; | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
