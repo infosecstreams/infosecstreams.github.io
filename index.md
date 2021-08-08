@@ -27,7 +27,7 @@ Online 🟢 | Streamer | Twitch | Other links
 🟢 | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | 
 🟢 | `BlueTeamVillage` | [BlueTeamVillage](https://www.twitch.tv/BlueTeamVillage) | 
 🟢 | `BypassVillage` | [BypassVillage](https://www.twitch.tv/BypassVillage) | 
-🟢 | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
+&nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
 🟢 | `CryptoVillage` | [CryptoVillage](https://www.twitch.tv/CryptoVillage) | 
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `zerialkillerhacking` | [zerialkillerhacking](https://www.twitch.tv/zerialkillerhacking) | 
