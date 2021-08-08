@@ -112,7 +112,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `DOWRIGHT` | [DOWRIGHT](https://www.twitch.tv/DOWRIGHT) | 
 &nbsp; | `EchoZach` | [EchoZach](https://www.twitch.tv/EchoZach) | 
 &nbsp; | `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
-🟢 | `Flangvik` | [Flangvik](https://www.twitch.tv/Flangvik) | 
+&nbsp; | `Flangvik` | [Flangvik](https://www.twitch.tv/Flangvik) | 
 &nbsp; | `foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
 &nbsp; | `Goldwave__` | [Goldwave__](https://www.twitch.tv/Goldwave__) | 
 &nbsp; | `hattondog` | [hattondog](https://www.twitch.tv/hattondog) | 
