@@ -15,48 +15,49 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 &nbsp; | `S4vitaar` | [S4vitaar](https://www.twitch.tv/S4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 &nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
+🟢 | `DEFCON_DCTV_Two` | [DEFCON_DCTV_Two](https://www.twitch.tv/DEFCON_DCTV_Two) | 
 &nbsp; | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | 
 &nbsp; | `SecurityWeekly` | [SecurityWeekly](https://www.twitch.tv/SecurityWeekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
-🟢 | `DEFCON_DCTV_Two` | [DEFCON_DCTV_Two](https://www.twitch.tv/DEFCON_DCTV_Two) | 
-&nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
 🟢 | `DEFCON_DCTV_Three` | [DEFCON_DCTV_Three](https://www.twitch.tv/DEFCON_DCTV_Three) | 
+&nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
 &nbsp; | `EightBitOni` | [EightBitOni](https://www.twitch.tv/EightBitOni) | 
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
-&nbsp; | `zerialkillerhacking` | [zerialkillerhacking](https://www.twitch.tv/zerialkillerhacking) | 
-&nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
-&nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
 &nbsp; | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
+&nbsp; | `zerialkillerhacking` | [zerialkillerhacking](https://www.twitch.tv/zerialkillerhacking) | 
 &nbsp; | `BlueTeamVillage` | [BlueTeamVillage](https://www.twitch.tv/BlueTeamVillage) | 
 &nbsp; | `BypassVillage` | [BypassVillage](https://www.twitch.tv/BypassVillage) | 
-&nbsp; | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
-&nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
-&nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
+&nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
+&nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
 &nbsp; | `AIVillage` | [AIVillage](https://www.twitch.tv/AIVillage) | 
-&nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `CryptoVillage` | [CryptoVillage](https://www.twitch.tv/CryptoVillage) | 
 &nbsp; | `redteamvillage` | [redteamvillage](https://www.twitch.tv/redteamvillage) | 
 🟢 | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
 &nbsp; | `toool_us` | [toool_us](https://www.twitch.tv/toool_us) | 
-&nbsp; | `Alh4zr3d` | [Alh4zr3d](https://www.twitch.tv/Alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
+&nbsp; | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
+&nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
+&nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
+&nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 🟢 | `DEFCONorg` | [DEFCONorg](https://www.twitch.tv/DEFCONorg) | 
+&nbsp; | `Alh4zr3d` | [Alh4zr3d](https://www.twitch.tv/Alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 &nbsp; | `ChadB_n00b` | [ChadB_n00b](https://www.twitch.tv/ChadB_n00b) | 
+&nbsp; | `hamradiovillage` | [hamradiovillage](https://www.twitch.tv/hamradiovillage) | 
 &nbsp; | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | 
+&nbsp; | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 &nbsp; | `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
 &nbsp; | `DCHHV` | [DCHHV](https://www.twitch.tv/DCHHV) | 
 &nbsp; | `VotingVillageDC` | [VotingVillageDC](https://www.twitch.tv/VotingVillageDC) | 
 🟢 | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 &nbsp; | `LiveOverflow` | [LiveOverflow](https://www.twitch.tv/LiveOverflow) | [YouTube](https://www.youtube.com/c/LiveOverflowCTF)
-&nbsp; | `hamradiovillage` | [hamradiovillage](https://www.twitch.tv/hamradiovillage) | 
 &nbsp; | `wallofsheep` | [wallofsheep](https://www.twitch.tv/wallofsheep) | 
 &nbsp; | `BanjoCrashland` | [BanjoCrashland](https://www.twitch.tv/BanjoCrashland) | 
 &nbsp; | `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 &nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
 &nbsp; | `TheHackerMaker` | [TheHackerMaker](https://www.twitch.tv/TheHackerMaker) | 
 &nbsp; | `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
+🟢 | `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 &nbsp; | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
-&nbsp; | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 &nbsp; | `InfosecHouse` | [InfosecHouse](https://www.twitch.tv/InfosecHouse) | 
 &nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | 
 &nbsp; | `NahamSec` | [NahamSec](https://www.twitch.tv/NahamSec) | 
@@ -65,7 +66,6 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `streambytes_` | [streambytes_](https://www.twitch.tv/streambytes_) | 
 &nbsp; | `0reoByte` | [0reoByte](https://www.twitch.tv/0reoByte) | 
 &nbsp; | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | 
-🟢 | `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 &nbsp; | `HackingEsports_eng` | [HackingEsports_eng](https://www.twitch.tv/HackingEsports_eng) | 
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 &nbsp; | `MVLWVR3` | [MVLWVR3](https://www.twitch.tv/MVLWVR3) | 
