@@ -131,7 +131,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
 &nbsp; | `MrCrumbs_` | [MrCrumbs_](https://www.twitch.tv/MrCrumbs_) | 
 &nbsp; | `nidensec` | [nidensec](https://www.twitch.tv/nidensec) | 
-&nbsp; | `Nirloy` | [Nirloy](https://www.twitch.tv/Nirloy) | 
+🟢 | `Nirloy` | [Nirloy](https://www.twitch.tv/Nirloy) | 
 &nbsp; | `OfficialWilliP` | [OfficialWilliP](https://www.twitch.tv/OfficialWilliP) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
 &nbsp; | `poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
 &nbsp; | `primalMK` | [primalMK](https://www.twitch.tv/primalMK) | 
