@@ -23,7 +23,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `EightBitOni` | [EightBitOni](https://www.twitch.tv/EightBitOni) | 
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
-&nbsp; | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
+🟢 | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
 &nbsp; | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | 
 🟢 | `BlueTeamVillage` | [BlueTeamVillage](https://www.twitch.tv/BlueTeamVillage) | 
 &nbsp; | `BypassVillage` | [BypassVillage](https://www.twitch.tv/BypassVillage) | 
