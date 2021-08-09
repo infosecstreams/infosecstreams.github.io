@@ -94,7 +94,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 &nbsp; | `DCCyberSec` | [DCCyberSec](https://www.twitch.tv/DCCyberSec) | [YouTube](https://www.youtube.com/channel/UC3sccPO4v8YqCTn8sezZGTw)
 &nbsp; | `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
-🟢 | `Nirloy` | [Nirloy](https://www.twitch.tv/Nirloy) | 
+&nbsp; | `Nirloy` | [Nirloy](https://www.twitch.tv/Nirloy) | 
 &nbsp; | `0xa_LilKelly` | [0xa_LilKelly](https://www.twitch.tv/0xa_LilKelly) | 
 &nbsp; | `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 &nbsp; | `aHaquer` | [aHaquer](https://www.twitch.tv/aHaquer) | 
