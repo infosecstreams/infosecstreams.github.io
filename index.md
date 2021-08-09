@@ -39,7 +39,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
 &nbsp; | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
 &nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
-🟢 | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
+&nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 &nbsp; | `hamradiovillage` | [hamradiovillage](https://www.twitch.tv/hamradiovillage) | 
 &nbsp; | `ChadB_n00b` | [ChadB_n00b](https://www.twitch.tv/ChadB_n00b) | 
