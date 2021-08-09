@@ -33,7 +33,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `CryptoVillage` | [CryptoVillage](https://www.twitch.tv/CryptoVillage) | 
 &nbsp; | `redteamvillage` | [redteamvillage](https://www.twitch.tv/redteamvillage) | 
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
-&nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
+🟢 | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
 &nbsp; | `zerialkillerhacking` | [zerialkillerhacking](https://www.twitch.tv/zerialkillerhacking) | 
 &nbsp; | `DCHHV` | [DCHHV](https://www.twitch.tv/DCHHV) | 
 &nbsp; | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
