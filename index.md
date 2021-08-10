@@ -36,7 +36,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
 &nbsp; | `DCHHV` | [DCHHV](https://www.twitch.tv/DCHHV) | 
 &nbsp; | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
-&nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
+🟢 | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
 &nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 &nbsp; | `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
