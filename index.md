@@ -55,7 +55,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
 &nbsp; | `TheHackerMaker` | [TheHackerMaker](https://www.twitch.tv/TheHackerMaker) | 
 &nbsp; | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | 
-🟢 | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | 
+&nbsp; | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | 
 &nbsp; | `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
 &nbsp; | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 &nbsp; | `MVLWVR3` | [MVLWVR3](https://www.twitch.tv/MVLWVR3) | 
