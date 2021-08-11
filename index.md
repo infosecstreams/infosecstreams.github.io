@@ -34,7 +34,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
 &nbsp; | `redteamvillage` | [redteamvillage](https://www.twitch.tv/redteamvillage) | 
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
-&nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
+🟢 | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 &nbsp; | `DCHHV` | [DCHHV](https://www.twitch.tv/DCHHV) | 
 &nbsp; | `iotvillage` | [iotvillage](https://www.twitch.tv/iotvillage) | 
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
