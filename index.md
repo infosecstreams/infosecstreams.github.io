@@ -18,7 +18,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 &nbsp; | `DEFCONorg` | [DEFCONorg](https://www.twitch.tv/DEFCONorg) | 
 🟢 | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
-&nbsp; | `SecurityWeekly` | [SecurityWeekly](https://www.twitch.tv/SecurityWeekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
+🟢 | `SecurityWeekly` | [SecurityWeekly](https://www.twitch.tv/SecurityWeekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 &nbsp; | `AdversaryVillage` | [AdversaryVillage](https://www.twitch.tv/AdversaryVillage) | 
 &nbsp; | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | 
 &nbsp; | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
