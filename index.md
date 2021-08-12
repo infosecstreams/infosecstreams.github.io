@@ -53,7 +53,7 @@ Online 🟢 | Streamer | Twitch | Other links
 🟢 | `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 &nbsp; | `OffSecOfficial` | [OffSecOfficial](https://www.twitch.tv/OffSecOfficial) | 
 &nbsp; | `SawyerOne` | [SawyerOne](https://www.twitch.tv/SawyerOne) | 
-&nbsp; | `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube](https://www.youtube.com/superhero1)
+🟢 | `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube](https://www.youtube.com/superhero1)
 &nbsp; | `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 &nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | 
 &nbsp; | `NahamSec` | [NahamSec](https://www.twitch.tv/NahamSec) | 
