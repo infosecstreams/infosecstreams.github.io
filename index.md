@@ -44,7 +44,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
 &nbsp; | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 &nbsp; | `InfosecHouse` | [InfosecHouse](https://www.twitch.tv/InfosecHouse) | 
-🟢 | `TheHackerMaker` | [TheHackerMaker](https://www.twitch.tv/TheHackerMaker) | 
+&nbsp; | `TheHackerMaker` | [TheHackerMaker](https://www.twitch.tv/TheHackerMaker) | 
 &nbsp; | `xThe_Developer` | [xThe_Developer](https://www.twitch.tv/xThe_Developer) | 
 &nbsp; | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 &nbsp; | `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
