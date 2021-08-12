@@ -50,7 +50,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
 &nbsp; | `LiveOverflow` | [LiveOverflow](https://www.twitch.tv/LiveOverflow) | [YouTube](https://www.youtube.com/c/LiveOverflowCTF)
 &nbsp; | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
-🟢 | `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube](https://www.youtube.com/superhero1)
+&nbsp; | `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube](https://www.youtube.com/superhero1)
 &nbsp; | `DasRealBert` | [DasRealBert](https://www.twitch.tv/DasRealBert) | 
 &nbsp; | `OffSecOfficial` | [OffSecOfficial](https://www.twitch.tv/OffSecOfficial) | 
 &nbsp; | `SawyerOne` | [SawyerOne](https://www.twitch.tv/SawyerOne) | 
