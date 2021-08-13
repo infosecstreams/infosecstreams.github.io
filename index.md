@@ -30,9 +30,9 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `ChadB_n00b` | [ChadB_n00b](https://www.twitch.tv/ChadB_n00b) | 
 &nbsp; | `0reoByte` | [0reoByte](https://www.twitch.tv/0reoByte) | 
 🟢 | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
+&nbsp; | `Alh4zr3d` | [Alh4zr3d](https://www.twitch.tv/Alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 &nbsp; | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
-&nbsp; | `Alh4zr3d` | [Alh4zr3d](https://www.twitch.tv/Alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 &nbsp; | `Technology_Interpreteres` | [Technology_Interpreteres](https://www.twitch.tv/Technology_Interpreteres) | [YouTube](https://www.youtube.com/user/TechInterpreterInc)
 &nbsp; | `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 &nbsp; | `BanjoCrashland` | [BanjoCrashland](https://www.twitch.tv/BanjoCrashland) | 
@@ -40,17 +40,18 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `MVLWVR3` | [MVLWVR3](https://www.twitch.tv/MVLWVR3) | 
 &nbsp; | `Nirloy` | [Nirloy](https://www.twitch.tv/Nirloy) | 
 &nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
+&nbsp; | `TheHackerMaker` | [TheHackerMaker](https://www.twitch.tv/TheHackerMaker) | 
 &nbsp; | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | 
 &nbsp; | `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
 &nbsp; | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 &nbsp; | `InfosecHouse` | [InfosecHouse](https://www.twitch.tv/InfosecHouse) | 
-&nbsp; | `TheHackerMaker` | [TheHackerMaker](https://www.twitch.tv/TheHackerMaker) | 
+&nbsp; | `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube](https://www.youtube.com/superhero1)
 &nbsp; | `xThe_Developer` | [xThe_Developer](https://www.twitch.tv/xThe_Developer) | 
 &nbsp; | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 &nbsp; | `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
 &nbsp; | `LiveOverflow` | [LiveOverflow](https://www.twitch.tv/LiveOverflow) | [YouTube](https://www.youtube.com/c/LiveOverflowCTF)
 &nbsp; | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
-&nbsp; | `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube](https://www.youtube.com/superhero1)
+&nbsp; | `TheGoodHackerTV` | [TheGoodHackerTV](https://www.twitch.tv/TheGoodHackerTV) | 
 &nbsp; | `DasRealBert` | [DasRealBert](https://www.twitch.tv/DasRealBert) | 
 &nbsp; | `OffSecOfficial` | [OffSecOfficial](https://www.twitch.tv/OffSecOfficial) | 
 &nbsp; | `SawyerOne` | [SawyerOne](https://www.twitch.tv/SawyerOne) | 
@@ -58,13 +59,13 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | 
 &nbsp; | `NahamSec` | [NahamSec](https://www.twitch.tv/NahamSec) | 
 &nbsp; | `SpiceySec` | [SpiceySec](https://www.twitch.tv/SpiceySec) | 
-&nbsp; | `TheGoodHackerTV` | [TheGoodHackerTV](https://www.twitch.tv/TheGoodHackerTV) | 
 &nbsp; | `0xTib3rius` | [0xTib3rius](https://www.twitch.tv/0xTib3rius) | 
 &nbsp; | `Alomancy` | [Alomancy](https://www.twitch.tv/Alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
 &nbsp; | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | 
 &nbsp; | `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 &nbsp; | `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
 &nbsp; | `Flangvik` | [Flangvik](https://www.twitch.tv/Flangvik) | 
+&nbsp; | `FroMastr` | [FroMastr](https://www.twitch.tv/FroMastr) | 
 &nbsp; | `GrumpyHackers` | [GrumpyHackers](https://www.twitch.tv/GrumpyHackers) | 
 &nbsp; | `streambytes_` | [streambytes_](https://www.twitch.tv/streambytes_) | 
 &nbsp; | `2ocstream` | [2ocstream](https://www.twitch.tv/2ocstream) | 
@@ -97,7 +98,6 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `EchoZach` | [EchoZach](https://www.twitch.tv/EchoZach) | 
 &nbsp; | `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
 &nbsp; | `foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
-&nbsp; | `FroMastr` | [FroMastr](https://www.twitch.tv/FroMastr) | 
 &nbsp; | `Goldwave__` | [Goldwave__](https://www.twitch.tv/Goldwave__) | 
 &nbsp; | `HackingEsports_eng` | [HackingEsports_eng](https://www.twitch.tv/HackingEsports_eng) | 
 &nbsp; | `hattondog` | [hattondog](https://www.twitch.tv/hattondog) | 
