@@ -13,7 +13,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `SecurityWeekly` | [SecurityWeekly](https://www.twitch.tv/SecurityWeekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 &nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
 🟢 | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | 
-&nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
+🟢 | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
