@@ -89,7 +89,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `CyberReport` | [CyberReport](https://www.twitch.tv/CyberReport) | 
 &nbsp; | `cyberVNO` | [cyberVNO](https://www.twitch.tv/cyberVNO) | 
 &nbsp; | `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
-&nbsp; | `DevNullZen` | [DevNullZen](https://www.twitch.tv/DevNullZen) | 
+🟢 | `DevNullZen` | [DevNullZen](https://www.twitch.tv/DevNullZen) | 
 &nbsp; | `dicecreation` | [dicecreation](https://www.twitch.tv/dicecreation) | 
 &nbsp; | `digitenchou` | [digitenchou](https://www.twitch.tv/digitenchou) | 
 &nbsp; | `dimineko` | [dimineko](https://www.twitch.tv/dimineko) | 
