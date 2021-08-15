@@ -15,27 +15,27 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | 
 &nbsp; | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
+&nbsp; | `Technology_Interpreteres` | [Technology_Interpreteres](https://www.twitch.tv/Technology_Interpreteres) | [YouTube](https://www.youtube.com/user/TechInterpreterInc)
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
-&nbsp; | `Technology_Interpreteres` | [Technology_Interpreteres](https://www.twitch.tv/Technology_Interpreteres) | [YouTube](https://www.youtube.com/user/TechInterpreterInc)
-&nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
+&nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
+&nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 &nbsp; | `EightBitOni` | [EightBitOni](https://www.twitch.tv/EightBitOni) | 
 &nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
 &nbsp; | `ChadB_n00b` | [ChadB_n00b](https://www.twitch.tv/ChadB_n00b) | 
-&nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `0reoByte` | [0reoByte](https://www.twitch.tv/0reoByte) | 
 &nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
 &nbsp; | `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
+&nbsp; | `xychelsea87` | [xychelsea87](https://www.twitch.tv/xychelsea87) | 
 &nbsp; | `Alh4zr3d` | [Alh4zr3d](https://www.twitch.tv/Alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 &nbsp; | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 &nbsp; | `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
-&nbsp; | `xychelsea87` | [xychelsea87](https://www.twitch.tv/xychelsea87) | 
 &nbsp; | `zerobandwidth` | [zerobandwidth](https://www.twitch.tv/zerobandwidth) | 
 &nbsp; | `MVLWVR3` | [MVLWVR3](https://www.twitch.tv/MVLWVR3) | 
 &nbsp; | `Nirloy` | [Nirloy](https://www.twitch.tv/Nirloy) | 
