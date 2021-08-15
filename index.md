@@ -17,7 +17,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
-🟢 | `Technology_Interpreteres` | [Technology_Interpreteres](https://www.twitch.tv/Technology_Interpreteres) | [YouTube](https://www.youtube.com/user/TechInterpreterInc)
+&nbsp; | `Technology_Interpreteres` | [Technology_Interpreteres](https://www.twitch.tv/Technology_Interpreteres) | [YouTube](https://www.youtube.com/user/TechInterpreterInc)
 &nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
