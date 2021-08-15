@@ -59,7 +59,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Flangvik` | [Flangvik](https://www.twitch.tv/Flangvik) | 
 &nbsp; | `SawyerOne` | [SawyerOne](https://www.twitch.tv/SawyerOne) | 
 &nbsp; | `55keez` | [55keez](https://www.twitch.tv/55keez) | 
-🟢 | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | 
+&nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | 
 &nbsp; | `NahamSec` | [NahamSec](https://www.twitch.tv/NahamSec) | 
 &nbsp; | `SpiceySec` | [SpiceySec](https://www.twitch.tv/SpiceySec) | 
 &nbsp; | `2ocstream` | [2ocstream](https://www.twitch.tv/2ocstream) | 
