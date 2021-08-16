@@ -55,7 +55,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `OffSecOfficial` | [OffSecOfficial](https://www.twitch.tv/OffSecOfficial) | 
 &nbsp; | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 &nbsp; | `TheGoodHackerTV` | [TheGoodHackerTV](https://www.twitch.tv/TheGoodHackerTV) | 
-&nbsp; | `0xSaihat` | [0xSaihat](https://www.twitch.tv/0xSaihat) | 
+🟢 | `0xSaihat` | [0xSaihat](https://www.twitch.tv/0xSaihat) | 
 &nbsp; | `DasRealBert` | [DasRealBert](https://www.twitch.tv/DasRealBert) | 
 &nbsp; | `Flangvik` | [Flangvik](https://www.twitch.tv/Flangvik) | 
 &nbsp; | `SawyerOne` | [SawyerOne](https://www.twitch.tv/SawyerOne) | 
