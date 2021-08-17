@@ -36,7 +36,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `EightBitOni` | [EightBitOni](https://www.twitch.tv/EightBitOni) | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 &nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
-&nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
+🟢 | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 &nbsp; | `MVLWVR3` | [MVLWVR3](https://www.twitch.tv/MVLWVR3) | 
 &nbsp; | `Nirloy` | [Nirloy](https://www.twitch.tv/Nirloy) | 
