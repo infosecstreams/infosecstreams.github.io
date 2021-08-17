@@ -34,7 +34,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `xychelsea87` | [xychelsea87](https://www.twitch.tv/xychelsea87) | 
 &nbsp; | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
 &nbsp; | `EightBitOni` | [EightBitOni](https://www.twitch.tv/EightBitOni) | 
-&nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
+🟢 | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
