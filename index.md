@@ -16,7 +16,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
-&nbsp; | `Technology_Interpreteres` | [Technology_Interpreteres](https://www.twitch.tv/Technology_Interpreteres) | [YouTube](https://www.youtube.com/user/TechInterpreterInc)
+🟢 | `Technology_Interpreteres` | [Technology_Interpreteres](https://www.twitch.tv/Technology_Interpreteres) | [YouTube](https://www.youtube.com/user/TechInterpreterInc)
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
