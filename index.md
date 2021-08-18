@@ -105,7 +105,6 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `RedTeamMedic` | [RedTeamMedic](https://www.twitch.tv/RedTeamMedic) | 
 &nbsp; | `s1zzurpmane` | [s1zzurpmane](https://www.twitch.tv/s1zzurpmane) | 
 &nbsp; | `Sharghaas` | [Sharghaas](https://www.twitch.tv/Sharghaas) | 
-&nbsp; | `slyborgSinner` | [slyborgSinner](https://www.twitch.tv/slyborgSinner) | 
 &nbsp; | `softexploit` | [softexploit](https://www.twitch.tv/softexploit) | 
 &nbsp; | `TheManyHatsClub` | [TheManyHatsClub](https://www.twitch.tv/TheManyHatsClub) | 
 &nbsp; | `TryHackMe` | [TryHackMe](https://www.twitch.tv/TryHackMe) | 
