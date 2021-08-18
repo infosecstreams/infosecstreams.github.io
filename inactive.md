@@ -38,11 +38,10 @@ Streamer | Twitch | Other links
 `Ryskill` | [Ryskill](https://www.twitch.tv/Ryskill) | 
 `saucysec` | [saucysec](https://www.twitch.tv/saucysec) | 
 `SherlockSec` | [SherlockSec](https://www.twitch.tv/SherlockSec) | 
-`smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
-`Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
-`TheMayor11` | [TheMayor11](https://www.twitch.tv/TheMayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
-`UnPentester` | [UnPentester](https://www.twitch.tv/UnPentester) | 
-`XeSquirmy` | [XeSquirmy](https://www.twitch.tv/XeSquirmy) | 
+`softexploit` | [softexploit](https://www.twitch.tv/softexploit) | 
+`TheManyHatsClub` | [TheManyHatsClub](https://www.twitch.tv/TheManyHatsClub) | 
+`TryHackMe` | [TryHackMe](https://www.twitch.tv/TryHackMe) | 
+`VandalTheGrey` | [VandalTheGrey](https://www.twitch.tv/VandalTheGrey) | 
 
 ### Credits
 

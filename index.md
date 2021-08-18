@@ -105,10 +105,11 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `RedTeamMedic` | [RedTeamMedic](https://www.twitch.tv/RedTeamMedic) | 
 &nbsp; | `s1zzurpmane` | [s1zzurpmane](https://www.twitch.tv/s1zzurpmane) | 
 &nbsp; | `Sharghaas` | [Sharghaas](https://www.twitch.tv/Sharghaas) | 
-&nbsp; | `softexploit` | [softexploit](https://www.twitch.tv/softexploit) | 
-&nbsp; | `TheManyHatsClub` | [TheManyHatsClub](https://www.twitch.tv/TheManyHatsClub) | 
-&nbsp; | `TryHackMe` | [TryHackMe](https://www.twitch.tv/TryHackMe) | 
-&nbsp; | `VandalTheGrey` | [VandalTheGrey](https://www.twitch.tv/VandalTheGrey) | 
+&nbsp; | `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
+&nbsp; | `Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
+&nbsp; | `TheMayor11` | [TheMayor11](https://www.twitch.tv/TheMayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
+&nbsp; | `UnPentester` | [UnPentester](https://www.twitch.tv/UnPentester) | 
+&nbsp; | `XeSquirmy` | [XeSquirmy](https://www.twitch.tv/XeSquirmy) | 
 
 ### Useful links
 
