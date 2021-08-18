@@ -6,8 +6,6 @@ Streams that haven't had activity the last two weeks have been sorted onto the [
 
 Please contribute missing streams or errors via a [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls), an [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues), or holler at us on the [Discord](https://discord.gg/RftU46K8sn). Thanks!
 
-Streams that haven't had activity the last two weeks have been sorted onto the [inactive](/inactive) page.
-
 ## List of Streams (sorted)
 
 Online 🟢 | Streamer | Twitch | Other links
