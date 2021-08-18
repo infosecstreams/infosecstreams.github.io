@@ -57,7 +57,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | 
 &nbsp; | `DasRealBert` | [DasRealBert](https://www.twitch.tv/DasRealBert) | 
 &nbsp; | `Flangvik` | [Flangvik](https://www.twitch.tv/Flangvik) | 
-🟢 | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
+&nbsp; | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 &nbsp; | `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube](https://www.youtube.com/superhero1)
 &nbsp; | `PwnSchool` | [PwnSchool](https://www.twitch.tv/PwnSchool) | [YouTube](https://www.youtube.com/c/ThePwnSchoolProject)
 &nbsp; | `0xSaihat` | [0xSaihat](https://www.twitch.tv/0xSaihat) | 
