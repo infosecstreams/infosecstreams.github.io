@@ -58,33 +58,51 @@ def querySullyGnomeActivityStats(uid, username, timecode):
 
 # createLine takes a username,"extraData," and a line in a
 # file and returns a new line to be added to the markdown.
-def createLine(username, extraData, line):
+def createLine(username, extraData, line, inactive=False):
   nl = ''
-  if '🟢' in line:
-    if extraData:
-      nl += f'🟢 | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
+  if not inactive:
+    if '🟢' in line:
+      if extraData:
+        nl += f'🟢 | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
+      else:
+        nl += f'🟢 | `{username}` | [{username}](https://www.twitch.tv/{username}) | \n'
     else:
-      nl += f'🟢 | `{username}` | [{username}](https://www.twitch.tv/{username}) | \n'
+      if extraData:
+        nl += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
+      else:
+        nl += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | \n'
   else:
     if extraData:
-      nl += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
+      nl += f'`{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData})\n'
     else:
-      nl += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | \n'
+      nl += f'`{username}` | [{username}](https://www.twitch.tv/{username}) | \n'
   return nl
 
 # createMarkdown takes a username and "extraData" and
 # returns an entire markdown document for the hacklist.
-def createMarkdown(username, extraData):
-  md = ""
-  exists = False
-  with open("./index.md", 'r') as f:
-    for line in f.readlines():
-      if re.match(re.compile(f'^🟢\s\|\s`{username.lower()}`'), line.lower()):
-        exists = True
-        md += createLine(username, extraData, line)
+def createMarkdown(username, extraData, inactive=False):
+  if not inactive:
+    md = ""
+    exists = False
+    with open("./index.md", 'r') as f:
+      for line in f.readlines():
+        if re.match(re.compile(f'^🟢\s\|\s`{username.lower()}`'), line.lower()):
+          exists = True
+          md += createLine(username, extraData, line)
 
-    if not exists:
-      md += createLine(username, extraData, line)
+      if not exists:
+        md += createLine(username, extraData, line)
+  else:
+    md = ""
+    exists = False
+    with open("./index.md", 'r') as f:
+      for line in f.readlines():
+        if re.match(re.compile(f'^🟢\s\|\s`{username.lower()}`'), line.lower()):
+          exists = True
+          md += createLine(username, extraData, line, True)
+
+      if not exists:
+        md += createLine(username, extraData, line, True)
   return md
 
 
@@ -118,7 +136,7 @@ with open('./index.md', 'w') as f:
 # Generate inactive.md
 sortedMd = ''
 for username, _, extraData in inactivityData:
-  sortedMd += createMarkdown(username, extraData)
+  sortedMd += createMarkdown(username, extraData, True)
 sortedMd = "---: | --- | :---\n" + sortedMd.strip('\n')
 
 with open('./inactive.tmpl.md', 'r') as f:
