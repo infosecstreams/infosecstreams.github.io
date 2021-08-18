@@ -2,7 +2,7 @@
 
 Hey there! This page contains streamers that have not streamed at all in the last two weeks.
 
-## List of Streams (sorted)
+## Streams
 
 Streamer | Twitch | Other links
 ---: | --- | :---
