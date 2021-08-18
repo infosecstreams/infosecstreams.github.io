@@ -33,7 +33,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `ChadB_n00b` | [ChadB_n00b](https://www.twitch.tv/ChadB_n00b) | 
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 &nbsp; | `xychelsea87` | [xychelsea87](https://www.twitch.tv/xychelsea87) | 
-🟢 | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
+&nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `BanjoCrashland` | [BanjoCrashland](https://www.twitch.tv/BanjoCrashland) | 
 &nbsp; | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
 🟢 | `EightBitOni` | [EightBitOni](https://www.twitch.tv/EightBitOni) | 
