@@ -34,7 +34,6 @@ Streamer | Twitch | Other links
 `MrCrumbs_` | [MrCrumbs_](https://www.twitch.tv/MrCrumbs_) | 
 `nidensec` | [nidensec](https://www.twitch.tv/nidensec) | 
 `poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
-`pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
 `RedFox0x20` | [RedFox0x20](https://www.twitch.tv/RedFox0x20) | 
 `Ryskill` | [Ryskill](https://www.twitch.tv/Ryskill) | 
 `saucysec` | [saucysec](https://www.twitch.tv/saucysec) | 
