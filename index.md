@@ -19,7 +19,7 @@ Online 🟢 | Streamer | Twitch | Other links
 🟢 | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
 &nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
-&nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
+🟢 | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 🟢 | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
