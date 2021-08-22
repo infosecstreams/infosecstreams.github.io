@@ -67,7 +67,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
 &nbsp; | `DasRealBert` | [DasRealBert](https://www.twitch.tv/DasRealBert) | 
 &nbsp; | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
-🟢 | `NahamSec` | [NahamSec](https://www.twitch.tv/NahamSec) | 
+&nbsp; | `NahamSec` | [NahamSec](https://www.twitch.tv/NahamSec) | 
 &nbsp; | `SpiceySec` | [SpiceySec](https://www.twitch.tv/SpiceySec) | 
 &nbsp; | `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 &nbsp; | `0xChance` | [0xChance](https://www.twitch.tv/0xChance) | 
