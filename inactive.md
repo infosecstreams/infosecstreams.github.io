@@ -28,11 +28,11 @@ Streamer | Twitch | Other links
 `heyJ4X0N` | [heyJ4X0N](https://www.twitch.tv/heyJ4X0N) | 
 `InsiderPhD` | [InsiderPhD](https://www.twitch.tv/InsiderPhD) | 
 `kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
-`lMinzarl` | [lMinzarl](https://www.twitch.tv/lMinzarl) | 
-`MagneticPenguin` | [MagneticPenguin](https://www.twitch.tv/MagneticPenguin) | 
-`majksec` | [majksec](https://www.twitch.tv/majksec) | 
-`mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
-`NahamSec` | [NahamSec](https://www.twitch.tv/NahamSec) | 
+`LiveOverflow` | [LiveOverflow](https://www.twitch.tv/LiveOverflow) | [YouTube](https://www.youtube.com/c/LiveOverflowCTF)
+`ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
+`magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
+`mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
+`MrCrumbs_` | [MrCrumbs_](https://www.twitch.tv/MrCrumbs_) | 
 `OfficialWilliP` | [OfficialWilliP](https://www.twitch.tv/OfficialWilliP) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
 `primalMK` | [primalMK](https://www.twitch.tv/primalMK) | 
 `RedFox0x20` | [RedFox0x20](https://www.twitch.tv/RedFox0x20) | 
