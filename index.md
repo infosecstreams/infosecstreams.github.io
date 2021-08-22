@@ -50,7 +50,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `MVLWVR3` | [MVLWVR3](https://www.twitch.tv/MVLWVR3) | 
 &nbsp; | `PwnSchool` | [PwnSchool](https://www.twitch.tv/PwnSchool) | [YouTube](https://www.youtube.com/c/ThePwnSchoolProject)
 &nbsp; | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
-&nbsp; | `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube](https://www.youtube.com/superhero1)
+🟢 | `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube](https://www.youtube.com/superhero1)
 &nbsp; | `TheHackerMaker` | [TheHackerMaker](https://www.twitch.tv/TheHackerMaker) | 
 &nbsp; | `ChadB_n00b` | [ChadB_n00b](https://www.twitch.tv/ChadB_n00b) | 
 &nbsp; | `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
