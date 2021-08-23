@@ -13,7 +13,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Security_Live` | [Security_Live](https://www.twitch.tv/Security_Live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
 &nbsp; | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | 
 &nbsp; | `irasakai` | [irasakai](https://www.twitch.tv/irasakai) | 
-&nbsp; | `S4vitaar` | [S4vitaar](https://www.twitch.tv/S4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
+🟢 | `S4vitaar` | [S4vitaar](https://www.twitch.tv/S4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 🟢 | `SecurityWeekly` | [SecurityWeekly](https://www.twitch.tv/SecurityWeekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 &nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
