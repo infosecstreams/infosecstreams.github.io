@@ -40,11 +40,11 @@ Streamer | Twitch | Other links
 `saucysec` | [saucysec](https://www.twitch.tv/saucysec) | 
 `Sharghaas` | [Sharghaas](https://www.twitch.tv/Sharghaas) | 
 `smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
-`streambytes_` | [streambytes_](https://www.twitch.tv/streambytes_) | 
-`Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
-`TheMayor11` | [TheMayor11](https://www.twitch.tv/TheMayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
-`UnPentester` | [UnPentester](https://www.twitch.tv/UnPentester) | 
-`XeSquirmy` | [XeSquirmy](https://www.twitch.tv/XeSquirmy) | 
+`SpiceySec` | [SpiceySec](https://www.twitch.tv/SpiceySec) | 
+`Technology_Interpreteres` | [Technology_Interpreteres](https://www.twitch.tv/Technology_Interpreteres) | [YouTube](https://www.youtube.com/user/TechInterpreterInc)
+`TheManyHatsClub` | [TheManyHatsClub](https://www.twitch.tv/TheManyHatsClub) | 
+`TryHackMe` | [TryHackMe](https://www.twitch.tv/TryHackMe) | 
+`VandalTheGrey` | [VandalTheGrey](https://www.twitch.tv/VandalTheGrey) | 
 
 ### Credits
 
