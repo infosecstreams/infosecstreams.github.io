@@ -29,7 +29,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `ZKuaker` | [ZKuaker](https://www.twitch.tv/ZKuaker) | 
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
-🟢 | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
+&nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
 &nbsp; | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | 
 &nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
