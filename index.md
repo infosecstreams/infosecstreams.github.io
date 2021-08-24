@@ -31,7 +31,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | 
-🟢 | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
+&nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 &nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
 &nbsp; | `0reoByte` | [0reoByte](https://www.twitch.tv/0reoByte) | 
