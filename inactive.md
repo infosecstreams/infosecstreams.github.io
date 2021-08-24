@@ -16,6 +16,7 @@ Streamer | Twitch | Other links
 `CybeardSec` | [CybeardSec](https://www.twitch.tv/CybeardSec) | 
 `cyberVNO` | [cyberVNO](https://www.twitch.tv/cyberVNO) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
+`DasRealBert` | [DasRealBert](https://www.twitch.tv/DasRealBert) | 
 `DevNullZen` | [DevNullZen](https://www.twitch.tv/DevNullZen) | 
 `digitenchou` | [digitenchou](https://www.twitch.tv/digitenchou) | 
 `Djax120` | [Djax120](https://www.twitch.tv/Djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
