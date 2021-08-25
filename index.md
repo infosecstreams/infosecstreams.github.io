@@ -34,7 +34,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
 &nbsp; | `0reoByte` | [0reoByte](https://www.twitch.tv/0reoByte) | 
-🟢 | `BanjoCrashland` | [BanjoCrashland](https://www.twitch.tv/BanjoCrashland) | 
+&nbsp; | `BanjoCrashland` | [BanjoCrashland](https://www.twitch.tv/BanjoCrashland) | 
 &nbsp; | `InfosecHouse` | [InfosecHouse](https://www.twitch.tv/InfosecHouse) | 
 &nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | 
 &nbsp; | `TheGoodHackerTV` | [TheGoodHackerTV](https://www.twitch.tv/TheGoodHackerTV) | 
