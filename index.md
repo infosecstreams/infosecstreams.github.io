@@ -51,7 +51,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `NahamSec` | [NahamSec](https://www.twitch.tv/NahamSec) | 
 &nbsp; | `PwnSchool` | [PwnSchool](https://www.twitch.tv/PwnSchool) | [YouTube](https://www.youtube.com/c/ThePwnSchoolProject)
 &nbsp; | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
-🟢 | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | 
+&nbsp; | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | 
 &nbsp; | `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 &nbsp; | `Flangvik` | [Flangvik](https://www.twitch.tv/Flangvik) | 
 &nbsp; | `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
