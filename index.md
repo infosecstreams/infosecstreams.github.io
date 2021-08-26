@@ -23,7 +23,7 @@ Online 🟢 | Streamer | Twitch | Other links
 🟢 | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
 🟢 | `Alh4zr3d` | [Alh4zr3d](https://www.twitch.tv/Alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 &nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
-🟢 | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
+&nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `ZKuaker` | [ZKuaker](https://www.twitch.tv/ZKuaker) | 
 &nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
 &nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
