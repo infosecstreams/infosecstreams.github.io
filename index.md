@@ -83,7 +83,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `dimineko` | [dimineko](https://www.twitch.tv/dimineko) | 
 &nbsp; | `dmll606` | [dmll606](https://www.twitch.tv/dmll606) | 
 &nbsp; | `EchoZach` | [EchoZach](https://www.twitch.tv/EchoZach) | 
-&nbsp; | `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
+🟢 | `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
 &nbsp; | `Goldwave__` | [Goldwave__](https://www.twitch.tv/Goldwave__) | 
 &nbsp; | `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 &nbsp; | `HackTheBox` | [HackTheBox](https://www.twitch.tv/HackTheBox) | 
