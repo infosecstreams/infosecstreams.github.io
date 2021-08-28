@@ -85,7 +85,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `EchoZach` | [EchoZach](https://www.twitch.tv/EchoZach) | 
 &nbsp; | `foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
 &nbsp; | `GrumpyHackers` | [GrumpyHackers](https://www.twitch.tv/GrumpyHackers) | 
-🟢 | `HackingEsports_eng` | [HackingEsports_eng](https://www.twitch.tv/HackingEsports_eng) | 
+&nbsp; | `HackingEsports_eng` | [HackingEsports_eng](https://www.twitch.tv/HackingEsports_eng) | 
 &nbsp; | `hattondog` | [hattondog](https://www.twitch.tv/hattondog) | 
 &nbsp; | `heyJ4X0N` | [heyJ4X0N](https://www.twitch.tv/heyJ4X0N) | 
 &nbsp; | `InsiderPhD` | [InsiderPhD](https://www.twitch.tv/InsiderPhD) | 
