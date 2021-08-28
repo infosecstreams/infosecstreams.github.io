@@ -17,6 +17,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Technology_Interpreters` | [Technology_Interpreters](https://www.twitch.tv/Technology_Interpreters) | [YouTube](https://www.youtube.com/user/TechInterpreterInc)
 &nbsp; | `SecurityWeekly` | [SecurityWeekly](https://www.twitch.tv/SecurityWeekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
+&nbsp; | `zerobandwidth` | [zerobandwidth](https://www.twitch.tv/zerobandwidth) | 
 &nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
@@ -24,7 +25,6 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
 &nbsp; | `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 &nbsp; | `ZKuaker` | [ZKuaker](https://www.twitch.tv/ZKuaker) | 
-&nbsp; | `zerobandwidth` | [zerobandwidth](https://www.twitch.tv/zerobandwidth) | 
 &nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
 &nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
 &nbsp; | `lea_cyber` | [lea_cyber](https://www.twitch.tv/lea_cyber) | 
