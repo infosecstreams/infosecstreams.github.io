@@ -37,15 +37,14 @@ Streamer | Twitch | Other links
 `OfficialWilliP` | [OfficialWilliP](https://www.twitch.tv/OfficialWilliP) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
 `primalMK` | [primalMK](https://www.twitch.tv/primalMK) | 
 `RedFox0x20` | [RedFox0x20](https://www.twitch.tv/RedFox0x20) | 
-`Ryskill` | [Ryskill](https://www.twitch.tv/Ryskill) | 
-`saucysec` | [saucysec](https://www.twitch.tv/saucysec) | 
-`Sharghaas` | [Sharghaas](https://www.twitch.tv/Sharghaas) | 
-`smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
-`streambytes_` | [streambytes_](https://www.twitch.tv/streambytes_) | 
-`thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
-`TheMayor11` | [TheMayor11](https://www.twitch.tv/TheMayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
-`UnPentester` | [UnPentester](https://www.twitch.tv/UnPentester) | 
-`XeSquirmy` | [XeSquirmy](https://www.twitch.tv/XeSquirmy) | 
+`s1zzurpmane` | [s1zzurpmane](https://www.twitch.tv/s1zzurpmane) | 
+`SawyerOne` | [SawyerOne](https://www.twitch.tv/SawyerOne) | 
+`SherlockSec` | [SherlockSec](https://www.twitch.tv/SherlockSec) | 
+`softexploit` | [softexploit](https://www.twitch.tv/softexploit) | 
+`Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
+`TheManyHatsClub` | [TheManyHatsClub](https://www.twitch.tv/TheManyHatsClub) | 
+`TryHackMe` | [TryHackMe](https://www.twitch.tv/TryHackMe) | 
+`VandalTheGrey` | [VandalTheGrey](https://www.twitch.tv/VandalTheGrey) | 
 
 ### Credits
 
