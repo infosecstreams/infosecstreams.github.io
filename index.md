@@ -90,7 +90,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `HackTheBox` | [HackTheBox](https://www.twitch.tv/HackTheBox) | 
 &nbsp; | `hey_its_LGG` | [hey_its_LGG](https://www.twitch.tv/hey_its_LGG) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 &nbsp; | `infinitelogins` | [infinitelogins](https://www.twitch.tv/infinitelogins) | [YouTube](https://www.youtube.com/channel/UC_nKukFaGysjMzqMVHEIgxQ)
-🟢 | `JohnHammond010` | [JohnHammond010](https://www.twitch.tv/JohnHammond010) | [YouTube](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
+&nbsp; | `JohnHammond010` | [JohnHammond010](https://www.twitch.tv/JohnHammond010) | [YouTube](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
 &nbsp; | `KOkencyber` | [KOkencyber](https://www.twitch.tv/KOkencyber) | 
 &nbsp; | `ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 &nbsp; | `magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
