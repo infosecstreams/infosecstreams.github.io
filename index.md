@@ -26,7 +26,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `zerobandwidth` | [zerobandwidth](https://www.twitch.tv/zerobandwidth) | 
 &nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 &nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
-🟢 | `lea_cyber` | [lea_cyber](https://www.twitch.tv/lea_cyber) | 
+&nbsp; | `lea_cyber` | [lea_cyber](https://www.twitch.tv/lea_cyber) | 
 &nbsp; | `ZKuaker` | [ZKuaker](https://www.twitch.tv/ZKuaker) | 
 &nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
