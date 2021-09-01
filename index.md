@@ -37,7 +37,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `xThe_Developer` | [xThe_Developer](https://www.twitch.tv/xThe_Developer) | 
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | 
-🟢 | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
+&nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
 &nbsp; | `0xTib3rius` | [0xTib3rius](https://www.twitch.tv/0xTib3rius) | 
 &nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
 🟢 | `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
