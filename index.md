@@ -63,7 +63,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Flangvik` | [Flangvik](https://www.twitch.tv/Flangvik) | 
 &nbsp; | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
 &nbsp; | `2ocstream` | [2ocstream](https://www.twitch.tv/2ocstream) | 
-&nbsp; | `55keez` | [55keez](https://www.twitch.tv/55keez) | 
+🟢 | `55keez` | [55keez](https://www.twitch.tv/55keez) | 
 &nbsp; | `JohnHammond010` | [JohnHammond010](https://www.twitch.tv/JohnHammond010) | [YouTube](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
 &nbsp; | `Ryskill` | [Ryskill](https://www.twitch.tv/Ryskill) | 
 &nbsp; | `0xCardinal` | [0xCardinal](https://www.twitch.tv/0xCardinal) | 
