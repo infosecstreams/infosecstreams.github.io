@@ -25,7 +25,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `0xJ3lly` | [0xJ3lly](https://www.twitch.tv/0xJ3lly) | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 &nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
-🟢 | `lea_cyber` | [lea_cyber](https://www.twitch.tv/lea_cyber) | 
+&nbsp; | `lea_cyber` | [lea_cyber](https://www.twitch.tv/lea_cyber) | 
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
 &nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
 &nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | 
