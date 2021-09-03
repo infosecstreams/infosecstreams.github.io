@@ -65,7 +65,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Ryskill` | [Ryskill](https://www.twitch.tv/Ryskill) | 
 &nbsp; | `0xCardinal` | [0xCardinal](https://www.twitch.tv/0xCardinal) | 
 &nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
-🟢 | `DCCyberSec` | [DCCyberSec](https://www.twitch.tv/DCCyberSec) | [YouTube](https://www.youtube.com/channel/UC3sccPO4v8YqCTn8sezZGTw)
+&nbsp; | `DCCyberSec` | [DCCyberSec](https://www.twitch.tv/DCCyberSec) | [YouTube](https://www.youtube.com/channel/UC3sccPO4v8YqCTn8sezZGTw)
 &nbsp; | `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
 &nbsp; | `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 &nbsp; | `MVLWVR3` | [MVLWVR3](https://www.twitch.tv/MVLWVR3) | 
