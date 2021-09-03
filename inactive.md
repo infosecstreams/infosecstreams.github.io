@@ -22,18 +22,19 @@ Streamer | Twitch | Other links
 `dimineko` | [dimineko](https://www.twitch.tv/dimineko) | 
 `dmll606` | [dmll606](https://www.twitch.tv/dmll606) | 
 `EchoZach` | [EchoZach](https://www.twitch.tv/EchoZach) | 
-`foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
-`Goldwave__` | [Goldwave__](https://www.twitch.tv/Goldwave__) | 
-`hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
-`hattondog` | [hattondog](https://www.twitch.tv/hattondog) | 
-`heyJ4X0N` | [heyJ4X0N](https://www.twitch.tv/heyJ4X0N) | 
-`InsiderPhD` | [InsiderPhD](https://www.twitch.tv/InsiderPhD) | 
-`KOkencyber` | [KOkencyber](https://www.twitch.tv/KOkencyber) | 
-`ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
-`magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
-`mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
-`Nirloy` | [Nirloy](https://www.twitch.tv/Nirloy) | 
-`poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
+`footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
+`FroMastr` | [FroMastr](https://www.twitch.tv/FroMastr) | 
+`GrumpyHackers` | [GrumpyHackers](https://www.twitch.tv/GrumpyHackers) | 
+`HackTheBox` | [HackTheBox](https://www.twitch.tv/HackTheBox) | 
+`hey_its_LGG` | [hey_its_LGG](https://www.twitch.tv/hey_its_LGG) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
+`infinitelogins` | [infinitelogins](https://www.twitch.tv/infinitelogins) | [YouTube](https://www.youtube.com/channel/UC_nKukFaGysjMzqMVHEIgxQ)
+`kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
+`lMinzarl` | [lMinzarl](https://www.twitch.tv/lMinzarl) | 
+`MagneticPenguin` | [MagneticPenguin](https://www.twitch.tv/MagneticPenguin) | 
+`majksec` | [majksec](https://www.twitch.tv/majksec) | 
+`MrCrumbs_` | [MrCrumbs_](https://www.twitch.tv/MrCrumbs_) | 
+`OfficialWilliP` | [OfficialWilliP](https://www.twitch.tv/OfficialWilliP) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
+`primalMK` | [primalMK](https://www.twitch.tv/primalMK) | 
 `quercusvirginiana` | [quercusvirginiana](https://www.twitch.tv/quercusvirginiana) | 
 `RedTeamMedic` | [RedTeamMedic](https://www.twitch.tv/RedTeamMedic) | 
 `saucysec` | [saucysec](https://www.twitch.tv/saucysec) | 
