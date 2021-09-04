@@ -44,7 +44,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
 &nbsp; | `0reoByte` | [0reoByte](https://www.twitch.tv/0reoByte) | 
 &nbsp; | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | 
-🟢 | `JohnHammond010` | [JohnHammond010](https://www.twitch.tv/JohnHammond010) | [YouTube](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
+&nbsp; | `JohnHammond010` | [JohnHammond010](https://www.twitch.tv/JohnHammond010) | [YouTube](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
 &nbsp; | `sup3rhero1` | [sup3rhero1](https://www.twitch.tv/sup3rhero1) | [YouTube](https://www.youtube.com/superhero1)
 &nbsp; | `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
