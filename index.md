@@ -45,7 +45,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `LiveOverflow` | [LiveOverflow](https://www.twitch.tv/LiveOverflow) | [YouTube](https://www.youtube.com/c/LiveOverflowCTF)
 &nbsp; | `OffSecOfficial` | [OffSecOfficial](https://www.twitch.tv/OffSecOfficial) | 
 &nbsp; | `0reoByte` | [0reoByte](https://www.twitch.tv/0reoByte) | 
-🟢 | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
+&nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
 &nbsp; | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | 
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 &nbsp; | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
