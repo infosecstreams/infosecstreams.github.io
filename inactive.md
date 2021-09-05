@@ -9,8 +9,8 @@ Streamer | Twitch | Other links
 `0xa_LilKelly` | [0xa_LilKelly](https://www.twitch.tv/0xa_LilKelly) | 
 `0xChance` | [0xChance](https://www.twitch.tv/0xChance) | 
 `0xSaihat` | [0xSaihat](https://www.twitch.tv/0xSaihat) | 
-`AlexChaveriat` | [AlexChaveriat](https://www.twitch.tv/AlexChaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
-`Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
+`aHaquer` | [aHaquer](https://www.twitch.tv/aHaquer) | 
+`Alomancy` | [Alomancy](https://www.twitch.tv/Alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
 `blindpentester` | [blindpentester](https://www.twitch.tv/blindpentester) | 
 `codingo_` | [codingo_](https://www.twitch.tv/codingo_) | [YouTube](https://www.youtube.com/channel/UCUfO02gdMDXgOJWdv_jiLMg)
 `ctrlbyte` | [ctrlbyte](https://www.twitch.tv/ctrlbyte) | 
