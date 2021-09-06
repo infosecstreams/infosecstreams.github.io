@@ -24,7 +24,7 @@ Online 🟢 | Streamer | Twitch | Other links
 🟢 | `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
-&nbsp; | `xThe_Developer` | [xThe_Developer](https://www.twitch.tv/xThe_Developer) | 
+🟢 | `xThe_Developer` | [xThe_Developer](https://www.twitch.tv/xThe_Developer) | 
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
 &nbsp; | `zerobandwidth` | [zerobandwidth](https://www.twitch.tv/zerobandwidth) | 
