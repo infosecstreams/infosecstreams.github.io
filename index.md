@@ -31,7 +31,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
 &nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
-🟢 | `ZKuaker` | [ZKuaker](https://www.twitch.tv/ZKuaker) | 
+&nbsp; | `ZKuaker` | [ZKuaker](https://www.twitch.tv/ZKuaker) | 
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `JohnHammond010` | [JohnHammond010](https://www.twitch.tv/JohnHammond010) | [YouTube](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
 &nbsp; | `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
