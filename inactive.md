@@ -45,7 +45,6 @@ Streamer | Twitch | Other links
 `TheManyHatsClub` | [TheManyHatsClub](https://www.twitch.tv/TheManyHatsClub) | 
 `TryHackMe` | [TryHackMe](https://www.twitch.tv/TryHackMe) | 
 `VandalTheGrey` | [VandalTheGrey](https://www.twitch.tv/VandalTheGrey) | 
-`xychelsea87` | [xychelsea87](https://www.twitch.tv/xychelsea87) | 
 
 ### Credits
 
