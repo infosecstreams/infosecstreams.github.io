@@ -31,20 +31,20 @@ Streamer | Twitch | Other links
 `KOkencyber` | [KOkencyber](https://www.twitch.tv/KOkencyber) | 
 `ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
-`mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
-`Nirloy` | [Nirloy](https://www.twitch.tv/Nirloy) | 
-`poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
-`PwnSchool` | [PwnSchool](https://www.twitch.tv/PwnSchool) | [YouTube](https://www.youtube.com/c/ThePwnSchoolProject)
-`RedFox0x20` | [RedFox0x20](https://www.twitch.tv/RedFox0x20) | 
-`s1zzurpmane` | [s1zzurpmane](https://www.twitch.tv/s1zzurpmane) | 
-`SawyerOne` | [SawyerOne](https://www.twitch.tv/SawyerOne) | 
-`SherlockSec` | [SherlockSec](https://www.twitch.tv/SherlockSec) | 
-`softexploit` | [softexploit](https://www.twitch.tv/softexploit) | 
-`streambytes_` | [streambytes_](https://www.twitch.tv/streambytes_) | 
-`thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
-`TheManyHatsClub` | [TheManyHatsClub](https://www.twitch.tv/TheManyHatsClub) | 
-`TryHackMe` | [TryHackMe](https://www.twitch.tv/TryHackMe) | 
-`VandalTheGrey` | [VandalTheGrey](https://www.twitch.tv/VandalTheGrey) | 
+`MrCrumbs_` | [MrCrumbs_](https://www.twitch.tv/MrCrumbs_) | 
+`OfficialWilliP` | [OfficialWilliP](https://www.twitch.tv/OfficialWilliP) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
+`primalMK` | [primalMK](https://www.twitch.tv/primalMK) | 
+`quercusvirginiana` | [quercusvirginiana](https://www.twitch.tv/quercusvirginiana) | 
+`RedTeamMedic` | [RedTeamMedic](https://www.twitch.tv/RedTeamMedic) | 
+`saucysec` | [saucysec](https://www.twitch.tv/saucysec) | 
+`Sharghaas` | [Sharghaas](https://www.twitch.tv/Sharghaas) | 
+`smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
+`stokfredrik` | [stokfredrik](https://www.twitch.tv/stokfredrik) | 
+`Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
+`TheGoodHackerTV` | [TheGoodHackerTV](https://www.twitch.tv/TheGoodHackerTV) | 
+`TheMayor11` | [TheMayor11](https://www.twitch.tv/TheMayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
+`UnPentester` | [UnPentester](https://www.twitch.tv/UnPentester) | 
+`xychelsea87` | [xychelsea87](https://www.twitch.tv/xychelsea87) | 
 
 ### Credits
 
