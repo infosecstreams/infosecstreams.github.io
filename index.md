@@ -66,7 +66,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 &nbsp; | `appsectribe` | [appsectribe](https://www.twitch.tv/appsectribe) | 
 &nbsp; | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | 
-🟢 | `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
+&nbsp; | `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 &nbsp; | `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
 &nbsp; | `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
 &nbsp; | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
