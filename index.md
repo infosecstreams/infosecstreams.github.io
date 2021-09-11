@@ -35,6 +35,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 🟢 | `zerobandwidth` | [zerobandwidth](https://www.twitch.tv/zerobandwidth) | 
+🟢 | `MrCrumbs_` | [MrCrumbs_](https://www.twitch.tv/MrCrumbs_) | 
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
 &nbsp; | `xThe_Developer` | [xThe_Developer](https://www.twitch.tv/xThe_Developer) | 
