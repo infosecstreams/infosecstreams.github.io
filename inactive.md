@@ -31,7 +31,6 @@ Streamer | Twitch | Other links
 `KOkencyber` | [KOkencyber](https://www.twitch.tv/KOkencyber) | 
 `ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
 `magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
-`MrCrumbs_` | [MrCrumbs_](https://www.twitch.tv/MrCrumbs_) | 
 `OfficialWilliP` | [OfficialWilliP](https://www.twitch.tv/OfficialWilliP) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
 `primalMK` | [primalMK](https://www.twitch.tv/primalMK) | 
 `quercusvirginiana` | [quercusvirginiana](https://www.twitch.tv/quercusvirginiana) | 
