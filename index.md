@@ -44,7 +44,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
 &nbsp; | `ZKuaker` | [ZKuaker](https://www.twitch.tv/ZKuaker) | 
 &nbsp; | `h8handles` | [h8handles](https://www.twitch.tv/h8handles) | 
-&nbsp; | `Jonathandata1` | [Jonathandata1](https://www.twitch.tv/Jonathandata1) | 
+🟢 | `Jonathandata1` | [Jonathandata1](https://www.twitch.tv/Jonathandata1) | 
 &nbsp; | `Techryptic` | [Techryptic](https://www.twitch.tv/Techryptic) | 
 &nbsp; | `BanjoCrashland` | [BanjoCrashland](https://www.twitch.tv/BanjoCrashland) | 
 &nbsp; | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
