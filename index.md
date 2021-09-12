@@ -16,7 +16,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | [YouTube](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg)
 &nbsp; | `S4vitaar` | [S4vitaar](https://www.twitch.tv/S4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 &nbsp; | `Technology_Interpreters` | [Technology_Interpreters](https://www.twitch.tv/Technology_Interpreters) | [YouTube](https://www.youtube.com/user/TechInterpreterInc)
-&nbsp; | `irasakai` | [irasakai](https://www.twitch.tv/irasakai) | 
+🟢 | `irasakai` | [irasakai](https://www.twitch.tv/irasakai) | 
 &nbsp; | `YERTX_CO` | [YERTX_CO](https://www.twitch.tv/YERTX_CO) | 
 &nbsp; | `InfayerTS` | [InfayerTS](https://www.twitch.tv/InfayerTS) | 
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
