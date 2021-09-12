@@ -66,7 +66,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Flangvik` | [Flangvik](https://www.twitch.tv/Flangvik) | 
 &nbsp; | `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 &nbsp; | `AlexChaveriat` | [AlexChaveriat](https://www.twitch.tv/AlexChaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
-&nbsp; | `appsectribe` | [appsectribe](https://www.twitch.tv/appsectribe) | 
+🟢 | `appsectribe` | [appsectribe](https://www.twitch.tv/appsectribe) | 
 &nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 &nbsp; | `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 &nbsp; | `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr)
