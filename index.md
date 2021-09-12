@@ -20,7 +20,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `YERTX_CO` | [YERTX_CO](https://www.twitch.tv/YERTX_CO) | 
 &nbsp; | `InfayerTS` | [InfayerTS](https://www.twitch.tv/InfayerTS) | 
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
-&nbsp; | `hackorgame` | [hackorgame](https://www.twitch.tv/hackorgame) | [YouTube](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA)
+🟢 | `hackorgame` | [hackorgame](https://www.twitch.tv/hackorgame) | [YouTube](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA)
 &nbsp; | `0xJ3lly` | [0xJ3lly](https://www.twitch.tv/0xJ3lly) | 
 &nbsp; | `lea_cyber` | [lea_cyber](https://www.twitch.tv/lea_cyber) | 
 &nbsp; | `zerobandwidth` | [zerobandwidth](https://www.twitch.tv/zerobandwidth) | 
