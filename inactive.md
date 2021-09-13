@@ -41,7 +41,7 @@ Streamer | Twitch | Other links
 `softexploit` | [softexploit](https://www.twitch.tv/softexploit) | 
 `streambytes_` | [streambytes_](https://www.twitch.tv/streambytes_) | 
 `Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
-`TheGoodHackerTV` | [TheGoodHackerTV](https://www.twitch.tv/TheGoodHackerTV) | 
+`TheGoodHackerTV` | [TheGoodHackerTV](https://www.twitch.tv/TheGoodHackerTV) | [YouTube](https://www.youtube.com/channel/UCeeOzvMFfd2qcUFIGN_Nzyw)
 `TheMayor11` | [TheMayor11](https://www.twitch.tv/TheMayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
 `VandalTheGrey` | [VandalTheGrey](https://www.twitch.tv/VandalTheGrey) | 
 
