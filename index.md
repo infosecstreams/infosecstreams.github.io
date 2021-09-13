@@ -19,7 +19,7 @@ Online 🟢 | Streamer | Twitch | Other links
 🟢 | `irasakai` | [irasakai](https://www.twitch.tv/irasakai) | 
 &nbsp; | `YERTX_CO` | [YERTX_CO](https://www.twitch.tv/YERTX_CO) | 
 &nbsp; | `InfayerTS` | [InfayerTS](https://www.twitch.tv/InfayerTS) | 
-&nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
+🟢 | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `lea_cyber` | [lea_cyber](https://www.twitch.tv/lea_cyber) | 
 &nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
