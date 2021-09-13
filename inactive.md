@@ -35,10 +35,11 @@ Streamer | Twitch | Other links
 `primalMK` | [primalMK](https://www.twitch.tv/primalMK) | 
 `quercusvirginiana` | [quercusvirginiana](https://www.twitch.tv/quercusvirginiana) | 
 `RedTeamMedic` | [RedTeamMedic](https://www.twitch.tv/RedTeamMedic) | 
-`saucysec` | [saucysec](https://www.twitch.tv/saucysec) | 
-`Sharghaas` | [Sharghaas](https://www.twitch.tv/Sharghaas) | 
-`smash8tap` | [smash8tap](https://www.twitch.tv/smash8tap) | 
-`stokfredrik` | [stokfredrik](https://www.twitch.tv/stokfredrik) | 
+`s1zzurpmane` | [s1zzurpmane](https://www.twitch.tv/s1zzurpmane) | 
+`SawyerOne` | [SawyerOne](https://www.twitch.tv/SawyerOne) | 
+`SherlockSec` | [SherlockSec](https://www.twitch.tv/SherlockSec) | 
+`softexploit` | [softexploit](https://www.twitch.tv/softexploit) | 
+`streambytes_` | [streambytes_](https://www.twitch.tv/streambytes_) | 
 `Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
 `TheGoodHackerTV` | [TheGoodHackerTV](https://www.twitch.tv/TheGoodHackerTV) | 
 `TheMayor11` | [TheMayor11](https://www.twitch.tv/TheMayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
