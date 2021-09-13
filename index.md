@@ -65,7 +65,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `OffSecOfficial` | [OffSecOfficial](https://www.twitch.tv/OffSecOfficial) | 
 &nbsp; | `appsectribe` | [appsectribe](https://www.twitch.tv/appsectribe) | 
 &nbsp; | `curi0usjack` | [curi0usjack](https://www.twitch.tv/curi0usjack) | 
-🟢 | `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
+&nbsp; | `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 &nbsp; | `AlexChaveriat` | [AlexChaveriat](https://www.twitch.tv/AlexChaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos)
 &nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 &nbsp; | `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
