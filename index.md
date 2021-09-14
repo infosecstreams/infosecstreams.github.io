@@ -40,7 +40,7 @@ Online 🟢 | Streamer | Twitch | Other links
 🟢 | `SecurityWeekly` | [SecurityWeekly](https://www.twitch.tv/SecurityWeekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 &nbsp; | `BeauKnowsTech` | [BeauKnowsTech](https://www.twitch.tv/BeauKnowsTech) | 
 &nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | 
-&nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
+🟢 | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
 &nbsp; | `xThe_Developer` | [xThe_Developer](https://www.twitch.tv/xThe_Developer) | 
 &nbsp; | `zerobandwidth` | [zerobandwidth](https://www.twitch.tv/zerobandwidth) | 
 &nbsp; | `0xJ3lly` | [0xJ3lly](https://www.twitch.tv/0xJ3lly) | 
