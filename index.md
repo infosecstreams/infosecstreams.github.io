@@ -44,7 +44,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `0xJ3lly` | [0xJ3lly](https://www.twitch.tv/0xJ3lly) | 
 &nbsp; | `0xTib3rius` | [0xTib3rius](https://www.twitch.tv/0xTib3rius) | 
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
-&nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
+🟢 | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
 &nbsp; | `InfosecHouse` | [InfosecHouse](https://www.twitch.tv/InfosecHouse) | 
 &nbsp; | `Jonathandata1` | [Jonathandata1](https://www.twitch.tv/Jonathandata1) | 
 &nbsp; | `Techryptic` | [Techryptic](https://www.twitch.tv/Techryptic) | 
