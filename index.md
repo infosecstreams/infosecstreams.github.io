@@ -36,7 +36,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
 &nbsp; | `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
 &nbsp; | `0xTib3rius` | [0xTib3rius](https://www.twitch.tv/0xTib3rius) | 
-&nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
+🟢 | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | 
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
 &nbsp; | `xThe_Developer` | [xThe_Developer](https://www.twitch.tv/xThe_Developer) | 
