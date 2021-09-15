@@ -20,7 +20,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `YERTX_CO` | [YERTX_CO](https://www.twitch.tv/YERTX_CO) | 
 &nbsp; | `Skyfire100` | [Skyfire100](https://www.twitch.tv/Skyfire100) | [YouTube](https://www.twitch.tv/skyfire100)
 &nbsp; | `InfayerTS` | [InfayerTS](https://www.twitch.tv/InfayerTS) | 
-🟢 | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
+&nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 🟢 | `jbeers11` | [jbeers11](https://www.twitch.tv/jbeers11) | 
 &nbsp; | `Alh4zr3d` | [Alh4zr3d](https://www.twitch.tv/Alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
