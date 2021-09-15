@@ -30,7 +30,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `hackorgame` | [hackorgame](https://www.twitch.tv/hackorgame) | [YouTube](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA)
 &nbsp; | `Eth0ghost` | [Eth0ghost](https://www.twitch.tv/Eth0ghost) | 
 &nbsp; | `BeauKnowsTech` | [BeauKnowsTech](https://www.twitch.tv/BeauKnowsTech) | 
-🟢 | `h8handles` | [h8handles](https://www.twitch.tv/h8handles) | 
+&nbsp; | `h8handles` | [h8handles](https://www.twitch.tv/h8handles) | 
 &nbsp; | `lea_cyber` | [lea_cyber](https://www.twitch.tv/lea_cyber) | 
 &nbsp; | `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
 &nbsp; | `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
