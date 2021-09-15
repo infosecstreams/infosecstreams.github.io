@@ -33,7 +33,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `h8handles` | [h8handles](https://www.twitch.tv/h8handles) | 
 &nbsp; | `lea_cyber` | [lea_cyber](https://www.twitch.tv/lea_cyber) | 
 &nbsp; | `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
-🟢 | `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
+&nbsp; | `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
 &nbsp; | `ZKuaker` | [ZKuaker](https://www.twitch.tv/ZKuaker) | 
 🟢 | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
