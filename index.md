@@ -86,7 +86,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
 &nbsp; | `MVLWVR3` | [MVLWVR3](https://www.twitch.tv/MVLWVR3) | 
 &nbsp; | `SpiceySec` | [SpiceySec](https://www.twitch.tv/SpiceySec) | 
-🟢 | `UnPentester` | [UnPentester](https://www.twitch.tv/UnPentester) | 
+&nbsp; | `UnPentester` | [UnPentester](https://www.twitch.tv/UnPentester) | 
 &nbsp; | `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | 
 &nbsp; | `0xChance` | [0xChance](https://www.twitch.tv/0xChance) | 
 &nbsp; | `0xSaihat` | [0xSaihat](https://www.twitch.tv/0xSaihat) | 
