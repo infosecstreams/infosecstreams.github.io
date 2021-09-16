@@ -10,31 +10,31 @@ Streamer | Twitch | Other links
 `0xCardinal` | [0xCardinal](https://www.twitch.tv/0xCardinal) | 
 `0xRy4nG` | [0xRy4nG](https://www.twitch.tv/0xRy4nG) | [YouTube](https://www.youtube.com/channel/UCQWQlNq07_Rumy2i69dpqBw)
 `2ocstream` | [2ocstream](https://www.twitch.tv/2ocstream) | 
-`Alomancy` | [Alomancy](https://www.twitch.tv/Alomancy) | [YouTube](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
-`blindpentester` | [blindpentester](https://www.twitch.tv/blindpentester) | 
-`CMNatic` | [CMNatic](https://www.twitch.tv/CMNatic) | 
-`creminer` | [creminer](https://www.twitch.tv/creminer) | 
-`CybeardSec` | [CybeardSec](https://www.twitch.tv/CybeardSec) | 
-`cyberVNO` | [cyberVNO](https://www.twitch.tv/cyberVNO) | 
-`DarkStar7471` | [DarkStar7471](https://www.twitch.tv/DarkStar7471) | 
-`DevNullZen` | [DevNullZen](https://www.twitch.tv/DevNullZen) | 
-`digitenchou` | [digitenchou](https://www.twitch.tv/digitenchou) | 
-`Djax120` | [Djax120](https://www.twitch.tv/Djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
-`DOWRIGHT` | [DOWRIGHT](https://www.twitch.tv/DOWRIGHT) | 
-`esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
-`FroMastr` | [FroMastr](https://www.twitch.tv/FroMastr) | 
-`GrumpyHackers` | [GrumpyHackers](https://www.twitch.tv/GrumpyHackers) | 
-`hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
-`HackTheBox` | [HackTheBox](https://www.twitch.tv/HackTheBox) | 
-`hey_its_LGG` | [hey_its_LGG](https://www.twitch.tv/hey_its_LGG) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
-`infinitelogins` | [infinitelogins](https://www.twitch.tv/infinitelogins) | [YouTube](https://www.youtube.com/channel/UC_nKukFaGysjMzqMVHEIgxQ)
-`jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
-`KOkencyber` | [KOkencyber](https://www.twitch.tv/KOkencyber) | 
-`ltn_bob` | [ltn_bob](https://www.twitch.tv/ltn_bob) | 
-`magnologanxp` | [magnologanxp](https://www.twitch.tv/magnologanxp) | 
-`Nirloy` | [Nirloy](https://www.twitch.tv/Nirloy) | 
-`poocha_police` | [poocha_police](https://www.twitch.tv/poocha_police) | 
-`PwnSchool` | [PwnSchool](https://www.twitch.tv/PwnSchool) | [YouTube](https://www.youtube.com/c/ThePwnSchoolProject)
+`aHaquer` | [aHaquer](https://www.twitch.tv/aHaquer) | 
+`Ash_F0x` | [Ash_F0x](https://www.twitch.tv/Ash_F0x) | 
+`ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
+`codingo_` | [codingo_](https://www.twitch.tv/codingo_) | [YouTube](https://www.youtube.com/channel/UCUfO02gdMDXgOJWdv_jiLMg)
+`ctrlbyte` | [ctrlbyte](https://www.twitch.tv/ctrlbyte) | 
+`CyberReport` | [CyberReport](https://www.twitch.tv/CyberReport) | 
+`dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
+`DasRealBert` | [DasRealBert](https://www.twitch.tv/DasRealBert) | 
+`dicecreation` | [dicecreation](https://www.twitch.tv/dicecreation) | 
+`dimineko` | [dimineko](https://www.twitch.tv/dimineko) | 
+`dmll606` | [dmll606](https://www.twitch.tv/dmll606) | 
+`EchoZach` | [EchoZach](https://www.twitch.tv/EchoZach) | 
+`foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
+`Goldwave__` | [Goldwave__](https://www.twitch.tv/Goldwave__) | 
+`hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
+`HackingEsports_eng` | [HackingEsports_eng](https://www.twitch.tv/HackingEsports_eng) | 
+`hattondog` | [hattondog](https://www.twitch.tv/hattondog) | 
+`heyJ4X0N` | [heyJ4X0N](https://www.twitch.tv/heyJ4X0N) | 
+`InsiderPhD` | [InsiderPhD](https://www.twitch.tv/InsiderPhD) | 
+`kegnsec` | [kegnsec](https://www.twitch.tv/kegnsec) | 
+`lMinzarl` | [lMinzarl](https://www.twitch.tv/lMinzarl) | 
+`MagneticPenguin` | [MagneticPenguin](https://www.twitch.tv/MagneticPenguin) | 
+`majksec` | [majksec](https://www.twitch.tv/majksec) | 
+`OfficialWilliP` | [OfficialWilliP](https://www.twitch.tv/OfficialWilliP) | [YouTube](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
+`primalMK` | [primalMK](https://www.twitch.tv/primalMK) | 
 `RedFox0x20` | [RedFox0x20](https://www.twitch.tv/RedFox0x20) | 
 `Ryskill` | [Ryskill](https://www.twitch.tv/Ryskill) | 
 `saucysec` | [saucysec](https://www.twitch.tv/saucysec) | 
