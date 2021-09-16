@@ -27,7 +27,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `h8handles` | [h8handles](https://www.twitch.tv/h8handles) | 
 &nbsp; | `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
-🟢 | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
+&nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | 
 &nbsp; | `Alh4zr3d` | [Alh4zr3d](https://www.twitch.tv/Alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA)
 &nbsp; | `hackorgame` | [hackorgame](https://www.twitch.tv/hackorgame) | [YouTube](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA)
 &nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
