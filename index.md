@@ -76,7 +76,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 &nbsp; | `TheGoodHackerTV` | [TheGoodHackerTV](https://www.twitch.tv/TheGoodHackerTV) | [YouTube](https://www.youtube.com/channel/UCeeOzvMFfd2qcUFIGN_Nzyw)
 &nbsp; | `RedSiegeInfoSec` | [RedSiegeInfoSec](https://www.twitch.tv/RedSiegeInfoSec) | [YouTube](https://www.youtube.com/channel/UC4rR_-qnJXny4LsCfxW418g)
-&nbsp; | `0reoByte` | [0reoByte](https://www.twitch.tv/0reoByte) | 
+🟢 | `0reoByte` | [0reoByte](https://www.twitch.tv/0reoByte) | 
 &nbsp; | `appsectribe` | [appsectribe](https://www.twitch.tv/appsectribe) | 
 &nbsp; | `ChadB_n00b` | [ChadB_n00b](https://www.twitch.tv/ChadB_n00b) | 
 &nbsp; | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | 
