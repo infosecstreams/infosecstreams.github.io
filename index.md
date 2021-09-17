@@ -63,7 +63,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `BanjoCrashland` | [BanjoCrashland](https://www.twitch.tv/BanjoCrashland) | 
 &nbsp; | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
 &nbsp; | `EightBitOni` | [EightBitOni](https://www.twitch.tv/EightBitOni) | 
-🟢 | `InfosecHouse` | [InfosecHouse](https://www.twitch.tv/InfosecHouse) | 
+&nbsp; | `InfosecHouse` | [InfosecHouse](https://www.twitch.tv/InfosecHouse) | 
 &nbsp; | `XeSquirmy` | [XeSquirmy](https://www.twitch.tv/XeSquirmy) | 
 &nbsp; | `Flangvik` | [Flangvik](https://www.twitch.tv/Flangvik) | 
 &nbsp; | `NahamSec` | [NahamSec](https://www.twitch.tv/NahamSec) | 
