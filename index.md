@@ -109,7 +109,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Goldwave__` | [Goldwave__](https://www.twitch.tv/Goldwave__) | 
 &nbsp; | `hackbacc` | [hackbacc](https://www.twitch.tv/hackbacc) | 
 &nbsp; | `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
-&nbsp; | `HackTheBox` | [HackTheBox](https://www.twitch.tv/HackTheBox) | 
+🟢 | `HackTheBox` | [HackTheBox](https://www.twitch.tv/HackTheBox) | 
 &nbsp; | `hey_its_LGG` | [hey_its_LGG](https://www.twitch.tv/hey_its_LGG) | [YouTube](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A)
 &nbsp; | `infinitelogins` | [infinitelogins](https://www.twitch.tv/infinitelogins) | [YouTube](https://www.youtube.com/channel/UC_nKukFaGysjMzqMVHEIgxQ)
 &nbsp; | `jrozner` | [jrozner](https://www.twitch.tv/jrozner) | 
