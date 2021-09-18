@@ -87,7 +87,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `UnPentester` | [UnPentester](https://www.twitch.tv/UnPentester) | 
 &nbsp; | `RedSiegeInfoSec` | [RedSiegeInfoSec](https://www.twitch.tv/RedSiegeInfoSec) | [YouTube](https://www.youtube.com/channel/UC4rR_-qnJXny4LsCfxW418g)
 &nbsp; | `appsectribe` | [appsectribe](https://www.twitch.tv/appsectribe) | 
-&nbsp; | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | 
+🟢 | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | 
 &nbsp; | `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
 &nbsp; | `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | 
 &nbsp; | `MVLWVR3` | [MVLWVR3](https://www.twitch.tv/MVLWVR3) | 
