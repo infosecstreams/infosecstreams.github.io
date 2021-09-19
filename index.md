@@ -102,7 +102,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `ctrlbyte` | [ctrlbyte](https://www.twitch.tv/ctrlbyte) | 
 &nbsp; | `CyberReport` | [CyberReport](https://www.twitch.tv/CyberReport) | 
 &nbsp; | `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
-&nbsp; | `DasRealBert` | [DasRealBert](https://www.twitch.tv/DasRealBert) | 
+🟢 | `DasRealBert` | [DasRealBert](https://www.twitch.tv/DasRealBert) | 
 &nbsp; | `DevNullZen` | [DevNullZen](https://www.twitch.tv/DevNullZen) | 
 &nbsp; | `digitenchou` | [digitenchou](https://www.twitch.tv/digitenchou) | 
 &nbsp; | `Djax120` | [Djax120](https://www.twitch.tv/Djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
