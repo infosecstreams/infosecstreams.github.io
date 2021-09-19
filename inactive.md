@@ -17,11 +17,11 @@ Streamer | Twitch | Other links
 `CyberReport` | [CyberReport](https://www.twitch.tv/CyberReport) | 
 `dal3ksec` | [dal3ksec](https://www.twitch.tv/dal3ksec) | 
 `DasRealBert` | [DasRealBert](https://www.twitch.tv/DasRealBert) | 
-`DevNullZen` | [DevNullZen](https://www.twitch.tv/DevNullZen) | 
-`digitenchou` | [digitenchou](https://www.twitch.tv/digitenchou) | 
-`Djax120` | [Djax120](https://www.twitch.tv/Djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
-`DOWRIGHT` | [DOWRIGHT](https://www.twitch.tv/DOWRIGHT) | 
-`esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
+`dicecreation` | [dicecreation](https://www.twitch.tv/dicecreation) | 
+`dimineko` | [dimineko](https://www.twitch.tv/dimineko) | 
+`dmll606` | [dmll606](https://www.twitch.tv/dmll606) | 
+`EchoZach` | [EchoZach](https://www.twitch.tv/EchoZach) | 
+`foxcap_` | [foxcap_](https://www.twitch.tv/foxcap_) | 
 `GrumpyHackers` | [GrumpyHackers](https://www.twitch.tv/GrumpyHackers) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `hattondog` | [hattondog](https://www.twitch.tv/hattondog) | 
