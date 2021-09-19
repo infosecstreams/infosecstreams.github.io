@@ -29,7 +29,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `h8handles` | [h8handles](https://www.twitch.tv/h8handles) | 
 &nbsp; | `Blades_1000` | [Blades_1000](https://www.twitch.tv/Blades_1000) | 
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
-🟢 | `InfayerTS` | [InfayerTS](https://www.twitch.tv/InfayerTS) | 
+&nbsp; | `InfayerTS` | [InfayerTS](https://www.twitch.tv/InfayerTS) | 
 &nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
 &nbsp; | `ZKuaker` | [ZKuaker](https://www.twitch.tv/ZKuaker) | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | [YouTube](https://www.youtube.com/taggarttech)
