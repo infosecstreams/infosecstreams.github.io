@@ -30,7 +30,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `hackorgame` | [hackorgame](https://www.twitch.tv/hackorgame) | [YouTube](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA)
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
 &nbsp; | `Blades_1000` | [Blades_1000](https://www.twitch.tv/Blades_1000) | 
-🟢 | `InfayerTS` | [InfayerTS](https://www.twitch.tv/InfayerTS) | 
+&nbsp; | `InfayerTS` | [InfayerTS](https://www.twitch.tv/InfayerTS) | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | [YouTube](https://www.youtube.com/taggarttech)
 &nbsp; | `SecurityWeekly` | [SecurityWeekly](https://www.twitch.tv/SecurityWeekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 &nbsp; | `ZKuaker` | [ZKuaker](https://www.twitch.tv/ZKuaker) | 
