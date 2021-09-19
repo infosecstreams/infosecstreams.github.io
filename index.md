@@ -56,7 +56,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 &nbsp; | `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
-🟢 | `Jonathandata1` | [Jonathandata1](https://www.twitch.tv/Jonathandata1) | 
+&nbsp; | `Jonathandata1` | [Jonathandata1](https://www.twitch.tv/Jonathandata1) | 
 &nbsp; | `HackerOneTV` | [HackerOneTV](https://www.twitch.tv/HackerOneTV) | 
 &nbsp; | `MDISEC` | [MDISEC](https://www.twitch.tv/MDISEC) | 
 &nbsp; | `mbcrump` | [mbcrump](https://www.twitch.tv/mbcrump) | [YouTube](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
