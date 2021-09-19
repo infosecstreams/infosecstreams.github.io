@@ -94,7 +94,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `SpiceySec` | [SpiceySec](https://www.twitch.tv/SpiceySec) | 
 &nbsp; | `0xCardinal` | [0xCardinal](https://www.twitch.tv/0xCardinal) | 
 &nbsp; | `0xRy4nG` | [0xRy4nG](https://www.twitch.tv/0xRy4nG) | [YouTube](https://www.youtube.com/channel/UCQWQlNq07_Rumy2i69dpqBw)
-🟢 | `2ocstream` | [2ocstream](https://www.twitch.tv/2ocstream) | 
+&nbsp; | `2ocstream` | [2ocstream](https://www.twitch.tv/2ocstream) | 
 &nbsp; | `aHaquer` | [aHaquer](https://www.twitch.tv/aHaquer) | 
 &nbsp; | `Ash_F0x` | [Ash_F0x](https://www.twitch.tv/Ash_F0x) | 
 &nbsp; | `ch3fez` | [ch3fez](https://www.twitch.tv/ch3fez) | 
