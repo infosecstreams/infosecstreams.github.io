@@ -86,7 +86,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `UnPentester` | [UnPentester](https://www.twitch.tv/UnPentester) | 
 &nbsp; | `RedSiegeInfoSec` | [RedSiegeInfoSec](https://www.twitch.tv/RedSiegeInfoSec) | [YouTube](https://www.youtube.com/channel/UC4rR_-qnJXny4LsCfxW418g)
 &nbsp; | `2ocstream` | [2ocstream](https://www.twitch.tv/2ocstream) | 
-🟢 | `appsectribe` | [appsectribe](https://www.twitch.tv/appsectribe) | 
+&nbsp; | `appsectribe` | [appsectribe](https://www.twitch.tv/appsectribe) | 
 &nbsp; | `cyber_v1s3rion` | [cyber_v1s3rion](https://www.twitch.tv/cyber_v1s3rion) | 
 &nbsp; | `EightBitOni` | [EightBitOni](https://www.twitch.tv/EightBitOni) | 
 &nbsp; | `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | 
