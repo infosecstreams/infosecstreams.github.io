@@ -22,7 +22,6 @@ Streamer | Twitch | Other links
 `Djax120` | [Djax120](https://www.twitch.tv/Djax120) | [YouTube](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
 `DOWRIGHT` | [DOWRIGHT](https://www.twitch.tv/DOWRIGHT) | 
 `esdn_tv` | [esdn_tv](https://www.twitch.tv/esdn_tv) | 
-`FroMastr` | [FroMastr](https://www.twitch.tv/FroMastr) | 
 `GrumpyHackers` | [GrumpyHackers](https://www.twitch.tv/GrumpyHackers) | 
 `hackingesports` | [hackingesports](https://www.twitch.tv/hackingesports) | 
 `hattondog` | [hattondog](https://www.twitch.tv/hattondog) | 
