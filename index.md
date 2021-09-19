@@ -46,7 +46,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
 &nbsp; | `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 &nbsp; | `zerobandwidth` | [zerobandwidth](https://www.twitch.tv/zerobandwidth) | 
-&nbsp; | `MrCrumbs_` | [MrCrumbs_](https://www.twitch.tv/MrCrumbs_) | 
+🟢 | `MrCrumbs_` | [MrCrumbs_](https://www.twitch.tv/MrCrumbs_) | 
 &nbsp; | `0xJ3lly` | [0xJ3lly](https://www.twitch.tv/0xJ3lly) | 
 &nbsp; | `B7H30` | [B7H30](https://www.twitch.tv/B7H30) | 
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
