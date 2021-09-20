@@ -48,7 +48,7 @@ Online 🟢 | Streamer | Twitch | Other links
 &nbsp; | `0xTib3rius` | [0xTib3rius](https://www.twitch.tv/0xTib3rius) | [YouTube](https://www.youtube.com/Tib3rius)
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | 
 &nbsp; | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | 
-🟢 | `lea_cyber` | [lea_cyber](https://www.twitch.tv/lea_cyber) | 
+&nbsp; | `lea_cyber` | [lea_cyber](https://www.twitch.tv/lea_cyber) | 
 &nbsp; | `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 🟢 | `zerobandwidth` | [zerobandwidth](https://www.twitch.tv/zerobandwidth) | 
