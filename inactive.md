@@ -42,7 +42,7 @@ Streamer | Twitch | Other links
 `Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
 `TheManyHatsClub` | [TheManyHatsClub](https://www.twitch.tv/TheManyHatsClub) | 
 `TryHackMe` | [TryHackMe](https://www.twitch.tv/TryHackMe) | 
-`xychelsea87` | [xychelsea87](https://www.twitch.tv/xychelsea87) | 
+`xThe_Developer` | [xThe_Developer](https://www.twitch.tv/xThe_Developer) | 
 
 ### Credits
 
