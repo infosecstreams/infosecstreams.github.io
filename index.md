@@ -53,7 +53,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 &nbsp; | `maikroservice` | [maikroservice](https://www.twitch.tv/maikroservice) | 
 &nbsp; | `0xJ3lly` | [0xJ3lly](https://www.twitch.tv/0xJ3lly) | 
-&nbsp; | `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
+🟢 | `dayzerosec` | [dayzerosec](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)| en | Science & Technology |
 &nbsp; | `HackerOneTV` | [HackerOneTV](https://www.twitch.tv/HackerOneTV) | 
 &nbsp; | `MDISEC` | [MDISEC](https://www.twitch.tv/MDISEC) | 
 &nbsp; | `Cyber_Insecurity` | [Cyber_Insecurity](https://www.twitch.tv/Cyber_Insecurity) | [YouTube](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
