@@ -9,7 +9,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 ## List of Streams (sorted)
 
 Online 🟢 | Streamer | Twitch | Other links | Language | Category
---: | ---: | --- | :--- | --- | :--
+--: | --: | --- | :-- | --- | :--
 
 ### Useful links
 
