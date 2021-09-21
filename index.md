@@ -85,7 +85,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | 
 &nbsp; | `Jonathandata1` | [Jonathandata1](https://www.twitch.tv/Jonathandata1) | 
 &nbsp; | `LiveOverflow` | [LiveOverflow](https://www.twitch.tv/LiveOverflow) | [YouTube](https://www.youtube.com/c/LiveOverflowCTF)
-&nbsp; | `PwnSchool` | [PwnSchool](https://www.twitch.tv/PwnSchool) | [YouTube](https://www.youtube.com/c/ThePwnSchoolProject)
+&nbsp; | `PwnSchool` | [PwnSchool](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | [YouTube](https://www.youtube.com/c/ThePwnSchoolProject)| en |  |
 &nbsp; | `SpiceySec` | [SpiceySec](https://www.twitch.tv/SpiceySec) | 
 &nbsp; | `TheHackerMaker` | [TheHackerMaker](https://www.twitch.tv/TheHackerMaker) | 
 &nbsp; | `RedSiegeInfoSec` | [RedSiegeInfoSec](https://www.twitch.tv/RedSiegeInfoSec) | [YouTube](https://www.youtube.com/channel/UC4rR_-qnJXny4LsCfxW418g)
