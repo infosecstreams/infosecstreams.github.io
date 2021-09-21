@@ -41,7 +41,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
 &nbsp; | `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg)
 🟢 | `endingwithali` | [endingwithali](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | | en | Software and Game Development |
-&nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | 
+🟢 | `Libereau` | [Libereau](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | | fr | Science & Technology |
 &nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
 🟢 | `Westar` | [Westar](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | | en | Science & Technology |
 &nbsp; | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
