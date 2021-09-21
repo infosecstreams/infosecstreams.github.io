@@ -43,7 +43,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | |  |  |
 🟢 | `Libereau` | [Libereau](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | | fr | Science & Technology |
 &nbsp; | `Thegwar` | [Thegwar](https://www.twitch.tv/Thegwar) | 
-🟢 | `Westar` | [Westar](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | | en | Science & Technology |
+&nbsp; | `Westar` | [Westar](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | |  |  |
 &nbsp; | `blvkhakr` | [blvkhakr](https://www.twitch.tv/blvkhakr) | 
 &nbsp; | `zerobandwidth` | [zerobandwidth](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | |  |  |
 &nbsp; | `0xTib3rius` | [0xTib3rius](https://www.twitch.tv/0xTib3rius) | [YouTube](https://www.youtube.com/Tib3rius)
