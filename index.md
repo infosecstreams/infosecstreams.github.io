@@ -18,7 +18,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `Firzen14` | [Firzen14](https://www.twitch.tv/Firzen14) | 
 &nbsp; | `Skyfire100` | [Skyfire100](https://www.twitch.tv/Skyfire100) | [YouTube](https://www.twitch.tv/skyfire100)
 &nbsp; | `irasakai` | [irasakai](https://www.twitch.tv/irasakai) | 
-&nbsp; | `jbeers11` | [jbeers11](https://www.twitch.tv/jbeers11) | 
+&nbsp; | `jbeers11` | [jbeers11](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | |  |  |
 &nbsp; | `h4ck0rman` | [h4ck0rman](https://www.twitch.tv/h4ck0rman) | 
 &nbsp; | `BeauKnowsTech` | [BeauKnowsTech](https://www.twitch.tv/BeauKnowsTech) | 
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
