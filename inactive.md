@@ -5,7 +5,7 @@ Hey there! This page contains streamers that have not streamed at all in the las
 ## Streams
 
 Streamer | Twitch | Other links | Language | Category
---: | --- | :--- | --- | :---
+--: | --- | :-- | --- | :--
 `0xa_LilKelly` | [0xa_LilKelly](https://www.twitch.tv/0xa_LilKelly) | 
 `0xChance` | [0xChance](https://www.twitch.tv/0xChance) | 
 `0xSaihat` | [0xSaihat](https://www.twitch.tv/0xSaihat) | 
