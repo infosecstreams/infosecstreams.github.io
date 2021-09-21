@@ -20,7 +20,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `irasakai` | [irasakai](https://www.twitch.tv/irasakai) | 
 &nbsp; | `jbeers11` | [jbeers11](https://www.twitch.tv/jbeers11) | 
 &nbsp; | `BeauKnowsTech` | [BeauKnowsTech](https://www.twitch.tv/BeauKnowsTech) | 
-🟢 | `h4ck0rman` | [h4ck0rman](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | | en | Science & Technology |
+&nbsp; | `h4ck0rman` | [h4ck0rman](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | |  |  |
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
 &nbsp; | `h8handles` | [h8handles](https://www.twitch.tv/h8handles) | 
