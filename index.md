@@ -14,7 +14,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `OCEANSGIANT` | [OCEANSGIANT](https://www.twitch.tv/OCEANSGIANT) | 
 &nbsp; | `Security_Live` | [Security_Live](https://www.twitch.tv/Security_Live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
 &nbsp; | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | [YouTube](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1)
-&nbsp; | `S4vitaar` | [S4vitaar](https://www.twitch.tv/S4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
+🟢 | `S4vitaar` | [S4vitaar](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)| es | Just Chatting |
 &nbsp; | `Firzen14` | [Firzen14](https://www.twitch.tv/Firzen14) | 
 &nbsp; | `Skyfire100` | [Skyfire100](https://www.twitch.tv/Skyfire100) | [YouTube](https://www.twitch.tv/skyfire100)
 &nbsp; | `irasakai` | [irasakai](https://www.twitch.tv/irasakai) | 
