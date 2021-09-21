@@ -4,8 +4,8 @@ Hey there! This page contains streamers that have not streamed at all in the las
 
 ## Streams
 
-Streamer | Twitch | Other links
----: | --- | :---
+Streamer | Twitch | Other links | Language | Category
+--: | --- | :-- | --- | :--
 
 ### Credits
 

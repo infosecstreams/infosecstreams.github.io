@@ -125,11 +125,11 @@ print(activityData)
 sortedMd = ''
 for username, _, extraData in activityData:
   sortedMd += createMarkdown(username, extraData)
-sortedMd = "--: | ---: | --- | :---\n" + sortedMd.strip('\n')
+sortedMd = "--: | --: | --- | :-- | --- | :--\n" + sortedMd.strip('\n')
 
 with open('./index.tmpl.md', 'r') as f:
   contents = f.read()
-  contents = contents.replace('--: | ---: | --- | :---', sortedMd)
+  contents = contents.replace('--: | --: | --- | :-- | --- | :--', sortedMd)
 with open('./index.md', 'w') as f:
   f.write(contents)
 
@@ -137,10 +137,10 @@ with open('./index.md', 'w') as f:
 sortedMd = ''
 for username, _, extraData in inactivityData:
   sortedMd += createMarkdown(username, extraData, True)
-sortedMd = "---: | --- | :---\n" + sortedMd.strip('\n')
+sortedMd = "--: | --- | :-- | --- | :--\n" + sortedMd.strip('\n')
 
 with open('./inactive.tmpl.md', 'r') as f:
   contents = f.read()
-  contents = contents.replace('---: | --- | :---', sortedMd)
+  contents = contents.replace('--: | --- | :-- | --- | :--', sortedMd)
 with open('./inactive.md', 'w') as f:
   f.write(contents)
