@@ -38,7 +38,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | | | 
 &nbsp; | `JohnHammond010` | [JohnHammond010](https://www.twitch.tv/JohnHammond010) | [YouTube](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw) | | 
 &nbsp; | `MrCrumbs_` | [MrCrumbs_](https://www.twitch.tv/MrCrumbs_) | | | 
-🟢 | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA) | en | Science & Technology |
+&nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA) |  |  |
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | | | 
 &nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | | | 
 &nbsp; | `ZKuaker` | [ZKuaker](https://www.twitch.tv/ZKuaker) | | | 
