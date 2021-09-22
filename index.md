@@ -64,7 +64,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `XeSquirmy` | [XeSquirmy](https://www.twitch.tv/XeSquirmy) | | | 
 &nbsp; | `0xBufu` | [0xBufu](https://www.twitch.tv/0xBufu) | | | 
 &nbsp; | `BanjoCrashland` | [BanjoCrashland](https://www.twitch.tv/BanjoCrashland) | | | 
-🟢 | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | | en | Software and Game Development |
+&nbsp; | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | |  |  |
 &nbsp; | `DCCyberSec` | [DCCyberSec](https://www.twitch.tv/DCCyberSec) | [YouTube](https://www.youtube.com/channel/UC3sccPO4v8YqCTn8sezZGTw) | | 
 &nbsp; | `OffSecOfficial` | [OffSecOfficial](https://www.twitch.tv/OffSecOfficial) | | | 
 &nbsp; | `TheGoodHackerTV` | [TheGoodHackerTV](https://www.twitch.tv/TheGoodHackerTV) | [YouTube](https://www.youtube.com/channel/UCeeOzvMFfd2qcUFIGN_Nzyw) |  |  |
