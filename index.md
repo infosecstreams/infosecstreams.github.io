@@ -31,7 +31,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `hackorgame` | [hackorgame](https://www.twitch.tv/hackorgame) | [YouTube](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA) | | 
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | [YouTube](https://www.youtube.com/taggarttech) | | 
 &nbsp; | `Blades_1000` | [Blades_1000](https://www.twitch.tv/Blades_1000) | | | 
-&nbsp; | `InfayerTS` | [InfayerTS](https://www.twitch.tv/InfayerTS) | | | 
+🟢 | `InfayerTS` | [InfayerTS](https://www.twitch.tv/InfayerTS) | | es | Science & Technology |
 &nbsp; | `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg) | | 
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | | | 
 &nbsp; | `Eth0ghost` | [Eth0ghost](https://www.twitch.tv/Eth0ghost) | | | 
