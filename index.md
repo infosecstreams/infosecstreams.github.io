@@ -17,12 +17,12 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `Firzen14` | [Firzen14](https://www.twitch.tv/Firzen14) | | | 
 &nbsp; | `Skyfire100` | [Skyfire100](https://www.twitch.tv/Skyfire100) | [YouTube](https://www.twitch.tv/skyfire100) | | 
 &nbsp; | `BeauKnowsTech` | [BeauKnowsTech](https://www.twitch.tv/BeauKnowsTech) | | | 
+&nbsp; | `h4ck0rman` | [h4ck0rman](https://www.twitch.tv/h4ck0rman) | | | 
 &nbsp; | `irasakai` | [irasakai](https://www.twitch.tv/irasakai) | | | 
 &nbsp; | `jbeers11` | [jbeers11](https://www.twitch.tv/jbeers11) | | | 
-&nbsp; | `h4ck0rman` | [h4ck0rman](https://www.twitch.tv/h4ck0rman) | |  |  |
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | | | 
+&nbsp; | `h8handles` | [h8handles](https://www.twitch.tv/h8handles) | | | 
 &nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | | | 
-&nbsp; | `h8handles` | [h8handles](https://www.twitch.tv/h8handles) | |  |  |
 &nbsp; | `Technology_Interpreters` | [Technology_Interpreters](https://www.twitch.tv/Technology_Interpreters) | [YouTube](https://www.youtube.com/user/TechInterpreterInc) | | 
 &nbsp; | `SecurityWeekly` | [SecurityWeekly](https://www.twitch.tv/SecurityWeekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg) | | 
 &nbsp; | `YERTX_CO` | [YERTX_CO](https://www.twitch.tv/YERTX_CO) | | | 
@@ -48,8 +48,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `zerobandwidth` | [zerobandwidth](https://www.twitch.tv/zerobandwidth) | | | 
 &nbsp; | `0xTib3rius` | [0xTib3rius](https://www.twitch.tv/0xTib3rius) | [YouTube](https://www.youtube.com/Tib3rius) | | 
 &nbsp; | `footpics4sale` | [footpics4sale](https://www.twitch.tv/footpics4sale) | | | 
-🟢 | `lea_cyber` | [lea_cyber](https://www.twitch.tv/lea_cyber) | | es | Just Chatting |
-&nbsp; | `HackingIsland` | [HackingIsland](https://www.twitch.tv/HackingIsland) | [YouTube](https://www.youtube.com/channel/UCaqcHDqE0DuqoaoVwJQa7vQ) | | 
+🟢 | `lea_cyber` | [lea_cyber](https://www.twitch.tv/lea_cyber) | | es | Just Chatting &nbsp; | `HackingIsland` | [HackingIsland](https://www.twitch.tv/HackingIsland) | [YouTube](https://www.youtube.com/channel/UCaqcHDqE0DuqoaoVwJQa7vQ) | | 
 &nbsp; | `dayzerosec` | [dayzerosec](https://www.twitch.tv/dayzerosec) | [YouTube](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA) | | 
 &nbsp; | `gamozo` | [gamozo](https://www.twitch.tv/gamozo) | [YouTube](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA) | | 
 &nbsp; | `InfosecHouse` | [InfosecHouse](https://www.twitch.tv/InfosecHouse) | | | 
@@ -95,7 +94,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `fearless0523` | [fearless0523](https://www.twitch.tv/fearless0523) | | | 
 &nbsp; | `mell0wx` | [mell0wx](https://www.twitch.tv/mell0wx) | | | 
 &nbsp; | `MVLWVR3` | [MVLWVR3](https://www.twitch.tv/MVLWVR3) | | | 
-&nbsp; | `SpiceySec` | [SpiceySec](https://www.twitch.tv/SpiceySec) | |  |  |
+&nbsp; | `SpiceySec` | [SpiceySec](https://www.twitch.tv/SpiceySec) | | | 
 &nbsp; | `0xCardinal` | [0xCardinal](https://www.twitch.tv/0xCardinal) | | | 
 &nbsp; | `0xRy4nG` | [0xRy4nG](https://www.twitch.tv/0xRy4nG) | [YouTube](https://www.youtube.com/channel/UCQWQlNq07_Rumy2i69dpqBw) | | 
 &nbsp; | `55keez` | [55keez](https://www.twitch.tv/55keez) | | | 
