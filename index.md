@@ -10,7 +10,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 
 Online 🟢 | Streamer | Twitch | Other links | Language | Category
 --: | --: | --- | :-- | --- | :--
-🟢 | `LinuxYSeguridad` | [LinuxYSeguridad](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | | es | Science & Technology |
+🟢 | `LinuxYSeguridad` | [LinuxYSeguridad](https://www.twitch.tv/LinuxYSeguridad) | | es | Science & Technology |
 &nbsp; | `OCEANSGIANT` | [OCEANSGIANT](https://www.twitch.tv/OCEANSGIANT) | 
 &nbsp; | `S4vitaar` | [S4vitaar](https://www.twitch.tv/S4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 &nbsp; | `Security_Live` | [Security_Live](https://www.twitch.tv/Security_Live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
@@ -20,7 +20,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `irasakai` | [irasakai](https://www.twitch.tv/irasakai) | 
 &nbsp; | `jbeers11` | [jbeers11](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | |  |  |
 &nbsp; | `h4ck0rman` | [h4ck0rman](https://www.twitch.tv/h4ck0rman) | 
-🟢 | `BeauKnowsTech` | [BeauKnowsTech](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | | en | Hack the Box |
+🟢 | `BeauKnowsTech` | [BeauKnowsTech](https://www.twitch.tv/BeauKnowsTech) | | en | Hack the Box |
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | 
 &nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | 
 &nbsp; | `h8handles` | [h8handles](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | |  |  |
@@ -37,7 +37,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | 
 &nbsp; | `Eth0ghost` | [Eth0ghost](https://www.twitch.tv/Eth0ghost) | 
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | 
-🟢 | `mttaggart` | [mttaggart](https://www.twitch.tv/https://github.com/infosecstreams/infosecstreams.github.io) | [YouTube](https://www.youtube.com/taggarttech)| en | Science & Technology |
+🟢 | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | [YouTube](https://www.youtube.com/taggarttech)| en | Science & Technology |
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | 
 &nbsp; | `ZKuaker` | [ZKuaker](https://www.twitch.tv/ZKuaker) | 
 &nbsp; | `MrCrumbs_` | [MrCrumbs_](https://www.twitch.tv/MrCrumbs_) | 
