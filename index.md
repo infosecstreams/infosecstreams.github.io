@@ -22,7 +22,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `jbeers11` | [jbeers11](https://www.twitch.tv/jbeers11) | | | 
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | | | 
 &nbsp; | `h8handles` | [h8handles](https://www.twitch.tv/h8handles) | | | 
-&nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | | | 
+🟢 | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | | en | Science & Technology |
 &nbsp; | `Technology_Interpreters` | [Technology_Interpreters](https://www.twitch.tv/Technology_Interpreters) | [YouTube](https://www.youtube.com/user/TechInterpreterInc) | | 
 &nbsp; | `SecurityWeekly` | [SecurityWeekly](https://www.twitch.tv/SecurityWeekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg) |  |  |
 🟢 | `YERTX_CO` | [YERTX_CO](https://www.twitch.tv/YERTX_CO) | | es | Science & Technology |
