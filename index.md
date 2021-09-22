@@ -32,7 +32,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | [YouTube](https://www.youtube.com/taggarttech) | | 
 &nbsp; | `Blades_1000` | [Blades_1000](https://www.twitch.tv/Blades_1000) | | | 
 🟢 | `InfayerTS` | [InfayerTS](https://www.twitch.tv/InfayerTS) | | es | Science & Technology |
-&nbsp; | `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg) | | 
+🟢 | `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg) | en | Science & Technology |
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | | | 
 &nbsp; | `Eth0ghost` | [Eth0ghost](https://www.twitch.tv/Eth0ghost) | | | 
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | | | 
