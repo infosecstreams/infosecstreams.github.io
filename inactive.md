@@ -39,10 +39,11 @@ Streamer | Twitch | Other links | Language | Category
 `SherlockSec` | [SherlockSec](https://www.twitch.tv/SherlockSec) | 
 `softexploit` | [softexploit](https://www.twitch.tv/softexploit) | 
 `streambytes_` | [streambytes_](https://www.twitch.tv/streambytes_) | 
-`Th3lazykid` | [Th3lazykid](https://www.twitch.tv/Th3lazykid) | 
-`TheManyHatsClub` | [TheManyHatsClub](https://www.twitch.tv/TheManyHatsClub) | 
-`TryHackMe` | [TryHackMe](https://www.twitch.tv/TryHackMe) | 
-`xThe_Developer` | [xThe_Developer](https://www.twitch.tv/xThe_Developer) | 
+`Techryptic` | [Techryptic](https://www.twitch.tv/Techryptic) | 
+`thecybermentor` | [thecybermentor](https://www.twitch.tv/thecybermentor) | [YouTube](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
+`TheMayor11` | [TheMayor11](https://www.twitch.tv/TheMayor11) | [YouTube](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
+`VandalTheGrey` | [VandalTheGrey](https://www.twitch.tv/VandalTheGrey) | 
+`xychelsea87` | [xychelsea87](https://www.twitch.tv/xychelsea87) | 
 
 ### Credits
 
