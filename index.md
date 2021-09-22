@@ -29,7 +29,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `Alh4zr3d` | [Alh4zr3d](https://www.twitch.tv/Alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA) | | 
 &nbsp; | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | [YouTube](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1) | | 
 &nbsp; | `hackorgame` | [hackorgame](https://www.twitch.tv/hackorgame) | [YouTube](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA) | | 
-&nbsp; | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | [YouTube](https://www.youtube.com/taggarttech) | | 
+🟢 | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | [YouTube](https://www.youtube.com/taggarttech) | en | Science & Technology |
 &nbsp; | `Blades_1000` | [Blades_1000](https://www.twitch.tv/Blades_1000) | | | 
 &nbsp; | `InfayerTS` | [InfayerTS](https://www.twitch.tv/InfayerTS) | |  |  |
 🟢 | `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg) | en | Science & Technology |
