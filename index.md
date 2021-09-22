@@ -67,7 +67,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 🟢 | `ChrisSean` | [ChrisSean](https://www.twitch.tv/ChrisSean) | | en | Software and Game Development |
 &nbsp; | `DCCyberSec` | [DCCyberSec](https://www.twitch.tv/DCCyberSec) | [YouTube](https://www.youtube.com/channel/UC3sccPO4v8YqCTn8sezZGTw) | | 
 &nbsp; | `OffSecOfficial` | [OffSecOfficial](https://www.twitch.tv/OffSecOfficial) | | | 
-🟢 | `TheGoodHackerTV` | [TheGoodHackerTV](https://www.twitch.tv/TheGoodHackerTV) | [YouTube](https://www.youtube.com/channel/UCeeOzvMFfd2qcUFIGN_Nzyw) | es | Science & Technology |
+&nbsp; | `TheGoodHackerTV` | [TheGoodHackerTV](https://www.twitch.tv/TheGoodHackerTV) | [YouTube](https://www.youtube.com/channel/UCeeOzvMFfd2qcUFIGN_Nzyw) |  |  |
 &nbsp; | `TheHackerMaker` | [TheHackerMaker](https://www.twitch.tv/TheHackerMaker) | | | 
 &nbsp; | `AgeOfEntropy` | [AgeOfEntropy](https://www.twitch.tv/AgeOfEntropy) | [YouTube](https://www.youtube.com/channel/UCitiWg5p-R6QNLPuJPSE33g) | | 
 &nbsp; | `0reoByte` | [0reoByte](https://www.twitch.tv/0reoByte) | | | 
