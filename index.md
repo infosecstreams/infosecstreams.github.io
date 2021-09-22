@@ -78,7 +78,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `HackTheBox` | [HackTheBox](https://www.twitch.tv/HackTheBox) | | | 
 &nbsp; | `NahamSec` | [NahamSec](https://www.twitch.tv/NahamSec) | | | 
 &nbsp; | `securityfwd` | [securityfwd](https://www.twitch.tv/securityfwd) | [YouTube](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g) | | 
-🟢 | `UnPentester` | [UnPentester](https://www.twitch.tv/UnPentester) | | es | Science & Technology |
+&nbsp; | `UnPentester` | [UnPentester](https://www.twitch.tv/UnPentester) | |  |  |
 &nbsp; | `AlexChaveriat` | [AlexChaveriat](https://www.twitch.tv/AlexChaveriat) | [YouTube](https://www.youtube.com/c/AlexChaveriat/videos) | | 
 &nbsp; | `appsectribe` | [appsectribe](https://www.twitch.tv/appsectribe) | | | 
 &nbsp; | `curi0usjack` | [curi0usjack](https://www.twitch.tv/curi0usjack) | | | 
