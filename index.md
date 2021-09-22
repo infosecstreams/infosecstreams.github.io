@@ -22,7 +22,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `h4ck0rman` | [h4ck0rman](https://www.twitch.tv/h4ck0rman) | |  |  |
 &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | | | 
 &nbsp; | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | | | 
-🟢 | `h8handles` | [h8handles](https://www.twitch.tv/h8handles) | | en | Science & Technology |
+&nbsp; | `h8handles` | [h8handles](https://www.twitch.tv/h8handles) | |  |  |
 &nbsp; | `Technology_Interpreters` | [Technology_Interpreters](https://www.twitch.tv/Technology_Interpreters) | [YouTube](https://www.youtube.com/user/TechInterpreterInc) | | 
 &nbsp; | `SecurityWeekly` | [SecurityWeekly](https://www.twitch.tv/SecurityWeekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg) | | 
 &nbsp; | `YERTX_CO` | [YERTX_CO](https://www.twitch.tv/YERTX_CO) | | | 
