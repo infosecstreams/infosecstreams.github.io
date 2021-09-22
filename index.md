@@ -72,7 +72,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `AgeOfEntropy` | [AgeOfEntropy](https://www.twitch.tv/AgeOfEntropy) | [YouTube](https://www.youtube.com/channel/UCitiWg5p-R6QNLPuJPSE33g) | | 
 &nbsp; | `0reoByte` | [0reoByte](https://www.twitch.tv/0reoByte) | | | 
 &nbsp; | `ChadB_n00b` | [ChadB_n00b](https://www.twitch.tv/ChadB_n00b) | | | 
-&nbsp; | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | | en | Assassin's Creed IV: Black Flag |
+&nbsp; | `CyberTechVibes` | [CyberTechVibes](https://www.twitch.tv/CyberTechVibes) | |  |  |
 &nbsp; | `CyberWarriorStudios` | [CyberWarriorStudios](https://www.twitch.tv/CyberWarriorStudios) | [YouTube](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g) | | 
 &nbsp; | `Flangvik` | [Flangvik](https://www.twitch.tv/Flangvik) | | | 
 &nbsp; | `HackTheBox` | [HackTheBox](https://www.twitch.tv/HackTheBox) | | | 
