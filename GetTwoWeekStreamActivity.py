@@ -65,9 +65,9 @@ def createLine(username, extraData, line, inactive=False):
       if len(line.split('|')) > 3: lang = line.split('|')[3].strip('\n')
       # if len(line.split('|')) > 3: cat = line.split('|')[5].strip('\n')
       if extraData:
-        nl += f'🟢 | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username} "cat") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>]({extraData}) |{lang}\n'
+        nl += f'🟢 | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username}) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>]({extraData}) |{lang}\n'
       else:
-        nl += f'🟢 | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username} "cat") |{lang}\n'
+        nl += f'🟢 | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username}) |{lang}\n'
     else:
       if extraData:
         nl += f'&nbsp; | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username}) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>]({extraData}) |\n'
