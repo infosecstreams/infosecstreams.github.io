@@ -127,11 +127,11 @@ print(activityData)
 sortedMd = ''
 for username, _, extraData in activityData:
   sortedMd += createMarkdown(username, extraData)
-sortedMd = "--: | --: | --- | --- | \n" + sortedMd.strip('\n')
+sortedMd = "--: | --- | :-- | :-- | \n" + sortedMd.strip('\n')
 
 with open('./index.tmpl.md', 'r') as f:
   contents = f.read()
-  contents = contents.replace('--: | --: | --- | ---', sortedMd)
+  contents = contents.replace('--: | --- | :-- | :--', sortedMd)
 with open('./index.md', 'w') as f:
   f.write(contents)
 
