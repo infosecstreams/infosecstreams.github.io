@@ -32,7 +32,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `Blades_1000` | [Blades_1000](https://www.twitch.tv/Blades_1000) | | | 
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | | | | 
 &nbsp; | `InfayerTS` | [InfayerTS](https://www.twitch.tv/InfayerTS) | | | 
-🟢 | `JohnHammond010` | [JohnHammond010](https://www.twitch.tv/JohnHammond010) | [YouTube](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw) | en | Science & Technology 
+&nbsp; | `JohnHammond010` | [JohnHammond010](https://www.twitch.tv/JohnHammond010) | [YouTube](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw) | | | 
 &nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | | | 
 &nbsp; | `Westar` | [Westar](https://www.twitch.tv/Westar) | | | 
 &nbsp; | `Eth0ghost` | [Eth0ghost](https://www.twitch.tv/Eth0ghost) | | | 
