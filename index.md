@@ -30,7 +30,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `Alh4zr3d` | [Alh4zr3d](https://www.twitch.tv/Alh4zr3d) | [YouTube](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA) | | 
 🟢 | `hackorgame` | [hackorgame](https://www.twitch.tv/hackorgame) | [YouTube](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA) | es | Science & Technology 
 &nbsp; | `Blades_1000` | [Blades_1000](https://www.twitch.tv/Blades_1000) | | | 
-🟢 | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | | en | Software and Game Development 
+&nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | | | | 
 &nbsp; | `InfayerTS` | [InfayerTS](https://www.twitch.tv/InfayerTS) | | | 
 🟢 | `JohnHammond010` | [JohnHammond010](https://www.twitch.tv/JohnHammond010) | [YouTube](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw) | en | Science & Technology 
 &nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | | | 
