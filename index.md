@@ -10,15 +10,18 @@ Please contribute missing streams or errors via a [pull request](https://github.
 
 Online 🟢 | Streamer | Twitch | Other links | Language | Category
 --: | --: | --- | :-- | --- | :--
-🟢 | `LinuxYSeguridad` | [LinuxYSeguridad](https://www.twitch.tv/LinuxYSeguridad) | | es | Science & Technology &nbsp; | `OCEANSGIANT` | [OCEANSGIANT](https://www.twitch.tv/OCEANSGIANT) | | | 
+🟢 | `LinuxYSeguridad` | [LinuxYSeguridad](https://www.twitch.tv/LinuxYSeguridad) | | es | Science & Technology 
+&nbsp; | `OCEANSGIANT` | [OCEANSGIANT](https://www.twitch.tv/OCEANSGIANT) | | | 
 &nbsp; | `Security_Live` | [Security_Live](https://www.twitch.tv/Security_Live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw) | | 
 &nbsp; | `S4vitaar` | [S4vitaar](https://www.twitch.tv/S4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q) | | 
 &nbsp; | `Firzen14` | [Firzen14](https://www.twitch.tv/Firzen14) | | | 
-🟢 | `Skyfire100` | [Skyfire100](https://www.twitch.tv/Skyfire100) | [YouTube](https://www.twitch.tv/skyfire100) | en | Science & Technology &nbsp; | `BeauKnowsTech` | [BeauKnowsTech](https://www.twitch.tv/BeauKnowsTech) | | | 
+🟢 | `Skyfire100` | [Skyfire100](https://www.twitch.tv/Skyfire100) | [YouTube](https://www.twitch.tv/skyfire100) | en | Science & Technology 
+&nbsp; | `BeauKnowsTech` | [BeauKnowsTech](https://www.twitch.tv/BeauKnowsTech) | | | 
 &nbsp; | `h4ck0rman` | [h4ck0rman](https://www.twitch.tv/h4ck0rman) | | | 
 &nbsp; | `irasakai` | [irasakai](https://www.twitch.tv/irasakai) | | | 
 &nbsp; | `jbeers11` | [jbeers11](https://www.twitch.tv/jbeers11) | | | 
-🟢 | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | | en | Science & Technology &nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | | | 
+🟢 | `AyWang` | [AyWang](https://www.twitch.tv/AyWang) | | en | Science & Technology 
+&nbsp; | `Anyascii` | [Anyascii](https://www.twitch.tv/Anyascii) | | | 
 &nbsp; | `h8handles` | [h8handles](https://www.twitch.tv/h8handles) | | | 
 &nbsp; | `SecurityWeekly` | [SecurityWeekly](https://www.twitch.tv/SecurityWeekly) | [YouTube](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg) | | 
 &nbsp; | `Technology_Interpreters` | [Technology_Interpreters](https://www.twitch.tv/Technology_Interpreters) | [YouTube](https://www.youtube.com/user/TechInterpreterInc) | | 
@@ -27,7 +30,8 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | [YouTube](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1) | | 
 &nbsp; | `hackorgame` | [hackorgame](https://www.twitch.tv/hackorgame) | [YouTube](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA) | | 
 &nbsp; | `InfayerTS` | [InfayerTS](https://www.twitch.tv/InfayerTS) | | | 
-🟢 | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | [YouTube](https://www.youtube.com/taggarttech) | en | Science & Technology &nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA) | | 
+🟢 | `mttaggart` | [mttaggart](https://www.twitch.tv/mttaggart) | [YouTube](https://www.youtube.com/taggarttech) | en | Science & Technology 
+&nbsp; | `optionalctf` | [optionalctf](https://www.twitch.tv/optionalctf) | [YouTube](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA) | | 
 &nbsp; | `Blades_1000` | [Blades_1000](https://www.twitch.tv/Blades_1000) | | | 
 &nbsp; | `pwncollege` | [pwncollege](https://www.twitch.tv/pwncollege) | [YouTube](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg) | | 
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | | | 
