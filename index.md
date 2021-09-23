@@ -37,7 +37,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `ShellDredd` | [ShellDredd](https://www.twitch.tv/ShellDredd) | | | 
 &nbsp; | `Eth0ghost` | [Eth0ghost](https://www.twitch.tv/Eth0ghost) | | | 
 &nbsp; | `endingwithali` | [endingwithali](https://www.twitch.tv/endingwithali) | | | 
-&nbsp; | `JohnHammond010` | [JohnHammond010](https://www.twitch.tv/JohnHammond010) | [YouTube](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw) | | 
+🟢 | `JohnHammond010` | [JohnHammond010](https://www.twitch.tv/JohnHammond010) | [YouTube](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw) | en | Science & Technology |
 &nbsp; | `MrCrumbs_` | [MrCrumbs_](https://www.twitch.tv/MrCrumbs_) | | | 
 &nbsp; | `c04tl` | [c04tl](https://www.twitch.tv/c04tl) | | | 
 &nbsp; | `Libereau` | [Libereau](https://www.twitch.tv/Libereau) | | | 
