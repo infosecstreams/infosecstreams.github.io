@@ -63,21 +63,21 @@ def createLine(username, extraData, line, inactive=False):
   if not inactive:
     if '🟢' in line:
       if len(line.split('|')) > 3: lang = line.split('|')[4].strip('\n')
-      if len(line.split('|')) > 3: cat = line.split('|')[5].strip('\n')
+      # if len(line.split('|')) > 3: cat = line.split('|')[5].strip('\n')
       if extraData:
-        nl += f'🟢 | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData}) |{lang}|{cat}\n'
+        nl += f'🟢 | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username} "cat") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>]({extraData}) |{lang}\n'
       else:
-        nl += f'🟢 | `{username}` | [{username}](https://www.twitch.tv/{username}) | |{lang}|{cat}\n'
+        nl += f'🟢 | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username} "cat") |{lang}\n'
     else:
       if extraData:
-        nl += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData}) | | \n'
+        nl += f'&nbsp; | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username}) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>]({extraData}) |\n'
       else:
-        nl += f'&nbsp; | `{username}` | [{username}](https://www.twitch.tv/{username}) | | | \n'
+        nl += f'&nbsp; | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username}) |\n'
   else:
     if extraData:
-      nl += f'`{username}` | [{username}](https://www.twitch.tv/{username}) | [YouTube]({extraData}) | | \n'
+      nl += f'`{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username}) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>]({extraData})\n'
     else:
-      nl += f'`{username}` | [{username}](https://www.twitch.tv/{username}) | | | \n'
+      nl += f'`{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username})\n'
   return nl
 
 # createMarkdown takes a username and "extraData" and
@@ -127,11 +127,11 @@ print(activityData)
 sortedMd = ''
 for username, _, extraData in activityData:
   sortedMd += createMarkdown(username, extraData)
-sortedMd = "--: | --: | --- | :-- | --- | :--\n" + sortedMd.strip('\n')
+sortedMd = "--: | --: | --- | --- | \n" + sortedMd.strip('\n')
 
 with open('./index.tmpl.md', 'r') as f:
   contents = f.read()
-  contents = contents.replace('--: | --: | --- | :-- | --- | :--', sortedMd)
+  contents = contents.replace('--: | --: | --- | ---', sortedMd)
 with open('./index.md', 'w') as f:
   f.write(contents)
 
@@ -139,10 +139,10 @@ with open('./index.md', 'w') as f:
 sortedMd = ''
 for username, _, extraData in inactivityData:
   sortedMd += createMarkdown(username, extraData, True)
-sortedMd = "--: | --- | :-- | --- | :--\n" + sortedMd.strip('\n')
+sortedMd = "--: | ---\n" + sortedMd.strip('\n')
 
 with open('./inactive.tmpl.md', 'r') as f:
   contents = f.read()
-  contents = contents.replace('--: | --- | :-- | --- | :--', sortedMd)
+  contents = contents.replace('--: | ---', sortedMd)
 with open('./inactive.md', 'w') as f:
   f.write(contents)
