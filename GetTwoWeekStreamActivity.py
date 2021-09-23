@@ -62,7 +62,7 @@ def createLine(username, extraData, line, inactive=False):
   nl = ''
   if not inactive:
     if '🟢' in line:
-      if len(line.split('|')) > 3: lang = line.split('|')[4].strip('\n')
+      if len(line.split('|')) > 3: lang = line.split('|')[3].strip('\n')
       # if len(line.split('|')) > 3: cat = line.split('|')[5].strip('\n')
       if extraData:
         nl += f'🟢 | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username} "cat") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>]({extraData}) |{lang}\n'
