@@ -67,17 +67,17 @@ def createLine(username, extraData, line, inactive=False):
       if extraData:
         nl += f'🟢 | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username}) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>]({extraData}) |{lang}\n'
       else:
-        nl += f'🟢 | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username}) |{lang}\n'
+        nl += f'🟢 | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username}) &nbsp; |{lang}\n'
     else:
       if extraData:
         nl += f'&nbsp; | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username}) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>]({extraData}) |\n'
       else:
-        nl += f'&nbsp; | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username}) |\n'
+        nl += f'&nbsp; | `{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username}) &nbsp; |\n'
   else:
     if extraData:
       nl += f'`{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username}) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>]({extraData})\n'
     else:
-      nl += f'`{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username})\n'
+      nl += f'`{username}` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/{username}) &nbsp;\n'
   return nl
 
 # createMarkdown takes a username and "extraData" and
