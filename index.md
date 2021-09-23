@@ -15,7 +15,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `S4vitaar` | [S4vitaar](https://www.twitch.tv/S4vitaar) | [YouTube](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q) | | 
 🟢 | `Security_Live` | [Security_Live](https://www.twitch.tv/Security_Live) | [YouTube](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw) | en | Software and Game Development 
 &nbsp; | `GoProSlowYo` | [GoProSlowYo](https://www.twitch.tv/GoProSlowYo) | [YouTube](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1) | | 
-&nbsp; | `Firzen14` | [Firzen14](https://www.twitch.tv/Firzen14) | | | | 
+&nbsp; | `Firzen14` | [Firzen14](https://www.twitch.tv/Firzen14) | | | 
 &nbsp; | `Skyfire100` | [Skyfire100](https://www.twitch.tv/Skyfire100) | [YouTube](https://www.twitch.tv/skyfire100) | | 
 &nbsp; | `irasakai` | [irasakai](https://www.twitch.tv/irasakai) | | | 
 &nbsp; | `jbeers11` | [jbeers11](https://www.twitch.tv/jbeers11) | | | 
@@ -83,7 +83,7 @@ Online 🟢 | Streamer | Twitch | Other links | Language | Category
 &nbsp; | `curi0usjack` | [curi0usjack](https://www.twitch.tv/curi0usjack) | | | 
 &nbsp; | `d0nutptr` | [d0nutptr](https://www.twitch.tv/d0nutptr) | [YouTube](https://www.youtube.com/d0nutptr) | | 
 &nbsp; | `Defcon201Live` | [Defcon201Live](https://www.twitch.tv/Defcon201Live) | | | 
-&nbsp; | `Jonathandata1` | [Jonathandata1](https://www.twitch.tv/Jonathandata1) | | | | 
+&nbsp; | `Jonathandata1` | [Jonathandata1](https://www.twitch.tv/Jonathandata1) | | | 
 &nbsp; | `LiveOverflow` | [LiveOverflow](https://www.twitch.tv/LiveOverflow) | [YouTube](https://www.youtube.com/c/LiveOverflowCTF) | | 
 &nbsp; | `PwnSchool` | [PwnSchool](https://www.twitch.tv/PwnSchool) | [YouTube](https://www.youtube.com/c/ThePwnSchoolProject) | | 
 &nbsp; | `SpiceySec` | [SpiceySec](https://www.twitch.tv/SpiceySec) | | | 
