@@ -114,7 +114,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `HackingEsports_eng` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackingEsports_eng) &nbsp; |
 &nbsp; | `hey_its_LGG` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hey_its_LGG) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCFzslRuETaviEruPQ_HQP1A) |
 &nbsp; | `infinitelogins` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/infinitelogins) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC_nKukFaGysjMzqMVHEIgxQ) |
-🟢 | `jrozner` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jrozner "Science & Technology") &nbsp;  | EN
+&nbsp; | `jrozner` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jrozner "Science & Technology") &nbsp;  
 &nbsp; | `KOkencyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KOkencyber) &nbsp; |
 &nbsp; | `ltn_bob` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ltn_bob) &nbsp; |
 &nbsp; | `magnologanxp` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/magnologanxp) &nbsp; |
