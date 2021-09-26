@@ -156,6 +156,7 @@ function getLanguages() {
     const content = td.innerText.trim();
     if (content.length > 0) {
       langs.add(content);
+      td.parentElement.setAttribute('data-language', content);
     }
   }
   return langs;
@@ -163,6 +164,9 @@ function getLanguages() {
 
 const filters = new Map();
 getLanguages().forEach(l => filters.set(l, true));
+
+const filterStyles = document.head.appendChild(document.createElement('link'));
+filterStyles.rel = 'stylesheet';
 
 function generateLanguageModal() {
   const modal = document.createElement('div');
@@ -194,8 +198,19 @@ function generateLanguageModal() {
     for (let input of inputs) {
       filters.set(input.language, input.input.checked);
     }
-    // TODO: Update filtering
     modal.remove();
+
+    // Update filters, sorry for complicated-ness
+    URL.revokeObjectURL(filterStyles.href);
+    const rules = Array.from(filters.entries()).filter(l => l[1] === false).map(l => `.streamer-table tr[data-language=${l[1]}]`);
+    if (rules.length > 0) {
+      const blob = new Blob([
+        rules.join(',') + ' { display: none }',
+      ], { type: 'text/css' });
+      filterStyles.href = URL.createObjectURL(blob);
+    } else {
+      filterStyles.href = '';
+    }
   }, { once: true });
 
   return modal;
