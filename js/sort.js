@@ -108,41 +108,6 @@ nameHeader.addEventListener('click', function(e) {
 nameHeader.setAttribute('title', 'Sort by streamer name');
 nameHeader.setAttribute('role', 'button');
 
-
-/*
-const categoryHeader = table.querySelector('th:nth-child(6)');
-categoryHeader.addEventListener('click', function(e) {
-  document.querySelectorAll('th[data-sort]').forEach(e => e.removeAttribute('data-sort'));
-  switch (currentSort) {
-    default:
-    case 'initial':
-      Array.from(table.rows)
-        .map(r => [r,r.querySelector('td:nth-child(6)')?.innerText])
-        .filter(r => r[1] !== undefined)
-        .sort((a, b) => a[1].localeCompare(b[1]))
-        .forEach(r => r[0].parentNode.appendChild(r[0]));
-      currentSort = 'categoryForward';
-      e.target.setAttribute('data-sort', 'forward');
-      break;
-    case 'categoryForward':
-      Array.from(table.rows)
-        .map(r => [r,r.querySelector('td:nth-child(6)')?.innerText])
-        .filter(r => r[1] !== undefined)
-        .sort((a,b) => b[1].localeCompare(a[1]))
-        .forEach(r => r[0].parentNode.appendChild(r[0]));
-      currentSort = 'categoryBackward';
-      e.target.setAttribute('data-sort', 'backward');
-      break;
-    case 'categoryBackward':
-      restoreInitialSort();
-      e.target.removeAttribute('data-sort');
-      break;
-  }
-});
-categoryHeader.setAttribute('title', 'Sort by category');
-categoryHeader.setAttribute('role', 'button');
-*/
-
 // Initially start in a sort by online state
 toggleOnlineSort(onlineHeader);
 
