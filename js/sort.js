@@ -2,6 +2,11 @@
 const table = document.querySelector('table'); // markdown doesn't add ids but we know we want the first table
 table.classList.add('streamer-table');
 
+
+/******************************************************************************
+ **** Sorting
+ *****************************************************************************/
+
 // Get the initialOrder of rows in table, we can trust this is 2-week activity sorted as it is set by a bot
 const initialOrder = Array.from(table.rows);
 let currentSort = 'initial';
@@ -103,5 +108,102 @@ nameHeader.addEventListener('click', function(e) {
 nameHeader.setAttribute('title', 'Sort by streamer name');
 nameHeader.setAttribute('role', 'button');
 
+
+/*
+const categoryHeader = table.querySelector('th:nth-child(6)');
+categoryHeader.addEventListener('click', function(e) {
+  document.querySelectorAll('th[data-sort]').forEach(e => e.removeAttribute('data-sort'));
+  switch (currentSort) {
+    default:
+    case 'initial':
+      Array.from(table.rows)
+        .map(r => [r,r.querySelector('td:nth-child(6)')?.innerText])
+        .filter(r => r[1] !== undefined)
+        .sort((a, b) => a[1].localeCompare(b[1]))
+        .forEach(r => r[0].parentNode.appendChild(r[0]));
+      currentSort = 'categoryForward';
+      e.target.setAttribute('data-sort', 'forward');
+      break;
+    case 'categoryForward':
+      Array.from(table.rows)
+        .map(r => [r,r.querySelector('td:nth-child(6)')?.innerText])
+        .filter(r => r[1] !== undefined)
+        .sort((a,b) => b[1].localeCompare(a[1]))
+        .forEach(r => r[0].parentNode.appendChild(r[0]));
+      currentSort = 'categoryBackward';
+      e.target.setAttribute('data-sort', 'backward');
+      break;
+    case 'categoryBackward':
+      restoreInitialSort();
+      e.target.removeAttribute('data-sort');
+      break;
+  }
+});
+categoryHeader.setAttribute('title', 'Sort by category');
+categoryHeader.setAttribute('role', 'button');
+*/
+
 // Initially start in a sort by online state
 toggleOnlineSort(onlineHeader);
+
+/******************************************************************************
+ *** Filtering
+ *****************************************************************************/
+
+function getLanguages() {
+  const langs = new Set();
+  for (let td of table.querySelectorAll('td:nth-child(4)')) {
+    const content = td.innerText.trim();
+    if (content.length > 0) {
+      langs.add(content);
+    }
+  }
+  return langs;
+}
+
+const filters = new Map();
+getLanguages().forEach(l => filters.set(l, true));
+
+function generateLanguageModal() {
+  const modal = document.createElement('div');
+  modal.setAttribute('role', 'modal');
+  const fields = modal.appendChild(document.createElement('fieldset'));
+  const legend = fields.appendChild(document.createElement('legend'));
+  legend.innerText = 'Language filter';
+
+  const inputs = new Array();
+  for (let [language, filtered] of filters.entries()) {
+    const ID = `filter-checkbox-${language}`;
+    const input = fields.appendChild(document.createElement('input'));
+    input.type = 'checkbox';
+    input.name = language;
+    input.checked = filtered;
+    input.id = ID;
+    const label = fields.appendChild(document.createElement('label'));
+    label.setAttribute('for', ID);
+    label.innerText = language;
+    fields.appendChild(document.createElement('br'));
+
+    inputs.push({ input, ID });
+  }
+
+  const done = fields.appendChild(document.createElement('input'));
+  done.type = 'submit';
+  done.value = 'Done';
+  done.addEventListener('click', () => {
+    for (let input of inputs) {
+      filters.set(input.ID, input.input.checked);
+    }
+    // TODO: Update filtering
+    modal.remove();
+  }, { once: true });
+
+  return modal;
+}
+
+const languageHeader = table.querySelector('th:nth-child(4)');
+languageHeader.addEventListener('click', function(e) {
+  document.body.appendChild(generateLanguageModal());
+})
+languageHeader.setAttribute('title', 'Filter by language');
+languageHeader.setAttribute('role', 'button');
