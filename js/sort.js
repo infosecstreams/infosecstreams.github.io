@@ -184,7 +184,7 @@ function generateLanguageModal() {
     label.innerText = language;
     fields.appendChild(document.createElement('br'));
 
-    inputs.push({ input, ID });
+    inputs.push({ input, language });
   }
 
   const done = fields.appendChild(document.createElement('input'));
@@ -192,7 +192,7 @@ function generateLanguageModal() {
   done.value = 'Done';
   done.addEventListener('click', () => {
     for (let input of inputs) {
-      filters.set(input.ID, input.input.checked);
+      filters.set(input.language, input.input.checked);
     }
     // TODO: Update filtering
     modal.remove();
