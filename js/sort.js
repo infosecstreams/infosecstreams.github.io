@@ -202,7 +202,7 @@ function generateLanguageModal() {
 
     // Update filters, sorry for complicated-ness
     URL.revokeObjectURL(filterStyles.href);
-    const rules = Array.from(filters.entries()).filter(l => l[1] === false).map(l => `.streamer-table tr[data-language=${l[1]}]`);
+    const rules = Array.from(filters.entries()).filter(l => l[1] === false).map(l => `.streamer-table tr[data-language=${l[0]}]`);
     if (rules.length > 0) {
       const blob = new Blob([
         rules.join(',') + ' { display: none }',
