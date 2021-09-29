@@ -135,10 +135,43 @@ function getLanguages() {
 }
 
 const filters = new Map();
+let offlineFiltered = false;
 getLanguages().forEach(l => filters.set(l, true));
 
 const filterStyles = document.head.appendChild(document.createElement('link'));
 filterStyles.rel = 'stylesheet';
+
+function updateStyles(filters, hideOffline) {
+  // Update filters, sorry for complicated-ness
+  const rules = Array.from(filters.entries()).filter(l => l[1] === false).map(l => `.streamer-table tr[data-language=${l[0]}]`);
+  URL.revokeObjectURL(filterStyles.href);
+  const parts = [];
+  if (rules.length > 0) {
+    parts.push(rules.join(',') + ' { display: none } ');
+  }
+  if (hideOffline) {
+    parts.push('tr[data-offline=true] { display: none } ');
+  }
+  if (parts.length > 0) {
+    const blob = new Blob(parts, { type: 'text/css' });
+    filterStyles.href = URL.createObjectURL(blob);
+  } else {
+    filterStyles.href = '';
+  }
+  localStorage.setItem('saved-filters', JSON.stringify({ rules, hideOffline }));
+}
+
+{
+const savedFilters = localStorage.getItem('saved-filters');
+if (savedFilters !== null) {
+  const { rules, hideOffline } = JSON.parse(savedFilters);
+  for (let rule in rules) {
+    filters.set(rule, rules[rule]);
+  }
+  updateStyles(rules, hideOffline);
+  offlineFiltered = hideOffline;
+}
+}
 
 function generateLanguageModal() {
   const modal = document.createElement('div');
@@ -166,7 +199,7 @@ function generateLanguageModal() {
   fields.append(document.createElement('hr'));
   const hideOffline = fields.appendChild(document.createElement('input'));
   hideOffline.type = 'checkbox';
-  hideOffline.checked = false;
+  hideOffline.checked = offlineFiltered;
   hideOffline.id = 'checkbox-hide-offline';
   const hideOfflineLabel = fields.appendChild(document.createElement('label'));
   hideOfflineLabel.innerText = 'Hide offline';
@@ -184,23 +217,8 @@ function generateLanguageModal() {
     }
     modal.remove();
 
-    // Update filters, sorry for complicated-ness
-    URL.revokeObjectURL(filterStyles.href);
-    const rules = Array.from(filters.entries()).filter(l => l[1] === false).map(l => `.streamer-table tr[data-language=${l[0]}]`);
-    const parts = [];
-    if (rules.length > 0) {
-      parts.push(rules.join(',') + ' { display: none } ');
-            filterStyles.href = URL.createObjectURL(blob);
-    }
-    if (hideOffline.checked) {
-      parts.push('tr[data-offline=true] { display: none } ');
-    }
-    if (parts.length > 0) {
-      const blob = new Blob(parts, { type: 'text/css' });
-      filterStyles.href = URL.createObjectURL(blob);
-    } else {
-      filterStyles.href = '';
-    }
+    updateStyles(filters, hideOffline.checked); 
+    offlineFiltered = hideOffline.checked;
   }, { once: true });
 
   return modal;
