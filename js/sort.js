@@ -158,7 +158,7 @@ function updateStyles(filters, hideOffline) {
   } else {
     filterStyles.href = '';
   }
-  localStorage.setItem('saved-filters', JSON.stringify({ rules, hideOffline }));
+  localStorage.setItem('saved-filters', JSON.stringify({ rules: Object.fromEntries(filters), hideOffline }));
 }
 
 {
@@ -168,7 +168,7 @@ if (savedFilters !== null) {
   for (let rule in rules) {
     filters.set(rule, rules[rule]);
   }
-  updateStyles(rules, hideOffline);
+  updateStyles(filters, hideOffline);
   offlineFiltered = hideOffline;
 }
 }
