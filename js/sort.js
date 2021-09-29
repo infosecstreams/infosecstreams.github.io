@@ -115,6 +115,13 @@ toggleOnlineSort(onlineHeader);
  *** Filtering
  *****************************************************************************/
 
+function setupTags() {
+  for (let td of table.querySelectorAll('td:nth-child(1)')) {
+    td.parentElement.setAttribute('data-offline', td.innerText.trim().length === 0);
+  }
+}
+setupTags();
+
 function getLanguages() {
   const langs = new Set();
   for (let td of table.querySelectorAll('td:nth-child(4)')) {
@@ -156,9 +163,21 @@ function generateLanguageModal() {
     inputs.push({ input, language });
   }
 
+  fields.append(document.createElement('hr'));
+  const hideOffline = fields.appendChild(document.createElement('input'));
+  hideOffline.type = 'checkbox';
+  hideOffline.checked = false;
+  hideOffline.id = 'checkbox-hide-offline';
+  const hideOfflineLabel = fields.appendChild(document.createElement('label'));
+  hideOfflineLabel.innerText = 'Hide offline';
+  hideOfflineLabel.setAttribute('for', 'checkbox-hide-offline');
+
+  fields.appendChild(document.createElement('br'));
+
   const done = fields.appendChild(document.createElement('input'));
   done.type = 'submit';
   done.value = 'Done';
+  done.style.width = '100%';
   done.addEventListener('click', () => {
     for (let input of inputs) {
       filters.set(input.language, input.input.checked);
@@ -168,10 +187,16 @@ function generateLanguageModal() {
     // Update filters, sorry for complicated-ness
     URL.revokeObjectURL(filterStyles.href);
     const rules = Array.from(filters.entries()).filter(l => l[1] === false).map(l => `.streamer-table tr[data-language=${l[0]}]`);
+    const parts = [];
     if (rules.length > 0) {
-      const blob = new Blob([
-        rules.join(',') + ' { display: none }',
-      ], { type: 'text/css' });
+      parts.push(rules.join(',') + ' { display: none } ');
+            filterStyles.href = URL.createObjectURL(blob);
+    }
+    if (hideOffline.checked) {
+      parts.push('tr[data-offline=true] { display: none } ');
+    }
+    if (parts.length > 0) {
+      const blob = new Blob(parts, { type: 'text/css' });
       filterStyles.href = URL.createObjectURL(blob);
     } else {
       filterStyles.href = '';
