@@ -211,7 +211,8 @@ function generateLanguageModal() {
   done.type = 'submit';
   done.value = 'Done';
   done.style.width = '100%';
-  done.addEventListener('click', () => {
+
+  function close() {
     for (let input of inputs) {
       filters.set(input.language, input.input.checked);
     }
@@ -219,6 +220,12 @@ function generateLanguageModal() {
 
     updateStyles(filters, hideOffline.checked); 
     offlineFiltered = hideOffline.checked;
+ 
+  }
+
+  done.addEventListener('click', close, { once: true });
+  modal.addEventListener('click', function(e) {
+    if (e.target === modal) close();
   }, { once: true });
 
   return modal;
