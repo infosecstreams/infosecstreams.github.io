@@ -70,7 +70,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `Jonathandata1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Jonathandata1) &nbsp; |
 &nbsp; | `jrozner` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jrozner) &nbsp; |
 &nbsp; | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp; |
-&nbsp; | `TheHackerMaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheHackerMaker) &nbsp; |
+&nbsp; | `TheHackerMaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheHackerMaker) &nbsp; 
 &nbsp; | `Blades_1000` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Blades_1000) &nbsp; |
 &nbsp; | `CyberWarriorStudios` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberWarriorStudios) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g) |
 &nbsp; | `Flangvik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Flangvik) &nbsp; |
