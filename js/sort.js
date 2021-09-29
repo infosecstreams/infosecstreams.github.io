@@ -2,6 +2,11 @@
 const table = document.querySelector('table'); // markdown doesn't add ids but we know we want the first table
 table.classList.add('streamer-table');
 
+
+/******************************************************************************
+ **** Sorting
+ *****************************************************************************/
+
 // Get the initialOrder of rows in table, we can trust this is 2-week activity sorted as it is set by a bot
 const initialOrder = Array.from(table.rows);
 let currentSort = 'initial';
@@ -105,3 +110,130 @@ nameHeader.setAttribute('role', 'button');
 
 // Initially start in a sort by online state
 toggleOnlineSort(onlineHeader);
+
+/******************************************************************************
+ *** Filtering
+ *****************************************************************************/
+
+function setupTags() {
+  for (let td of table.querySelectorAll('td:nth-child(1)')) {
+    td.parentElement.setAttribute('data-offline', td.innerText.trim().length === 0);
+  }
+}
+setupTags();
+
+function getLanguages() {
+  const langs = new Set();
+  for (let td of table.querySelectorAll('td:nth-child(4)')) {
+    const content = td.innerText.trim();
+    if (content.length > 0) {
+      langs.add(content);
+      td.parentElement.setAttribute('data-language', content);
+    }
+  }
+  return langs;
+}
+
+const filters = new Map();
+let offlineFiltered = false;
+getLanguages().forEach(l => filters.set(l, true));
+
+const filterStyles = document.head.appendChild(document.createElement('link'));
+filterStyles.rel = 'stylesheet';
+
+function updateStyles(filters, hideOffline) {
+  // Update filters, sorry for complicated-ness
+  const rules = Array.from(filters.entries()).filter(l => l[1] === false).map(l => `.streamer-table tr[data-language=${l[0]}]`);
+  URL.revokeObjectURL(filterStyles.href);
+  const parts = [];
+  if (rules.length > 0) {
+    parts.push(rules.join(',') + ' { display: none } ');
+  }
+  if (hideOffline) {
+    parts.push('tr[data-offline=true] { display: none } ');
+  }
+  if (parts.length > 0) {
+    const blob = new Blob(parts, { type: 'text/css' });
+    filterStyles.href = URL.createObjectURL(blob);
+  } else {
+    filterStyles.href = '';
+  }
+  localStorage.setItem('saved-filters', JSON.stringify({ rules: Object.fromEntries(filters), hideOffline }));
+}
+
+{
+const savedFilters = localStorage.getItem('saved-filters');
+if (savedFilters !== null) {
+  const { rules, hideOffline } = JSON.parse(savedFilters);
+  for (let rule in rules) {
+    filters.set(rule, rules[rule]);
+  }
+  updateStyles(filters, hideOffline);
+  offlineFiltered = hideOffline;
+}
+}
+
+function generateLanguageModal() {
+  const modal = document.createElement('div');
+  modal.setAttribute('role', 'modal');
+  const fields = modal.appendChild(document.createElement('fieldset'));
+  const legend = fields.appendChild(document.createElement('legend'));
+  legend.innerText = 'Language filter';
+
+  const inputs = new Array();
+  for (let [language, filtered] of filters.entries()) {
+    const ID = `filter-checkbox-${language}`;
+    const input = fields.appendChild(document.createElement('input'));
+    input.type = 'checkbox';
+    input.name = language;
+    input.checked = filtered;
+    input.id = ID;
+    const label = fields.appendChild(document.createElement('label'));
+    label.setAttribute('for', ID);
+    label.innerText = language;
+    fields.appendChild(document.createElement('br'));
+
+    inputs.push({ input, language });
+  }
+
+  fields.append(document.createElement('hr'));
+  const hideOffline = fields.appendChild(document.createElement('input'));
+  hideOffline.type = 'checkbox';
+  hideOffline.checked = offlineFiltered;
+  hideOffline.id = 'checkbox-hide-offline';
+  const hideOfflineLabel = fields.appendChild(document.createElement('label'));
+  hideOfflineLabel.innerText = 'Hide offline';
+  hideOfflineLabel.setAttribute('for', 'checkbox-hide-offline');
+
+  fields.appendChild(document.createElement('br'));
+
+  const done = fields.appendChild(document.createElement('input'));
+  done.type = 'submit';
+  done.value = 'Done';
+  done.style.width = '100%';
+
+  function close() {
+    for (let input of inputs) {
+      filters.set(input.language, input.input.checked);
+    }
+    modal.remove();
+
+    updateStyles(filters, hideOffline.checked); 
+    offlineFiltered = hideOffline.checked;
+ 
+  }
+
+  done.addEventListener('click', close, { once: true });
+  modal.addEventListener('click', function(e) {
+    if (e.target === modal) close();
+  }, { once: true });
+
+  return modal;
+}
+
+const languageHeader = table.querySelector('th:nth-child(4)');
+languageHeader.addEventListener('click', function(e) {
+  document.body.appendChild(generateLanguageModal());
+})
+languageHeader.setAttribute('title', 'Filter by language');
+languageHeader.setAttribute('role', 'button');
