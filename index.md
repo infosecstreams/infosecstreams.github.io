@@ -45,7 +45,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `FroMastr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FroMastr) &nbsp; |
 &nbsp; | `B7H30` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/B7H30) &nbsp; |
 &nbsp; | `c04tl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c04tl) &nbsp; |
-&nbsp; | `lea_cyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lea_cyber) &nbsp; |
+🟢 | `lea_cyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lea_cyber "Just Chatting") &nbsp;  | ES
 &nbsp; | `maikroservice` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/maikroservice) &nbsp; |
 &nbsp; | `zerobandwidth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zerobandwidth) &nbsp; |
 &nbsp; | `Eth0ghost` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Eth0ghost) &nbsp; |
