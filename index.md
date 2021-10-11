@@ -32,7 +32,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `LoneJohnny` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LoneJohnny) &nbsp; |
 &nbsp; | `hackorgame` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackorgame) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA) |
 &nbsp; | `h4ck0rman` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h4ck0rman) &nbsp; |
-🟢 | `HackingIsland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackingIsland "Science & Technology" "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaqcHDqE0DuqoaoVwJQa7vQ) | FR
+🟢 | `HackingIsland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackingIsland "Science & Technology" "Science & Technology" "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaqcHDqE0DuqoaoVwJQa7vQ) | FR
 🟢 | `lea_cyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lea_cyber) &nbsp; | ES
 &nbsp; | `ShellDredd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ShellDredd) &nbsp; |
 &nbsp; | `55keez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/55keez) &nbsp; |
