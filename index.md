@@ -11,16 +11,16 @@ Please contribute missing streams or errors via a [pull request](https://github.
 Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></i> | <i class="fas fa-comment-dots"></i>
 ---: | --- | :--- | :---
 &nbsp; | `LinuxYSeguridad` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LinuxYSeguridad) &nbsp; |
-🟢 | `xn0px90` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xn0px90 "Science & Technology") &nbsp; | EN
+🟢 | `xn0px90` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xn0px90) &nbsp; | EN
 &nbsp; | `paperboygold` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/paperboygold) &nbsp; |
-&nbsp; | `Security_Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Security_Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw) 
+&nbsp; | `Security_Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Security_Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw) |
 &nbsp; | `h8handles` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h8handles) &nbsp; |
-&nbsp; | `S4vitaar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S4vitaar "Just Chatting" "Just Chatting" "Just Chatting") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q) 
+&nbsp; | `S4vitaar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S4vitaar) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q) |
 &nbsp; | `irasakai` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/irasakai) &nbsp; |
-🟢 | `OCEANSGIANT` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OCEANSGIANT "Science & Technology" "Science & Technology" "Science & Technology") &nbsp; | EN
+🟢 | `OCEANSGIANT` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OCEANSGIANT) &nbsp; | EN
 &nbsp; | `LoneJohnny` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LoneJohnny) &nbsp; |
+🟢 | `jbeers11` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jbeers11) &nbsp; | EN
 &nbsp; | `InfosecGuy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfosecGuy) &nbsp; |
-🟢 | `jbeers11` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jbeers11 "Science & Technology" "Science & Technology" "Science & Technology" "Science & Technology" "Science & Technology") &nbsp; | EN
 &nbsp; | `SecurityWeekly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityWeekly) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg) |
 &nbsp; | `Alh4zr3d` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Alh4zr3d) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA) |
 &nbsp; | `ShellDredd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ShellDredd) &nbsp; |
@@ -35,27 +35,29 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 🟢 | `YERTX_CO` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YERTX_CO) &nbsp; | ES
 &nbsp; | `55keez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/55keez) &nbsp; |
 &nbsp; | `Ash_F0x` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Ash_F0x) &nbsp; |
-🟢 | `DOWRIGHT` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DOWRIGHT "Science & Technology" "Science & Technology" "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/dowrighttv) | EN
+🟢 | `DOWRIGHT` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DOWRIGHT) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/dowrighttv) | EN
 &nbsp; | `blvkhakr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blvkhakr) &nbsp; |
 &nbsp; | `endingwithali` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/endingwithali) &nbsp; |
 &nbsp; | `Defcon201Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Defcon201Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/defcon201) |
 &nbsp; | `jrozner` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jrozner) &nbsp; |
 &nbsp; | `Libereau` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Libereau) &nbsp; |
+&nbsp; | `LuNiZz` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LuNiZz) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/CanDeger) |
+&nbsp; | `ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b) &nbsp; |
 &nbsp; | `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg) |
 &nbsp; | `badatcomputers` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/badatcomputers) &nbsp; |
 &nbsp; | `0xJ3lly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xJ3lly) &nbsp; |
 &nbsp; | `Skyfire100` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Skyfire100) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEko--V_KFSGMdxJOfgTVzQ) |
 &nbsp; | `Thegwar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Thegwar) &nbsp; |
 &nbsp; | `InfosecHouse` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfosecHouse) &nbsp; |
-&nbsp; | `LuNiZz` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LuNiZz "Just Chatting") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/CanDeger) 
 &nbsp; | `TheGoodHackerTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheGoodHackerTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeeOzvMFfd2qcUFIGN_Nzyw) |
-&nbsp; | `ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b "Science & Technology" "Science & Technology" "Science & Technology") &nbsp; 
 &nbsp; | `Jonathandata1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Jonathandata1) &nbsp; |
 &nbsp; | `optionalctf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/optionalctf) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA) |
 &nbsp; | `ZKuaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ZKuaker) &nbsp; |
 &nbsp; | `AgeOfEntropy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AgeOfEntropy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCitiWg5p-R6QNLPuJPSE33g) |
 &nbsp; | `BanjoCrashland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BanjoCrashland) &nbsp; |
+&nbsp; | `Flangvik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Flangvik) &nbsp; |
 &nbsp; | `GoProSlowYo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GoProSlowYo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1) |
+&nbsp; | `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; |
 &nbsp; | `SpiceySec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SpiceySec) &nbsp; |
 &nbsp; | `Technology_Interpreters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Technology_Interpreters) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/user/TechInterpreterInc) |
 &nbsp; | `AlexChaveriat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AlexChaveriat) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/AlexChaveriat/videos) |
@@ -69,8 +71,6 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `0xBufu` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xBufu) &nbsp; |
 &nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) |
 &nbsp; | `AyWang` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AyWang) &nbsp; |
-&nbsp; | `Flangvik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Flangvik) &nbsp; 
-&nbsp; | `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec "Science & Technology" "Science & Technology" "Science & Technology") &nbsp; 
 &nbsp; | `securityfwd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securityfwd) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g) |
 &nbsp; | `TheHackerMaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheHackerMaker) &nbsp; |
 &nbsp; | `XeSquirmy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/XeSquirmy) &nbsp; |
