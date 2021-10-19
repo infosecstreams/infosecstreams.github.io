@@ -35,7 +35,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `55keez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/55keez) &nbsp; |
 &nbsp; | `Ash_F0x` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Ash_F0x) &nbsp; |
 &nbsp; | `InfayerTS` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfayerTS) &nbsp; |
-&nbsp; | `Tr_H` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Tr_H) &nbsp; |
+&nbsp; | `Tr_H` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Tr_H) &nbsp; 
 &nbsp; | `endingwithali` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/endingwithali) &nbsp; |
 🟢 | `YERTX_CO` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YERTX_CO) &nbsp; | ES
 &nbsp; | `Anyascii` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Anyascii) &nbsp; |
