@@ -64,7 +64,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `DCCyberSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DCCyberSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC3sccPO4v8YqCTn8sezZGTw) |
 &nbsp; | `Flangvik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Flangvik) &nbsp; |
 &nbsp; | `thecybermentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) |
-&nbsp; | `0xJ3lly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xJ3lly) &nbsp; |
+🟢 | `0xJ3lly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xJ3lly "Science & Technology") &nbsp; | EN
 &nbsp; | `BanjoCrashland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BanjoCrashland) &nbsp; |
 &nbsp; | `ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b) &nbsp; |
 &nbsp; | `Firzen14` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Firzen14) &nbsp; |
