@@ -81,7 +81,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `TheHackerMaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheHackerMaker) &nbsp; |
 &nbsp; | `CyberWarriorStudios` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberWarriorStudios) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g) |
 &nbsp; | `EightBitOni` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/EightBitOni) &nbsp; |
-🟢 | `hackbacc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackbacc "Science & Technology" "Science & Technology") &nbsp; | EN
+&nbsp; | `hackbacc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackbacc "Science & Technology" "Science & Technology") &nbsp; 
 &nbsp; | `mbcrump` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mbcrump) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog) |
 &nbsp; | `PwnSchool` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PwnSchool) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/ThePwnSchoolProject) |
 &nbsp; | `0xa_LilKelly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xa_LilKelly) &nbsp; |
