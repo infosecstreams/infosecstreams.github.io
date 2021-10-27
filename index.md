@@ -97,7 +97,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `creminer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/creminer) &nbsp; |
 &nbsp; | `curi0usjack` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/curi0usjack) &nbsp; |
 &nbsp; | `Cyber_Insecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Cyber_Insecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg) |
-🟢 | `cyber_v1s3rion` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cyber_v1s3rion "Science & Technology" "Science & Technology" "Science & Technology") &nbsp; | EN
+🟢 | `cyber_v1s3rion` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cyber_v1s3rion "Science & Technology" "Science & Technology" "Science & Technology" "Science & Technology") &nbsp; | EN
 &nbsp; | `d0nutptr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/d0nutptr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/d0nutptr) |
 &nbsp; | `DarkStar7471` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DarkStar7471) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0R_-7yQPoGpkPR9ITzDFFQ) |
 &nbsp; | `DevNullZen` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DevNullZen) &nbsp; |
