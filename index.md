@@ -10,8 +10,8 @@ Please contribute missing streams or errors via a [pull request](https://github.
 
 Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></i> | <i class="fas fa-comment-dots"></i>
 ---: | --- | :--- | :---
-🟢 | `LinuxYSeguridad` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LinuxYSeguridad "Science & Technology" "Science & Technology") &nbsp; | ES
-&nbsp; | `xn0px90` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xn0px90 "Science & Technology" "Science & Technology") &nbsp; 
+🟢 | `LinuxYSeguridad` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LinuxYSeguridad) &nbsp; | ES
+&nbsp; | `xn0px90` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xn0px90) &nbsp; |
 &nbsp; | `Security_Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Security_Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw) |
 &nbsp; | `OCEANSGIANT` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OCEANSGIANT) &nbsp; |
 &nbsp; | `jbeers11` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jbeers11) &nbsp; |
@@ -28,7 +28,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `endingwithali` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/endingwithali) &nbsp; |
 &nbsp; | `h4ck0rman` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h4ck0rman) &nbsp; |
 &nbsp; | `irasakai` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/irasakai) &nbsp; |
-🟢 | `lea_cyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lea_cyber "Just Chatting" "Just Chatting" "Just Chatting") &nbsp; | ES
+🟢 | `lea_cyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lea_cyber) &nbsp; | ES
 &nbsp; | `ShellDredd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ShellDredd) &nbsp; |
 &nbsp; | `BeauKnowsTech` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BeauKnowsTech) &nbsp; |
 &nbsp; | `GoProSlowYo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GoProSlowYo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1) |
@@ -107,7 +107,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `esdn_tv` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/esdn_tv) &nbsp; |
 &nbsp; | `fearless0523` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/fearless0523) &nbsp; |
 &nbsp; | `footpics4sale` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/footpics4sale) &nbsp; |
-&nbsp; | `FroMastr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FroMastr) &nbsp; 
+&nbsp; | `FroMastr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FroMastr) &nbsp; |
 &nbsp; | `gamozo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gamozo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA) |
 &nbsp; | `GrumpyHackers` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GrumpyHackers) &nbsp; |
 &nbsp; | `hattondog` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hattondog) &nbsp; |
