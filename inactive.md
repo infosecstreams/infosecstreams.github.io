@@ -52,7 +52,6 @@ Hey there! This page contains streamers that have not streamed at all in the las
 `SawyerOne` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SawyerOne) &nbsp;
 `smash8tap` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/smash8tap) &nbsp;
 `stokfredrik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/stokfredrik) &nbsp;
-`Techryptic` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Techryptic) &nbsp;
 `thecybermentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
 `TheManyHatsClub` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheManyHatsClub) &nbsp;
 `TryHackMe` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TryHackMe) &nbsp;
