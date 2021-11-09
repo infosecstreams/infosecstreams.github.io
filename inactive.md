@@ -6,6 +6,7 @@ Hey there! This page contains streamers that have not streamed at all in the las
 
 <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></i>
 --: | ---
+`0reoByte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0reoByte) &nbsp;
 `0xBufu` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xBufu) &nbsp;
 `0xChance` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xChance) &nbsp;
 `55keez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/55keez) &nbsp;
