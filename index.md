@@ -78,7 +78,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `SpiceySec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SpiceySec) &nbsp; |
 &nbsp; | `0xBufu` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xBufu) &nbsp; |
 &nbsp; | `0xChance` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xChance) &nbsp; |
-&nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) |
+&nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) 
 &nbsp; | `aHaquer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/aHaquer) &nbsp; |
 &nbsp; | `appsectribe` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/appsectribe) &nbsp; |
 &nbsp; | `AyWang` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AyWang) &nbsp; |
