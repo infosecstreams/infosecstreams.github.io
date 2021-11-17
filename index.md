@@ -50,7 +50,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `asuhackingclub` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/asuhackingclub) &nbsp; |
 &nbsp; | `BHEH1337` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BHEH1337) &nbsp; |
 &nbsp; | `Firzen14` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Firzen14) &nbsp; |
-🟢 | `GoProSlowYo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GoProSlowYo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1) | EN
+&nbsp; | `GoProSlowYo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GoProSlowYo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1) 
 &nbsp; | `Skyfire100` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Skyfire100) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEko--V_KFSGMdxJOfgTVzQ) |
 &nbsp; | `TheHackerMaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheHackerMaker) &nbsp; |
 &nbsp; | `blvkhakr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blvkhakr) &nbsp; |
