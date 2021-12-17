@@ -63,7 +63,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `HackTheBox` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTheBox) &nbsp; 
 &nbsp; | `InfayerTS` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfayerTS) &nbsp; |
 &nbsp; | `InfosecHouse` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfosecHouse) &nbsp; |
-🟢 | `securityfwd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securityfwd "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g) | EN
+🟢 | `securityfwd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securityfwd "Science & Technology" "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g) | EN
 &nbsp; | `GrumpyHackers` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GrumpyHackers) &nbsp; |
 &nbsp; | `KOkencyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KOkencyber) &nbsp; |
 &nbsp; | `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; |
