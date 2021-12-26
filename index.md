@@ -42,7 +42,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `hackingesports` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackingesports) &nbsp; |
 &nbsp; | `InfamousJoeG` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfamousJoeG) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCDtQCYeZdOYtNzyh9VNAlNQ) |
 &nbsp; | `InfosecHouse` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfosecHouse) &nbsp; |
-🟢 | `LuNiZz` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LuNiZz "Just Chatting") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/CanDeger) | TR
+🟢 | `LuNiZz` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LuNiZz "Just Chatting" "Just Chatting") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/CanDeger) | TR
 &nbsp; | `Technology_Interpreters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Technology_Interpreters) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/user/TechInterpreterInc) |
 &nbsp; | `CyberWarriorStudios` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberWarriorStudios) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g) |
 &nbsp; | `dayzerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dayzerosec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA) |
