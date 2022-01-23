@@ -14,7 +14,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `irasakai` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/irasakai) &nbsp; 
 &nbsp; | `jbeers11` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jbeers11 "Science & Technology" "Science & Technology") &nbsp; 
 &nbsp; | `S4vitaar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S4vitaar "Just Chatting") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q) 
-🟢 | `B7H30` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/B7H30 "Just Chatting" "Just Chatting") &nbsp; | EN
+🟢 | `B7H30` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/B7H30 "Just Chatting" "Just Chatting" "Just Chatting") &nbsp; | EN
 &nbsp; | `Alh4zr3d` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Alh4zr3d) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA) |
 &nbsp; | `SecurityWeekly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityWeekly) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg) |
 &nbsp; | `YERTX_CO` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YERTX_CO) &nbsp; |
