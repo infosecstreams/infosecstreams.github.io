@@ -28,7 +28,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `curi0usjack` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/curi0usjack) &nbsp; |
 &nbsp; | `0xj3lly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xj3lly) &nbsp; |
 &nbsp; | `maikroservice` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/maikroservice) &nbsp; |
-🟢 | `HackingIsland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackingIsland "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaqcHDqE0DuqoaoVwJQa7vQ) | FR
+🟢 | `HackingIsland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackingIsland "Science & Technology" "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaqcHDqE0DuqoaoVwJQa7vQ) | FR
 &nbsp; | `Anyascii` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Anyascii) &nbsp; |
 &nbsp; | `LiveOverflow` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LiveOverflow) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/LiveOverflow) |
 &nbsp; | `ShellDredd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ShellDredd) &nbsp; |
