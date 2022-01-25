@@ -122,7 +122,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `poocha_police` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/poocha_police) &nbsp; |
 &nbsp; | `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCBaWwFw7KmCN8YlfX4ERYKg) |
 &nbsp; | `RastaM0us3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RastaM0us3) &nbsp; |
-🟢 | `RedSiegeInfoSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RedSiegeInfoSec "Talk Shows & Podcasts" "Talk Shows & Podcasts" "Talk Shows & Podcasts" "Talk Shows & Podcasts") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC4rR_-qnJXny4LsCfxW418g) | EN
+&nbsp; | `RedSiegeInfoSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RedSiegeInfoSec "Talk Shows & Podcasts" "Talk Shows & Podcasts" "Talk Shows & Podcasts" "Talk Shows & Podcasts") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC4rR_-qnJXny4LsCfxW418g) 
 &nbsp; | `Ryskill` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Ryskill) &nbsp; |
 &nbsp; | `saucysec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/saucysec) &nbsp; |
 &nbsp; | `Sharghaas` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sharghaas) &nbsp; |
