@@ -11,10 +11,9 @@ Hey there! This page contains streamers that have not streamed at all in the las
 `0xChance` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xChance) &nbsp;
 `0xSaihat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xSaihat) &nbsp;
 `55keez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/55keez) &nbsp;
-`aHaquer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/aHaquer) &nbsp;
-`appsectribe` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/appsectribe) &nbsp;
-`asuhackingclub` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/asuhackingclub) &nbsp;
-`badatcomputers` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/badatcomputers) &nbsp;
+`Alomancy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Alomancy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
+`Ash_F0x` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Ash_F0x) &nbsp;
+`AyWang` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AyWang) &nbsp;
 `bee_sec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/bee_sec) &nbsp;
 `blindpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blindpentester) &nbsp;
 `c04tl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c04tl) &nbsp;
@@ -33,9 +32,8 @@ Hey there! This page contains streamers that have not streamed at all in the las
 `footpics4sale` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/footpics4sale) &nbsp;
 `FroMastr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FroMastr) &nbsp;
 `gamozo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gamozo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
-`Goldwave__` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Goldwave__) &nbsp;
-`h313n_0f_t0r` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h313n_0f_t0r) &nbsp;
-`HackerOneTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerOneTV) &nbsp;
+`GrumpyHackers` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GrumpyHackers) &nbsp;
+`hackbacc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackbacc) &nbsp;
 `HackingEsports_eng` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackingEsports_eng) &nbsp;
 `hattondog` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hattondog) &nbsp;
 `heyJ4X0N` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/heyJ4X0N) &nbsp;
@@ -62,14 +60,15 @@ Hey there! This page contains streamers that have not streamed at all in the las
 `SherlockSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SherlockSec) &nbsp;
 `softexploit` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/softexploit) &nbsp;
 `stokfredrik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/stokfredrik) &nbsp;
-`Techryptic` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Techryptic) &nbsp;
-`TheGoodHackerTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheGoodHackerTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeeOzvMFfd2qcUFIGN_Nzyw)
-`TheMayor11` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheMayor11) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
-`TryHackMe` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TryHackMe) &nbsp;
-`UnPentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/UnPentester) &nbsp;
-`Westar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Westar) &nbsp;
-`xn0px90` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xn0px90) &nbsp;
-`xychelsea87` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xychelsea87) &nbsp;
+`sup3rhero1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/sup3rhero1) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/superhero1)
+`Th3lazykid` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Th3lazykid) &nbsp;
+`themanyhatsclub` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/themanyhatsclub) &nbsp;
+`Tr_H` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Tr_H) &nbsp;
+`uncle_tambour` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/uncle_tambour) &nbsp;
+`VandalTheGrey` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/VandalTheGrey) &nbsp;
+`XeSquirmy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/XeSquirmy) &nbsp;
+`xThe_Developer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThe_Developer) &nbsp;
+`zerobandwidth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zerobandwidth) &nbsp;
 
 ### Credits
 
