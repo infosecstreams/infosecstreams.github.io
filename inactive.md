@@ -41,16 +41,17 @@ Hey there! This page contains streamers that have not streamed at all in the las
 `justinsteven` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/justinsteven) &nbsp;
 `kegnsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kegnsec) &nbsp;
 `lea_cyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lea_cyber) &nbsp;
-`LoneJohnny` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LoneJohnny) &nbsp;
-`MagneticPenguin` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MagneticPenguin) &nbsp;
-`majksec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/majksec) &nbsp;
-`MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q)
-`MrCrumbs_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MrCrumbs_) &nbsp;
-`MVLWVR3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MVLWVR3) &nbsp;
-`Nirloy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Nirloy) &nbsp;
-`OJReeves` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OJReeves) &nbsp;
-`overgrowncarrot1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/overgrowncarrot1) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://youtube.com/channel/UCykh1fzT0LK-9wVhn8ocLaA)
-`PRIMALmk` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PRIMALmk) &nbsp;
+`lMinzarl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lMinzarl) &nbsp;
+`ltn_bob` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ltn_bob) &nbsp;
+`magnologanxp` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/magnologanxp) &nbsp;
+`mbcrump` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mbcrump) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
+`mell0wx` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mell0wx) &nbsp;
+`MSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCu9ybrID4Ak5pDU-6E5ph5Q)
+`NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec)
+`ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp;
+`optionalctf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/optionalctf) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
+`poocha_police` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/poocha_police) &nbsp;
+`pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege)
 `quercusvirginiana` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/quercusvirginiana) &nbsp;
 `RedFox0x20` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RedFox0x20) &nbsp;
 `Ryskill` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Ryskill) &nbsp;
@@ -62,12 +63,12 @@ Hey there! This page contains streamers that have not streamed at all in the las
 `Tealkine` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Tealkine) &nbsp;
 `Techryptic` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Techryptic) &nbsp;
 `thecybermentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)
-`themanyhatsclub` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/themanyhatsclub) &nbsp;
-`TryHackMe` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TryHackMe) &nbsp;
-`UnPentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/UnPentester) &nbsp;
-`XeSquirmy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/XeSquirmy) &nbsp;
-`xThe_Developer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThe_Developer) &nbsp;
-`zerobandwidth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zerobandwidth) &nbsp;
+`TheHackerMaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheHackerMaker) &nbsp;
+`TheMayor11` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheMayor11) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
+`uncle_tambour` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/uncle_tambour) &nbsp;
+`VandalTheGrey` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/VandalTheGrey) &nbsp;
+`xn0px90` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xn0px90) &nbsp;
+`xychelsea87` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xychelsea87) &nbsp;
 
 ### Credits
 
