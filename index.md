@@ -36,7 +36,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `Anyascii` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Anyascii) &nbsp; |
 &nbsp; | `maikroservice` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/maikroservice) &nbsp; |
 &nbsp; | `InfosecGuy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfosecGuy) &nbsp; |
-&nbsp; | `OCEANSGIANT` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OCEANSGIANT) &nbsp; |
+&nbsp; | `OCEANSGIANT` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OCEANSGIANT) &nbsp; 
 &nbsp; | `BanjoCrashland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BanjoCrashland) &nbsp; |
 &nbsp; | `H4ck3rKy13` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/H4ck3rKy13) &nbsp; |
 &nbsp; | `Libereau` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Libereau) &nbsp; |
