@@ -31,7 +31,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `Anyascii` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Anyascii) &nbsp; |
 &nbsp; | `BlackSheepSpicy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlackSheepSpicy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC2JbRIzd7qmUgvS7oZ7BUpA) |
 🟢 | `GoProSlowYo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GoProSlowYo "Software and Game Development" "Software and Game Development" "Software and Game Development" "Software and Game Development") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1) | EN
-🟢 | `ShellDredd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ShellDredd "Science & Technology" "Science & Technology" "Science & Technology" "Science & Technology") &nbsp; | ES
+&nbsp; | `ShellDredd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ShellDredd "Science & Technology" "Science & Technology" "Science & Technology" "Science & Technology") &nbsp; 
 &nbsp; | `xn0px90` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xn0px90) &nbsp; |
 &nbsp; | `MSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCu9ybrID4Ak5pDU-6E5ph5Q) |
 &nbsp; | `piratemoo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/piratemoo) &nbsp; |
