@@ -57,7 +57,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `h4ck0rman` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h4ck0rman) &nbsp; |
 &nbsp; | `h8handles` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h8handles) &nbsp; |
 &nbsp; | `lea_cyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lea_cyber) &nbsp; |
-&nbsp; | `MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q) |
+&nbsp; | `MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q) 
 &nbsp; | `Thegwar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Thegwar) &nbsp; |
 &nbsp; | `AgeOfEntropy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AgeOfEntropy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCitiWg5p-R6QNLPuJPSE33g) |
 &nbsp; | `blacksincybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blacksincybersecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEBEQ0oRA2LPnc2wm2TO5IA) |
