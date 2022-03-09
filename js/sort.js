@@ -34,7 +34,7 @@ function toggleOnlineSort(headerElement) {
           const aPos = initialOrder.indexOf(a[0]);
           const bPos = initialOrder.indexOf(b[0]);
 
-          return aPos-bPos;
+          return aPos - bPos;
         })
         .forEach(r => r[0].parentNode.appendChild(r[0]));
       currentSort = 'online';
@@ -54,7 +54,7 @@ function toggleOnlineSort(headerElement) {
           const aPos = initialOrder.indexOf(a[0]);
           const bPos = initialOrder.indexOf(b[0]);
 
-          return aPos-bPos;
+          return aPos - bPos;
         })
         .forEach(r => r[0].parentNode.appendChild(r[0]));
       currentSort = 'offline';
@@ -69,7 +69,7 @@ function toggleOnlineSort(headerElement) {
 
 // Online/Offline sort
 const onlineHeader = table.querySelector('th:nth-child(1)');
-onlineHeader.addEventListener('click', function(e) {
+onlineHeader.addEventListener('click', function (e) {
   toggleOnlineSort(e.target);
 });
 onlineHeader.setAttribute('title', 'Sort by online status');
@@ -77,7 +77,7 @@ onlineHeader.setAttribute('role', 'button');
 
 // Name sort
 const nameHeader = table.querySelector('th:nth-child(2)');
-nameHeader.addEventListener('click', function(e) {
+nameHeader.addEventListener('click', function (e) {
   document.querySelectorAll('th[data-sort]').forEach(e => e.removeAttribute('data-sort'));
   switch (currentSort) {
     default:
@@ -162,15 +162,15 @@ function updateStyles(filters, hideOffline) {
 }
 
 {
-const savedFilters = localStorage.getItem('saved-filters');
-if (savedFilters !== null) {
-  const { rules, hideOffline } = JSON.parse(savedFilters);
-  for (let rule in rules) {
-    filters.set(rule, rules[rule]);
+  const savedFilters = localStorage.getItem('saved-filters');
+  if (savedFilters !== null) {
+    const { rules, hideOffline } = JSON.parse(savedFilters);
+    for (let rule in rules) {
+      filters.set(rule, rules[rule]);
+    }
+    updateStyles(filters, hideOffline);
+    offlineFiltered = hideOffline;
   }
-  updateStyles(filters, hideOffline);
-  offlineFiltered = hideOffline;
-}
 }
 
 function generateLanguageModal() {
@@ -218,13 +218,13 @@ function generateLanguageModal() {
     }
     modal.remove();
 
-    updateStyles(filters, hideOffline.checked); 
+    updateStyles(filters, hideOffline.checked);
     offlineFiltered = hideOffline.checked;
- 
+
   }
 
   done.addEventListener('click', close, { once: true });
-  modal.addEventListener('click', function(e) {
+  modal.addEventListener('click', function (e) {
     if (e.target === modal) close();
   }, { once: true });
 
@@ -232,7 +232,7 @@ function generateLanguageModal() {
 }
 
 const languageHeader = table.querySelector('th:nth-child(4)');
-languageHeader.addEventListener('click', function(e) {
+languageHeader.addEventListener('click', function (e) {
   document.body.appendChild(generateLanguageModal());
 })
 languageHeader.setAttribute('title', 'Filter by language');
