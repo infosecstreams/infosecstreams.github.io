@@ -61,7 +61,7 @@ Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></
 &nbsp; | `Defcon201Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Defcon201Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/defcon201) |
 &nbsp; | `Firzen14` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Firzen14) &nbsp; |
 &nbsp; | `h8handles` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h8handles) &nbsp; |
-🟢 | `hackorgame` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackorgame "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA) | ES
+🟢 | `hackorgame` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackorgame "Science & Technology" "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA) | ES
 &nbsp; | `Thegwar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Thegwar) &nbsp; |
 &nbsp; | `c04tl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c04tl) &nbsp; |
 &nbsp; | `cyber_v1s3rion` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cyber_v1s3rion) &nbsp; |
