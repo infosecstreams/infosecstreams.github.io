@@ -4,7 +4,7 @@
 @import "jekyll-theme-hacker";
 
 .streamer-table {
-  table-layout: fixed;
+  table-layout: auto;
   
   th[role=button] {
     cursor: pointer;
