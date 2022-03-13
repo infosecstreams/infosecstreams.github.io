@@ -4,14 +4,22 @@
 @import "jekyll-theme-hacker";
 
 .streamer-table {
-  table-layout: fixed;
+  table-layout: auto;
   
   th[role=button] {
     cursor: pointer;
   }
 
   th {
-    white-space: nowrap;
+    white-space: pre-wrap;
+  }
+
+  th:nth-child(1)::before {
+    content: "Online";
+  }
+
+  th::after {
+    content: "  ";
   }
 
   th[data-sort="forward"]::after {
@@ -37,4 +45,17 @@
 
 [role=modal] > * {
   background: $body-background;
+}
+
+/* Rules for small screens */
+@media (max-width: 700px) {
+  .streamer-table {
+    th:nth-child(4), td:nth-child(4) {
+      display:none;
+    }
+
+    th:nth-child(1)::before {
+      content: "🟢";
+    }
+  }
 }
