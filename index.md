@@ -19,7 +19,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 🟢 | `spacepenguins101` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/spacepenguins101 "Science & Technology") &nbsp; | EN
 &nbsp; | `kristiee` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kristiee) &nbsp; |
 &nbsp; | `Anyascii` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Anyascii) &nbsp; |
-🟢 | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec "Talk Shows & Podcasts") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) | EN
+&nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec "Talk Shows & Podcasts") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) 
 &nbsp; | `MSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCu9ybrID4Ak5pDU-6E5ph5Q) |
 &nbsp; | `SecurityWeekly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityWeekly "Science & Technology" "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg) 
 &nbsp; | `xThalach` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThalach "Science & Technology") &nbsp; 
