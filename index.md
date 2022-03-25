@@ -37,7 +37,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 &nbsp; | `endingwithali` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/endingwithali) &nbsp; |
 &nbsp; | `RxHackk` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RxHackk) &nbsp; |
 &nbsp; | `0reoByte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0reoByte) &nbsp; |
-&nbsp; | `InfayerTS` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfayerTS) &nbsp; |
+🟢 | `InfayerTS` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfayerTS "Science & Technology") &nbsp; | ES
 &nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) |
 &nbsp; | `Defcon201Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Defcon201Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/defcon201) |
 🟢 | `footpics4sale` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/footpics4sale) &nbsp; | EN
