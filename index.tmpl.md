@@ -8,7 +8,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 
 ## List of Streams (sorted)
 
-Online | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></i> | <i class="fas fa-comment-dots"></i>
+&nbsp; | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></i> | <i class="fas fa-comment-dots"></i>
 ---: | --- | :--- | :---
 
 ### Useful links
