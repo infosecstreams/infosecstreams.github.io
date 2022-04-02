@@ -28,7 +28,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 &nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) |
 &nbsp; | `4rtii_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/4rtii_) &nbsp; |
 &nbsp; | `hackorgame` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackorgame) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA) |
-&nbsp; | `xn0px90` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xn0px90) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClBupMnkD1oZ49_xBbiUKBg) 
+🟢 | `xn0px90` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xn0px90 "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClBupMnkD1oZ49_xBbiUKBg) | EN
 &nbsp; | `Garr_7` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Garr_7) &nbsp; |
 &nbsp; | `LinuxYSeguridad` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LinuxYSeguridad) &nbsp; |
 &nbsp; | `RxHackk` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RxHackk) &nbsp; |
