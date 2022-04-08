@@ -88,7 +88,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 &nbsp; | `pwninx` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwninx) &nbsp; |
 &nbsp; | `SpiceySec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SpiceySec) &nbsp; |
 &nbsp; | `Tr_H` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Tr_H) &nbsp; |
-&nbsp; | `BarSides` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BarSides) &nbsp; |
+&nbsp; | `BarSides` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BarSides) &nbsp; 
 &nbsp; | `ctfandcigars` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ctfandcigars) &nbsp; |
 &nbsp; | `InfosecGuy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfosecGuy) &nbsp; |
 &nbsp; | `piratemoo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/piratemoo) &nbsp; |
