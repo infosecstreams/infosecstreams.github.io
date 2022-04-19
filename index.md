@@ -135,7 +135,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 &nbsp; | `fearless0523` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/fearless0523) &nbsp; |
 &nbsp; | `g1ng3rr00t` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g1ng3rr00t) &nbsp; |
 &nbsp; | `h4ck0rman` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h4ck0rman) &nbsp; |
-🟢 | `HackerOneTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerOneTV "Science & Technology" "Science & Technology") &nbsp; | EN
+&nbsp; | `HackerOneTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerOneTV "Science & Technology" "Science & Technology") &nbsp; 
 &nbsp; | `InfamousJoeG` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfamousJoeG) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCDtQCYeZdOYtNzyh9VNAlNQ) |
 &nbsp; | `Jonathandata1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Jonathandata1) &nbsp; |
 &nbsp; | `justinsteven` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/justinsteven) &nbsp; |
