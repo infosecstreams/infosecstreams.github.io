@@ -84,7 +84,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 &nbsp; | `blacksincybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blacksincybersecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEBEQ0oRA2LPnc2wm2TO5IA) |
 &nbsp; | `h8handles` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h8handles) &nbsp; |
 &nbsp; | `InfosecGuy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfosecGuy) &nbsp; |
-🟢 | `RedSiegeInfoSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RedSiegeInfoSec "Talk Shows & Podcasts" "Talk Shows & Podcasts" "Talk Shows & Podcasts" "Talk Shows & Podcasts") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC4rR_-qnJXny4LsCfxW418g) | EN
+&nbsp; | `RedSiegeInfoSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RedSiegeInfoSec "Talk Shows & Podcasts" "Talk Shows & Podcasts" "Talk Shows & Podcasts" "Talk Shows & Podcasts") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC4rR_-qnJXny4LsCfxW418g) 
 &nbsp; | `c04tl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c04tl) &nbsp; |
 &nbsp; | `HackerOneTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerOneTV) &nbsp; |
 &nbsp; | `0xCardinal` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xCardinal) &nbsp; |
