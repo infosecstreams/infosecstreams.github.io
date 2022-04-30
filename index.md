@@ -61,7 +61,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 &nbsp; | `0reoByte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0reoByte) &nbsp; |
 &nbsp; | `Djax120` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Djax120) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg) |
 &nbsp; | `Flangvik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Flangvik) &nbsp; |
-&nbsp; | `H4ck3rKy13` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/H4ck3rKy13) &nbsp; |
+&nbsp; | `H4ck3rKy13` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/H4ck3rKy13) &nbsp; 
 &nbsp; | `LuNiZz` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LuNiZz) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/CanDeger) |
 &nbsp; | `AgeOfEntropy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AgeOfEntropy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCitiWg5p-R6QNLPuJPSE33g) |
 &nbsp; | `Khaos_Farbauti` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Khaos_Farbauti) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/KhaosFarbautiIbnOblivion) |
