@@ -49,7 +49,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 &nbsp; | `ShellDredd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ShellDredd) &nbsp; |
 &nbsp; | `4rtii_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/4rtii_) &nbsp; |
 &nbsp; | `Flangvik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Flangvik) &nbsp; |
-🟢 | `CyberTechVibes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberTechVibes "Just Chatting" "Just Chatting" "Just Chatting") &nbsp; | EN
+&nbsp; | `CyberTechVibes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberTechVibes "Just Chatting" "Just Chatting" "Just Chatting") &nbsp; 
 &nbsp; | `gereshk_pnw` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gereshk_pnw) &nbsp; |
 &nbsp; | `Khaos_Farbauti` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Khaos_Farbauti) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/KhaosFarbautiIbnOblivion) |
 &nbsp; | `CybeeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybeeSec) &nbsp; |
