@@ -130,7 +130,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 &nbsp; | `OJReeves` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OJReeves) &nbsp; |
 &nbsp; | `paperboygold` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/paperboygold) &nbsp; |
 &nbsp; | `poocha_police` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/poocha_police) &nbsp; |
-&nbsp; | `purplebyteone` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/purplebyteone) &nbsp; |
+&nbsp; | `purplebyteone` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/purplebyteone) &nbsp; 
 &nbsp; | `pwninx` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwninx) &nbsp; |
 &nbsp; | `RastaM0us3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RastaM0us3) &nbsp; |
 &nbsp; | `RedTeamMedic` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RedTeamMedic) &nbsp; |
