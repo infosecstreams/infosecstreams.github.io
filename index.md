@@ -83,7 +83,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 &nbsp; | `HackerMentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerMentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCl8jDIq12kkP9YBj1TJY-6Q) |
 &nbsp; | `HackingEsports_eng` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackingEsports_eng) &nbsp; |
 &nbsp; | `RedSiegeInfoSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RedSiegeInfoSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC4rR_-qnJXny4LsCfxW418g) |
-🟢 | `spacepenguins101` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/spacepenguins101 "Science & Technology" "Science & Technology") &nbsp; | EN
+&nbsp; | `spacepenguins101` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/spacepenguins101 "Science & Technology" "Science & Technology") &nbsp; 
 &nbsp; | `SpiceySec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SpiceySec) &nbsp; |
 &nbsp; | `HackerOneTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerOneTV) &nbsp; |
 &nbsp; | `optionalctf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/optionalctf) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA) |
