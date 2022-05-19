@@ -141,7 +141,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 &nbsp; | `Sharghaas` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sharghaas) &nbsp; |
 &nbsp; | `SlickPupStream` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SlickPupStream) &nbsp; |
 &nbsp; | `softexploit` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/softexploit) &nbsp; |
-🟢 | `streambytes_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/streambytes_ "Science & Technology" "Science & Technology" "Science & Technology") &nbsp; | EN
+🟢 | `streambytes_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/streambytes_ "Science & Technology" "Science & Technology" "Science & Technology" "Science & Technology") &nbsp; | EN
 &nbsp; | `Tealkine` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Tealkine) &nbsp; |
 &nbsp; | `Th3lazykid` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Th3lazykid) &nbsp; |
 &nbsp; | `TheHackerMaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheHackerMaker) &nbsp; |
