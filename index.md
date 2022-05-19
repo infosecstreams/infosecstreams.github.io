@@ -111,7 +111,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 &nbsp; | `fearless0523` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/fearless0523) &nbsp; |
 &nbsp; | `footpics4sale` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/footpics4sale) &nbsp; |
 &nbsp; | `g1ng3rr00t` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g1ng3rr00t) &nbsp; |
-🟢 | `gereshk_pnw` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gereshk_pnw "Science & Technology") &nbsp; | EN
+&nbsp; | `gereshk_pnw` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gereshk_pnw "Science & Technology") &nbsp; 
 &nbsp; | `GrumpyHackers` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GrumpyHackers) &nbsp; |
 &nbsp; | `hackbacc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackbacc) &nbsp; |
 &nbsp; | `HackTheBox` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTheBox) &nbsp; |
