@@ -132,7 +132,7 @@ Please contribute missing streams or errors via a [pull request](https://github.
 &nbsp; | `kegnsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kegnsec) &nbsp; |
 &nbsp; | `LinuxYSeguridad` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LinuxYSeguridad) &nbsp; |
 &nbsp; | `lMinzarl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lMinzarl) &nbsp; |
-🟢 | `ltn_bob` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ltn_bob) &nbsp; | EN
+&nbsp; | `ltn_bob` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ltn_bob) &nbsp; 
 &nbsp; | `magnologanxp` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/magnologanxp) &nbsp; |
 &nbsp; | `majksec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/majksec) &nbsp; |
 &nbsp; | `mchow01` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mchow01) &nbsp; |
