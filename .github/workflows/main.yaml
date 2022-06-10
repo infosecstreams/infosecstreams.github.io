@@ -14,19 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
-        with:
-          python-version: ${{ matrix.python-version }}
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
-
-      - name: Sort index.md
-        run: python GetTwoWeekStreamActivity.py
+        name: Checkout repository
+        
+      - name: Login to registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+        
+      - name: Get streaming activity
+        run: docker run -v $PWD/templates:/app/templates -v $PWD/index.md:/app/index.md -v $PWD/inactive.md:/app/inactive.md -v $PWD/streamers.csv:/app/streamers.csv ghcr.io/infosecstreams/secinfo:latest
 
       - name: Commit index.md
         run: |
