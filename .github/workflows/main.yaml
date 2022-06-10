@@ -6,14 +6,12 @@ on:
       - main
   schedule:
     - cron: "30 16 * * *"
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.9]
-
     steps:
       - uses: actions/checkout@v2
 
@@ -34,6 +32,6 @@ jobs:
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git add index.md
-          git commit -am "Sorted index.md"
+          git add index.md inactive.md
+          git commit -am "🤖 Updated and sorted markdown files"
           git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
