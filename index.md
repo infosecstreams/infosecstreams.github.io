@@ -1,10 +1,14 @@
 # InfoSec Streams
 
-Congrats! You've found an actively maintained list of Information Security-related Twitch streams. This list is `sorted` based on 14-day activity to help you find active streams more easily!
+Congrats! You've found an actively maintained list of Information Security-related Twitch streams. This list is `sorted` based on `30-day activity` to help you find active streams more easily!
 
-Streams that haven't had activity the last two weeks have been sorted onto the [inactive](/inactive) page.
+Streamers that haven't had activity in the last month are moved to the [inactive streamers](/inactive) page.
 
-Please contribute missing streams or errors via a [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls), an [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues), or holler at us on the [Discord](https://discord.gg/RftU46K8sn). Thanks!
+Please contribute new streamers or errors via a [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls), an [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues), or holler at us on the [Discord](https://discord.gg/RftU46K8sn). Thanks!
+
+## Resources
+
+Here are [some great resources](/resources) for your hacking journey.
 
 ## List of Streams (sorted)
 
@@ -92,35 +96,15 @@ Please contribute missing streams or errors via a [pull request](https://github.
 &nbsp; | `blacksincybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blacksincybersecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEBEQ0oRA2LPnc2wm2TO5IA) |
 &nbsp; | `MVLWVR3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MVLWVR3) &nbsp; |
 
-### Useful links
-
-Link | Description
---- | ---
-[TryHackMe](https://tryhackme.com) | TryHackMe - Learn Penetration Testing Skills
-[HackTheBox](https://hackthebox.eu) | HackTheBox - Learn Penetration Testing Skills
-| |
-[HackTricks](https://book.hacktricks.xyz/) | Tricks and Techniques
-[GTFOBins](https://gtfobins.github.io) | Quick Shell One-liners
-[RevShells](https://www.revshells.com) | Reverse Shell Command Generator
-| |
-[PenTest.WS](https://pentest.ws) | Engagement Utility
-| |
-[ExplainShell](https://explainshell.com) | Bash Shell Command Explanation
-[SS64](https://ss64.com) | Commandline Reference
-| |
-[CrackStation](https://crackstation.net) | Online Hash Cracking
-[CyberChef](https://gchq.github.io/CyberChef) | The Cyber Swiss Army Knife for analysing/encoding/decoding data
-[dCode](https://www.dcode.fr/en) | dCode is a toolkit website for decryption, ciphertexts
-| |
-[Guides](https://alomancy.gitbook.io/guides/) | In Depth Guides by [Alomancy](https://www.twitch.tv/alomancy)
-
 ### Credits
 
 Huge shoutout to [chadb_n00b](https://twitch.tv/chadb_n00b) for starting up and initially maintaining the list!
 
+[GoProSlowYo](https://twitch.tv/goproslowyo) currently maintains all the golang code in [secinfo](https://github.com/infosecstreams/secinfo), [streamstatus](https://github.com/infosecstreams/streamstatus), and [this](https://github.com/infosecstreams/infosecstreams.github.io) repo.
+
 ### Report an Issue
 
-Having trouble with a link? Visit the [InfoSec Community Discord](https://discord.gg/RftU46K8sn) and we’ll help you sort it out.
+Having trouble with a link? Site not updating properly? Visit the [InfoSec Community Discord](https://discord.gg/RftU46K8sn) and we’ll help you sort it out.
 
 <script src="./js/sort.js" async="" defer=""></script>
 <script defer data-domain="infosecstreams.github.io" src="https://p.infosecstreams.com/js/plausible.outbound-links.js"></script>

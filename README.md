@@ -20,4 +20,6 @@ TL;DR: To add or remove a streamer to the list please update `streamers.csv`.
 
 1. [Create a Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/proposing-changes-to-your-work-with-pull-requests) using the Github UI.
 
-Nota Bene: PRs with merge conflicts or that are out of date with master may not be merged/accepted (depending oh how lazy we feel or how hard it is to fix 😝)
+Nota Bene: PRs with merge conflicts or that are out of date with main may not be merged/accepted (depending on how lazy we feel or how hard it is to fix 😝)
+
+[![Stargazers over time](https://starchart.cc/infosecstreams/infosecstreams.github.io.svg)](https://starchart.cc/infosecstreams/infosecstreams.github.io)
