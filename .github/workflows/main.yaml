@@ -1,4 +1,4 @@
-name: Sort index.md by 14-day Activity
+name: Sort index.md by 30-day Activity
 
 on:
   push:
