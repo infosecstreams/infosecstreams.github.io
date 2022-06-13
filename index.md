@@ -88,7 +88,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `ZKuaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ZKuaker) &nbsp; |
 &nbsp; | `TheGoodHackerTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheGoodHackerTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeeOzvMFfd2qcUFIGN_Nzyw) |
 &nbsp; | `Thegwar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Thegwar) &nbsp; |
-🟢 | `spacepenguins101` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/spacepenguins101 "Science & Technology") &nbsp; | EN
+&nbsp; | `spacepenguins101` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/spacepenguins101 "Science & Technology") &nbsp; 
 &nbsp; | `kokenhacks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kokenhacks) &nbsp; |
 &nbsp; | `redsiegeinfosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/redsiegeinfosec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC4rR_-qnJXny4LsCfxW418g) |
 &nbsp; | `jrozner` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jrozner) &nbsp; |
