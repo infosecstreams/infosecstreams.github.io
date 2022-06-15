@@ -76,7 +76,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `msec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/msec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCu9ybrID4Ak5pDU-6E5ph5Q) |
 &nbsp; | `CyberWarriorStudios` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberWarriorStudios) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g) |
 &nbsp; | `streambytes_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/streambytes_) &nbsp; |
-&nbsp; | `BarSides` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BarSides) &nbsp; |
+🟢 | `BarSides` |[<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BarSides "Science & Technology") &nbsp; | EN
 &nbsp; | `gamozo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gamozo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA) |
 &nbsp; | `Defcon201Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Defcon201Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/defcon201) |
 &nbsp; | `TsarSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TsarSec) &nbsp; |
