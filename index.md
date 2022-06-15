@@ -85,7 +85,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `spacepenguins101` |[<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/spacepenguins101) &nbsp; 
 &nbsp; | `BarSides` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BarSides) &nbsp; |
 &nbsp; | `YERTX_CO` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YERTX_CO) &nbsp; |
-&nbsp; | `thecybermentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) |
+🟢 | `thecybermentor` |[<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) | EN
 &nbsp; | `Thegwar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Thegwar) &nbsp; |
 🟢 | `KOkenhacks` |[<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KOkenhacks "Science & Technology") &nbsp; | EN
 &nbsp; | `redsiegeinfosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/redsiegeinfosec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC4rR_-qnJXny4LsCfxW418g) |
