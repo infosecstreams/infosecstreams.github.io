@@ -87,7 +87,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `BarSides` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BarSides) &nbsp; |
 &nbsp; | `YERTX_CO` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YERTX_CO) &nbsp; |
 &nbsp; | `Thegwar` |[<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Thegwar) &nbsp; 
-&nbsp; | `kokenhacks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kokenhacks) &nbsp; |
+🟢 | `KOkenhacks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KOkenhacks "Science & Technology") &nbsp; | EN
 &nbsp; | `redsiegeinfosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/redsiegeinfosec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC4rR_-qnJXny4LsCfxW418g) |
 &nbsp; | `Flangvik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Flangvik) &nbsp; |
 &nbsp; | `infosecguy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/infosecguy) &nbsp; |
