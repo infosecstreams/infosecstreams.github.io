@@ -67,7 +67,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `c04tl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c04tl) &nbsp; |
 &nbsp; | `Djax120` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Djax120) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg) |
 &nbsp; | `rxhackk` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/rxhackk) &nbsp; |
-&nbsp; | `spacepenguins101` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/spacepenguins101) &nbsp; |
+🟢 | `spacepenguins101` |[<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/spacepenguins101 "Science & Technology") &nbsp; | EN
 &nbsp; | `lucaelin` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lucaelin) &nbsp; |
 &nbsp; | `RedFox0x20` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RedFox0x20) &nbsp; |
 &nbsp; | `thecybermentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) |
