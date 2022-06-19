@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "30 16 * * *"
+    - cron: "07 11 * * *" # 11am GMT / 4am PT
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
