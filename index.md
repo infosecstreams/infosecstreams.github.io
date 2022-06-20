@@ -39,7 +39,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `HackerMentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerMentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCl8jDIq12kkP9YBj1TJY-6Q) |
 &nbsp; | `Jazzahn` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Jazzahn) &nbsp; |
 &nbsp; | `AgeOfEntropy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AgeOfEntropy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCitiWg5p-R6QNLPuJPSE33g) |
-&nbsp; | `lMinzarl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lMinzarl) &nbsp; |
+🟢 | `lMinzarl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lMinzarl "Science & Technology") &nbsp; | AR
 &nbsp; | `Sukaiberu` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sukaiberu) &nbsp; |
 &nbsp; | `tyler_ramsbey` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/tyler_ramsbey) &nbsp; |
 &nbsp; | `Garr_7` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Garr_7) &nbsp; |
