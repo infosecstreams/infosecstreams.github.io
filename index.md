@@ -91,7 +91,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `InfosecHouse` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfosecHouse) &nbsp; |
 &nbsp; | `BarSides` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BarSides) &nbsp; |
 &nbsp; | `TryHackMe` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TryHackMe) &nbsp; |
-🟢 | `KOkenhacks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KOkenhacks "Science & Technology") &nbsp; | EN
+&nbsp; | `KOkenhacks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KOkenhacks) &nbsp; 
 &nbsp; | `Flangvik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Flangvik) &nbsp; |
 &nbsp; | `InfosecGuy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfosecGuy) &nbsp; |
 &nbsp; | `2ocstream` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/2ocstream) &nbsp; |
