@@ -95,6 +95,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `YERTX_CO` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YERTX_CO) &nbsp; |
 &nbsp; | `streambytes_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/streambytes_) &nbsp; |
 &nbsp; | `2ocstream` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/2ocstream) &nbsp; |
+🟢 | `BeauKnowsTech` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BeauKnowsTech "Hack the Box") &nbsp;| EN
 
 ### Credits
 
