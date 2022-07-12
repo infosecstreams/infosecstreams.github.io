@@ -63,7 +63,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `Skyfire100` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Skyfire100) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEko--V_KFSGMdxJOfgTVzQ) |
 🟢 | `Th3lazykid` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Th3lazykid "Science & Technology") &nbsp; | EN
 &nbsp; | `0xj3lly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xj3lly) &nbsp; |
-🟢 | `elprogramadorgt` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elprogramadorgt "Software and Game Development") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgirU6f4kiT5Yxba4QyI58Q) | ES
+&nbsp; | `elprogramadorgt` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elprogramadorgt) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgirU6f4kiT5Yxba4QyI58Q) 
 &nbsp; | `Dragonar0123` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Dragonar0123) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeejhMe148sDFfMK4sXDFDA) |
 &nbsp; | `MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q) |
 &nbsp; | `footpics4sale` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/footpics4sale) &nbsp; |
