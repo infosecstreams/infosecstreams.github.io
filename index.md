@@ -25,7 +25,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `OALabsLive` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OALabsLive) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/OALabs) |
 &nbsp; | `lMinzarl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lMinzarl) &nbsp; |
 &nbsp; | `MSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCu9ybrID4Ak5pDU-6E5ph5Q) 
-🟢 | `mttaggart` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mttaggart "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/taggarttech) | EN
+&nbsp; | `mttaggart` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mttaggart) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/taggarttech) 
 &nbsp; | `endingwithali` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/endingwithali) &nbsp; |
 &nbsp; | `kristiee` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kristiee) &nbsp; |
 &nbsp; | `thecybermentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) 
