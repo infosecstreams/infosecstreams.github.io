@@ -79,7 +79,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `Tr_H` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Tr_H) &nbsp; |
 &nbsp; | `soyelmago` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/soyelmago) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://youtube.com/c/alanlevy-elmago) |
 &nbsp; | `HackerOneTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerOneTV) &nbsp; |
-&nbsp; | `SpiceySec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SpiceySec) &nbsp; |
+🟢 | `SpiceySec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SpiceySec "Science & Technology") &nbsp; | EN
 &nbsp; | `blacksincybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blacksincybersecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEBEQ0oRA2LPnc2wm2TO5IA) |
 &nbsp; | `BeauKnowsTech` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BeauKnowsTech) &nbsp; |
 &nbsp; | `jbeers11` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jbeers11) &nbsp; |
