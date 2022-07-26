@@ -85,6 +85,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `TsarSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TsarSec) &nbsp; |
 &nbsp; | `YERTX_CO` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YERTX_CO) &nbsp; |
 &nbsp; | `AlexChaveriat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AlexChaveriat) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/AlexChaveriat/videos) |
+&nbsp; | `optionalctf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/optionalctf) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
 
 ### Credits
 
