@@ -54,7 +54,6 @@ Hey there! This page contains streamers that have not streamed in the last month
 `Djax120` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Djax120) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
 `dmll606` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dmll606) &nbsp;
 `DOWRIGHT` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DOWRIGHT) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/dowrighttv)
-`Dragonar0123` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Dragonar0123) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeejhMe148sDFfMK4sXDFDA)
 `Dysnome` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Dysnome) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC5sq_Q2Fd8z38mfL4pcOTAg)
 `EchoZach` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/EchoZach) &nbsp;
 `EightBitOni` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/EightBitOni) &nbsp;
@@ -67,7 +66,6 @@ Hey there! This page contains streamers that have not streamed in the last month
 `g1ng3rr00t` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g1ng3rr00t) &nbsp;
 `gereshk_pnw` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gereshk_pnw) &nbsp;
 `Goldwave__` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Goldwave__) &nbsp;
-`GrumpyHackers` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GrumpyHackers) &nbsp;
 `h313n_0f_t0r` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h313n_0f_t0r) &nbsp;
 `h4ck0rman` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h4ck0rman) &nbsp;
 `H4ck3rKy13` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/H4ck3rKy13) &nbsp;
