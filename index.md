@@ -84,7 +84,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `RedSiegeInfoSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RedSiegeInfoSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC4rR_-qnJXny4LsCfxW418g) |
 &nbsp; | `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege) |
 &nbsp; | `SpiceySec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SpiceySec) &nbsp; |
-🟢 | `securityfwd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securityfwd "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g) | EN
+&nbsp; | `securityfwd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securityfwd) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g) 
 &nbsp; | `footpics4sale` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/footpics4sale) &nbsp; |
 &nbsp; | `0xj3lly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xj3lly) &nbsp;
 
