@@ -40,7 +40,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `SniferL4bs` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SniferL4bs) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/SniferL4bs) |
 &nbsp; | `GoProSlowYo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GoProSlowYo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1) |
 &nbsp; | `thecybermentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) |
-&nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) |
+🟢 | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) | EN
 &nbsp; | `ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b) &nbsp; |
 &nbsp; | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp; |
 &nbsp; | `HackerOneTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerOneTV) &nbsp; |
