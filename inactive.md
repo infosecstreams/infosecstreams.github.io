@@ -102,6 +102,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `majksec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/majksec) &nbsp;
 `mbcrump` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mbcrump) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `mchow01` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mchow01) &nbsp;
+`MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q)
 `mell0wx` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mell0wx) &nbsp;
 `MVLWVR3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MVLWVR3) &nbsp;
 `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec)
@@ -126,7 +127,6 @@ Hey there! This page contains streamers that have not streamed in the last month
 `SlickPupStream` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SlickPupStream) &nbsp;
 `smash8tap` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/smash8tap) &nbsp;
 `softexploit` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/softexploit) &nbsp;
-`soyelmago` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/soyelmago) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://youtube.com/c/alanlevy-elmago)
 `stokfredrik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/stokfredrik) &nbsp;
 `Sukaiberu` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sukaiberu) &nbsp;
 `sup3rhero1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/sup3rhero1) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/superhero1)
