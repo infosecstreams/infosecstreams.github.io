@@ -47,7 +47,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `BlackSheepSpicy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlackSheepSpicy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC2JbRIzd7qmUgvS7oZ7BUpA) |
 &nbsp; | `gamozo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gamozo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA) |
 &nbsp; | `Defcon201Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Defcon201Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/defcon201) |
-&nbsp; | `ritsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ritsec) &nbsp; |
+🟢 | `ritsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ritsec "Science & Technology") &nbsp; | EN
 &nbsp; | `LuNiZz` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LuNiZz) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/CanDeger) |
 &nbsp; | `Khaos_Farbauti` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Khaos_Farbauti) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/KhaosFarbautiIbnOblivion) |
 &nbsp; | `0reoByte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0reoByte) &nbsp; |
