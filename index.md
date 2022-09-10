@@ -67,7 +67,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `AlexChaveriat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AlexChaveriat) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/AlexChaveriat/videos) |
 &nbsp; | `TsarSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TsarSec) &nbsp; |
 &nbsp; | `paperboygold` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/paperboygold) &nbsp; |
-&nbsp; | `cyber_v1s3rion` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cyber_v1s3rion) &nbsp; |
+🟢 | `cyber_v1s3rion` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cyber_v1s3rion "Science & Technology") &nbsp; | EN
 &nbsp; | `AgeOfEntropy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AgeOfEntropy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCitiWg5p-R6QNLPuJPSE33g) |
 &nbsp; | `mchow01` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mchow01) &nbsp; |
 &nbsp; | `Dragonar0123` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Dragonar0123) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeejhMe148sDFfMK4sXDFDA) |
