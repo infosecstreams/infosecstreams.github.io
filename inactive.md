@@ -91,12 +91,12 @@ Hey there! This page contains streamers that have not streamed in the last month
 `ItsMeDelano` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ItsMeDelano) &nbsp;
 `JohnHammond010` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JohnHammond010) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
 `joshua17sc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/joshua17sc) &nbsp;
+`jrozner` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jrozner) &nbsp;
 `justinsteven` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/justinsteven) &nbsp;
 `kegnsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kegnsec) &nbsp;
 `Kiwi_FruitBird` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Kiwi_FruitBird) &nbsp;
 `KOkenhacks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KOkenhacks) &nbsp;
 `lea_cyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lea_cyber) &nbsp;
-`Libereau` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Libereau) &nbsp;
 `LinuxYSeguridad` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LinuxYSeguridad) &nbsp;
 `LiveOverflow` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LiveOverflow) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/LiveOverflow)
 `lMinzarl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lMinzarl) &nbsp;
@@ -158,6 +158,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `xThalach` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThalach) &nbsp;
 `xThe_Developer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThe_Developer) &nbsp;
 `xychelsea87` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xychelsea87) &nbsp;
+`YERTX_CO` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YERTX_CO) &nbsp;
 `zerobandwidth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zerobandwidth) &nbsp;
 `ZKuaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ZKuaker) &nbsp;
 
