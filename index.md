@@ -34,9 +34,9 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `neehack` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/neehack) &nbsp; |
 &nbsp; | `Ash_F0x` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Ash_F0x) &nbsp; |
 &nbsp; | `BlackSheepSpicy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlackSheepSpicy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC2JbRIzd7qmUgvS7oZ7BUpA) |
-&nbsp; | `HackerMentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerMentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCl8jDIq12kkP9YBj1TJY-6Q) |
-&nbsp; | `DasRealBert` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DasRealBert) &nbsp; |
 &nbsp; | `SniferL4bs` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SniferL4bs) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/SniferL4bs) |
+&nbsp; | `DasRealBert` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DasRealBert) &nbsp; |
+&nbsp; | `HackerMentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerMentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCl8jDIq12kkP9YBj1TJY-6Q) |
 &nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) |
 🟢 | `Garr_7` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Garr_7) &nbsp; | EN
 &nbsp; | `CyberVikingUK` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberVikingUK) &nbsp; |
@@ -50,38 +50,39 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `GoProSlowYo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GoProSlowYo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1) |
 &nbsp; | `elprogramadorgt` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elprogramadorgt) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgirU6f4kiT5Yxba4QyI58Q) |
 &nbsp; | `jbeers11` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jbeers11) &nbsp; |
-&nbsp; | `dayzerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dayzerosec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA) |
 &nbsp; | `d0nutptr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/d0nutptr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/d0nutptr) |
-&nbsp; | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp; |
+&nbsp; | `dayzerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dayzerosec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA) |
 &nbsp; | `Libereau` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Libereau) &nbsp; |
+&nbsp; | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp; |
 &nbsp; | `mchow01` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mchow01) &nbsp; |
-&nbsp; | `Khaos_Farbauti` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Khaos_Farbauti) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/KhaosFarbautiIbnOblivion) |
 &nbsp; | `Firzen14` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Firzen14) &nbsp; |
-&nbsp; | `Thegwar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Thegwar) &nbsp; |
+&nbsp; | `Khaos_Farbauti` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Khaos_Farbauti) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/KhaosFarbautiIbnOblivion) |
 &nbsp; | `hackbacc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackbacc) &nbsp; |
+&nbsp; | `Thegwar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Thegwar) &nbsp; |
 &nbsp; | `0reoByte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0reoByte) &nbsp; |
+&nbsp; | `securityfwd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securityfwd) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g) |
 &nbsp; | `LuNiZz` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LuNiZz) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/CanDeger) |
 &nbsp; | `ZKuaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ZKuaker) &nbsp; |
-&nbsp; | `securityfwd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securityfwd) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g) |
-&nbsp; | `cyber_v1s3rion` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cyber_v1s3rion) &nbsp; |
+&nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; |
 &nbsp; | `0xj3lly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xj3lly) &nbsp; |
 &nbsp; | `ShellDredd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ShellDredd) &nbsp; |
-&nbsp; | `CybeeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybeeSec) &nbsp; |
+&nbsp; | `cyber_v1s3rion` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cyber_v1s3rion) &nbsp; |
+&nbsp; | `Jazzahn` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Jazzahn) &nbsp; |
 &nbsp; | `lucaelin` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lucaelin) &nbsp; |
 &nbsp; | `0xChance` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xChance) &nbsp; |
-&nbsp; | `Jazzahn` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Jazzahn) &nbsp; |
-&nbsp; | `Security_Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Security_Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw) |
+&nbsp; | `CybeeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybeeSec) &nbsp; |
 &nbsp; | `Dysnome` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Dysnome) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC5sq_Q2Fd8z38mfL4pcOTAg) |
+&nbsp; | `Security_Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Security_Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw) |
 &nbsp; | `MrCrumbs_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MrCrumbs_) &nbsp; |
+&nbsp; | `Cyber_Insecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Cyber_Insecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg) |
 &nbsp; | `Defcon201Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Defcon201Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/defcon201) |
-&nbsp; | `Skyfire100` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Skyfire100) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEko--V_KFSGMdxJOfgTVzQ) |
-&nbsp; | `dze64` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dze64) &nbsp; |
 &nbsp; | `blacksincybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blacksincybersecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEBEQ0oRA2LPnc2wm2TO5IA) |
 &nbsp; | `SpiceySec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SpiceySec) &nbsp; |
-&nbsp; | `Cyber_Insecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Cyber_Insecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg) |
+&nbsp; | `Skyfire100` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Skyfire100) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEko--V_KFSGMdxJOfgTVzQ) |
+&nbsp; | `dze64` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dze64) &nbsp; |
 &nbsp; | `BarSides` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BarSides) &nbsp; |
-&nbsp; | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp; |
 &nbsp; | `OfficialWilliP` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OfficialWilliP) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg) |
+&nbsp; | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp; |
 
 ### Credits
 
