@@ -49,7 +49,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `0xChance` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xChance) &nbsp; |
 &nbsp; | `OfficialWilliP` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OfficialWilliP) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg) |
 &nbsp; | `Dysnome` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Dysnome) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC5sq_Q2Fd8z38mfL4pcOTAg) |
-🟢 | `T3GOR4` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/T3GOR4 "Science & Technology") &nbsp; | EN
+&nbsp; | `T3GOR4` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/T3GOR4) &nbsp; 
 &nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; |
 &nbsp; | `Garr_7` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Garr_7) &nbsp; |
 &nbsp; | `d0nutptr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/d0nutptr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/d0nutptr) |
