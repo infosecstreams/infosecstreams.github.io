@@ -85,7 +85,6 @@ Hey there! This page contains streamers that have not streamed in the last month
 `HackingEsports_eng` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackingEsports_eng) &nbsp;
 `HackingIsland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackingIsland) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaqcHDqE0DuqoaoVwJQa7vQ)
 `HackTheBox` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTheBox) &nbsp;
-`HackTok` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTok) &nbsp;
 `hattonsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hattonsec) &nbsp;
 `ImAhian` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ImAhian) &nbsp;
 `InfamousJoeG` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfamousJoeG) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCDtQCYeZdOYtNzyh9VNAlNQ)
@@ -118,7 +117,6 @@ Hey there! This page contains streamers that have not streamed in the last month
 `mell0wx` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mell0wx) &nbsp;
 `MrCrumbs_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MrCrumbs_) &nbsp;
 `MVLWVR3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MVLWVR3) &nbsp;
-`NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec)
 `OJReeves` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OJReeves) &nbsp;
 `optionalctf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/optionalctf) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
 `Outrag3ousLad` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Outrag3ousLad) &nbsp;
