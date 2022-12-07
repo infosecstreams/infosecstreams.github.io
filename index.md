@@ -91,6 +91,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `HackerMentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerMentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCl8jDIq12kkP9YBj1TJY-6Q) |
 &nbsp; | `RedSiegeInfoSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RedSiegeInfoSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC4rR_-qnJXny4LsCfxW418g) |
 &nbsp; | `cyber_v1s3rion` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cyber_v1s3rion) &nbsp; |
+🟢 | `gamozo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gamozo "Software and Game Development") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)| EN
 
 ### Credits
 
