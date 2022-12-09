@@ -43,7 +43,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) |
 &nbsp; | `T3GOR4` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/T3GOR4) &nbsp; |
 &nbsp; | `h8handles` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h8handles) &nbsp; |
-&nbsp; | `roccosicilia` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/roccosicilia) &nbsp; |
+&nbsp; | `roccosicilia` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/roccosicilia) &nbsp; 
 &nbsp; | `antisyphon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/antisyphon) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCkFKiCm7dD0gsB4jqIdCuRQ) |
 &nbsp; | `Dysnome` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Dysnome) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC5sq_Q2Fd8z38mfL4pcOTAg) 
 🟢 | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec "Just Chatting") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) | EN
