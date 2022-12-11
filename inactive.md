@@ -168,6 +168,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `xThe_Developer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThe_Developer) &nbsp;
 `xychelsea87` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xychelsea87) &nbsp;
 `Yossefnoob` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Yossefnoob) &nbsp;
+`ZKuaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ZKuaker) &nbsp;
 
 ### Credits
 
