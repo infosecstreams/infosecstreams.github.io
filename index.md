@@ -91,7 +91,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `AgeOfEntropy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AgeOfEntropy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCitiWg5p-R6QNLPuJPSE33g) |
 &nbsp; | `securityfwd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securityfwd) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g) |
 &nbsp; | `LorenMJ` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LorenMJ) &nbsp; |
-🟢 | `AyWang` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AyWang) &nbsp; | EN
+&nbsp; | `AyWang` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AyWang) &nbsp; 
 &nbsp; | `Thegwar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Thegwar) &nbsp; |
 
 ### Credits
