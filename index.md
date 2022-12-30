@@ -51,7 +51,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp; |
 &nbsp; | `roccosicilia` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/roccosicilia) &nbsp; |
 &nbsp; | `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege) |
-&nbsp; | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp; |
+🟢 | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf "Science & Technology") &nbsp; | EN
 &nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; |
 &nbsp; | `SlickPupStream` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SlickPupStream) &nbsp; |
 &nbsp; | `TrailofBits` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TrailofBits) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.twitch.tv/trailofbits) |
