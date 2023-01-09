@@ -4,12 +4,12 @@
 
 TL;DR: To add or remove a streamer to the list please update `streamers.csv`.
 
-### Pull Request Process:
+### Pull Request Process
 
 1. Fork the repo in the Github UI or checkout the repo locally.
 
 1. Ensure you are update to date with the `main` branch and then create a branch for your edits:
-    
+
     `git checkout -b <your-branch>`
 
 1. Update streamers.csv with your additions and/or deletions.
