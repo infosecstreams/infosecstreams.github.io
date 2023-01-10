@@ -35,7 +35,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `shenetworks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/shenetworks) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/shenetworks) |
 &nbsp; | `ltn_bob` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ltn_bob) &nbsp; |
 &nbsp; | `LiveOverflow` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LiveOverflow) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/LiveOverflow) |
-🟢 | `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec) | EN
+&nbsp; | `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec) 
 &nbsp; | `TechnologyInterpreters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TechnologyInterpreters) &nbsp; |
 &nbsp; | `tinyxtina_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/tinyxtina_) &nbsp; |
 &nbsp; | `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters) &nbsp; |
