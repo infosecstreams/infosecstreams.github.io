@@ -7,9 +7,9 @@ Link | Description | Type
 [The Taggart Institute](https://taggartinstitute.org/) | The Taggart Institute exists to provide low-cost high-quality technology training to everyone in a welcoming, supportive community. | Educational Content
 ||
 ||
-[TryHackMe](https://tryhackme.com) | TryHackMe - Learn Penetration Testing Skills. | Hands-On Hacking
-[Over the Wire: The Bandit](https://overthewire.org/wargames/bandit) | The Bandit is a wargame aimed at beginners. You will learn the basics to play other wargames. | Hands-On Hacking
 [HackTheBox](https://hackthebox.eu) | HackTheBox - Learn Penetration Testing Skills. | Hands-On Hacking
+[Over the Wire: The Bandit](https://overthewire.org/wargames/bandit) | The Bandit is a wargame aimed at beginners. You will learn the basics to play other wargames. | Hands-On Hacking
+[TryHackMe](https://tryhackme.com) | TryHackMe - Learn Penetration Testing Skills. | Hands-On Hacking
 ||
 ||
 [GTFOBins](https://gtfobins.github.io) | Quick shell one-liners. | Hacking Reference
