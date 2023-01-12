@@ -40,7 +40,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) 
 &nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
 &nbsp; | `TechnologyInterpreters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TechnologyInterpreters) &nbsp; |
-🟢 | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter "Science & Technology") &nbsp; | EN
+&nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; 
 &nbsp; | `SniferL4bs` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SniferL4bs) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/SniferL4bs) |
 &nbsp; | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp; |
 &nbsp; | `Firzen14` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Firzen14) &nbsp; |
