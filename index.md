@@ -32,7 +32,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `Anyascii` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Anyascii) &nbsp; |
 &nbsp; | `Keylogin` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Keylogin) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@keylogin) 
 &nbsp; | `OALabsLive` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OALabsLive) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/OALabs) |
-&nbsp; | `kristiee` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kristiee) &nbsp; |
+🟢 | `kristiee` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kristiee "Hack the Box") &nbsp; | EN
 &nbsp; | `SniferL4bs` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SniferL4bs) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/SniferL4bs) |
 &nbsp; | `tinyxtina_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/tinyxtina_) &nbsp; |
 &nbsp; | `morehouse_hacks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/morehouse_hacks) &nbsp; |
