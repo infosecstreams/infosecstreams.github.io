@@ -107,7 +107,6 @@ Hey there! This page contains streamers that have not streamed in the last month
 `lea_cyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lea_cyber) &nbsp;
 `Libereau` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Libereau) &nbsp;
 `LinuxYSeguridad` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LinuxYSeguridad) &nbsp;
-`LiveOverflow` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LiveOverflow) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/LiveOverflow)
 `lMinzarl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lMinzarl) &nbsp;
 `LoneJohnny` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LoneJohnny) &nbsp;
 `LorenMJ` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LorenMJ) &nbsp;
