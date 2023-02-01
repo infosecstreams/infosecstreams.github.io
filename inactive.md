@@ -72,6 +72,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `FroMastr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FroMastr) &nbsp;
 `g1ng3rr00t` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g1ng3rr00t) &nbsp;
 `Goldwave__` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Goldwave__) &nbsp;
+`GoProSlowYo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GoProSlowYo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1)
 `GrumpyHackers` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GrumpyHackers) &nbsp;
 `h313n_0f_t0r` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h313n_0f_t0r) &nbsp;
 `h4ck0rman` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h4ck0rman) &nbsp;
@@ -85,6 +86,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `hackorgame` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackorgame) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA)
 `HackTok` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTok) &nbsp;
 `hattonsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hattonsec) &nbsp;
+`ImAhian` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ImAhian) &nbsp;
 `InfamousJoeG` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfamousJoeG) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCDtQCYeZdOYtNzyh9VNAlNQ)
 `InfayerTS` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfayerTS) &nbsp;
 `infinitelogins` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/infinitelogins) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC_nKukFaGysjMzqMVHEIgxQ)
@@ -93,6 +95,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `InsiderPhD` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InsiderPhD) &nbsp;
 `ippsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ippsec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://youtube.com/c/ippsec)
 `ItsMeDelano` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ItsMeDelano) &nbsp;
+`jabreity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jabreity) &nbsp;
 `Jazzahn` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Jazzahn) &nbsp;
 `JohnHammond010` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JohnHammond010) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
 `joshua17sc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/joshua17sc) &nbsp;
