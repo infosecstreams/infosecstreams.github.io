@@ -56,7 +56,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `CybeeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybeeSec) &nbsp; |
 &nbsp; | `Cyber_Insecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Cyber_Insecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg) |
 &nbsp; | `xThe_Developer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThe_Developer) &nbsp; |
-&nbsp; | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp; |
+🟢 | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial "Science & Technology") &nbsp; | EN
 &nbsp; | `hackingconh` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackingconh) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCIrWE4nzdRJZuMGmeVI6vng) |
 &nbsp; | `HackTricks_LIVE` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTricks_LIVE) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hacktricks_LIVE) |
 &nbsp; | `Firzen14` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Firzen14) &nbsp; 
