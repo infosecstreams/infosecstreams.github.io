@@ -54,7 +54,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `dayzerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dayzerosec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA) |
 &nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; |
 &nbsp; | `CybeeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybeeSec) &nbsp; |
-🟢 | `Cyber_Insecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Cyber_Insecurity "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg) | EN
+&nbsp; | `Cyber_Insecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Cyber_Insecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg) 
 &nbsp; | `hackingconh` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackingconh) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCIrWE4nzdRJZuMGmeVI6vng) |
 &nbsp; | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp; |
 &nbsp; | `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec) |
