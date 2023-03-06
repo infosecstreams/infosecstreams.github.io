@@ -35,7 +35,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `hackorgame` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackorgame) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA) |
 &nbsp; | `ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b) &nbsp; |
 &nbsp; | `TJCHacking` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TJCHacking) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@tjchacking) |
-&nbsp; | `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters) &nbsp; |
+🟢 | `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters "Science & Technology") &nbsp; | ES
 &nbsp; | `d0nutptr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/d0nutptr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/d0nutptr) |
 &nbsp; | `mttaggart` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mttaggart) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/taggarttech) |
 &nbsp; | `SecurityWeekly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityWeekly) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg) |
