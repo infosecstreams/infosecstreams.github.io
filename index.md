@@ -51,7 +51,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `thecybermentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) |
 &nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; |
 &nbsp; | `LowLevelLearning` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LowLevelLearning) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@LowLevelLearning) |
-&nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; |
+🟢 | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter "Science & Technology") &nbsp; | EN
 &nbsp; | `Firzen14` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Firzen14) &nbsp; |
 &nbsp; | `dayzerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dayzerosec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA) |
 &nbsp; | `seclilc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/seclilc) &nbsp; |
