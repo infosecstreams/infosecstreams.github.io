@@ -67,7 +67,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `tinyxtina_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/tinyxtina_) &nbsp; 
 &nbsp; | `MarcusHutchins2` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MarcusHutchins2) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@MalwareTechBlog) |
 &nbsp; | `LiveOverflow` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LiveOverflow) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/LiveOverflow) |
-🟢 | `Garr_7` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Garr_7 "Science & Technology") &nbsp; | EN
+&nbsp; | `Garr_7` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Garr_7) &nbsp; 
 &nbsp; | `ltn_bob` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ltn_bob) &nbsp; |
 &nbsp; | `blacksincybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blacksincybersecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEBEQ0oRA2LPnc2wm2TO5IA) |
 &nbsp; | `ritsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ritsec) &nbsp; |
