@@ -59,7 +59,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `dayzerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dayzerosec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA) |
 &nbsp; | `Khaos_Farbauti` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Khaos_Farbauti) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/KhaosFarbautiIbnOblivion) |
 🟢 | `Dysnome` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Dysnome "Software and Game Development") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC5sq_Q2Fd8z38mfL4pcOTAg) | FR
-🟢 | `2ocstream` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/2ocstream "Just Chatting") &nbsp; | EN
+&nbsp; | `2ocstream` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/2ocstream) &nbsp; 
 🟢 | `Djax120` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Djax120) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg) | EN
 &nbsp; | `kristiee` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kristiee) &nbsp; |
 &nbsp; | `RoccoSicilia` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RoccoSicilia) &nbsp; |
