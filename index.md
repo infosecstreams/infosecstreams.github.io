@@ -76,7 +76,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `TrailofBits` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TrailofBits) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@trailofbits) |
 &nbsp; | `c04tl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c04tl) &nbsp; |
 &nbsp; | `ritsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ritsec) &nbsp; |
-&nbsp; | `T3GOR4` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/T3GOR4) &nbsp; |
+🟢 | `T3GOR4` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/T3GOR4 "Science & Technology") &nbsp; | EN
 &nbsp; | `d0nutptr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/d0nutptr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/d0nutptr) |
 &nbsp; | `MrCrumbs_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MrCrumbs_) &nbsp; |
 &nbsp; | `MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q) |
