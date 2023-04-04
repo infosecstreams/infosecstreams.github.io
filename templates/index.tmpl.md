@@ -12,7 +12,7 @@ Here are [some great resources](/resources) for your hacking journey.
 
 ## List of Streams (sorted)
 
-&nbsp; | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></i> | <i class="fas fa-comment-dots"></i>
+![Live](.././img/icons/live.svg) | ![Headset](.././img/icons/headset.svg) | ![External-Link](.././img/icons/external-link.svg) | ![Comment-Dots](.././img/icons/comment-dots.svg)
 ---: | --- | :--- | :---
 
 ### Credits
@@ -27,6 +27,3 @@ Having trouble with a link? Site not updating properly? Visit the [InfoSec Commu
 
 <script src="./js/sort.js" async="" defer=""></script>
 <script defer data-domain="infosecstreams.github.io" src="https://p.infosecstreams.com/js/plausible.outbound-links.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/brands.min.js" integrity="sha512-8Jp5PI7qKEn304XONokQQRgiu/1P9kTBlvpLc7zRukkTBYGKt6z4CkwJUJhCwwWYnjSdxJcGqW9ifT7ZxPNgbg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/solid.min.js" integrity="sha512-+KCv9G3MmyWnFnFrd2+/ccSx5ejo1yED85HZOvNDhtyHu2tuLL8df5BtaLXqsiF68wGLgxxMb4yL5oUyXjqSgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/fontawesome.min.js" integrity="sha512-ywaT8M9b+VnJ+jNG14UgRaKg+gf8yVBisU2ce+YJrlWwZa9BaZAE5GK5Yd7CBcP6UXoAnziRQl40/u/qwVZi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
