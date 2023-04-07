@@ -44,7 +44,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; |
 &nbsp; | `LowLevelLearning` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LowLevelLearning) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@LowLevelLearning) |
 &nbsp; | `KrisNova` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KrisNova) &nbsp; |
-🟢 | `MarcusHutchins2` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MarcusHutchins2 "Just Chatting") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@MalwareTechBlog) | EN
+&nbsp; | `MarcusHutchins2` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MarcusHutchins2) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@MalwareTechBlog) 
 &nbsp; | `tinyxtina_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/tinyxtina_) &nbsp; |
 &nbsp; | `TechnologyInterpreters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TechnologyInterpreters) &nbsp; |
 🟢 | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial "Science & Technology") &nbsp; | EN
