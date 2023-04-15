@@ -33,7 +33,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp; |
 &nbsp; | `Anyascii` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Anyascii) &nbsp; |
 &nbsp; | `seclilc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/seclilc) &nbsp; |
-🟢 | `overgrowncarrot1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/overgrowncarrot1 "Science & Technology") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://youtube.com/channel/UCykh1fzT0LK-9wVhn8ocLaA) | EN
+&nbsp; | `overgrowncarrot1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/overgrowncarrot1) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://youtube.com/channel/UCykh1fzT0LK-9wVhn8ocLaA) 
 &nbsp; | `elprogramadorgt` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elprogramadorgt) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgirU6f4kiT5Yxba4QyI58Q) |
 &nbsp; | `mttaggart` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mttaggart) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/taggarttech) |
 &nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
