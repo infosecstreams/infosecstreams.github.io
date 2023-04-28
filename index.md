@@ -36,7 +36,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp; |
 &nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; |
 &nbsp; | `kristiee` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kristiee) &nbsp; |
-🟢 | `Gyre_Security` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Gyre_Security) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaKU8oiDXzYIUmBXHNv3DEg) | EN
+&nbsp; | `Gyre_Security` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Gyre_Security) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaKU8oiDXzYIUmBXHNv3DEg) 
 &nbsp; | `mttaggart` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mttaggart) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/taggarttech) |
 &nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
 🟢 | `Anyascii` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Anyascii) &nbsp; | EN
