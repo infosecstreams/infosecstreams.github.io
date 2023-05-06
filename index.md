@@ -88,6 +88,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `HackTricks_LIVE` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTricks_LIVE) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hacktricks_LIVE) |
 &nbsp; | `TheHackerMaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheHackerMaker) &nbsp; |
 &nbsp; | `ShellDredd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ShellDredd) &nbsp;
+&nbsp; | `AgeOfEntropy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AgeOfEntropy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCitiWg5p-R6QNLPuJPSE33g)
 
 ### Credits
 
