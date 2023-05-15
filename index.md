@@ -35,7 +35,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b) &nbsp; |
 &nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) |
 &nbsp; | `Alh4zr3d` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Alh4zr3d) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA) 
-&nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; |
+🟢 | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter "Science & Technology") &nbsp; | EN
 &nbsp; | `Gyre_Security` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Gyre_Security) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaKU8oiDXzYIUmBXHNv3DEg) |
 &nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
 &nbsp; | `gamozo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gamozo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA) |
