@@ -26,7 +26,7 @@ Here are [some great resources](/resources) for your hacking journey.
 🟢 | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean "Software and Game Development") &nbsp; | FR
 &nbsp; | `het_tanis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/het_tanis) &nbsp; |
 &nbsp; | `SecurityWeekly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityWeekly) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg) |
-&nbsp; | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp; |
+&nbsp; | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp; 
 &nbsp; | `seclilc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/seclilc) &nbsp; |
 &nbsp; | `OALabsLive` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OALabsLive) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/OALabs) |
 &nbsp; | `TechnologyInterpreters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TechnologyInterpreters) &nbsp; |
