@@ -85,6 +85,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `HackTricks_LIVE` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTricks_LIVE) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hacktricks_LIVE) |
 &nbsp; | `2ocstream` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/2ocstream) &nbsp; |
 &nbsp; | `kaythecyberguy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kaythecyberguy) &nbsp; |
+🟢 | `breakingintocybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/breakingintocybersecurity "Talk Shows & Podcasts") &nbsp;| EN
 
 ### Credits
 
