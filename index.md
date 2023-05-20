@@ -19,7 +19,7 @@ Here are [some great resources](/resources) for your hacking journey.
 &nbsp; | `TrshPuppy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TrshPuppy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@trshpuppy) |
 &nbsp; | `elprogramadorgt` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elprogramadorgt) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgirU6f4kiT5Yxba4QyI58Q) |
 &nbsp; | `morehouse_hacks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/morehouse_hacks) &nbsp; |
-🟢 | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean "Software and Game Development, Tags: linux, Bash, kali, scripting, radare2, ctf, THM, htb, C, coding") &nbsp; | FR
+&nbsp; | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean) &nbsp; 
 &nbsp; | `SecurityWeekly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityWeekly) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg) |
 🟢 | `B7H30` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/B7H30 "Just Chatting, Tags: CoLearning, CoWorking, Linux, CyberSecurity, BackSeatingAllowed, TryHackMe, TextToSpeech, English") &nbsp; | EN
 🟢 | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf "Science & Technology, Tags: infosec, writing, cybersecurity, Dutch, security, IT, technology") &nbsp; | EN
