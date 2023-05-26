@@ -9,6 +9,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `0xBufu` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xBufu) &nbsp;
 `0xCardinal` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xCardinal) &nbsp;
 `0xChance` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xChance) &nbsp;
+`0xdiass` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xdiass) &nbsp;
 `0xj3lly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xj3lly) &nbsp;
 `0xRy4nG` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xRy4nG) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCQWQlNq07_Rumy2i69dpqBw)
 `4rtii_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/4rtii_) &nbsp;
@@ -153,6 +154,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `Scrubterfuge` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Scrubterfuge) &nbsp;
 `SecITguy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecITguy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCbgRa0isrDQOG70CL_Hsvzg)
 `Sharghaas` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sharghaas) &nbsp;
+`shenetworks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/shenetworks) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/shenetworks)
 `SherlockSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SherlockSec) &nbsp;
 `Skyfire100` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Skyfire100) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEko--V_KFSGMdxJOfgTVzQ)
 `SlickPupStream` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SlickPupStream) &nbsp;
@@ -183,6 +185,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `Westar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Westar) &nbsp;
 `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp;
 `xN0Px90` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xN0Px90) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClBupMnkD1oZ49_xBbiUKBg)
+`xThalach` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThalach) &nbsp;
 `xychelsea87` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xychelsea87) &nbsp;
 `YERTX_CO` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YERTX_CO) &nbsp;
 `zerobandwidth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zerobandwidth) &nbsp;
