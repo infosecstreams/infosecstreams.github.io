@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <lastmod>2023-05-27T08:03:47+0000</lastmod>
-        <loc>https://infosecstreams.com/</loc>
-        <changefreq>hourly</changefreq>
+        <lastmod>2023-05-27T01:27:20-07:00</lastmod>
+        <loc>https://infosecstreams.com/index.html</loc>
+        <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <lastmod>2023-05-27T08:03:47+0000</lastmod>
-        <loc>https://infosecstreams.com/inactive</loc>
-        <changefreq>daily</changefreq>
+        <lastmod>2023-05-27T01:23:12-07:00</lastmod>
+        <loc>https://infosecstreams.com/inactive.html</loc>
+        <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://infosecstreams.com/resources</loc>
+        <loc>https://infosecstreams.com/resources.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <lastmod>2022-04-12</lastmod>
