@@ -15,17 +15,19 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         name: Checkout repository
-        
+
       - name: Login to registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
-        
+
       - name: Get streaming activity
         run: docker run -v $PWD/templates:/app/templates -v $PWD/index.md:/app/index.md -v $PWD/inactive.md:/app/inactive.md -v $PWD/streamers.csv:/app/streamers.csv ghcr.io/infosecstreams/secinfo:latest
 
       - name: Commit index.md
         run: |
+          current_time=$(date +"%Y-%m-%d")
+          awk -f .github/workflows/replace_lastmod_sort.awk sitemap.xml | tee sitemap_new.xml && mv sitemap_new.xml sitemap.xml
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git add index.md inactive.md
+          git add index.md inactive.md sitemap.xml
           git commit -am "🤖 Updated and sorted markdown files"
           git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
