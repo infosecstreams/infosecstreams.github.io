@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset>
     <url>
-        <lastmod>2023-05-28T19:03:47+0000</lastmod>
+        <lastmod>2023-05-28T19:58:21+0000</lastmod>
         <loc>https://infosecstreams.com/</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
@@ -13,9 +12,9 @@
         <priority>0.5</priority>
     </url>
     <url>
+        <lastmod>2022-04-12</lastmod>
         <loc>https://infosecstreams.com/resources</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <lastmod>2022-04-12</lastmod>
     </url>
 </urlset>
