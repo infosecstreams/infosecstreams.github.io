@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset>
     <url>
-        <lastmod>2023-05-31T05:16:19+00:00</lastmod>
+        <lastmod>2023-05-31T11:15:49+00:00</lastmod>
         <loc>https://infosecstreams.com/</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <lastmod>2023-05-30T11:16:09+00:00</lastmod>
+        <lastmod>2023-05-31T11:15:49+00:00</lastmod>
         <loc>https://infosecstreams.com/inactive</loc>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
