@@ -30,7 +30,7 @@ The project was started by [chadb_n00b](https://twitch.tv/chadb_n00b) and is cur
 
 ## Can I join the OnlyFeet CTF Team and its thriving Discord community?
 
-Absolutely! The OnlyFeet CTF Team has a vibrant and active community on the [OnlyFeet Discord](https://discord.gg/onlyfeet). Joining the community to engage in discussions, share knowledge, and particpiate with the OnlyFeet CTF Team and its activities. The Discord server is an excellent platform to connect with like-minded individuals passionate about CTF challenges and information security.
+Absolutely! The OnlyFeet CTF Team has a vibrant and active community on the [OnlyFeet Discord](https://discord.gg/onlyfeet). Joining the community to engage in discussions, share knowledge, and participate with the OnlyFeet CTF Team and their activities. The Discord server is an excellent platform to connect with like-minded individuals passionate about CTF challenges and information security.
 
 ## Where can I report issues?
 
