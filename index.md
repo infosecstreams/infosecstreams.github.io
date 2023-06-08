@@ -74,7 +74,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `YERTX_CO` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YERTX_CO) &nbsp; |
 &nbsp; | `kaythecyberguy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kaythecyberguy) &nbsp; |
 &nbsp; | `breakingintocybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/breakingintocybersecurity) &nbsp;
-🟢 | `xThalach` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThalach "Science & Technology, Tags: studying, Hacking, EthicalHackers, Hacker, Learning, Computers, HackTheBox, CTF, Pentester, Pentesting") &nbsp;| ES
+&nbsp; | `xThalach` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThalach) &nbsp;
 
 ### Credits
 
