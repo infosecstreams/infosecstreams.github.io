@@ -21,7 +21,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `het_tanis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/het_tanis) &nbsp; |
 &nbsp; | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp; |
 &nbsp; | `ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b) &nbsp; |
-🟢 | `ImAhian` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ImAhian "Science & Technology, Tags: ciberseguridad, oscp, hacking, pentesting, Aprendehacking, Español, redteam, pentest, cybersecurity") &nbsp; | 
+&nbsp; | `ImAhian` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ImAhian) &nbsp; 
 &nbsp; | `Alh4zr3d` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Alh4zr3d) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA) |
 &nbsp; | `c3rb3ru5d3d53c` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c3rb3ru5d3d53c) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCk9BugRahSWgPLYOAA3QH4w) |
 🟢 | `seclilc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/seclilc "Science & Technology, Tags: hacking, learning, computers, tech, shellcode, coding, pentesting, russianlanguage, DataScience, English") &nbsp; | EN
