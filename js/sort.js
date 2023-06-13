@@ -111,10 +111,6 @@ nameHeader.setAttribute('role', 'button');
 // Initially start in a sort by online state
 toggleOnlineSort(onlineHeader);
 
-// External links header
-const linksHeader = table.querySelector('th:nth-child(3)');
-linksHeader.setAttribute('title', 'External links');
-
 /******************************************************************************
  *** Filtering
  *****************************************************************************/
@@ -239,5 +235,5 @@ const languageHeader = table.querySelector('th:nth-child(4)');
 languageHeader.addEventListener('click', function (e) {
   document.body.appendChild(generateLanguageModal());
 })
-languageHeader.setAttribute('title', 'Filters');
+languageHeader.setAttribute('title', 'Filter by language');
 languageHeader.setAttribute('role', 'button');
