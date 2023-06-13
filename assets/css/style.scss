@@ -5,13 +5,18 @@
 
 .streamer-table {
   table-layout: auto;
-  
-  th[role=button] {
+
+  th[role="button"] {
     cursor: pointer;
   }
 
   th {
     white-space: pre-wrap;
+  }
+
+  /* Icon size doubled */
+  a>svg {
+    height: 1.5em;
   }
 
   th:nth-child(1)::before {
@@ -29,9 +34,27 @@
   th[data-sort="backward"]::after {
     content: " ▼";
   }
+
+  th:first-child,
+  td:first-child {
+    text-align: right;
+  }
+
+  /* Limit username to 10 characters */
+  td:nth-child(2) {
+    max-width: 10ch;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+  }
+
+  td:nth-child(3) {
+    text-align: left;
+    padding-left: 25px;
+  }
 }
 
-[role=modal] {
+[role="modal"] {
   display: flex;
   position: fixed;
   left: 0;
@@ -40,22 +63,62 @@
   height: 100%;
   justify-content: center;
   align-items: center;
-  background: rgba(255,255,255, 0.2);
+  background: rgba(238, 69, 2, 0.2);
 }
 
-[role=modal] > * {
+[role="modal"]>* {
   background: $body-background;
 }
 
-/* Rules for small screens */
+/* Rules for medium screens */
 @media (max-width: 700px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    display: none;
+  }
+
+  #main_content {
+    h1, h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+
   .streamer-table {
-    th:nth-child(4), td:nth-child(4) {
-      display:none;
+    th:first-child,
+    td:first-child {
+      text-align: left;
     }
 
     th:nth-child(1)::before {
       content: "🟢";
+    }
+
+    th:nth-child(4),
+    td:nth-child(4) {
+      display: none;
+    }
+  }
+}
+
+/* Rules for small screens */
+@media (max-width: 500px) {
+  #main_content h1,
+  #main_content h2 {
+    font-size: 1em;
+  }
+
+  .streamer-table {
+    font-size: 1em;
+
+    th,
+    td {
+      padding: 5px;
     }
   }
 }

@@ -9,7 +9,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 ## List of Streams (sorted)
 
 &nbsp; | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></i> | <i class="fas fa-comment-dots"></i>
----: | --- | :--- | :---
+--- | ---- | --- | :---
 
 ### Credits
 
