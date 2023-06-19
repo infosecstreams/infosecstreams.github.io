@@ -36,7 +36,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `0reoByte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0reoByte) &nbsp; |
 &nbsp; | `KrisNova` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KrisNova) &nbsp; |
 &nbsp; | `SniferL4bs` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SniferL4bs) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/SniferL4bs) |
-🟢 | `ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b "Science & Technology, Tags: kali, work, chat, oscp") &nbsp; | EN
+&nbsp; | `ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b) &nbsp; 
 &nbsp; | `kristiee` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kristiee) &nbsp; |
 &nbsp; | `Garr_7` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Garr_7) &nbsp; |
 &nbsp; | `thecybermentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) |
