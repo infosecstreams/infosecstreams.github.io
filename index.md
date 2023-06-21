@@ -76,7 +76,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `BarSides` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BarSides) &nbsp; |
 &nbsp; | `TheHackerMaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheHackerMaker) &nbsp; |
 &nbsp; | `ltn_bob` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ltn_bob) &nbsp; |
-🟢 | `breakingintocybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/breakingintocybersecurity "Talk Shows & Podcasts, Tags: Cyber, Leader, English") &nbsp;| EN
+&nbsp; | `breakingintocybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/breakingintocybersecurity) &nbsp;
 
 ### Credits
 
