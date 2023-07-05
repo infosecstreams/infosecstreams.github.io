@@ -6,6 +6,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 
 <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></i>
 --: | ---
+`0reoByte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0reoByte) &nbsp;
 `0xBufu` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xBufu) &nbsp;
 `0xCardinal` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xCardinal) &nbsp;
 `0xChance` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xChance) &nbsp;
@@ -167,6 +168,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `softexploit` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/softexploit) &nbsp;
 `soyelmago` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/soyelmago) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://youtube.com/c/alanlevy-elmago)
 `spacepenguins101` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/spacepenguins101) &nbsp;
+`SpiceySec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SpiceySec) &nbsp;
 `stokfredrik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/stokfredrik) &nbsp;
 `streambytes_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/streambytes_) &nbsp;
 `Sukaiberu` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sukaiberu) &nbsp;
@@ -194,6 +196,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `xN0Px90` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xN0Px90) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClBupMnkD1oZ49_xBbiUKBg)
 `xThe_Developer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThe_Developer) &nbsp;
 `xychelsea87` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xychelsea87) &nbsp;
+`YERTX_CO` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YERTX_CO) &nbsp;
 `zerobandwidth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zerobandwidth) &nbsp;
 
 ### Credits
