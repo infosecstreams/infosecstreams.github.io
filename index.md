@@ -31,7 +31,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec) |
 &nbsp; | `h8handles` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h8handles) &nbsp; |
 &nbsp; | `hackorgame` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackorgame) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCj1GJShGx78PjZlHoRrMiwA) |
-🟢 | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; | EN
+&nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; 
 &nbsp; | `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters) &nbsp; |
 &nbsp; | `Anyascii` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Anyascii) &nbsp; |
 &nbsp; | `S4vitaar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S4vitaar) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q) |
