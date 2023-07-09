@@ -69,7 +69,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `xThalach` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThalach) &nbsp; |
 &nbsp; | `BarSides` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BarSides) &nbsp; |
 &nbsp; | `TheHackerMaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheHackerMaker) &nbsp; |
-🟢 | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec "Science & Technology, Tags: Español") &nbsp;| ES
+&nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp;
 🟢 | `jrozner` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jrozner "Science & Technology, Tags: English, security, Programming") &nbsp;| EN
 
 ### Credits
