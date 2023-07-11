@@ -71,6 +71,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `TheHackerMaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheHackerMaker) &nbsp; |
 &nbsp; | `BarSides` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BarSides) &nbsp; |
 &nbsp; | `breakingintocybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/breakingintocybersecurity) &nbsp;
+🟢 | `d0nutptr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/d0nutptr "Software and Game Development, Tags: rust, security, appsec, infosec, developer, English") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/d0nutptr)| EN
 
 ### Credits
 
