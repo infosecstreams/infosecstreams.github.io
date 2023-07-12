@@ -71,6 +71,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; |
 &nbsp; | `TheHackerMaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheHackerMaker) &nbsp; |
 &nbsp; | `BarSides` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BarSides) &nbsp; |
+🟢 | `joshua17sc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/joshua17sc "Talk Shows & Podcasts, Tags: English") &nbsp;| EN
 
 ### Credits
 
