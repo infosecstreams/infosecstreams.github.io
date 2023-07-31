@@ -35,6 +35,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `BinarySouljour` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BinarySouljour) &nbsp;
 `BlackSheepSpicy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlackSheepSpicy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC2JbRIzd7qmUgvS7oZ7BUpA)
 `blacksincybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blacksincybersecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEBEQ0oRA2LPnc2wm2TO5IA)
+`Blades_1000` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Blades_1000) &nbsp;
 `blindpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blindpentester) &nbsp;
 `breakingintocybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/breakingintocybersecurity) &nbsp;
 `brutalmax1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/brutalmax1) &nbsp;
@@ -158,6 +159,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `Scrubterfuge` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Scrubterfuge) &nbsp;
 `SecITguy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecITguy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCbgRa0isrDQOG70CL_Hsvzg)
 `Sharghaas` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sharghaas) &nbsp;
+`ShellDredd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ShellDredd) &nbsp;
 `shenetworks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/shenetworks) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/shenetworks)
 `SherlockSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SherlockSec) &nbsp;
 `Skyfire100` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Skyfire100) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEko--V_KFSGMdxJOfgTVzQ)
@@ -172,6 +174,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `streambytes_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/streambytes_) &nbsp;
 `Sukaiberu` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sukaiberu) &nbsp;
 `sup3rhero1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/sup3rhero1) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/superhero1)
+`systemdeez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/systemdeez) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@systemdeez)
 `TechnologyInterpreters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TechnologyInterpreters) &nbsp;
 `Techryptic` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Techryptic) &nbsp;
 `Th3lazykid` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Th3lazykid) &nbsp;
