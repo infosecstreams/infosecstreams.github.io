@@ -182,7 +182,6 @@ Hey there! This page contains streamers that have not streamed in the last month
 `TechnologyInterpreters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TechnologyInterpreters) &nbsp;
 `Techryptic` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Techryptic) &nbsp;
 `Th3lazykid` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Th3lazykid) &nbsp;
-`TheGoodHackerTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheGoodHackerTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeeOzvMFfd2qcUFIGN_Nzyw)
 `TheHackerMaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheHackerMaker) &nbsp;
 `TheLabda` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheLabda) &nbsp;
 `TheMayor11` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheMayor11) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)

@@ -68,6 +68,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec) |
 &nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; |
 &nbsp; | `systemdeez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/systemdeez) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@systemdeez)
+🟢 | `TheGoodHackerTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheGoodHackerTV "Science & Technology, Tags: ciberseguridad, hacking, linux, cybersecurity, redteam, hackingetico, malware") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeeOzvMFfd2qcUFIGN_Nzyw)| ES
 
 ### Credits
 
