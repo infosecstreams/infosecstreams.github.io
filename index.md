@@ -70,6 +70,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; |
 &nbsp; | `0reoByte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0reoByte) &nbsp;
 🟢 | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah "Science & Technology, Tags: hacker, money, python, dev, visualstudio, programacao, microsoft, github, ctf") &nbsp;| PT
+🟢 | `RxHackk` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RxHackk "Software and Game Development, Tags: CoLearning, CoWorking, Linux, CyberSecurity, BackSeatingAllowed, TryHackMe, English") &nbsp;| 
 
 ### Credits
 
