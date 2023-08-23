@@ -56,7 +56,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `0reoByte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0reoByte) &nbsp; |
 &nbsp; | `KrisNova` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KrisNova) &nbsp; |
 &nbsp; | `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege) |
-&nbsp; | `RxHackk` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RxHackk) &nbsp; |
+🟢 | `RxHackk` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RxHackk "Software and Game Development, Tags: Samoa, Linux, NewZealand, Educational, English, aws, Pasifika") &nbsp; | EN
 &nbsp; | `securityfwd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securityfwd) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g) |
 &nbsp; | `ImAhian` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ImAhian) &nbsp; |
 &nbsp; | `RoccoSicilia` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RoccoSicilia) &nbsp; |
