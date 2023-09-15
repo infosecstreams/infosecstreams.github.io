@@ -42,7 +42,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `Khaos_Farbauti` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Khaos_Farbauti) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/KhaosFarbautiIbnOblivion) |
 &nbsp; | `RxHackk` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RxHackk) &nbsp; |
 &nbsp; | `Dysnome` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Dysnome) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC5sq_Q2Fd8z38mfL4pcOTAg) |
-&nbsp; | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp; |
+🟢 | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial "Science & Technology, Tags: English") &nbsp; | EN
 &nbsp; | `CyberWarriorStudios` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberWarriorStudios) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g) |
 &nbsp; | `ltn_bob` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ltn_bob) &nbsp; |
 &nbsp; | `shenetworks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/shenetworks) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/shenetworks) |
