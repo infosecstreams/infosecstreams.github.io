@@ -43,7 +43,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; |
 &nbsp; | `CyberVikingUK` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberVikingUK) &nbsp; |
 &nbsp; | `TheGoodHackerTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheGoodHackerTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeeOzvMFfd2qcUFIGN_Nzyw) |
-&nbsp; | `Khaos_Farbauti` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Khaos_Farbauti) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/KhaosFarbautiIbnOblivion) |
+&nbsp; | `Khaos_Farbauti` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Khaos_Farbauti) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/KhaosFarbautiIbnOblivion) 
 &nbsp; | `ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b) &nbsp; |
 &nbsp; | `shenetworks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/shenetworks) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/shenetworks) |
 &nbsp; | `MSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCu9ybrID4Ak5pDU-6E5ph5Q) |
