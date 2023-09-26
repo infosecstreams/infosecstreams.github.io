@@ -22,7 +22,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `het_tanis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/het_tanis) &nbsp; |
 &nbsp; | `Hackavis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hackavis) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Hackavis) |
 &nbsp; | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp; |
-&nbsp; | `TrshPuppy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TrshPuppy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@trshpuppy) |
+🟢 | `TrshPuppy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TrshPuppy "Software and Game Development, Tags: cybersecurity, coding, hacking, SoftwareEnginnering, Codewars, javascript, chatting, python, cowork, golang") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@trshpuppy) | EN
 &nbsp; | `elpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elpentester) &nbsp; |
 &nbsp; | `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters) &nbsp; |
 &nbsp; | `ritsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ritsec) &nbsp; |
