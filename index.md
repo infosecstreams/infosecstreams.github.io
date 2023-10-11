@@ -24,7 +24,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 🟢 | `TrshPuppy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TrshPuppy "Software and Game Development, Tags: cybersecurity, coding, hacking, SoftwareEnginnering, Codewars, javascript, chatting, python, cowork, golang") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@trshpuppy) | EN
 &nbsp; | `rinconzeraa` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/rinconzeraa) &nbsp; |
 &nbsp; | `Elustaani` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Elustaani) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@elustaani) |
-&nbsp; | `Hackavis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hackavis) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Hackavis) |
+🟢 | `Hackavis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hackavis "Science & Technology, Tags: Español") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Hackavis) | ES
 &nbsp; | `theedmiroshow` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/theedmiroshow) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theedmiroshow) |
 &nbsp; | `xThe_Developer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThe_Developer) &nbsp; |
 &nbsp; | `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters) &nbsp; |
