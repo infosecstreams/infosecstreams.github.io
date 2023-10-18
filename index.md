@@ -21,7 +21,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean) &nbsp; 
 &nbsp; | `team_whoami` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/team_whoami) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@teamwhoami7726) |
 &nbsp; | `rinconzeraa` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/rinconzeraa) &nbsp; |
-🟢 | `Hackavis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hackavis "Science & Technology, Tags: Español") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Hackavis) | ES
+&nbsp; | `Hackavis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hackavis) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Hackavis) 
 &nbsp; | `Elustaani` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Elustaani) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@elustaani) |
 &nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) 
 &nbsp; | `theedmiroshow` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/theedmiroshow) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theedmiroshow) |
