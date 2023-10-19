@@ -110,6 +110,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `ItsMeDelano` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ItsMeDelano) &nbsp;
 `jabreity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jabreity) &nbsp;
 `JarnoBaselier` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JarnoBaselier) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@JarnoBaselier)
+`JawnCon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JawnCon) &nbsp;
 `Jazzahn` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Jazzahn) &nbsp;
 `jbeers11` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jbeers11) &nbsp;
 `JohnHammond010` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JohnHammond010) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
@@ -179,6 +180,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `SpiceySec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SpiceySec) &nbsp;
 `stokfredrik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/stokfredrik) &nbsp;
 `streambytes_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/streambytes_) &nbsp;
+`Sukaiberu` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sukaiberu) &nbsp;
 `sup3rhero1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/sup3rhero1) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/superhero1)
 `systemdeez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/systemdeez) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@systemdeez)
 `TechnologyInterpreters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TechnologyInterpreters) &nbsp;
