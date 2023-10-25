@@ -63,7 +63,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b) &nbsp; |
 🟢 | `securityfwd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securityfwd "Science & Technology, Tags: English") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g) | EN
 &nbsp; | `SecurityCert` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityCert) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@securitycert) |
-🟢 | `TheGoodHackerTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheGoodHackerTV "Science & Technology, Tags: Español") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeeOzvMFfd2qcUFIGN_Nzyw) | 
+&nbsp; | `TheGoodHackerTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheGoodHackerTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeeOzvMFfd2qcUFIGN_Nzyw) 
 &nbsp; | `Westar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Westar) &nbsp; |
 &nbsp; | `Defcon201Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Defcon201Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/defcon201) |
 &nbsp; | `Kiwi_FruitBird` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Kiwi_FruitBird) &nbsp; |
