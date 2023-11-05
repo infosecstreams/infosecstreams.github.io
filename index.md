@@ -37,7 +37,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters) &nbsp; |
 &nbsp; | `thecybermentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) |
 &nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) |
-&nbsp; | `ProfitzTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ProfitzTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@profitztv) |
+&nbsp; | `ProfitzTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ProfitzTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@profitztv) 
 &nbsp; | `JawnCon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JawnCon) &nbsp; |
 &nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
 &nbsp; | `Alh4zr3d` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Alh4zr3d) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA) |
