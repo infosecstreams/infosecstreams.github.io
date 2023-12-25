@@ -78,7 +78,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `theedmiroshow` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/theedmiroshow) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theedmiroshow) |
 &nbsp; | `LeonVQZ` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LeonVQZ) &nbsp; |
 &nbsp; | `CyberChex` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberChex) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@CyberChex)
-🟢 | `ShellDredd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ShellDredd "Software and Game Development, Tags: español, entretenimiento, hacking, linux, informatica, ctf, ciberseguridad, infosec, ciber, Español") &nbsp;| ES
+&nbsp; | `ShellDredd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ShellDredd) &nbsp;
 
 ### Credits
 
