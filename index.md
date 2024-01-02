@@ -50,7 +50,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `S4vitaar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S4vitaar) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q) |
 &nbsp; | `Defcon201Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Defcon201Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/defcon201) |
 &nbsp; | `dayzerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dayzerosec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA) |
-&nbsp; | `TheLaluka` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheLaluka) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TheLaluka) |
+&nbsp; | `TheLaluka` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheLaluka) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TheLaluka) 
 &nbsp; | `RoccoSicilia` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RoccoSicilia) &nbsp; |
 &nbsp; | `MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q) |
 &nbsp; | `c3rb3ru5d3d53c` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c3rb3ru5d3d53c) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCk9BugRahSWgPLYOAA3QH4w) |
