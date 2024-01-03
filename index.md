@@ -77,6 +77,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `LeonVQZ` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LeonVQZ) &nbsp; |
 &nbsp; | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp;
 &nbsp; | `mttaggart` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mttaggart) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/taggarttech)
+🟢 | `CybeardSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybeardSec "Just Chatting, Tags: Linux, hackers, hacking, nmap, metasploit, tryhackme, letsdefend, cybersecurity, infosec, cyberwarfare") &nbsp;| EN
 
 ### Credits
 
