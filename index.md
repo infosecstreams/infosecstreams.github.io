@@ -39,7 +39,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `Pour1nfo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Pour1nfo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/PourInfo) |
 &nbsp; | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean) &nbsp; |
 &nbsp; | `teg0ra` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/teg0ra) &nbsp; |
-🟢 | `S4vitaar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S4vitaar "Science & Technology, Tags: Español") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q) | 
+&nbsp; | `S4vitaar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S4vitaar) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q) 
 &nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
 &nbsp; | `SniferL4bs` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SniferL4bs) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/SniferL4bs) |
 &nbsp; | `OALabsLive` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OALabsLive) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/OALabs) |
