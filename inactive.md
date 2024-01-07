@@ -33,6 +33,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `bee_sec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/bee_sec) &nbsp;
 `BHEH1337` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BHEH1337) &nbsp;
 `BinarySouljour` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BinarySouljour) &nbsp;
+`BlackHatNOC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlackHatNOC) &nbsp;
 `BlackSheepSpicy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlackSheepSpicy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC2JbRIzd7qmUgvS7oZ7BUpA)
 `blacksincybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blacksincybersecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEBEQ0oRA2LPnc2wm2TO5IA)
 `blades_1000` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blades_1000) &nbsp;
@@ -66,6 +67,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `dicecreation` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dicecreation) &nbsp;
 `digitenchou` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/digitenchou) &nbsp;
 `dimineko` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dimineko) &nbsp;
+`Djax120` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Djax120) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
 `DOWRIGHT` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DOWRIGHT) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/dowrighttv)
 `Dragonar0123` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Dragonar0123) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeejhMe148sDFfMK4sXDFDA)
 `Dysnome` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Dysnome) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC5sq_Q2Fd8z38mfL4pcOTAg)
@@ -115,6 +117,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `InsiderPhD` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InsiderPhD) &nbsp;
 `ippsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ippsec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://youtube.com/c/ippsec)
 `ItsMeDelano` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ItsMeDelano) &nbsp;
+`jabreity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jabreity) &nbsp;
 `JarnoBaselier` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JarnoBaselier) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@JarnoBaselier)
 `JawnCon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JawnCon) &nbsp;
 `Jazzahn` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Jazzahn) &nbsp;
@@ -141,6 +144,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `majksec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/majksec) &nbsp;
 `marcushutchins2` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/marcushutchins2) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@MalwareTechBlog)
 `mbcrump` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mbcrump) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
+`mchow01` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mchow01) &nbsp;
 `mell0wx` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mell0wx) &nbsp;
 `MrCrumbs_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MrCrumbs_) &nbsp;
 `MVLWVR3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MVLWVR3) &nbsp;
@@ -155,6 +159,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `poocha_police` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/poocha_police) &nbsp;
 `PRIMALmk` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PRIMALmk) &nbsp;
 `pseudosarah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pseudosarah) &nbsp;
+`pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege)
 `pwninx` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwninx) &nbsp;
 `PwnSchool` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PwnSchool) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/ThePwnSchoolProject)
 `RastaM0us3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RastaM0us3) &nbsp;
