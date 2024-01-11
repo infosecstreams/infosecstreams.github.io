@@ -33,7 +33,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `TrshPuppy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TrshPuppy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@trshpuppy) |
 &nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
 &nbsp; | `Pour1nfo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Pour1nfo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/PourInfo) |
-🟢 | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec "Science & Technology, Tags: Español, ciberseguridad, hacking") &nbsp; | ES
+&nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; 
 &nbsp; | `gamozo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gamozo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA) |
 &nbsp; | `cyber_v1s3rion` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cyber_v1s3rion) &nbsp; |
 &nbsp; | `xThe_Developer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThe_Developer) &nbsp; |
