@@ -76,6 +76,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec) |
 &nbsp; | `parzival604` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/parzival604) &nbsp; 
 &nbsp; | `kristiee` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kristiee) &nbsp;
+🟢 | `elpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elpentester "Science & Technology, Tags: Argentina, Educativo, Español, hack, hacking") &nbsp;| ES
 
 ### Credits
 
