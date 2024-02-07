@@ -33,7 +33,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `S4vitaar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S4vitaar) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q) |
 &nbsp; | `thecybermentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) 
 &nbsp; | `p0tpan` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/p0tpan) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://twitch.tv/p0tpan) |
-&nbsp; | `TheAKElement` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheAKElement) &nbsp; |
+🟢 | `TheAKElement` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheAKElement "Software and Game Development, Tags: Code, Programming, Hacking, Software, Pentest") &nbsp; | EN
 &nbsp; | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp; |
 &nbsp; | `Anyascii` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Anyascii) &nbsp; |
 &nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
