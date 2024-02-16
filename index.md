@@ -57,7 +57,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `Defcon201Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Defcon201Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/defcon201) |
 &nbsp; | `CyberChex` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberChex) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@CyberChex) |
 &nbsp; | `TsarSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TsarSec) &nbsp; |
-&nbsp; | `Garr_7` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Garr_7) &nbsp; |
+🟢 | `Garr_7` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Garr_7 "Software and Game Development, Tags: English, hackthebox, infosec, cybersecurity, IoT") &nbsp; | EN
 &nbsp; | `SecurityCert` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityCert) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@securitycert) |
 &nbsp; | `c04tl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c04tl) &nbsp; |
 &nbsp; | `RoccoSicilia` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RoccoSicilia) &nbsp; |
