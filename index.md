@@ -20,7 +20,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `het_tanis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/het_tanis) &nbsp; |
 🟢 | `endingwithALI` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/endingwithALI "Software and Game Development, Tags: women, keyboard, archlinux, 100Devs, English") &nbsp; | EN
 &nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; |
-🟢 | `0xdiass` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xdiass "Science & Technology, Tags: hacking, English, cybersecurity, Português") &nbsp; | EN
+&nbsp; | `0xdiass` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xdiass) &nbsp; 
 &nbsp; | `Hackavis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hackavis) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Hackavis) |
 &nbsp; | `Alh4zr3d` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Alh4zr3d) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA) |
 &nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; |
