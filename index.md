@@ -64,7 +64,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `Cyber_Insecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Cyber_Insecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg) |
 &nbsp; | `Super_uzer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Super_uzer) &nbsp; |
 &nbsp; | `CyberChex` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberChex) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@CyberChex) |
-🟢 | `gerald_auger_simplycyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gerald_auger_simplycyber "Science & Technology, Tags: hacking, active, directory, penetration, ethical, linux, kai, kali, English") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@simplycyber) | 
+&nbsp; | `gerald_auger_simplycyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gerald_auger_simplycyber) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@simplycyber) 
 &nbsp; | `LeonVQZ` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LeonVQZ) &nbsp; |
 &nbsp; | `gerald_auger_simplycyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gerald_auger_simplycyber) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@SimplyCyber) |
 &nbsp; | `TechnologyInterpreters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TechnologyInterpreters) &nbsp; |
