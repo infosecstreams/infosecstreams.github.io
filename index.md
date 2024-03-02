@@ -38,7 +38,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `gerald_auger_simplycyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gerald_auger_simplycyber) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@simplycyber) 
 &nbsp; | `gerald_auger_simplycyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gerald_auger_simplycyber) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@SimplyCyber) |
 &nbsp; | `0reoByte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0reoByte) &nbsp; 
-🟢 | `xThe_Developer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThe_Developer "Software and Game Development, Tags: AMA, BackseatingAllowed, Programming, ReverseEngineering, Hacker, Hackerman, TryingHarder, NeedsMoreTags, Systems, OSDev") &nbsp; | EN
+&nbsp; | `xThe_Developer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThe_Developer) &nbsp; 
 &nbsp; | `FixIt42` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FixIt42) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@FixIt42) 
 &nbsp; | `0xdiass` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xdiass) &nbsp; |
 &nbsp; | `OALabsLive` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OALabsLive) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/OALabs) |
