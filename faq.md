@@ -22,7 +22,7 @@ While the list includes a wide range of streamers, it is by no means exhaustive.
 
 ## How can I contribute to the list?
 
-If you have a new streamer to add or spot an error, you're encouraged to contribute edits and can be made by issuing a [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls), raising an [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues), or holler at us on the [Discord](https://discord.gg/onlyfeet). Thanks!
+If you have a new streamer to add or spot an error, you're encouraged to contribute edits and can be made by issuing a [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls), raising an [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues). Thanks!
 
 ## Who maintains the InfoSec Streams list?
 
@@ -30,11 +30,11 @@ The project was started by [chadb_n00b](https://twitch.tv/chadb_n00b) and is cur
 
 ## Can I join the OnlyFeet CTF Team and its thriving Discord community?
 
-Absolutely! The OnlyFeet CTF Team has a vibrant and active community on the [OnlyFeet Discord](https://discord.gg/onlyfeet). Joining the community to engage in discussions, share knowledge, and participate with the OnlyFeet CTF Team and their activities. The Discord server is an excellent platform to connect with like-minded individuals passionate about CTF challenges and information security.
+Absolutely! The OnlyFeet CTF Team has a vibrant and active community on a Discord, OSINT it. Joining the community to engage in discussions, share knowledge, and participate with the OnlyFeet CTF Team and their activities. The Discord server is an excellent platform to connect with like-minded individuals passionate about CTF challenges and information security.
 
 ## Where can I report issues?
 
-If you encounter any issues with a link or if the site is not updating properly, you can report it on the [OnlyFeet Discord](https://discord.gg/onlyfeet) server or open an issue on the GitHub page.
+If you encounter any issues with a link or if the site is not updating properly, you can report it on the server (OSINT it) or open an issue on the GitHub page.
 
 <script defer data-domain="infosecstreams.github.io" src="https://p.infosecstreams.com/js/plausible.outbound-links.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/brands.min.js" integrity="sha512-KYlRezs7yAa59UnX6zAvY7I96Te02kycQn02Sr6FU/fBpxcXAwumRe5DHVrqVnWTt9HY/PktrAPZzSe9UE1Yxg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
