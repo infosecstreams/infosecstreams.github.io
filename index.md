@@ -53,7 +53,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `thecybermentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) |
 &nbsp; | `RoccoSicilia` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RoccoSicilia) &nbsp; |
 &nbsp; | `xThe_Developer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThe_Developer) &nbsp; |
-🟢 | `LowLevelLearning` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LowLevelLearning "Software and Game Development, Tags: English, Rust, C, urmom") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@LowLevelLearning) | EN
+&nbsp; | `LowLevelLearning` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LowLevelLearning) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@LowLevelLearning) 
 &nbsp; | `overgrowncarrot1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/overgrowncarrot1) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://youtube.com/channel/UCykh1fzT0LK-9wVhn8ocLaA) |
 &nbsp; | `ritsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ritsec) &nbsp; |
 &nbsp; | `CybeardSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybeardSec) &nbsp; |
