@@ -12,7 +12,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 ---: | --- | :--- | :---
 &nbsp; | `FixIt42` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FixIt42) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@FixIt42) |
 🟢 | `h8handles` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h8handles "Science & Technology, Tags: Hacking, Ciberseguridad, HackTheBox, VulnHub, Español") &nbsp; | 
-&nbsp; | `UndecidedFlavor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/UndecidedFlavor) &nbsp; |
+&nbsp; | `UndecidedFlavor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/UndecidedFlavor) &nbsp; 
 &nbsp; | `BlackHatNOC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlackHatNOC) &nbsp; |
 &nbsp; | `B7H30` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/B7H30) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theo6580) |
 &nbsp; | `blaisebits` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blaisebits) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@blaisebits) |
