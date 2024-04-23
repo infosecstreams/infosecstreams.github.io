@@ -35,6 +35,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `BHEH1337` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BHEH1337) &nbsp;
 `BinarySouljour` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BinarySouljour) &nbsp;
 `BlackSheepSpicy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlackSheepSpicy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC2JbRIzd7qmUgvS7oZ7BUpA)
+`blacksincybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blacksincybersecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEBEQ0oRA2LPnc2wm2TO5IA)
 `blades_1000` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blades_1000) &nbsp;
 `blindpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blindpentester) &nbsp;
 `breakingintocybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/breakingintocybersecurity) &nbsp;
@@ -73,6 +74,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `dicecreation` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dicecreation) &nbsp;
 `digitenchou` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/digitenchou) &nbsp;
 `dimineko` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dimineko) &nbsp;
+`DISREL` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DISREL) &nbsp;
 `Djax120` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Djax120) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCJVQ4X0olUFq0nrxS8Xvijg)
 `DOWRIGHT` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DOWRIGHT) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/dowrighttv)
 `Dragonar0123` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Dragonar0123) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeejhMe148sDFfMK4sXDFDA)
