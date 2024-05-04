@@ -79,7 +79,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `InfamousJoeG` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfamousJoeG) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCDtQCYeZdOYtNzyh9VNAlNQ) |
 &nbsp; | `LeonVQZ` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LeonVQZ) &nbsp; |
 &nbsp; | `Pour1nfo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Pour1nfo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/PourInfo) |
-&nbsp; | `AgeOfEntropy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AgeOfEntropy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCitiWg5p-R6QNLPuJPSE33g) |
+🟢 | `AgeOfEntropy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AgeOfEntropy "Science & Technology, Tags: tecnologia, games, security, ethicalhacking, hackthebox, Hackthebox, burp, Español") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCitiWg5p-R6QNLPuJPSE33g) | ES
 &nbsp; | `c3rb3ru5d3d53c` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c3rb3ru5d3d53c) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCk9BugRahSWgPLYOAA3QH4w) |
 &nbsp; | `CyberWarriorStudios` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberWarriorStudios) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 
