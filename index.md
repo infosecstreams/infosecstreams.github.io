@@ -28,13 +28,13 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `Hackavis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hackavis) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Hackavis) 
 &nbsp; | `s1ren_official` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/s1ren_official) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://www.youtube.com/@sirensecurity) |
 &nbsp; | `elprogramadorgt` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elprogramadorgt) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgirU6f4kiT5Yxba4QyI58Q) |
-&nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) 
+🟢 | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius "Software and Game Development") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) | EN
 &nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; |
 &nbsp; | `ElPinguinoDeMario` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ElPinguinoDeMario) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@ElPinguinoDeMario) |
 &nbsp; | `LaurieWired` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LaurieWired) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@lauriewired) |
 &nbsp; | `g0lden1_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g0lden1_) &nbsp; |
 &nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; |
-&nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
+🟢 | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec "Just Chatting, Tags: IRL, MentalHealthFriendly, English, security, recruiting, recruiter") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) | EN
 &nbsp; | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp; |
 &nbsp; | `OALabsLive` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OALabsLive) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/OALabs) |
 &nbsp; | `MSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCu9ybrID4Ak5pDU-6E5ph5Q) |
@@ -44,7 +44,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `kristiee` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kristiee) &nbsp; |
 &nbsp; | `Alh4zr3d` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Alh4zr3d) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA) |
 &nbsp; | `LowLevelLearning` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LowLevelLearning) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@LowLevelLearning) |
-🟢 | `RoccoSicilia` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RoccoSicilia) &nbsp; | IT
+&nbsp; | `RoccoSicilia` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RoccoSicilia) &nbsp; |
 &nbsp; | `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters) &nbsp; |
 &nbsp; | `S4vitaar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S4vitaar) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q) |
 &nbsp; | `gerald_auger_simplycyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gerald_auger_simplycyber) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@SimplyCyber) |
