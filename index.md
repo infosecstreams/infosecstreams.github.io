@@ -83,6 +83,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `Flangvik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Flangvik) &nbsp; |
 &nbsp; | `rs0n_live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/rs0n_live) &nbsp; |
 &nbsp; | `c3rb3ru5d3d53c` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c3rb3ru5d3d53c) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCk9BugRahSWgPLYOAA3QH4w) |
+🟢 | `Cyber_Insecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Cyber_Insecurity "Just Chatting, Tags: ama, cybersecurity, hacking, cybersec, cyber, programming, python, cancer, English, Charity") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)| EN
 
 ### Credits
 
