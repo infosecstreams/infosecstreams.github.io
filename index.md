@@ -38,7 +38,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `SecurityWeekly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityWeekly) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg) |
 &nbsp; | `elpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elpentester) &nbsp; |
 &nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; |
-&nbsp; | `GoProSlowYo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GoProSlowYo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1) |
+🟢 | `GoProSlowYo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GoProSlowYo "Software and Game Development, Tags: adhd, English, NotMyBirthday, BirthdayStream, devops, kubernetes") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1) | EN
 &nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
 &nbsp; | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp; |
 &nbsp; | `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters) &nbsp; |
