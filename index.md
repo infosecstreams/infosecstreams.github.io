@@ -42,7 +42,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
 &nbsp; | `UndecidedFlavor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/UndecidedFlavor) &nbsp; |
 &nbsp; | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp; |
-🟢 | `S4vitaar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S4vitaar) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q) | ES
+&nbsp; | `S4vitaar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S4vitaar) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q) 
 &nbsp; | `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters) &nbsp; |
 &nbsp; | `k4l1_nathalie` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/k4l1_nathalie) &nbsp; |
 &nbsp; | `MiniWeet` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MiniWeet) &nbsp; |
