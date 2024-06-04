@@ -35,7 +35,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `KiraSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KiraSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@JackintheD) |
 &nbsp; | `SecurityWeekly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityWeekly) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg) |
 &nbsp; | `MiniWeet` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MiniWeet) &nbsp; 
-🟢 | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah "Software and Game Development, Tags: Bugbounty, money, VisualCode, Desenvolvimento, hacker, Hunter, Python, Bash, Microsoft, Linux") &nbsp; | PT
+&nbsp; | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp; 
 &nbsp; | `IC_null` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/IC_null) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g) |
 &nbsp; | `elpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elpentester) &nbsp; |
 &nbsp; | `Sukaiberu` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sukaiberu) &nbsp; |
