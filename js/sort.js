@@ -231,6 +231,10 @@ function generateLanguageModal() {
   return modal;
 }
 
+document.getElementById('settings-button').addEventListener('click', function (e) {
+  document.body.appendChild(generateLanguageModal());
+})
+
 const languageHeader = table.querySelector('th:nth-child(4)');
 languageHeader.addEventListener('click', function (e) {
   document.body.appendChild(generateLanguageModal());
