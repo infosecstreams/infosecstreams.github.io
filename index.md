@@ -6,7 +6,7 @@ Streamers that haven't had activity in the last month are moved to the [inactive
 
 Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 
-## List of Streams (sorted)
+## List of Streams (sorted) <a href="#" class="btn" id="settings-button">Settings</a>
 
 &nbsp; | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></i> | <i class="fas fa-comment-dots"></i>
 ---: | --- | :--- | :---
