@@ -32,3 +32,4 @@ Link | Description | Type
 ||
 [Infosec House](https://infosec.house) | Tools and Resources for CyberSecurity Operations. | Hacking Resources
 [RawSec](https://inventory.rawsec.ml/overview.html) | An inventory of tools and resources about CyberSecurity. | Hacking Resources
+[Cipher Suites](https://stellastra.com/cipher-suite) | A list of secure and insecure cipher suites | Hacking Resources
