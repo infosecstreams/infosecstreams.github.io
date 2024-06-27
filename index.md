@@ -45,7 +45,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
 &nbsp; | `totesmehgoat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/totesmehgoat) &nbsp; |
 &nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; |
-🟢 | `TheShyHat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheShyHat "Science & Technology, Tags: Canada, Educational, English") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theshyhat) | EN
+&nbsp; | `TheShyHat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheShyHat) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theshyhat) 
 &nbsp; | `LaurieWired` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LaurieWired) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@lauriewired) |
 🟢 | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah "Software and Game Development, Tags: Bugbounty, money, VisualCode, Desenvolvimento, hacker, Hunter, Python, Bash, Microsoft, Linux") &nbsp; | PT
 &nbsp; | `InvokeReversing` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InvokeReversing) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@InvokeReversing) |
