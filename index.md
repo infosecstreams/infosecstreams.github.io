@@ -33,7 +33,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `TheShyHat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheShyHat) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theshyhat) |
 &nbsp; | `apis_carnica` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/apis_carnica) &nbsp; |
 &nbsp; | `Hackshobgoblin` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hackshobgoblin) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hackshobgoblin) |
-🟢 | `zunderrub` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zunderrub) &nbsp; | | 
+&nbsp; | `zunderrub` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zunderrub) &nbsp; 
 &nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) |
 &nbsp; | `ElPinguinoDeMario` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ElPinguinoDeMario) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@ElPinguinoDeMario) |
 &nbsp; | `Alh4zr3d` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Alh4zr3d) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA) |
