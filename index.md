@@ -16,7 +16,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `FixIt42` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FixIt42) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@FixIt42) |
 &nbsp; | `dj_chateau` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dj_chateau) &nbsp; |
 &nbsp; | `BlaiseBits` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlaiseBits) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@blaisebits) 
-&nbsp; | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean) &nbsp; |
+🟢 | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean "Software and Game Development, Tags: vlang, hacking, coding, QubesOS, cybersecurity, THM, HTB, vinix, development, linux") &nbsp; | FR
 &nbsp; | `KiraSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KiraSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@JackintheD) |
 &nbsp; | `theblvkhakr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/theblvkhakr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@blvkhakr) |
 &nbsp; | `demon_0x2a` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/demon_0x2a) &nbsp; |
