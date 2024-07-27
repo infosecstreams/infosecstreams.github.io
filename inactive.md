@@ -62,6 +62,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `CyberTechVibes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberTechVibes) &nbsp;
 `CyberVikingUK` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberVikingUK) &nbsp;
 `cyberVNO` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cyberVNO) &nbsp;
+`CyberWarriorStudios` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberWarriorStudios) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 `cyber_v1s3rion` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cyber_v1s3rion) &nbsp;
 `d0nutptr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/d0nutptr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/d0nutptr)
 `dal3ksec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dal3ksec) &nbsp;
@@ -168,6 +169,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `paperboygold` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/paperboygold) &nbsp;
 `parzival604` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/parzival604) &nbsp;
 `poocha_police` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/poocha_police) &nbsp;
+`Pour1nfo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Pour1nfo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/PourInfo)
 `PRIMALmk` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PRIMALmk) &nbsp;
 `pseudosarah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pseudosarah) &nbsp;
 `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege)
@@ -190,6 +192,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `SecITguy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecITguy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCbgRa0isrDQOG70CL_Hsvzg)
 `seclilc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/seclilc) &nbsp;
 `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters) &nbsp;
+`securityfwd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securityfwd) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
 `SecurityWeekly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityWeekly) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 `Security_Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Security_Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
 `Sharghaas` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sharghaas) &nbsp;
