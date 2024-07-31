@@ -42,7 +42,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; |
 &nbsp; | `gerald_auger_simplycyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gerald_auger_simplycyber) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@SimplyCyber) |
 &nbsp; | `demon_0x2a` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/demon_0x2a) &nbsp; |
-&nbsp; | `unhackerencapital` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/unhackerencapital) &nbsp; |
+&nbsp; | `unhackerencapital` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/unhackerencapital) &nbsp; 
 &nbsp; | `s1ren_official` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/s1ren_official) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://www.youtube.com/@sirensecurity) 
 &nbsp; | `rinconzeraa` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/rinconzeraa) &nbsp; |
 &nbsp; | `ProfitzTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ProfitzTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@profitztv) |
