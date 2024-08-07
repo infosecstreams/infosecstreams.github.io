@@ -82,7 +82,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `shenetworks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/shenetworks) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/shenetworks) |
 &nbsp; | `Garr_7` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Garr_7) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/SevenSeasSecurityGarr) |
 &nbsp; | `CybersecurityGrowth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybersecurityGrowth) &nbsp; |
-🟢 | `elpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elpentester "Science & Technology, Tags: cybersecurity, ciberseguridad, hack") &nbsp; | ES
+&nbsp; | `elpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elpentester) &nbsp; 
 &nbsp; | `Kiwi_FruitBird` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Kiwi_FruitBird) &nbsp; |
 🟢 | `SecurityWeekly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityWeekly "Science & Technology, Tags: English") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)| EN
 
