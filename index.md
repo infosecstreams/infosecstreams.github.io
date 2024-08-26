@@ -78,7 +78,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `l4ff1n` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/l4ff1n) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@bradyjmcl) |
 &nbsp; | `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege) |
 &nbsp; | `AgeOfEntropy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AgeOfEntropy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCitiWg5p-R6QNLPuJPSE33g) |
-&nbsp; | `antisyphon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/antisyphon) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCkFKiCm7dD0gsB4jqIdCuRQ) |
+🟢 | `antisyphon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/antisyphon "Talk Shows & Podcasts, Tags: Educational, English") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCkFKiCm7dD0gsB4jqIdCuRQ) | EN
 &nbsp; | `CybersecurityGrowth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybersecurityGrowth) &nbsp; |
 &nbsp; | `vxunderground_live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/vxunderground_live) &nbsp; |
 &nbsp; | `BCSecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BCSecurity) &nbsp; |
