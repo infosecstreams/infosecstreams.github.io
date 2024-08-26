@@ -47,7 +47,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `s1ren_official` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/s1ren_official) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://www.youtube.com/@sirensecurity) |
 &nbsp; | `LowLevelLearning` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LowLevelLearning) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@LowLevelLearning) |
 &nbsp; | `Khaos_Farbauti` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Khaos_Farbauti) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/KhaosFarbautiIbnOblivion) |
-&nbsp; | `miloslavpalik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/miloslavpalik) &nbsp; |
+🟢 | `miloslavpalik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/miloslavpalik) &nbsp; | EN
 &nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; |
 &nbsp; | `BanjoCrashland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BanjoCrashland) &nbsp; |
 &nbsp; | `TheLaluka` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheLaluka) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TheLaluka) |
