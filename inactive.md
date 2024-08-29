@@ -130,7 +130,6 @@ Hey there! This page contains streamers that have not streamed in the last month
 `JohnHammond010` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JohnHammond010) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
 `jrozner` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jrozner) &nbsp;
 `JustinSteven` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JustinSteven) &nbsp;
-`k4l1_nathalie` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/k4l1_nathalie) &nbsp;
 `kaythecyberguy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kaythecyberguy) &nbsp;
 `kegnsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kegnsec) &nbsp;
 `keylogin` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/keylogin) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@keylogin)
