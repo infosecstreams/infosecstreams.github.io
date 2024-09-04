@@ -98,6 +98,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `GrumpyHackers` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GrumpyHackers) &nbsp;
 `Gyre_Security` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Gyre_Security) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaKU8oiDXzYIUmBXHNv3DEg)
 `h4ck0rman` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h4ck0rman) &nbsp;
+`h8handles` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h8handles) &nbsp;
 `hack3rwitch` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack3rwitch) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hack3rwitch917)
 `hackbacc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackbacc) &nbsp;
 `HackerOneTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerOneTV) &nbsp;
