@@ -27,7 +27,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `TrshPuppy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TrshPuppy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@trshpuppy) |
 &nbsp; | `CyberInfoHQ` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberInfoHQ) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Cyber-Info) |
 &nbsp; | `dj_chateau` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dj_chateau) &nbsp; |
-🟢 | `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege "Science & Technology, Tags: English") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege) | EN
+&nbsp; | `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege) 
 &nbsp; | `endingwithALI` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/endingwithALI) &nbsp; 
 &nbsp; | `TheShyHat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheShyHat) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theshyhat) |
 &nbsp; | `antisyphon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/antisyphon) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCkFKiCm7dD0gsB4jqIdCuRQ) |
