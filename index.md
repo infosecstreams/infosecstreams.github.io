@@ -30,7 +30,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `dj_chateau` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dj_chateau) &nbsp; |
 &nbsp; | `antisyphon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/antisyphon) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCkFKiCm7dD0gsB4jqIdCuRQ) |
 &nbsp; | `HackerMentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerMentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCl8jDIq12kkP9YBj1TJY-6Q) |
-&nbsp; | `Hackavis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hackavis) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Hackavis) |
+🟢 | `Hackavis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hackavis "Software and Game Development, Tags: Español") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Hackavis) | ES
 &nbsp; | `NullObjectDev` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NullObjectDev) &nbsp; |
 &nbsp; | `h313n_0f_t0r` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h313n_0f_t0r) &nbsp; |
 &nbsp; | `RoccoSicilia` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RoccoSicilia) &nbsp; |
