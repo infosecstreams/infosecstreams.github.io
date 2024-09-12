@@ -71,6 +71,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `DarkStar7471` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DarkStar7471) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0R_-7yQPoGpkPR9ITzDFFQ)
 `DasRealBert` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DasRealBert) &nbsp;
 `dayzerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dayzerosec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCXFC76FDHZRVes6_lZqwLBA)
+`dbarkcasa` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dbarkcasa) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCXAh9RRb94UvulwUFB0bBBA)
 `DCCyberSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DCCyberSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC3sccPO4v8YqCTn8sezZGTw)
 `Defcon201Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Defcon201Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/defcon201)
 `demon_0x2a` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/demon_0x2a) &nbsp;
@@ -88,6 +89,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `elpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elpentester) &nbsp;
 `esdn_tv` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/esdn_tv) &nbsp;
 `Eth0ghost` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Eth0ghost) &nbsp;
+`f3rn0s_sec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/f3rn0s_sec) &nbsp;
 `fearless0523` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/fearless0523) &nbsp;
 `Firzen14` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Firzen14) &nbsp;
 `Fluxxset` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Fluxxset) &nbsp;
@@ -165,6 +167,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `NeWbieSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NeWbieSec) &nbsp;
 `Nirloy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Nirloy) &nbsp;
 `OfficialWilliP` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OfficialWilliP) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
+`ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp;
 `OJReeves` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OJReeves) &nbsp;
 `optionalctf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/optionalctf) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
 `Outrag3ousLad` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Outrag3ousLad) &nbsp;
@@ -240,6 +243,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `VandalTheGrey` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/VandalTheGrey) &nbsp;
 `Westar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Westar) &nbsp;
 `Whimmery` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Whimmery) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Whimmery)
+`xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp;
 `xN0Px90` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xN0Px90) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClBupMnkD1oZ49_xBbiUKBg)
 `xThalach` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThalach) &nbsp;
 `xThe_Developer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThe_Developer) &nbsp;
