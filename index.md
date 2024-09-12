@@ -34,7 +34,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `NullObjectDev` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NullObjectDev) &nbsp; |
 &nbsp; | `h313n_0f_t0r` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h313n_0f_t0r) &nbsp; |
 &nbsp; | `RoccoSicilia` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RoccoSicilia) &nbsp; |
-&nbsp; | `Elustaani` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Elustaani) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@elustaani) |
+&nbsp; | `Elustaani` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Elustaani) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@elustaani) 
 &nbsp; | `miloslavpalik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/miloslavpalik) &nbsp; |
 &nbsp; | `k4l1_nathalie` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/k4l1_nathalie) &nbsp; |
 &nbsp; | `Cyber_Insecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Cyber_Insecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg) |
