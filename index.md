@@ -81,7 +81,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `SecurityCert` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityCert) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@securitycert) 
 &nbsp; | `soyelmago` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/soyelmago) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://youtube.com/c/alanlevy-elmago) |
 &nbsp; | `l4ff1n` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/l4ff1n) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@bradyjmcl) |
-🟢 | `CybersecurityGrowth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybersecurityGrowth "Just Chatting, Tags: cybersecurity, hacker, ciso, informationsecurity, English, training") &nbsp; | EN
+&nbsp; | `CybersecurityGrowth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybersecurityGrowth) &nbsp; 
 &nbsp; | `0xRy4nG` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xRy4nG) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCQWQlNq07_Rumy2i69dpqBw) |
 &nbsp; | `blacksincybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blacksincybersecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEBEQ0oRA2LPnc2wm2TO5IA) |
 
