@@ -72,7 +72,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `mchow01` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mchow01) &nbsp; |
 &nbsp; | `IC_null` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/IC_null) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g) |
 &nbsp; | `morehouse_hacks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/morehouse_hacks) &nbsp; |
-&nbsp; | `SecurityCert` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityCert) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@securitycert) 
+🟢 | `SecurityCert` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityCert "Talk Shows & Podcasts, Tags: RedTeam, breach, hacking, SecurityCert, security, cybersecurity, Italiano") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@securitycert) | IT
 &nbsp; | `DISREL` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DISREL) &nbsp; |
 &nbsp; | `rinconzeraa` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/rinconzeraa) &nbsp; |
 &nbsp; | `TheLaluka` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheLaluka) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TheLaluka) |
