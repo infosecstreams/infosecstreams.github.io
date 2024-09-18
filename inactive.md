@@ -215,6 +215,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `streambytes_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/streambytes_) &nbsp;
 `Sukaiberu` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sukaiberu) &nbsp;
 `sup3rhero1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/sup3rhero1) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/superhero1)
+`Super_uzer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Super_uzer) &nbsp;
 `systemdeez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/systemdeez) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@systemdeez)
 `TechnologyInterpreters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TechnologyInterpreters) &nbsp;
 `techryptic` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/techryptic) &nbsp;
@@ -223,6 +224,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `TheBlindHacker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheBlindHacker) &nbsp;
 `theedmiroshow` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/theedmiroshow) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theedmiroshow)
 `TheGoodHackerTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheGoodHackerTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeeOzvMFfd2qcUFIGN_Nzyw)
+`Thegwar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Thegwar) &nbsp;
 `TheHackerMaker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheHackerMaker) &nbsp;
 `TheLabda` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheLabda) &nbsp;
 `TheMayor11` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheMayor11) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC5J6JvH5F29FllbLjwmA5ZA)
@@ -238,6 +240,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `UnPentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/UnPentester) &nbsp;
 `vale624` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/vale624) &nbsp;
 `VandalTheGrey` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/VandalTheGrey) &nbsp;
+`vxunderground_live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/vxunderground_live) &nbsp;
 `Westar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Westar) &nbsp;
 `Whimmery` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Whimmery) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Whimmery)
 `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp;
