@@ -65,7 +65,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `BCSecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BCSecurity) &nbsp; |
 &nbsp; | `mchow01` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mchow01) &nbsp; |
 &nbsp; | `NullObjectDev` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NullObjectDev) &nbsp; |
-&nbsp; | `hadzah_fr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hadzah_fr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hadzah_fr) |
+🟢 | `hadzah_fr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hadzah_fr "Software and Game Development, Tags: fr, EN, chill, Français, hacking, pentesting, exegol, HackTheBox, gaming") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hadzah_fr) | FR
 &nbsp; | `Cyber_Insecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Cyber_Insecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg) |
 &nbsp; | `g0lden1_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g0lden1_) &nbsp; |
 &nbsp; | `GoProSlowYo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GoProSlowYo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1) |
