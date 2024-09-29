@@ -145,7 +145,6 @@ Hey there! This page contains streamers that have not streamed in the last month
 `kristiee` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kristiee) &nbsp;
 `LaurieWired` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LaurieWired) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@lauriewired)
 `lea_cyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lea_cyber) &nbsp;
-`Leetcore` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Leetcore) &nbsp;
 `LeonVQZ` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LeonVQZ) &nbsp;
 `Libereau` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Libereau) &nbsp;
 `LinuxYSeguridad` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LinuxYSeguridad) &nbsp;
