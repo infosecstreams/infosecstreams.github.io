@@ -81,7 +81,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters) &nbsp; |
 &nbsp; | `totesmehgoat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/totesmehgoat) &nbsp; |
 &nbsp; | `blacksincybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blacksincybersecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEBEQ0oRA2LPnc2wm2TO5IA) |
-&nbsp; | `Super_uzer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Super_uzer) &nbsp;
+🟢 | `Super_uzer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Super_uzer "Software and Game Development, Tags: blockchain, hacking, Programming, cybersecurity, ethereum, Українська, English, CTF") &nbsp;| UK
 &nbsp; | `InvokeReversing` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InvokeReversing) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@InvokeReversing)
 
 ### Credits
