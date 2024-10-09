@@ -32,7 +32,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `Hackshobgoblin` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hackshobgoblin) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hackshobgoblin) |
 &nbsp; | `unhackerencapital` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/unhackerencapital) &nbsp; |
 &nbsp; | `pebl3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pebl3) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Pebble1) |
-🟢 | `DrSn1p3r_Sec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DrSn1p3r_Sec "Just Chatting, Tags: tryhackme, English, cybersecurity, ethicalhacking, hacking") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://youtube.com/@drsn1p3r_sec) | EN
+&nbsp; | `DrSn1p3r_Sec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DrSn1p3r_Sec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://youtube.com/@drsn1p3r_sec) 
 &nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
 &nbsp; | `theblvkhakr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/theblvkhakr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@blvkhakr) 
 &nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TylerRamsbey) |
