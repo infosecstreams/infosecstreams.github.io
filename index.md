@@ -58,7 +58,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `Khaos_Farbauti` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Khaos_Farbauti) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/KhaosFarbautiIbnOblivion) |
 &nbsp; | `SecurityCert` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityCert) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@securitycert) |
 &nbsp; | `xHackThePlanetx` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xHackThePlanetx) &nbsp; |
-&nbsp; | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp; |
+🟢 | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf "Software and Game Development, Tags: talk, chill, hacking, cybersecurity, Cyberheaven, pentesting, lab, it, avicii") &nbsp; | EN
 &nbsp; | `malwaretechblog` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/malwaretechblog) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@MalwareTechBlog) |
 &nbsp; | `OALabsLive` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OALabsLive) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/OALabs) |
 &nbsp; | `HackerMentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerMentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCl8jDIq12kkP9YBj1TJY-6Q) |
