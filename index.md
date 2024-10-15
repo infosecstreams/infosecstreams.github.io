@@ -33,7 +33,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `theblvkhakr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/theblvkhakr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@blvkhakr) |
 &nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) 
 &nbsp; | `Hackshobgoblin` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hackshobgoblin) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hackshobgoblin) |
-🟢 | `elpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elpentester "Science & Technology, Tags: cibersecurity, hack, security, pentester, tts, Español") &nbsp; | ES
+&nbsp; | `elpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elpentester) &nbsp; 
 &nbsp; | `pebl3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pebl3) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Pebble1) |
 🟢 | `c3rb3ru5d3d53c` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c3rb3ru5d3d53c "Science & Technology, Tags: malware, code, reversing, ghidra, analysis, slidies, workshop, hangout, English") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCk9BugRahSWgPLYOAA3QH4w) | EN
 &nbsp; | `JawnCon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JawnCon) &nbsp; |
