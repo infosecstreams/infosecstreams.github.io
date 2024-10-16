@@ -77,7 +77,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `ProfitzTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ProfitzTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@profitztv) |
 &nbsp; | `Kiwi_FruitBird` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Kiwi_FruitBird) &nbsp; |
 &nbsp; | `blacksincybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blacksincybersecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEBEQ0oRA2LPnc2wm2TO5IA) |
-🟢 | `g0lden1_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g0lden1_ "Software and Game Development, Tags: bugbounty, cybersecurity, English") &nbsp; | EN
+&nbsp; | `g0lden1_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g0lden1_) &nbsp; 
 &nbsp; | `mttaggart` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mttaggart) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/taggarttech) |
 
 ### Credits
