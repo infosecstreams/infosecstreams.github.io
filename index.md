@@ -54,7 +54,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `FinnWithGun` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FinnWithGun) &nbsp; |
 &nbsp; | `g0lden1_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g0lden1_) &nbsp; |
 &nbsp; | `malwaretechblog` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/malwaretechblog) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@MalwareTechBlog) |
-🟢 | `MSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MSec "Software and Game Development, Tags: Neurodivergent, British, TTS, Infosec, English, cyber, programming, trickortreat, TwitchFrightFest") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCu9ybrID4Ak5pDU-6E5ph5Q) | EN
+&nbsp; | `MSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCu9ybrID4Ak5pDU-6E5ph5Q) 
 &nbsp; | `DrSn1p3r_Sec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DrSn1p3r_Sec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://youtube.com/@drsn1p3r_sec) |
 &nbsp; | `hadzah_fr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hadzah_fr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hadzah_fr) |
 &nbsp; | `Tanades_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Tanades_) &nbsp; 
