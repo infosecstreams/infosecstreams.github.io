@@ -18,6 +18,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `4rtii_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/4rtii_) &nbsp;
 `55keez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/55keez) &nbsp;
 `acloudsecninja` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/acloudsecninja) &nbsp;
+`AgeOfEntropy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AgeOfEntropy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCitiWg5p-R6QNLPuJPSE33g)
 `aHaquer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/aHaquer) &nbsp;
 `AlexChaveriat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AlexChaveriat) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/AlexChaveriat/videos)
 `AlzetteInfoSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AlzetteInfoSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCE4yBI-7oG5BB4eEYkVzB-Q)
@@ -162,6 +163,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q)
 `mell0wx` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mell0wx) &nbsp;
 `miloslavpalik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/miloslavpalik) &nbsp;
+`morehouse_hacks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/morehouse_hacks) &nbsp;
 `MrCrumbs_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MrCrumbs_) &nbsp;
 `MVLWVR3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MVLWVR3) &nbsp;
 `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec)
