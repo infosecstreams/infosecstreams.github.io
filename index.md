@@ -70,7 +70,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `CosmodiumCS` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CosmodiumCS) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/CosmodiumCS) |
 &nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
 &nbsp; | `TsarSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TsarSec) &nbsp; |
-&nbsp; | `BlackHatNOC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlackHatNOC) &nbsp;
+🟢 | `BlackHatNOC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlackHatNOC "Science & Technology, Tags: English, infosec, blackhat, hackers, cybersecurity") &nbsp;| EN
 
 ### Credits
 
