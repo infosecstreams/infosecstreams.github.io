@@ -54,7 +54,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `HackerMentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerMentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCl8jDIq12kkP9YBj1TJY-6Q) |
 &nbsp; | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp; |
 &nbsp; | `g0lden1_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g0lden1_) &nbsp; |
-🟢 | `BrownDisappointment` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrownDisappointment "Software and Game Development, Tags: Linux, Computer, man, bruh, chatty, pain, ITSupport, English, AdventOfCode, Golang") &nbsp; | EN
+&nbsp; | `BrownDisappointment` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrownDisappointment) &nbsp; 
 &nbsp; | `BanjoCrashland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BanjoCrashland) &nbsp; |
 &nbsp; | `dj_chateau` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dj_chateau) &nbsp; |
 &nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TylerRamsbey) |
