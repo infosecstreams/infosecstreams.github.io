@@ -18,7 +18,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 🟢 | `BlackHatNOC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlackHatNOC) &nbsp; | EN
 &nbsp; | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean) &nbsp; |
 &nbsp; | `pebl3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pebl3) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Pebble1) |
-🟢 | `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege "Science & Technology, Tags: English") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege) | EN
+&nbsp; | `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege) 
 &nbsp; | `endingwithALI` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/endingwithALI) &nbsp; |
 &nbsp; | `0xTib3rius` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xTib3rius) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/Tib3rius) |
 &nbsp; | `LowLevelTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LowLevelTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@LowLevelTV) |
