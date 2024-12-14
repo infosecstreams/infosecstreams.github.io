@@ -73,6 +73,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters) &nbsp; |
 &nbsp; | `TsarSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TsarSec) &nbsp; |
 &nbsp; | `unhackerencapital` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/unhackerencapital) &nbsp;
+&nbsp; | `Sukaiberu` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sukaiberu) &nbsp;
 
 ### Credits
 
