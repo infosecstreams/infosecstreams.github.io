@@ -38,7 +38,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `s1ren_official` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/s1ren_official) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://www.youtube.com/@sirensecurity) 
 &nbsp; | `CybeardSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybeardSec) &nbsp; |
 &nbsp; | `BrownDisappointment` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrownDisappointment) &nbsp; |
-&nbsp; | `NullObjectDev` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NullObjectDev) &nbsp; |
+&nbsp; | `NullObjectDev` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NullObjectDev) &nbsp; 
 &nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TylerRamsbey) |
 &nbsp; | `OALabsLive` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OALabsLive) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/OALabs) |
 &nbsp; | `thecybermentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) |
