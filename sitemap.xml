@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <lastmod>2024-12-23T10:32:24+00:00</lastmod>
+        <lastmod>2024-12-23T11:23:06+00:00</lastmod>
         <loc>https://infosecstreams.com/</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <lastmod>2024-12-22T11:20:25+00:00</lastmod>
+        <lastmod>2024-12-23T11:23:06+00:00</lastmod>
         <loc>https://infosecstreams.com/inactive</loc>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
