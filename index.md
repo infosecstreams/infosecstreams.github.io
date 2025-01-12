@@ -73,7 +73,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `acloudsecninja` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/acloudsecninja) &nbsp; |
 &nbsp; | `hijack_securitytv` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hijack_securitytv) &nbsp; |
 &nbsp; | `h4ck0rman` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h4ck0rman) &nbsp; |
-🟢 | `jrozner` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jrozner "Science & Technology, Tags: English, security, Programming, hacking, Hardware, glitch") &nbsp;| EN
+&nbsp; | `jrozner` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jrozner) &nbsp;
 
 ### Credits
 
