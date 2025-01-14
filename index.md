@@ -60,7 +60,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `g0lden1_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g0lden1_) &nbsp; |
 &nbsp; | `jhaddix56` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jhaddix56) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@jhaddix) |
 &nbsp; | `CyberWarriorStudios` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberWarriorStudios) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g) |
-🟢 | `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege "Science & Technology, Tags: tryhackme, English, cybersecurity, ethicalhacking, hacking") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege) | EN
+&nbsp; | `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege) 
 &nbsp; | `CybersecurityGrowth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybersecurityGrowth) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@cybersecuritygrowth) |
 &nbsp; | `ProfitzTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ProfitzTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@profitztv) |
 &nbsp; | `Leetcore` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Leetcore) &nbsp; |
