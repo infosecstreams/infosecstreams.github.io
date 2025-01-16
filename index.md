@@ -52,7 +52,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 🟢 | `dj_chateau` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dj_chateau "Science & Technology, Tags: ADHD, AngryComplimentsOnly, English, FanOfDeliciousFlavor, BackseatingAllowed, NoBackseating, InfoSecStreams, PenTesting, HackTheBox, RetiredMachine") &nbsp; | EN
 &nbsp; | `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege) 
 &nbsp; | `CyberInfoHQ` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberInfoHQ) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Cyber-Info) |
-🟢 | `unhackerencapital` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/unhackerencapital "Just Chatting, Tags: ciberseguridad, hacking, Forensics, cybersecurity, hacker, Español") &nbsp; | ES
+&nbsp; | `unhackerencapital` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/unhackerencapital) &nbsp; 
 &nbsp; | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp; |
 &nbsp; | `NeWbieSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NeWbieSec) &nbsp; |
 &nbsp; | `DrSn1p3r_Sec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DrSn1p3r_Sec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://youtube.com/@drsn1p3r_sec) |
