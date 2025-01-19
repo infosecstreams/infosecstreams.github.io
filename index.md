@@ -51,7 +51,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `gamozo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gamozo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA) |
 &nbsp; | `Tanades_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Tanades_) &nbsp; |
 &nbsp; | `unhackerencapital` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/unhackerencapital) &nbsp; |
-&nbsp; | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp; |
+🟢 | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah "Software and Game Development, Tags: Bugbounty, VisualCode, Desenvolvimento, hacker, Hunter, Python, Bash, Microsoft, Linux, Aws") &nbsp; | PT
 &nbsp; | `NeWbieSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NeWbieSec) &nbsp; |
 &nbsp; | `CyberInfoHQ` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberInfoHQ) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Cyber-Info) |
 &nbsp; | `ritsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ritsec) &nbsp; |
