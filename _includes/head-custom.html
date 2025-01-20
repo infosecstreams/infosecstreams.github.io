@@ -1,46 +1,62 @@
+{% include language-selector.html %}
+
 <!-- Enhanced SEO Meta Tags -->
 <meta name="description" content="Live Cybersecurity Streams, Ethical Hacking Tutorials, CTF Challenges, TryHackMe & HTB Walkthroughs, Red Team & Blue Team Training">
 
 <!-- Primary Keywords -->
 <meta name="keywords" content="cybersecurity streams, ethical hacking live, TryHackMe streams, HTB walkthroughs, red team training, blue team training, CTF challenges live, penetration testing tutorials, security tool demonstrations, malware analysis live, bug bounty streams, exploit development, security research, incident response training, digital forensics streams">
 
-<!-- Multilingual Meta Tags -->
-<!-- Active Streaming Languages -->
+<!-- HREFLang Tags -->
+<!-- Default version -->
+<link rel="alternate" href="https://infosecstreams.com" hreflang="x-default" />
 <!-- Turkish -->
-<link rel="alternate" hreflang="tr" href="https://infosecstreams.com" />
+<link rel="alternate" href="https://infosecstreams.com/tr/" hreflang="tr" />
+<!-- German -->
+<link rel="alternate" href="https://infosecstreams.com/de/" hreflang="de" />
+<!-- Italian -->
+<link rel="alternate" href="https://infosecstreams.com/it/" hreflang="it" />
+<!-- Portuguese -->
+<link rel="alternate" href="https://infosecstreams.com/pt/" hreflang="pt" />
+<!-- Mandarin Chinese -->
+<link rel="alternate" href="https://infosecstreams.com/zh/" hreflang="zh" />
+<!-- Hindi -->
+<link rel="alternate" href="https://infosecstreams.com/hi/" hreflang="hi" />
+<!-- Spanish -->
+<link rel="alternate" href="https://infosecstreams.com/es/" hreflang="es" />
+<!-- French -->
+<link rel="alternate" href="https://infosecstreams.com/fr/" hreflang="fr" />
+<!-- Arabic -->
+<link rel="alternate" href="https://infosecstreams.com/ar/" hreflang="ar" />
+
+<!-- Language-specific Keywords -->
+<!-- Turkish -->
 <meta name="keywords" lang="tr" content="siber güvenlik yayınları, etik hacking canlı, TryHackMe eğitimleri, HTB yayınları, kırmızı takım eğitimi, mavi takım eğitimi, CTF yarışmaları, sızma testi dersleri, güvenlik araçları gösterimi, zararlı yazılım analizi">
 
+<!-- German -->
+<meta name="keywords" lang="de" content="cybersecurity-streams, ethisches hacking live, TryHackMe tutorials, HTB streams, red team training, blue team training, CTF herausforderungen, penetrationstests, sicherheitstools demos, malware-analyse">
+
 <!-- Italian -->
-<link rel="alternate" hreflang="it" href="https://infosecstreams.com" />
 <meta name="keywords" lang="it" content="stream cybersecurity, hacking etico dal vivo, tutorial TryHackMe, stream HTB, formazione red team, formazione blue team, sfide CTF, tutorial di penetration testing, dimostrazioni strumenti di sicurezza, analisi malware">
 
 <!-- Portuguese -->
-<link rel="alternate" hreflang="pt" href="https://infosecstreams.com" />
 <meta name="keywords" lang="pt" content="streams de cibersegurança, hacking ético ao vivo, tutoriais TryHackMe, streams HTB, treinamento de equipe vermelha, treinamento de equipe azul, desafios CTF, tutoriais de pentest, demonstrações de ferramentas de segurança, análise de malware">
 
-<!-- Additional Top Global Languages -->
 <!-- English -->
-<link rel="alternate" hreflang="en" href="https://infosecstreams.com" />
 <meta name="keywords" lang="en" content="cybersecurity streams, ethical hacking live, TryHackMe walkthroughs, HTB streams, red teaming live, blue team training, CTF challenges, penetration testing tutorials, security tools demos, malware analysis, bug bounty hunting, exploit development streams, security research live, incident response training, digital forensics">
 
 <!-- Mandarin Chinese -->
-<link rel="alternate" hreflang="zh" href="https://infosecstreams.com" />
 <meta name="keywords" lang="zh" content="网络安全直播, 道德黑客教程, TryHackMe演练, HTB实况, 红队训练, 蓝队训练, CTF挑战赛直播, 渗透测试教程, 安全工具演示, 恶意软件分析, 漏洞赏金直播, 漏洞开发, 安全研究, 事件响应培训, 数字取证">
 
 <!-- Hindi -->
-<link rel="alternate" hreflang="hi" href="https://infosecstreams.com" />
 <meta name="keywords" lang="hi" content="साइबर सुरक्षा स्ट्रीम्स, एथिकल हैकिंग लाइव, TryHackMe वॉकथ्रू, HTB स्ट्रीम्स, रेड टीम ट्रेनिंग, ब्लू टीम ट्रेनिंग, CTF चैलेंज, पेनेट्रेशन टेस्टिंग ट्यूटोरियल, सुरक्षा टूल डेमो, मालवेयर एनालिसिस, बग बाउंटी स्ट्रीम्स">
 
 <!-- Spanish -->
-<link rel="alternate" hreflang="es" href="https://infosecstreams.com" />
 <meta name="keywords" lang="es" content="streams de ciberseguridad, hacking ético en vivo, tutoriales de TryHackMe, streams de HTB, entrenamiento de equipo rojo, entrenamiento de equipo azul, desafíos CTF, tutoriales de pentesting, demostraciones de herramientas de seguridad, análisis de malware">
 
 <!-- French -->
-<link rel="alternate" hreflang="fr" href="https://infosecstreams.com" />
 <meta name="keywords" lang="fr" content="streams de cybersécurité, hacking éthique en direct, tutoriels TryHackMe, streams HTB, formation red team, formation blue team, défis CTF, tutoriels de pentest, démonstrations d'outils de sécurité, analyse de malware">
 
 <!-- Arabic -->
-<link rel="alternate" hreflang="ar" href="https://infosecstreams.com" />
 <meta name="keywords" lang="ar" content="بث الأمن السيبراني, الاختراق الأخلاقي المباشر, دروس TryHackMe, بث HTB, تدريب الفريق الأحمر, تدريب الفريق الأزرق, تحديات CTF, دروس اختبار الاختراق, عروض أدوات الأمان, تحليل البرامج الضارة">
 
 <!-- Open Graph / Social Media Meta Tags -->
@@ -63,7 +79,7 @@
   "name": "InfoSec Streams",
   "url": "https://infosecstreams.com",
   "description": "Live cybersecurity streams, ethical hacking tutorials, CTF challenges, and security training",
-  "inLanguage": ["tr", "it", "pt", "en", "zh", "hi", "es", "fr", "ar"],
+  "inLanguage": ["tr", "de", "it", "pt", "en", "zh", "hi", "es", "fr", "ar"],
   "about": {
     "@type": "Thing",
     "name": "Cybersecurity Streaming",
