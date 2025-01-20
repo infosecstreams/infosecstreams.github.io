@@ -10,14 +10,16 @@ on:
   workflow_dispatch:
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Also, cancel in-progress runs as we want to allow the latest deployment to complete.
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      LANGUAGES: "ar de es fr hi it pt tr zh"
     steps:
       - uses: actions/checkout@v3
         name: Checkout repository
@@ -25,15 +27,47 @@ jobs:
       - name: Login to registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
-      - name: Get streaming activity
-        run: docker run -v $PWD/templates:/app/templates -v $PWD/index.md:/app/index.md -v $PWD/inactive.md:/app/inactive.md -v $PWD/streamers.csv:/app/streamers.csv ghcr.io/infosecstreams/secinfo:latest
+      - name: Generate English pages and extract tables
+        run: |
+          # Generate English pages with streamer data
+          docker run -v $PWD/templates:/app/templates -v $PWD/index.md:/app/index.md -v $PWD/inactive.md:/app/inactive.md -v $PWD/streamers.csv:/app/streamers.csv ghcr.io/infosecstreams/secinfo:latest
+
+          # Extract active streamers table (only content rows after separator row until first ###)
+          sed -n '/^---: | --- | :--- | :---/,/^### /p' index.md | sed '1,1d;/^### /d' > active_table.txt
+
+          # Extract inactive streamers table (only content rows after separator row until first ###)
+          sed -n '/^--: | ---/,/^### /p' inactive.md | sed '1,1d;/^### /d' > inactive_table.txt
+
+      - name: Generate language pages
+        run: |
+          # Function to generate language pages
+          generate_lang_pages() {
+            local lang=$1
+            mkdir -p $lang
+
+            # Generate index page
+            cat "templates/$lang/index.tmpl.md" > "$lang/index.md"
+            # Replace the table section and append content for index
+            sed -i '/^| --: | --- | :-- | :-- |$/r active_table.txt' "$lang/index.md"
+
+            # Generate inactive page
+            cat "templates/$lang/inactive.tmpl.md" > "$lang/inactive.md"
+            # Replace the table section and append content for inactive
+            sed -i '/^| --: | --- |$/r inactive_table.txt' "$lang/inactive.md"
+          }
+
+          # Generate pages for each language
+          for lang in $LANGUAGES; do
+            generate_lang_pages "$lang"
+          done
 
       - name: Commit index.md
-        run: |
-          current_time=$(date +"%Y-%m-%d")
+        run: |          
           awk -f .github/workflows/replace_lastmod_sort.awk sitemap.xml | tee sitemap_new.xml && mv sitemap_new.xml sitemap.xml
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git add index.md inactive.md sitemap.xml
-          git commit -am "🤖 Updated and sorted markdown files"
-          git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+          # Add language directories dynamically
+          LANG_DIRS=$(for lang in $LANGUAGES; do echo -n "$lang/ "; done)
+          git add index.md inactive.md sitemap.xml $LANG_DIRS
+          git commit -am "🤖 Updated and sorted markdown files" || echo "No changes to commit"
+          git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git || (echo "You'll need to grant 'Read and write' permissions for workflows to push to this repository. Please visit the following URL to adjust the permissions: https://github.com/${GITHUB_REPOSITORY}/settings/actions" && false)
