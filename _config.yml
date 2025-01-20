@@ -1,1 +1,133 @@
 theme: jekyll-theme-hacker
+title: InfoSec Streams
+description: "Live Cybersecurity Streams | Ethical Hacking | CTF Challenges | Security Training"
+url: "https://infosecstreams.com"
+author: InfoSecStreams Community
+twitter:
+  username: infosecstreams
+  card: summary
+social:
+  name: InfoSecStreams
+  links:
+    - https://github.com/infosecstreams/infosecstreams.github.io
+
+# SEO Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Multilingual SEO (Top global languages + Active streaming languages)
+languages:
+  # Active Streaming Languages
+  - code: tr
+    name: Türkçe
+    description: "Canlı Siber Güvenlik Yayınları | Etik Hacking Eğitimleri | CTF Yarışmaları | Penetrasyon Testleri"
+  - code: it
+    name: Italiano
+    description: "Stream di Cybersecurity dal Vivo | Tutorial di Hacking Etico | Sfide CTF | Penetration Testing"
+  - code: pt
+    name: Português
+    description: "Streams de Cibersegurança ao Vivo | Tutoriais de Hacking Ético | Desafios CTF | Testes de Penetração"
+  # Additional Top Global Languages
+  - code: en
+    name: English
+    description: "Live Cybersecurity Streams | TryHackMe & HTB Walkthroughs | Red Team & Blue Team Training | Ethical Hacking Tutorials"
+  - code: zh
+    name: 中文
+    description: "网络安全直播 | 道德黑客教程 | CTF挑战赛 | 渗透测试培训 | 网络安全工具演示"
+  - code: hi
+    name: हिंदी
+    description: "लाइव साइबर सुरक्षा स्ट्रीम्स | एथिकल हैकिंग ट्यूटोरियल | सीटीएफ चैलेंज | पेनेट्रेशन टेस्टिंग"
+  - code: es
+    name: Español
+    description: "Streams de Ciberseguridad en Vivo | Tutoriales de Hacking Ético | Desafíos CTF | Pentesting"
+  - code: fr
+    name: Français
+    description: "Streams de Cybersécurité en Direct | Tutoriels de Hacking Éthique | Défis CTF | Tests de Pénétration"
+  - code: ar
+    name: العربية
+    description: "بث مباشر للأمن السيبراني | دروس الاختراق الأخلاقي | تحديات CTF | اختبار الاختراق"
+
+# SEO Keywords by Language
+keywords:
+  # Turkish (TR)
+  - siber güvenlik yayınları
+  - etik hacking canlı
+  - TryHackMe eğitimleri
+  - HTB yayınları
+  - kırmızı takım eğitimi
+  - mavi takım eğitimi
+  - CTF yarışmaları
+  - sızma testi
+  # Italian (IT)
+  - stream cybersecurity
+  - hacking etico dal vivo
+  - tutorial TryHackMe
+  - stream HTB
+  - formazione red team
+  - formazione blue team
+  - sfide CTF
+  - penetration testing
+  # Portuguese (PT)
+  - streams de cibersegurança
+  - hacking ético ao vivo
+  - tutoriais TryHackMe
+  - streams HTB
+  - treinamento red team
+  - treinamento blue team
+  - desafios CTF
+  - testes de penetração
+  # English (EN)
+  - cybersecurity streams
+  - ethical hacking live
+  - TryHackMe walkthroughs
+  - HTB streams
+  - red team training
+  - blue team training
+  - CTF challenges
+  - penetration testing
+  # Chinese (ZH)
+  - 网络安全直播
+  - 道德黑客教程
+  - TryHackMe演练
+  - HTB实况
+  - 红队训练
+  - 蓝队训练
+  - CTF挑战赛
+  - 渗透测试
+  # Hindi (HI)
+  - साइबर सुरक्षा स्ट्रीम्स
+  - एथिकल हैकिंग लाइव
+  - TryHackMe वॉकथ्रू
+  - HTB स्ट्रीम्स
+  - रेड टीम ट्रेनिंग
+  - ब्लू टीम ट्रेनिंग
+  - CTF चैलेंज
+  - पेनेट्रेशन टेस्टिंग
+  # Spanish (ES)
+  - streams de ciberseguridad
+  - hacking ético en vivo
+  - tutoriales de TryHackMe
+  - streams de HTB
+  - entrenamiento de equipo rojo
+  - entrenamiento de equipo azul
+  - desafíos CTF
+  - pruebas de penetración
+  # French (FR)
+  - streams cybersécurité
+  - hacking éthique en direct
+  - tutoriels TryHackMe
+  - streams HTB
+  - formation red team
+  - formation blue team
+  - défis CTF
+  - tests de pénétration
+  # Arabic (AR)
+  - بث الأمن السيبراني
+  - الاختراق الأخلاقي المباشر
+  - دروس TryHackMe
+  - بث HTB
+  - تدريب الفريق الأحمر
+  - تدريب الفريق الأزرق
+  - تحديات CTF
+  - اختبار الاختراق

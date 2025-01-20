@@ -1,2 +1,22 @@
 User-agent: *
 Allow: /
+Sitemap: https://infosecstreams.com/sitemap.xml
+
+# Allow all search engines to index all content
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: Slurp
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+User-agent: Baiduspider
+Allow: /
+User-agent: Yandexbot
+Allow: /
+
+# Additional SEO-focused paths
+Allow: /inactive
+Allow: /resources
+Allow: /faq
