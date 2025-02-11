@@ -79,7 +79,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `OALabsLive` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OALabsLive) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/OALabs) |
 &nbsp; | `CyberWarriorStudios` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberWarriorStudios) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g) |
 &nbsp; | `h4ck0rman` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h4ck0rman) &nbsp; |
-&nbsp; | `0day_3301` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0day_3301) &nbsp; 
+🟢 | `0day_3301` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0day_3301 "Science & Technology, Tags: English, hacking, cybersecurity, privacy, linux, oscp, hackthebox, podcast, CTF, tryhackme") &nbsp; | EN
 &nbsp; | `Security_Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Security_Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw) |
 &nbsp; | `hijack_securitytv` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hijack_securitytv) &nbsp; |
 &nbsp; | `BanjoCrashland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BanjoCrashland) &nbsp; |
