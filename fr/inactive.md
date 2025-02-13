@@ -117,6 +117,7 @@ Bonjour ! Cette page contient des streamers qui n'ont pas été diffusés au cou
 `HackTok` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTok) &nbsp;
 `HackTricks_LIVE` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTricks_LIVE) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hacktricks_LIVE)
 `hattonsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hattonsec) &nbsp;
+`hijack_securitytv` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hijack_securitytv) &nbsp;
 `ImAhian` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ImAhian) &nbsp;
 `InfamousJoeG` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfamousJoeG) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCDtQCYeZdOYtNzyh9VNAlNQ)
 `InfayerTS` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfayerTS) &nbsp;
@@ -134,6 +135,7 @@ Bonjour ! Cette page contient des streamers qui n'ont pas été diffusés au cou
 `JellyPhishes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JellyPhishes) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@JellyPhishesttv)
 `jhaddix56` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jhaddix56) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@jhaddix)
 `joshua17sc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/joshua17sc) &nbsp;
+`jrozner` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jrozner) &nbsp;
 `JustinSteven` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JustinSteven) &nbsp;
 `k4l1_nathalie` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/k4l1_nathalie) &nbsp;
 `kaythecyberguy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kaythecyberguy) &nbsp;
@@ -166,6 +168,7 @@ Bonjour ! Cette page contient des streamers qui n'ont pas été diffusés au cou
 `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec)
 `neehack` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/neehack) &nbsp;
 `Nirloy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Nirloy) &nbsp;
+`OALabsLive` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OALabsLive) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/OALabs)
 `OfficialWilliP` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OfficialWilliP) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
 `OJReeves` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OJReeves) &nbsp;
 `optionalctf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/optionalctf) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
@@ -223,6 +226,7 @@ Bonjour ! Cette page contient des streamers qui n'ont pas été diffusés au cou
 `Th3lazykid` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Th3lazykid) &nbsp;
 `TheAKElement` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheAKElement) &nbsp;
 `TheBlindHacker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheBlindHacker) &nbsp;
+`theblvkhakr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/theblvkhakr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@blvkhakr)
 `theedmiroshow` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/theedmiroshow) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theedmiroshow)
 `TheGoodHackerTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheGoodHackerTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeeOzvMFfd2qcUFIGN_Nzyw)
 `Thegwar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Thegwar) &nbsp;
