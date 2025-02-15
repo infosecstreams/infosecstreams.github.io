@@ -15,7 +15,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `het_tanis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/het_tanis) &nbsp; |
 &nbsp; | `TheShyHat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheShyHat) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theshyhat) |
 &nbsp; | `KiraSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KiraSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@JackintheD) |
-🟢 | `B7H30` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/B7H30 "Science & Technology, Tags: Hacking, Ciberseguridad, HackTheBox, VulnHub, Español") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theo6580) | EN
+&nbsp; | `B7H30` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/B7H30) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theo6580) 
 &nbsp; | `S4vitaar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S4vitaar) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q) 
 &nbsp; | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean) &nbsp; |
 &nbsp; | `BlaiseBits` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlaiseBits) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@blaisebits) |
