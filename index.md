@@ -62,7 +62,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean) &nbsp; |
 &nbsp; | `c3rb3ru5d3d53c` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c3rb3ru5d3d53c) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCk9BugRahSWgPLYOAA3QH4w) |
 &nbsp; | `2ocstream` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/2ocstream) &nbsp; |
-🟢 | `BCSecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BCSecurity "Talk Shows & Podcasts, Tags: infosec, cybersecurity, SoftwareDevelopment, OpenSourceSoftware, English") &nbsp; | EN
+&nbsp; | `BCSecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BCSecurity) &nbsp; 
 &nbsp; | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp; |
 &nbsp; | `HackersCorner` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackersCorner) &nbsp; |
 &nbsp; | `CyberWarriorStudios` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberWarriorStudios) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g) |
