@@ -76,7 +76,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `gamozo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gamozo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
 &nbsp; | `womaninredpresents` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/womaninredpresents) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@womaninredpresents)
 🟢 | `hack3rwitch` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack3rwitch "Just Chatting, Tags: English, witchcraft, afterparty, smallstream") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hack3rwitch917)| EN
-🟢 | `SlickPupStream` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SlickPupStream "Science & Technology, Tags: English") &nbsp;| EN
+&nbsp; | `SlickPupStream` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SlickPupStream) &nbsp;
 
 ### Credits
 
