@@ -76,6 +76,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `2ocstream` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/2ocstream) &nbsp; |
 &nbsp; | `WhatTheShellPod` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/WhatTheShellPod) &nbsp; |
 &nbsp; | `CyberWarriorStudios` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberWarriorStudios) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g) |
+&nbsp; | `UndecidedFlavor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/UndecidedFlavor) &nbsp;
 
 ### Credits
 
