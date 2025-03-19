@@ -55,7 +55,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `TheLaluka` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheLaluka) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TheLaluka) |
 &nbsp; | `IC_null` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/IC_null) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g) |
 &nbsp; | `B7H30` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/B7H30) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theo6580) |
-&nbsp; | `HackTheBox` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTheBox) &nbsp; |
+🟢 | `HackTheBox` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTheBox "Science & Technology, Tags: English, cybersecurity, infosec, eductional, TalksToChat, HackTheBox, hacking, InteractiveStream, FriendsWelcome, WebApp") &nbsp; | EN
 &nbsp; | `LowLevelTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LowLevelTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@LowLevelTV) |
 &nbsp; | `overgrowncarrot1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/overgrowncarrot1) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://youtube.com/channel/UCykh1fzT0LK-9wVhn8ocLaA) |
 &nbsp; | `soyelmago` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/soyelmago) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://youtube.com/c/alanlevy-elmago) |
