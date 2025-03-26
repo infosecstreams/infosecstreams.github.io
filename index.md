@@ -72,7 +72,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `InvokeReversing` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InvokeReversing) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@InvokeReversing) |
 &nbsp; | `CybersecurityGrowth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybersecurityGrowth) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@cybersecuritygrowth) |
 &nbsp; | `hadzah_fr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hadzah_fr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hadzah_fr) |
-🟢 | `blacksincybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blacksincybersecurity "Just Chatting, Tags: English") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEBEQ0oRA2LPnc2wm2TO5IA)| EN
+&nbsp; | `blacksincybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blacksincybersecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEBEQ0oRA2LPnc2wm2TO5IA)
 
 ### Credits
 
