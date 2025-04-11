@@ -11,7 +11,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></i> | <i class="fas fa-comment-dots"></i>
 ---: | --- | :--- | :---
 🟢 | `0day_3301` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0day_3301 "Science & Technology, Tags: English, Deutsch, ethicalhacking, tryhackme, hackthebox, cybersecurity, hacking, privacy, infosec, linux") &nbsp; | EN
-🟢 | `FixIt42` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FixIt42 "Science & Technology, Tags: Programming, Electronics, TechHelp, Tutorials, Streaming, StreamerBot, infosec, Arduino, IRL, hacking") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@FixIt42live) | EN
+&nbsp; | `FixIt42` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FixIt42) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@FixIt42live) 
 🟢 | `hack3rwitch` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack3rwitch "Science & Technology, Tags: English, Neurodivergent, SheHer, ADHD, THM, CTF, threathunting, cybersecurity, LongCovid, disabledinSTEM") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hack3rwitch917) | EN
 🟢 | `BlackHatNOC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlackHatNOC) &nbsp; | EN
 &nbsp; | `TheShyHat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheShyHat) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theshyhat) |
