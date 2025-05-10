@@ -54,7 +54,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `mchow01` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mchow01) &nbsp; |
 &nbsp; | `Tanades_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Tanades_) &nbsp; |
 &nbsp; | `g0lden1_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g0lden1_) &nbsp; |
-&nbsp; | `unhackerencapital` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/unhackerencapital) &nbsp; |
+🟢 | `unhackerencapital` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/unhackerencapital "Just Chatting, Tags: ciberseguridad, hacking, Forensics, cybersecurity, hacker, Español") &nbsp; | ES
 &nbsp; | `BanjoCrashland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BanjoCrashland) &nbsp; |
 &nbsp; | `IC_null` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/IC_null) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g) |
 &nbsp; | `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec) |
