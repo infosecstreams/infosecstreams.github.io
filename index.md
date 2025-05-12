@@ -50,7 +50,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `hadzah_fr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hadzah_fr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hadzah_fr) |
 &nbsp; | `LowLevelTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LowLevelTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@LowLevelTV) |
 &nbsp; | `soyelmago` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/soyelmago) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://youtube.com/c/alanlevy-elmago) |
-&nbsp; | `Tanades_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Tanades_) &nbsp; |
+🟢 | `Tanades_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Tanades_ "Science & Technology, Tags: Ciberseguridad, hacking, hackingetico, OSCP, CEH, Español, HackTheBox, HTB, htblabs") &nbsp; | ES
 &nbsp; | `BanjoCrashland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BanjoCrashland) &nbsp; |
 &nbsp; | `IC_null` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/IC_null) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g) |
 &nbsp; | `CyberWarriorStudios` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberWarriorStudios) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g) |
