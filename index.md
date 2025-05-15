@@ -13,7 +13,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `Hack3rWitch` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hack3rWitch) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hack3rwitch917) |
 &nbsp; | `panekopanko` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/panekopanko) &nbsp; 
 &nbsp; | `het_tanis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/het_tanis) &nbsp; |
-&nbsp; | `CyberTechVibes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberTechVibes) &nbsp; |
+&nbsp; | `CyberTechVibes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberTechVibes) &nbsp; 
 &nbsp; | `FixIt42` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FixIt42) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@FixIt42live) 
 &nbsp; | `0day_3301` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0day_3301) &nbsp; |
 🟢 | `TheShyHat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheShyHat "Science & Technology, Tags: cybersecurity, hacking, hackerfrogs, education, technology, tryhackme, hackthebox, picoctf, hackmyvm, Vtuber") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theshyhat) | EN
