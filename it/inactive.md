@@ -215,7 +215,6 @@ Ehi lì! Questa pagina contiene streamer che non sono stati trasmessi in streami
 `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters) &nbsp;
 `SecurityCert` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityCert) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@securitycert)
 `securityfwd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securityfwd) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
-`Security_Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Security_Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
 `Sharghaas` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sharghaas) &nbsp;
 `shellandtell` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/shellandtell) &nbsp;
 `shenetworks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/shenetworks) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/shenetworks)
