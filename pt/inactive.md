@@ -87,7 +87,6 @@ Olá! Esta página contém streamers que não foram transmitidos no último mês
 `dze64` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dze64) &nbsp;
 `EchoZach` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/EchoZach) &nbsp;
 `EightBitOni` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/EightBitOni) &nbsp;
-`elpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elpentester) &nbsp;
 `esdn_tv` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/esdn_tv) &nbsp;
 `Eth0ghost` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Eth0ghost) &nbsp;
 `f3rn0s_sec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/f3rn0s_sec) &nbsp;
@@ -149,6 +148,7 @@ Olá! Esta página contém streamers que não foram transmitidos no último mês
 `laffin_sec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/laffin_sec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@bradyjmcl)
 `LaurieWired` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LaurieWired) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@lauriewired)
 `lea_cyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lea_cyber) &nbsp;
+`Leetcore` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Leetcore) &nbsp;
 `LeonVQZ` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LeonVQZ) &nbsp;
 `Libereau` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Libereau) &nbsp;
 `LinuxYSeguridad` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LinuxYSeguridad) &nbsp;
@@ -170,7 +170,6 @@ Olá! Esta página contém streamers que não foram transmitidos no último mês
 `MSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCu9ybrID4Ak5pDU-6E5ph5Q)
 `mttaggart` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mttaggart) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/taggarttech)
 `MVLWVR3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MVLWVR3) &nbsp;
-`NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec)
 `neehack` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/neehack) &nbsp;
 `NeWbieSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NeWbieSec) &nbsp;
 `Nirloy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Nirloy) &nbsp;
