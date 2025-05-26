@@ -74,6 +74,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `Security_Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Security_Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw) |
 &nbsp; | `LowLevelTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LowLevelTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@LowLevelTV)
 🟢 | `MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC "Software and Game Development, Tags: hacking, Cybersecurity, appsec, coding, Türkçe, javascript, programming, cybersecurity, sibergüvenlik") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q)| TR
+&nbsp; | `cronching` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cronching) &nbsp;
 
 ### Credits
 
