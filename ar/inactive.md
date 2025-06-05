@@ -214,7 +214,6 @@
 `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters) &nbsp;
 `SecurityCert` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityCert) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@securitycert)
 `securityfwd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securityfwd) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
-`SecurityWeekly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityWeekly) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 `Sharghaas` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sharghaas) &nbsp;
 `shellandtell` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/shellandtell) &nbsp;
 `shenetworks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/shenetworks) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/shenetworks)
@@ -225,7 +224,6 @@
 `smash8tap` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/smash8tap) &nbsp;
 `SniferL4bs` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SniferL4bs) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/SniferL4bs)
 `softexploit` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/softexploit) &nbsp;
-`soyelmago` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/soyelmago) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://youtube.com/c/alanlevy-elmago)
 `spacepenguins101` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/spacepenguins101) &nbsp;
 `SpiceySec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SpiceySec) &nbsp;
 `stokfredrik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/stokfredrik) &nbsp;
