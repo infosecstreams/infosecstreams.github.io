@@ -1,6 +1,6 @@
 # Stream InfoSec Inattivi
 
-Ehi lì! Questa pagina contiene streamer che non sono stati trasmessi in streaming nell'ultimo mese.
+Ciao! Questa pagina contiene gli streamer che non hanno trasmesso nell'ultimo mese.
 
 ## Stream
 
@@ -15,7 +15,7 @@ Un ringraziamento speciale a [chadb_n00b](https://twitch.tv/chadb_n00b) per aver
 
 ### Contribuisci o Segnala un Problema
 
-Hai problemi con un collegamento? Il sito non aggiorna correttamente? Domande? Contribuisci? Qualcosa altro? Per favore leggi [FAQ](/faq)!
+Problemi con un link? Il sito non si aggiorna correttamente? Domande? Contributi? Altro? Per favore leggi le [FAQ](/it/faq)!
 
 <script src="https://infosecstreams.com/js/sort.js" async="" defer=""></script>
 
