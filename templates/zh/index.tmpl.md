@@ -1,10 +1,10 @@
 # 信息流
 
-恭喜！您已经找到一个活跃的与信息安全相关的 Twitch 流列表。 这个列表是基于 `30天活动` `排序的` 以帮助您更容易地找到活动流！
+恭喜！ 您已经找到一个活跃的 Twitch与信息安全流列表。 这个列表是基于 `30天活动` `排序的` 以帮助您更容易地找到活动流！
 
 Streamers that haven't had activity in the last month are moved to the [inactive streamers](/inactive) page.
 
-有问题？贡献？还有什么问题？请阅读 [FAQ](/faq)！
+有问题？ 贡献？ 还有什么问题？ 请阅读 [FAQ](/zh/faq)！
 
 ## 流列表(排序) <a href="#" class="btn" id="settings-button">设置</a>
 
@@ -19,11 +19,11 @@ Streamers that haven't had activity in the last month are moved to the [inactive
 
 ### 资源
 
-这里是你黑客旅程的 [一些极好的资源](/resources)。
+这里是你黑客旅程的 [一些极好的资源](/zh/resources)。
 
 ### 贡献或报告问题
 
-链接有问题？网站更新不正确？有问题？贡献？还有什么问题？请阅读 [FAQ](/faq)！
+链接有问题？ 网站更新不正确？ 有问题？ 贡献？ 还有什么问题？ 请阅读 [FAQ](/zh/faq)！
 
 <script src="https://infosecstreams.com/js/sort.js" async="" defer=""></script>
 
