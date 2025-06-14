@@ -1,6 +1,6 @@
 # Aktif Olmayan InfoSec Yayınları
 
-Hey there! This page contains streamers that have not streamed in the last month.
+Merhaba! Bu sayfa son bir ay içinde yayın yapmamış yayıncıları içerir.
 
 ## Streams
 
@@ -15,7 +15,7 @@ Bu proje bir topluluk çabasıdır ancak [GoProSlowYo](https://twitch.tv/goprosl
 
 ### Katkıda Bulunun veya Sorun Bildirin
 
-Having trouble with a link? Site not updating properly? Questions? Contributions? Something else? Please read the [FAQ](/faq)!
+Bir bağlantıyla ilgili sorun mu yaşıyorsunuz? Site düzgün güncellenmiyor mu? Sorularınız mı var? Katkıda bulunmak mı istiyorsunuz? Başka bir şey mi var? Lütfen [SSS](/tr/faq) sayfasını okuyun!
 
 <script src="https://infosecstreams.com/js/sort.js" async="" defer=""></script>
 
