@@ -2,11 +2,11 @@
 
 Congrats! You've found an actively maintained list of Information Security-related Twitch streams. This list is `sorted` based on `30-day activity` to help you find active streams more easily!
 
-जिन स्ट्रीमर्स की पिछले महीने में कोई गतिविधि नहीं हुई है, उन्हें [निष्क्रिय स्ट्रीमर्स](/hi/inactive) पृष्ठ पर स्थानांतरित कर दिया गया है।
+जिन स्ट्रीमर्स की पिछले महीने में कोई गतिविधि नहीं हुई है, उन्हें [इनएक्टिव स्ट्रीमर्स](/hi/inactive) पृष्ठ पर स्थानांतरित कर दिया गया है।
 
 Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 
-## स्ट्रीम्स की सूची (क्रमबद्ध) <a href="#" class="btn" id="settings-button">सेटिंग्स</a>
+## स्ट्रीम की सूची (क्रमबद्ध) <a href="#" class="btn" id="settings-button">सेटिंग्स</a>
 
 | &nbsp; | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></i> | <i class="fas fa-comment-dots"></i> |
 | --: | --- | :-- | :-- |
