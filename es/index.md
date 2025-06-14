@@ -6,7 +6,7 @@ Los streamers que no han tenido actividad en el último mes se han movido a la p
 
 ¿Preguntas? ¿Contribuciones? ¿Algo más? ¡Por favor lee las [FAQ](/es/faq)!
 
-## Lista de Teams (ordenada) <a href="#" class="btn" id="settings-button">Configuración</a>
+## Lista de los Streams (ordenada) <a href="#" class="btn" id="settings-button">Configuración</a>
 
 | &nbsp; | <i class="fas fa-headset"></i> | <i class="fas fa-external-link-alt"></i> | <i class="fas fa-comment-dots"></i> |
 | --: | --- | :-- | :-- |

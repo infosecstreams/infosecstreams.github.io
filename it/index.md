@@ -1,10 +1,10 @@
 # Stream InfoSec
 
-Congratulazioni! Hai trovato un elenco attivo di flussi Twitch legati alla sicurezza delle informazioni. Questa lista è `ordinata` basata su `attività di 30 giorni` per aiutarti a trovare più facilmente i flussi attivi!
+Congratulazioni! Hai trovato una lista costantemente aggiornata di stream Twitch relativi alla Sicurezza Informatica. Questa lista è `ordinata` in base all'`attività degli ultimi 30 giorni` per aiutarti a trovare più facilmente gli stream attivi!
 
 Gli streamer che non hanno avuto attività nell'ultimo mese sono spostati nella pagina degli [streamer inattivi](/it/inactive).
 
-Domande? Contributi? Qualcosa altro? Per favore leggi [FAQ](/faq)!
+Domande? Contributi? Altro? Per favore leggi le [FAQ](/it/faq)!
 
 ## Lista degli Stream (ordinata) <a href="#" class="btn" id="settings-button">Impostazioni</a>
 
@@ -84,7 +84,7 @@ Qui ci sono [alcune ottime risorse](/it/resources) per il tuo percorso di hackin
 
 ### Contribuisci o Segnala un Problema
 
-Hai problemi con un collegamento? Il sito non aggiorna correttamente? Domande? Contribuisci? Qualcosa altro? Per favore leggi [FAQ](/faq)!
+Problemi con un link? Il sito non si aggiorna correttamente? Domande? Contributi? Altro? Per favore leggi le [FAQ](/it/faq)!
 
 <script src="https://infosecstreams.com/js/sort.js" async="" defer=""></script>
 

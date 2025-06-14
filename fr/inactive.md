@@ -281,7 +281,7 @@ Un grand merci à [chadb_n00b](https://twitch.tv/chadb_n00b) pour avoir lancé e
 
 ### Contribuer ou signaler un problème
 
-Having trouble with a link? Site not updating properly? Questions? Contributions? Something else? Please read the [FAQ](/faq)!
+Vous avez des problèmes avec un lien? Le site ne se met pas à jour correctement? Des questions ? Contributions ? Quelque chose d'autre ? Veuillez lire la [FAQ](/faq) !
 
 <script src="https://infosecstreams.com/js/sort.js" async="" defer=""></script>
 

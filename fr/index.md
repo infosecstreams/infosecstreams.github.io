@@ -4,7 +4,7 @@ Félicitations ! Vous avez trouvé une liste de flux Twitch activement maintenue
 
 Les streamers qui n'ont pas eu d'activité au cours du dernier mois sont déplacés vers la page des [streamers inactifs](/fr/inactive).
 
-Questions? Contributions? Something else? Please read the [FAQ](/faq)!
+Des questions ? Des contributions ? Autre chose ? Veuillez lire la [FAQ](/fr/faq) !
 
 ## Liste des Streams (triée) <a href="#" class="btn" id="settings-button">Paramètres</a>
 
@@ -84,7 +84,7 @@ Voici [quelques bonnes ressources] (/resources) pour votre voyage de piratage.
 
 ### Contribuer ou Signaler un Problème
 
-Having trouble with a link? Site not updating properly? Questions? Contributions? Something else? Please read the [FAQ](/faq)!
+Des problèmes avec un lien ? Le site ne se met pas à jour correctement ? Des questions ? Des contributions ? Autre chose ? Veuillez lire la [FAQ](/fr/faq) !
 
 <script src="https://infosecstreams.com/js/sort.js" async="" defer=""></script>
 
