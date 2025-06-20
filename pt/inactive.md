@@ -33,6 +33,7 @@ Olá! Esta página contém streamers que não transmitiram no último mês.
 `AyWang` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AyWang) &nbsp;
 `badatcomputers` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/badatcomputers) &nbsp;
 `BarSides` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BarSides) &nbsp;
+`BCSecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BCSecurity) &nbsp;
 `beauknowstech` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/beauknowstech) &nbsp;
 `bee_sec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/bee_sec) &nbsp;
 `BHEH1337` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BHEH1337) &nbsp;

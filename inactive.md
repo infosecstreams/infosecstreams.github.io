@@ -33,6 +33,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `AyWang` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AyWang) &nbsp;
 `badatcomputers` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/badatcomputers) &nbsp;
 `BarSides` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BarSides) &nbsp;
+`BCSecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BCSecurity) &nbsp;
 `beauknowstech` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/beauknowstech) &nbsp;
 `bee_sec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/bee_sec) &nbsp;
 `BHEH1337` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BHEH1337) &nbsp;
@@ -50,6 +51,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `codingo_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/codingo_) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCUfO02gdMDXgOJWdv_jiLMg)
 `CosmodiumCS` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CosmodiumCS) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/CosmodiumCS)
 `creminer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/creminer) &nbsp;
+`cronching` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cronching) &nbsp;
 `CSFinlay` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CSFinlay) &nbsp;
 `ctfandcigars` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ctfandcigars) &nbsp;
 `ctrlbyte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ctrlbyte) &nbsp;
@@ -62,6 +64,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `CyberReport` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberReport) &nbsp;
 `CybersecurityGrowth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybersecurityGrowth) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@cybersecuritygrowth)
 `CyberVikingUK` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberVikingUK) &nbsp;
+`CyberWarriorStudios` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberWarriorStudios) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 `cyber_v1s3rion` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cyber_v1s3rion) &nbsp;
 `d0nutptr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/d0nutptr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/d0nutptr)
 `DarkStar7471` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DarkStar7471) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0R_-7yQPoGpkPR9ITzDFFQ)
