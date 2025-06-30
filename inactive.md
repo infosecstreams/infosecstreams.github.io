@@ -46,6 +46,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `BrownDisappointment` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrownDisappointment) &nbsp;
 `c3rb3ru5d3d53c` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c3rb3ru5d3d53c) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCk9BugRahSWgPLYOAA3QH4w)
 `ch3fez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ch3fez) &nbsp;
+`ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b) &nbsp;
 `CKcybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CKcybersecurity) &nbsp;
 `CMNatic` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CMNatic) &nbsp;
 `codingo_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/codingo_) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCUfO02gdMDXgOJWdv_jiLMg)
