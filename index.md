@@ -63,6 +63,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `g0lden1_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g0lden1_) &nbsp; |
 &nbsp; | `xThe_Developer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xThe_Developer) &nbsp; |
 &nbsp; | `c04tl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c04tl) &nbsp; |
+🟢 | `MSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MSec "Software and Game Development, Tags: Neurodivergent, British, TTS, Infosec, English, cyber, programming, cybersecurity, B2600") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCu9ybrID4Ak5pDU-6E5ph5Q)| EN
 
 ### Credits
 
