@@ -26,7 +26,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `CyberTechVibes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberTechVibes) &nbsp; |
 &nbsp; | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean) &nbsp; |
 &nbsp; | `Obscure_Scripts` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Obscure_Scripts) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Obscure_Scripts) |
-&nbsp; | `elprogramadorgt` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elprogramadorgt) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgirU6f4kiT5Yxba4QyI58Q) |
+&nbsp; | `elprogramadorgt` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elprogramadorgt) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgirU6f4kiT5Yxba4QyI58Q) 
 &nbsp; | `endingwithALI` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/endingwithALI) &nbsp; |
 &nbsp; | `Hackavis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hackavis) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Hackavis) |
 &nbsp; | `JohnHammond010` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JohnHammond010) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw) |
