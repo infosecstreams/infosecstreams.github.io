@@ -170,6 +170,7 @@ Ciao! Questa pagina contiene gli streamer che non hanno trasmesso nell'ultimo me
 `magnologanxp` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/magnologanxp) &nbsp;
 `maikroservice` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/maikroservice) &nbsp;
 `majksec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/majksec) &nbsp;
+`MalwareTechBlog` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MalwareTechBlog) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@MalwareTechBlog)
 `mbcrump` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mbcrump) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `mchow01` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mchow01) &nbsp;
 `MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q)

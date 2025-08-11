@@ -55,6 +55,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `codingo_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/codingo_) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCUfO02gdMDXgOJWdv_jiLMg)
 `CosmodiumCS` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CosmodiumCS) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/CosmodiumCS)
 `creminer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/creminer) &nbsp;
+`cronching` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cronching) &nbsp;
 `CSFinlay` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CSFinlay) &nbsp;
 `ctfandcigars` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ctfandcigars) &nbsp;
 `ctrlbyte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ctrlbyte) &nbsp;
@@ -169,6 +170,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `magnologanxp` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/magnologanxp) &nbsp;
 `maikroservice` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/maikroservice) &nbsp;
 `majksec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/majksec) &nbsp;
+`MalwareTechBlog` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MalwareTechBlog) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@MalwareTechBlog)
 `mbcrump` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mbcrump) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `mchow01` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mchow01) &nbsp;
 `MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q)
