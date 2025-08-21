@@ -58,7 +58,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `HackTheBox` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTheBox) &nbsp; |
 &nbsp; | `BanjoCrashland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BanjoCrashland) &nbsp; |
 &nbsp; | `IC_null` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/IC_null) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g) |
-&nbsp; | `AgeOfEntropy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AgeOfEntropy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCitiWg5p-R6QNLPuJPSE33g) |
+🟢 | `AgeOfEntropy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AgeOfEntropy "Science & Technology, Tags: linux, engineering, learning, educational, security, certification, K8s, veteran, writing, English") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCitiWg5p-R6QNLPuJPSE33g) | ES
 &nbsp; | `soyelmago` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/soyelmago) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://youtube.com/c/alanlevy-elmago) |
 &nbsp; | `overgrowncarrot1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/overgrowncarrot1) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://youtube.com/channel/UCykh1fzT0LK-9wVhn8ocLaA) |
 &nbsp; | `zerobandwidth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zerobandwidth) &nbsp; |
