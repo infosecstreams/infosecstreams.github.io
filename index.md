@@ -25,7 +25,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp; |
 &nbsp; | `JohnHammond010` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JohnHammond010) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw) |
 &nbsp; | `BySepa` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BySepa) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@BySepa) |
-&nbsp; | `HackTheBox` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTheBox) &nbsp; |
+🟢 | `HackTheBox` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTheBox "Software and Game Development, Tags: English, hacking, cybersecurity, OSCP, pentesting, coding, BackseatingAllowed, Speedrun, AMA, Chatty") &nbsp; | 
 &nbsp; | `pebl3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pebl3) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Pebble1) |
 &nbsp; | `endingwithALI` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/endingwithALI) &nbsp; |
 &nbsp; | `antisyphon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/antisyphon) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCkFKiCm7dD0gsB4jqIdCuRQ) |
