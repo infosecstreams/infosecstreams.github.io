@@ -116,7 +116,6 @@ Merhaba! Bu sayfa son bir ay içinde yayın yapmamış yayıncıları içerir.
 `h4ck_m3_senpa1a` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h4ck_m3_senpa1a) &nbsp;
 `h8handles` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h8handles) &nbsp;
 `Hack3rWitch` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hack3rWitch) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hack3rwitch917)
-`Hackavis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Hackavis) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Hackavis)
 `hackbacc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hackbacc) &nbsp;
 `HackerOneTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerOneTV) &nbsp;
 `HackersCorner` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackersCorner) &nbsp;
