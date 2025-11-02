@@ -26,7 +26,6 @@ Hallo! Diese Seite enthält Streamer die im letzten Monat nicht gestreamt wurden
 `Alomancy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Alomancy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCe2i94acge3Bv2Tmjla0h_g)
 `AlzetteInfoSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AlzetteInfoSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCE4yBI-7oG5BB4eEYkVzB-Q)
 `AntiCM05` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AntiCM05) &nbsp;
-`Anyascii` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Anyascii) &nbsp;
 `apis_carnica` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/apis_carnica) &nbsp;
 `arl_rose` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/arl_rose) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC5aHOcWrvrdZWogEsVSFJwQ)
 `Ash_F0x` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Ash_F0x) &nbsp;
@@ -132,7 +131,6 @@ Hallo! Diese Seite enthält Streamer die im letzten Monat nicht gestreamt wurden
 `hattonsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hattonsec) &nbsp;
 `hijack_securitytv` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hijack_securitytv) &nbsp;
 `Humpty_Tony` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Humpty_Tony) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@ir_cc)
-`IC_null` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/IC_null) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g)
 `ImAhian` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ImAhian) &nbsp;
 `InfamousJoeG` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfamousJoeG) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCDtQCYeZdOYtNzyh9VNAlNQ)
 `InfayerTS` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfayerTS) &nbsp;
