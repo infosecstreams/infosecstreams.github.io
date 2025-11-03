@@ -27,7 +27,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `B7H30` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/B7H30) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theo6580) |
 &nbsp; | `antisyphon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/antisyphon) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCkFKiCm7dD0gsB4jqIdCuRQ) |
 &nbsp; | `TheLaluka` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheLaluka) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TheLaluka) |
-&nbsp; | `team_whoami` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/team_whoami) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@teamwhoami7726) |
+🟢 | `team_whoami` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/team_whoami "Science & Technology, Tags: Español") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@teamwhoami7726) | ES
 &nbsp; | `KiraSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KiraSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@JackintheD) |
 &nbsp; | `xerosec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xerosec) &nbsp; |
 &nbsp; | `CyberWarriorStudios` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberWarriorStudios) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g) |
