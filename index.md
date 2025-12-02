@@ -25,7 +25,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `CybeardSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybeardSec) &nbsp; |
 &nbsp; | `endingwithALI` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/endingwithALI) &nbsp; |
 🟢 | `antisyphon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/antisyphon "Talk Shows & Podcasts, Tags: Educational, English") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCkFKiCm7dD0gsB4jqIdCuRQ) | EN
-&nbsp; | `BySepa` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BySepa) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@BySepa) |
+🟢 | `BySepa` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BySepa "Just Chatting, Tags: Español, Ciberseguridad, IRL, Chat, Argentina, España") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@BySepa) | ES
 &nbsp; | `het_tanis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/het_tanis) &nbsp; |
 &nbsp; | `FixIt42` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FixIt42) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@FixIt42live) 
 &nbsp; | `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege) |
