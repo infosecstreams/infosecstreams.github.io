@@ -92,6 +92,7 @@ Olá! Esta página contém streamers que não transmitiram no último mês.
 `EchoZach` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/EchoZach) &nbsp;
 `EightBitOni` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/EightBitOni) &nbsp;
 `Eth0ghost` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Eth0ghost) &nbsp;
+`eyeofliberty` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/eyeofliberty) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@EyeOfLiberty)
 `f3rn0s_sec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/f3rn0s_sec) &nbsp;
 `fearless0523` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/fearless0523) &nbsp;
 `FinnWithGun` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FinnWithGun) &nbsp;
@@ -132,6 +133,7 @@ Olá! Esta página contém streamers que não transmitiram no último mês.
 `InfamousJoeG` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfamousJoeG) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCDtQCYeZdOYtNzyh9VNAlNQ)
 `InfayerTS` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfayerTS) &nbsp;
 `infinitelogins` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/infinitelogins) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC_nKukFaGysjMzqMVHEIgxQ)
+`InfosecGuy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfosecGuy) &nbsp;
 `InfosecHouse` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfosecHouse) &nbsp;
 `InsiderPhD` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InsiderPhD) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/InsiderPhD)
 `InvokeReversing` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InvokeReversing) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@InvokeReversing)
@@ -158,7 +160,6 @@ Olá! Esta página contém streamers que não transmitiram no último mês.
 `KrisNova` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KrisNova) &nbsp;
 `LaurieWired` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LaurieWired) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@lauriewired)
 `lea_cyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/lea_cyber) &nbsp;
-`Leetcore` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Leetcore) &nbsp;
 `LeonVQZ` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LeonVQZ) &nbsp;
 `Libereau` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Libereau) &nbsp;
 `LinuxYSeguridad` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LinuxYSeguridad) &nbsp;
