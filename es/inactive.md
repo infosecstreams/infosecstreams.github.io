@@ -187,6 +187,7 @@
 `OALabsLive` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OALabsLive) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/OALabs)
 `Gh0x00st` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Gh0x00st) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Gh0x00st)
 `OfficialWilliP` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OfficialWilliP) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
+`OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp;
 `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp;
 `OJReeves` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OJReeves) &nbsp;
 `optionalctf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/optionalctf) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
@@ -248,6 +249,7 @@
 `Super_uzer` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Super_uzer) &nbsp;
 `systemdeez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/systemdeez) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@systemdeez)
 `Tanades_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Tanades_) &nbsp;
+`team_whoami` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/team_whoami) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@teamwhoami7726)
 `TechnologyInterpreters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TechnologyInterpreters) &nbsp;
 `techryptic` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/techryptic) &nbsp;
 `TeddingtonUK` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TeddingtonUK) &nbsp;
