@@ -63,7 +63,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `BanjoCrashland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BanjoCrashland) &nbsp; |
 &nbsp; | `HackTheBox` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackTheBox) &nbsp; |
 &nbsp; | `MalwareTechBlog` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MalwareTechBlog) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@MalwareTechBlog) |
-🟢 | `Avesh029` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Avesh029 "Software and Game Development, Tags: English, chess, chessstream, chesslive") &nbsp; | EN
+&nbsp; | `Avesh029` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Avesh029) &nbsp; 
 &nbsp; | `CyberInfoHQ` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberInfoHQ) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Cyber-Info) |
 
 ### Credits
