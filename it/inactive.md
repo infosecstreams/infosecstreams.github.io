@@ -108,7 +108,6 @@ Ciao! Questa pagina contiene gli streamer che non hanno trasmesso nell'ultimo me
 `g0lden1_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g0lden1_) &nbsp;
 `g1ng3rr00t` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g1ng3rr00t) &nbsp;
 `gamozo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gamozo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
-`Garr_7` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Garr_7) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/SevenSeasSecurityGarr)
 `gerald_auger_simplycyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gerald_auger_simplycyber) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@SimplyCyber)
 `gereshk_pnw` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gereshk_pnw) &nbsp;
 `Goldwave__` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Goldwave__) &nbsp;
@@ -220,7 +219,6 @@ Ciao! Questa pagina contiene gli streamer che non hanno trasmesso nell'ultimo me
 `s1ren_official` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/s1ren_official) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://www.youtube.com/@sirensecurity)
 `s1zzurpmane` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/s1zzurpmane) &nbsp;
 `S4vitaar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S4vitaar) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
-`SaintOfVice` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SaintOfVice) &nbsp;
 `saucysec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/saucysec) &nbsp;
 `SawyerOne` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SawyerOne) &nbsp;
 `scrubterfuge` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/scrubterfuge) &nbsp;
