@@ -60,7 +60,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `Pour1nfo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Pour1nfo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/PourInfo) |
 &nbsp; | `JohnHammond010` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JohnHammond010) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw) 
 &nbsp; | `soyelmago` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/soyelmago) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://youtube.com/c/alanlevy-elmago) |
-🟢 | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial "Talk Shows & Podcasts, Tags: Educational, English") &nbsp; | 
+&nbsp; | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp; 
 &nbsp; | `ElPinguinoDeMario` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ElPinguinoDeMario) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@ElPinguinoDeMario) |
 &nbsp; | `elpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elpentester) &nbsp; |
 &nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
