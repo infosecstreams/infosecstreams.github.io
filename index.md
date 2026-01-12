@@ -36,7 +36,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `HaxrByte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HaxrByte) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@haxrbyte) |
 &nbsp; | `rs0n_live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/rs0n_live) &nbsp; |
 &nbsp; | `cyber_v1s3rion` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cyber_v1s3rion) &nbsp; |
-&nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TylerRamsbey) |
+🟢 | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter "Science & Technology, Tags: English") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TylerRamsbey) | EN
 &nbsp; | `Whimmery` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Whimmery) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Whimmery) |
 &nbsp; | `CyberTechVibes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberTechVibes) &nbsp; |
 &nbsp; | `antisyphon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/antisyphon) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCkFKiCm7dD0gsB4jqIdCuRQ) |
