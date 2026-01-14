@@ -38,7 +38,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `rs0n_live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/rs0n_live) &nbsp; |
 &nbsp; | `CyberTechVibes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberTechVibes) &nbsp; |
 &nbsp; | `Whimmery` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Whimmery) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Whimmery) |
-🟢 | `endingwithALI` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/endingwithALI "Software and Game Development, Tags: women, keyboard, archlinux, English, SoftwareEngineering, cybersecurity, coding") &nbsp; | EN
+&nbsp; | `endingwithALI` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/endingwithALI) &nbsp; 
 &nbsp; | `MalwareTechBlog` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MalwareTechBlog) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@MalwareTechBlog) |
 &nbsp; | `antisyphon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/antisyphon) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCkFKiCm7dD0gsB4jqIdCuRQ) |
 &nbsp; | `team_whoami` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/team_whoami) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@teamwhoami7726) |
