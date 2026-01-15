@@ -27,7 +27,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `GoProSlowYo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GoProSlowYo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCEvTMFvV92XCBhMwQbHWzeg?sub_confirmation=1) |
 &nbsp; | `pebl3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pebl3) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Pebble1) |
 &nbsp; | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp; 
-&nbsp; | `BySepa` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BySepa) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@BySepa) |
+🟢 | `BySepa` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BySepa "Just Chatting, Tags: Español, Ciberseguridad, IRL, Chat, Argentina, España") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@BySepa) | ES
 &nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TylerRamsbey) 
 &nbsp; | `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec) |
 &nbsp; | `Anyascii` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Anyascii) &nbsp; |
