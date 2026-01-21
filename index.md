@@ -61,6 +61,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `JohnHammond010` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JohnHammond010) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw) |
 &nbsp; | `unhackerencapital` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/unhackerencapital) &nbsp;
 🟢 | `censoredhacker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/censoredhacker "Software and Game Development, Tags: chill, CTF, coding, Canada, Gamification, English, tryhackme, bugbounty, discord, hacking") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@censoredHacker)| EN
+🟢 | `Security_Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Security_Live "Just Chatting, Tags: TTS, ChatGPT, CyberSecurity, AppSec, Splunk, NodeRED, FlashingLightsWarning, AI, AnyLanguage, TranslatorActive") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)| EN
 
 ### Credits
 
