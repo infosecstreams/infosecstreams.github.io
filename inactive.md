@@ -114,7 +114,6 @@ Hey there! This page contains streamers that have not streamed in the last month
 `gereshk_pnw` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gereshk_pnw) &nbsp;
 `Goldwave__` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Goldwave__) &nbsp;
 `GrumpyHackers` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/GrumpyHackers) &nbsp;
-`Gruntplay` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Gruntplay) &nbsp;
 `Gyre_Security` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Gyre_Security) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaKU8oiDXzYIUmBXHNv3DEg)
 `h313n_0f_t0r` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h313n_0f_t0r) &nbsp;
 `h4ck0rman` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/h4ck0rman) &nbsp;
