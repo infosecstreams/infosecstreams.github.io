@@ -49,7 +49,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `0reoByte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0reoByte) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@0reoByt3) |
 &nbsp; | `soyelmago` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/soyelmago) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://youtube.com/c/alanlevy-elmago) |
 🟢 | `Alh4zr3d` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Alh4zr3d "Science & Technology, Tags: Cybersecurity") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCz-Z-d2VPQXHGkch0-_KovA) | EN
-🟢 | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah "Science & Technology, Tags: Bugbounty, VisualCode, Desenvolvimento, hacker, Hunter, Python, Bash, Microsoft, Linux, Aws") &nbsp; | PT
+&nbsp; | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp; 
 &nbsp; | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp; |
 &nbsp; | `IC_null` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/IC_null) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g) |
 &nbsp; | `rs0n_live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/rs0n_live) &nbsp; |
