@@ -204,7 +204,6 @@ Hey there! This page contains streamers that have not streamed in the last month
 `powerbliz` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/powerbliz) &nbsp;
 `PRIMALmk` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PRIMALmk) &nbsp;
 `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp;
-`ProfitzTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ProfitzTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@profitztv)
 `pseudosarah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pseudosarah) &nbsp;
 `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege)
 `PwnSchool` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PwnSchool) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/ThePwnSchoolProject)
