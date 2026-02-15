@@ -47,6 +47,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `blindpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/blindpentester) &nbsp;
 `breakingintocybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/breakingintocybersecurity) &nbsp;
 `BrownDisappointment` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrownDisappointment) &nbsp;
+`censoredHacker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/censoredHacker) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@censoredHacker)
 `c04tl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c04tl) &nbsp;
 `c3rb3ru5d3d53c` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c3rb3ru5d3d53c) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCk9BugRahSWgPLYOAA3QH4w)
 `ch3fez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ch3fez) &nbsp;
@@ -203,6 +204,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `poocha_police` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/poocha_police) &nbsp;
 `powerbliz` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/powerbliz) &nbsp;
 `PRIMALmk` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PRIMALmk) &nbsp;
+`producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp;
 `ProfitzTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ProfitzTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@profitztv)
 `pseudosarah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pseudosarah) &nbsp;
 `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege)
