@@ -52,7 +52,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `ElPinguinoDeMario` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ElPinguinoDeMario) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@ElPinguinoDeMario) |
 &nbsp; | `ritsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ritsec) &nbsp; |
 &nbsp; | `kinslay3r` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kinslay3r) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@kinslay3r) |
-&nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
+&nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) 
 &nbsp; | `InvokeReversing` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InvokeReversing) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@InvokeReversing) |
 &nbsp; | `thecybermentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) |
 &nbsp; | `Flangvik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Flangvik) &nbsp; |
