@@ -217,7 +217,7 @@ Ciao! Questa pagina contiene gli streamer che non hanno trasmesso nell'ultimo me
 `p0tpan` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/p0tpan) &nbsp;
 `paperboygold` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/paperboygold) &nbsp;
 `parzival604` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/parzival604) &nbsp;
-`Pentester_Network` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Pentester_Network) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@pentester.network)
+`PentesterTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PentesterTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@pentestertv)
 `poocha_police` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/poocha_police) &nbsp;
 `powerbliz` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/powerbliz) &nbsp;
 `PRIMALmk` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PRIMALmk) &nbsp;
