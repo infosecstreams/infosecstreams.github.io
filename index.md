@@ -48,7 +48,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `HackerMentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HackerMentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCl8jDIq12kkP9YBj1TJY-6Q) |
 &nbsp; | `thecybermentor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/thecybermentor) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) |
 &nbsp; | `TheLaluka` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheLaluka) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TheLaluka) |
-🟢 | `mchow01` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mchow01 "Science & Technology, Tags: English, cybersecurity") &nbsp; | EN
+&nbsp; | `mchow01` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mchow01) &nbsp; 
 &nbsp; | `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege) |
 &nbsp; | `FixIt42` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FixIt42) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@FixIt42live) |
 &nbsp; | `womaninredpresents` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/womaninredpresents) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@womaninredpresents) |
