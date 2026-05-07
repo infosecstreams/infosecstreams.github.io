@@ -49,6 +49,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `breakingintocybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/breakingintocybersecurity) &nbsp;
 `c04tl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c04tl) &nbsp;
 `c3rb3ru5d3d53c` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c3rb3ru5d3d53c) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCk9BugRahSWgPLYOAA3QH4w)
+`censoredHacker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/censoredHacker) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@censoredHacker)
 `ch3fez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ch3fez) &nbsp;
 `ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b) &nbsp;
 `CKcybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CKcybersecurity) &nbsp;
@@ -213,6 +214,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `poocha_police` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/poocha_police) &nbsp;
 `powerbliz` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/powerbliz) &nbsp;
 `PRIMALmk` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PRIMALmk) &nbsp;
+`producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp;
 `pseudosarah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pseudosarah) &nbsp;
 `pwncollege` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pwncollege) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/pwncollege)
 `PwnSchool` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PwnSchool) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/ThePwnSchoolProject)
@@ -302,6 +304,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `xychelsea87` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/xychelsea87) &nbsp;
 `YERTX_CO` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YERTX_CO) &nbsp;
 `YourCyberDoctor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YourCyberDoctor) &nbsp;
+`zerobandwidth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zerobandwidth) &nbsp;
 `zunderrub` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zunderrub) &nbsp;
 
 ### Credits
