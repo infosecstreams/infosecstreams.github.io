@@ -51,6 +51,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `BrownDisappointment` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrownDisappointment) &nbsp;
 `c04tl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c04tl) &nbsp;
 `c3rb3ru5d3d53c` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c3rb3ru5d3d53c) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCk9BugRahSWgPLYOAA3QH4w)
+`censoredHacker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/censoredHacker) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@censoredHacker)
 `ch3fez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ch3fez) &nbsp;
 `ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b) &nbsp;
 `CKcybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CKcybersecurity) &nbsp;
@@ -96,6 +97,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `dze64` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dze64) &nbsp;
 `EchoZach` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/EchoZach) &nbsp;
 `EightBitOni` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/EightBitOni) &nbsp;
+`ElPinguinoDeMario` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ElPinguinoDeMario) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@ElPinguinoDeMario)
 `esdn_tv` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/esdn_tv) &nbsp;
 `Eth0ghost` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Eth0ghost) &nbsp;
 `eyeofliberty` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/eyeofliberty) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@EyeOfLiberty)
@@ -187,6 +189,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `MalwareTechBlog` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MalwareTechBlog) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@MalwareTechBlog)
 `mbcrump` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mbcrump) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `mchow01` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mchow01) &nbsp;
+`MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q)
 `mell0wx` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mell0wx) &nbsp;
 `miloslavpalik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/miloslavpalik) &nbsp;
 `morehouse_hacks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/morehouse_hacks) &nbsp;

@@ -189,6 +189,7 @@ Olá! Esta página contém streamers que não transmitiram no último mês.
 `MalwareTechBlog` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MalwareTechBlog) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@MalwareTechBlog)
 `mbcrump` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mbcrump) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `mchow01` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mchow01) &nbsp;
+`MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q)
 `mell0wx` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mell0wx) &nbsp;
 `miloslavpalik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/miloslavpalik) &nbsp;
 `morehouse_hacks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/morehouse_hacks) &nbsp;
@@ -228,7 +229,6 @@ Olá! Esta página contém streamers que não transmitiram no último mês.
 `rs0n_live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/rs0n_live) &nbsp;
 `Ryskill` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Ryskill) &nbsp;
 `s1ren_official` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/s1ren_official) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://www.youtube.com/@sirensecurity)
-`S1y_b0rg` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S1y_b0rg) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://www.youtube.com/@SlyB0rg-legit)
 `s1zzurpmane` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/s1zzurpmane) &nbsp;
 `S4vitaar` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S4vitaar) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
 `SaintOfVice` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SaintOfVice) &nbsp;
