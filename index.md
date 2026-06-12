@@ -48,7 +48,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `S1y_b0rg` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S1y_b0rg) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://www.youtube.com/@SlyB0rg-legit) |
 &nbsp; | `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp; |
 &nbsp; | `HeckinSpectre` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HeckinSpectre) &nbsp; |
-🟢 | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah "Science & Technology, Tags: Bugbounty, VisualCode, Desenvolvimento, hacker, Hunter, Python, Bash, Microsoft, Linux, Aws") &nbsp; | PT
+&nbsp; | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp; 
 &nbsp; | `IC_null` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/IC_null) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g) |
 &nbsp; | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp; |
 &nbsp; | `ElPinguinoDeMario` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ElPinguinoDeMario) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@ElPinguinoDeMario) |
