@@ -20,7 +20,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `B7H30` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/B7H30) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theo6580) 
 &nbsp; | `PentesterTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PentesterTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@pentestertv) 
 &nbsp; | `InfosecGuy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InfosecGuy) &nbsp; |
-🟢 | `JohnHammond010` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JohnHammond010 "Science & Technology, Tags: English") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw) | EN
+&nbsp; | `JohnHammond010` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JohnHammond010) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw) 
 &nbsp; | `0xsyk0` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xsyk0) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@redcelllearning) |
 &nbsp; | `Romans6` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Romans6) &nbsp; |
 &nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TylerRamsbey) |
