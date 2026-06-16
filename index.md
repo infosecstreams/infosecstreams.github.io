@@ -36,7 +36,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `womaninredpresents` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/womaninredpresents) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@womaninredpresents) |
 &nbsp; | `InvokeReversing` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/InvokeReversing) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@InvokeReversing) |
 &nbsp; | `Khaos_Farbauti` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Khaos_Farbauti) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/KhaosFarbautiIbnOblivion) |
-&nbsp; | `CyberTechVibes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberTechVibes) &nbsp; |
+&nbsp; | `CyberTechVibes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberTechVibes) &nbsp; 
 &nbsp; | `BySepa` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BySepa) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@BySepa) |
 &nbsp; | `BrakeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BrakeSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/BDSPodcast) |
 &nbsp; | `HaxrByte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HaxrByte) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@haxrbyte) |
