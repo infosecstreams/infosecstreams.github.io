@@ -25,7 +25,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `CyberTechVibes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberTechVibes) &nbsp; |
 &nbsp; | `antisyphon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/antisyphon) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCkFKiCm7dD0gsB4jqIdCuRQ) |
 &nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TylerRamsbey) |
-🟢 | `zunderrub` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zunderrub "Just Chatting, Tags: Español, hacking") &nbsp; | ES
+&nbsp; | `zunderrub` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zunderrub) &nbsp; 
 &nbsp; | `Romans6` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Romans6) &nbsp; |
 &nbsp; | `pebl3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pebl3) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Pebble1) |
 &nbsp; | `kinslay3r` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kinslay3r) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@kinslay3r) |
