@@ -52,7 +52,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp; |
 &nbsp; | `Humpty_Tony` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Humpty_Tony) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@ir_cc) |
 &nbsp; | `Pour1nfo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Pour1nfo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/PourInfo) |
-🟢 | `0xtrust` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xtrust "Science & Technology, Tags: HackTheBox, Tryhackme, Python, Java, css, html, node, leetcode, kattis, English") &nbsp;| EN
+&nbsp; | `0xtrust` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xtrust) &nbsp;
 
 ### Credits
 
