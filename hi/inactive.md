@@ -52,7 +52,6 @@ Hey there! This page contains streamers that have not streamed in the last month
 `c3rb3ru5d3d53c` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c3rb3ru5d3d53c) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCk9BugRahSWgPLYOAA3QH4w)
 `censoredHacker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/censoredHacker) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@censoredHacker)
 `ch3fez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ch3fez) &nbsp;
-`ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b) &nbsp;
 `CKcybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CKcybersecurity) &nbsp;
 `CMNatic` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CMNatic) &nbsp;
 `codingo_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/codingo_) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCUfO02gdMDXgOJWdv_jiLMg)
@@ -232,6 +231,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `ritsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ritsec) &nbsp;
 `RoccoSicilia` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RoccoSicilia) &nbsp;
 `RoguePayload` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RoguePayload) &nbsp;
+`Romans6` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Romans6) &nbsp;
 `rs0n_live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/rs0n_live) &nbsp;
 `Ryskill` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Ryskill) &nbsp;
 `S1y_b0rg` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/S1y_b0rg) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](http://www.youtube.com/@SlyB0rg-legit)
