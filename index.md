@@ -52,7 +52,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `Humpty_Tony` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Humpty_Tony) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@ir_cc) |
 &nbsp; | `unhackerencapital` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/unhackerencapital) &nbsp; |
 &nbsp; | `zunderrub` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zunderrub) &nbsp; |
-&nbsp; | `nemax_3301` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/nemax_3301) &nbsp;
+🟢 | `nemax_3301` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/nemax_3301 "Science & Technology, Tags: English, Deutsch, hackthebox, cybersecurity, hacking, privacy, infosec, linux, oscp, Cyberbully") &nbsp;| EN
 
 ### Credits
 
