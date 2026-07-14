@@ -200,7 +200,6 @@ Hallo! Diese Seite enthält Streamer die im letzten Monat nicht gestreamt wurden
 `MVLWVR3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MVLWVR3) &nbsp;
 `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec)
 `neehack` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/neehack) &nbsp;
-`nemax_3301` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/nemax_3301) &nbsp;
 `NeWbieSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NeWbieSec) &nbsp;
 `Nirloy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Nirloy) &nbsp;
 `NullObjectDev` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NullObjectDev) &nbsp;
