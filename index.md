@@ -34,7 +34,7 @@ Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 &nbsp; | `womaninredpresents` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/womaninredpresents) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@womaninredpresents) |
 &nbsp; | `0xsyk0` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xsyk0) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@redcelllearning) |
 &nbsp; | `c04tl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c04tl) &nbsp; |
-&nbsp; | `LowLevelTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LowLevelTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@LowLevelTV) |
+&nbsp; | `LowLevelTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/LowLevelTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@LowLevelTV) 
 &nbsp; | `nemax_3301` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/nemax_3301) &nbsp; |
 &nbsp; | `team_whoami` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/team_whoami) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@teamwhoami7726) |
 &nbsp; | `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp; |
