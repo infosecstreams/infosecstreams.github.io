@@ -1,8 +1,15 @@
 {% assign languages = site.languages | sort: "name" %}
+{% assign url_parts = page.url | split: '/' %}
+{% assign page_lang = 'en' %}
+{% for lang in languages %}
+  {% if lang.code == url_parts[1] %}
+    {% assign page_lang = lang.code %}
+  {% endif %}
+{% endfor %}
 <div class="language-selector">
   <button class="language-button" onclick="toggleLanguageMenu()">
     {% for lang in languages %}
-      {% if page.url contains lang.code or (lang.code == 'en' and page.url == '/') %}
+      {% if lang.code == page_lang %}
         {{ lang.name }}
       {% endif %}
     {% endfor %}
@@ -11,9 +18,9 @@
   <div id="languageMenu" class="language-menu">
     {% for lang in languages %}
       {% if lang.code == 'en' %}
-        <a href="/" {% if page.url == '/' %}class="active"{% endif %}>{{ lang.name }}</a>
+        <a href="/" {% if page_lang == 'en' %}class="active"{% endif %}>{{ lang.name }}</a>
       {% else %}
-        <a href="/{{ lang.code }}/" {% if page.url contains lang.code %}class="active"{% endif %}>{{ lang.name }}</a>
+        <a href="/{{ lang.code }}/" {% if page_lang == lang.code %}class="active"{% endif %}>{{ lang.name }}</a>
       {% endif %}
     {% endfor %}
   </div>
