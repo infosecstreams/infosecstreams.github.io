@@ -26,27 +26,27 @@ languages:
   - code: es
     name: Español
     description: "Streams de Ciberseguridad en Vivo | Tutoriales de Hacking Ético | Desafíos CTF | Pentesting"
-  # - code: pt
-  #   name: Português (Brasil)
-  #   description: "Streams de Cibersegurança ao Vivo | Tutoriais de Hacking Ético | Desafios CTF | Testes de Penetração"
-  # - code: fr
-  #   name: Français
-  #   description: "Streams de Cybersécurité en Direct | Tutoriels de Hacking Éthique | Défis CTF | Tests de Pénétration"
-  # - code: tr
-  #   name: Türkçe
-  #   description: "Canlı Siber Güvenlik Yayınları | Etik Hacking Eğitimleri | CTF Yarışmaları | Penetrasyon Testleri"
-  # - code: it
-  #   name: Italiano
-  #   description: "Stream di Cybersecurity dal Vivo | Tutorial di Hacking Etico | Sfide CTF | Penetration Testing"
-  # - code: zh
-  #   name: 中文
-  #   description: "网络安全直播 | 道德黑客教程 | CTF挑战赛 | 渗透测试培训 | 网络安全工具演示"
-  # - code: hi
-  #   name: हिंदी
-  #   description: "लाइव साइबर सुरक्षा स्ट्रीम्स | एथिकल हैकिंग ट्यूटोरियल | सीटीएफ चैलेंज | पेनेट्रेशन टेस्टिंग"
-  # - code: ar
-  #   name: العربية
-  #   description: "بث مباشر للأمن السيبراني | دروس الاختراق الأخلاقي | تحديات CTF | اختبار الاختراق"
+  - code: pt
+    name: Português (Brasil)
+    description: "Streams de Cibersegurança ao Vivo | Tutoriais de Hacking Ético | Desafios CTF | Testes de Penetração"
+  - code: fr
+    name: Français
+    description: "Streams de Cybersécurité en Direct | Tutoriels de Hacking Éthique | Défis CTF | Tests de Pénétration"
+  - code: tr
+    name: Türkçe
+    description: "Canlı Siber Güvenlik Yayınları | Etik Hacking Eğitimleri | CTF Yarışmaları | Penetrasyon Testleri"
+  - code: it
+    name: Italiano
+    description: "Stream di Cybersecurity dal Vivo | Tutorial di Hacking Etico | Sfide CTF | Penetration Testing"
+  - code: zh
+    name: 中文
+    description: "网络安全直播 | 道德黑客教程 | CTF挑战赛 | 渗透测试培训 | 网络安全工具演示"
+  - code: hi
+    name: हिंदी
+    description: "लाइव साइबर सुरक्षा स्ट्रीम्स | एथिकल हैकिंग ट्यूटोरियल | सीटीएफ चैलेंज | पेनेट्रेशन टेस्टिंग"
+  - code: ar
+    name: العربية
+    description: "بث مباشر للأمن السيبراني | دروس الاختراق الأخلاقي | تحديات CTF | اختبار الاختراق"
 
 # SEO Keywords by Language
 keywords:
