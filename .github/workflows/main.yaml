@@ -4,16 +4,23 @@ on:
   push:
     branches:
       - main
+    paths:
+      - index.md
+      - inactive.md
+      - streamers.csv
+      - inactive_streamers.csv
+      - "templates/**"
   schedule:
     - cron: "07 11 * * *" # 11am GMT / 4am PT
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# Also, cancel in-progress runs as we want to allow the latest deployment to complete.
+# One run at a time; queued runs coalesce (GitHub keeps only the latest pending).
+# NEVER cancel in progress: a stream-event push must not kill the daily secinfo
+# regen mid-scrape (scheduled runs are not retried).
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -23,15 +30,40 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         name: Checkout repository
+        with:
+          fetch-depth: 0
+
+      - name: Decide whether a full secinfo regen is needed
+        id: mode
+        run: |
+          # Scheduled/manual runs always do the full regen. Push runs skip the
+          # SullyGnome scrape UNLESS the push changed a streamer CSV (a human
+          # adding/removing a streamer needs secinfo to build the new row now,
+          # not at the next cron).
+          FULL=true
+          if [ "$GITHUB_EVENT_NAME" = "push" ]; then
+            FULL=false
+            BEFORE="${{ github.event.before }}"
+            if [ "$BEFORE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$BEFORE" 2>/dev/null; then
+              FULL=true
+            elif git diff --name-only "$BEFORE" "$GITHUB_SHA" -- streamers.csv inactive_streamers.csv | grep -q .; then
+              FULL=true
+            fi
+          fi
+          echo "full=$FULL" >> "$GITHUB_OUTPUT"
+          echo "Full regen: $FULL"
 
       - name: Login to registry
+        if: steps.mode.outputs.full == 'true'
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
-      - name: Generate English pages and extract tables
+      - name: Full regen of English pages via secinfo
+        if: steps.mode.outputs.full == 'true'
         run: |
-          # Generate English pages with streamer data
           docker run -v $PWD/templates:/app/templates -v $PWD/index.md:/app/index.md -v $PWD/inactive.md:/app/inactive.md -v $PWD/streamers.csv:/app/streamers.csv -v $PWD/inactive_streamers.csv:/app/inactive_streamers.csv ghcr.io/infosecstreams/secinfo:latest
 
+      - name: Extract streamer tables from English pages
+        run: |
           # Extract active streamers table (only content rows after separator row until first ###)
           sed -n '/^---: | --- | :--- | :---/,/^### /p' index.md | sed '1,1d;/^### /d' > active_table.txt
 
@@ -40,34 +72,55 @@ jobs:
 
       - name: Generate language pages
         run: |
-          # Function to generate language pages
           generate_lang_pages() {
             local lang=$1
             mkdir -p $lang
 
             # Generate index page
             cat "templates/$lang/index.tmpl.md" > "$lang/index.md"
-            # Replace the table section and append content for index
             sed -i '/^| --: | --- | :-- | :-- |$/r active_table.txt' "$lang/index.md"
 
             # Generate inactive page
             cat "templates/$lang/inactive.tmpl.md" > "$lang/inactive.md"
-            # Replace the table section and append content for inactive
             sed -i '/^| --: | --- |$/r inactive_table.txt' "$lang/inactive.md"
           }
 
-          # Generate pages for each language
           for lang in $LANGUAGES; do
             generate_lang_pages "$lang"
           done
 
-      - name: Commit index.md
+      - name: Commit and push
         run: |
-          awk -f .github/workflows/replace_lastmod_sort.awk sitemap.xml | tee sitemap_new.xml && mv sitemap_new.xml sitemap.xml
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          # Add language directories dynamically
           LANG_DIRS=$(for lang in $LANGUAGES; do echo -n "$lang/ "; done)
+
+          # Only commit when actual content changed. Without this guard the awk
+          # lastmod stamp guarantees a churn commit (and a Pages build) on every
+          # run, even a no-op one.
+          if ! git status --porcelain -- index.md inactive.md streamers.csv inactive_streamers.csv $LANG_DIRS | grep -q .; then
+            echo "No content changes; skipping commit"
+            exit 0
+          fi
+
+          awk -f .github/workflows/replace_lastmod_sort.awk sitemap.xml | tee sitemap_new.xml && mv sitemap_new.xml sitemap.xml
           git add streamers.csv inactive_streamers.csv index.md inactive.md sitemap.xml $LANG_DIRS
-          git commit -am "🤖 Updated and sorted markdown files" || echo "No changes to commit"
-          git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git || (echo "You'll need to grant 'Read and write' permissions for workflows to push to this repository. Please visit the following URL to adjust the permissions: https://github.com/${GITHUB_REPOSITORY}/settings/actions" && false)
+          git commit -am "🤖 Updated and sorted markdown files"
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt); rebasing onto latest main..."
+            if ! git pull --rebase origin main; then
+              # A stopped rebase must fail LOUDLY: pushing from that state
+              # reports "Everything up-to-date" and silently drops our commit.
+              git rebase --abort || true
+              echo "Rebase conflict (likely sitemap.xml lastmod lines — StreamStatus rewrites them too)."
+              echo "The interrupting push has triggered its own sync run; if this was a scheduled regen, re-run it via workflow_dispatch."
+              exit 1
+            fi
+          done
+          echo "Failed to push after 3 attempts"
+          exit 1
