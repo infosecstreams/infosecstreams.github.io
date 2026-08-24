@@ -83,6 +83,13 @@ jobs:
             # Generate inactive page
             cat "templates/$lang/inactive.tmpl.md" > "$lang/inactive.md"
             sed -i '/^| --: | --- |$/r inactive_table.txt' "$lang/inactive.md"
+
+            # Deploy translated FAQ/resources when Crowdin has them
+            for page in faq resources; do
+              if [ -f "templates/$lang/$page.md" ]; then
+                cp "templates/$lang/$page.md" "$lang/$page.md"
+              fi
+            done
           }
 
           for lang in $LANGUAGES; do
