@@ -1,40 +1,40 @@
 # InfoSec Streams FAQ
 
-## What is InfoSec Streams?
+## Cos'è InfoSec Streams?
 
-InfoSec Streams is an actively community-maintained list of Information Security-related Twitch streams. The list is hosted on GitHub pages and includes a wide range of streamers who contribute content around cybersecurity topics.
+InfoSec Streams è una lista mantenuta attivamente dalla community di stream Twitch legati alla sicurezza informatica. La lista è ospitata su GitHub Pages e include un'ampia gamma di streamer che contribuiscono con contenuti su temi di cybersecurity.
 
-## How is the list sorted?
+## Come viene ordinata la lista?
 
-The list is sorted based on 30-day activity, which helps users find active streams more easily.
+La lista è ordinata in base all'attività degli ultimi 30 giorni, il che aiuta gli utenti a trovare più facilmente gli stream attivi.
 
-## What happens to inactive streamers?
+## Cosa succede agli streamer inattivi?
 
-Streamers that haven't streamed in the last month are moved to the inactive streamers page. This ensures that the main list remains up-to-date with active content creators.
+Gli streamer che non hanno trasmesso nell'ultimo mese vengono spostati nella pagina degli streamer inattivi. Questo garantisce che la lista principale rimanga aggiornata con i creator di contenuti attivi.
 
-## Can I access the list of inactive streamers?
+## Posso accedere alla lista degli streamer inattivi?
 
-Yes, there is a separate page for streamers who have been inactive for the last month. You can access this list from the main GitHub page.
+Sì, esiste una pagina separata per gli streamer che sono stati inattivi nell'ultimo mese. Puoi accedere a questa lista dalla pagina GitHub principale.
 
-## Is the list of streamers exhaustive?
+## La lista degli streamer è esaustiva?
 
-While the list includes a wide range of streamers, it is by no means exhaustive. The cybersecurity field is dynamic and new content creators are always emerging. The InfoSec Streams list aims to be as comprehensive as possible and relies on contributions from the community to stay up-to-date.
+Sebbene la lista includa un'ampia gamma di streamer, non è in alcun modo esaustiva. Il campo della cybersecurity è dinamico e nuovi creator di contenuti emergono continuamente. La lista di InfoSec Streams punta a essere il più completa possibile e si basa sui contributi della community per rimanere aggiornata.
 
-## How can I contribute to the list?
+## Come posso contribuire alla lista?
 
-If you have a new streamer to add or spot an error, you're encouraged to contribute edits and can be made by issuing a [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls), raising an [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues). Thanks!
+Se hai un nuovo streamer da aggiungere o noti un errore, sei invitato a contribuire con delle modifiche, che puoi proporre aprendo una [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls) o segnalando un [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues). Grazie!
 
-## Who maintains the InfoSec Streams list?
+## Chi mantiene la lista di InfoSec Streams?
 
-The project was started by [chadb_n00b](https://twitch.tv/chadb_n00b) and is currently maintained by GoProSlowYo. [GoProSlowYo](https://github.com/goproslowyo) currently maintains all the golang code in [secinfo](https://github.com/infosecstreams/secinfo), [streamstatus](https://github.com/infosecstreams/streamstatus), and [this](https://github.com/infosecstreams/infosecstreams.github.io) repository.
+Il progetto è stato avviato da [chadb_n00b](https://twitch.tv/chadb_n00b) ed è attualmente mantenuto da GoProSlowYo. [GoProSlowYo](https://github.com/goproslowyo) attualmente mantiene tutto il codice golang in [secinfo](https://github.com/infosecstreams/secinfo), [streamstatus](https://github.com/infosecstreams/streamstatus) e in [questo](https://github.com/infosecstreams/infosecstreams.github.io) repository.
 
-## Can I join the n00bsec CTF Team and its thriving Discord community?
+## Posso unirmi al n00bsec CTF Team e alla sua fiorente community su Discord?
 
-Absolutely! The n00bsec CTF Team has a vibrant and active community on a Discord, OSINT it. Joining the community to engage in discussions, share knowledge, and participate with the n00bsec CTF Team and their activities. The Discord server is an excellent platform to connect with like-minded individuals passionate about CTF challenges and information security.
+Assolutamente! Il n00bsec CTF Team ha una community vivace e attiva su un Discord, OSINT it. Unisciti alla community per partecipare a discussioni, condividere conoscenze e prendere parte alle attività del n00bsec CTF Team. Il server Discord è una piattaforma eccellente per entrare in contatto con persone che condividono la passione per le sfide CTF e la sicurezza informatica.
 
-## Where can I report issues?
+## Dove posso segnalare dei problemi?
 
-If you encounter any issues with a link or if the site is not updating properly, you can report it on the server (OSINT it) or open an issue on the GitHub page.
+Se riscontri problemi con un link o se il sito non si aggiorna correttamente, puoi segnalarlo sul server (OSINT it) o aprire un issue sulla pagina GitHub.
 
 <script defer data-domain="infosecstreams.github.io" src="https://p.infosecstreams.com/js/plausible.outbound-links.js"></script>
 
