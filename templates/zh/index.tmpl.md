@@ -2,7 +2,7 @@
 
 恭喜！ 您已经找到一个活跃的 Twitch与信息安全流列表。 这个列表是基于 `30天活动` `排序的` 以帮助您更容易地找到活动流！
 
-Streamers that haven't had activity in the last month are moved to the [inactive streamers](/inactive) page.
+Streamers that haven't had activity in the last month are moved to the [inactive streamers](/zh/inactive) page.
 
 有问题？ 贡献？ 还有什么问题？ 请阅读 [FAQ](/zh/faq)！
 

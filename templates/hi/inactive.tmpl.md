@@ -15,7 +15,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 
 ### Contribute or Report an Issue
 
-Having trouble with a link? Site not updating properly? Questions? Contributions? Something else? Please read the [FAQ](/faq)!
+Having trouble with a link? Site not updating properly? Questions? Contributions? Something else? Please read the [FAQ](/hi/faq)!
 
 <script src="https://infosecstreams.com/js/sort.js" async="" defer=""></script>
 

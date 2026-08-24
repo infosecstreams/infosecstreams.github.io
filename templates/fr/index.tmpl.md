@@ -19,7 +19,7 @@ Un grand merci à [chadb_n00b](https://twitch.tv/chadb_n00b) pour avoir lancé e
 
 ### Ressources
 
-Voici [quelques bonnes ressources] (/resources) pour votre voyage de piratage.
+Voici [quelques bonnes ressources](/fr/resources) pour votre voyage de piratage.
 
 ### Contribuer ou Signaler un Problème
 

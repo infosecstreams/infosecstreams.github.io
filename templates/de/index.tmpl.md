@@ -19,7 +19,7 @@ Ein großes Lob an [chadb_n00b](https://twitch.tv/chadb_n00b) für die Einrichtu
 
 ### Ressourcen
 
-Hier sind [einige großartige Ressourcen](/de/Ressourcen) für Ihre Hacking-Reise.
+Hier sind [einige großartige Ressourcen](/de/resources) für Ihre Hacking-Reise.
 
 ### Einen Beitrag leisten oder ein Problem melden
 

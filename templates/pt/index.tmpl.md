@@ -2,9 +2,9 @@
 
 Parabéns! Você encontrou uma lista ativamente mantida de streams da Twitch relacionadas à Segurança da Informação. Esta lista é `ordenada` com base na `atividade dos últimos 30 dias` para ajudar você a encontrar streams ativos mais facilmente!
 
-Streamers que não tiveram atividade no último mês são movidos para a página de [streamers inativos](/pt-br/inactive).
+Streamers que não tiveram atividade no último mês são movidos para a página de [streamers inativos](/pt/inactive).
 
-Perguntas? Contribuições? Algo mais? Por favor, leia o [FAQ](/pt-br/faq)!
+Perguntas? Contribuições? Algo mais? Por favor, leia o [FAQ](/pt/faq)!
 
 ## Lista de Streams (ordenada) <a href="#" class="btn" id="settings-button">Configurações</a>
 
@@ -19,11 +19,11 @@ Agradecimento especial ao [chadb_n00b](https://twitch.tv/chadb_n00b) por iniciar
 
 ### Recursos
 
-Aqui estão [alguns ótimos recursos](/pt-br/resources) para sua jornada de hacking.
+Aqui estão [alguns ótimos recursos](/pt/resources) para sua jornada de hacking.
 
 ### Contribua ou Reporte um Problema
 
-Problemas com um link? Site não está atualizando corretamente? Perguntas? Contribuições? Algo mais? Por favor, leia o [FAQ](/pt-br/faq)!
+Problemas com um link? Site não está atualizando corretamente? Perguntas? Contribuições? Algo mais? Por favor, leia o [FAQ](/pt/faq)!
 
 <script src="https://infosecstreams.com/js/sort.js" async="" defer=""></script>
 
