@@ -6,6 +6,16 @@
     {% assign page_lang = lang.code %}
   {% endif %}
 {% endfor %}
+{% comment %} Current page's path without its language prefix or .html, so switching
+language keeps the reader on the same page: '' on any index page, '/resources' on
+/resources or /de/resources.html. Every language has the same four pages. {% endcomment %}
+{% assign page_suffix = page.url %}
+{% if page_lang != 'en' %}
+  {% assign lang_prefix_len = page_lang | size | plus: 1 %}
+  {% assign page_suffix = page.url | slice: lang_prefix_len, 100 %}
+{% endif %}
+{% assign page_suffix = page_suffix | replace: 'index.html', '' | replace: '.html', '' %}
+{% if page_suffix == '/' %}{% assign page_suffix = '' %}{% endif %}
 <div class="language-selector">
   <button class="language-button" onclick="toggleLanguageMenu()">
     {% for lang in languages %}
@@ -18,9 +28,9 @@
   <div id="languageMenu" class="language-menu">
     {% for lang in languages %}
       {% if lang.code == 'en' %}
-        <a href="/" {% if page_lang == 'en' %}class="active"{% endif %}>{{ lang.name }}</a>
+        <a href="{% if page_suffix == '' %}/{% else %}{{ page_suffix }}{% endif %}" {% if page_lang == 'en' %}class="active"{% endif %}>{{ lang.name }}</a>
       {% else %}
-        <a href="/{{ lang.code }}/" {% if page_lang == lang.code %}class="active"{% endif %}>{{ lang.name }}</a>
+        <a href="/{{ lang.code }}{% if page_suffix == '' %}/{% else %}{{ page_suffix }}{% endif %}" {% if page_lang == lang.code %}class="active"{% endif %}>{{ lang.name }}</a>
       {% endif %}
     {% endfor %}
   </div>
