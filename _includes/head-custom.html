@@ -6,27 +6,20 @@
 <!-- Primary Keywords -->
 <meta name="keywords" content="cybersecurity streams, ethical hacking live, TryHackMe streams, HTB walkthroughs, red team training, blue team training, CTF challenges live, penetration testing tutorials, security tool demonstrations, malware analysis live, bug bounty streams, exploit development, security research, incident response training, digital forensics streams">
 
-<!-- HREFLang Tags -->
-<!-- Default version -->
-<link rel="alternate" href="https://infosecstreams.com" hreflang="x-default" />
-<!-- Turkish -->
-<link rel="alternate" href="https://infosecstreams.com/tr/" hreflang="tr" />
-<!-- German -->
-<link rel="alternate" href="https://infosecstreams.com/de/" hreflang="de" />
-<!-- Italian -->
-<link rel="alternate" href="https://infosecstreams.com/it/" hreflang="it" />
-<!-- Portuguese -->
-<link rel="alternate" href="https://infosecstreams.com/pt/" hreflang="pt" />
-<!-- Mandarin Chinese -->
-<link rel="alternate" href="https://infosecstreams.com/zh/" hreflang="zh" />
-<!-- Hindi -->
-<link rel="alternate" href="https://infosecstreams.com/hi/" hreflang="hi" />
-<!-- Spanish -->
-<link rel="alternate" href="https://infosecstreams.com/es/" hreflang="es" />
-<!-- French -->
-<link rel="alternate" href="https://infosecstreams.com/fr/" hreflang="fr" />
-<!-- Arabic -->
-<link rel="alternate" href="https://infosecstreams.com/ar/" hreflang="ar" />
+<!-- HREFLang Tags: each language's version of THIS page, not the home page -->
+{% include page-language.html %}
+{% capture lang_suffix %}{% if page_suffix == '' %}/{% else %}{{ page_suffix }}{% endif %}{% endcapture %}
+<link rel="alternate" href="https://infosecstreams.com{{ lang_suffix }}" hreflang="x-default" />
+<link rel="alternate" href="https://infosecstreams.com{{ lang_suffix }}" hreflang="en" />
+{% for lang in site.languages %}{% unless lang.code == 'en' %}<link rel="alternate" href="https://infosecstreams.com/{{ lang.code }}{{ lang_suffix }}" hreflang="{{ lang.code }}" />
+{% endunless %}{% endfor %}
+<!-- Document language (and direction for Arabic) — the theme's layout hardcodes lang="en-US" -->
+{% if page_lang != 'en' %}
+<script>
+  document.documentElement.lang = '{{ page_lang }}';
+  {% if page_lang == 'ar' %}document.documentElement.dir = 'rtl';{% endif %}
+</script>
+{% endif %}
 
 <!-- Language-specific Keywords -->
 <!-- Turkish -->

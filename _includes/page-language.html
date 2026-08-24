@@ -1,0 +1,21 @@
+{%- comment -%}
+Resolves two variables from page.url for whoever includes this file:
+  page_lang   — 'en', or the matching code from site.languages ('/de/faq' → 'de')
+  page_suffix — the page's path without its language prefix or .html, so the
+                same page can be addressed in any language: '' on index pages,
+                '/resources' on /resources or /de/resources.html
+{%- endcomment -%}
+{%- assign url_parts = page.url | split: '/' -%}
+{%- assign page_lang = 'en' -%}
+{%- for lang in site.languages -%}
+  {%- if lang.code == url_parts[1] -%}
+    {%- assign page_lang = lang.code -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign page_suffix = page.url -%}
+{%- if page_lang != 'en' -%}
+  {%- assign lang_prefix_len = page_lang | size | plus: 1 -%}
+  {%- assign page_suffix = page.url | slice: lang_prefix_len, 100 -%}
+{%- endif -%}
+{%- assign page_suffix = page_suffix | replace: 'index.html', '' | replace: '.html', '' -%}
+{%- if page_suffix == '/' -%}{%- assign page_suffix = '' -%}{%- endif -%}
