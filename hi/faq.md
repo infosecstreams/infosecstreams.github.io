@@ -26,7 +26,7 @@ InfoSec Streams, Information Security से संबंधित Twitch stream
 
 ## InfoSec Streams सूची का रखरखाव कौन करता है?
 
-यह project [chadb_n00b](https://twitch.tv/chadb_n00b) द्वारा शुरू किया गया था और वर्तमान में इसका रखरखाव GoProSlowYo द्वारा किया जाता है। [GoProSlowYo](https://github.com/goproslowyo) वर्तमान में [secinfo](https://github.com/infosecstreams/secinfo), [streamstatus](https://github.com/infosecstreams/streamstatus), और [this](https://github.com/infosecstreams/infosecstreams.github.io) repository में सभी golang code का रखरखाव करता है।
+यह project [chadb_n00b](https://twitch.tv/chadb_n00b) द्वारा शुरू किया गया था और वर्तमान में इसका रखरखाव GoProSlowYo द्वारा किया जाता है। [GoProSlowYo](https://github.com/goproslowyo) वर्तमान में [secinfo](https://github.com/infosecstreams/secinfo), [streamstatus](https://github.com/infosecstreams/streamstatus), और [इस](https://github.com/infosecstreams/infosecstreams.github.io) repository में सभी golang code का रखरखाव करता है।
 
 ## क्या मैं n00bsec CTF Team और उसके संपन्न Discord community में शामिल हो सकता/सकती हूं?
 
