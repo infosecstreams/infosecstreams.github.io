@@ -22,7 +22,7 @@ Los streamers que no han tenido actividad en el último mes se han movido a la p
 &nbsp; | `B7H30` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/B7H30) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theo6580) |
 &nbsp; | `FloraTheExplorer_cyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FloraTheExplorer_cyber) &nbsp; |
 &nbsp; | `Khaos_Farbauti` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Khaos_Farbauti) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/KhaosFarbautiIbnOblivion) |
-🟢 | `antisyphon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/antisyphon) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCkFKiCm7dD0gsB4jqIdCuRQ) | EN
+&nbsp; | `antisyphon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/antisyphon) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCkFKiCm7dD0gsB4jqIdCuRQ) 
 &nbsp; | `0xsyk0` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/0xsyk0) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@redcelllearning) |
 &nbsp; | `MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q) |
 &nbsp; | `HaxrByte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HaxrByte) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@haxrbyte) |
