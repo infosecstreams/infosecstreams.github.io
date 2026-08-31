@@ -53,6 +53,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `c3rb3ru5d3d53c` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c3rb3ru5d3d53c) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCk9BugRahSWgPLYOAA3QH4w)
 `censoredHacker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/censoredHacker) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@censoredHacker)
 `ch3fez` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ch3fez) &nbsp;
+`ChadB_n00b` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChadB_n00b) &nbsp;
 `CKcybersecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CKcybersecurity) &nbsp;
 `CMNatic` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CMNatic) &nbsp;
 `codingo_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/codingo_) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCUfO02gdMDXgOJWdv_jiLMg)
@@ -64,7 +65,6 @@ Hey there! This page contains streamers that have not streamed in the last month
 `ctrlbyte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ctrlbyte) &nbsp;
 `curi0usjack` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/curi0usjack) &nbsp;
 `Cyb3rSens` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Cyb3rSens) &nbsp;
-`CybeardSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybeardSec) &nbsp;
 `CybeeSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybeeSec) &nbsp;
 `Cyber_Insecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Cyber_Insecurity) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCL4JGzitDkX5TOwzs9A02Kg)
 `cyber_v1s3rion` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/cyber_v1s3rion) &nbsp;
@@ -73,6 +73,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `CyberReport` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberReport) &nbsp;
 `CybersecurityGrowth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybersecurityGrowth) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@cybersecuritygrowth)
 `CyberVikingUK` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberVikingUK) &nbsp;
+`CyberWarriorStudios` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberWarriorStudios) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC1BeplJcC5YGHjcF8QyRD7g)
 `d0nutptr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/d0nutptr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/d0nutptr)
 `dal3ksec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dal3ksec) &nbsp;
 `DarkStar7471` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DarkStar7471) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0R_-7yQPoGpkPR9ITzDFFQ)
@@ -165,6 +166,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `JellyPhishes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JellyPhishes) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@JellyPhishesttv)
 `Jexxofalltrades` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Jexxofalltrades) &nbsp;
 `jhaddix56` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jhaddix56) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@jhaddix)
+`JohnHammond010` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JohnHammond010) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
 `joshua17sc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/joshua17sc) &nbsp;
 `jrozner` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jrozner) &nbsp;
 `justinsteven` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/justinsteven) &nbsp;
@@ -195,12 +197,10 @@ Hey there! This page contains streamers that have not streamed in the last month
 `MalwareTechBlog` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MalwareTechBlog) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@MalwareTechBlog)
 `mbcrump` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mbcrump) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCCjHMUEzoCauYet8NG4sCog)
 `mchow01` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mchow01) &nbsp;
-`MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q)
 `mell0wx` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mell0wx) &nbsp;
 `miloslavpalik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/miloslavpalik) &nbsp;
 `morehouse_hacks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/morehouse_hacks) &nbsp;
 `MrCrumbs_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MrCrumbs_) &nbsp;
-`MSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCu9ybrID4Ak5pDU-6E5ph5Q)
 `mttaggart` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mttaggart) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/taggarttech)
 `MVLWVR3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MVLWVR3) &nbsp;
 `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec)
@@ -211,7 +211,6 @@ Hey there! This page contains streamers that have not streamed in the last month
 `NullObjectDev` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NullObjectDev) &nbsp;
 `OALabsLive` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OALabsLive) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/OALabs)
 `OfficialWilliP` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OfficialWilliP) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCaOOGHgwrcyf527o838yLyg)
-`OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp;
 `ofjaaaah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ofjaaaah) &nbsp;
 `OJReeves` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OJReeves) &nbsp;
 `okacodes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/okacodes) &nbsp;
@@ -236,7 +235,6 @@ Hey there! This page contains streamers that have not streamed in the last month
 `RedSiegeInfoSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RedSiegeInfoSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC4rR_-qnJXny4LsCfxW418g)
 `RedTeamMedic` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RedTeamMedic) &nbsp;
 `rinconzeraa` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/rinconzeraa) &nbsp;
-`ritsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ritsec) &nbsp;
 `RoccoSicilia` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RoccoSicilia) &nbsp;
 `RoguePayload` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RoguePayload) &nbsp;
 `Romans6` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Romans6) &nbsp;
@@ -323,6 +321,7 @@ Hey there! This page contains streamers that have not streamed in the last month
 `YERTX_CO` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YERTX_CO) &nbsp;
 `YourCyberDoctor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YourCyberDoctor) &nbsp;
 `zerobandwidth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zerobandwidth) &nbsp;
+`zunderrub` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/zunderrub) &nbsp;
 
 ### Credits
 
