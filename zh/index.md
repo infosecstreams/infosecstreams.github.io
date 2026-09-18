@@ -12,7 +12,7 @@ Streamers that haven't had activity in the last month are moved to the [inactive
 | --: | --- | :-- | :-- |
 🟢 | `TheShyHat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheShyHat "Science & Technology, Tags: cybersecurity, hacking, hackerfrogs, education, technology, tryhackme, hackthebox, picoctf, hackmyvm, Vtuber") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theshyhat) | EN
 &nbsp; | `BlaiseBits` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlaiseBits) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@blaisebits) |
-&nbsp; | `panekopanko` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/panekopanko) &nbsp; 
+🟢 | `panekopanko` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/panekopanko "Just Chatting, Tags: Vtuber, English, hacker, hacking, Sweden, Blender, lowpoly, 3D, girl") &nbsp; | EN
 &nbsp; | `antisyphon` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/antisyphon) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCkFKiCm7dD0gsB4jqIdCuRQ) |
 &nbsp; | `het_tanis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/het_tanis) &nbsp; |
 &nbsp; | `pebl3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pebl3) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Pebble1) |
