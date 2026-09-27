@@ -26,7 +26,7 @@ Streamers that haven't had activity in the last month are moved to the [inactive
 &nbsp; | `HaxrByte` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HaxrByte) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@haxrbyte) |
 &nbsp; | `YourCyberDoctor` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/YourCyberDoctor) &nbsp; |
 &nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TylerRamsbey) |
-&nbsp; | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean) &nbsp; |
+🟢 | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean "Science & Technology, Tags: linux, devops, adminsys, shell, bash, cyber, IA, Français, archlinux, Français") &nbsp; | FR
 &nbsp; | `kristiee` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kristiee) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@riven1337gg) |
 &nbsp; | `ProfitzTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ProfitzTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@profitztv) |
 &nbsp; | `BySepa` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BySepa) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@BySepa) |
