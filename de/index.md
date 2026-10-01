@@ -11,7 +11,7 @@ Fragen? Beiträge? Sonstiges? Bitte lese das [FAQ](/de/faq)!
 | &nbsp; | <i class="fas fa-headset"> </i> | <i class="fas fa-external-link-alt"> </i> | <i class="fas fa-comment-dots"> </i> |
 | --: | --- | :-- | :-- |
 &nbsp; | `TheShyHat` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/TheShyHat) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theshyhat) |
-🟢 | `nemax_3301` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/nemax_3301 "Software and Game Development, Tags: English, Deutsch, hackthebox, cybersecurity, hacking, privacy, infosec, linux, Cyberbully, NoAI") &nbsp; | EN
+&nbsp; | `nemax_3301` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/nemax_3301) &nbsp; 
 &nbsp; | `ProbablyOverbuilt` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ProbablyOverbuilt) &nbsp; |
 &nbsp; | `panekopanko` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/panekopanko) &nbsp; |
 &nbsp; | `BlaiseBits` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlaiseBits) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@blaisebits) |
