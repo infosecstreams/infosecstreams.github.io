@@ -20,7 +20,7 @@ Sorularınız mı var? Katkıda bulunmak mı istiyorsunuz? Başka bir şey mi va
 &nbsp; | `c04tl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c04tl) &nbsp; |
 &nbsp; | `MSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCu9ybrID4Ak5pDU-6E5ph5Q) |
 &nbsp; | `dal3ksec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dal3ksec) &nbsp; |
-🟢 | `nthsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/nthsec "Science & Technology, Tags: English, cyber, hacker, student, CTF, cybersecurity, Hacking, college, HackTheBox, hacksmarter") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@NTH-Security) | EN
+🟢 | `nthsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/nthsec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@NTH-Security) | EN
 &nbsp; | `pebl3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pebl3) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Pebble1) |
 &nbsp; | `FixIt42` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FixIt42) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@FixIt42live) |
 &nbsp; | `CyberTechVibes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberTechVibes) &nbsp; |
