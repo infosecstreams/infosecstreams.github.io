@@ -18,7 +18,7 @@ Los streamers que no han tenido actividad en el último mes se han movido a la p
 &nbsp; | `nthsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/nthsec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@NTH-Security) |
 &nbsp; | `ProbablyOverbuilt` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ProbablyOverbuilt) &nbsp; |
 &nbsp; | `hack_smarter` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hack_smarter) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@TylerRamsbey) 
-&nbsp; | `dal3ksec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dal3ksec) &nbsp; |
+&nbsp; | `dal3ksec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dal3ksec) &nbsp; 
 &nbsp; | `purplehaxttv` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/purplehaxttv) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@purplehaxttv) |
 &nbsp; | `het_tanis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/het_tanis) &nbsp; |
 &nbsp; | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean) &nbsp; |
