@@ -21,7 +21,7 @@ Los streamers que no han tenido actividad en el último mes se han movido a la p
 &nbsp; | `ProbablyOverbuilt` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ProbablyOverbuilt) &nbsp; |
 &nbsp; | `B7H30` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/B7H30) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theo6580) 
 &nbsp; | `FloraTheExplorer_cyber` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FloraTheExplorer_cyber) &nbsp; |
-🟢 | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean "Just Chatting, Tags: linux, devops, adminsys, shell, bash, cyber, IA, Français, archlinux, Français") &nbsp; | FR
+&nbsp; | `topklean` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/topklean) &nbsp; 
 &nbsp; | `het_tanis` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/het_tanis) &nbsp; |
 &nbsp; | `FixIt42` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FixIt42) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@FixIt42live) |
 &nbsp; | `purplehaxttv` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/purplehaxttv) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@purplehaxttv) |
