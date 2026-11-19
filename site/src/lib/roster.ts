@@ -1,6 +1,7 @@
 // The roster is read at build time from the CSVs at the repository root.
-// Order: the 30-day ranking the secinfo job writes into index.md/inactive.md;
-// anyone missing from those (e.g. just added) goes last, alphabetically.
+// Order: the 30-day ranking the secinfo job writes into index.md/inactive.md
+// while those exist; anyone missing from them (e.g. just added) goes last.
+// Without them (after the Jekyll cutover) the CSV order is the ranking.
 import { existsSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
@@ -36,6 +37,7 @@ function rankFrom(file: string): Map<string, number> {
 }
 
 function sorted(list: Streamer[], rank: Map<string, number>): Streamer[] {
+  if (!rank.size) return list;
   const r = (s: Streamer) => rank.get(s.login.toLowerCase()) ?? Infinity;
   return [...list].sort((a, b) => r(a) - r(b) || a.login.localeCompare(b.login, 'en', { sensitivity: 'base' }));
 }
