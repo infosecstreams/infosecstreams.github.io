@@ -1,0 +1,79 @@
+name: Build and deploy site (Astro)
+
+# Builds site/ (Astro) and deploys it to GitHub Pages with actions/deploy-pages.
+# Deploying is off until cutover: it needs Settings → Pages → Source set to
+# "GitHub Actions" and the repository variable ASTRO_PAGES=true. Until then
+# every run is a build check only and the Jekyll site keeps serving.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - streamers.csv
+      - inactive_streamers.csv
+      - .github/workflows/site-astro.yaml
+  # The daily regen re-ranks index.md/inactive.md with GITHUB_TOKEN, which
+  # doesn't trigger push workflows; rebuild when it finishes instead.
+  workflow_run:
+    workflows: ["Sort index.md by 30-day Activity"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: pages-astro
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      - name: Set up Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+          # No dependency cache: this job feeds a deploy, and npm ci is fast.
+
+      - name: Install
+        run: npm ci --ignore-scripts
+
+      - name: Type-check
+        run: npx astro check
+
+      - name: Build
+        run: npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main' && vars.ASTRO_PAGES == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
