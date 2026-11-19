@@ -293,7 +293,7 @@ function start(app: HTMLElement) {
     const key = order.map((t) => `${t}:${counts.get(t)}`).join(',');
     if (topicsEl.dataset.k === key) return;
     topicsEl.dataset.k = key;
-    topicsEl.innerHTML = order.map((t) => `<button type="button" data-topic="${esc(t)}" aria-pressed="${t === topic}">${esc(t)}<b>${counts.get(t)}</b></button>`).join('');
+    topicsEl.innerHTML = order.map((t) => `<button type="button" data-topic="${esc(t)}" aria-pressed="${t === topic}">${esc(t)} <b>${counts.get(t)}</b></button>`).join('');
   }
 
   function fillLangs() {

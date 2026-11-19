@@ -155,7 +155,7 @@ kbd { font: 0.72rem var(--mono); color: var(--muted); border: 1px solid var(--li
 .chk:has(input:checked) { color: var(--live); background: color-mix(in srgb, var(--live) 12%, transparent); }
 .topics { display: flex; gap: 0.35rem; height: 2.1rem; align-items: center; margin-top: 0.4rem; overflow-x: auto; scrollbar-width: none; }
 .topics button { flex: none; height: 1.75rem; padding: 0 0.7rem; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--soft); font: inherit; font-size: 0.8rem; cursor: pointer; white-space: nowrap; }
-.topics button b { color: var(--muted); font-weight: 500; margin-inline-start: 0.3rem; }
+.topics button b { color: var(--muted); font-weight: 500; }
 .topics button:hover { border-color: color-mix(in srgb, var(--text) 25%, transparent); color: var(--text); }
 .topics button[aria-pressed="true"] { background: var(--text); border-color: var(--text); color: var(--bg); }
 .topics button[aria-pressed="true"] b { color: inherit; opacity: 0.7; }
