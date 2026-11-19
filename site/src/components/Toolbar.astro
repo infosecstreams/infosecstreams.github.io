@@ -1,0 +1,20 @@
+---
+import { strings, type Lang } from '../lib/i18n';
+interface Props { lang: Lang; live?: boolean; }
+const { lang, live = true } = Astro.props;
+const t = strings(lang).ui;
+---
+<!-- Shown only with JS (html.js); without it the full list is simply there. -->
+<div class="tools" role="search">
+  <label class="search">
+    <svg class="ic" aria-hidden="true"><use href="#i-search" /></svg>
+    <span class="sr">{t.search}</span>
+    <input id="q" type="search" placeholder={t.searchPlaceholder} autocomplete="off" spellcheck="false" enterkeyhint="search" />
+    <output class="count" id="count" for="q f-lang f-live"></output>
+    <kbd aria-hidden="true" title={t.keyHint}>/</kbd>
+  </label>
+  <select id="f-lang" aria-label={t.language}><option value="">{t.allLanguages}</option></select>
+  {live && <select id="f-cat" aria-label={t.category}><option value="">{t.allCategories}</option></select>}
+  <label class="chk"><input id="f-live" type="checkbox" />{t.liveOnly}</label>
+  <button id="clear" type="button" hidden>{t.clear}</button>
+</div>

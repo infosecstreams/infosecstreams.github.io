@@ -1,0 +1,11 @@
+---
+// One inline SVG sprite per page; icons are referenced with <use href="#i-…">.
+import { siGithub, siTwitch, siYoutube } from 'simple-icons';
+const brand = { twitch: siTwitch.path, youtube: siYoutube.path, github: siGithub.path };
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true">
+  {Object.entries(brand).map(([id, d]) => <symbol id={`i-${id}`} viewBox="0 0 24 24"><path fill="currentColor" d={d} /></symbol>)}
+  <symbol id="i-search" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="m21 21-4.3-4.3M11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z" /></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm-9-9h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z" /></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7Zm0 3h16M8 3v4m8-4v4m-4 7v4m-2-2h4" /></symbol>
+</svg>

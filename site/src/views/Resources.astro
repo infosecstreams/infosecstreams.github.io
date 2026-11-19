@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+import { md, strings, type Lang } from '../lib/i18n';
+import { GROUPS, RESOURCES } from '../lib/resources';
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+const { resources: r } = strings(lang);
+---
+<Base lang={lang} page="resources" title={r.title} description={`${r.heading}: ${RESOURCES.map((x) => x.name).join(', ')}`}>
+  <article class="prose res">
+    <h1>{r.title}</h1>
+    <p class="lede">{r.heading}</p>
+    {GROUPS.map((g) => (
+      <section>
+        <h2>{r.types[g]}</h2>
+        <ul>
+          {RESOURCES.filter((x) => x.group === g).map((x) => (
+            <li>
+              <a href={x.url} target="_blank" rel="noopener">{x.name}</a>
+              {x.extra && <span class="x"> ({x.extra.map(([label, url], i) => <>{i > 0 && ' · '}<a href={url} target="_blank" rel="noopener">{label}</a></>)})</span>}
+              <p set:html={md(r.items[x.key as keyof typeof r.items], lang)} />
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </article>
+</Base>
