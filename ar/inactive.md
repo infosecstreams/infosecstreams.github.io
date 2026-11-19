@@ -29,7 +29,6 @@
 `AlzetteInfoSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AlzetteInfoSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCE4yBI-7oG5BB4eEYkVzB-Q)
 `AntiCM05` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AntiCM05) &nbsp;
 `Anyascii` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Anyascii) &nbsp;
-`apis_carnica` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/apis_carnica) &nbsp;
 `arl_rose` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/arl_rose) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC5aHOcWrvrdZWogEsVSFJwQ)
 `Ash_F0x` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Ash_F0x) &nbsp;
 `asuhackingclub` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/asuhackingclub) &nbsp;
@@ -37,7 +36,6 @@
 `Avesh029` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Avesh029) &nbsp;
 `AyWang` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/AyWang) &nbsp;
 `badatcomputers` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/badatcomputers) &nbsp;
-`BanjoCrashland` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BanjoCrashland) &nbsp;
 `BarSides` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BarSides) &nbsp;
 `BCSecurity` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BCSecurity) &nbsp;
 `beauknowstech` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/beauknowstech) &nbsp;
@@ -96,6 +94,7 @@
 `dze64` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dze64) &nbsp;
 `EchoZach` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/EchoZach) &nbsp;
 `EightBitOni` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/EightBitOni) &nbsp;
+`EjLucianoJr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/EjLucianoJr) &nbsp;
 `elpentester` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elpentester) &nbsp;
 `elprogramadorgt` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/elprogramadorgt) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgirU6f4kiT5Yxba4QyI58Q)
 `esdn_tv` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/esdn_tv) &nbsp;
@@ -110,6 +109,7 @@
 `footpics4sale` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/footpics4sale) &nbsp;
 `freshforensics` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/freshforensics) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@DouglasHabian-tq5ck)
 `FroMastr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FroMastr) &nbsp;
+`fungus_cyberpenguin` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/fungus_cyberpenguin) &nbsp;
 `g0lden1_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g0lden1_) &nbsp;
 `g1ng3rr00t` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g1ng3rr00t) &nbsp;
 `gamozo` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/gamozo) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC17ewSS9f2EnkCyMztCdoKA)
@@ -142,7 +142,6 @@
 `hadzah_fr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hadzah_fr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@hadzah_fr)
 `hattonsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hattonsec) &nbsp;
 `HeckinSpectre` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HeckinSpectre) &nbsp;
-`HexAbleSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/HexAbleSec) &nbsp;
 `hijack_securitytv` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/hijack_securitytv) &nbsp;
 `Humpty_Tony` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Humpty_Tony) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@ir_cc)
 `IC_null` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/IC_null) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g)
@@ -163,7 +162,7 @@
 `JellyPhishes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JellyPhishes) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@JellyPhishesttv)
 `Jexxofalltrades` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Jexxofalltrades) &nbsp;
 `jhaddix56` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jhaddix56) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@jhaddix)
-`joshua17sc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/joshua17sc) &nbsp;
+`JobHuntLikeAHacker` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/JobHuntLikeAHacker) &nbsp;
 `jrozner` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/jrozner) &nbsp;
 `justinsteven` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/justinsteven) &nbsp;
 `k4l1_nathalie` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/k4l1_nathalie) &nbsp;
@@ -211,6 +210,7 @@
 `okacodes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/okacodes) &nbsp;
 `optionalctf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/optionalctf) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCK1rytKRQPJh-78RS4jt9eA)
 `or0to` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/or0to) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@3ly313)
+`Osmia_Atriventris` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Osmia_Atriventris) &nbsp;
 `Outrag3ousLad` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Outrag3ousLad) &nbsp;
 `overgrowncarrot1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/overgrowncarrot1) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://youtube.com/channel/UCykh1fzT0LK-9wVhn8ocLaA)
 `p0tpan` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/p0tpan) &nbsp;
@@ -246,9 +246,9 @@
 `SecITguy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecITguy) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCbgRa0isrDQOG70CL_Hsvzg)
 `seclilc` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/seclilc) &nbsp;
 `securiters` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securiters) &nbsp;
-`Security_Live` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Security_Live) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
 `SecurityCert` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityCert) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@securitycert)
 `securityfwd` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/securityfwd) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g)
+`SecurityLive` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityLive) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCMDy1HAPNcpl8zVTK1NfMqw)
 `SecurityWeekly` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/SecurityWeekly) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg)
 `Sharghaas` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Sharghaas) &nbsp;
 `shellandtell` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/shellandtell) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@RichardCallaby)
