@@ -4,6 +4,7 @@
     "description": "网络安全直播 | 道德黑客教程 | CTF挑战赛 | 渗透测试培训 | 网络安全工具演示"
   },
   "ui": {
+    "heading": "安全直播",
     "tagline": "现在谁在直播安全内容：HackTheBox 和 TryHackMe 靶机、红队与蓝队、CTF、恶意软件分析。",
     "onNow": "正在直播",
     "showAll": "显示全部 {n} 个",

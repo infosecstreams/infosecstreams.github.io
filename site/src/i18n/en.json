@@ -4,6 +4,7 @@
     "description": "Live Cybersecurity Streams | TryHackMe & HTB Walkthroughs | Red Team & Blue Team Training | Ethical Hacking Tutorials"
   },
   "ui": {
+    "heading": "Live security streams",
     "tagline": "Who's streaming security right now: HackTheBox and TryHackMe boxes, red and blue team, CTFs, malware analysis.",
     "onNow": "On now",
     "showAll": "Show all {n}",

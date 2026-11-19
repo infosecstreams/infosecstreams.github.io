@@ -20,7 +20,7 @@ const ON_NOW_ROWS = 5;
 <Base lang={lang} page={page} title={home ? 'InfoSec Streams' : text.title} description={description} live>
   <div id="app" data-api={API_BASE} data-thumb={THUMB_TEMPLATE} data-ui={JSON.stringify(t)} data-rows={ON_NOW_ROWS}>
     <div class="hero">
-      <h1>{text.title}</h1>
+      <h1>{home ? <><span class="sr">InfoSec Streams: </span>{t.heading}</> : text.title}</h1>
       {home ? <p class="badge" id="badge"><i class="dot" aria-hidden="true"></i><span role="status">{t.checking}</span></p>
             : <p class="lede" set:html={md(all.inactive.intro, lang)} />}
     </div>
@@ -42,7 +42,7 @@ const ON_NOW_ROWS = 5;
       <section aria-labelledby="list-h">
         {home && (
           <div class="onnow-wrap">
-            <h2 class="grp"><span>{t.onNow}</span> <b id="on-n"></b></h2>
+            <h2 class="grp"><span>{t.onNow} <b id="on-n"></b></span> <small>{t.viewers.replace('{n}', '').trim().replace(/^./, (c) => c.toUpperCase())}</small></h2>
             <ol class="onnow" id="onnow" style={`--rows:${ON_NOW_ROWS}`}>
               {Array.from({ length: ON_NOW_ROWS }, () => <li class="ph" aria-hidden="true"></li>)}
             </ol>

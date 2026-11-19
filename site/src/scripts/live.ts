@@ -194,6 +194,7 @@ function start(app: HTMLElement) {
   const since = (iso: string) => `<span data-since="${esc(iso)}">${esc(duration(ago(iso)))}</span>`;
   const until = (iso: string, wrap = true) => `<span data-until="${esc(iso)}"${wrap ? '' : ' class="rel"'}>${esc(wrap ? f('startsIn', { t: relTime(iso) }) : relTime(iso))}</span>`;
   const name = (s: { display_name?: string; login: string }) => esc(s.display_name || s.login);
+  const viewersLabel = ui.viewers.replace('{n}', '').trim().replace(/^./, (c) => c.toUpperCase());
   const startsSoon = (s: Streamer) => s.next_stream_at && Date.parse(s.next_stream_at) > Date.now() ? s.next_stream_at : '';
 
   function liveSorted() {
@@ -221,14 +222,15 @@ function start(app: HTMLElement) {
       if (spot.dataset.k !== key) {
         spot.dataset.k = key;
         media.outerHTML = `<a class="spot-media" href="${twitch(top.login)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">`
-          + (online ? thumbImg(top, 480, 270, 'fetchpriority="high"') + `<span class="lv">LIVE</span>` : `<span class="when"><span class="ring"></span></span>`)
-          + (online && top.viewers != null ? `<span class="vw">${esc(f('watching', { n: num(top.viewers) }))}</span>` : '')
+          + (online ? thumbImg(top, 480, 270, 'fetchpriority="high"') + `<span class="lv"><i class="dot on"></i>${esc(ui.live)}</span>` : `<span class="when"><span class="ring"></span></span>`)
           + `</a>`;
       }
-      const meta = online && top.started_at ? since(top.started_at) : startsSoon(top) ? until(startsSoon(top)) : '';
-      txt.innerHTML = `<p class="eyebrow">${tag(top)}<b>${name(top)}</b>${meta ? ' · ' + meta : ''}${top.language ? ' · ' + esc(langName(top.language)) : ''}</p>`
+      const meter = (label: string, value: string) => (value ? `<div><dt>${esc(label)}</dt><dd>${value}</dd></div>` : '');
+      txt.innerHTML = `<p class="eyebrow">${tag(top)}<b>${name(top)}</b>${!online && startsSoon(top) ? until(startsSoon(top)) : ''}</p>`
         + `<h2 class="spot-t" title="${esc(top.title)}">${esc(top.title || top.category || '')}</h2>`
-        + `<div class="chips">${[...topics, top.category].filter(Boolean).map((t) => `<span class="chip">${esc(t)}</span>`).join('')}</div>`
+        + `<p class="spot-c">${esc((topics.length ? topics : [top.category]).filter(Boolean).join(' · '))}</p>`
+        + `<dl class="meters">${meter(viewersLabel, online && top.viewers != null ? esc(num(top.viewers)) : '')}`
+        + `${meter(ui.live, online && top.started_at ? since(top.started_at) : '')}${meter(ui.language, esc(langName(top.language)))}</dl>`
         + `<div class="acts"><a class="btn" href="${twitch(top.login)}" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-twitch" /></svg>${esc(ui.watch)}</a>`
         + (live[1] ? `<a class="btn2" href="${twitch(live[1].login)}" target="_blank" rel="noopener">${esc(ui.nextUpLabel)}: ${name(live[1])}</a>` : '') + `</div>`;
       return;
@@ -260,8 +262,8 @@ function start(app: HTMLElement) {
       return `<li class="${online ? 'on' : 'pre'}" data-login="${esc(s.login.toLowerCase())}" data-topics="${esc(topics.join('|'))}">`
         + `<a class="th" href="${twitch(s.login)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${online ? thumbImg(s, 102, 57, 'loading="lazy"') : '<span class="ring"></span>'}</a>`
         + `<span class="who"><a href="${twitch(s.login)}" target="_blank" rel="noopener">${name(s)}</a><span class="m">${status}</span></span>`
-        + `<span class="what"><span class="t" title="${esc(s.title)}">${esc(s.title)}</span><span class="c">${esc([...topics, s.category, langName(s.language)].filter(Boolean).join(' · '))}</span></span>`
-        + `<span class="num">${online && s.viewers != null ? `<b>${esc(num(s.viewers))}</b>${esc(ui.viewers.replace('{n}', '').trim())}` : ''}</span></li>`;
+        + `<span class="what"><span class="t" title="${esc(s.title)}">${esc(s.title)}</span><span class="c">${esc([...(topics.length ? topics : [s.category]), langName(s.language)].filter(Boolean).join(' · '))}</span></span>`
+        + `<span class="num">${online && s.viewers != null ? `${esc(num(s.viewers))}<span class="sr"> ${esc(viewersLabel)}</span>` : ''}</span></li>`;
     });
     // Fill the remaining rows with what's next on the schedule.
     for (const sg of nextSegments().slice(0, Math.max(0, ROWS - items.length))) {
@@ -270,7 +272,7 @@ function start(app: HTMLElement) {
       items.push(`<li class="next" data-login="${esc(sg.login.toLowerCase())}" data-text="${esc(sg.title)}" data-topics="${esc(topics.join('|'))}">`
         + `<span class="th">${esc(clock(d))}</span>`
         + `<span class="who"><a href="${twitch(sg.login)}" target="_blank" rel="noopener">${name(sg)}</a><span class="m">${esc(ui.nextUpLabel)} · ${until(sg.start, false)}</span></span>`
-        + `<span class="what"><span class="t">${esc(sg.title)}</span><span class="c">${esc([...topics, sg.category].filter(Boolean).join(' · '))}</span></span><span class="num"></span></li>`);
+        + `<span class="what"><span class="t">${esc(sg.title)}</span><span class="c">${esc((topics.length ? topics : [sg.category]).filter(Boolean).join(' · '))}</span></span><span class="num"></span></li>`);
     }
     if (!items.length) items.push(`<li><span class="msg">${esc(statusOk === false ? ui.unavailable : ui.nobodyLive)}</span></li>`);
     while (items.length < ROWS) items.push('<li class="ph" aria-hidden="true"></li>');
@@ -324,6 +326,7 @@ function start(app: HTMLElement) {
     const live = liveSorted();
     const n = live.filter((s) => s.status === 'online').length;
     document.title = n ? `${f('liveNow', { n })} · ${baseTitle}` : baseTitle;
+    document.documentElement.classList.toggle('on-air', n > 0);
     if (badge) {
       badge.classList.toggle('on', n > 0);
       badge.lastElementChild!.textContent = statusOk === false ? ui.unavailable : n ? f('liveNow', { n }) : ui.nobodyLive;

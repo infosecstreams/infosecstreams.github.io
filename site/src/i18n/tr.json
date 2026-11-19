@@ -4,6 +4,7 @@
     "description": "Canlı Siber Güvenlik Yayınları | Etik Hacking Eğitimleri | CTF Yarışmaları | Penetrasyon Testleri"
   },
   "ui": {
+    "heading": "Canlı güvenlik yayınları",
     "tagline": "Şu anda güvenlik yayını yapanlar: HackTheBox ve TryHackMe makineleri, red ve blue team, CTF'ler, zararlı yazılım analizi.",
     "onNow": "Şimdi",
     "showAll": "{n} yayının hepsini göster",

@@ -49,9 +49,9 @@ const ld = [
     {LANGS.map((l) => <link rel="alternate" hreflang={l} href={site + pathFor(l, page)} />)}
     <link rel="alternate" hreflang="x-default" href={site + pathFor('en', page)} />
     <meta name="color-scheme" content="dark light" />
-    <meta name="theme-color" content="#0b0d0c" media="(prefers-color-scheme: dark)" />
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
-    <link rel="preload" href="/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <meta name="theme-color" content="#0e0e0d" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f6f5f1" media="(prefers-color-scheme: light)" />
+    <link rel="preload" href="/fonts/bigshoulders-latin.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
     {live && apiOrigin && <link rel="preconnect" href={apiOrigin} crossorigin="anonymous" />}
     {live && THUMB_ORIGIN && <link rel="preconnect" href={THUMB_ORIGIN} />}
     {!live && <link rel="dns-prefetch" href={`https://${PLAUSIBLE_HOST}`} />}
@@ -84,7 +84,7 @@ const ld = [
     <header class="top">
       <div class="wrap top-in">
         <a class="logo" href={pathFor(lang, '')} aria-label="InfoSec Streams">
-          <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0e1311" /><path d="M9 11l5 5-5 5M17 22h7" fill="none" stroke="#34d399" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" /></svg><span>InfoSec Streams</span>
+          <svg viewBox="0 0 44 32" aria-hidden="true"><path d="M13 5H6v22h7M31 5h7v22h-7" fill="none" stroke="currentColor" stroke-width="3.4" /><circle class="lamp" cx="22" cy="16" r="5.6" /></svg><span>InfoSec Streams</span>
         </a>
         <nav aria-label="InfoSec Streams">
           <ul>
