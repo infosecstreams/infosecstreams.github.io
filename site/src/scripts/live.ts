@@ -165,7 +165,12 @@ function start(app: HTMLElement) {
     return s.hours_30d != null ? f('hours30d', { n: Math.round(s.hours_30d) }) : '';
   }
 
-  function renderStatus() {
+  // Yield to the browser between render steps so no single task blocks input.
+  const yieldTask = () => new Promise<void>((r) => setTimeout(r, 0));
+  let renderSeq = 0;
+
+  async function renderStatus() {
+    const seq = ++renderSeq;
     const live = [...byLogin.values()]
       .filter((s) => s.status === 'online' || s.status === 'prelive')
       .sort((a, b) => (a.status === b.status ? (b.viewers ?? 0) - (a.viewers ?? 0) : a.status === 'online' ? -1 : 1));
@@ -183,7 +188,7 @@ function start(app: HTMLElement) {
       else {
         strip.innerHTML = live.map((s) => {
           const name = s.display_name || s.login;
-                    const meta2 = [s.category, langName(s.language)].filter(Boolean).map(esc).join(' · ');
+          const meta2 = [s.category, langName(s.language)].filter(Boolean).map(esc).join(' · ');
           const when = timeSpan(s);
           const viewers = s.status === 'online' && s.viewers != null ? `<span>${esc(f('viewers', { n: num.format(s.viewers) }))}</span>` : '';
           return `<a class="card ${s.status === 'online' ? 'on' : 'pre'}" href="${twitch(s.login)}" target="_blank" rel="noopener" data-login="${esc(s.login.toLowerCase())}">`
@@ -193,6 +198,8 @@ function start(app: HTMLElement) {
       }
     }
 
+    await yieldTask();
+    if (seq !== renderSeq) return; // a newer response is already rendering
     // Touch only rows whose content changed: the inactive page has 300+.
     for (const tr of rows) {
       const s = byLogin.get(tr.dataset.login!);
@@ -208,6 +215,8 @@ function start(app: HTMLElement) {
       now.title = text;
     }
 
+    await yieldTask();
+    if (seq !== renderSeq) return;
     const langs = [...byLogin.values()].map((s) => s.language ?? '');
     const cats = [...byLogin.values()].filter((s) => s.status !== 'offline').map((s) => s.category ?? '');
     fillSelect(fLang, langs, langName, wanted.lang);
@@ -284,7 +293,11 @@ function start(app: HTMLElement) {
     run();
   }
 
+  // Build the Intl formatters one per task while the first fetch is in flight.
+  const warm = [numF, relF, clockF, dayF, namesF];
+  const warmNext = () => { const w = warm.shift(); if (w) { w(); setTimeout(warmNext, 0); } };
   const go = () => {
+    warmNext();
     if (rows.length || strip) {
       poller('status.json', 30_000, (text) => {
         try {
@@ -297,7 +310,7 @@ function start(app: HTMLElement) {
           if (statusOk) return refreshTimes();
           statusOk = false;
         }
-        renderStatus();
+        void renderStatus();
       });
     }
     if (sched) {

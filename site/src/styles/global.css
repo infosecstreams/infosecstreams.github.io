@@ -52,6 +52,9 @@ h1, h2, h3 { line-height: 1.2; }
 .logo { display: inline-flex; align-items: center; gap: 0.55rem; font-weight: 650; font-size: 1rem; letter-spacing: -0.01em; white-space: nowrap; direction: ltr; }
 .logo svg { width: 1.4rem; height: 1.4rem; }
 .top nav { flex: 1; min-width: 0; }
+/* Fixed row heights: nothing in the header can move what follows it. */
+.logo, .langs summary { height: 2.25rem; }
+.top nav ul { height: 2.25rem; align-items: center; }
 .top nav ul { display: flex; gap: 0.25rem; list-style: none; margin: 0; padding: 0; overflow-x: auto; scrollbar-width: none; }
 .top nav a { display: block; padding: 0.35rem 0.6rem; border-radius: 7px; color: var(--muted); white-space: nowrap; font-size: 0.93rem; }
 .top nav a:hover { color: var(--text); }
