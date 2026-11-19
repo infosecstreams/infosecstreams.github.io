@@ -21,7 +21,7 @@ const apiOrigin = /^https?:/.test(API_BASE) ? new URL(API_BASE).origin : '';
 const boot = transformSync(
   bootSrc
     .replaceAll('__PLAUSIBLE_HOST__', PLAUSIBLE_HOST)
-    .replaceAll('__PLAUSIBLE_DOMAIN__', 'infosecstreams.github.io')
+    .replaceAll('__PLAUSIBLE_SCRIPT__', 'pa-S1APgdcZDV2dG80tVMP-N.js')
     .replaceAll('__SW__', String(import.meta.env.PROD)),
   { minify: true, target: 'es2020' },
 ).code;

@@ -1,6 +1,12 @@
 // Inlined into every page by Base.astro (minified at build). Runs after load.
-// Placeholders filled at build: __PLAUSIBLE_HOST__, __PLAUSIBLE_DOMAIN__, __SW__.
+// Placeholders filled at build: __PLAUSIBLE_HOST__, __PLAUSIBLE_SCRIPT__, __SW__.
 (() => {
+  // 0. Plausible CE v3 queue stub (the dashboard's snippet): calls made before
+  // the script arrives are queued and sent once it loads.
+  window.plausible = window.plausible || function () { (plausible.q = plausible.q || []).push(arguments); };
+  plausible.init = plausible.init || function (i) { plausible.o = i || {}; };
+  plausible.init();
+
   // 1. Prefetch on hover/touch where speculation rules aren't supported
   // (Safari, Firefox). <link rel=prefetch> where it works, else a low-priority
   // fetch that warms the HTTP cache and the service worker's cache.
@@ -50,16 +56,17 @@
         ttfb: ms(nav && nav.responseStart, 50),
         nav: nav ? (nav.deliveryType || (nav.transferSize === 0 ? 'cache' : 'network')) + (document.prerendering || (nav.activationStart > 0) ? '+prerender' : '') : 'n/a',
       };
-      const body = JSON.stringify({ name: 'Web Vitals', url: location.href, domain: '__PLAUSIBLE_DOMAIN__', props, interactive: false });
-      navigator.sendBeacon && navigator.sendBeacon('https://__PLAUSIBLE_HOST__/api/event', body);
+      // Same queue as pageviews, so the site config (domain etc.) comes from the dashboard.
+      plausible('Web Vitals', { props, interactive: false });
     });
   }
 
   addEventListener('load', () => setTimeout(() => {
     // 3. Analytics after the page is idle, never competing with it.
+    // Site-specific script; outbound links and engagement are configured in the dashboard.
     const s = document.createElement('script');
-    s.src = 'https://__PLAUSIBLE_HOST__/js/plausible.outbound-links.js';
-    s.dataset.domain = '__PLAUSIBLE_DOMAIN__';
+    s.async = true;
+    s.src = 'https://__PLAUSIBLE_HOST__/js/__PLAUSIBLE_SCRIPT__';
     document.head.append(s);
     // 4. Service worker: repeat visits come from cache (see /sw.js).
     if (__SW__ && 'serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(() => {});
