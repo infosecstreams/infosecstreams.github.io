@@ -4,6 +4,16 @@
     "description": "بث مباشر للأمن السيبراني | دروس الاختراق الأخلاقي | تحديات CTF | اختبار الاختراق"
   },
   "ui": {
+    "tagline": "من يبث محتوى الأمن الآن: أجهزة HackTheBox وTryHackMe، الفريق الأحمر والأزرق، تحديات CTF، تحليل البرمجيات الخبيثة.",
+    "onNow": "الآن",
+    "showAll": "عرض الكل ({n})",
+    "showLess": "عرض أقل",
+    "watch": "شاهد على Twitch",
+    "watching": "{n} يشاهدون",
+    "livePreview": "معاينة مباشرة لبث {name}",
+    "topic": "الموضوع",
+    "allTopics": "كل المواضيع",
+    "nextUpLabel": "التالي",
     "colStatus": "الحالة",
     "colStreamer": "صانع المحتوى",
     "colActivity": "النشاط",

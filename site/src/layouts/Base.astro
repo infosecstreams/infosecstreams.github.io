@@ -2,7 +2,7 @@
 import Icons from '../components/Icons.astro';
 import '../styles/global.css';
 import { LANGS, OG_LOCALE, RTL, pathFor, strings, type Lang, type Page } from '../lib/i18n';
-import { API_BASE } from '../lib/api';
+import { API_BASE, THUMB_ORIGIN } from '../lib/api';
 import { transformSync } from 'esbuild';
 import bootSrc from '../scripts/boot.js?raw';
 
@@ -51,7 +51,9 @@ const ld = [
     <meta name="color-scheme" content="dark light" />
     <meta name="theme-color" content="#0b0d0c" media="(prefers-color-scheme: dark)" />
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <link rel="preload" href="/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
     {live && apiOrigin && <link rel="preconnect" href={apiOrigin} crossorigin="anonymous" />}
+    {live && THUMB_ORIGIN && <link rel="preconnect" href={THUMB_ORIGIN} />}
     {!live && <link rel="dns-prefetch" href={`https://${PLAUSIBLE_HOST}`} />}
     <!-- Live status is in flight before any script runs; live.ts's first fetch reuses it. -->
     {live && <link rel="preload" href={`${API_BASE}status.json`} as="fetch" crossorigin="anonymous" />}
@@ -82,7 +84,7 @@ const ld = [
     <header class="top">
       <div class="wrap top-in">
         <a class="logo" href={pathFor(lang, '')} aria-label="InfoSec Streams">
-          <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor" opacity=".08" /><path d="M9 11l5 5-5 5M17 22h7" fill="none" stroke="var(--accent)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" /></svg><span>InfoSec Streams</span>
+          <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0e1311" /><path d="M9 11l5 5-5 5M17 22h7" fill="none" stroke="#34d399" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" /></svg><span>InfoSec Streams</span>
         </a>
         <nav aria-label="InfoSec Streams">
           <ul>

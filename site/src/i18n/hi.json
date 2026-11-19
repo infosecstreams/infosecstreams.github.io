@@ -4,6 +4,16 @@
     "description": "लाइव साइबर सुरक्षा स्ट्रीम्स | एथिकल हैकिंग ट्यूटोरियल | सीटीएफ चैलेंज | पेनेट्रेशन टेस्टिंग"
   },
   "ui": {
+    "tagline": "अभी कौन सिक्योरिटी स्ट्रीम कर रहा है: HackTheBox और TryHackMe मशीनें, रेड और ब्लू टीम, CTF, मालवेयर विश्लेषण।",
+    "onNow": "अभी",
+    "showAll": "सभी {n} दिखाएं",
+    "showLess": "कम दिखाएं",
+    "watch": "Twitch पर देखें",
+    "watching": "{n} देख रहे हैं",
+    "livePreview": "{name} का लाइव प्रीव्यू",
+    "topic": "विषय",
+    "allTopics": "सभी विषय",
+    "nextUpLabel": "अगला",
     "colStatus": "स्थिति",
     "colStreamer": "स्ट्रीमर",
     "colActivity": "गतिविधि",

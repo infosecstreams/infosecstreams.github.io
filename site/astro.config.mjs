@@ -1,6 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import { generate, ics } from './mock/fixtures.mjs';
+import { generate, ics, thumbSvg } from './mock/fixtures.mjs';
 
 /** Dev server only: serves mock API responses at /mock-api/ (see mock/fixtures.mjs). */
 function mockApi() {
@@ -11,6 +11,11 @@ function mockApi() {
       server.middlewares.use('/mock-api/', (req, res, next) => {
         const { status, schedule } = generate();
         const body = { '/status.json': status, '/schedule.json': schedule }[req.url?.split('?')[0] ?? ''];
+        const th = req.url?.match(/^\/thumbs\/(\w+)\.svg/);
+        if (th) {
+          res.setHeader('Content-Type', 'image/svg+xml');
+          return res.end(thumbSvg(th[1]));
+        }
         if (req.url?.startsWith('/schedule.ics')) {
           res.setHeader('Content-Type', 'text/calendar; charset=utf-8');
           return res.end(ics(schedule));

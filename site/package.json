@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "build:mock": "PUBLIC_API_BASE=/mock-api/ astro build && node scripts/write-mock.mjs",
+    "build:mock": "PUBLIC_API_BASE=/mock-api/ PUBLIC_THUMB_TEMPLATE=/mock-api/thumbs/{login}.svg astro build && node scripts/write-mock.mjs",
     "preview": "astro preview",
     "check": "astro check",
     "i18n:migrate": "python3 scripts/migrate-templates.py"

@@ -1,11 +1,11 @@
 ---
-// The home page (active roster, live strip, schedule) and the inactive page.
+// The home page (spotlight, on-now rows, roster, schedule) and the inactive page.
 import Base from '../layouts/Base.astro';
 import Roster from '../components/Roster.astro';
 import Toolbar from '../components/Toolbar.astro';
 import { fmt, md, strings, type Lang } from '../lib/i18n';
 import { active, inactive } from '../lib/roster';
-import { API_BASE, CALENDAR_URL } from '../lib/api';
+import { API_BASE, CALENDAR_URL, THUMB_TEMPLATE } from '../lib/api';
 
 interface Props { lang: Lang; page: '' | 'inactive'; }
 const { lang, page } = Astro.props;
@@ -15,28 +15,41 @@ const home = page === '';
 const streamers = home ? active : inactive;
 const text = home ? all.home : all.inactive;
 const description = home ? all.meta.description : `${all.inactive.title}. ${all.inactive.intro}`;
+const ON_NOW_ROWS = 5;
 ---
 <Base lang={lang} page={page} title={home ? 'InfoSec Streams' : text.title} description={description} live>
-  <div id="app" data-api={API_BASE} data-ui={JSON.stringify(t)}>
+  <div id="app" data-api={API_BASE} data-thumb={THUMB_TEMPLATE} data-ui={JSON.stringify(t)} data-rows={ON_NOW_ROWS}>
     <div class="hero">
       <h1>{text.title}</h1>
       {home ? <p class="badge" id="badge"><i class="dot" aria-hidden="true"></i><span role="status">{t.checking}</span></p>
             : <p class="lede" set:html={md(all.inactive.intro, lang)} />}
     </div>
-    <noscript><p class="noscript">{t.noScript}</p></noscript>
-
-    <Toolbar lang={lang} live={home} />
 
     {home && (
-      <section class="live" aria-labelledby="live-h">
-        <h2 class="sr" id="live-h">{t.liveSection}</h2>
-        <div class="strip" id="strip"><p class="msg">{t.checking}</p></div>
+      <section class="spot" id="spot" aria-label={t.liveSection}>
+        <div class="spot-media" aria-hidden="true"><span class="spot-ph"></span></div>
+        <div class="spot-txt">
+          <p class="eyebrow">{t.checking}</p>
+          <p class="spot-t">{t.tagline}</p>
+          <noscript><p class="noscript">{t.noScript}</p></noscript>
+        </div>
       </section>
     )}
 
+    <Toolbar lang={lang} />
+
     <div class={home ? 'grid' : ''}>
       <section aria-labelledby="list-h">
-        <h2 class="sec" id="list-h">{text.listHeading} <small>{fmt(t.streamers, { n: streamers.length })}</small></h2>
+        {home && (
+          <div class="onnow-wrap">
+            <h2 class="grp"><span>{t.onNow}</span> <b id="on-n"></b></h2>
+            <ol class="onnow" id="onnow" style={`--rows:${ON_NOW_ROWS}`}>
+              {Array.from({ length: ON_NOW_ROWS }, () => <li class="ph" aria-hidden="true"></li>)}
+            </ol>
+            <button class="more" id="more" type="button" hidden></button>
+          </div>
+        )}
+        <h2 class="grp" id="list-h"><span>{text.listHeading}</span> <small>{fmt(t.streamers, { n: streamers.length })}</small></h2>
         <Roster lang={lang} streamers={streamers} />
         <ul class="legend">
           <li><span class="tag on"><i class="dot"></i>{t.live}</span>{t.legendLive}</li>
@@ -45,7 +58,7 @@ const description = home ? all.meta.description : `${all.inactive.title}. ${all.
       </section>
       {home && (
         <aside class="side" aria-labelledby="up-h">
-          <h2 class="sec" id="up-h">{t.upcoming}
+          <h2 class="grp" id="up-h"><span>{t.upcoming}</span>
             <a class="cal" href={CALENDAR_URL}><svg class="ic" aria-hidden="true"><use href="#i-cal" /></svg>{t.addToCalendar}</a>
           </h2>
           <ol class="sched" id="sched"><li class="note">{t.checking}</li></ol>

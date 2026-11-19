@@ -4,6 +4,16 @@
     "description": "Streams de Cibersegurança ao Vivo | Tutoriais de Hacking Ético | Desafios CTF | Testes de Penetração"
   },
   "ui": {
+    "tagline": "Quem está transmitindo segurança agora: máquinas do HackTheBox e TryHackMe, red e blue team, CTFs, análise de malware.",
+    "onNow": "Agora",
+    "showAll": "Ver todos os {n}",
+    "showLess": "Ver menos",
+    "watch": "Assistir na Twitch",
+    "watching": "{n} assistindo",
+    "livePreview": "Prévia ao vivo de {name}",
+    "topic": "Tema",
+    "allTopics": "Todos os temas",
+    "nextUpLabel": "A seguir",
     "colStatus": "Status",
     "colStreamer": "Streamer",
     "colActivity": "Atividade",
