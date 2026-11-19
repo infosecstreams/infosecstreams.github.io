@@ -2,7 +2,7 @@
 // served by astro.config.mjs; `PUBLIC_API_BASE=/mock-api/ npm run build` makes
 // a build that reads the fixtures written by scripts/write-mock.mjs.
 export const API_BASE: string =
-  import.meta.env.PUBLIC_API_BASE || (import.meta.env.DEV ? '/mock-api/' : 'https://p.infosecstreams.com/api/');
+  import.meta.env.PUBLIC_API_BASE || (import.meta.env.DEV ? '/mock-api/' : 'https://p.infosecstreams.com/streamstatus/');
 
 /** webcal:// for absolute https bases so calendar apps subscribe instead of downloading. */
 export const CALENDAR_URL = `${API_BASE.replace(/^https:\/\//, 'webcal://')}schedule.ics`;

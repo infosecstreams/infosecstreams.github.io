@@ -2,7 +2,7 @@
 // - Pages and other same-origin files: stale-while-revalidate, so repeat visits
 //   render from cache instantly while a fresh copy is fetched for next time.
 // - /_astro/* (content-hashed): cache-first, never revalidated.
-// - The live API (/api/*, cross-origin p.infosecstreams.com) is never touched,
+// - The live API (cross-origin p.infosecstreams.com/streamstatus/) is never touched,
 //   so live status is never stale.
 // A new deploy changes VERSION; the new worker takes over and drops old pages.
 const VERSION = '__VERSION__';
