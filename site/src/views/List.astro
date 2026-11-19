@@ -16,7 +16,7 @@ const streamers = home ? active : inactive;
 const text = home ? all.home : all.inactive;
 const description = home ? all.meta.description : `${all.inactive.title}. ${all.inactive.intro}`;
 ---
-<Base lang={lang} page={page} title={home ? 'InfoSec Streams' : text.title} description={description}>
+<Base lang={lang} page={page} title={home ? 'InfoSec Streams' : text.title} description={description} live>
   <div id="app" data-api={API_BASE} data-ui={JSON.stringify(t)}>
     <div class="hero">
       <h1>{text.title}</h1>

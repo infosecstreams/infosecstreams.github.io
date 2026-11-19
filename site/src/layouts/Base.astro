@@ -2,6 +2,9 @@
 import Icons from '../components/Icons.astro';
 import '../styles/global.css';
 import { LANGS, OG_LOCALE, RTL, pathFor, strings, type Lang, type Page } from '../lib/i18n';
+import { API_BASE } from '../lib/api';
+import { transformSync } from 'esbuild';
+import bootSrc from '../scripts/boot.js?raw';
 
 interface Props {
   lang: Lang;
@@ -9,8 +12,19 @@ interface Props {
   title: string;
   description: string;
   jsonLd?: object[];
+  /** Pages that show live status: start fetching status.json from the HTML. */
+  live?: boolean;
 }
-const { lang, page, title, description, jsonLd = [] } = Astro.props;
+const { lang, page, title, description, jsonLd = [], live = false } = Astro.props;
+const PLAUSIBLE_HOST = 'p.infosecstreams.com';
+const apiOrigin = /^https?:/.test(API_BASE) ? new URL(API_BASE).origin : '';
+const boot = transformSync(
+  bootSrc
+    .replaceAll('__PLAUSIBLE_HOST__', PLAUSIBLE_HOST)
+    .replaceAll('__PLAUSIBLE_DOMAIN__', 'infosecstreams.github.io')
+    .replaceAll('__SW__', String(import.meta.env.PROD)),
+  { minify: true, target: 'es2020' },
+).code;
 const t = strings(lang);
 const site = Astro.site!.origin;
 const canonical = site + pathFor(lang, page);
@@ -35,8 +49,12 @@ const ld = [
     {LANGS.map((l) => <link rel="alternate" hreflang={l} href={site + pathFor(l, page)} />)}
     <link rel="alternate" hreflang="x-default" href={site + pathFor('en', page)} />
     <meta name="color-scheme" content="dark light" />
-    <meta name="theme-color" content="#0a0e0b" media="(prefers-color-scheme: dark)" />
-    <meta name="theme-color" content="#f6f8f6" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0b0d0c" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    {live && apiOrigin && <link rel="preconnect" href={apiOrigin} crossorigin="anonymous" />}
+    {!live && <link rel="dns-prefetch" href={`https://${PLAUSIBLE_HOST}`} />}
+    <!-- Live status is in flight before any script runs; live.ts's first fetch reuses it. -->
+    {live && <link rel="preload" href={`${API_BASE}status.json`} as="fetch" crossorigin="anonymous" />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon.ico" sizes="32x32" />
     <meta property="og:type" content="website" />
@@ -55,8 +73,8 @@ const ld = [
     <!-- Hovering a link prerenders the next page, so navigation is instant. -->
     <script is:inline type="speculationrules">{"prerender":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/mock-api/*"}}]},"eagerness":"moderate"}]}</script>
     <script is:inline>document.documentElement.classList.add('js')</script>
-    <!-- Analytics load after the page is idle, never competing with it. -->
-    <script is:inline>addEventListener('load',()=>setTimeout(()=>{const s=document.createElement('script');s.src='https://p.infosecstreams.com/js/plausible.outbound-links.js';s.dataset.domain='infosecstreams.github.io';document.head.append(s)},1500))</script>
+    <!-- Prefetch fallback, web-vitals sampling, deferred analytics, service worker: src/scripts/boot.js -->
+    <script is:inline set:html={boot} />
   </head>
   <body>
     <Icons />

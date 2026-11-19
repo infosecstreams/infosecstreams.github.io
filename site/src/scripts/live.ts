@@ -259,12 +259,15 @@ function start(app: HTMLElement) {
   // every poll, so an unchanged response is a bodyless 304 (no CORS preflight
   // needed). Unchanged text skips the re-render.
   function poller(path: string, every: number, onData: (text: string | null) => void) {
-    let timer = 0, last = '', lastAt = 0;
+    let timer = 0, last = '', lastAt = 0, first = true;
     const run = async () => {
       clearTimeout(timer);
       lastAt = Date.now();
       try {
-        const r = await fetch(API + path, { cache: 'no-cache' });
+        // The first request matches the <link rel=preload> in the head (same
+        // mode, credentials and cache mode), so it reuses that response.
+        const r = await fetch(API + path, first ? {} : { cache: 'no-cache' });
+        first = false;
         if (!r.ok) throw new Error(String(r.status));
         const text = await r.text();
         if (text !== last) { last = text; onData(text); } else refreshTimes();
