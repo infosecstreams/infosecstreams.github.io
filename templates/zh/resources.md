@@ -9,18 +9,18 @@
 ||
 [TryHackMe](https://tryhackme.com) | TryHackMe——学习渗透测试技能。 | 实战黑客
 [Over the Wire: The Bandit](https://overthewire.org/wargames/bandit) | The Bandit 是一个面向初学者的 wargame。你将学习基础知识，以便挑战其他 wargame。 | 实战黑客
-[HackTheBox](https://hackthebox.eu) | HackTheBox——学习渗透测试技能。 | 实战黑客
+[HackTheBox](https://www.hackthebox.com) | HackTheBox——学习渗透测试技能。 | 实战黑客
 ||
 ||
 [GTFOBins](https://gtfobins.github.io) | 快速 shell 单行命令。 | 黑客参考
-[HackTricks](https://book.hacktricks.xyz/) | 技巧与技术。 | 黑客参考
+[HackTricks](https://book.hacktricks.wiki/) | 技巧与技术。 | 黑客参考
 ||
 ||
 [Awesome CTF](https://apsdehal.in/awesome-ctf) | 一份精选的 Capture The Flag(CTF)框架、库、资源、软件和教程列表。 | CTF 工具
 [CrackStation](https://crackstation.net) | 在线哈希破解。 | CTF 工具
 [CyberChef](https://gchq.github.io/CyberChef) | 用于分析/编码/解码数据的网络安全瑞士军刀。 | CTF 工具
 [dCode](https://www.dcode.fr/en) | dCode 是一个用于解密、密文处理的工具网站。 | CTF 工具
-[Hackvertor](https://hackvertor.co.uk/public) | 在线转换器、解码器、编码器、哈希工具及其他各种工具。 | CTF 工具
+[Hackvertor](https://hackvertor.co.uk/) | 在线转换器、解码器、编码器、哈希工具及其他各种工具。 | CTF 工具
 ||
 ||
 [ExplainShell](https://explainshell.com) | Bash shell 命令解释。 | Shell 工具
@@ -31,4 +31,4 @@
 ||
 ||
 [Infosec House](https://infosec.house) | 网络安全运营的工具与资源。 | 黑客资源
-[RawSec](https://inventory.rawsec.ml/overview.html) | 一个关于网络安全的工具与资源清单。 | 黑客资源
+[RawSec](https://inventory.raw.pm/overview.html) | 一个关于网络安全的工具与资源清单。 | 黑客资源

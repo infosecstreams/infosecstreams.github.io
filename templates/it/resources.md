@@ -9,18 +9,18 @@ Link | Descrizione | Tipo
 ||
 [TryHackMe](https://tryhackme.com) | TryHackMe - Impara le competenze di Penetration Testing. | Hacking Pratico
 [Over the Wire: The Bandit](https://overthewire.org/wargames/bandit) | The Bandit è un wargame pensato per i principianti. Imparerai le basi per giocare ad altri wargame. | Hacking Pratico
-[HackTheBox](https://hackthebox.eu) | HackTheBox - Impara le competenze di Penetration Testing. | Hacking Pratico
+[HackTheBox](https://www.hackthebox.com) | HackTheBox - Impara le competenze di Penetration Testing. | Hacking Pratico
 ||
 ||
 [GTFOBins](https://gtfobins.github.io) | One-liner rapidi per la shell. | Riferimento Hacking
-[HackTricks](https://book.hacktricks.xyz/) | Trucchi e tecniche. | Riferimento Hacking
+[HackTricks](https://book.hacktricks.wiki/) | Trucchi e tecniche. | Riferimento Hacking
 ||
 ||
 [Awesome CTF](https://apsdehal.in/awesome-ctf) | Una lista curata di framework, librerie, risorse, software e tutorial per il Capture The Flag (CTF). | Strumenti CTF
 [CrackStation](https://crackstation.net) | Cracking di hash online. | Strumenti CTF
 [CyberChef](https://gchq.github.io/CyberChef) | Il coltellino svizzero informatico per analizzare/codificare/decodificare dati. | Strumenti CTF
 [dCode](https://www.dcode.fr/en) | dCode è un sito con strumenti per decrittazione e testi cifrati. | Strumenti CTF
-[Hackvertor](https://hackvertor.co.uk/public) | Convertitore online, decoder, encoder, hashing e vari altri strumenti. | Strumenti CTF
+[Hackvertor](https://hackvertor.co.uk/) | Convertitore online, decoder, encoder, hashing e vari altri strumenti. | Strumenti CTF
 ||
 ||
 [ExplainShell](https://explainshell.com) | Spiegazione dei comandi della shell Bash. | Strumenti Shell
@@ -31,4 +31,4 @@ Link | Descrizione | Tipo
 ||
 ||
 [Infosec House](https://infosec.house) | Strumenti e risorse per operazioni di cybersecurity. | Risorse di Hacking
-[RawSec](https://inventory.rawsec.ml/overview.html) | Un inventario di strumenti e risorse sulla cybersecurity. | Risorse di Hacking
+[RawSec](https://inventory.raw.pm/overview.html) | Un inventario di strumenti e risorse sulla cybersecurity. | Risorse di Hacking

@@ -1,7 +1,6 @@
 {% include language-selector.html %}
 
-<!-- Enhanced SEO Meta Tags -->
-<meta name="description" content="Live Cybersecurity Streams, Ethical Hacking Tutorials, CTF Challenges, TryHackMe & HTB Walkthroughs, Red Team & Blue Team Training">
+<!-- The page description, canonical URL and per-page og:url come from jekyll-seo-tag. -->
 
 <!-- Primary Keywords -->
 <meta name="keywords" content="cybersecurity streams, ethical hacking live, TryHackMe streams, HTB walkthroughs, red team training, blue team training, CTF challenges live, penetration testing tutorials, security tool demonstrations, malware analysis live, bug bounty streams, exploit development, security research, incident response training, digital forensics streams">
@@ -56,7 +55,6 @@
 <meta property="og:title" content="InfoSec Streams - Live Cybersecurity & Ethical Hacking Streams" />
 <meta property="og:description" content="Watch live cybersecurity streams, ethical hacking tutorials, CTF challenges, TryHackMe & HTB walkthroughs, red team training, and more." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://infosecstreams.com" />
 <meta property="og:site_name" content="InfoSec Streams" />
 
 <!-- Twitter Card Meta Tags -->
@@ -82,7 +80,8 @@
 }
 </script>
 
-<!-- FAQ Schema -->
+<!-- FAQ Schema: only on the FAQ pages, where the questions are visible -->
+{% if page_suffix == '/faq' %}
 <script type="application/ld+json">
     {
         "@context":"https://schema.org",
@@ -163,6 +162,7 @@
         ]
     }
 </script>
+{% endif %}
 
 <!-- Open external links in a new tab -->
 <script>

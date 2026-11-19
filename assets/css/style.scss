@@ -7,7 +7,7 @@
   table-layout: auto;
 }
 
-.streamer-table th[role=button] {
+.streamer-table th[tabindex] {
   cursor: pointer;
 }
 
@@ -31,7 +31,7 @@
   content: " ▼";
 }
 
-[role=modal] {
+[role=dialog] {
   display: flex;
   position: fixed;
   left: 0;
@@ -43,7 +43,7 @@
   background: rgba(255,255,255, 0.2);
 }
 
-[role=modal] > * {
+[role=dialog] > * {
   background: $body-background;
 }
 

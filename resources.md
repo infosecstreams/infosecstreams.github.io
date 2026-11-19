@@ -9,18 +9,18 @@ Link | Description | Type
 ||
 [TryHackMe](https://tryhackme.com) | TryHackMe - Learn Penetration Testing Skills. | Hands-On Hacking
 [Over the Wire: The Bandit](https://overthewire.org/wargames/bandit) | The Bandit is a wargame aimed at beginners. You will learn the basics to play other wargames. | Hands-On Hacking
-[HackTheBox](https://hackthebox.eu) | HackTheBox - Learn Penetration Testing Skills. | Hands-On Hacking
+[HackTheBox](https://www.hackthebox.com) | HackTheBox - Learn Penetration Testing Skills. | Hands-On Hacking
 ||
 ||
 [GTFOBins](https://gtfobins.github.io) | Quick shell one-liners. | Hacking Reference
-[HackTricks](https://book.hacktricks.xyz/) | Tricks and Techniques. | Hacking Reference
+[HackTricks](https://book.hacktricks.wiki/) | Tricks and Techniques. | Hacking Reference
 ||
 ||
 [Awesome CTF](https://apsdehal.in/awesome-ctf) | A curated list of Capture The Flag (CTF) frameworks, libraries, resources, softwares, and tutorials. | CTF Tools
 [CrackStation](https://crackstation.net) | Online hash cracking. | CTF Tools
 [CyberChef](https://gchq.github.io/CyberChef) | The Cyber swiss army knife for analysing/encoding/decoding data. | CTF Tools
 [dCode](https://www.dcode.fr/en) | dCode is a toolkit website for decryption, ciphertexts. | CTF Tools
-[Hackvertor](https://hackvertor.co.uk/public) | Online converter, decoder, encoder, hashing, and various other tools. | CTF Tools
+[Hackvertor](https://hackvertor.co.uk/) | Online converter, decoder, encoder, hashing, and various other tools. | CTF Tools
 ||
 ||
 [ExplainShell](https://explainshell.com) | Bash shell command explanation. | Shell Tools
@@ -31,4 +31,4 @@ Link | Description | Type
 ||
 ||
 [Infosec House](https://infosec.house) | Tools and Resources for CyberSecurity Operations. | Hacking Resources
-[RawSec](https://inventory.rawsec.ml/overview.html) | An inventory of tools and resources about CyberSecurity. | Hacking Resources
+[RawSec](https://inventory.raw.pm/overview.html) | An inventory of tools and resources about CyberSecurity. | Hacking Resources

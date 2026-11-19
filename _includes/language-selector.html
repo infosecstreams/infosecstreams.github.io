@@ -3,8 +3,13 @@
 the reader on the same page when switching languages — every language has the
 same four pages. {% endcomment %}
 {% include page-language.html %}
+{% comment %} This is included from head-custom.html, i.e. inside <head>, where a
+<div> would end the head early and push the SEO, canonical and hreflang tags
+into <body> (where search engines ignore them). A <template> is valid in
+<head>; the script below moves its content into the body. {% endcomment %}
+<template id="language-selector-template">
 <div class="language-selector">
-  <button class="language-button" onclick="toggleLanguageMenu()">
+  <button type="button" class="language-button" aria-haspopup="true" aria-expanded="false" aria-controls="languageMenu">
     {% for lang in languages %}
       {% if lang.code == page_lang %}
         {{ lang.name }}
@@ -22,22 +27,27 @@ same four pages. {% endcomment %}
     {% endfor %}
   </div>
 </div>
-
+</template>
 <script>
-function toggleLanguageMenu() {
-  document.getElementById('languageMenu').classList.toggle('show');
-}
-
-// Close the dropdown if clicked outside
-window.onclick = function(event) {
-  if (!event.target.matches('.language-button')) {
-    var dropdowns = document.getElementsByClassName('language-menu');
-    for (var i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+document.addEventListener('DOMContentLoaded', function () {
+  var tpl = document.getElementById('language-selector-template');
+  if (!tpl) return;
+  document.body.prepend(tpl.content.cloneNode(true));
+  var button = document.querySelector('.language-button');
+  var menu = document.getElementById('languageMenu');
+  function setOpen(open) {
+    menu.classList.toggle('show', open);
+    button.setAttribute('aria-expanded', open ? 'true' : 'false');
   }
-}
+  button.addEventListener('click', function (e) {
+    e.stopPropagation(); // the caret <span> inside counts as the button too
+    setOpen(!menu.classList.contains('show'));
+  });
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.language-selector')) setOpen(false);
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') setOpen(false);
+  });
+});
 </script>
