@@ -1,0 +1,168 @@
+name: Streamer intake
+
+# Checks "Suggest a streamer" issues (opened/edited) against Twitch and the
+# roster, and comments the result. When a maintainer adds the `approved` label,
+# re-checks and opens (or refreshes) a pull request adding the streamer.
+#
+# Issue text is untrusted: it only ever reaches a shell through env vars and a
+# file, and intake.py validates every value it hands on.
+
+on:
+  issues:
+    types: [opened, edited, reopened, labeled]
+
+permissions: {}
+
+concurrency:
+  group: streamer-intake-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  check:
+    if: >-
+      github.event.issue.state == 'open' &&
+      contains(github.event.issue.labels.*.name, 'add-streamer') &&
+      (github.event.action != 'labeled' || github.event.label.name == 'approved')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read # roster + scripts
+      issues: write # the result comment, withdrawing `approved`
+    outputs:
+      valid: ${{ steps.check.outputs.valid }}
+      login: ${{ steps.check.outputs.login }}
+      user_id: ${{ steps.check.outputs.user_id }}
+      youtube: ${{ steps.check.outputs.youtube }}
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+    steps:
+      - name: Checkout roster and scripts
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: main
+          persist-credentials: false
+          sparse-checkout: |
+            .github/scripts
+            streamers.csv
+            inactive_streamers.csv
+          sparse-checkout-cone-mode: false
+
+      # Roster login -> Twitch ID map. A fresh key per run so updates are
+      # saved; restore-keys picks up the latest one.
+      - name: Restore Twitch ID cache
+        uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25 # v5.1.0
+        with:
+          path: ${{ runner.temp }}/twitch-ids
+          key: twitch-ids-v1-${{ github.run_id }}
+          restore-keys: twitch-ids-v1-
+
+      - name: Save issue body
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: printf '%s' "$ISSUE_BODY" > "$RUNNER_TEMP/body.md"
+
+      - name: Check submission
+        id: check
+        env:
+          TW_CLIENT_ID: ${{ secrets.TW_CLIENT_ID }}
+          TW_CLIENT_SECRET: ${{ secrets.TW_CLIENT_SECRET }}
+        run: |
+          python3 .github/scripts/intake.py check \
+            --body-file "$RUNNER_TEMP/body.md" \
+            --cache "$RUNNER_TEMP/twitch-ids/ids.json" \
+            --comment-out "$RUNNER_TEMP/comment.md"
+
+      - name: Explain a broken check
+        if: failure() && steps.check.outcome == 'failure'
+        run: |
+          printf '%s\n' '<!-- streamer-intake -->' \
+            "Thanks for the suggestion! I couldn't reach Twitch to check it just now, so a maintainer will take a look." \
+            > "$RUNNER_TEMP/comment.md"
+
+      - name: Post or update the bot comment
+        if: ${{ !cancelled() }}
+        run: |
+          [ -f "$RUNNER_TEMP/comment.md" ] || exit 0
+          marker='<!-- streamer-intake -->'
+          id=$(gh api "repos/$REPO/issues/$ISSUE_NUMBER/comments" --paginate \
+            --jq ".[] | select(.user.login == \"github-actions[bot]\" and (.body | startswith(\"$marker\"))) | .id" | head -n1)
+          jq -n --rawfile body "$RUNNER_TEMP/comment.md" '{body: $body}' > "$RUNNER_TEMP/comment.json"
+          if [ -n "$id" ]; then
+            gh api -X PATCH "repos/$REPO/issues/comments/$id" --input "$RUNNER_TEMP/comment.json" > /dev/null
+          else
+            gh api -X POST "repos/$REPO/issues/$ISSUE_NUMBER/comments" --input "$RUNNER_TEMP/comment.json" > /dev/null
+          fi
+
+      # An approval covers the text the maintainer saw. If the body changes
+      # afterwards, withdraw it so nothing unreviewed becomes a PR.
+      - name: Withdraw approval after an edit
+        if: >-
+          github.event.action == 'edited' &&
+          github.event.changes.body &&
+          contains(github.event.issue.labels.*.name, 'approved')
+        run: |
+          gh issue edit "$ISSUE_NUMBER" --repo "$REPO" --remove-label approved
+          gh issue comment "$ISSUE_NUMBER" --repo "$REPO" \
+            --body "The suggestion changed after it was approved, so I removed the \`approved\` label. A maintainer can add it again once they've had a look."
+
+  pull-request:
+    needs: check
+    if: >-
+      needs.check.outputs.valid == 'true' &&
+      github.event.action == 'labeled' &&
+      github.event.label.name == 'approved'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write # push the intake/<user id> branch
+      pull-requests: write # open/update the PR
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+      LOGIN: ${{ needs.check.outputs.login }}
+      USER_ID: ${{ needs.check.outputs.user_id }}
+      YOUTUBE: ${{ needs.check.outputs.youtube }}
+    steps:
+      # Keeps the token in .git/config so the branch can be pushed; this job
+      # uploads no artifacts and runs nothing from the issue.
+      - name: Checkout main
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2 # zizmor: ignore[artipacked]
+        with:
+          ref: main
+
+      - name: Add streamer to streamers.csv and index.md
+        run: python3 .github/scripts/intake.py apply --login "$LOGIN" --youtube "$YOUTUBE"
+
+      # Re-applying `approved` rebuilds the branch from the current main,
+      # which is how to clear a conflict with the bot's page updates.
+      - name: Push branch and open or update the pull request
+        run: |
+          [[ "$USER_ID" =~ ^[0-9]{1,20}$ ]] || { echo "bad user id" >&2; exit 1; }
+          branch="intake/$USER_ID"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add streamers.csv index.md
+          git commit --quiet -m "Add streamer $LOGIN"
+          git push --force origin "HEAD:refs/heads/$branch"
+
+          {
+            echo "Adds [\`$LOGIN\`](https://www.twitch.tv/$LOGIN) (Twitch user ID \`$USER_ID\`) to the active list, as suggested and approved in #$ISSUE_NUMBER."
+            echo
+            if [ -n "$YOUTUBE" ]; then echo "YouTube: $YOUTUBE"; echo; fi
+            echo "The new row goes to the bottom of the table; the daily secinfo run sorts it by activity."
+            echo
+            echo "Closes #$ISSUE_NUMBER"
+          } > "$RUNNER_TEMP/pr.md"
+
+          pr=$(gh pr list --repo "$REPO" --head "$branch" --state open --json number --jq '.[0].number // empty')
+          if [ -n "$pr" ]; then
+            gh pr edit "$pr" --repo "$REPO" --body-file "$RUNNER_TEMP/pr.md"
+            echo "Updated pull request #$pr"
+          else
+            gh pr create --repo "$REPO" --base main --head "$branch" \
+              --title "Add streamer $LOGIN" --body-file "$RUNNER_TEMP/pr.md"
+          fi

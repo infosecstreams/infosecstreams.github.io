@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions, removals and everything else
+    url: https://infosecstreams.com/faq
+    about: Check the FAQ first. To remove or rename a listed streamer, open a pull request editing streamers.csv.

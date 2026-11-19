@@ -1,0 +1,25 @@
+name: Intake script tests
+
+on:
+  push:
+    paths:
+      - ".github/scripts/**"
+      - ".github/workflows/intake-tests.yaml"
+  pull_request:
+    paths:
+      - ".github/scripts/**"
+      - ".github/workflows/intake-tests.yaml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - name: Run offline unit tests
+        run: python3 -m unittest discover -s .github/scripts -p 'test_*.py' -v
