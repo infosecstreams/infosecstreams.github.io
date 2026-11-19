@@ -140,3 +140,15 @@ keywords:
   - تدريب الفريق الأزرق
   - تحديات CTF
   - اختبار الاختراق
+
+# The Astro rebuild (deployed by site-astro.yaml) is not part of the Jekyll site.
+# Setting `exclude` replaces Jekyll 3's defaults, so they are repeated here.
+exclude:
+  - site
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
