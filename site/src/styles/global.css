@@ -88,7 +88,8 @@ h1, h2, h3 { line-height: 1.2; }
 .hero { display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem 1rem; flex-wrap: wrap; margin: 1.5rem 0 0.9rem; }
 .hero h1 { font-size: 1.3rem; font-weight: 650; letter-spacing: -0.02em; margin: 0; }
 /* Fixed height, no wrapping: the text changes once data arrives. */
-.badge { display: flex; align-items: center; gap: 0.5rem; height: 1.6rem; margin: 0; color: var(--muted); font-size: 0.92rem; white-space: nowrap; overflow: hidden; }
+/* Fixed box, contents start-aligned: the dot never moves when the text changes. */
+.badge { display: flex; align-items: center; justify-content: flex-start; width: 15rem; max-width: 100%; gap: 0.5rem; height: 1.6rem; margin: 0; color: var(--muted); font-size: 0.92rem; white-space: nowrap; overflow: hidden; }
 .badge.on { color: var(--live); font-weight: 600; }
 .lede { color: var(--muted); margin: 0; max-width: 40rem; flex-basis: 100%; }
 
@@ -108,7 +109,7 @@ h1, h2, h3 { line-height: 1.2; }
 .spot-media { order: 2; position: relative; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: var(--raise2); display: block; }
 .spot-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .spot-ph { position: absolute; inset: 0; background: linear-gradient(110deg, transparent 30%, color-mix(in srgb, var(--text) 5%, transparent) 50%, transparent 70%) var(--raise2); }
-.spot-media .lv { position: absolute; inset-inline-start: 0.75rem; top: 0.75rem; display: inline-flex; align-items: center; gap: 0.4rem; background: #e5484d; color: #fff; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; border-radius: 6px; padding: 0.2rem 0.5rem; }
+.spot-media .lv { position: absolute; inset-inline-start: 0.75rem; top: 0.75rem; display: inline-flex; align-items: center; gap: 0.4rem; background: #c42b31; color: #fff; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; border-radius: 6px; padding: 0.2rem 0.5rem; }
 .spot-media .vw { position: absolute; inset-inline-start: 0.75rem; bottom: 0.75rem; background: rgb(0 0 0 / 62%); color: #fff; font-size: 0.78rem; border-radius: 6px; padding: 0.15rem 0.5rem; }
 .spot-media .when { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; color: var(--soft); }
 .spot-media .when b { display: block; font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.6rem); letter-spacing: -0.03em; color: var(--text); }

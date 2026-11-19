@@ -220,7 +220,7 @@ function start(app: HTMLElement) {
       const key = `${top.login}|${top.status}|${top.title}|${Math.floor(Date.now() / 300000)}`;
       if (spot.dataset.k !== key) {
         spot.dataset.k = key;
-        media.outerHTML = `<a class="spot-media" href="${twitch(top.login)}" target="_blank" rel="noopener" tabindex="-1">`
+        media.outerHTML = `<a class="spot-media" href="${twitch(top.login)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">`
           + (online ? thumbImg(top, 480, 270, 'fetchpriority="high"') + `<span class="lv">LIVE</span>` : `<span class="when"><span class="ring"></span></span>`)
           + (online && top.viewers != null ? `<span class="vw">${esc(f('watching', { n: num(top.viewers) }))}</span>` : '')
           + `</a>`;
@@ -258,7 +258,7 @@ function start(app: HTMLElement) {
       const when = online ? (s.started_at ? since(s.started_at) : '') : startsSoon(s) ? until(startsSoon(s)) : '';
       const status = tag(s) + (when ? ` · ${when}` : '');
       return `<li class="${online ? 'on' : 'pre'}" data-login="${esc(s.login.toLowerCase())}" data-topics="${esc(topics.join('|'))}">`
-        + `<a class="th" href="${twitch(s.login)}" target="_blank" rel="noopener" tabindex="-1">${online ? thumbImg(s, 102, 57, 'loading="lazy"') : '<span class="ring"></span>'}</a>`
+        + `<a class="th" href="${twitch(s.login)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${online ? thumbImg(s, 102, 57, 'loading="lazy"') : '<span class="ring"></span>'}</a>`
         + `<span class="who"><a href="${twitch(s.login)}" target="_blank" rel="noopener">${name(s)}</a><span class="m">${status}</span></span>`
         + `<span class="what"><span class="t" title="${esc(s.title)}">${esc(s.title)}</span><span class="c">${esc([...topics, s.category, langName(s.language)].filter(Boolean).join(' · '))}</span></span>`
         + `<span class="num">${online && s.viewers != null ? `<b>${esc(num(s.viewers))}</b>${esc(ui.viewers.replace('{n}', '').trim())}` : ''}</span></li>`;
