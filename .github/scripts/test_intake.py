@@ -24,8 +24,9 @@ TOKEN = "fake-app-token"
 class FakeHelix:
     """Serves /oauth2/token and /helix/{users,channels,streams,videos}."""
 
-    def __init__(self, users, channels=None, streams=None, videos=None):
+    def __init__(self, users, channels=None, streams=None, videos=None, subscriptions=None):
         self.users = users  # [{"id","login","display_name"}]
+        self.subscriptions = subscriptions or []
         self.channels, self.streams, self.videos = channels or {}, streams or {}, videos or {}
         self.requests = []
         fake = self
@@ -67,6 +68,11 @@ class FakeHelix:
                     data = fake.streams.get(q["user_id"][0], [])
                 elif u.path == "/helix/videos":
                     data = fake.videos.get(q["user_id"][0], [])
+                elif u.path == "/helix/eventsub/subscriptions":
+                    start = int(q.get("after", ["0"])[0])
+                    page = fake.subscriptions[start:start + 2]
+                    more = start + 2 < len(fake.subscriptions)
+                    return self.send_json(200, {"data": page, "pagination": {"cursor": str(start + 2)} if more else {}})
                 else:
                     return self.send_json(404, {})
                 self.send_json(200, {"data": data})
@@ -238,35 +244,77 @@ class IdCacheTest(unittest.TestCase):
 
     def test_resolves_once_then_reuses(self):
         with FakeHelix(ROSTER_USERS) as fake:
-            c = intake.IdCache(self.path, now=1000)
+            c = intake.IdCache(self.path)
             c.refresh(fake.helix(), ["Alpha", "zeta_z", "gone"])
             c.save()
             self.assertEqual(c.id_for("ALPHA"), "1")
             self.assertIsNone(c.id_for("gone"))
             n = len(fake.user_lookups())
-            c2 = intake.IdCache(self.path, now=2000)
+            c2 = intake.IdCache(self.path)
             c2.refresh(fake.helix(), ["Alpha", "zeta_z"])
-            self.assertEqual(len(fake.user_lookups()), n)  # all fresh, no calls
+            self.assertEqual(len(fake.user_lookups()), n)  # all known, no calls
             self.assertEqual(c2.id_for("zeta_z"), "26")
 
-    def test_keeps_id_after_rename_and_refreshes_stale(self):
+    def test_known_ids_are_sticky(self):
         with FakeHelix([user("1", "alpha")]) as fake:
-            c = intake.IdCache(self.path, now=0)
+            c = intake.IdCache(self.path)
             c.refresh(fake.helix(), ["alpha"])
             c.save()
-        with FakeHelix([user("1", "alpha_new")]) as fake:  # renamed
-            c = intake.IdCache(self.path, now=intake.CACHE_TTL + 10)
+        with FakeHelix([user("500", "alpha")]) as fake:  # renamed, name taken by someone else
+            c = intake.IdCache(self.path)
             c.refresh(fake.helix(), ["alpha"])
-            self.assertEqual(len(fake.user_lookups()), 1)  # stale -> re-queried
-            self.assertEqual(c.id_for("alpha"), "1")       # but the old ID is kept
+            self.assertEqual(fake.user_lookups(), [])
+            self.assertEqual(c.id_for("alpha"), "1")
+
+    def test_seed_file_wins_over_cache(self):
+        os.makedirs(os.path.dirname(self.path))
+        with open(self.path, "w") as f:
+            json.dump({"version": intake.CACHE_VERSION, "logins": {"alpha": {"id": "999"}, "beta": {"id": "2"}}}, f)
+        seed = os.path.join(self.dir, "ids.csv")
+        with open(seed, "w") as f:
+            f.write("Alpha,1\nbad line\nevil;rm,3\nGamma,x\n")
+        c = intake.IdCache(self.path, seed_path=seed)
+        self.assertEqual(c.entries, {"alpha": "1", "beta": "2"})
 
     def test_corrupt_or_old_cache_is_ignored(self):
         os.makedirs(os.path.dirname(self.path))
-        for content in ["not json", json.dumps({"version": 0, "logins": {"a": {"id": "1"}}}),
-                        json.dumps({"version": 1, "logins": {"a": {"id": "1; rm"}}}), "[]"]:
+        for content in ["not json", json.dumps({"version": 1, "logins": {"a": {"id": "1"}}}),
+                        json.dumps({"version": intake.CACHE_VERSION, "logins": {"a": {"id": "1; rm"}}}),
+                        json.dumps({"version": intake.CACHE_VERSION, "logins": {"a b": {"id": "1"}}}), "[]"]:
             with open(self.path, "w") as f:
                 f.write(content)
             self.assertEqual(intake.IdCache(self.path).entries, {}, content)
+
+
+class SeedTest(unittest.TestCase):
+    def test_seed_keeps_known_resolves_new_drops_unlisted(self):
+        with Repo(active="Alpha,\nNewOne,\nRenamedAway,\nzeta_z,") as repo:
+            with open("streamer_ids.csv", "w") as f:
+                f.write("Alpha,1\nRemoved,42\n")
+            users = [user("1", "alpha_was_renamed"), user("26", "zeta_z"), user("9", "oldtimer"), user("77", "newone")]
+            subs = [{"condition": {"broadcaster_user_id": i}} for i in ["1", "26", "9", "77", "300", "301"]]
+            with FakeHelix(users + [user("300", "renamedaway_now")], subscriptions=subs) as fake:
+                r = intake.seed(fake.helix(), subscriptions=True)
+                self.assertGreater(len([q for q in fake.requests if q[1] == "/helix/eventsub/subscriptions"]), 1)
+            self.assertEqual(repo.read("streamer_ids.csv"), "Alpha,1\nNewOne,77\nOldTimer,9\nzeta_z,26\n")
+            self.assertEqual((r["listed"], r["known"], r["new"]), (5, 4, 3))
+            self.assertEqual(r["dropped"], ["Removed"])
+            self.assertEqual(r["unresolved"], ["RenamedAway"])
+            self.assertEqual(r["orphans"], [("300", "renamedaway_now"), ("301", None)])
+            summary = intake.write_github_summary(r)
+            self.assertIn("`RenamedAway`", summary)
+            self.assertIn("[`renamedaway_now`](https://www.twitch.tv/renamedaway_now)", summary)
+
+    def test_seeded_ids_catch_an_old_rename(self):
+        with Repo():
+            with open("streamer_ids.csv", "w") as f:
+                f.write("Alpha,1\nOldTimer,9\nzeta_z,26\n")
+            with FakeHelix([user("9", "shiny_new_name"), user("1", "alpha"), user("26", "zeta_z")]) as fake:
+                r = intake.check(form(login="shiny_new_name"), fake.helix(),
+                                 intake.IdCache("", seed_path="streamer_ids.csv"))
+        self.assertFalse(r["valid"])
+        self.assertEqual(r["rename_from"], "OldTimer")
+        self.assertIn("inactive list under their old name", " ".join(r["problems"]))
 
 
 class CheckTest(unittest.TestCase):
@@ -400,6 +448,17 @@ class ApplyTest(unittest.TestCase):
             self.assertIn("&nbsp; [<i class=\"fab fa-youtube\" style=\"color:#C00\"></i>](https://www.youtube.com/@mid) |\n\n### Credits", idx)
             self.assertTrue(idx.endswith("thanks\n"))
             self.assertTrue(self.consistent())
+
+    def test_records_user_id(self):
+        with Repo() as repo:
+            with open("streamer_ids.csv", "w") as f:
+                f.write("Alpha,1\nzeta_z,26\n")
+            intake.apply("Mid", "", "55")
+            self.assertEqual(repo.read("streamer_ids.csv"), "Alpha,1\nMid,55\nzeta_z,26\n")
+            intake.apply("New", "")  # no ID given: map untouched
+            self.assertNotIn("New", repo.read("streamer_ids.csv"))
+            with self.assertRaises(intake.IntakeError):
+                intake.apply("Other", "", "12;rm")
 
     def test_keeps_trailing_newline_and_no_youtube(self):
         with Repo(active="b,\nc,\n") as repo:

@@ -2,17 +2,23 @@
 """Streamer intake: validate an "Add a streamer" issue form, and add the
 streamer to the roster once a maintainer approves it.
 
-    intake.py check  --body-file F --cache F --comment-out F
+    intake.py check  --body-file F --cache F --comment-out F [--ids F]
         Parse the issue body, validate the login against Twitch Helix and the
         roster (by user ID and by login), validate the YouTube URL and write a
         friendly Markdown comment. Writes valid/login/user_id/youtube to
         $GITHUB_OUTPUT. Exits 0 whether or not the submission is valid; a
         non-zero exit means the check itself broke (Twitch down, bad secrets).
 
-    intake.py apply  --login L [--youtube URL]
+    intake.py apply  --login L [--youtube URL] [--user-id N]
         Add the streamer to streamers.csv (sorted case-insensitively, file's
         trailing-newline state kept) and append the matching row to the
-        index.md table, so needs_full_regen.py stays "false".
+        index.md table, so needs_full_regen.py stays "false". With --user-id,
+        also record login,id in streamer_ids.csv.
+
+    intake.py seed  [--ids F] [--subscriptions]
+        Resolve every listed login's Twitch user ID into streamer_ids.csv,
+        keeping IDs already known (so renamed logins keep theirs) and
+        reporting logins that no longer exist on Twitch.
 
 Everything the issue author typed is untrusted: values only leave this script
 after matching strict patterns, and free text is escaped before it is echoed
@@ -23,7 +29,6 @@ import json
 import os
 import re
 import sys
-import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -52,8 +57,8 @@ INFOSEC_CATEGORIES = {
     "talk shows & podcasts",
 }
 
-CACHE_VERSION = 1
-CACHE_TTL = 30 * 24 * 3600  # refresh login->ID mappings monthly
+CACHE_VERSION = 2
+IDS_CSV = "streamer_ids.csv"  # committed login,user-id map for the roster
 
 
 class IntakeError(Exception):
@@ -230,6 +235,21 @@ class Helix:
         })
         return self._request(req).get("data") or []
 
+    def get_all(self, path, params):
+        """Follow Helix cursor pagination."""
+        out, params = [], dict(params)
+        while True:
+            if self.token is None:
+                self.login()
+            url = f"{self.api}/{path}?{urllib.parse.urlencode(params, doseq=True)}"
+            body = self._request(urllib.request.Request(url, headers={
+                "Client-Id": self.client_id, "Authorization": f"Bearer {self.token}"}))
+            out += body.get("data") or []
+            cursor = (body.get("pagination") or {}).get("cursor")
+            if not cursor or len(out) > 10000:
+                return out
+            params["after"] = cursor
+
     def users_by_login(self, logins):
         """{lowercase login: user} for the logins that exist, 100 per call."""
         found = {}
@@ -251,16 +271,37 @@ class Helix:
 # ---------------------------------------------------------------- id cache
 
 
-class IdCache:
-    """Roster login -> Twitch user ID, persisted between runs (actions/cache).
+def read_ids(path):
+    """streamer_ids.csv -> {lowercase login: (Login, user id)}; bad lines skipped."""
+    out = {}
+    if path and os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            for line in f:
+                login, _, uid = line.strip().partition(",")
+                if LOGIN_RE.match(login) and USER_ID_RE.match(uid):
+                    out[login.lower()] = (login, uid)
+    return out
 
-    Entries are kept even when a login stops resolving: an old login that no
-    longer exists still maps to the ID it had, which is exactly what lets us
-    spot a streamer who renamed and is now being suggested under a new name.
+
+def write_ids(path, ids):
+    rows = sorted(ids.values(), key=lambda r: r[0].lower())
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write("".join(f"{login},{uid}\n" for login, uid in rows))
+
+
+class IdCache:
+    """Roster login -> Twitch user ID.
+
+    Starts from the committed streamer_ids.csv (durable, reviewed) and a JSON
+    cache kept between runs with actions/cache, then resolves only logins
+    neither knows. Known IDs are never overwritten: Twitch IDs don't change,
+    and an old login that no longer resolves (or that someone else has since
+    taken) must keep pointing at the account that was listed. That is what
+    lets a renamed streamer be recognised under their new name.
     """
 
-    def __init__(self, path, now=None):
-        self.path, self.now = path, now if now is not None else time.time()
+    def __init__(self, path, seed_path=None):
+        self.path = path
         self.entries = {}
         if path and os.path.exists(path):
             try:
@@ -268,31 +309,23 @@ class IdCache:
                     data = json.load(f)
                 if data.get("version") == CACHE_VERSION:
                     self.entries = {
-                        k: v for k, v in data.get("logins", {}).items()
-                        if isinstance(v, dict) and USER_ID_RE.match(str(v.get("id", "")))
+                        k: str(v["id"]) for k, v in data.get("logins", {}).items()
+                        if isinstance(v, dict) and LOGIN_RE.match(k) and USER_ID_RE.match(str(v.get("id", "")))
                     }
-            except (OSError, ValueError, AttributeError):
+            except (OSError, ValueError, AttributeError, TypeError):
                 self.entries = {}
+        for key, (_, uid) in read_ids(seed_path).items():
+            self.entries[key] = uid  # reviewed data wins
 
     def refresh(self, helix, logins):
-        """Resolve logins that are missing or stale, in batches of 100."""
-        stale = [l for l in logins
-                 if l.lower() not in self.entries
-                 or self.now - self.entries[l.lower()].get("checked", 0) > CACHE_TTL]
-        if not stale:
-            return
-        found = helix.users_by_login(stale)
-        for l in stale:
-            u = found.get(l.lower())
-            if u:
-                self.entries[l.lower()] = {"id": u["id"], "checked": int(self.now)}
-            elif l.lower() in self.entries:
-                # Gone (renamed or deleted): keep the last known ID.
-                self.entries[l.lower()]["checked"] = int(self.now)
+        """Resolve logins we have no ID for, in batches of 100."""
+        missing = list({l.lower(): l for l in logins if l.lower() not in self.entries}.values())
+        if missing:
+            for key, u in helix.users_by_login(missing).items():
+                self.entries[key] = u["id"]
 
     def id_for(self, login):
-        e = self.entries.get(login.lower())
-        return e["id"] if e else None
+        return self.entries.get(login.lower())
 
     def save(self):
         if not self.path:
@@ -300,8 +333,39 @@ class IdCache:
         os.makedirs(os.path.dirname(os.path.abspath(self.path)), exist_ok=True)
         tmp = self.path + ".tmp"
         with open(tmp, "w", encoding="utf-8") as f:
-            json.dump({"version": CACHE_VERSION, "logins": self.entries}, f, sort_keys=True, indent=0)
+            json.dump({"version": CACHE_VERSION,
+                       "logins": {k: {"id": v} for k, v in self.entries.items()}}, f, sort_keys=True, indent=0)
         os.replace(tmp, self.path)
+
+
+def seed(helix, path=None, subscriptions=False):
+    """Bring streamer_ids.csv in line with the roster: keep known IDs, resolve
+    new logins, drop logins no longer listed. Returns a report dict."""
+    path = path or IDS_CSV
+    known, listed = read_ids(path), {}
+    for login, _ in roster():
+        listed.setdefault(login.lower(), login)
+    found = helix.users_by_login([l for k, l in listed.items() if k not in known])
+    ids, unresolved = {}, []
+    for key, login in listed.items():
+        uid = known[key][1] if key in known else found.get(key, {}).get("id")
+        if uid:
+            ids[key] = (login, uid)
+        else:
+            unresolved.append(login)
+    write_ids(path, ids)
+    report = {"listed": len(listed), "known": len(ids), "new": sum(1 for k in ids if k not in known),
+              "dropped": sorted(known[k][0] for k in known if k not in listed), "unresolved": unresolved}
+    if subscriptions:
+        # The bot's EventSub subscriptions are keyed by user ID and survive
+        # renames, so IDs it still watches that match no listed login are
+        # likely the renamed accounts behind the unresolved logins.
+        watched = {s.get("condition", {}).get("broadcaster_user_id")
+                   for s in helix.get_all("eventsub/subscriptions", {"first": 100})}
+        orphans = sorted(watched - {uid for _, uid in ids.values()} - {None})
+        now = helix.users_by_id(orphans)
+        report["orphans"] = [(i, now[i]["login"] if i in now else None) for i in orphans]
+    return report
 
 
 # ---------------------------------------------------------------- check
@@ -463,9 +527,11 @@ def index_row(login, youtube):
     return f"&nbsp; | `{login}` | {tw} &nbsp; |"
 
 
-def apply(login, youtube, root="."):
+def apply(login, youtube, user_id="", root="."):
     if not LOGIN_RE.match(login or ""):
         raise IntakeError("refusing to add an invalid login")
+    if user_id and not USER_ID_RE.match(user_id):
+        raise IntakeError("refusing to add an invalid user ID")
     if youtube and normalise_youtube(youtube) != (youtube, None):
         raise IntakeError("refusing to add an unnormalised YouTube URL")
     csv_path = os.path.join(root, ACTIVE_CSV)
@@ -500,8 +566,40 @@ def apply(login, youtube, root="."):
     with open(index_path, "w", encoding="utf-8", newline="") as f:
         f.write("\n".join(page))
 
+    if user_id:
+        ids_path = os.path.join(root, IDS_CSV)
+        ids = read_ids(ids_path)
+        ids[login.lower()] = (login, user_id)
+        write_ids(ids_path, ids)
+
 
 # ---------------------------------------------------------------- cli
+
+
+def helix_from_env():
+    return Helix(os.environ.get("TW_CLIENT_ID", ""), os.environ.get("TW_CLIENT_SECRET", ""),
+                 api=os.environ.get("HELIX_API", "https://api.twitch.tv/helix"),
+                 auth=os.environ.get("HELIX_AUTH", "https://id.twitch.tv/oauth2/token"))
+
+
+def write_github_summary(r):
+    """Seed report for the Actions run page and the PR body."""
+    lines = [f"{r['known']} of {r['listed']} listed logins have a Twitch user ID ({r['new']} new this run)."]
+    if r["dropped"]:
+        lines += ["", "No longer listed, dropped from the map: " + ", ".join(f"`{l}`" for l in r["dropped"])]
+    if r["unresolved"]:
+        lines += ["", "**No Twitch account found** (renamed or deleted; fix these in the roster by hand):", ""]
+        lines += [f"- `{l}`" for l in r["unresolved"]]
+    if r.get("orphans"):
+        lines += ["", "**IDs the bot still watches that match no listed login** (likely the renamed accounts above):", ""]
+        lines += [f"- `{i}`: now " + (f"[`{n}`](https://www.twitch.tv/{n})" if n else "deleted")
+                  for i, n in r["orphans"]]
+    text = "\n".join(lines) + "\n"
+    for var in ("GITHUB_STEP_SUMMARY", "SEED_REPORT"):
+        if os.environ.get(var):
+            with open(os.environ[var], "a", encoding="utf-8") as f:
+                f.write(text)
+    return text
 
 
 def main(argv=None):
@@ -511,28 +609,42 @@ def main(argv=None):
     c.add_argument("--body-file", required=True)
     c.add_argument("--cache", default="")
     c.add_argument("--comment-out", required=True)
+    c.add_argument("--ids", default=IDS_CSV)
     c.add_argument("--ungated", action="store_true")
     a = sub.add_parser("apply")
     a.add_argument("--login", required=True)
     a.add_argument("--youtube", default="")
+    a.add_argument("--user-id", default="")
+    sd = sub.add_parser("seed", help=f"resolve the roster's Twitch IDs into {IDS_CSV}")
+    sd.add_argument("--ids", default=IDS_CSV)
+    sd.add_argument("--subscriptions", action="store_true",
+                   help="also list EventSub-watched IDs that match no listed login (needs the bot's app credentials)")
     args = p.parse_args(argv)
 
     try:
         if args.cmd == "check":
             with open(args.body_file, encoding="utf-8") as f:
                 body = f.read()
-            helix = Helix(os.environ.get("TW_CLIENT_ID", ""), os.environ.get("TW_CLIENT_SECRET", ""),
-                          api=os.environ.get("HELIX_API", "https://api.twitch.tv/helix"),
-                          auth=os.environ.get("HELIX_AUTH", "https://id.twitch.tv/oauth2/token"))
-            cache = IdCache(args.cache)
+            helix = helix_from_env()
+            cache = IdCache(args.cache, seed_path=args.ids)
             r = check(body, helix, cache)
             cache.save()
             with open(args.comment_out, "w", encoding="utf-8") as f:
                 f.write(render_comment(r, gated=not args.ungated))
             out = write_outputs(r)
             print(f"valid={out['valid']} login={out['login']} user_id={out['user_id']}")
+        elif args.cmd == "seed":
+            r = seed(helix_from_env(), args.ids, subscriptions=args.subscriptions)
+            print(f"{r['known']}/{r['listed']} listed logins have a Twitch ID ({r['new']} new)")
+            for login in r["dropped"]:
+                print(f"dropped (no longer listed): {login}")
+            for login in r["unresolved"]:
+                print(f"no Twitch account (renamed or deleted?): {login}")
+            for uid, now in r.get("orphans", []):
+                print(f"watched by the bot but not matched to a listed login: {uid} (now {now or 'deleted'})")
+            write_github_summary(r)
         else:
-            apply(args.login, args.youtube)
+            apply(args.login, args.youtube, args.user_id)
             print(f"added {args.login}")
     except IntakeError as e:
         print(f"::error::{e}", file=sys.stderr)
