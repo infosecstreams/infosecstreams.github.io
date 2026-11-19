@@ -25,12 +25,13 @@ export function generate(now = Date.now()) {
   const prelive = [pick(4), pick(5)];
   const langs = ['en', 'en', 'en', 'de', 'es', 'fr', 'pt', 'en', 'it', 'tr'];
   const streamers = [...active, ...inactive].map((login, i) => {
-    const s = { id: String(100000 + i), login: login.toLowerCase(), display_name: login, status: 'offline', language: langs[i % langs.length] };
+    // Like the bot: category/title/language only for online and pre-live streamers.
+    const s = { id: String(100000 + i), login: login.toLowerCase(), display_name: login, status: 'offline' };
     if (i < active.length) s.hours_30d = Math.round((80 - i * 1.7) * 10) / 10;
     const l = live.find((x) => x.login === login);
     if (l) Object.assign(s, { status: 'online', category: l.category, title: l.title, language: l.language, tags: ['English', 'infosec'], started_at: iso(now - l.up), viewers: l.viewers });
-    if (login === prelive[0]) Object.assign(s, { status: 'prelive', category: 'Science & Technology', title: 'Malware Monday: unpacking a fresh stealer', prelive_since: iso(now - 6 * MIN), next_stream_at: iso(now + 12 * MIN) });
-    if (login === prelive[1]) Object.assign(s, { status: 'prelive', category: 'Science & Technology', title: 'HTB Season — Insane box, no spoilers', prelive_since: iso(now - 2 * MIN) });
+    if (login === prelive[0]) Object.assign(s, { status: 'prelive', language: 'en', category: 'Science & Technology', title: 'Malware Monday: unpacking a fresh stealer', prelive_since: iso(now - 6 * MIN), next_stream_at: iso(now + 12 * MIN) });
+    if (login === prelive[1]) Object.assign(s, { status: 'prelive', language: langs[i % langs.length], category: 'Science & Technology', title: 'HTB Season — Insane box, no spoilers', prelive_since: iso(now - 2 * MIN) });
     return s;
   });
   const start = Math.ceil(now / (30 * MIN)) * 30 * MIN;
