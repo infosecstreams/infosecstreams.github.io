@@ -16,47 +16,38 @@ function restoreInitialSort() {
   currentSort = 'initial';
 }
 
+// Status column order: 🟢 live, then 🟡 getting ready, then offline.
+function statusRank(text) {
+  if (text.includes('🟢')) return 0;
+  if (text.includes('🟡')) return 1;
+  return 2;
+}
+
+// Sort rows by status (direction 1: live first, -1: offline first), keeping
+// the bot's 30-day activity order within each status.
+function sortByStatus(direction) {
+  Array.from(table.rows)
+    .map(r => [r, r.querySelector('td:nth-child(1)')?.innerText])
+    .filter(r => r[1] !== undefined)
+    .sort((a, b) => {
+      const byStatus = (statusRank(a[1]) - statusRank(b[1])) * direction;
+      if (byStatus !== 0) return byStatus;
+      return initialOrder.indexOf(a[0]) - initialOrder.indexOf(b[0]);
+    })
+    .forEach(r => r[0].parentNode.appendChild(r[0]));
+}
+
 function toggleOnlineSort(headerElement) {
   document.querySelectorAll('th[data-sort]').forEach(e => e.removeAttribute('data-sort'));
   switch (currentSort) {
     default:
     case 'initial':
-      Array.from(table.rows)
-        .map(r => [r, r.querySelector('td:nth-child(1)')?.innerText])
-        .filter(r => r[1] !== undefined)
-        .sort((a, b) => {
-          if (a[1].includes('🟢') && !b[1].includes('🟢')) {
-            return -1;
-          } else if (b[1].includes('🟢') && !a[1].includes('🟢')) {
-            return 1;
-          }
-
-          const aPos = initialOrder.indexOf(a[0]);
-          const bPos = initialOrder.indexOf(b[0]);
-
-          return aPos - bPos;
-        })
-        .forEach(r => r[0].parentNode.appendChild(r[0]));
+      sortByStatus(1);
       currentSort = 'online';
       headerElement.setAttribute('data-sort', 'forward');
       break;
     case 'online':
-      Array.from(table.rows)
-        .map(r => [r, r.querySelector('td:nth-child(1)')?.innerText])
-        .filter(r => r[1] !== undefined)
-        .sort((a, b) => {
-          if (a[1].includes('🟢') && !b[1].includes('🟢')) {
-            return 1;
-          } else if (b[1].includes('🟢') && !a[1].includes('🟢')) {
-            return -1;
-          }
-
-          const aPos = initialOrder.indexOf(a[0]);
-          const bPos = initialOrder.indexOf(b[0]);
-
-          return aPos - bPos;
-        })
-        .forEach(r => r[0].parentNode.appendChild(r[0]));
+      sortByStatus(-1);
       currentSort = 'offline';
       headerElement.setAttribute('data-sort', 'backward');
       break;

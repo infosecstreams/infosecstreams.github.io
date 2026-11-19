@@ -4,6 +4,8 @@ Congrats! You've found an actively maintained list of Information Security-relat
 
 Streamers that haven't had activity in the last month are moved to the [inactive streamers](/inactive) page.
 
+🟢 means live now. 🟡 means the streamer just switched to an infosec category and is probably about to go live; it clears after an hour if they don't.
+
 Questions? Contributions? Something else? Please read the [FAQ](/faq)!
 
 ## List of Streams (sorted) <a href="#" class="btn" id="settings-button">Settings</a>
