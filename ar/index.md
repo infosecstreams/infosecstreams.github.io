@@ -12,7 +12,7 @@
 | --: | --- | :-- | :-- |
 &nbsp; | `CyberTechVibes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberTechVibes) &nbsp; |
 &nbsp; | `BlaiseBits` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/BlaiseBits) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@blaisebits) |
-&nbsp; | `panekopanko` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/panekopanko) &nbsp; |
+🟡 | `panekopanko` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/panekopanko "Getting ready: Just Chatting (since 2026-11-20T18:48Z)") &nbsp; | EN
 &nbsp; | `nthsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/nthsec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@NTH-Security) |
 &nbsp; | `ChiefGyk3D` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ChiefGyk3D) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/chiefgyk3d) |
 &nbsp; | `c04tl` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/c04tl) &nbsp; 
