@@ -1,53 +1,30 @@
 ---
-// The list: one table. Without JS it's the ranked roster; live.ts fills status
-// and figures, moves live and getting-ready rows into the first body, and sorts.
+// Everyone, in 30-day rank order. live.ts moves whoever is live (or getting
+// ready) into the "Live now" list above and fills in the details.
 import { fmt, strings, type Lang } from '../lib/i18n';
 import type { Streamer } from '../lib/roster';
-interface Props { lang: Lang; streamers: Streamer[]; caption: string; }
-const { lang, streamers, caption } = Astro.props;
+interface Props { lang: Lang; streamers: Streamer[]; }
+const { lang, streamers } = Astro.props;
 const t = strings(lang).ui;
-const viewers = t.colViewers;
-const sortable = (key: string, label: string, cls = '') => ({ key, label, cls });
-const cols = [
-  sortable('status', t.colStatus, 'c-st'),
-  sortable('name', t.colStreamer, 'c-who'),
-  { key: '', label: t.colNow, cls: 'c-now' },
-  sortable('lang', t.language, 'c-lang'),
-  sortable('viewers', viewers, 'c-num c-v'),
-  sortable('hours', t.colHours, 'c-num c-h'),
-];
 ---
-<table class="board" id="board">
-  <caption class="sr">{caption}</caption>
-  <thead>
-    <tr>
-      {cols.map((c) => (
-        <th scope="col" class={c.cls} aria-sort={c.key === 'status' ? 'ascending' : undefined}>
-          {c.key ? <button type="button" data-sort={c.key} title={fmt(t.sortBy, { col: c.label })}>{c.label}<svg class="ar" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 4l3-3 3 3M2 6l3 3 3-3" /></svg></button> : c.label}
-        </th>
-      ))}
-      <th scope="col" class="c-lk"><span class="sr">{t.colLinks}</span></th>
-    </tr>
-  </thead>
-  <tbody class="band" id="band"></tbody>
-  <tbody class="rest" id="rest">
-    {streamers.map((s, i) => {
-      const tw = `https://www.twitch.tv/${s.login}`;
-      return (
-        <tr data-login={s.login.toLowerCase()} data-rank={i}>
-          <td class="c-st"></td>
-          <th scope="row" class="c-who">
-            <span class="av" aria-hidden="true">{s.login.slice(0, 1)}</span>
-            <a class="nm" href={tw} target="_blank" rel="noopener" title={fmt(t.onTwitch, { name: s.login })}>{s.login}</a>
-          </th>
-          <td class="c-now"></td>
-          <td class="c-lang"></td>
-          <td class="c-num c-v"></td>
-          <td class="c-num c-h"></td>
-          <td class="c-lk"><a class="watch" href={tw} target="_blank" rel="noopener" hidden>{t.watchShort}</a>{s.youtube && <a href={s.youtube} target="_blank" rel="noopener" aria-label={fmt(t.onYouTube, { name: s.login })}><svg class="ic" aria-hidden="true"><use href="#i-youtube" /></svg></a>}</td>
-        </tr>
-      );
-    })}
-  </tbody>
-</table>
+<ol class="list" id="rest">
+  {streamers.map((s, i) => {
+    const tw = `https://www.twitch.tv/${s.login}`;
+    return (
+      <li data-login={s.login.toLowerCase()} data-rank={i}>
+        <span class="th" aria-hidden="true"></span>
+        <span class="who">
+          <a class="nm" href={tw} target="_blank" rel="noopener" title={fmt(t.onTwitch, { name: s.login })}>{s.login}</a>
+          <span class="t"></span>
+          <span class="meta"></span>
+        </span>
+        <span class="h"></span>
+        <span class="lk">
+          {s.youtube && <a class="yt" href={s.youtube} target="_blank" rel="noopener" aria-label={fmt(t.onYouTube, { name: s.login })}><svg class="ic" aria-hidden="true"><use href="#i-youtube" /></svg></a>}
+          <a class="watch" href={tw} target="_blank" rel="noopener" hidden>{t.watchShort}</a>
+        </span>
+      </li>
+    );
+  })}
+</ol>
 <p class="empty" id="empty" role="status">{t.noMatches}</p>

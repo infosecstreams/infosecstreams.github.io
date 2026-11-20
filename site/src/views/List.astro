@@ -4,7 +4,7 @@
 import Base from '../layouts/Base.astro';
 import Roster from '../components/Roster.astro';
 import Toolbar from '../components/Toolbar.astro';
-import { fmt, md, strings, type Lang } from '../lib/i18n';
+import { md, strings, type Lang } from '../lib/i18n';
 import { active, inactive } from '../lib/roster';
 import { API_BASE, CALENDAR_URL, THUMB_TEMPLATE } from '../lib/api';
 
@@ -16,28 +16,25 @@ const home = page === '';
 const streamers = home ? active : inactive;
 const text = home ? all.home : all.inactive;
 const description = home ? all.meta.description : `${all.inactive.title}. ${all.inactive.intro}`;
-// PROTOTYPE: ?variant=a|b|c switches the list's structure; the switcher bar is
-// only built when PUBLIC_PROTOTYPE=1. Remove once a variant is chosen.
-const PROTOTYPE = import.meta.env.PUBLIC_PROTOTYPE === '1';
 ---
 <Base lang={lang} page={page} title={home ? 'InfoSec Streams' : text.title} description={description} live>
-  {PROTOTYPE && <script is:inline set:html={`document.documentElement.dataset.v=(new URLSearchParams(location.search).get('variant')||'a').toLowerCase()`} />}
   <div id="app" data-api={API_BASE} data-thumb={THUMB_TEMPLATE} data-ui={JSON.stringify(t)}>
     <div class="head">
       <h1>{home ? <><span class="sr">InfoSec Streams: </span>{t.heading}</> : text.title}</h1>
-      <p class="summary" id="badge" role="status"><i class="dot" aria-hidden="true"></i><span>{fmt(t.streamers, { n: streamers.length })}</span></p>
       {!home && <p class="lede" set:html={md(all.inactive.intro, lang)} />}
     </div>
 
     <Toolbar lang={lang} />
 
-    <section aria-labelledby="list-h">
-      <h2 class="sr" id="list-h">{text.listHeading}</h2>
-      <Roster lang={lang} streamers={streamers} caption={text.listHeading} />
-      <ul class="legend">
-        <li><span class="st on"><i class="dot"></i>{t.live}</span>{t.legendLive}</li>
-        <li><span class="st pre">{t.prelive}</span>{t.legendPrelive}</li>
-      </ul>
+    <section class="grp" id="live-sec" aria-labelledby="live-h" hidden>
+      <h2 id="live-h">{t.liveSection} <span class="n" id="live-n"></span></h2>
+      <ol class="list live" id="band"></ol>
+    </section>
+
+    <section class="grp" aria-labelledby="list-h">
+      <h2 id="list-h">{home ? t.allSection : text.listHeading} <span class="n">{streamers.length}</span><small id="list-note">{t.allNote}</small></h2>
+      <p class="status" id="badge" role="status"></p>
+      <Roster lang={lang} streamers={streamers} />
       <noscript><p class="noscript">{t.noScript}</p></noscript>
     </section>
 
@@ -71,17 +68,5 @@ const PROTOTYPE = import.meta.env.PUBLIC_PROTOTYPE === '1';
       </div>
     </div>
   </div>
-  {PROTOTYPE && (
-    <nav class="proto" aria-label="Prototype variants">
-      <button type="button" data-step="-1" aria-label="Previous variant">‹</button>
-      <span id="proto-label"></span>
-      <button type="button" data-step="1" aria-label="Next variant">›</button>
-    </nav>
-    <script is:inline set:html={`(function(){var V=[['a','Board'],['b','Band'],['c','Directory']],h=document.documentElement,l=document.getElementById('proto-label');
-function show(){var i=V.findIndex(function(v){return v[0]===h.dataset.v});if(i<0)i=0;l.textContent=V[i][0].toUpperCase()+' · '+V[i][1];return i}
-function go(d){var i=(show()+d+V.length)%V.length;h.dataset.v=V[i][0];var u=new URL(location.href);u.searchParams.set('variant',V[i][0]);history.replaceState(null,'',u);show()}
-document.querySelectorAll('.proto button').forEach(function(b){b.onclick=function(){go(+b.dataset.step)}});
-document.addEventListener('keydown',function(e){var t=e.target;if(/INPUT|SELECT|TEXTAREA/.test(t.tagName)||t.isContentEditable)return;if(e.key==='ArrowLeft')go(-1);if(e.key==='ArrowRight')go(1)});show()})()`} />
-  )}
   <script src="../scripts/live.ts"></script>
 </Base>

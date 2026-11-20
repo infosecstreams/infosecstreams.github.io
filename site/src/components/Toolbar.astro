@@ -4,20 +4,21 @@ interface Props { lang: Lang; }
 const { lang } = Astro.props;
 const t = strings(lang).ui;
 ---
-<!-- Shown only with JS (html.js); without it the full list is simply there. -->
+<!-- Shown only with JS (html.js); without it the full ranked list is simply there. -->
 <div class="tools" role="search">
-  <div class="tools-row">
-    <label class="search">
-      <svg class="ic" aria-hidden="true"><use href="#i-search" /></svg>
-      <span class="sr">{t.search}</span>
-      <input id="q" type="search" placeholder={t.searchPlaceholder} autocomplete="off" spellcheck="false" enterkeyhint="search" />
-      <output class="count" id="count" for="q f-lang f-live"></output>
-      <kbd aria-hidden="true" title={t.keyHint}>/</kbd>
-    </label>
-    <select id="f-lang" aria-label={t.language}><option value="">{t.allLanguages}</option></select>
-    <label class="chk"><input id="f-live" type="checkbox" />{t.liveOnly}</label>
-    <button id="clear" type="button" hidden>{t.clear}</button>
-  </div>
-  <!-- Topic chips come from live titles and tags; fixed height so filling them never moves the page. -->
-  <div class="topics" id="topics" role="group" aria-label={t.topic}></div>
+  <label class="search">
+    <svg class="ic" aria-hidden="true"><use href="#i-search" /></svg>
+    <span class="sr">{t.search}</span>
+    <input id="q" type="search" placeholder={t.searchPlaceholder} autocomplete="off" spellcheck="false" enterkeyhint="search" />
+    <kbd aria-hidden="true" title={t.keyHint}>/</kbd>
+  </label>
+  <select id="f-lang" aria-label={t.language}><option value="">{t.allLanguages}</option></select>
+  <select id="f-sort" aria-label={t.sortLabel}>
+    <option value="status">{t.sortLive}</option>
+    <option value="hours">{t.sortHours}</option>
+    <option value="viewers">{t.sortViewers}</option>
+    <option value="name">{t.sortName}</option>
+    <option value="lang">{t.sortLang}</option>
+  </select>
+  <label class="chk"><input id="f-live" type="checkbox" />{t.liveOnly}</label>
 </div>

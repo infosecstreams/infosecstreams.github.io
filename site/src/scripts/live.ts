@@ -102,10 +102,10 @@ function start(app: HTMLElement) {
     return t;
   };
 
-  const q = $<HTMLInputElement>('#q'), fLang = $<HTMLSelectElement>('#f-lang'), fLive = $<HTMLInputElement>('#f-live');
-  const topicsEl = $('#topics'), board = $<HTMLTableElement>('#board'), band = $('#band'), rest = $('#rest');
-  const rows = [...app.querySelectorAll<HTMLTableRowElement>('#board tr[data-login]')];
-  const sched = $('#sched'), regular = $('#regular'), badge = $('#badge'), count = $('#count'), empty = $('#empty');
+  const q = $<HTMLInputElement>('#q'), fLang = $<HTMLSelectElement>('#f-lang'), fLive = $<HTMLInputElement>('#f-live'), fSort = $<HTMLSelectElement>('#f-sort');
+  const band = $('#band'), rest = $('#rest'), liveSec = $('#live-sec'), liveN = $('#live-n'), listNote = $('#list-note');
+  const rows = [...app.querySelectorAll<HTMLLIElement>('li[data-login]')];
+  const sched = $('#sched'), regular = $('#regular'), badge = $('#badge'), empty = $('#empty');
 
   // ---- filters and sort (persisted in the URL query) ----
   type SortKey = 'status' | 'name' | 'lang' | 'viewers' | 'hours';
@@ -113,70 +113,44 @@ function start(app: HTMLElement) {
   const params = new URLSearchParams(location.search);
   if (q) q.value = params.get('q') ?? '';
   if (fLive) fLive.checked = params.get('live') === '1';
-  let topic = params.get('topic') ?? '';
   const wantedLang = params.get('lang') ?? '';
-  const [sk, sd] = (params.get('sort') ?? '').split('-');
-  let sortKey: SortKey = SORTS.includes(sk as SortKey) ? (sk as SortKey) : 'status';
-  // 1 = the column's natural order (live first, A-Z, most viewers, most hours); -1 reversed.
-  let sortDir = sd === 'rev' ? -1 : 1;
+  let sortKey: SortKey = SORTS.includes(params.get('sort') as SortKey) ? (params.get('sort') as SortKey) : 'status';
+  if (fSort) fSort.value = sortKey;
 
-  function matches(s: Streamer | undefined, login: string, topics = topicsFor(s)) {
+  function matches(s: Streamer | undefined, login: string) {
     const text = (q?.value ?? '').trim().toLowerCase();
     if (fLive?.checked && s?.status !== 'online' && s?.status !== 'prelive') return false;
     if (fLang?.value && s?.language !== fLang.value) return false;
-    if (topic && !topics.includes(topic)) return false;
     if (!text) return true;
-    const hay = `${login} ${s?.display_name ?? ''} ${s?.title ?? ''} ${s?.category ?? ''} ${topics.join(' ')}`.toLowerCase();
+    const hay = `${login} ${s?.display_name ?? ''} ${s?.title ?? ''} ${s?.category ?? ''} ${topicsFor(s).join(' ')}`.toLowerCase();
     return text.split(/\s+/).every((w) => hay.includes(w));
   }
 
   function apply() {
-    let shown = 0;
-    for (const tr of rows) {
-      const ok = matches(byLogin.get(tr.dataset.login!), tr.dataset.login!);
-      tr.hidden = !ok;
-      if (ok) shown++;
+    let shown = 0, shownLive = 0;
+    for (const li of rows) {
+      const ok = matches(byLogin.get(li.dataset.login!), li.dataset.login!);
+      li.hidden = !ok;
+      if (ok) { shown++; if (li.parentElement === band) shownLive++; }
     }
-    for (const b of topicsEl?.querySelectorAll<HTMLButtonElement>('button') ?? []) b.setAttribute('aria-pressed', String(b.dataset.topic === topic));
-    if (count) count.textContent = f('showing', { shown, total: rows.length });
+    if (liveSec) liveSec.hidden = shownLive === 0;
     empty?.classList.toggle('show', shown === 0);
-    // Keep params this script doesn't own (e.g. ?variant=).
+    // Keep params this script doesn't own.
     const p = new URLSearchParams(location.search);
-    for (const k of ['q', 'lang', 'topic', 'live', 'sort']) p.delete(k);
+    for (const k of ['q', 'lang', 'live', 'sort', 'topic', 'variant']) p.delete(k);
     if (q?.value.trim()) p.set('q', q.value.trim());
     if (fLang?.value) p.set('lang', fLang.value);
-    if (topic) p.set('topic', topic);
     if (fLive?.checked) p.set('live', '1');
-    if (sortKey !== 'status' || sortDir !== 1) p.set('sort', sortDir === 1 ? sortKey : `${sortKey}-rev`);
+    if (sortKey !== 'status') p.set('sort', sortKey);
     const s = p.toString();
-    const clear = $('#clear');
-    if (clear) clear.hidden = !['q', 'lang', 'topic', 'live'].some((k) => p.has(k));
     history.replaceState(history.state, '', s ? `?${s}${location.hash}` : location.pathname + location.hash);
   }
 
   q?.addEventListener('input', apply);
   for (const el of [fLang, fLive]) el?.addEventListener('change', apply);
-  topicsEl?.addEventListener('click', (e) => {
-    const b = (e.target as HTMLElement).closest<HTMLButtonElement>('button[data-topic]');
-    if (!b) return;
-    topic = topic === b.dataset.topic ? '' : b.dataset.topic!;
-    apply();
-  });
-  $('#clear')?.addEventListener('click', () => {
-    if (q) q.value = '';
-    if (fLang) fLang.value = '';
-    if (fLive) fLive.checked = false;
-    topic = '';
-    apply();
-    q?.focus();
-  });
-  board?.querySelector('thead')?.addEventListener('click', (e) => {
-    const b = (e.target as HTMLElement).closest<HTMLButtonElement>('button[data-sort]');
-    if (!b) return;
-    const k = b.dataset.sort as SortKey;
-    sortDir = k === sortKey ? -sortDir : 1;
-    sortKey = k;
-    renderRows(true);
+  fSort?.addEventListener('change', () => {
+    sortKey = fSort.value as SortKey;
+    renderRows();
     apply();
   });
   document.addEventListener('keydown', (e) => {
@@ -193,20 +167,6 @@ function start(app: HTMLElement) {
 
   // ---- rendering ----
   const name = (s: { display_name?: string; login: string }) => esc(s.display_name || s.login);
-  const since = (iso: string) => `<span data-since="${esc(iso)}">${esc(duration(ago(iso)))}</span>`;
-  const JUST_MS = 10 * 60_000;
-
-  function renderTopics(live: Streamer[]) {
-    if (!topicsEl) return;
-    const counts = new Map<string, number>();
-    for (const s of live) for (const t of topicsFor(s)) counts.set(t, (counts.get(t) ?? 0) + 1);
-    if (topic && !counts.has(topic)) counts.set(topic, 0);
-    const order = TOPICS.map(([t]) => t).filter((t) => counts.has(t));
-    const key = order.map((t) => `${t}:${counts.get(t)}`).join(',');
-    if (topicsEl.dataset.k === key) return;
-    topicsEl.dataset.k = key;
-    topicsEl.innerHTML = order.map((t) => `<button type="button" data-topic="${esc(t)}" aria-pressed="${t === topic}">${esc(t)} <b>${counts.get(t)}</b></button>`).join('');
-  }
 
   function fillLangs() {
     if (!fLang) return;
@@ -227,63 +187,51 @@ function start(app: HTMLElement) {
     const hours = (sb?.hours_30d ?? -1) - (sa?.hours_30d ?? -1);
     switch (sortKey) {
       // Live, then getting ready, then most streamed in 30 days (as the old sort.js).
-      case 'status': return (statusRank(sa) - statusRank(sb)) * sortDir || hours || rank;
-      case 'name': return collF().compare(a.dataset.login!, b.dataset.login!) * sortDir;
+      case 'status': return statusRank(sa) - statusRank(sb) || hours || rank;
+      case 'hours': return hours || rank;
+      case 'viewers': return (sb?.viewers ?? -1) - (sa?.viewers ?? -1) || statusRank(sa) - statusRank(sb) || hours || rank;
+      case 'name': return collF().compare(a.dataset.login!, b.dataset.login!);
       case 'lang': {
         const la = langName(sa?.language), lb = langName(sb?.language);
-        // Unknown language last in both directions.
-        return (!la ? 1 : 0) - (!lb ? 1 : 0) || collF().compare(la, lb) * sortDir || statusRank(sa) - statusRank(sb) || hours || rank;
+        return (!la ? 1 : 0) - (!lb ? 1 : 0) || collF().compare(la, lb) || hours || rank;
       }
-      case 'viewers': return ((sb?.viewers ?? -1) - (sa?.viewers ?? -1)) * sortDir || statusRank(sa) - statusRank(sb) || hours || rank;
-      case 'hours': return hours * sortDir || rank;
     }
   }
 
-  function renderRows(resorted = false) {
+  function renderRows() {
     const now = Date.now();
-    for (const tr of rows) {
-      const s = byLogin.get(tr.dataset.login!);
+    for (const li of rows) {
+      const s = byLogin.get(li.dataset.login!);
       const online = s?.status === 'online', pre = s?.status === 'prelive';
-      const just = online && !!s!.started_at && now - Date.parse(s!.started_at) < JUST_MS;
-      const k = `${s?.status}|${s?.title}|${s?.viewers}|${s?.started_at}|${s?.hours_30d}|${s?.language}|${just}|${online ? Math.floor(now / 300000) : ''}`;
-      if (tr.dataset.k === k) continue;
-      tr.dataset.k = k;
-      tr.className = online ? `on${just ? ' just' : ''}` : pre ? 'pre' : '';
-      const cell = (c: string) => tr.querySelector<HTMLElement>(c)!;
-      cell('.c-st').innerHTML = online
-        ? `<span class="st on"><i class="dot"></i>${esc(ui.live)}</span><span class="up">${since(s!.started_at ?? new Date().toISOString())}</span>${just ? `<span class="jl">${esc(ui.justLive)}</span>` : ''}`
-        : pre ? `<span class="st pre">${esc(ui.prelive)}</span>` : `<span class="st off">${esc(ui.offline)}</span>`;
-      tr.querySelector<HTMLElement>('.watch')!.hidden = !online;
-      const topics = topicsFor(s);
-      // The preview belongs to the stream, so it sits with the title.
-      const th = online
-        ? `<a class="th" href="${twitch(s!.login)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${thumbImg(s!, 192, 108, 'loading="lazy"')}<span class="pill">${esc(ui.live)}</span>${s!.viewers != null ? `<span class="vw">${esc(f('viewers', { n: num(s!.viewers) }))}</span>` : ''}</a>`
-        : pre ? `<span class="th" aria-hidden="true"><span class="pill pre">${esc(ui.prelive)}</span></span>` : '';
-      cell('.c-now').innerHTML = online || pre
-        ? `<div class="nw">${th}<div class="tx"><span class="t" title="${esc(s!.title)}">${esc(s!.title || s!.category || '')}</span>`
-          + `<span class="tags">${[s!.category, ...topics].filter(Boolean).map((x) => `<span>${esc(x)}</span>`).join('')}</span></div></div>`
+      const k = `${s?.status}|${s?.title}|${s?.viewers}|${s?.started_at}|${s?.hours_30d}|${s?.language}|${online ? Math.floor(now / 300000) : ''}`;
+      if (li.dataset.k === k) continue;
+      li.dataset.k = k;
+      li.className = online ? 'on' : pre ? 'pre' : '';
+      const el = (c: string) => li.querySelector<HTMLElement>(c)!;
+      el('.th').innerHTML = online
+        ? thumbImg(s!, 176, 99, 'loading="lazy"') + `<span class="pill">${esc(ui.live)}</span>${s!.viewers != null ? `<span class="vw">${esc(f('viewers', { n: num(s!.viewers) }))}</span>` : ''}`
+        : pre ? `<span class="pill pre">${esc(ui.prelive)}</span>` : '';
+      el('.t').textContent = online || pre ? s!.title || '' : '';
+      el('.t').title = online || pre ? s!.title || '' : '';
+      // One quiet line: how long, what, which language.
+      const up = online && s!.started_at ? `<span data-since="${esc(s!.started_at)}">${esc(duration(ago(s!.started_at)))}</span>` : '';
+      el('.meta').innerHTML = online || pre
+        ? [up, esc(s!.category ?? ''), esc(langName(s!.language))].filter(Boolean).join(' · ')
         : '';
-      cell('.c-lang').textContent = online || pre ? langName(s!.language) : '';
-      cell('.c-v').textContent = online && s!.viewers != null ? num(s!.viewers) : '';
-      cell('.c-h').textContent = s?.hours_30d != null ? String(Math.round(s.hours_30d)) : '';
-      cell('.c-h').title = s?.hours_30d != null ? f('hours30d', { n: Math.round(s.hours_30d) }) : '';
+      el('.h').textContent = s?.hours_30d != null ? f('hoursShort', { n: Math.round(s.hours_30d) }) : '';
+      el('.h').title = s?.hours_30d != null ? f('hours30d', { n: Math.round(s.hours_30d) }) : '';
+      li.querySelector<HTMLElement>('.watch')!.hidden = !online;
     }
-    if (!board) return;
-    // Live and getting-ready rows lead in their own body when sorted by status.
+    // Live first: live and getting-ready streamers move up into "Live now".
     const want = [...rows].sort(compare);
-    const lead = sortKey === 'status' && sortDir === 1 ? want.filter((tr) => statusRank(byLogin.get(tr.dataset.login!)) < 2) : [];
-    const tail = want.filter((tr) => !lead.includes(tr));
-    const same = (body: Element | null, list: HTMLElement[]) => !!body && body.children.length === list.length && list.every((tr, i) => body.children[i] === tr);
-    if (!same(band, lead) || !same(rest, tail) || resorted) {
-      band?.replaceChildren(...lead);
-      rest?.replaceChildren(...tail);
-    }
-    board.classList.toggle('has-band', lead.length > 0);
-    for (const th of board.querySelectorAll<HTMLElement>('thead th')) {
-      const key = th.querySelector<HTMLElement>('button')?.dataset.sort;
-      if (key) th.setAttribute('aria-sort', key === sortKey ? (sortDir === 1 ? 'ascending' : 'descending') : 'none');
-    }
-    board.classList.add('ready');
+    const lead = sortKey === 'status' ? want.filter((li) => statusRank(byLogin.get(li.dataset.login!)) < 2) : [];
+    const tail = want.filter((li) => !lead.includes(li));
+    const same = (list: Element | null, items: HTMLElement[]) => !!list && list.children.length === items.length && items.every((li, i) => list.children[i] === li);
+    if (!same(band, lead)) band?.replaceChildren(...lead);
+    if (!same(rest, tail)) rest?.replaceChildren(...tail);
+    if (liveN) liveN.textContent = String(lead.filter((li) => li.classList.contains('on')).length || '');
+    if (listNote) listNote.hidden = sortKey !== 'status' && sortKey !== 'hours';
+    app.classList.add('ready');
   }
 
   // Yield to the browser between render steps so no single task blocks input.
@@ -295,14 +243,10 @@ function start(app: HTMLElement) {
     const vals = [...byLogin.values()];
     const listed = new Set(rows.map((r) => r.dataset.login));
     const n = vals.filter((s) => s.status === 'online' && listed.has(s.login.toLowerCase())).length;
-    const pre = vals.filter((s) => s.status === 'prelive' && listed.has(s.login.toLowerCase())).length;
     document.title = n ? `${f('liveNow', { n })} · ${baseTitle}` : baseTitle;
     document.documentElement.classList.toggle('on-air', n > 0);
-    if (badge) {
-      badge.classList.toggle('on', n > 0);
-      badge.lastElementChild!.textContent = statusOk === false ? ui.unavailable : f('summary', { live: n, pre, n: rows.length });
-    }
-    renderTopics(vals.filter((s) => s.status !== 'offline'));
+    // Said once, quietly, above the list: only when nobody is live or the data is missing.
+    if (badge) badge.textContent = statusOk === false ? ui.unavailable : n ? '' : ui.nobodyLive;
     await yieldTask();
     if (seq !== renderSeq) return; // a newer response is already rendering
     renderRows();
@@ -368,7 +312,7 @@ function start(app: HTMLElement) {
   const warm = [numF, relF, clockF, dayF, namesF, collF];
   const warmNext = () => { const w = warm.shift(); if (w) { w(); setTimeout(warmNext, 0); } };
   const go = () => {
-    setTimeout(() => board?.classList.add('ready'), 2500);
+    setTimeout(() => app.classList.add('ready'), 2500);
     warmNext();
     let raw: Streamer[] = [];
     poller('status.json', 30_000, (text) => {

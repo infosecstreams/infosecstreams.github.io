@@ -66,7 +66,16 @@
     "scheduleHeading": "Regular schedules",
     "scheduleNote": "Only streamers who kept at least 3 of every 4 of their scheduled streams.",
     "summary": "{live} live · {pre} getting ready · {n} streamers",
-    "watchShort": "Watch"
+    "watchShort": "Watch",
+    "sortLabel": "Sort",
+    "sortLive": "Live first",
+    "sortHours": "Most streamed",
+    "sortViewers": "Most viewers",
+    "sortName": "Name",
+    "sortLang": "Language",
+    "allSection": "All streamers",
+    "allNote": "ranked by hours streamed in the last 30 days",
+    "hoursShort": "{n} h"
   },
   "home": {
     "title": "InfoSec Streams",
