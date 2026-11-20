@@ -27,7 +27,7 @@ Streamers that haven't had activity in the last month are moved to the [inactive
 &nbsp; | `B7H30` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/B7H30) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@theo6580) |
 &nbsp; | `pebl3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pebl3) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Pebble1) |
 &nbsp; | `purplehaxttv` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/purplehaxttv) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@purplehaxttv) |
-🟡 | `kristiee` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kristiee "Getting ready: Software and Game Development (since 2026-11-20T19:15Z)") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@riven1337gg) | EN
+&nbsp; | `kristiee` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kristiee) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@riven1337gg) 
 &nbsp; | `ProfitzTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ProfitzTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@profitztv) |
 &nbsp; | `ProbablyOverbuilt` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ProbablyOverbuilt) &nbsp; |
 🟢 | `ritsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ritsec "Science & Technology, Tags: English") &nbsp; | EN
