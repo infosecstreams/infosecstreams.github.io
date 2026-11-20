@@ -5,7 +5,7 @@
   },
   "ui": {
     "heading": "Live security streams",
-    "tagline": "Who's streaming security on Twitch right now: Hack The Box and TryHackMe boxes, red and blue team, CTFs, malware analysis.",
+    "tagline": "Who's streaming security on Twitch right now.",
     "onNow": "On now",
     "showAll": "Show all {n}",
     "showLess": "Show less",
@@ -57,13 +57,11 @@
     "startsIn": "starts {t}",
     "nextUp": "Next up: {name}, {t}",
     "colHours": "Hours streamed, last 30 days",
-    "scheduleHeading": "Regular schedules",
-    "scheduleNote": "Only streamers who kept at least 3 of every 4 of their scheduled streams.",
+    "scheduleHeading": "Schedule",
     "watchShort": "Watch",
     "allSection": "All streamers",
     "hoursShort": "{n} h",
-    "sortedBy": "Sort by {col}",
-    "rackCaption": "One sled per streamer, most hours first. LED: live. Bar: hours streamed in the last 30 days."
+    "sortedBy": "Sort by {col}"
   },
   "home": {
     "title": "InfoSec Streams",

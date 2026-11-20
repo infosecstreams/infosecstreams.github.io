@@ -1,6 +1,6 @@
 ---
 // Home hero: a terminal beside a server rack drawn by Rive's
-// low-level renderer. One sled per listed streamer, most hours first; its LED
+// low-level renderer. One sled per listed streamer, in random slots; its LED
 // is live status, its bar 30-day hours. Until the runtime has drawn (and with
 // JS off) the same rack shows as a static SVG, so nothing moves on load.
 import rackSvg from '../assets/rack.svg?raw';
@@ -13,7 +13,6 @@ const t = strings(lang).ui;
 <section class="hero" id="hero" aria-labelledby="hero-h" data-geo={JSON.stringify(geo)}>
   <div class="hero-txt">
     <h1 id="hero-h"><span class="sr">InfoSec Streams: </span>{t.heading}</h1>
-    <p class="hero-sub">{t.tagline}</p>
     <div class="term">
       <div class="term-bar" aria-hidden="true"><span class="on">shell</span><span>~/infosec-streams</span></div>
       <div class="term-body" id="term" aria-hidden="true">
@@ -23,11 +22,10 @@ const t = strings(lang).ui;
       </div>
     </div>
   </div>
-  <figure class="hero-rack">
+  <div class="hero-rack">
     <div class="rack-box" id="rack-box">
       <Fragment set:html={rackSvg} />
       <canvas id="rack-c" aria-hidden="true"></canvas>
     </div>
-    <figcaption><span>fig. 1</span> {t.rackCaption}</figcaption>
-  </figure>
+  </div>
 </section>

@@ -95,8 +95,7 @@ input, select, button { font: inherit; color: inherit; }
 /* Hero: a terminal beside the rack (src/scripts/hero.ts) */
 .hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.12fr); gap: 2.5rem; align-items: center; margin: 2.75rem 0 2.5rem; }
 .hero h1 { margin: 0; font-size: clamp(2rem, 1.6rem + 1.6vw, 2.75rem); font-weight: 400; letter-spacing: -0.025em; line-height: 1.1; }
-.hero-sub { margin: 0.75rem 0 0; color: var(--steel); max-width: 34rem; }
-.term { margin-top: 1.5rem; border: 1px solid var(--line); border-radius: var(--r); background: var(--carbon); }
+.term { margin-top: 1.75rem; border: 1px solid var(--line); border-radius: var(--r); background: var(--carbon); }
 .term-bar { display: flex; align-items: center; gap: 1.25rem; height: 2.25rem; padding: 0 1rem; border-bottom: 1px solid var(--line); font: var(--label); letter-spacing: 0.1em; text-transform: uppercase; color: var(--steel); }
 .term-bar .on { color: var(--led); height: 100%; display: flex; align-items: center; box-shadow: inset 0 -1px 0 var(--led); }
 .term-bar span:last-child { margin-inline-start: auto; text-transform: none; letter-spacing: 0; }
@@ -125,8 +124,6 @@ input, select, button { font: inherit; color: inherit; }
 .rack-box canvas { opacity: 0; transition: opacity 0.4s; }
 .rack-box.rive-on canvas { opacity: 1; }
 .rack-box.rive-on svg { visibility: hidden; transition: visibility 0s 0.4s; }
-.hero-rack figcaption { display: flex; align-items: baseline; gap: 0.6rem; margin-top: 0.4rem; padding-inline: 7%; font: 0.7rem/1.5 var(--mono); color: var(--steel); }
-.hero-rack figcaption span { flex: none; padding: 0.1rem 0.35rem; border: 1px solid var(--line-hi); border-radius: var(--r); text-transform: uppercase; letter-spacing: 0.08em; }
 @media (max-width: 52rem) {
   .hero { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; margin-top: 2rem; }
 }
@@ -163,6 +160,10 @@ html.js #app:not(.ready) .list { visibility: hidden; }
 .list li:first-child { border-top: 0; }
 .list li[hidden] { display: none; }
 .list li:hover { background: var(--graphite); }
+/* Pinned from the rack in the hero. */
+.list li.pinned { background: var(--graphite); box-shadow: inset 0 0 0 1px var(--led-dim); }
+.list li.pinned .nm { color: var(--led); }
+.list li.pinned .m i.lit { background: var(--led); }
 .th { display: none; }
 .who { min-width: 0; }
 .nm { display: block; font: 500 0.9rem var(--mono); color: var(--bone); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -222,7 +223,6 @@ html.js #app:not(.ready) .list { visibility: hidden; }
 .regular[hidden] { display: none; }
 .regular-h { display: flex; align-items: center; gap: 0.6rem; height: 2.5rem; padding: 0 1rem; border-bottom: 1px solid var(--line); }
 .regular h2 { margin: 0; font: var(--label); letter-spacing: 0.1em; text-transform: uppercase; color: var(--silver); }
-.regular .note { margin: 0; padding: 0.6rem 1rem; border-bottom: 1px solid var(--line); color: var(--steel); font-size: 0.85rem; }
 .cal { display: inline-flex; align-items: center; gap: 0.4rem; margin-inline-start: auto; font: var(--label); letter-spacing: 0.06em; text-transform: uppercase; color: var(--led); }
 .cal:hover { color: var(--bone); }
 .sched { list-style: none; margin: 0; padding: 0; }

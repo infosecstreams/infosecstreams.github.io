@@ -5,7 +5,7 @@ import { SESSIONS } from './sessions';
 // is never used. /rive/rive.js + rive.wasm are @rive-app/webgl2 2.51.0,
 // vendored; /rive/rack.riv comes from scripts/rive/build_rack.py.
 //
-// One sled per listed streamer, most hours first. live.ts sends the data in a
+// One sled per listed streamer, in a random slot. live.ts sends the data in a
 // 'streams' event; this script lights LEDs, sizes bars, follows the cursor and
 // writes `whois` for the sled under it into the terminal (real text).
 
@@ -39,15 +39,25 @@ function startHero(hero: HTMLElement) {
   const canvas = document.getElementById('rack-c') as HTMLCanvasElement;
   const reduce = matchMedia('(prefers-reduced-motion: reduce)');
   const esc = (s = '') => s.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
-  const twitch = (s: Streamer) => `https://www.twitch.tv/${encodeURIComponent(s.login)}`;
 
   // ---- data ----
-  let list: Streamer[] = [];
+  // Each streamer gets a random sled the first time it is seen and keeps it
+  // while the page is open (so the rack doesn't read as a ranking).
+  let list: (Streamer | undefined)[] = [];
   let maxH = 1;
+  const slotOf = new Map<string, number>();
+  const free = [...geo.sleds.keys()];
+  for (let i = free.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [free[i], free[j]] = [free[j], free[i]]; }
   document.addEventListener('streams', (e) => {
     const d = (e as CustomEvent<{ ok: boolean; streamers: Streamer[] }>).detail;
-    list = d.streamers.slice(0, geo.sleds.length);
-    maxH = Math.max(1, ...list.map((s) => s.hours_30d ?? 0));
+    list = new Array(geo.sleds.length);
+    for (const s of d.streamers) {
+      const id = s.login.toLowerCase();
+      let k = slotOf.get(id);
+      if (k == null) { k = free.shift(); if (k == null) continue; slotOf.set(id, k); }
+      list[k] = s;
+    }
+    maxH = Math.max(1, ...list.map((s) => s?.hours_30d ?? 0));
     paintNodes();
     kick();
   });
@@ -110,7 +120,6 @@ function startHero(hero: HTMLElement) {
     const kept = rec.filter(([, v]) => v != null && v !== '');
     return ['<p class="out">{</p>', ...kept.map(([k, v], i) => {
       const val = typeof v === 'number' ? `<span class="n">${v}</span>`
-        : k === 'login' ? `<span class="s">"<a href="${twitch(s)}" target="_blank" rel="noopener">${esc(String(v))}</a>"</span>`
         : `<span class="s">${esc(JSON.stringify(v))}</span>`;
       return `<p class="out">  <span class="k">"${k}"</span>: ${val}${i < kept.length - 1 ? ',' : ''}</p>`;
     }), '<p class="out">}</p>'];
@@ -140,25 +149,32 @@ function startHero(hero: HTMLElement) {
     sel = i;
     kick();
     box.style.cursor = i >= 0 && list[i] ? 'pointer' : '';
-    if (i >= 0 && list[i]) showStreamer(list[i]); else backToSession();
+    if (i >= 0 && list[i]) showStreamer(list[i]!); else backToSession();
   }
+  // Click (or tap) pins a streamer: the terminal keeps their record and their
+  // row in the list below is marked. Click it again, empty space, or Esc to let go.
+  let pinned = -1;
+  function markRow(login?: string) {
+    for (const li of document.querySelectorAll('li.pinned')) li.classList.remove('pinned');
+    if (login) document.querySelector(`li[data-login="${CSS.escape(login.toLowerCase())}"]`)?.classList.add('pinned');
+  }
+  function pin(i: number) { pinned = i; select(i); markRow(list[i]!.login); }
+  function unpin() { pinned = -1; markRow(); select(-1); }
+  addEventListener('keydown', (e) => { if (e.key === 'Escape' && pinned >= 0) unpin(); });
   box.addEventListener('pointermove', (e) => {
     const b = box.getBoundingClientRect();
     px = (e.clientX - b.left) / b.width; py = (e.clientY - b.top) / b.height;
     kick();
     const [x, y] = toArt(e);
     const i = hit(x, y);
-    if (e.pointerType === 'mouse') select(i >= 0 && list[i] ? i : -1);
+    if (e.pointerType === 'mouse' && pinned < 0) select(i >= 0 && list[i] ? i : -1);
   });
-  box.addEventListener('pointerleave', (e) => { if (e.pointerType !== 'mouse') return; px = py = 0.5; select(-1); kick(); });
-  // Mouse: click opens Twitch. Touch: the first tap selects, a second tap on the same sled opens it.
-  let armed = -1;
+  box.addEventListener('pointerleave', (e) => { if (e.pointerType !== 'mouse') return; px = py = 0.5; if (pinned < 0) select(-1); kick(); });
   box.addEventListener('pointerdown', (e) => {
     const [x, y] = toArt(e);
     const i = hit(x, y);
-    if (i < 0 || !list[i]) return;
-    if (e.pointerType === 'mouse' || armed === i) { window.open(twitch(list[i]), '_blank', 'noopener'); armed = -1; return; }
-    armed = i; select(i);
+    if (i >= 0 && list[i] && i !== pinned) pin(i);
+    else if (pinned >= 0) unpin();
   });
 
 
@@ -229,7 +245,7 @@ function startHero(hero: HTMLElement) {
         const k = 1 - Math.exp(-dt / 0.07);
         if (tgt) { cur.x += (tgt[0] - cur.x) * (cur.s > 0.02 ? k : 1); cur.y += (tgt[1] - cur.y) * (cur.s > 0.02 ? k : 1); }
         cur.s += ((tgt ? 1 : 0) - cur.s) * k;
-        cur.bar += (((tgt && list[sel]?.hours_30d) ? list[sel].hours_30d! / maxH : 0) - cur.bar) * k;
+        cur.bar += (((tgt && list[sel]?.hours_30d) ? list[sel]!.hours_30d! / maxH : 0) - cur.bar) * k;
         cur.px += ((px - 0.5) * m - cur.px) * k; cur.py += ((py - 0.5) * m - cur.py) * k;
         selNode.x = cur.x; selNode.y = cur.y; selNode.scaleX = selNode.scaleY = cur.s < 0.02 ? 0 : 1;
         selBar.scaleX = Math.max(0.001, cur.bar);
