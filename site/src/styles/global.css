@@ -1,7 +1,8 @@
 /* InfoSec Streams — one stylesheet, inlined into every page.
    Identity: a ruled catalog of live streams. Ink on paper (or bone on carbon),
-   square corners, one condensed display face, and one colour, tally red, that
-   only ever means "live". */
+   square corners, one condensed display face. Two colours with one job each:
+   tally red only ever means "live"; the hi-vis marker (--hi, always with ink
+   text on it) marks the thing you act on or have selected. */
 @font-face {
   font-family: "Big Shoulders";
   src: url("/fonts/bigshoulders-latin.woff2") format("woff2");
@@ -25,6 +26,8 @@
   --muted: #5e5d54;
   --live: #b92318;
   --pre: #7a4a00;
+  --hi: #d8ff00;
+  --ink: #16160f;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -126,9 +129,8 @@ p.spot-t { font: 400 1.05rem/1.45 var(--sans); color: var(--soft); -webkit-line-
 .meters dt { color: var(--muted); font-size: 0.74rem; white-space: nowrap; }
 .meters dd { margin: 0; font: 800 1.6rem/1.15 var(--disp); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .acts { display: flex; align-items: center; gap: 1.1rem; margin-top: 1rem; flex-wrap: nowrap; overflow: hidden; }
-.btn { display: inline-flex; align-items: center; gap: 0.5rem; height: 2.6rem; padding: 0 1.1rem; background: var(--text); color: var(--bg); font-weight: 600; font-size: 0.92rem; white-space: nowrap; flex: none; }
-.btn:hover { background: var(--live); color: #fff; }
-@media (prefers-color-scheme: dark) { .btn:hover { color: #0e0e0d; } }
+.btn { display: inline-flex; align-items: center; gap: 0.5rem; height: 2.6rem; padding: 0 1.1rem; background: var(--hi); color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--ink); font-weight: 650; font-size: 0.92rem; white-space: nowrap; flex: none; }
+.btn:hover { background: var(--text); color: var(--bg); box-shadow: none; }
 .btn2 { color: var(--soft); font-size: 0.88rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-decoration: underline; text-decoration-color: var(--muted); text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
 .btn2:hover { color: var(--text); text-decoration-color: currentColor; }
 @media (max-width: 48rem) {
@@ -148,7 +150,7 @@ html:not(.js) .spot-txt { contain: none; height: auto; border: 0; }
 .js .tools { display: block; position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 0.6rem 0 0.4rem; margin-bottom: 0.9rem; }
 .tools-row { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
 .search { flex: 1 1 20rem; min-width: 0; display: flex; align-items: center; gap: 0.55rem; background: var(--bg); border: 1px solid var(--text); padding: 0 0.85rem; height: 2.75rem; color: var(--muted); }
-.search:focus-within { box-shadow: inset 0 0 0 1px var(--text); }
+.search:focus-within { box-shadow: 0 0 0 3px var(--hi); }
 .search input { flex: 1; min-width: 0; width: 0; border: 0; outline: 0; background: transparent; color: var(--text); font: inherit; font-size: 0.98rem; }
 .search input::placeholder { color: var(--muted); }
 kbd { font: 0.72rem var(--mono); color: var(--muted); border: 1px solid var(--line); padding: 0.05rem 0.4rem; }
@@ -160,12 +162,13 @@ kbd { font: 0.72rem var(--mono); color: var(--muted); border: 1px solid var(--li
 .tools button[hidden] { display: none; }
 .chk { display: inline-flex; align-items: center; gap: 0.5rem; user-select: none; }
 .chk input { accent-color: var(--text); width: 0.95rem; height: 0.95rem; margin: 0; }
-.chk:has(input:checked) { color: var(--bg); background: var(--text); }
+.chk input { accent-color: var(--ink); }
+.chk:has(input:checked) { color: var(--ink); background: var(--hi); box-shadow: inset 0 0 0 1px var(--ink); }
 .topics { display: flex; gap: 0.3rem; height: 2.1rem; align-items: center; margin-top: 0.4rem; overflow-x: auto; scrollbar-width: none; }
 .topics button { flex: none; height: 1.75rem; padding: 0 0.65rem; border: 1px solid var(--line); background: transparent; color: var(--soft); font: inherit; font-size: 0.8rem; cursor: pointer; white-space: nowrap; }
 .topics button b { color: var(--muted); font-weight: 500; }
 .topics button:hover { border-color: var(--text); color: var(--text); background: transparent; }
-.topics button[aria-pressed="true"] { background: var(--text); border-color: var(--text); color: var(--bg); }
+.topics button[aria-pressed="true"] { background: var(--hi); border-color: var(--ink); color: var(--ink); }
 .topics button[aria-pressed="true"] b { color: inherit; opacity: 0.7; }
 @media (max-width: 40rem) {
   .js .tools { position: static; }
@@ -180,7 +183,8 @@ kbd { font: 0.72rem var(--mono); color: var(--muted); border: 1px solid var(--li
 /* Section heads: a fixed-height ruled bar. */
 .grp { display: flex; align-items: center; justify-content: space-between; gap: 1rem; height: 2.1rem; margin: 0; border-bottom: 1px solid var(--text); font-size: 1.05rem; font-weight: 800; letter-spacing: 0.08em; white-space: nowrap; }
 .grp > span { display: inline-flex; gap: 0.5rem; align-items: baseline; }
-.grp b { color: var(--live); font-weight: 800; }
+.grp b { background: var(--hi); color: var(--ink); font-weight: 900; padding: 0 0.4rem; letter-spacing: 0; }
+.grp b:empty { display: none; }
 .grp small, .cal { font: 500 0.78rem var(--sans); letter-spacing: 0; text-transform: none; color: var(--muted); }
 .onnow-wrap { margin-bottom: 2.25rem; }
 
@@ -190,8 +194,8 @@ kbd { font: 0.72rem var(--mono); color: var(--muted); border: 1px solid var(--li
 .onnow.all { height: auto; }
 .onnow li { display: grid; grid-template-columns: 6.4rem minmax(9rem, 13rem) minmax(0, 1fr) 4.5rem; gap: 0 1rem; align-items: center; height: 4.25rem; border-bottom: 1px solid var(--line); }
 .onnow li.ph { border-bottom-color: transparent; }
-.onnow li:not(.ph):hover, .roster li:hover { background: var(--raise); box-shadow: inset 2px 0 0 var(--text); }
-:dir(rtl) .onnow li:not(.ph):hover, :dir(rtl) .roster li:hover { box-shadow: inset -2px 0 0 var(--text); }
+.onnow li:not(.ph):hover, .roster li:hover { background: var(--raise); box-shadow: inset 4px 0 0 var(--hi); }
+:dir(rtl) .onnow li:not(.ph):hover, :dir(rtl) .roster li:hover { box-shadow: inset -4px 0 0 var(--hi); }
 .onnow .th { position: relative; width: 6.4rem; aspect-ratio: 16 / 9; overflow: hidden; background: var(--raise2); display: grid; place-items: center; color: var(--soft); font: 800 1.05rem var(--disp); }
 .onnow .th img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .onnow .th .ring { width: 1.4rem; height: 1.4rem; border-radius: 50%; border: 2px dashed var(--pre); }
@@ -207,7 +211,7 @@ kbd { font: 0.72rem var(--mono); color: var(--muted); border: 1px solid var(--li
 .onnow li[hidden] { display: none; }
 .onnow .msg { grid-column: 1 / -1; color: var(--muted); }
 .more { margin-top: 0.6rem; height: 2.25rem; padding: 0 0.9rem; border: 1px solid var(--text); border-radius: 0; background: transparent; color: var(--text); font: inherit; font-size: 0.85rem; cursor: pointer; }
-.more:hover { background: var(--text); color: var(--bg); }
+.more:hover { background: var(--hi); color: var(--ink); border-color: var(--ink); }
 .more[hidden] { display: none; }
 @media (max-width: 40rem) {
   .onnow li { grid-template-columns: 5.4rem minmax(0, 1fr) auto; gap: 0 0.75rem; }
