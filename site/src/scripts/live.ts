@@ -372,7 +372,9 @@ function start(app: HTMLElement) {
   function renderSchedule(ok: boolean) {
     if (!sched) return;
     const now = Date.now();
-    const upcoming = segments.filter((s) => !s.canceled && Date.parse(s.end ?? s.start) > now).slice(0, 40);
+    // Only segments that haven't started: schedule.json also carries today's
+    // past and in-progress ones, and a streamer who is live is in On now.
+    const upcoming = segments.filter((s) => !s.canceled && Date.parse(s.start) > now).slice(0, 40);
     if (!ok || !upcoming.length) {
       sched.innerHTML = `<li class="note">${esc(ok ? ui.upcomingEmpty : ui.unavailable)}</li>`;
     } else {
@@ -398,7 +400,17 @@ function start(app: HTMLElement) {
     apply();
   }
 
+  // A segment that has started drops out of the schedule, spotlight and On now
+  // on the next 30 s status poll, not the 5 min schedule poll.
+  function dropStarted() {
+    const now = Date.now();
+    if (!segments.length || ![...app.querySelectorAll<HTMLElement>('[data-until]')].some((el) => Date.parse(el.dataset.until!) <= now)) return false;
+    renderSchedule(true);
+    return true;
+  }
+
   function refreshTimes() {
+    if (dropStarted()) return;
     for (const el of app.querySelectorAll<HTMLElement>('[data-since]')) el.textContent = duration(ago(el.dataset.since!));
     for (const el of app.querySelectorAll<HTMLElement>('[data-until]')) {
       el.textContent = el.classList.contains('rel') ? relTime(el.dataset.until!) : f('startsIn', { t: relTime(el.dataset.until!) });
@@ -446,6 +458,7 @@ function start(app: HTMLElement) {
         const data = JSON.parse(text) as { streamers?: Streamer[] };
         byLogin = new Map((data.streamers ?? []).map((s) => [s.login.toLowerCase(), s]));
         statusOk = true;
+        dropStarted();
       } catch {
         // Keep the last good data on a transient failure; say so only if we never had any.
         if (statusOk) return refreshTimes();

@@ -43,6 +43,10 @@ export function generate(now = Date.now()) {
     const s = start + (i * 11 + 1) * H + (i % 2) * 30 * MIN;
     return { id: `seg-${i}`, login: login.toLowerCase(), display_name: login, start: iso(s), end: iso(s + 2 * H), title: titles[i % titles.length], category: 'Science & Technology', canceled: false };
   });
+  // Like the real schedule.json: today's segments that already started (one
+  // whose streamer never went live, one in progress) come first.
+  const past = [[active[2], 2 * H, 'Past: started, not live'], [active[3], H, 'Past: in progress']];
+  segments.unshift(...past.map(([login, ago, title], i) => ({ id: `past-${i}`, login: login.toLowerCase(), display_name: login, start: iso(now - ago), end: iso(now - ago + 3 * H), title, category: 'Science & Technology', canceled: false })));
   const generated_at = iso(now);
   return {
     status: { generated_at, live_count: streamers.filter((s) => s.status === 'online').length, streamers },
