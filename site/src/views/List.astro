@@ -26,20 +26,20 @@ const description = home ? all.meta.description : `${all.inactive.title}. ${all.
 
     <Toolbar lang={lang} />
 
-    <section class="grp" id="live-sec" aria-labelledby="live-h" hidden>
-      <h2 id="live-h">{t.liveSection} <span class="n" id="live-n"></span></h2>
+    <section class="panel" id="live-sec" aria-labelledby="live-h" hidden>
+      <h2 class="panel-h" id="live-h"><span class="led on" aria-hidden="true"></span>{t.liveSection} <span class="n" id="live-n"></span></h2>
       <ol class="list live" id="band"></ol>
     </section>
 
-    <section class="grp" aria-labelledby="list-h">
-      <h2 id="list-h">{home ? t.allSection : text.listHeading} <span class="n">{streamers.length}</span><small id="list-note">{t.allNote}</small></h2>
+    <section class="panel" aria-labelledby="list-h">
+      <h2 class="panel-h" id="list-h">{home ? t.allSection : text.listHeading} <span class="n">{streamers.length}</span><small id="list-note">{t.allNote}</small></h2>
       <p class="status" id="badge" role="status"></p>
       <Roster lang={lang} streamers={streamers} />
       <noscript><p class="noscript">{t.noScript}</p></noscript>
     </section>
 
     {home && (
-      <section class="regular" aria-labelledby="up-h" id="regular" hidden>
+      <section class="panel regular" aria-labelledby="up-h" id="regular" hidden>
         <div class="regular-h">
           <h2 id="up-h">{t.scheduleHeading}</h2>
           <a class="cal" href={CALENDAR_URL}><svg class="ic" aria-hidden="true"><use href="#i-cal" /></svg>{t.addToCalendar}</a>

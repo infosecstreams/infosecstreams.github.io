@@ -48,9 +48,8 @@ const ld = [
     <link rel="canonical" href={canonical} />
     {LANGS.map((l) => <link rel="alternate" hreflang={l} href={site + pathFor(l, page)} />)}
     <link rel="alternate" hreflang="x-default" href={site + pathFor('en', page)} />
-    <meta name="color-scheme" content="dark light" />
-    <meta name="theme-color" content="#18181b" media="(prefers-color-scheme: dark)" />
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0b0e12" />
     <link rel="preload" href="/fonts/jetbrainsmono-latin.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
     {live && apiOrigin && <link rel="preconnect" href={apiOrigin} crossorigin="anonymous" />}
     {live && THUMB_ORIGIN && <link rel="preconnect" href={THUMB_ORIGIN} />}

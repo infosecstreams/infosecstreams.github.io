@@ -200,10 +200,11 @@ function start(app: HTMLElement) {
 
   function renderRows() {
     const now = Date.now();
+    const maxHours = Math.max(1, ...rows.map((r) => byLogin.get(r.dataset.login!)?.hours_30d ?? 0));
     for (const li of rows) {
       const s = byLogin.get(li.dataset.login!);
       const online = s?.status === 'online', pre = s?.status === 'prelive';
-      const k = `${s?.status}|${s?.title}|${s?.viewers}|${s?.started_at}|${s?.hours_30d}|${s?.language}|${online ? Math.floor(now / 300000) : ''}`;
+      const k = `${s?.status}|${s?.title}|${s?.viewers}|${s?.started_at}|${s?.hours_30d}|${maxHours}|${s?.language}|${online ? Math.floor(now / 300000) : ''}`;
       if (li.dataset.k === k) continue;
       li.dataset.k = k;
       li.className = online ? 'on' : pre ? 'pre' : '';
@@ -218,6 +219,9 @@ function start(app: HTMLElement) {
       el('.meta').innerHTML = online || pre
         ? [up, esc(s!.category ?? ''), esc(langName(s!.language))].filter(Boolean).join(' · ')
         : '';
+      // 30-day activity as a ten-segment LED meter, scaled to the most active streamer.
+      const lit = s?.hours_30d ? Math.max(1, Math.round((s.hours_30d / maxHours) * 10)) : 0;
+      li.querySelectorAll<HTMLElement>('.m i').forEach((seg, i) => seg.classList.toggle('lit', i < lit));
       el('.h').textContent = s?.hours_30d != null ? f('hoursShort', { n: Math.round(s.hours_30d) }) : '';
       el('.h').title = s?.hours_30d != null ? f('hours30d', { n: Math.round(s.hours_30d) }) : '';
       li.querySelector<HTMLElement>('.watch')!.hidden = !online;
