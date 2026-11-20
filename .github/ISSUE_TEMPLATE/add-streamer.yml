@@ -1,0 +1,49 @@
+name: Suggest a streamer
+description: Suggest an infosec Twitch streamer for the list. A bot checks the channel and replies.
+title: "Add streamer: "
+labels: ["add-streamer"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping grow the list! After you submit, a bot checks the Twitch account
+        and replies here within a minute or two. If something needs fixing, just edit the issue
+        and it checks again. Once a maintainer approves, it opens the pull request for you.
+  - type: input
+    id: twitch
+    attributes:
+      label: Twitch login or channel URL
+      description: The name in their Twitch URL, or the whole link.
+      placeholder: https://www.twitch.tv/example_login
+    validations:
+      required: true
+  - type: input
+    id: youtube
+    attributes:
+      label: YouTube channel URL
+      description: Optional. Link to the channel, not to a video.
+      placeholder: https://www.youtube.com/@example
+    validations:
+      required: false
+  - type: input
+    id: languages
+    attributes:
+      label: Main languages
+      description: The languages they usually stream in.
+      placeholder: English, Spanish
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: What do they stream?
+      description: A sentence or two, e.g. "CTF walkthroughs and malware analysis, usually Tuesday evenings".
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Infosec content
+      options:
+        - label: They stream infosec content (hacking, CTFs, security research, defence, etc.)
+          required: true
