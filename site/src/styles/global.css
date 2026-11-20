@@ -92,24 +92,6 @@ input, select, button { font: inherit; color: inherit; }
 .head h1 { margin: 0; font-size: clamp(2rem, 1.6rem + 1.6vw, 2.75rem); font-weight: 400; letter-spacing: -0.025em; line-height: 1.1; }
 .lede { margin: 0.6rem 0 0; color: var(--steel); max-width: 46rem; }
 
-/* Filters (JS only; without JS the ranked list is simply there) */
-.tools { display: none; }
-.js .tools { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; margin-bottom: 1.5rem; }
-.search { flex: 1 1 18rem; display: flex; align-items: center; gap: 0.55rem; height: 2.5rem; padding: 0 0.75rem; border: 1px solid var(--line); border-radius: var(--r); color: var(--steel); }
-.search:focus-within { border-color: var(--led); }
-.search input { flex: 1; min-width: 0; height: 100%; border: 0; background: none; outline: none; color: var(--bone); font: 0.85rem var(--mono); }
-.search input::placeholder { color: var(--steel); }
-.search input::-webkit-search-cancel-button { display: none; }
-kbd { font: var(--label); padding: 0.2rem 0.4rem; border: 1px solid var(--line-hi); border-radius: var(--r); color: var(--steel); }
-.tools select { height: 2.5rem; padding: 0 0.6rem; border: 1px solid var(--line); border-radius: var(--r); background: var(--void); font: var(--label); letter-spacing: 0.06em; text-transform: uppercase; color: var(--silver); cursor: pointer; }
-.tools select:hover { border-color: var(--line-hi); color: var(--bone); }
-.chk { display: inline-flex; align-items: center; gap: 0.55rem; height: 2.5rem; padding: 0 0.75rem; border: 1px solid var(--line); border-radius: var(--r); font: var(--label); letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer; white-space: nowrap; }
-.chk:hover { border-color: var(--line-hi); color: var(--bone); }
-/* Live only: an LED you switch on. */
-.chk input { appearance: none; width: 0.55rem; height: 0.55rem; margin: 0; border-radius: 50%; background: var(--line-hi); cursor: pointer; }
-.chk input:checked { background: var(--led); box-shadow: 0 0 8px rgb(0 216 146 / 0.6); }
-.chk:has(input:checked) { border-color: var(--led-dim); color: var(--led); background: var(--led-fill); }
-
 /* Panels: a header strip, then rows */
 .panel { border: 1px solid var(--line); border-radius: var(--r); background: var(--carbon); }
 .panel + .panel { margin-top: 1.25rem; }
@@ -120,6 +102,19 @@ kbd { font: var(--label); padding: 0.2rem 0.4rem; border: 1px solid var(--line-h
 .panel-h small[hidden] { display: none; }
 .status { margin: 0; padding: 0.75rem 1rem; border-bottom: 1px solid var(--line); color: var(--steel); font: 0.85rem var(--mono); }
 .status:empty { display: none; }
+/* Column headers: click to sort, again to reverse. */
+.cols { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1.25rem; padding: 0 1rem; border-bottom: 1px solid var(--line); }
+.cols button { display: inline-flex; align-items: center; gap: 0.4rem; height: 2.25rem; min-width: 2.75rem; padding: 0; border: 0; background: none; font: var(--label); letter-spacing: 0.08em; text-transform: uppercase; color: var(--steel); cursor: pointer; }
+.cols .c-hours { justify-self: end; padding-inline-end: 2.75rem; }
+.cols button:hover { color: var(--bone); }
+.cols button[aria-pressed="true"] { color: var(--led); }
+.cols .ar { width: 0.6rem; height: 0.6rem; fill: none; stroke: currentColor; stroke-width: 1.4; opacity: 0.5; }
+.cols [data-dir="nat"] .ar, .cols [data-dir="rev"] .ar { opacity: 1; }
+.cols [data-dir="nat"] .ar path { d: path("M2 6l3 3 3-3"); }
+.cols button.c-name[data-dir="nat"] .ar { transform: rotate(180deg); }
+.cols button.c-hours[data-dir="rev"] .ar { transform: rotate(180deg); }
+.cols [data-dir="rev"] .ar path { d: path("M2 6l3 3 3-3"); }
+.cols button.c-name[data-dir="rev"] .ar { transform: none; }
 /* The order depends on live status: show the rows once the first status is
    in (or after 2.5 s), so they never visibly jump. */
 html.js #app:not(.ready) .list { visibility: hidden; }
@@ -169,13 +164,10 @@ html.js #app:not(.ready) .list { visibility: hidden; }
 .list.live .m, .list.live .h, .list.live .yt { display: none; }
 .list.live li.pre .t { color: var(--silver); }
 
-.empty { display: none; padding: 2rem 1rem; text-align: center; color: var(--steel); font: 0.85rem var(--mono); }
-.empty.show { display: block; }
 .noscript { margin: 0; padding: 0.75rem 1rem; color: var(--steel); font-size: 0.9rem; border-top: 1px solid var(--line); }
 @media (prefers-reduced-motion: reduce) { .lamp { transition: none; } }
 
 @media (max-width: 40rem) {
-  .tools select { flex: 1; }
   .list li { grid-template-columns: minmax(0, 1fr) auto auto; padding-inline: 0.75rem; }
   .list li .m { display: none; }
   .list.live li { grid-template-columns: 112px minmax(0, 1fr); gap: 0 0.85rem; padding: 0.65rem 0.75rem; }

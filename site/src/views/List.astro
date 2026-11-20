@@ -3,7 +3,6 @@
 // 30-day streamed hours. Home also lists regular schedules (proven ones only).
 import Base from '../layouts/Base.astro';
 import Roster from '../components/Roster.astro';
-import Toolbar from '../components/Toolbar.astro';
 import { md, strings, type Lang } from '../lib/i18n';
 import { active, inactive } from '../lib/roster';
 import { API_BASE, CALENDAR_URL, THUMB_TEMPLATE } from '../lib/api';
@@ -24,15 +23,17 @@ const description = home ? all.meta.description : `${all.inactive.title}. ${all.
       {!home && <p class="lede" set:html={md(all.inactive.intro, lang)} />}
     </div>
 
-    <Toolbar lang={lang} />
-
     <section class="panel" id="live-sec" aria-labelledby="live-h" hidden>
       <h2 class="panel-h" id="live-h"><span class="led on" aria-hidden="true"></span>{t.liveSection} <span class="n" id="live-n"></span></h2>
       <ol class="list live" id="band"></ol>
     </section>
 
     <section class="panel" aria-labelledby="list-h">
-      <h2 class="panel-h" id="list-h">{home ? t.allSection : text.listHeading} <span class="n">{streamers.length}</span><small id="list-note">{t.allNote}</small></h2>
+      <h2 class="panel-h" id="list-h">{home ? t.allSection : text.listHeading} <span class="n">{streamers.length}</span></h2>
+      <div class="cols" id="cols">
+        <button type="button" data-sort="name" class="c-name">{t.colStreamer}<svg class="ar" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 4l3-3 3 3M2 6l3 3 3-3" /></svg></button>
+        <button type="button" data-sort="hours" class="c-hours" aria-pressed="true">{t.colHours}<svg class="ar" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 4l3-3 3 3M2 6l3 3 3-3" /></svg></button>
+      </div>
       <p class="status" id="badge" role="status"></p>
       <Roster lang={lang} streamers={streamers} />
       <noscript><p class="noscript">{t.noScript}</p></noscript>
