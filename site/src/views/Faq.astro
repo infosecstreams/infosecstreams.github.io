@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import { md, mdBlocks, strings, type Lang } from '../lib/i18n';
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+const { faq } = strings(lang);
+const items = Object.values(faq.items);
+const plain = (s: string) => s.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+const ld = [{
+  '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: lang,
+  mainEntity: items.map((i) => ({ '@type': 'Question', name: i.q, acceptedAnswer: { '@type': 'Answer', text: plain(i.a) } })),
+}];
+---
+<Base lang={lang} page="faq" title={faq.title} description={plain(faq.items.what.a)} jsonLd={ld}>
+  <article class="prose faq">
+    <h1>{faq.title}</h1>
+    {items.map((i, n) => (
+      <details open={n < 2}>
+        <summary><h2 set:html={md(i.q, lang)} /></summary>
+        <div class="a" set:html={mdBlocks(i.a, lang)} />
+      </details>
+    ))}
+  </article>
+</Base>

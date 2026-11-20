@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "languageName": "हिंदी",
+    "description": "लाइव साइबर सुरक्षा स्ट्रीम्स | एथिकल हैकिंग ट्यूटोरियल | सीटीएफ चैलेंज | पेनेट्रेशन टेस्टिंग"
+  },
+  "ui": {
+    "heading": "लाइव सिक्योरिटी स्ट्रीम",
+    "tagline": "अभी कौन सिक्योरिटी स्ट्रीम कर रहा है: HackTheBox और TryHackMe मशीनें, रेड और ब्लू टीम, CTF, मालवेयर विश्लेषण।",
+    "onNow": "अभी",
+    "showAll": "सभी {n} दिखाएं",
+    "showLess": "कम दिखाएं",
+    "watch": "Twitch पर देखें",
+    "watching": "{n} देख रहे हैं",
+    "livePreview": "{name} का लाइव प्रीव्यू",
+    "topic": "विषय",
+    "allTopics": "सभी विषय",
+    "nextUpLabel": "अगला",
+    "colStatus": "स्थिति",
+    "colStreamer": "स्ट्रीमर",
+    "colActivity": "गतिविधि",
+    "colLinks": "लिंक",
+    "liveSection": "अभी लाइव",
+    "skip": "सूची पर जाएं",
+    "language": "भाषा",
+    "home": "स्ट्रीम्स",
+    "inactiveNav": "निष्क्रिय",
+    "faqNav": "FAQ",
+    "resourcesNav": "संसाधन",
+    "liveNow": "अभी {n} लाइव",
+    "nobodyLive": "अभी कोई लाइव नहीं है।",
+    "checking": "देख रहे हैं कि कौन लाइव है…",
+    "unavailable": "लाइव स्थिति अभी उपलब्ध नहीं है। पूरी सूची नीचे है।",
+    "live": "लाइव",
+    "prelive": "तैयारी में",
+    "offline": "ऑफ़लाइन",
+    "viewers": "{n} दर्शक",
+    "hours30d": "30 दिनों में {n} घंटे स्ट्रीम",
+    "search": "खोजें",
+    "searchPlaceholder": "नाम, शीर्षक, श्रेणी खोजें",
+    "allLanguages": "सभी भाषाएं",
+    "allCategories": "सभी श्रेणियां",
+    "category": "श्रेणी",
+    "liveOnly": "केवल लाइव",
+    "clear": "साफ़ करें",
+    "showing": "{total} में से {shown}",
+    "noMatches": "इन फ़िल्टर से कोई स्ट्रीमर मेल नहीं खाता।",
+    "upcoming": "आने वाली स्ट्रीम्स",
+    "upcomingEmpty": "अगले 7 दिनों में कोई स्ट्रीम निर्धारित नहीं है।",
+    "addToCalendar": "कैलेंडर में जोड़ें",
+    "noScript": "कौन लाइव है और शेड्यूल देखने के लिए JavaScript चालू करें।",
+    "legendLive": "अभी एक infosec श्रेणी में स्ट्रीम कर रहे हैं",
+    "legendPrelive": "अभी-अभी infosec श्रेणी में आए हैं; आमतौर पर एक घंटे में लाइव होते हैं",
+    "onTwitch": "Twitch पर {name}",
+    "onYouTube": "YouTube पर {name}",
+    "source": "GitHub पर सोर्स",
+    "addStreamer": "स्ट्रीमर जोड़ें",
+    "streamers": "{n} स्ट्रीमर्स",
+    "keyHint": "खोजने के लिए / दबाएं",
+    "startsIn": "{t} शुरू",
+    "nextUp": "अगला: {name}, {t}"
+  },
+  "home": {
+    "title": "InfoSec स्ट्रीम्स",
+    "intro": "Congrats! You've found an actively maintained list of Information Security-related Twitch streams. This list is `sorted` based on `30-day activity` to help you find active streams more easily!",
+    "inactiveNote": "जिन स्ट्रीमर्स की पिछले महीने में कोई गतिविधि नहीं हुई है, उन्हें [इनएक्टिव स्ट्रीमर्स](/inactive) पृष्ठ पर स्थानांतरित कर दिया गया है।",
+    "questions": "Questions? Contributions? Something else? Please read the [FAQ](/faq)!",
+    "listHeading": "स्ट्रीम की सूची (क्रमबद्ध)"
+  },
+  "inactive": {
+    "title": "निष्क्रिय स्ट्रीमर्स",
+    "intro": "Hey there! This page contains streamers that have not streamed in the last month.",
+    "listHeading": "निष्क्रिय स्ट्रीम्स की सूची"
+  },
+  "credits": {
+    "heading": "क्रेडिट्स",
+    "maintainer": "यह प्रोजेक्ट एक सामुदायिक प्रयास है लेकिन [GoProSlowYo](https://twitch.tv/goproslowyo) वर्तमान में [secinfo](https://github.com/infosecstreams/secinfo), [streamstatus](https://github.com/infosecstreams/streamstatus), और [infosecstreams.github.io](https://github.com/infosecstreams/infosecstreams.github.io) रेपो में सभी golang कोड को बनाए रखता है।",
+    "shoutout": "मूल [hacklist](https://docs.google.com/spreadsheets/d/e/2PACX-1vR_YY0A7i8-E0mRXJmCZTxARcZPm77dAV7funlMadAK2SliG0sWfdRUMlQ3DQux7WfqKD_JuVa-1I73/pubhtml) को शुरू करने और बनाए रखने के लिए [chadb_n00b](https://twitch.tv/chadb_n00b) को विशेष धन्यवाद!"
+  },
+  "resourcesBlurb": {
+    "heading": "संसाधन",
+    "text": "यहाँ आपकी हैकिंग यात्रा के लिए [कुछ बेहतरीन संसाधन](/resources) हैं।"
+  },
+  "contribute": {
+    "heading": "योगदान करें या समस्या की रिपोर्ट करें",
+    "text": "Having trouble with a link? Site not updating properly? Questions? Contributions? Something else? Please read the [FAQ](/faq)!"
+  },
+  "faq": {
+    "title": "InfoSec Streams FAQ",
+    "items": {
+      "what": {
+        "q": "InfoSec Streams क्या है?",
+        "a": "InfoSec Streams, Information Security से संबंधित Twitch streams की एक ऐसी सूची है जिसे community द्वारा सक्रिय रूप से बनाए रखा जाता है। यह सूची GitHub Pages पर होस्ट की जाती है और इसमें विभिन्न प्रकार के streamers शामिल हैं जो cybersecurity विषयों पर content का योगदान करते हैं।"
+      },
+      "sorted": {
+        "q": "सूची को किस आधार पर क्रमबद्ध किया जाता है?",
+        "a": "यह सूची 30-दिन की गतिविधि के आधार पर क्रमबद्ध की जाती है, जिससे users को सक्रिय streams आसानी से खोजने में मदद मिलती है।"
+      },
+      "inactive": {
+        "q": "निष्क्रिय streamers का क्या होता है?",
+        "a": "जिन streamers ने पिछले महीने में stream नहीं किया है, उन्हें निष्क्रिय streamers पेज पर स्थानांतरित कर दिया जाता है। इससे यह सुनिश्चित होता है कि मुख्य सूची सक्रिय content creators के साथ अद्यतित रहे।"
+      },
+      "inactiveAccess": {
+        "q": "क्या मैं निष्क्रिय streamers की सूची देख सकता/सकती हूं?",
+        "a": "हां, पिछले महीने से निष्क्रिय streamers के लिए एक अलग पेज है। आप मुख्य GitHub पेज से इस सूची तक पहुंच सकते हैं।"
+      },
+      "exhaustive": {
+        "q": "क्या streamers की सूची संपूर्ण है?",
+        "a": "हालांकि इस सूची में विभिन्न प्रकार के streamers शामिल हैं, फिर भी यह किसी भी तरह से संपूर्ण नहीं है। Cybersecurity का क्षेत्र गतिशील है और नए content creators हमेशा सामने आते रहते हैं। InfoSec Streams सूची यथासंभव व्यापक बनने का प्रयास करती है और अद्यतित बने रहने के लिए community के योगदान पर निर्भर करती है।"
+      },
+      "contribute": {
+        "q": "मैं सूची में योगदान कैसे दे सकता/सकती हूं?",
+        "a": "यदि आपके पास जोड़ने के लिए कोई नया streamer है या आपको कोई त्रुटि दिखाई देती है, तो आपको संपादन में योगदान देने के लिए प्रोत्साहित किया जाता है, जो [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls) भेजकर या [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues) दर्ज करके किया जा सकता है। धन्यवाद!"
+      },
+      "maintainers": {
+        "q": "InfoSec Streams सूची का रखरखाव कौन करता है?",
+        "a": "यह project [chadb_n00b](https://twitch.tv/chadb_n00b) द्वारा शुरू किया गया था और वर्तमान में इसका रखरखाव GoProSlowYo द्वारा किया जाता है। [GoProSlowYo](https://github.com/goproslowyo) वर्तमान में [secinfo](https://github.com/infosecstreams/secinfo), [streamstatus](https://github.com/infosecstreams/streamstatus), और [infosecstreams.github.io](https://github.com/infosecstreams/infosecstreams.github.io) repository में सभी golang code का रखरखाव करता है।"
+      },
+      "discord": {
+        "q": "क्या मैं n00bsec CTF Team और उसके संपन्न Discord community में शामिल हो सकता/सकती हूं?",
+        "a": "बिल्कुल! n00bsec CTF Team की एक Discord पर एक जीवंत और सक्रिय community है, इसे OSINT कीजिए। चर्चाओं में भाग लेने, ज्ञान साझा करने, और n00bsec CTF Team तथा उनकी गतिविधियों में शामिल होने के लिए community से जुड़ें। Discord server, CTF चुनौतियों और information security के प्रति उत्साही समान विचारधारा वाले लोगों से जुड़ने के लिए एक शानदार platform है।"
+      },
+      "report": {
+        "q": "मैं समस्याओं की रिपोर्ट कहां कर सकता/सकती हूं?",
+        "a": "यदि आपको किसी link में कोई समस्या दिखती है या site ठीक से अद्यतित नहीं हो रही है, तो आप इसे server पर रिपोर्ट कर सकते हैं (इसे OSINT कीजिए) या GitHub पेज पर एक issue खोल सकते हैं।"
+      }
+    }
+  },
+  "resources": {
+    "title": "संसाधन",
+    "heading": "उपयोगी संसाधन",
+    "types": {
+      "education": "शैक्षिक सामग्री",
+      "handsOn": "व्यावहारिक Hacking",
+      "reference": "Hacking संदर्भ",
+      "ctf": "CTF उपकरण",
+      "shell": "Shell उपकरण",
+      "resources": "Hacking संसाधन"
+    },
+    "items": {
+      "taggart": "The Taggart Institute का उद्देश्य एक स्वागत करने वाले, सहयोगी community में सभी को कम लागत वाला, उच्च-गुणवत्ता वाला technology प्रशिक्षण प्रदान करना है।",
+      "tryhackme": "TryHackMe - Penetration Testing कौशल सीखें।",
+      "bandit": "The Bandit शुरुआती लोगों के लिए एक wargame है। आप अन्य wargames खेलने के लिए बुनियादी बातें सीखेंगे।",
+      "hackthebox": "HackTheBox - Penetration Testing कौशल सीखें।",
+      "gtfobins": "त्वरित shell one-liners।",
+      "hacktricks": "तरकीबें और तकनीकें।",
+      "awesomectf": "Capture The Flag (CTF) frameworks, libraries, resources, softwares, और tutorials की एक curated सूची।",
+      "crackstation": "Online hash cracking।",
+      "cyberchef": "data का विश्लेषण/encoding/decoding करने के लिए Cyber swiss army knife।",
+      "dcode": "dCode, decryption और ciphertexts के लिए एक toolkit website है।",
+      "hackvertor": "Online converter, decoder, encoder, hashing, और विविध अन्य उपकरण।",
+      "explainshell": "Bash shell command की व्याख्या।",
+      "hacktools": "Chrome और Firefox Hacking Tools Add-ons।",
+      "pentestws": "Pentest Engagement के लिए उपयोगिता।",
+      "revshells": "Reverse Shell Command जनरेटर।",
+      "ss64": "Commandline संदर्भ।",
+      "infosechouse": "CyberSecurity Operations के लिए Tools और Resources।",
+      "rawsec": "CyberSecurity के बारे में tools और resources की एक inventory।"
+    }
+  }
+}

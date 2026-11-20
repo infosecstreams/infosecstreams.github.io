@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "languageName": "العربية",
+    "description": "بث مباشر للأمن السيبراني | دروس الاختراق الأخلاقي | تحديات CTF | اختبار الاختراق"
+  },
+  "ui": {
+    "heading": "بثوث أمنية مباشرة",
+    "tagline": "من يبث محتوى الأمن الآن: أجهزة HackTheBox وTryHackMe، الفريق الأحمر والأزرق، تحديات CTF، تحليل البرمجيات الخبيثة.",
+    "onNow": "الآن",
+    "showAll": "عرض الكل ({n})",
+    "showLess": "عرض أقل",
+    "watch": "شاهد على Twitch",
+    "watching": "{n} يشاهدون",
+    "livePreview": "معاينة مباشرة لبث {name}",
+    "topic": "الموضوع",
+    "allTopics": "كل المواضيع",
+    "nextUpLabel": "التالي",
+    "colStatus": "الحالة",
+    "colStreamer": "صانع المحتوى",
+    "colActivity": "النشاط",
+    "colLinks": "الروابط",
+    "liveSection": "مباشر الآن",
+    "skip": "انتقل إلى القائمة",
+    "language": "اللغة",
+    "home": "البث",
+    "inactiveNav": "غير النشط",
+    "faqNav": "الأسئلة الشائعة",
+    "resourcesNav": "الموارد",
+    "liveNow": "{n} في بث مباشر الآن",
+    "nobodyLive": "لا أحد في بث مباشر الآن.",
+    "checking": "جارٍ التحقق من البث المباشر…",
+    "unavailable": "حالة البث المباشر غير متاحة الآن. القائمة الكاملة أدناه.",
+    "live": "مباشر",
+    "prelive": "يستعد",
+    "offline": "غير متصل",
+    "viewers": "{n} مشاهد",
+    "hours30d": "{n} ساعة بث في 30 يومًا",
+    "search": "بحث",
+    "searchPlaceholder": "ابحث في الأسماء والعناوين والفئات",
+    "allLanguages": "كل اللغات",
+    "allCategories": "كل الفئات",
+    "category": "الفئة",
+    "liveOnly": "المباشر فقط",
+    "clear": "مسح",
+    "showing": "{shown} من {total}",
+    "noMatches": "لا يوجد بث يطابق هذه المرشحات.",
+    "upcoming": "البث القادم",
+    "upcomingEmpty": "لا يوجد بث مجدول في الأيام السبعة القادمة.",
+    "addToCalendar": "أضف إلى التقويم",
+    "noScript": "فعّل JavaScript لرؤية من يبث مباشرة والجدول.",
+    "legendLive": "يبث الآن في فئة أمن المعلومات",
+    "legendPrelive": "انتقل للتو إلى فئة أمن المعلومات؛ يبدأ البث عادة خلال ساعة",
+    "onTwitch": "{name} على Twitch",
+    "onYouTube": "{name} على YouTube",
+    "source": "الشيفرة على GitHub",
+    "addStreamer": "أضف بثًا",
+    "streamers": "{n} صانع محتوى",
+    "keyHint": "اضغط / للبحث",
+    "startsIn": "يبدأ {t}",
+    "nextUp": "التالي: {name}، {t}"
+  },
+  "home": {
+    "title": "بث InfoSec",
+    "intro": "تهانينا! لقد وجدت قائمة محدثة باستمرار لبث Twitch المتعلق بأمن المعلومات. هذه القائمة `مرتبة` حسب `النشاط خلال 30 يومًا` لمساعدتك في العثور على البث النشط بسهولة!",
+    "inactiveNote": "البث الذي لم يكن له نشاط في الشهر الماضي تم نقله إلى صفحة [البث غير النشط](/inactive).",
+    "questions": "أسئلة؟ المساهمات؟ شيء آخر؟ يرجى قراءة [FAQ](/faq)!",
+    "listHeading": "قائمة البث (مرتبة)"
+  },
+  "inactive": {
+    "title": "البث غير النشط",
+    "intro": "مرحبًا! تحتوي هذه الصفحة على تبزيلات لم تبث في الشهر الماضي.",
+    "listHeading": "البث"
+  },
+  "credits": {
+    "heading": "الاعتمادات",
+    "maintainer": "هذا المشروع هو جهد مجتمعي ولكن [GoProSlowYo](https://twitch.tv/goproslowyo) يقوم حاليًا بصيانة جميع أكواد golang في [secinfo](https://github.com/infosecstreams/secinfo) و [streamstatus](https://github.com/infosecstreams/streamstatus) و [infosecstreams.github.io](https://github.com/infosecstreams/infosecstreams.github.io) المستودع.",
+    "shoutout": "شكر خاص لـ [chadb_n00b](https://twitch.tv/chadb_n00b) لبدء وصيانة [hacklist](https://docs.google.com/spreadsheets/d/e/2PACX-1vR_YY0A7i8-E0mRXJmCZTxARcZPm77dAV7funlMadAK2SliG0sWfdRUMlQ3DQux7WfqKD_JuVa-1I73/pubhtml) الأصلية!"
+  },
+  "resourcesBlurb": {
+    "heading": "الموارد",
+    "text": "هنا [بعض الموارد الرائعة](/resources) لرحلتك في الاختراق."
+  },
+  "contribute": {
+    "heading": "المساهمة أو الإبلاغ عن مشكلة",
+    "text": "هل تواجه مشكلة مع الرابط؟ لم يتم تحديث الموقع بشكل صحيح؟ أسئلة؟ المساهمات؟ شيء آخر؟ لديك أسئلة؟ مساهمات؟ شيء آخر؟ يرجى قراءة [الأسئلة الشائعة](/faq)!"
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة حول InfoSec Streams",
+    "items": {
+      "what": {
+        "q": "ما هو InfoSec Streams؟",
+        "a": "InfoSec Streams هي قائمة يديرها المجتمع بنشاط لقنوات البث على Twitch المتعلقة بأمن المعلومات. تُستضاف القائمة على GitHub Pages وتضم مجموعة واسعة من الـ streamers الذين يساهمون بمحتوى حول مواضيع الأمن السيبراني."
+      },
+      "sorted": {
+        "q": "كيف يتم ترتيب القائمة؟",
+        "a": "يتم ترتيب القائمة استنادًا إلى النشاط خلال آخر 30 يومًا، مما يساعد المستخدمين على إيجاد القنوات النشطة بسهولة أكبر."
+      },
+      "inactive": {
+        "q": "ماذا يحدث لـ streamers غير النشطين؟",
+        "a": "يتم نقل الـ streamers الذين لم يبثّوا خلال الشهر الماضي إلى صفحة الـ streamers غير النشطين. وهذا يضمن أن تبقى القائمة الرئيسية محدَّثة بمنشئي المحتوى النشطين."
+      },
+      "inactiveAccess": {
+        "q": "هل يمكنني الوصول إلى قائمة الـ streamers غير النشطين؟",
+        "a": "نعم، توجد صفحة منفصلة لـ streamers الذين كانوا غير نشطين خلال الشهر الماضي. يمكنك الوصول إلى هذه القائمة من صفحة GitHub الرئيسية."
+      },
+      "exhaustive": {
+        "q": "هل قائمة الـ streamers شاملة؟",
+        "a": "على الرغم من أن القائمة تضم مجموعة واسعة من الـ streamers، إلا أنها ليست شاملة بأي حال من الأحوال. مجال الأمن السيبراني ديناميكي، وتظهر باستمرار جهات جديدة لإنشاء المحتوى. تهدف قائمة InfoSec Streams إلى أن تكون شاملة قدر الإمكان، وتعتمد على مساهمات المجتمع للبقاء محدَّثة."
+      },
+      "contribute": {
+        "q": "كيف يمكنني المساهمة في القائمة؟",
+        "a": "إذا كان لديك streamer جديد لإضافته أو لاحظت خطأً، فنحن نشجعك على المساهمة بالتعديلات، ويمكن ذلك عبر تقديم [طلب سحب](https://github.com/infosecstreams/infosecstreams.github.io/pulls)، أو رفع [مشكلة](https://github.com/infosecstreams/infosecstreams.github.io/issues). شكرًا لك!"
+      },
+      "maintainers": {
+        "q": "من يتولى صيانة قائمة InfoSec Streams؟",
+        "a": "بدأ المشروع على يد [chadb_n00b](https://twitch.tv/chadb_n00b) ويتولى صيانته حاليًا GoProSlowYo. يتولى [GoProSlowYo](https://github.com/goproslowyo) حاليًا صيانة كل أكواد golang في مستودعات [secinfo](https://github.com/infosecstreams/secinfo) و[streamstatus](https://github.com/infosecstreams/streamstatus) و[infosecstreams.github.io](https://github.com/infosecstreams/infosecstreams.github.io) المستودع."
+      },
+      "discord": {
+        "q": "هل يمكنني الانضمام إلى n00bsec CTF Team ومجتمعه النابض بالحياة على Discord؟",
+        "a": "بالتأكيد! يمتلك n00bsec CTF Team مجتمعًا نابضًا بالحياة ونشطًا على Discord، OSINT it. انضم إلى المجتمع للمشاركة في النقاشات وتبادل المعرفة والتفاعل مع n00bsec CTF Team وأنشطته. يُعد خادم Discord منصة ممتازة للتواصل مع أشخاص من نفس الاهتمامات، شغوفين بتحديات CTF وأمن المعلومات."
+      },
+      "report": {
+        "q": "أين يمكنني الإبلاغ عن المشكلات؟",
+        "a": "إذا واجهت أي مشكلات في أحد الروابط أو إذا لم يتم تحديث الموقع بشكل صحيح، يمكنك الإبلاغ عن ذلك على الخادم (OSINT it) أو فتح مشكلة على صفحة GitHub."
+      }
+    }
+  },
+  "resources": {
+    "title": "الموارد",
+    "heading": "موارد مفيدة",
+    "types": {
+      "education": "محتوى تعليمي",
+      "handsOn": "قرصنة عملية",
+      "reference": "مرجع القرصنة",
+      "ctf": "أدوات CTF",
+      "shell": "أدوات Shell",
+      "resources": "موارد القرصنة"
+    },
+    "items": {
+      "taggart": "يهدف The Taggart Institute إلى تقديم تدريب تقني عالي الجودة وبتكلفة منخفضة للجميع، ضمن مجتمع ترحيبي وداعم.",
+      "tryhackme": "TryHackMe - تعلّم مهارات اختبار الاختراق.",
+      "bandit": "The Bandit هي wargame موجهة للمبتدئين، ستتعلم من خلالها الأساسيات اللازمة للعب wargames أخرى.",
+      "hackthebox": "HackTheBox - تعلّم مهارات اختبار الاختراق.",
+      "gtfobins": "أوامر shell سريعة من سطر واحد.",
+      "hacktricks": "حيل وتقنيات.",
+      "awesomectf": "قائمة منتقاة من أطر عمل ومكتبات وموارد وبرامج ودروس تعليمية لمسابقات Capture The Flag (CTF).",
+      "crackstation": "كسر تجزئات (hash) عبر الإنترنت.",
+      "cyberchef": "سكين الجيش السويسري السيبراني لتحليل البيانات وترميزها وفك ترميزها.",
+      "dcode": "dCode هو موقع أدوات لفك التشفير والنصوص المشفَّرة.",
+      "hackvertor": "أداة تحويل وفك ترميز وترميز وتجزئة (hashing) عبر الإنترنت، بالإضافة إلى أدوات أخرى متنوعة.",
+      "explainshell": "شرح أوامر Bash shell.",
+      "hacktools": "إضافات أدوات القرصنة لمتصفحي Chrome وFirefox.",
+      "pentestws": "أداة لإدارة عمليات اختبار الاختراق (Pentest).",
+      "revshells": "مولّد أوامر Reverse Shell.",
+      "ss64": "مرجع سطر الأوامر.",
+      "infosechouse": "أدوات وموارد لعمليات الأمن السيبراني.",
+      "rawsec": "فهرس لأدوات وموارد متعلقة بالأمن السيبراني."
+    }
+  }
+}

@@ -1,0 +1,119 @@
+---
+import Icons from '../components/Icons.astro';
+import '../styles/global.css';
+import { LANGS, OG_LOCALE, RTL, pathFor, strings, type Lang, type Page } from '../lib/i18n';
+import { API_BASE, THUMB_ORIGIN } from '../lib/api';
+import { transformSync } from 'esbuild';
+import bootSrc from '../scripts/boot.js?raw';
+
+interface Props {
+  lang: Lang;
+  page: Page;
+  title: string;
+  description: string;
+  jsonLd?: object[];
+  /** Pages that show live status: start fetching status.json from the HTML. */
+  live?: boolean;
+}
+const { lang, page, title, description, jsonLd = [], live = false } = Astro.props;
+const PLAUSIBLE_HOST = 'p.infosecstreams.com';
+const apiOrigin = /^https?:/.test(API_BASE) ? new URL(API_BASE).origin : '';
+const boot = transformSync(
+  bootSrc
+    .replaceAll('__PLAUSIBLE_HOST__', PLAUSIBLE_HOST)
+    .replaceAll('__PLAUSIBLE_SCRIPT__', 'pa-S1APgdcZDV2dG80tVMP-N.js')
+    .replaceAll('__SW__', String(import.meta.env.PROD)),
+  { minify: true, target: 'es2020' },
+).code;
+const t = strings(lang);
+const site = Astro.site!.origin;
+const canonical = site + pathFor(lang, page);
+const fullTitle = page ? `${title} · InfoSec Streams` : title === 'InfoSec Streams' ? title : `${title} · InfoSec Streams`;
+const nav: [Page, string][] = [['', t.ui.home], ['inactive', t.ui.inactiveNav], ['faq', t.ui.faqNav], ['resources', t.ui.resourcesNav]];
+const ld = [
+  {
+    '@context': 'https://schema.org', '@type': 'WebSite', name: 'InfoSec Streams', url: `${site}/`,
+    inLanguage: [...LANGS], description: strings('en').meta.description,
+  },
+  ...jsonLd,
+];
+---
+<!doctype html>
+<html lang={lang} dir={RTL.has(lang) ? 'rtl' : 'ltr'}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {LANGS.map((l) => <link rel="alternate" hreflang={l} href={site + pathFor(l, page)} />)}
+    <link rel="alternate" hreflang="x-default" href={site + pathFor('en', page)} />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#0e0e0d" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f6f5f1" media="(prefers-color-scheme: light)" />
+    <link rel="preload" href="/fonts/bigshoulders-latin.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    {live && apiOrigin && <link rel="preconnect" href={apiOrigin} crossorigin="anonymous" />}
+    {live && THUMB_ORIGIN && <link rel="preconnect" href={THUMB_ORIGIN} />}
+    {!live && <link rel="dns-prefetch" href={`https://${PLAUSIBLE_HOST}`} />}
+    <!-- Live status is in flight before any script runs; live.ts's first fetch reuses it. -->
+    {live && <link rel="preload" href={`${API_BASE}status.json`} as="fetch" crossorigin="anonymous" />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="InfoSec Streams" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={`${site}/og.png`} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content={OG_LOCALE[lang]} />
+    {LANGS.filter((l) => l !== lang).map((l) => <meta property="og:locale:alternate" content={OG_LOCALE[l]} />)}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@infosecstreams" />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(ld.length === 1 ? ld[0] : ld)} />
+    <!-- Hovering a link prerenders the next page, so navigation is instant. -->
+    <script is:inline type="speculationrules">{"prerender":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/mock-api/*"}}]},"eagerness":"moderate"}]}</script>
+    <script is:inline>document.documentElement.classList.add('js')</script>
+    <!-- Prefetch fallback, web-vitals sampling, deferred analytics, service worker: src/scripts/boot.js -->
+    <script is:inline set:html={boot} />
+  </head>
+  <body>
+    <Icons />
+    <a class="skip" href="#main">{t.ui.skip}</a>
+    <header class="top">
+      <div class="wrap top-in">
+        <a class="logo" href={pathFor(lang, '')} aria-label="InfoSec Streams">
+          <svg viewBox="0 0 44 32" aria-hidden="true"><path d="M13 5H6v22h7M31 5h7v22h-7" fill="none" stroke="currentColor" stroke-width="3.4" /><circle class="lamp" cx="22" cy="16" r="5.6" /></svg><span>InfoSec Streams</span>
+        </a>
+        <nav aria-label="InfoSec Streams">
+          <ul>
+            {nav.map(([p, label]) => (
+              <li><a href={pathFor(lang, p)} aria-current={p === page ? 'page' : undefined}>{label}</a></li>
+            ))}
+          </ul>
+        </nav>
+        <details class="langs">
+          <summary><svg class="ic" aria-hidden="true"><use href="#i-globe" /></svg><span class="sr">{t.ui.language}: </span><span>{t.meta.languageName}</span></summary>
+          <ul>
+            {LANGS.map((l) => (
+              <li><a href={pathFor(l, page)} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}>{strings(l).meta.languageName}</a></li>
+            ))}
+          </ul>
+        </details>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <slot />
+    </main>
+    <footer class="foot">
+      <div class="wrap foot-in">
+        <p>
+          <a href="https://github.com/infosecstreams/infosecstreams.github.io" rel="noopener" target="_blank"><svg class="ic" aria-hidden="true"><use href="#i-github" /></svg> {t.ui.source}</a>
+          <a href="https://github.com/infosecstreams/infosecstreams.github.io/issues/new?template=add-streamer.yml" rel="noopener" target="_blank">{t.ui.addStreamer}</a>
+          <a href={pathFor(lang, 'faq')}>{t.ui.faqNav}</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

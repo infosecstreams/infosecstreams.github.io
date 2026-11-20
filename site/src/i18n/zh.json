@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "languageName": "中文",
+    "description": "网络安全直播 | 道德黑客教程 | CTF挑战赛 | 渗透测试培训 | 网络安全工具演示"
+  },
+  "ui": {
+    "heading": "安全直播",
+    "tagline": "现在谁在直播安全内容：HackTheBox 和 TryHackMe 靶机、红队与蓝队、CTF、恶意软件分析。",
+    "onNow": "正在直播",
+    "showAll": "显示全部 {n} 个",
+    "showLess": "收起",
+    "watch": "在 Twitch 观看",
+    "watching": "{n} 人观看",
+    "livePreview": "{name} 的直播预览",
+    "topic": "主题",
+    "allTopics": "所有主题",
+    "nextUpLabel": "下一场",
+    "colStatus": "状态",
+    "colStreamer": "主播",
+    "colActivity": "动态",
+    "colLinks": "链接",
+    "liveSection": "正在直播",
+    "skip": "跳到列表",
+    "language": "语言",
+    "home": "直播",
+    "inactiveNav": "不活跃",
+    "faqNav": "常见问题",
+    "resourcesNav": "资源",
+    "liveNow": "{n} 人正在直播",
+    "nobodyLive": "现在没有人在直播。",
+    "checking": "正在检查谁在直播…",
+    "unavailable": "暂时无法获取直播状态。完整列表在下方。",
+    "live": "直播中",
+    "prelive": "准备开播",
+    "offline": "离线",
+    "viewers": "{n} 名观众",
+    "hours30d": "30 天内直播 {n} 小时",
+    "search": "搜索",
+    "searchPlaceholder": "搜索主播、标题、分类",
+    "allLanguages": "所有语言",
+    "allCategories": "所有分类",
+    "category": "分类",
+    "liveOnly": "仅看直播中",
+    "clear": "清除",
+    "showing": "{shown} / {total}",
+    "noMatches": "没有符合筛选条件的主播。",
+    "upcoming": "即将开始的直播",
+    "upcomingEmpty": "未来 7 天没有已排期的直播。",
+    "addToCalendar": "添加到日历",
+    "noScript": "启用 JavaScript 以查看谁在直播和直播日程。",
+    "legendLive": "正在信息安全分类下直播",
+    "legendPrelive": "刚切换到信息安全分类，通常一小时内开播",
+    "onTwitch": "{name} 的 Twitch",
+    "onYouTube": "{name} 的 YouTube",
+    "source": "GitHub 源代码",
+    "addStreamer": "添加主播",
+    "streamers": "{n} 位主播",
+    "keyHint": "按 / 搜索",
+    "startsIn": "{t}开始",
+    "nextUp": "下一场：{name}，{t}"
+  },
+  "home": {
+    "title": "信息流",
+    "intro": "恭喜！ 您已经找到一个活跃的 Twitch与信息安全流列表。 这个列表是基于 `30天活动` `排序的` 以帮助您更容易地找到活动流！",
+    "inactiveNote": "Streamers that haven't had activity in the last month are moved to the [inactive streamers](/inactive) page.",
+    "questions": "有问题？ 贡献？ 还有什么问题？ 请阅读 [FAQ](/faq)！",
+    "listHeading": "流列表(排序)"
+  },
+  "inactive": {
+    "title": "非活跃主播",
+    "intro": "你好！ 这个页面包含未在上个月流中流入。",
+    "listHeading": "流"
+  },
+  "credits": {
+    "heading": "致谢",
+    "maintainer": "这个项目是社区的努力，但 [GoProSlowYo](https://twitch.tv/goproslowyo)目前仍然保持着 [secinfo](https://github.com/infosecstreams/secinfo) 中的所有黄金代码， [streamstatus](https://github.com/infosecstreams/streamstatus), and [infosecstreams.github.io](https://github.com/infosecstreams/infosecstreams.github.io) 仓库.",
+    "shoutout": "显示 [chadb_n00b](https://twitch.tv/chadb_n00b) 用于启动和保持原始 [hacklist](https://docs.google.com/spreadsheets/d/e/2PACX-1vR_YY0A7i8-E0mRXJmCZTxARcZPm77dAV7funlMadAK2SliG0sWfdRUMlQ3DQux7WfqKD_JuVa-1I73/pubhtml) ！"
+  },
+  "resourcesBlurb": {
+    "heading": "资源",
+    "text": "这里是你黑客旅程的 [一些极好的资源](/resources)。"
+  },
+  "contribute": {
+    "heading": "贡献或报告问题",
+    "text": "链接有问题？ 网站更新不正确？ 有问题？ 贡献？ 还有什么问题？ 请阅读 [FAQ](/faq)！"
+  },
+  "faq": {
+    "title": "InfoSec Streams FAQ",
+    "items": {
+      "what": {
+        "q": "什么是 InfoSec Streams？",
+        "a": "InfoSec Streams 是一个由社区积极维护的信息安全相关 Twitch 直播列表。该列表托管在 GitHub Pages 上，收录了众多围绕网络安全主题贡献内容的主播。"
+      },
+      "sorted": {
+        "q": "列表是如何排序的？",
+        "a": "列表根据过去 30 天的活跃度进行排序，方便用户更轻松地找到活跃的直播。"
+      },
+      "inactive": {
+        "q": "不活跃的主播会怎样？",
+        "a": "过去一个月内没有开播的主播会被移至“不活跃主播”页面。这确保了主列表始终保持活跃内容创作者的最新状态。"
+      },
+      "inactiveAccess": {
+        "q": "我可以查看不活跃主播的列表吗？",
+        "a": "可以，有一个单独的页面列出过去一个月内不活跃的主播。你可以从主 GitHub 页面访问该列表。"
+      },
+      "exhaustive": {
+        "q": "主播列表是否完整？",
+        "a": "虽然列表涵盖了众多主播，但绝非详尽无遗。网络安全领域是动态发展的，新的内容创作者不断涌现。InfoSec Streams 列表力求尽可能全面，并依靠社区的贡献来保持更新。"
+      },
+      "contribute": {
+        "q": "我该如何为列表做贡献？",
+        "a": "如果你有新的主播想要添加，或者发现了错误，欢迎贡献修改，你可以通过提交 [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls)、提出 [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues) 来实现。谢谢！"
+      },
+      "maintainers": {
+        "q": "谁维护着 InfoSec Streams 列表？",
+        "a": "该项目由 [chadb_n00b](https://twitch.tv/chadb_n00b) 创立，目前由 GoProSlowYo 维护。[GoProSlowYo](https://github.com/goproslowyo) 目前维护着 [secinfo](https://github.com/infosecstreams/secinfo)、[streamstatus](https://github.com/infosecstreams/streamstatus) 以及[infosecstreams.github.io](https://github.com/infosecstreams/infosecstreams.github.io) 仓库中的所有 golang 代码。"
+      },
+      "discord": {
+        "q": "我可以加入 n00bsec CTF Team 及其蓬勃发展的 Discord 社区吗？",
+        "a": "当然可以！n00bsec CTF Team 在 Discord 上拥有一个充满活力、十分活跃的社区，OSINT it。加入该社区即可参与讨论、分享知识，并与 n00bsec CTF Team 一起参与其各项活动。这个 Discord 服务器是一个绝佳的平台，可以结识同样热衷于 CTF 挑战和信息安全的同好。"
+      },
+      "report": {
+        "q": "我可以在哪里反馈问题？",
+        "a": "如果你在链接方面遇到任何问题，或者网站没有正常更新，你可以在服务器上反馈(OSINT it)，或者在 GitHub 页面上提交一个 issue。"
+      }
+    }
+  },
+  "resources": {
+    "title": "资源",
+    "heading": "实用资源",
+    "types": {
+      "education": "教育内容",
+      "handsOn": "实战黑客",
+      "reference": "黑客参考",
+      "ctf": "CTF 工具",
+      "shell": "Shell 工具",
+      "resources": "黑客资源"
+    },
+    "items": {
+      "taggart": "Taggart Institute 致力于在一个友好、互助的社区中，为每个人提供低成本、高质量的技术培训。",
+      "tryhackme": "TryHackMe——学习渗透测试技能。",
+      "bandit": "The Bandit 是一个面向初学者的 wargame。你将学习基础知识，以便挑战其他 wargame。",
+      "hackthebox": "HackTheBox——学习渗透测试技能。",
+      "gtfobins": "快速 shell 单行命令。",
+      "hacktricks": "技巧与技术。",
+      "awesomectf": "一份精选的 Capture The Flag(CTF)框架、库、资源、软件和教程列表。",
+      "crackstation": "在线哈希破解。",
+      "cyberchef": "用于分析/编码/解码数据的网络安全瑞士军刀。",
+      "dcode": "dCode 是一个用于解密、密文处理的工具网站。",
+      "hackvertor": "在线转换器、解码器、编码器、哈希工具及其他各种工具。",
+      "explainshell": "Bash shell 命令解释。",
+      "hacktools": "Chrome 和 Firefox 黑客工具插件。",
+      "pentestws": "渗透测试项目管理工具。",
+      "revshells": "反弹 Shell 命令生成器。",
+      "ss64": "命令行参考。",
+      "infosechouse": "网络安全运营的工具与资源。",
+      "rawsec": "一个关于网络安全的工具与资源清单。"
+    }
+  }
+}

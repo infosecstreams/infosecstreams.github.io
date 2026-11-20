@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "languageName": "Türkçe",
+    "description": "Canlı Siber Güvenlik Yayınları | Etik Hacking Eğitimleri | CTF Yarışmaları | Penetrasyon Testleri"
+  },
+  "ui": {
+    "heading": "Canlı güvenlik yayınları",
+    "tagline": "Şu anda güvenlik yayını yapanlar: HackTheBox ve TryHackMe makineleri, red ve blue team, CTF'ler, zararlı yazılım analizi.",
+    "onNow": "Şimdi",
+    "showAll": "{n} yayının hepsini göster",
+    "showLess": "Daha az göster",
+    "watch": "Twitch'te izle",
+    "watching": "{n} izleyici",
+    "livePreview": "{name} canlı önizleme",
+    "topic": "Konu",
+    "allTopics": "Tüm konular",
+    "nextUpLabel": "Sıradaki",
+    "colStatus": "Durum",
+    "colStreamer": "Yayıncı",
+    "colActivity": "Etkinlik",
+    "colLinks": "Bağlantılar",
+    "liveSection": "Şu anda canlı",
+    "skip": "Listeye geç",
+    "language": "Dil",
+    "home": "Yayınlar",
+    "inactiveNav": "Pasif",
+    "faqNav": "SSS",
+    "resourcesNav": "Kaynaklar",
+    "liveNow": "Şu anda {n} canlı yayın",
+    "nobodyLive": "Şu anda kimse canlı yayında değil.",
+    "checking": "Canlı yayınlar kontrol ediliyor…",
+    "unavailable": "Canlı durum şu anda alınamıyor. Tam liste aşağıda.",
+    "live": "Canlı",
+    "prelive": "Hazırlanıyor",
+    "offline": "Çevrimdışı",
+    "viewers": "{n} izleyici",
+    "hours30d": "30 günde {n} saat yayın",
+    "search": "Ara",
+    "searchPlaceholder": "İsim, başlık, kategori ara",
+    "allLanguages": "Tüm diller",
+    "allCategories": "Tüm kategoriler",
+    "category": "Kategori",
+    "liveOnly": "Sadece canlı",
+    "clear": "Temizle",
+    "showing": "{total} içinden {shown}",
+    "noMatches": "Bu filtrelere uyan yayıncı yok.",
+    "upcoming": "Yaklaşan yayınlar",
+    "upcomingEmpty": "Önümüzdeki 7 günde planlanmış yayın yok.",
+    "addToCalendar": "Takvime ekle",
+    "noScript": "Kimlerin canlı olduğunu ve programı görmek için JavaScript'i açın.",
+    "legendLive": "şu anda bir infosec kategorisinde yayında",
+    "legendPrelive": "az önce bir infosec kategorisine geçti; genellikle bir saat içinde yayına başlar",
+    "onTwitch": "Twitch'te {name}",
+    "onYouTube": "YouTube'da {name}",
+    "source": "GitHub'da kaynak kod",
+    "addStreamer": "Yayıncı ekle",
+    "streamers": "{n} yayıncı",
+    "keyHint": "Aramak için / tuşuna basın",
+    "startsIn": "{t} başlıyor",
+    "nextUp": "Sıradaki: {name}, {t}"
+  },
+  "home": {
+    "title": "InfoSec Yayınları",
+    "intro": "Tebrikler! Aktif olarak güncellenen Bilgi Güvenliği ile ilgili Twitch yayınları listesini buldunuz. Bu liste, aktif yayınları daha kolay bulmanız için `30 günlük aktiviteye` göre `sıralanmıştır`!",
+    "inactiveNote": "Son bir ay içinde aktivitesi olmayan yayıncılar [aktif olmayan yayıncılar](/inactive) sayfasına taşınmıştır.",
+    "questions": "Sorularınız mı var? Katkıda bulunmak mı istiyorsunuz? Başka bir şey mi var? Lütfen [SSS](/faq) sayfasını okuyun!",
+    "listHeading": "Yayın Listesi (sıralı)"
+  },
+  "inactive": {
+    "title": "Aktif Olmayan InfoSec Yayınları",
+    "intro": "Merhaba! Bu sayfa son bir ay içinde yayın yapmamış yayıncıları içerir.",
+    "listHeading": "Streams"
+  },
+  "credits": {
+    "heading": "Credits",
+    "maintainer": "Bu proje bir topluluk çabasıdır ancak [GoProSlowYo](https://twitch.tv/goproslowyo) şu anda [secinfo](https://github.com/infosecstreams/secinfo), [streamstatus](https://github.com/infosecstreams/streamstatus) ve [infosecstreams.github.io](https://github.com/infosecstreams/infosecstreams.github.io) depodaki tüm golang kodlarını yönetmektedir.",
+    "shoutout": "[chadb_n00b](https://twitch.tv/chadb_n00b)'a orijinal [hacklist](https://docs.google.com/spreadsheets/d/e/2PACX-1vR_YY0A7i8-E0mRXJmCZTxARcZPm77dAV7funlMadAK2SliG0sWfdRUMlQ3DQux7WfqKD_JuVa-1I73/pubhtml)'i başlattığı ve sürdürdüğü için teşekkürler!"
+  },
+  "resourcesBlurb": {
+    "heading": "Kaynaklar",
+    "text": "Hacking yolculuğunuz için [bazı harika kaynaklar](/resources) burada."
+  },
+  "contribute": {
+    "heading": "Katkıda Bulunun veya Sorun Bildirin",
+    "text": "Bir bağlantıyla ilgili sorun mu yaşıyorsunuz? Site düzgün güncellenmiyor mu? Sorularınız mı var? Katkıda bulunmak mı istiyorsunuz? Başka bir şey mi var? Lütfen [SSS](/faq) sayfasını okuyun!"
+  },
+  "faq": {
+    "title": "InfoSec Streams FAQ",
+    "items": {
+      "what": {
+        "q": "InfoSec Streams nedir?",
+        "a": "InfoSec Streams, Bilgi Güvenliği ile ilgili Twitch yayınlarının topluluk tarafından aktif olarak güncellenen bir listesidir. Liste GitHub Pages üzerinde barındırılır ve siber güvenlik konularında içerik üreten çok sayıda yayıncıyı kapsar."
+      },
+      "sorted": {
+        "q": "Liste nasıl sıralanıyor?",
+        "a": "Liste, kullanıcıların aktif yayınları daha kolay bulmasına yardımcı olan 30 günlük aktiviteye göre sıralanır."
+      },
+      "inactive": {
+        "q": "Aktif olmayan yayıncılara ne olur?",
+        "a": "Son bir ay içinde yayın yapmamış yayıncılar, aktif olmayan yayıncılar sayfasına taşınır. Bu, ana listenin aktif içerik üreticileriyle güncel kalmasını sağlar."
+      },
+      "inactiveAccess": {
+        "q": "Aktif olmayan yayıncıların listesine erişebilir miyim?",
+        "a": "Evet, son bir aydır aktif olmayan yayıncılar için ayrı bir sayfa bulunmaktadır. Bu listeye ana GitHub sayfasından erişebilirsiniz."
+      },
+      "exhaustive": {
+        "q": "Yayıncı listesi eksiksiz mi?",
+        "a": "Liste geniş bir yayıncı yelpazesini kapsasa da, kesinlikle eksiksiz değildir. Siber güvenlik alanı dinamiktir ve sürekli yeni içerik üreticileri ortaya çıkmaktadır. InfoSec Streams listesi mümkün olduğunca kapsamlı olmayı hedefler ve güncel kalabilmek için topluluğun katkılarına dayanır."
+      },
+      "contribute": {
+        "q": "Listeye nasıl katkıda bulunabilirim?",
+        "a": "Eklemek istediğiniz yeni bir yayıncı varsa veya bir hata fark ettiyseniz, düzenleme katkısında bulunmanız teşvik edilir; bunu bir [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls) açarak veya bir [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues) bildirerek yapabilirsiniz. Teşekkürler!"
+      },
+      "maintainers": {
+        "q": "InfoSec Streams listesini kim yönetiyor?",
+        "a": "Proje [chadb_n00b](https://twitch.tv/chadb_n00b) tarafından başlatılmıştır ve şu anda GoProSlowYo tarafından sürdürülmektedir. [GoProSlowYo](https://github.com/goproslowyo), [secinfo](https://github.com/infosecstreams/secinfo), [streamstatus](https://github.com/infosecstreams/streamstatus) ve [infosecstreams.github.io](https://github.com/infosecstreams/infosecstreams.github.io) deposundaki tüm golang kodunu yönetmektedir."
+      },
+      "discord": {
+        "q": "n00bsec CTF Team'e ve onun gelişen Discord topluluğuna katılabilir miyim?",
+        "a": "Kesinlikle! n00bsec CTF Team'in bir Discord üzerinde canlı ve aktif bir topluluğu var, OSINT it. Tartışmalara katılmak, bilgi paylaşmak ve n00bsec CTF Team ile etkinliklerine katılmak için topluluğa katılın. Discord sunucusu, CTF mücadeleleri ve bilgi güvenliğine tutkuyla bağlı, benzer düşünen kişilerle bağlantı kurmak için mükemmel bir platformdur."
+      },
+      "report": {
+        "q": "Sorunları nerede bildirebilirim?",
+        "a": "Bir bağlantıyla ilgili bir sorunla karşılaşırsanız ya da site düzgün güncellenmiyorsa, bunu sunucuda bildirebilirsiniz (OSINT it) ya da GitHub sayfasında bir sorun bildirebilirsiniz."
+      }
+    }
+  },
+  "resources": {
+    "title": "Kaynaklar",
+    "heading": "Faydalı Kaynaklar",
+    "types": {
+      "education": "Eğitim İçeriği",
+      "handsOn": "Uygulamalı Hacking",
+      "reference": "Hacking Referansı",
+      "ctf": "CTF Araçları",
+      "shell": "Shell Araçları",
+      "resources": "Hacking Kaynakları"
+    },
+    "items": {
+      "taggart": "The Taggart Institute, herkese samimi ve destekleyici bir toplulukta düşük maliyetli, yüksek kaliteli teknoloji eğitimi sunmayı amaçlar.",
+      "tryhackme": "TryHackMe - Sızma testi becerilerini öğrenin.",
+      "bandit": "The Bandit, yeni başlayanlara yönelik bir wargame'dir. Diğer wargame'leri oynamak için temel bilgileri öğreneceksiniz.",
+      "hackthebox": "HackTheBox - Sızma testi becerilerini öğrenin.",
+      "gtfobins": "Hızlı shell tek satırlık komutları.",
+      "hacktricks": "İpuçları ve Teknikler.",
+      "awesomectf": "Capture The Flag (CTF) framework'leri, kütüphaneleri, kaynakları, yazılımları ve eğitimlerinden oluşan derlenmiş bir liste.",
+      "crackstation": "Çevrimiçi hash kırma.",
+      "cyberchef": "Veri analizi/kodlama/kod çözme için Siber İsviçre çakısı.",
+      "dcode": "dCode, şifre çözme ve şifreli metinler için bir araç seti web sitesidir.",
+      "hackvertor": "Çevrimiçi dönüştürücü, kod çözücü, kodlayıcı, hashing ve çeşitli diğer araçlar.",
+      "explainshell": "Bash shell komut açıklaması.",
+      "hacktools": "Chrome ve Firefox Hacking Araçları Eklentileri.",
+      "pentestws": "Pentest Angajman Yardımcı Aracı.",
+      "revshells": "Reverse Shell Komut Oluşturucu.",
+      "ss64": "Komut Satırı Referansı.",
+      "infosechouse": "Siber Güvenlik Operasyonları için Araçlar ve Kaynaklar.",
+      "rawsec": "Siber Güvenlik hakkında araç ve kaynak envanteri."
+    }
+  }
+}

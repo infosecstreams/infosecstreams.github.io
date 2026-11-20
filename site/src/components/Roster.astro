@@ -1,0 +1,22 @@
+---
+import { fmt, strings, type Lang } from '../lib/i18n';
+import type { Streamer } from '../lib/roster';
+interface Props { lang: Lang; streamers: Streamer[]; }
+const { lang, streamers } = Astro.props;
+const t = strings(lang).ui;
+---
+<ol class="roster" aria-labelledby="list-h">
+  {streamers.map((s, i) => {
+    const tw = `https://www.twitch.tv/${s.login}`;
+    return (
+      <li data-login={s.login.toLowerCase()}>
+        <span class="n" aria-hidden="true">{i + 1}</span>
+        <span class="who"><a href={tw} target="_blank" rel="noopener" title={fmt(t.onTwitch, { name: s.login })}>{s.login}</a><span class="st"></span></span>
+        <span class="now"></span>
+        <span class="act" aria-hidden="true"><i><b></b></i><span></span></span>
+        <span class="lk">{s.youtube && <a href={s.youtube} target="_blank" rel="noopener" aria-label={fmt(t.onYouTube, { name: s.login })}><svg class="ic" aria-hidden="true"><use href="#i-youtube" /></svg></a>}</span>
+      </li>
+    );
+  })}
+</ol>
+<p class="empty" id="empty" role="status">{t.noMatches}</p>

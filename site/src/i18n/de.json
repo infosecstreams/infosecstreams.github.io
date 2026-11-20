@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "languageName": "Deutsch",
+    "description": "Live Cybersecurity-Streams | Ethisches Hacking | CTF-Herausforderungen | Penetrationstests"
+  },
+  "ui": {
+    "heading": "Security-Streams live",
+    "tagline": "Wer gerade Security streamt: HackTheBox- und TryHackMe-Boxen, Red und Blue Team, CTFs, Malware-Analyse.",
+    "onNow": "Jetzt",
+    "showAll": "Alle {n} anzeigen",
+    "showLess": "Weniger anzeigen",
+    "watch": "Auf Twitch ansehen",
+    "watching": "{n} schauen zu",
+    "livePreview": "Live-Vorschau von {name}",
+    "topic": "Thema",
+    "allTopics": "Alle Themen",
+    "nextUpLabel": "Als Nächstes",
+    "colStatus": "Status",
+    "colStreamer": "Streamer",
+    "colActivity": "Aktivität",
+    "colLinks": "Links",
+    "liveSection": "Jetzt live",
+    "skip": "Zur Liste springen",
+    "language": "Sprache",
+    "home": "Streams",
+    "inactiveNav": "Inaktiv",
+    "faqNav": "FAQ",
+    "resourcesNav": "Ressourcen",
+    "liveNow": "{n} jetzt live",
+    "nobodyLive": "Gerade ist niemand live.",
+    "checking": "Prüfe, wer live ist…",
+    "unavailable": "Der Live-Status ist gerade nicht verfügbar. Die vollständige Liste steht unten.",
+    "live": "Live",
+    "prelive": "Gleich live",
+    "offline": "Offline",
+    "viewers": "{n} Zuschauer",
+    "hours30d": "{n} Std. in 30 Tagen gestreamt",
+    "search": "Suchen",
+    "searchPlaceholder": "Namen, Titel, Kategorien suchen",
+    "allLanguages": "Alle Sprachen",
+    "allCategories": "Alle Kategorien",
+    "category": "Kategorie",
+    "liveOnly": "Nur live",
+    "clear": "Zurücksetzen",
+    "showing": "{shown} von {total}",
+    "noMatches": "Keine Streamer passen zu diesen Filtern.",
+    "upcoming": "Geplante Streams",
+    "upcomingEmpty": "Keine geplanten Streams in den nächsten 7 Tagen.",
+    "addToCalendar": "Zum Kalender hinzufügen",
+    "noScript": "Aktiviere JavaScript, um zu sehen, wer live ist, und den Zeitplan.",
+    "legendLive": "streamt gerade in einer Infosec-Kategorie",
+    "legendPrelive": "hat gerade in eine Infosec-Kategorie gewechselt; meist innerhalb einer Stunde live",
+    "onTwitch": "{name} auf Twitch",
+    "onYouTube": "{name} auf YouTube",
+    "source": "Quellcode auf GitHub",
+    "addStreamer": "Streamer hinzufügen",
+    "streamers": "{n} Streamer",
+    "keyHint": "Drücke / zum Suchen",
+    "startsIn": "beginnt {t}",
+    "nextUp": "Als Nächstes: {name}, {t}"
+  },
+  "home": {
+    "title": "InfoSec Streams",
+    "intro": "Glückwunsch! Du hast eine aktiv gepflegte Liste von Twitch-Streamern zum Thema Informationssicherheit gefunden. Diese liste ist `sortiert` basierend auf der `30-Tage-Aktivität` sie hilft dir aktive Streamer leichter zu finden!",
+    "inactiveNote": "Streamer, die im letzten Monat nicht aktiv waren, werden auf die Seite [inaktive Streamer](/inactive) verschoben.",
+    "questions": "Fragen? Beiträge? Sonstiges? Bitte lese das [FAQ](/faq)!",
+    "listHeading": "Liste der Streamer (sortiert)"
+  },
+  "inactive": {
+    "title": "Inaktive InfoSec-Streams",
+    "intro": "Hallo! Diese Seite enthält Streamer die im letzten Monat nicht gestreamt wurden.",
+    "listHeading": "Streams"
+  },
+  "credits": {
+    "heading": "Danksagung",
+    "maintainer": "Dieses Projekt ist ein Gemeinschaftsprojekt, aber [GoProSlowYo](https://twitch.tv/goproslowyo) verwaltet derzeit den gesamten Golang Code in den Repos [secinfo](https://github.com/infosecstreams/secinfo), [streamstatus](https://github.com/infosecstreams/streamstatus) und [infosecstreams.github.io](https://github.com/infosecstreams/infosecstreams.github.io).",
+    "shoutout": "Ein großes Lob an [chadb_n00b](https://twitch.tv/chadb_n00b) für die Einrichtung und Pflege der ursprünglichen [hacklist](https://docs.google.com/spreadsheets/d/e/2PACX-1vR_YY0A7i8-E0mRXJmCZTxARcZPm77dAV7funlMadAK2SliG0sWfdRUMlQ3DQux7WfqKD_JuVa-1I73/pubhtml)!"
+  },
+  "resourcesBlurb": {
+    "heading": "Ressourcen",
+    "text": "Hier sind [einige großartige Ressourcen](/resources) für Ihre Hacking-Reise."
+  },
+  "contribute": {
+    "heading": "Einen Beitrag leisten oder ein Problem melden",
+    "text": "Haben Sie Probleme mit einem Link? Website nicht richtig aktualisieren? Fragen? Beiträge? Etwas anderes? Bitte lesen Sie die [FAQ](/faq)!"
+  },
+  "faq": {
+    "title": "InfoSec Streams FAQ",
+    "items": {
+      "what": {
+        "q": "Was ist InfoSec Streams?",
+        "a": "InfoSec Streams ist eine von der Community aktiv gepflegte Liste von Twitch-Streams zum Thema Informationssicherheit. Die Liste wird auf GitHub-Seiten gehostet und umfasst eine breite Palette von Streamern, die Inhalte zu Cybersicherheitsthemen beisteuern."
+      },
+      "sorted": {
+        "q": "Wie ist die Liste sortiert?",
+        "a": "Die Liste ist basierend auf 30-tägiger Aktivität sortiert, was den Nutzern das Auffinden aktiver Streams erleichtert."
+      },
+      "inactive": {
+        "q": "Was passiert mit inaktiven Streamern?",
+        "a": "Streamer, die im letzten Monat nicht gestreamt haben, werden auf die Seite der inaktiven Streamer verschoben. Dadurch wird sichergestellt, dass die Hauptliste mit aktiven Inhaltserstellern auf dem neuesten Stand bleibt."
+      },
+      "inactiveAccess": {
+        "q": "Kann ich die Liste der inaktiven Streamer einsehen?",
+        "a": "Ja, es gibt eine separate Seite für Streamer, die im letzten Monat inaktiv waren. Sie können auf diese Liste über die GitHub-Hauptseite zugreifen."
+      },
+      "exhaustive": {
+        "q": "Ist die Liste der Streamer vollständig?",
+        "a": "Die Liste umfasst zwar eine breite Palette von Streamingdiensten, ist aber keineswegs erschöpfend. Der Bereich der Cybersicherheit ist dynamisch, und es tauchen immer wieder neue Autoren von Inhalten auf. Die InfoSec Streams-Liste soll so umfassend wie möglich sein und ist auf Beiträge aus der Community angewiesen, um auf dem neuesten Stand zu bleiben."
+      },
+      "contribute": {
+        "q": "Wie kann ich mich an der Liste beteiligen?",
+        "a": "Wenn Sie einen neuen Streamer hinzufügen oder einen Fehler entdecken haben, sind Sie eingeladen, Änderungen beizutragen. Sie können dies tun, indem Sie einen [pull request](https://github.com/infosecstreams/infosecstreams.github.io/pulls) stellen oder ein [issue](https://github.com/infosecstreams/infosecstreams.github.io/issues) erstellen. Danke!"
+      },
+      "maintainers": {
+        "q": "Wer pflegt die InfoSec Streams-Liste?",
+        "a": "Das Projekt wurde von [chadb_n00b](https://twitch.tv/chadb_n00b) gestartet und wird derzeit von [GoProSlowYo](https://www.twitch.tv/goproslowyo) betreut. [GoProSlowYo](https://github.com/goproslowyo) verwaltet derzeit den gesamten Golang-Code im [secinfo](https://github.com/infosecstreams/secinfo), [streamstatus](https://github.com/infosecstreams/streamstatus) und [infosecstreams.github.io](https://github.com/infosecstreams/infosecstreams.github.io) Repository."
+      },
+      "discord": {
+        "q": "Kann ich dem n00bsec CTF-Team und seiner florierenden Discord-Community beitreten?",
+        "a": "Absolut! Das n00bsec CTF Team hat eine lebendige und aktive Community auf einem Discord, OSINT it. Der Community beitreten, um sich an Diskussionen zu beteiligen, Wissen auszutauschen und sich am n00bsec CTF Team und dessen Aktivitäten zu beteiligen. Der Discord-Server ist eine hervorragende Plattform, um mit Gleichgesinnten in Kontakt zu treten, die sich für CTF-Herausforderungen und Informationssicherheit begeistern."
+      },
+      "report": {
+        "q": "Wo kann ich Probleme melden?",
+        "a": "Wenn Sie Probleme mit einem Link haben oder die Seite nicht richtig aktualisiert wird, können Sie dies auf dem Server melden (OSINT it) oder ein Problem auf der GitHub-Seite öffnen."
+      }
+    }
+  },
+  "resources": {
+    "title": "Ressourcen",
+    "heading": "Nützliche Ressourcen",
+    "types": {
+      "education": "Lernmaterial",
+      "handsOn": "Hand an der Tastatur",
+      "reference": "Hacking-Referenz",
+      "ctf": "CTF Werkzeuge",
+      "shell": "Shell Werkzeuge",
+      "resources": "Hacking-Ressourcen"
+    },
+    "items": {
+      "taggart": "Das Taggart Institute bietet kostengünstige und qualitativ hochwertige Technologie-Schulungen für jedermann in einer einladenden und hilfsbereiten Gemeinschaft an.",
+      "tryhackme": "TryHackMe - Penetrationtesting Fähigkeiten lernen.",
+      "bandit": "The Bandit ist ein wargame für Anfänger. Du lernst die Grundlagen, um andere Wargames spielen zu können.",
+      "hackthebox": "HackTheBox - Penetrationtesting Fähigkeiten lernen.",
+      "gtfobins": "Schnelle Shell-Einzeiler.",
+      "hacktricks": "Tricks und Techniken.",
+      "awesomectf": "Eine kuratierte Liste von Capture The Flag (CTF)-Frameworks, -Bibliotheken, -Ressourcen, -Software und -Tutorials.",
+      "crackstation": "Online Hashes Knacken.",
+      "cyberchef": "Das Cyber-Schweizer Taschenmesser für die Analyse, Kodierung und Dekodierung von Daten.",
+      "dcode": "dCode ist eine Toolkit-Website für Entschlüsselung, Chiffretexte.",
+      "hackvertor": "Online-Konverter, Decoder, Encoder, Hashing und verschiedene andere Werkzeuge.",
+      "explainshell": "Erklärung der Bash Shell Befehle.",
+      "hacktools": "Chrome und Firefox Hacking Werkzeugerweiterungen.",
+      "pentestws": "Pentest-Engagement-Dienstprogramm.",
+      "revshells": "Reverse Shell Befehlsgenerator.",
+      "ss64": "Kommandozeilenreferenz.",
+      "infosechouse": "Tools und Ressourcen für Cybersicherheitsoperationen.",
+      "rawsec": "Ein Verzeichnis von Tools und Ressourcen zum Thema Cybersicherheit."
+    }
+  }
+}

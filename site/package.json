@@ -1,0 +1,26 @@
+{
+  "name": "infosecstreams-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "build:mock": "PUBLIC_API_BASE=/mock-api/ PUBLIC_THUMB_TEMPLATE=/mock-api/thumbs/{login}.svg astro build && node scripts/write-mock.mjs",
+    "preview": "astro preview",
+    "check": "astro check",
+    "i18n:migrate": "python3 scripts/migrate-templates.py"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "3.7.6",
+    "astro": "7.4.13"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.12",
+    "esbuild": "0.28.2",
+    "simple-icons": "16.38.0",
+    "typescript": "6.0.3"
+  },
+  "engines": {
+    "node": ">=22.23"
+  }
+}
