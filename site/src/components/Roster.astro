@@ -9,8 +9,9 @@ const t = strings(lang).ui;
   {streamers.map((s, i) => {
     const tw = `https://www.twitch.tv/${s.login}`;
     return (
-      <li data-login={s.login.toLowerCase()}>
+      <li data-login={s.login.toLowerCase()} data-rank={i}>
         <span class="n" aria-hidden="true">{i + 1}</span>
+        <a class="th" href={tw} target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"></a>
         <span class="who"><a href={tw} target="_blank" rel="noopener" title={fmt(t.onTwitch, { name: s.login })}>{s.login}</a><span class="st"></span></span>
         <span class="now"></span>
         <span class="act" aria-hidden="true"><i><b></b></i><span></span></span>

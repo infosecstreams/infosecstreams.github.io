@@ -1,5 +1,5 @@
 ---
-// The home page (spotlight, on-now rows, roster, schedule) and the inactive page.
+// The home page (one list: live first, then by 30-day activity; schedule beside it) and the inactive page.
 import Base from '../layouts/Base.astro';
 import Roster from '../components/Roster.astro';
 import Toolbar from '../components/Toolbar.astro';
@@ -15,40 +15,19 @@ const home = page === '';
 const streamers = home ? active : inactive;
 const text = home ? all.home : all.inactive;
 const description = home ? all.meta.description : `${all.inactive.title}. ${all.inactive.intro}`;
-const ON_NOW_ROWS = 5;
 ---
 <Base lang={lang} page={page} title={home ? 'InfoSec Streams' : text.title} description={description} live>
-  <div id="app" data-api={API_BASE} data-thumb={THUMB_TEMPLATE} data-ui={JSON.stringify(t)} data-rows={ON_NOW_ROWS}>
+  <div id="app" data-api={API_BASE} data-thumb={THUMB_TEMPLATE} data-ui={JSON.stringify(t)}>
     <div class="hero">
       <h1>{home ? <><span class="sr">InfoSec Streams: </span>{t.heading}</> : text.title}</h1>
       {home ? <p class="badge" id="badge"><i class="dot" aria-hidden="true"></i><span role="status">{t.checking}</span></p>
             : <p class="lede" set:html={md(all.inactive.intro, lang)} />}
     </div>
 
-    {home && (
-      <section class="spot" id="spot" aria-label={t.liveSection}>
-        <div class="spot-media" aria-hidden="true"><span class="spot-ph"></span></div>
-        <div class="spot-txt">
-          <p class="eyebrow">{t.checking}</p>
-          <p class="spot-t">{t.tagline}</p>
-          <noscript><p class="noscript">{t.noScript}</p></noscript>
-        </div>
-      </section>
-    )}
-
     <Toolbar lang={lang} />
 
     <div class={home ? 'grid' : ''}>
       <section aria-labelledby="list-h">
-        {home && (
-          <div class="onnow-wrap">
-            <h2 class="grp"><span>{t.onNow} <b id="on-n"></b></span> <small>{t.viewers.replace('{n}', '').trim().replace(/^./, (c) => c.toUpperCase())}</small></h2>
-            <ol class="onnow" id="onnow" style={`--rows:${ON_NOW_ROWS}`}>
-              {Array.from({ length: ON_NOW_ROWS }, () => <li class="ph" aria-hidden="true"></li>)}
-            </ol>
-            <button class="more" id="more" type="button" hidden></button>
-          </div>
-        )}
         <h2 class="grp" id="list-h"><span>{text.listHeading}</span> <small>{fmt(t.streamers, { n: streamers.length })}</small></h2>
         <Roster lang={lang} streamers={streamers} />
         <ul class="legend">

@@ -40,7 +40,7 @@ if (app) start(app);
 function start(app: HTMLElement) {
   const API = app.dataset.api!;
   const THUMB = app.dataset.thumb!;
-  const ROWS = Number(app.dataset.rows || 5);
+  const ROWS = 5;
   const lang = document.documentElement.lang;
   const ui: UI = JSON.parse(app.dataset.ui!);
   const $ = <T extends Element = HTMLElement>(s: string) => app.querySelector<T>(s);
@@ -55,6 +55,7 @@ function start(app: HTMLElement) {
   const dayF = lazy(() => new Intl.DateTimeFormat(lang, { weekday: 'long', month: 'short', day: 'numeric' }));
   const namesF = lazy(() => { try { return new Intl.DisplayNames([lang], { type: 'language' }); } catch { return undefined; } });
   const collF = lazy(() => new Intl.Collator(lang));
+  const wkF = lazy(() => new Intl.DateTimeFormat(lang, { weekday: 'short' }));
   const num = (n: number) => numF().format(n);
   const clock = (d: Date) => clockF().format(d);
   const langName = (c?: string) => (c ? namesF()?.of(c) ?? c : '');
@@ -317,6 +318,69 @@ function start(app: HTMLElement) {
     return '';
   }
 
+  // The list is the page: live, then getting ready, then 30-day rank (as the
+  // old sort.js). Rows carry their rank in data-rank; only moved rows are touched.
+  const order = (tr: HTMLElement) => {
+    const st = byLogin.get(tr.dataset.login!)?.status;
+    return (st === 'online' ? 0 : st === 'prelive' ? 1 : 2) * 1e4 + Number(tr.dataset.rank);
+  };
+  function nextFor() {
+    const m = new Map<string, Segment>(), now = Date.now();
+    for (const sg of segments) if (!sg.canceled && Date.parse(sg.start) > now && !m.has(sg.login.toLowerCase())) m.set(sg.login.toLowerCase(), sg);
+    return m;
+  }
+  function renderRows() {
+    const max = Math.max(1, ...[...byLogin.values()].map((s) => s.hours_30d ?? 0));
+    const next = nextFor();
+    const bucket = Math.floor(Date.now() / 300000);
+    for (const tr of rows) {
+      const s = byLogin.get(tr.dataset.login!);
+      const online = s?.status === 'online', pre = s?.status === 'prelive';
+      const sg = !online && !pre ? next.get(tr.dataset.login!) : undefined;
+      const hrs = s?.hours_30d;
+      const k = `${s?.status}|${s?.title}|${s?.viewers}|${s?.started_at}|${hrs}|${sg?.start}|${online ? bucket : ''}`;
+      if (tr.dataset.k === k) continue;
+      tr.dataset.k = k;
+      tr.className = online ? 'on' : pre ? 'pre' : '';
+      const when = online && s!.started_at ? ` · ${since(s!.started_at)}` : pre && startsSoon(s!) ? ` · ${until(startsSoon(s!))}` : '';
+      tr.querySelector('.st')!.innerHTML = s && (online || pre) ? tag(s, when) : '';
+      tr.querySelector('.th')!.innerHTML = online ? thumbImg(s!, 144, 81, 'loading="lazy"') : pre ? '<span class="ring"></span>' : '';
+      const now = tr.querySelector<HTMLElement>('.now')!;
+      if (online || pre) {
+        const topics = topicsFor(s);
+        const meta = [...(topics.length ? topics : [s!.category]), langName(s!.language), online && s!.viewers != null ? f('viewers', { n: num(s!.viewers) }) : ''].filter(Boolean).join(' · ');
+        now.innerHTML = `<span class="t">${esc(s!.title || s!.category || '')}</span><span class="c">${esc(meta)}</span>`;
+        now.title = s!.title ?? '';
+      } else if (sg) {
+        const d = new Date(sg.start);
+        // Within a day the relative time says it all; further out, the weekday and time.
+        now.innerHTML = Date.parse(sg.start) - Date.now() < 864e5
+          ? `${esc(ui.nextUpLabel)} · ${esc(clock(d))} · ${until(sg.start, false)}`
+          : `${esc(ui.nextUpLabel)} · ${esc(wkF().format(d))} ${esc(clock(d))}`;
+        now.title = sg.title ?? '';
+      } else {
+        now.textContent = '';
+        now.title = '';
+      }
+      const act = tr.querySelector<HTMLElement>('.act');
+      if (act) {
+        act.querySelector('b')!.style.width = hrs != null ? `${Math.round((hrs / max) * 100)}%` : '0';
+        act.querySelector('span')!.textContent = hrs != null ? `${Math.round(hrs)}h` : '';
+        act.title = hrs != null ? f('hours30d', { n: Math.round(hrs) }) : '';
+      }
+    }
+    const list = rows[0]?.parentElement;
+    if (list) {
+      const want = [...rows].sort((a, b) => order(a) - order(b));
+      const cur = [...list.children].filter((c) => (c as HTMLElement).dataset.rank != null);
+      if (want.some((tr, i) => tr !== cur[i])) list.append(...want);
+      let lastLive: HTMLElement | undefined;
+      for (const tr of want) if (tr.classList.contains('on') || tr.classList.contains('pre')) lastLive = tr;
+      for (const tr of want) tr.classList.toggle('last-live', tr === lastLive);
+      list.classList.add('ready');
+    }
+  }
+
   // Yield to the browser between render steps so no single task blocks input.
   const yieldTask = () => new Promise<void>((r) => setTimeout(r, 0));
   let renderSeq = 0;
@@ -340,28 +404,7 @@ function start(app: HTMLElement) {
 
     await yieldTask();
     if (seq !== renderSeq) return;
-    // Touch only rows whose content changed: the inactive page has 300+.
-    const max = Math.max(1, ...[...byLogin.values()].map((s) => s.hours_30d ?? 0));
-    for (const tr of rows) {
-      const s = byLogin.get(tr.dataset.login!);
-      const html = s && s.status !== 'offline' ? tag(s) : '';
-      const text = nowText(s);
-      const hrs = s?.hours_30d;
-      const k = `${html}\n${text}\n${hrs}`;
-      if (tr.dataset.k === k) continue;
-      tr.dataset.k = k;
-      tr.className = s?.status === 'online' ? 'on' : s?.status === 'prelive' ? 'pre' : '';
-      tr.querySelector('.st')!.innerHTML = html;
-      const now = tr.querySelector<HTMLElement>('.now')!;
-      now.textContent = text;
-      now.title = text;
-      const act = tr.querySelector<HTMLElement>('.act');
-      if (act) {
-        act.querySelector('b')!.style.width = hrs != null ? `${Math.round((hrs / max) * 100)}%` : '0';
-        act.querySelector('span')!.textContent = hrs != null ? `${Math.round(hrs)}h` : '';
-        act.title = hrs != null ? f('hours30d', { n: Math.round(hrs) }) : '';
-      }
-    }
+    renderRows();
 
     await yieldTask();
     if (seq !== renderSeq) return;
@@ -391,8 +434,9 @@ function start(app: HTMLElement) {
           + `<span class="what"><a href="${twitch(s.login)}" target="_blank" rel="noopener">${name(s)}</a><span title="${esc(text)}">${esc(text)}</span></span></li>`;
       }).join('');
     }
-    // The spotlight and the On now rows use the schedule too.
+    // The rows show each streamer's next stream; the spotlight and On now use it too.
     if (statusOk !== undefined) {
+      renderRows();
       const live = liveSorted();
       renderSpot(live);
       renderOnNow(live);
@@ -451,6 +495,7 @@ function start(app: HTMLElement) {
   const warm = [numF, relF, clockF, dayF, namesF, collF];
   const warmNext = () => { const w = warm.shift(); if (w) { w(); setTimeout(warmNext, 0); } };
   const go = () => {
+    setTimeout(() => rows[0]?.parentElement?.classList.add('ready'), 2500);
     warmNext();
     poller('status.json', 30_000, (text) => {
       try {
