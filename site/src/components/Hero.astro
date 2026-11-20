@@ -5,12 +5,12 @@
 // JS off) the same rack shows as a static SVG, so nothing moves on load.
 import rackSvg from '../assets/rack.svg?raw';
 import geo from '../assets/rack.json';
-import { strings, type Lang } from '../lib/i18n';
+import { pathFor, strings, type Lang } from '../lib/i18n';
 interface Props { lang: Lang; }
 const { lang } = Astro.props;
 const t = strings(lang).ui;
 ---
-<section class="hero" id="hero" aria-labelledby="hero-h" data-geo={JSON.stringify(geo)}>
+<section class="hero" id="hero" aria-labelledby="hero-h" data-geo={JSON.stringify(geo)} data-page={pathFor(lang, 'streamer')}>
   <div class="hero-txt">
     <h1 id="hero-h"><span class="sr">InfoSec Streams: </span>{t.heading}</h1>
     <div class="term">

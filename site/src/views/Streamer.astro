@@ -1,0 +1,29 @@
+---
+// One streamer: everything the bot's stats API has on them (stats/<login>.json),
+// plus live state from status.json. The login comes from ?u=, so the page is
+// one static file per language, filled in by src/scripts/streamer.ts.
+import Base from '../layouts/Base.astro';
+import { pathFor, strings, type Lang } from '../lib/i18n';
+import { active, inactive } from '../lib/roster';
+import { API_BASE, THUMB_TEMPLATE } from '../lib/api';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+const all = strings(lang);
+const t = all.streamer;
+// Roster spelling and YouTube link per login (the API has neither).
+const roster = Object.fromEntries([...active, ...inactive].map((s) => [s.login.toLowerCase(), [s.login, s.youtube ?? '']]));
+---
+<Base lang={lang} page="streamer" title="Streamer" description={all.meta.description} live noindex>
+  <div id="sp" class="sp" data-api={API_BASE} data-thumb={THUMB_TEMPLATE} data-ui={JSON.stringify(t)} data-roster={JSON.stringify(roster)}>
+    <a class="back" href={pathFor(lang, '')}><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" /></svg>{t.back}</a>
+    <header class="sp-head">
+      <h1 id="sp-name">&nbsp;</h1>
+      <p class="sp-status" id="sp-status">{t.loading}</p>
+      <p class="sp-links" id="sp-links"></p>
+    </header>
+    <noscript><p class="noscript">{t.noScript}</p></noscript>
+    <div class="sp-body" id="sp-body"></div>
+  </div>
+  <script src="../scripts/streamer.ts"></script>
+</Base>

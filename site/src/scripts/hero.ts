@@ -138,7 +138,7 @@ function startHero(hero: HTMLElement) {
   void session();
 
   // ---- pointer: which sled is under the cursor ----
-  let sel = -1, px = 0.5, py = 0.5;
+  let sel = -1;
   const toArt = (e: PointerEvent) => {
     const b = box.getBoundingClientRect(), s = Math.min(b.width / geo.width, b.height / geo.height);
     return [(e.clientX - b.left - (b.width - geo.width * s) / 2) / s, (e.clientY - b.top - (b.height - geo.height * s) / 2) / s];
@@ -151,42 +151,36 @@ function startHero(hero: HTMLElement) {
     box.style.cursor = i >= 0 && list[i] ? 'pointer' : '';
     if (i >= 0 && list[i]) showStreamer(list[i]!); else backToSession();
   }
-  // Click (or tap) pins a streamer: the terminal keeps their record and their
-  // row in the list below is marked. Click it again, empty space, or Esc to let go.
-  let pinned = -1;
-  function markRow(login?: string) {
-    for (const li of document.querySelectorAll('li.pinned')) li.classList.remove('pinned');
-    if (login) document.querySelector(`li[data-login="${CSS.escape(login.toLowerCase())}"]`)?.classList.add('pinned');
-  }
-  function pin(i: number) { pinned = i; select(i); markRow(list[i]!.login); }
-  function unpin() { pinned = -1; markRow(); select(-1); }
-  addEventListener('keydown', (e) => { if (e.key === 'Escape' && pinned >= 0) unpin(); });
+  // Click (or tap) opens that streamer's page here; touch: the first tap shows
+  // their record in the terminal, a second tap on the same sled opens it.
+  const pagePath = hero.dataset.page!;
+  const open = (i: number) => { location.href = `${pagePath}?u=${encodeURIComponent(list[i]!.login.toLowerCase())}`; };
+  let armed = -1;
   box.addEventListener('pointermove', (e) => {
-    const b = box.getBoundingClientRect();
-    px = (e.clientX - b.left) / b.width; py = (e.clientY - b.top) / b.height;
     kick();
     const [x, y] = toArt(e);
     const i = hit(x, y);
-    if (e.pointerType === 'mouse' && pinned < 0) select(i >= 0 && list[i] ? i : -1);
+    if (e.pointerType === 'mouse') select(i >= 0 && list[i] ? i : -1);
   });
-  box.addEventListener('pointerleave', (e) => { if (e.pointerType !== 'mouse') return; px = py = 0.5; if (pinned < 0) select(-1); kick(); });
+  box.addEventListener('pointerleave', (e) => { if (e.pointerType !== 'mouse') return; select(-1); kick(); });
   box.addEventListener('pointerdown', (e) => {
     const [x, y] = toArt(e);
     const i = hit(x, y);
-    if (i >= 0 && list[i] && i !== pinned) pin(i);
-    else if (pinned >= 0) unpin();
+    if (i < 0 || !list[i]) return;
+    if (e.pointerType === 'mouse' || armed === i) return open(i);
+    armed = i; select(i);
   });
 
 
   // ---- Rive (low-level) ----
   let rt: RvRuntime | null = null, ab: RvArtboard | null = null, sm: RvSM | null = null, renderer: RvRenderer | null = null;
   const nodes: { on: RvNode; pre: RvNode; bar: RvNode }[] = [];
-  let selNode: RvNode, selBar: RvNode, rackNode: RvNode, frameNode: RvNode, scanNode: RvNode;
+  let selNode: RvNode, selBar: RvNode, scanNode: RvNode;
   // Frames are drawn only while something changes: a pointer move, new data, a
   // glide still settling, or the scan sweep. Otherwise the page is idle.
   let pending = false;
   function kick() { if (rt && !pending) { pending = true; prev = 0; rt.requestAnimationFrame(loop); } }
-  const cur = { x: 0, y: 0, s: 0, bar: 0, px: 0, py: 0 };
+  const cur = { x: 0, y: 0, s: 0, bar: 0 };
 
   // Before the runtime loads, the static SVG rack shows the same LEDs and bars.
   function paintSvg() {
@@ -229,9 +223,8 @@ function startHero(hero: HTMLElement) {
     pending = false;
     if (!rt || !ab || !renderer) return;
     if (!visible || document.hidden) return;   // kick() restarts it
-    const m = reduce.matches ? 0 : 1;
     const tgt = sel >= 0 ? geo.sleds[sel] : null;
-    const moving = Math.abs(cur.s - (tgt ? 1 : 0)) > 0.002 || Math.abs(cur.px - (px - 0.5) * m) > 0.002 || Math.abs(cur.py - (py - 0.5) * m) > 0.002
+    const moving = Math.abs(cur.s - (tgt ? 1 : 0)) > 0.002
       || (!!tgt && (Math.abs(cur.x - tgt[0]) > 0.1 || Math.abs(cur.y - tgt[1]) > 0.1));
     const ambient = !reduce.matches && !lean;
     if (moving || t - lastDraw >= 33 || !lastDraw) {
@@ -241,16 +234,13 @@ function startHero(hero: HTMLElement) {
       const w = Math.round(canvas.clientWidth * dpr), h = Math.round(canvas.clientHeight * dpr);
       if (w && h) {
         if (canvas.width !== w || canvas.height !== h) { canvas.width = w; canvas.height = h; }
-        // selection glides to its sled; parallax follows the cursor
+        // the selection glides to its sled
         const k = 1 - Math.exp(-dt / 0.07);
         if (tgt) { cur.x += (tgt[0] - cur.x) * (cur.s > 0.02 ? k : 1); cur.y += (tgt[1] - cur.y) * (cur.s > 0.02 ? k : 1); }
         cur.s += ((tgt ? 1 : 0) - cur.s) * k;
         cur.bar += (((tgt && list[sel]?.hours_30d) ? list[sel]!.hours_30d! / maxH : 0) - cur.bar) * k;
-        cur.px += ((px - 0.5) * m - cur.px) * k; cur.py += ((py - 0.5) * m - cur.py) * k;
         selNode.x = cur.x; selNode.y = cur.y; selNode.scaleX = selNode.scaleY = cur.s < 0.02 ? 0 : 1;
         selBar.scaleX = Math.max(0.001, cur.bar);
-        rackNode.x = -cur.px * 6; rackNode.y = -cur.py * 4;
-        frameNode.x = -cur.px * 2; frameNode.y = -cur.py * 1.5;
         scanNode.scaleY = ambient ? 1 : 0;
         if (ambient) {
           sm!.advance(dt);
@@ -310,7 +300,7 @@ function startHero(hero: HTMLElement) {
       ab = file.artboardByName('Rack');
       sm = new rt.StateMachineInstance(ab.stateMachineByName('Rack'), ab);
       for (let i = 0; i < geo.sleds.length; i++) nodes.push({ on: ab.node(`on${i}`), pre: ab.node(`pre${i}`), bar: ab.node(`bar${i}`) });
-      selNode = ab.node('sel'); selBar = ab.node('selbar'); rackNode = ab.node('rack'); frameNode = ab.node('frame'); scanNode = ab.node('scan');
+      selNode = ab.node('sel'); selBar = ab.node('selbar'); scanNode = ab.node('scan');
       paintNodes();
       renderer = rt.makeRenderer(canvas, false);
       kick();

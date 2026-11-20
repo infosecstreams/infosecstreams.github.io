@@ -175,16 +175,11 @@ html.js #app:not(.ready) .list { visibility: hidden; }
 .m i.lit { background: var(--led-dim); }
 .list li:hover .m i.lit { background: var(--led); }
 .h { font: 0.8rem var(--mono); color: var(--steel); text-align: end; min-width: 3.25rem; unicode-bidi: plaintext; }
-.lk { display: flex; align-items: center; justify-content: flex-end; gap: 0.5rem; min-width: 2rem; }
-.yt { display: inline-flex; align-items: center; justify-content: center; width: 2rem; height: 2rem; border-radius: var(--r); color: var(--steel); }
-.yt:hover { color: var(--bone); background: var(--line); }
-@media (hover: hover) {
-  .list li .yt { opacity: 0; }
-  .list li:hover .yt, .list li:focus-within .yt { opacity: 1; }
-}
-.watch { display: inline-flex; align-items: center; height: 2.1rem; padding: 0 0.9rem; border: 1px solid var(--led-dim); border-radius: var(--r); background: var(--led-fill); color: var(--led); font: 600 0.72rem/1 var(--mono); letter-spacing: 0.1em; text-transform: uppercase; }
-.watch:hover { background: var(--led-fill-hi); border-color: var(--led); }
-.watch[hidden] { display: none; }
+.lk { display: flex; align-items: center; justify-content: flex-end; gap: 0.25rem; }
+/* The only ways off the site: the Twitch and YouTube logos, as on the old site. */
+.lk a, .lk span.yt { display: inline-flex; align-items: center; justify-content: center; width: 2rem; height: 2rem; border-radius: var(--r); color: var(--steel); }
+.lk .tw:hover { color: #a970ff; background: var(--line); }
+.lk .yt:hover { color: #ff4e45; background: var(--line); }
 /* Online streamers inside the full list (when sorted another way): their LED. */
 .list li.on .nm::before, .list li.pre .nm::before { content: ""; display: inline-block; width: 0.45rem; height: 0.45rem; border-radius: 50%; background: var(--led); margin-inline-end: 0.55rem; vertical-align: 0.1em; }
 .list li.pre .nm::before { background: var(--amber); }
@@ -201,7 +196,7 @@ html.js #app:not(.ready) .list { visibility: hidden; }
 .list.live .nm { font-size: 0.95rem; }
 .list.live .t { display: block; margin-top: 0.2rem; font-size: 1rem; color: var(--bone); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .list.live .meta { display: block; margin-top: 0.25rem; font: 0.75rem var(--mono); color: var(--steel); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.list.live .m, .list.live .h, .list.live .yt { display: none; }
+.list.live .m, .list.live .h { display: none; }
 .list.live li.pre .t { color: var(--silver); }
 
 .noscript { margin: 0; padding: 0.75rem 1rem; color: var(--steel); font-size: 0.9rem; border-top: 1px solid var(--line); }
@@ -213,7 +208,7 @@ html.js #app:not(.ready) .list { visibility: hidden; }
   .list.live li { grid-template-columns: 112px minmax(0, 1fr); gap: 0 0.85rem; padding: 0.65rem 0.75rem; }
   .list.live .th { width: 112px; }
   .pill { font-size: 0.6rem; letter-spacing: 0.06em; }
-  .list.live .lk { display: none; }
+  .list.live .lk { grid-column: 2; justify-content: flex-start; margin-inline-start: -0.5rem; }
   .list.live .t { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; font-size: 0.92rem; }
   .panel-h small { display: none; }
 }
@@ -264,3 +259,69 @@ html.js #app:not(.ready) .list { visibility: hidden; }
 .foot p { margin: 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
 .foot a { display: inline-flex; align-items: center; gap: 0.45rem; font: var(--label); letter-spacing: 0.08em; text-transform: uppercase; color: var(--steel); }
 .foot a:hover { color: var(--bone); }
+
+/* Streamer page */
+.sp { margin-top: 1.75rem; }
+.back { display: inline-flex; align-items: center; gap: 0.35rem; font: var(--label); letter-spacing: 0.08em; text-transform: uppercase; color: var(--steel); }
+.back:hover { color: var(--bone); }
+.sp-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 0.5rem 1.5rem; margin: 1.25rem 0 1.5rem; }
+.sp-head h1 { grid-column: 1; margin: 0; font: 500 clamp(1.8rem, 1.4rem + 1.6vw, 2.6rem)/1.1 var(--mono); letter-spacing: -0.03em; overflow-wrap: anywhere; }
+.sp-status { grid-column: 1; display: flex; align-items: center; gap: 0.5rem; margin: 0; min-height: 1.5rem; font: 0.85rem var(--mono); color: var(--steel); }
+.sp-status b { color: var(--bone); font-weight: 600; }
+.sp-links { grid-column: 2; grid-row: 1 / span 2; display: flex; gap: 0.5rem; margin: 0; }
+.ext { display: inline-flex; align-items: center; gap: 0.5rem; height: 2.4rem; padding: 0 0.85rem; border: 1px solid var(--line); border-radius: var(--r); font: var(--label); letter-spacing: 0.08em; text-transform: uppercase; color: var(--silver); }
+.ext.tw:hover { border-color: #9146ff; color: #c4a1ff; }
+.ext.yt:hover { border-color: #ff4e45; color: #ff9a94; }
+.sp-body { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; align-items: start; }
+/* The stats arrive after the page: reserve the screen so nothing below jumps. */
+html.js .sp-body { min-height: 100vh; }
+.sp-links { min-height: 2.4rem; }
+.sp-body .panel + .panel { margin-top: 0; }
+.sp-body .wide, .sp-body .status, .sp-body .since { grid-column: 1 / -1; }
+.sp-body .status { border: 1px solid var(--line); }
+.sp-live { display: grid; grid-template-columns: 320px minmax(0, 1fr); gap: 1.25rem; align-items: center; padding: 1rem; }
+.sp-live .th { display: block; position: relative; aspect-ratio: 16 / 9; border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; background: var(--graphite); }
+.sp-live .t { margin: 0; font-size: 1.05rem; color: var(--bone); }
+.sp-live .meta { margin: 0.35rem 0 0; font: 0.78rem var(--mono); color: var(--steel); }
+.kv { margin: 0; }
+.kv > div { display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); gap: 1rem; align-items: baseline; padding: 0.6rem 1rem; border-top: 1px solid var(--line); }
+.kv > div:first-child { border-top: 0; }
+.kv dt { font: var(--label); letter-spacing: 0.06em; text-transform: uppercase; color: var(--steel); line-height: 1.5; }
+.kv dd { margin: 0; font: 0.9rem var(--mono); color: var(--bone); }
+.kv .up { color: var(--led); }
+.kv .down { color: #ff6285; }
+.hrow { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.75rem; white-space: nowrap; }
+.hrow small { display: block; overflow: hidden; text-overflow: ellipsis; font: 0.66rem var(--mono); color: var(--steel); text-transform: uppercase; letter-spacing: 0.06em; }
+/* Usually live: a 7 x 24 grid of LEDs, lit by how often they are live then. */
+.hm { padding: 0.9rem 1rem 0.7rem; }
+.hm-row { display: grid; grid-template-columns: 2.6rem repeat(24, minmax(0, 1fr)); gap: 3px; align-items: center; margin-bottom: 3px; }
+.hm-row span { font: 0.66rem var(--mono); color: var(--steel); text-transform: uppercase; }
+.hm-row i { display: block; aspect-ratio: 1; border-radius: 1px; background: var(--graphite); }
+.hm-row i.l1 { background: #0f3d30; }
+.hm-row i.l2 { background: #00845a; }
+.hm-row i.l3 { background: var(--led); box-shadow: 0 0 6px rgb(0 216 146 / 0.45); }
+.hm-axis b { font: 400 0.6rem var(--mono); color: var(--steel); text-align: start; }
+.rows { list-style: none; margin: 0; padding: 0; }
+.rows li { display: grid; grid-template-columns: 7rem minmax(0, 1fr) auto auto; gap: 1rem; align-items: center; min-height: 2.6rem; padding: 0.35rem 1rem; border-top: 1px solid var(--line); font: 0.82rem var(--mono); }
+.rows li:first-child { border-top: 0; }
+.rows .d { color: var(--steel); }
+.rows .c { color: var(--silver); }
+.rows .h, .rows .v { color: var(--steel); text-align: end; white-space: nowrap; }
+.rows .tt { color: var(--bone); font-family: var(--sans); font-size: 0.88rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rows .tt a:hover { color: var(--led); }
+.rows .tw-ic { display: inline-flex; width: 2rem; height: 2rem; align-items: center; justify-content: center; color: var(--steel); border-radius: var(--r); }
+.rows .tw-ic:hover { color: #a970ff; background: var(--line); }
+.chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0; padding: 0.8rem 1rem; }
+.chips span { padding: 0.25rem 0.55rem; border: 1px solid var(--line); border-radius: var(--r); font: 0.75rem var(--mono); color: var(--silver); }
+.chips b { color: var(--steel); font-weight: 400; }
+.since { margin: 0; font: 0.72rem var(--mono); color: var(--steel); }
+@media (max-width: 48rem) {
+  .sp-body { grid-template-columns: minmax(0, 1fr); }
+  .sp-head { grid-template-columns: minmax(0, 1fr); }
+  .sp-links { grid-column: 1; grid-row: auto; }
+  .sp-live { grid-template-columns: minmax(0, 1fr); }
+  .kv > div { grid-template-columns: 8.5rem minmax(0, 1fr); }
+  .hrow { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rows li { grid-template-columns: 5.5rem minmax(0, 1fr) auto auto; gap: 0.75rem; }
+  .rows .v { display: none; }
+}

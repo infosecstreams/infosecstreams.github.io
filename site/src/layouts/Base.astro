@@ -14,8 +14,10 @@ interface Props {
   jsonLd?: object[];
   /** Pages that show live status: start fetching status.json from the HTML. */
   live?: boolean;
+  /** Pages whose content depends on the query (the streamer page): keep them out of search. */
+  noindex?: boolean;
 }
-const { lang, page, title, description, jsonLd = [], live = false } = Astro.props;
+const { lang, page, title, description, jsonLd = [], live = false, noindex = false } = Astro.props;
 const PLAUSIBLE_HOST = 'p.infosecstreams.com';
 const apiOrigin = /^https?:/.test(API_BASE) ? new URL(API_BASE).origin : '';
 const boot = transformSync(
@@ -45,6 +47,7 @@ const ld = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
     <link rel="canonical" href={canonical} />
     {LANGS.map((l) => <link rel="alternate" hreflang={l} href={site + pathFor(l, page)} />)}
     <link rel="alternate" hreflang="x-default" href={site + pathFor('en', page)} />

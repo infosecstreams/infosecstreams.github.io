@@ -92,3 +92,31 @@ export function thumbSvg(login) {
   const cam = ['#3b2f2f', '#2f3b35', '#2f323b'][r(3)];
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720"><rect width="1280" height="720" fill="${bg}"/><rect width="1280" height="40" fill="#000" opacity=".35"/><circle cx="24" cy="20" r="6" fill="#ff5f57"/><circle cx="44" cy="20" r="6" fill="#febc2e"/><circle cx="64" cy="20" r="6" fill="#28c840"/>${body}<rect x="960" y="470" width="300" height="230" rx="14" fill="${cam}"/><circle cx="1110" cy="560" r="48" fill="#c8a989"/><path d="M1030 700c10-70 150-70 160 0z" fill="#3a4a5c"/></svg>`;
 }
+
+/** A /stats/<login>.json document for the mock API (shape of the bot's real one). */
+export function statsFor(s, now = Date.now()) {
+  const H = 3600e3, seed = [...s.login].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7);
+  const rnd = (k) => ((Math.sin(seed + k) + 1) / 2);
+  const h30 = s.hours_30d ?? 0, iso = (t) => new Date(t).toISOString();
+  const streams = Array.from({ length: h30 ? 10 : 0 }, (_, i) => {
+    const start = now - (i * 2.6 + 0.5) * 24 * H - rnd(i) * 6 * H, hours = Math.round((1.5 + rnd(i + 9) * 3) * 10) / 10;
+    return { started_at: iso(start), ended_at: iso(start + hours * H), hours, categories: ['Science & Technology'], avg_viewers: Math.round(5 + rnd(i) * 40), peak_viewers: Math.round(10 + rnd(i) * 60) };
+  });
+  const heat = Array.from({ length: 7 }, (_, d) => Array.from({ length: 24 }, (_, h) => (h30 && (d + seed) % 3 !== 0 && h >= 18 + (seed % 3) && h <= 22 + (seed % 3)) ? Math.round(rnd(d * 24 + h) * 100) / 100 : 0));
+  return {
+    id: s.id, login: s.login.toLowerCase(), display_name: s.login, generated_at: iso(now), recording_since: iso(now - 90 * 24 * H),
+    last_live_at: h30 ? streams[0]?.ended_at : undefined,
+    hours: { '7d': Math.round(h30 / 4 * 10) / 10, '30d': h30, '90d': Math.round(h30 * 2.8 * 10) / 10, all: Math.round(h30 * 3.1 * 10) / 10 },
+    infosec_share_30d: 1, categories_30d: h30 ? [{ category: 'Science & Technology', hours: h30, infosec: true }] : [],
+    streams_30d: h30 ? Math.max(1, Math.round(h30 / 3)) : 0, avg_stream_hours_30d: 2.9, median_stream_hours_30d: 2.7, longest_stream_hours_30d: 4.6, longest_stream_hours_all: 6.1,
+    stream_days_per_week_30d: Math.round(h30 / 12 * 10) / 10, current_streak_weeks: h30 ? 4 + (seed % 9) : 0, longest_streak_weeks: 13,
+    avg_viewers_30d: h30 ? Math.round(8 + rnd(1) * 40) : undefined, avg_viewers_prev_30d: h30 ? Math.round(8 + rnd(2) * 40) : undefined, peak_viewers_30d: h30 ? Math.round(30 + rnd(3) * 90) : undefined,
+    hours_watched_30d: Math.round(h30 * 20), followers: 300 + (seed % 5000), followers_gained_30d: seed % 90,
+    heatmap_90d: heat, recent_streams: streams,
+    recent_titles: [{ at: iso(now - 30 * H), title: 'Detection engineering office hours', category: 'Science & Technology' }],
+    topics_30d: h30 ? [{ topic: 'CTF', streams: 3 }, { topic: 'Hack The Box', streams: 2 }] : [], tags_30d: [],
+    raids_out_30d: 1, raids_in_30d: 0, raid_partners_90d: [],
+    recent_vods: h30 ? [{ id: '1', title: 'Malware Monday: unpacking a fresh infostealer', url: 'https://www.twitch.tv/videos/1', thumbnail_url: '', views: 120, duration_s: 9420, created_at: iso(now - 50 * H) }] : [],
+    top_clips_30d: [],
+  };
+}

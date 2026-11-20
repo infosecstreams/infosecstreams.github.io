@@ -148,7 +148,6 @@ function start(app: HTMLElement) {
       li.querySelectorAll<HTMLElement>('.m i').forEach((seg, i) => seg.classList.toggle('lit', i < lit));
       el('.h').textContent = s?.hours_30d != null ? f('hoursShort', { n: Math.round(s.hours_30d) }) : '';
       el('.h').title = s?.hours_30d != null ? f('hours30d', { n: Math.round(s.hours_30d) }) : '';
-      li.querySelector<HTMLElement>('.watch')!.hidden = !online;
     }
     // Live and getting-ready streamers sit in "Live now"; everyone else below.
     const lead = rows.filter((li) => statusRank(byLogin.get(li.dataset.login!)) < 2).sort(liveOrder);

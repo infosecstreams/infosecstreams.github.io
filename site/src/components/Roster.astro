@@ -1,11 +1,12 @@
 ---
 // Everyone, in 30-day rank order. live.ts moves whoever is live (or getting
 // ready) into the "Live now" list above and fills in the details.
-import { fmt, strings, type Lang } from '../lib/i18n';
+import { fmt, pathFor, strings, type Lang } from '../lib/i18n';
 import type { Streamer } from '../lib/roster';
 interface Props { lang: Lang; streamers: Streamer[]; }
 const { lang, streamers } = Astro.props;
 const t = strings(lang).ui;
+const page = pathFor(lang, 'streamer');
 ---
 <ol class="list" id="rest">
   {streamers.map((s, i) => {
@@ -14,15 +15,15 @@ const t = strings(lang).ui;
       <li data-login={s.login.toLowerCase()} data-rank={i}>
         <span class="th" aria-hidden="true"></span>
         <span class="who">
-          <a class="nm" href={tw} target="_blank" rel="noopener" title={fmt(t.onTwitch, { name: s.login })}>{s.login}</a>
+          <a class="nm" href={`${page}?u=${encodeURIComponent(s.login.toLowerCase())}`}>{s.login}</a>
           <span class="t"></span>
           <span class="meta"></span>
         </span>
         <span class="m" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
         <span class="h"></span>
         <span class="lk">
-          {s.youtube && <a class="yt" href={s.youtube} target="_blank" rel="noopener" aria-label={fmt(t.onYouTube, { name: s.login })}><svg class="ic" aria-hidden="true"><use href="#i-youtube" /></svg></a>}
-          <a class="watch" href={tw} target="_blank" rel="noopener" hidden>{t.watchShort}</a>
+          <a class="tw" href={tw} target="_blank" rel="noopener" aria-label={fmt(t.onTwitch, { name: s.login })}><svg class="ic" aria-hidden="true"><use href="#i-twitch" /></svg></a>
+          {s.youtube ? <a class="yt" href={s.youtube} target="_blank" rel="noopener" aria-label={fmt(t.onYouTube, { name: s.login })}><svg class="ic" aria-hidden="true"><use href="#i-youtube" /></svg></a> : <span class="yt" aria-hidden="true"></span>}
         </span>
       </li>
     );

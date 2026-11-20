@@ -45,7 +45,7 @@ export function fmt(s: string, vars: Record<string, string | number>): string {
   return s.replace(/\{(\w+)\}/g, (_, k) => String(vars[k] ?? `{${k}}`));
 }
 
-export type Page = '' | 'inactive' | 'faq' | 'resources';
+export type Page = '' | 'inactive' | 'faq' | 'resources' | 'streamer';
 export const PAGES: Page[] = ['', 'inactive', 'faq', 'resources'];
 
 /** Site path of a page in a language: '/', '/faq', '/de/', '/de/faq'. */
