@@ -92,6 +92,41 @@ input, select, button { font: inherit; color: inherit; }
 .head h1 { margin: 0; font-size: clamp(2rem, 1.6rem + 1.6vw, 2.75rem); font-weight: 400; letter-spacing: -0.025em; line-height: 1.1; }
 .lede { margin: 0.6rem 0 0; color: var(--steel); max-width: 46rem; }
 
+/* Hero: a terminal beside the rack (src/scripts/hero.ts) */
+.hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.12fr); gap: 2.5rem; align-items: center; margin: 2.75rem 0 2.5rem; }
+.hero h1 { margin: 0; font-size: clamp(2rem, 1.6rem + 1.6vw, 2.75rem); font-weight: 400; letter-spacing: -0.025em; line-height: 1.1; }
+.hero-sub { margin: 0.75rem 0 0; color: var(--steel); max-width: 34rem; }
+.term { margin-top: 1.5rem; border: 1px solid var(--line); border-radius: var(--r); background: var(--carbon); }
+.term-bar { display: flex; align-items: center; gap: 1.25rem; height: 2.25rem; padding: 0 1rem; border-bottom: 1px solid var(--line); font: var(--label); letter-spacing: 0.1em; text-transform: uppercase; color: var(--steel); }
+.term-bar .on { color: var(--led); height: 100%; display: flex; align-items: center; box-shadow: inset 0 -1px 0 var(--led); }
+.term-bar span:last-child { margin-inline-start: auto; text-transform: none; letter-spacing: 0; }
+/* Fixed height: what the terminal prints never moves the page. */
+.term-body { height: 11.75rem; overflow: hidden; padding: 0.85rem 1rem; font: 0.8rem/1.65 var(--mono); color: var(--silver); direction: ltr; text-align: left; }
+.term-body p { margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.term-body .ps { color: var(--led); }
+.term-body .cmd { color: var(--bone); }
+.term-body .out, .term-body .dim, .term-body .k { color: var(--steel); }
+.term-body .row { display: flex; align-items: center; gap: 0.6rem; }
+.term-body .row a, .term-body .kv a { color: var(--bone); }
+.term-body a:hover { color: var(--led); }
+.term-body .kv { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); }
+.term-body .v { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-flex; align-items: center; gap: 0.5rem; }
+.term-body .led.pre, .led.pre { background: var(--amber); }
+.caret { display: inline-block; width: 0.55em; height: 1.05em; vertical-align: -0.15em; background: var(--led); }
+@media (prefers-reduced-motion: no-preference) { .caret { animation: caret 1.1s steps(1) infinite; } }
+@keyframes caret { 50% { opacity: 0; } }
+.hero-rack { margin: 0; }
+.rack-box { position: relative; aspect-ratio: 560 / 420; }
+.rack-box svg, .rack-box canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.rack-box canvas { opacity: 0; transition: opacity 0.4s; }
+.rack-box.rive-on canvas { opacity: 1; }
+.rack-box.rive-on svg { visibility: hidden; transition: visibility 0s 0.4s; }
+.hero-rack figcaption { display: flex; align-items: baseline; gap: 0.6rem; margin-top: 0.4rem; padding-inline: 7%; font: 0.7rem/1.5 var(--mono); color: var(--steel); }
+.hero-rack figcaption span { flex: none; padding: 0.1rem 0.35rem; border: 1px solid var(--line-hi); border-radius: var(--r); text-transform: uppercase; letter-spacing: 0.08em; }
+@media (max-width: 52rem) {
+  .hero { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; margin-top: 2rem; }
+}
+
 /* Panels: a header strip, then rows */
 .panel { border: 1px solid var(--line); border-radius: var(--r); background: var(--carbon); }
 .panel + .panel { margin-top: 1.25rem; }

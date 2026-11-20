@@ -1,0 +1,3 @@
+rive.js and rive.wasm: @rive-app/webgl2 2.51.0 (https://github.com/rive-app/rive-wasm),
+MIT License, Copyright (c) Rive. Vendored unmodified (sha256 matches the npm tarball).
+rack.riv: written by site/scripts/rive/build_rack.py.

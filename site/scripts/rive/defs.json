@@ -1,0 +1,796 @@
+{
+ "source": "rive-runtime include/rive/generated/*_base.hpp @ 89ac2b0f9d6415e391c10dade0fe130ccd747fa1 (MIT)",
+ "classes": {
+  "Backboard": {
+   "typeKey": 23,
+   "props": {}
+  },
+  "Artboard": {
+   "typeKey": 1,
+   "props": {
+    "name": [
+     4,
+     null
+    ],
+    "parentId": [
+     5,
+     null
+    ],
+    "opacity": [
+     18,
+     "Double"
+    ],
+    "rotation": [
+     15,
+     "Double"
+    ],
+    "scaleX": [
+     16,
+     "Double"
+    ],
+    "scaleY": [
+     17,
+     "Double"
+    ],
+    "x": [
+     13,
+     "Double"
+    ],
+    "xArtboard": [
+     9,
+     null
+    ],
+    "y": [
+     14,
+     "Double"
+    ],
+    "yArtboard": [
+     10,
+     null
+    ],
+    "computedLocalX": [
+     806,
+     null
+    ],
+    "computedLocalY": [
+     807,
+     null
+    ],
+    "computedWorldX": [
+     808,
+     null
+    ],
+    "computedWorldY": [
+     809,
+     null
+    ],
+    "computedRootX": [
+     864,
+     null
+    ],
+    "computedRootY": [
+     865,
+     null
+    ],
+    "computedWidth": [
+     810,
+     null
+    ],
+    "computedHeight": [
+     811,
+     null
+    ],
+    "blendModeValue": [
+     23,
+     "Uint"
+    ],
+    "additiveAmount": [
+     450,
+     "Uint"
+    ],
+    "drawableFlags": [
+     129,
+     "Uint"
+    ],
+    "clip": [
+     196,
+     "Bool"
+    ],
+    "width": [
+     7,
+     "Double"
+    ],
+    "height": [
+     8,
+     "Double"
+    ],
+    "styleId": [
+     494,
+     null
+    ],
+    "fractionalWidth": [
+     706,
+     "Double"
+    ],
+    "fractionalHeight": [
+     707,
+     "Double"
+    ],
+    "originX": [
+     11,
+     "Double"
+    ],
+    "originY": [
+     12,
+     "Double"
+    ],
+    "defaultStateMachineId": [
+     236,
+     null
+    ],
+    "viewModelId": [
+     583,
+     null
+    ]
+   }
+  },
+  "Node": {
+   "typeKey": 2,
+   "props": {
+    "name": [
+     4,
+     null
+    ],
+    "parentId": [
+     5,
+     null
+    ],
+    "opacity": [
+     18,
+     "Double"
+    ],
+    "rotation": [
+     15,
+     "Double"
+    ],
+    "scaleX": [
+     16,
+     "Double"
+    ],
+    "scaleY": [
+     17,
+     "Double"
+    ],
+    "x": [
+     13,
+     "Double"
+    ],
+    "xArtboard": [
+     9,
+     null
+    ],
+    "y": [
+     14,
+     "Double"
+    ],
+    "yArtboard": [
+     10,
+     null
+    ],
+    "computedLocalX": [
+     806,
+     null
+    ],
+    "computedLocalY": [
+     807,
+     null
+    ],
+    "computedWorldX": [
+     808,
+     null
+    ],
+    "computedWorldY": [
+     809,
+     null
+    ],
+    "computedRootX": [
+     864,
+     null
+    ],
+    "computedRootY": [
+     865,
+     null
+    ],
+    "computedWidth": [
+     810,
+     null
+    ],
+    "computedHeight": [
+     811,
+     null
+    ]
+   }
+  },
+  "Shape": {
+   "typeKey": 3,
+   "props": {
+    "name": [
+     4,
+     null
+    ],
+    "parentId": [
+     5,
+     null
+    ],
+    "opacity": [
+     18,
+     "Double"
+    ],
+    "rotation": [
+     15,
+     "Double"
+    ],
+    "scaleX": [
+     16,
+     "Double"
+    ],
+    "scaleY": [
+     17,
+     "Double"
+    ],
+    "x": [
+     13,
+     "Double"
+    ],
+    "xArtboard": [
+     9,
+     null
+    ],
+    "y": [
+     14,
+     "Double"
+    ],
+    "yArtboard": [
+     10,
+     null
+    ],
+    "computedLocalX": [
+     806,
+     null
+    ],
+    "computedLocalY": [
+     807,
+     null
+    ],
+    "computedWorldX": [
+     808,
+     null
+    ],
+    "computedWorldY": [
+     809,
+     null
+    ],
+    "computedRootX": [
+     864,
+     null
+    ],
+    "computedRootY": [
+     865,
+     null
+    ],
+    "computedWidth": [
+     810,
+     null
+    ],
+    "computedHeight": [
+     811,
+     null
+    ],
+    "blendModeValue": [
+     23,
+     "Uint"
+    ],
+    "additiveAmount": [
+     450,
+     "Uint"
+    ],
+    "drawableFlags": [
+     129,
+     "Uint"
+    ],
+    "length": [
+     781,
+     null
+    ]
+   }
+  },
+  "Rectangle": {
+   "typeKey": 7,
+   "props": {
+    "name": [
+     4,
+     null
+    ],
+    "parentId": [
+     5,
+     null
+    ],
+    "opacity": [
+     18,
+     "Double"
+    ],
+    "rotation": [
+     15,
+     "Double"
+    ],
+    "scaleX": [
+     16,
+     "Double"
+    ],
+    "scaleY": [
+     17,
+     "Double"
+    ],
+    "x": [
+     13,
+     "Double"
+    ],
+    "xArtboard": [
+     9,
+     null
+    ],
+    "y": [
+     14,
+     "Double"
+    ],
+    "yArtboard": [
+     10,
+     null
+    ],
+    "computedLocalX": [
+     806,
+     null
+    ],
+    "computedLocalY": [
+     807,
+     null
+    ],
+    "computedWorldX": [
+     808,
+     null
+    ],
+    "computedWorldY": [
+     809,
+     null
+    ],
+    "computedRootX": [
+     864,
+     null
+    ],
+    "computedRootY": [
+     865,
+     null
+    ],
+    "computedWidth": [
+     810,
+     null
+    ],
+    "computedHeight": [
+     811,
+     null
+    ],
+    "pathFlags": [
+     128,
+     "Uint"
+    ],
+    "isHole": [
+     770,
+     "Bool"
+    ],
+    "width": [
+     20,
+     "Double"
+    ],
+    "height": [
+     21,
+     "Double"
+    ],
+    "originX": [
+     123,
+     "Double"
+    ],
+    "originY": [
+     124,
+     "Double"
+    ],
+    "linkCornerRadius": [
+     164,
+     null
+    ],
+    "cornerRadiusTL": [
+     31,
+     null
+    ],
+    "cornerRadiusTR": [
+     161,
+     null
+    ],
+    "cornerRadiusBL": [
+     162,
+     null
+    ],
+    "cornerRadiusBR": [
+     163,
+     null
+    ]
+   }
+  },
+  "Ellipse": {
+   "typeKey": 4,
+   "props": {
+    "name": [
+     4,
+     null
+    ],
+    "parentId": [
+     5,
+     null
+    ],
+    "opacity": [
+     18,
+     "Double"
+    ],
+    "rotation": [
+     15,
+     "Double"
+    ],
+    "scaleX": [
+     16,
+     "Double"
+    ],
+    "scaleY": [
+     17,
+     "Double"
+    ],
+    "x": [
+     13,
+     "Double"
+    ],
+    "xArtboard": [
+     9,
+     null
+    ],
+    "y": [
+     14,
+     "Double"
+    ],
+    "yArtboard": [
+     10,
+     null
+    ],
+    "computedLocalX": [
+     806,
+     null
+    ],
+    "computedLocalY": [
+     807,
+     null
+    ],
+    "computedWorldX": [
+     808,
+     null
+    ],
+    "computedWorldY": [
+     809,
+     null
+    ],
+    "computedRootX": [
+     864,
+     null
+    ],
+    "computedRootY": [
+     865,
+     null
+    ],
+    "computedWidth": [
+     810,
+     null
+    ],
+    "computedHeight": [
+     811,
+     null
+    ],
+    "pathFlags": [
+     128,
+     "Uint"
+    ],
+    "isHole": [
+     770,
+     "Bool"
+    ],
+    "width": [
+     20,
+     "Double"
+    ],
+    "height": [
+     21,
+     "Double"
+    ],
+    "originX": [
+     123,
+     "Double"
+    ],
+    "originY": [
+     124,
+     "Double"
+    ]
+   }
+  },
+  "Fill": {
+   "typeKey": 20,
+   "props": {
+    "name": [
+     4,
+     null
+    ],
+    "parentId": [
+     5,
+     null
+    ],
+    "isVisible": [
+     41,
+     "Bool"
+    ],
+    "blendModeValue": [
+     747,
+     "Uint"
+    ],
+    "additiveAmount": [
+     452,
+     "Uint"
+    ],
+    "fillRule": [
+     40,
+     "Uint"
+    ]
+   }
+  },
+  "Stroke": {
+   "typeKey": 24,
+   "props": {
+    "name": [
+     4,
+     null
+    ],
+    "parentId": [
+     5,
+     null
+    ],
+    "isVisible": [
+     41,
+     "Bool"
+    ],
+    "blendModeValue": [
+     747,
+     "Uint"
+    ],
+    "additiveAmount": [
+     452,
+     "Uint"
+    ],
+    "thickness": [
+     47,
+     "Double"
+    ],
+    "cap": [
+     48,
+     "Uint"
+    ],
+    "join": [
+     49,
+     "Uint"
+    ],
+    "transformAffectsStroke": [
+     50,
+     "Bool"
+    ],
+    "position": [
+     470,
+     "Uint"
+    ]
+   }
+  },
+  "SolidColor": {
+   "typeKey": 18,
+   "props": {
+    "name": [
+     4,
+     null
+    ],
+    "parentId": [
+     5,
+     null
+    ],
+    "colorValue": [
+     37,
+     "Color"
+    ]
+   }
+  },
+  "LinearAnimation": {
+   "typeKey": 31,
+   "props": {
+    "name": [
+     55,
+     "String"
+    ],
+    "fps": [
+     56,
+     "Uint"
+    ],
+    "duration": [
+     57,
+     "Uint"
+    ],
+    "speed": [
+     58,
+     "Double"
+    ],
+    "loopValue": [
+     59,
+     "Uint"
+    ],
+    "workStart": [
+     60,
+     "Uint"
+    ],
+    "workEnd": [
+     61,
+     "Uint"
+    ],
+    "enableWorkArea": [
+     62,
+     "Bool"
+    ],
+    "quantize": [
+     376,
+     "Bool"
+    ]
+   }
+  },
+  "KeyedObject": {
+   "typeKey": 25,
+   "props": {
+    "objectId": [
+     51,
+     null
+    ]
+   }
+  },
+  "KeyedProperty": {
+   "typeKey": 26,
+   "props": {
+    "propertyKey": [
+     53,
+     "Uint"
+    ]
+   }
+  },
+  "KeyFrameDouble": {
+   "typeKey": 30,
+   "props": {
+    "frame": [
+     67,
+     "Uint"
+    ],
+    "interpolationType": [
+     68,
+     "Uint"
+    ],
+    "interpolatorId": [
+     69,
+     null
+    ],
+    "value": [
+     70,
+     "Double"
+    ]
+   }
+  },
+  "StateMachine": {
+   "typeKey": 53,
+   "props": {
+    "name": [
+     55,
+     "String"
+    ]
+   }
+  },
+  "StateMachineLayer": {
+   "typeKey": 57,
+   "props": {
+    "name": [
+     138,
+     "String"
+    ]
+   }
+  },
+  "EntryState": {
+   "typeKey": 63,
+   "props": {
+    "flags": [
+     536,
+     "Uint"
+    ]
+   }
+  },
+  "AnyState": {
+   "typeKey": 62,
+   "props": {
+    "flags": [
+     536,
+     "Uint"
+    ]
+   }
+  },
+  "ExitState": {
+   "typeKey": 64,
+   "props": {
+    "flags": [
+     536,
+     "Uint"
+    ]
+   }
+  },
+  "AnimationState": {
+   "typeKey": 61,
+   "props": {
+    "flags": [
+     536,
+     "Uint"
+    ],
+    "speed": [
+     292,
+     "Double"
+    ],
+    "animationId": [
+     149,
+     null
+    ]
+   }
+  },
+  "StateTransition": {
+   "typeKey": 65,
+   "props": {
+    "stateToId": [
+     151,
+     null
+    ],
+    "flags": [
+     152,
+     "Uint"
+    ],
+    "duration": [
+     158,
+     "Uint"
+    ],
+    "exitTime": [
+     160,
+     "Uint"
+    ],
+    "interpolationType": [
+     349,
+     "Uint"
+    ],
+    "interpolatorId": [
+     350,
+     null
+    ],
+    "randomWeight": [
+     537,
+     "Uint"
+    ]
+   }
+  }
+ }
+}

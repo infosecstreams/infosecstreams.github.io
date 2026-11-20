@@ -177,9 +177,15 @@ function start(app: HTMLElement) {
     const listed = new Set(rows.map((r) => r.dataset.login));
     const n = vals.filter((s) => s.status === 'online' && listed.has(s.login.toLowerCase())).length;
     document.title = n ? `${f('liveNow', { n })} · ${baseTitle}` : baseTitle;
+    // The hero (src/scripts/hero.ts) draws the same data: listed streamers, most hours first.
+    document.dispatchEvent(new CustomEvent('streams', { detail: {
+      ok: statusOk !== false,
+      streamers: rows.map((r) => byLogin.get(r.dataset.login!) ?? ({ id: '', login: r.dataset.login!, status: 'offline' } as Streamer))
+        .sort((a, b) => (b.hours_30d ?? -1) - (a.hours_30d ?? -1)),
+    } }));
     document.documentElement.classList.toggle('on-air', n > 0);
-    // Said once, quietly, above the list: only when nobody is live or the data is missing.
-    if (badge) badge.textContent = statusOk === false ? ui.unavailable : n ? '' : ui.nobodyLive;
+    // Only when the data is missing; an absent Live now panel already says nobody is live.
+    if (badge) badge.textContent = statusOk === false ? ui.unavailable : '';
     await yieldTask();
     if (seq !== renderSeq) return; // a newer response is already rendering
     renderRows();
