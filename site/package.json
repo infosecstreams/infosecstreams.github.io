@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.6",
-    "@rive-app/canvas-advanced-lite": "2.51.0",
     "astro": "7.4.13"
   },
   "devDependencies": {

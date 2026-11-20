@@ -1,5 +1,5 @@
 ---
-// Home hero: a terminal (real text) beside a server rack drawn by Rive's
+// Home hero: a terminal beside a server rack drawn by Rive's
 // low-level renderer. One sled per listed streamer, most hours first; its LED
 // is live status, its bar 30-day hours. Until the runtime has drawn (and with
 // JS off) the same rack shows as a static SVG, so nothing moves on load.
@@ -10,15 +10,16 @@ interface Props { lang: Lang; }
 const { lang } = Astro.props;
 const t = strings(lang).ui;
 ---
-<section class="hero" id="hero" aria-labelledby="hero-h" data-geo={JSON.stringify(geo)} data-ui={JSON.stringify({ live: t.live, prelive: t.prelive, offline: t.offline, viewers: t.viewers, hours30d: t.hours30d, streamers: t.streamers, nobodyLive: t.nobodyLive, unavailable: t.unavailable, checking: t.checking })}>
+<section class="hero" id="hero" aria-labelledby="hero-h" data-geo={JSON.stringify(geo)}>
   <div class="hero-txt">
     <h1 id="hero-h"><span class="sr">InfoSec Streams: </span>{t.heading}</h1>
     <p class="hero-sub">{t.tagline}</p>
     <div class="term">
       <div class="term-bar" aria-hidden="true"><span class="on">shell</span><span>~/infosec-streams</span></div>
-      <div class="term-body" id="term" role="log" aria-live="polite">
-        <p class="cmd"><span class="ps">~&gt;</span> streams --live</p>
-        <p class="out">{t.checking}</p>
+      <div class="term-body" id="term" aria-hidden="true">
+        <p class="cmd"><span class="ps">~&gt;</span> nmap -sCV -p- --min-rate 5000 10.10.11.42</p>
+        <p class="out">Starting Nmap 7.95 ( https://nmap.org )</p>
+        <p class="cmd"><span class="ps">~&gt;</span> <span class="caret"></span></p>
       </div>
     </div>
   </div>

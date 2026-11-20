@@ -101,8 +101,12 @@ input, select, button { font: inherit; color: inherit; }
 .term-bar .on { color: var(--led); height: 100%; display: flex; align-items: center; box-shadow: inset 0 -1px 0 var(--led); }
 .term-bar span:last-child { margin-inline-start: auto; text-transform: none; letter-spacing: 0; }
 /* Fixed height: what the terminal prints never moves the page. */
-.term-body { height: 11.75rem; overflow: hidden; padding: 0.85rem 1rem; font: 0.8rem/1.65 var(--mono); color: var(--silver); direction: ltr; text-align: left; }
-.term-body p { margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.term-body { height: 14.25rem; overflow: hidden; padding: 0.85rem 1rem; font: 0.75rem/1.6 var(--mono); color: var(--silver); direction: ltr; text-align: left; }
+.term-body p { margin: 0; white-space: pre; overflow: hidden; text-overflow: ellipsis; }
+.term-body .out.ok { color: var(--led); }
+.term-body .out.bad { color: #ff6285; }
+.term-body .s { color: var(--bone); }
+.term-body .n { color: var(--led); }
 .term-body .ps { color: var(--led); }
 .term-body .cmd { color: var(--bone); }
 .term-body .out, .term-body .dim, .term-body .k { color: var(--steel); }
