@@ -33,6 +33,8 @@ export function generate(now = Date.now()) {
     const l = live.find((x) => x.login === login);
     if (l) Object.assign(s, { status: 'online', category: l.category, title: l.title, language: l.language, tags: l.tags, started_at: iso(now - l.up), viewers: l.viewers });
     if (login === prelive[0]) Object.assign(s, { status: 'prelive', language: 'en', category: 'Science & Technology', title: 'Malware Monday: unpacking a fresh infostealer', prelive_since: iso(now - 6 * MIN), next_stream_at: iso(now + 12 * MIN) });
+    // Stale: switched category 45 min ago and never went live; the site hides it after 20 min.
+    if (login === active[20 % active.length]) Object.assign(s, { status: 'prelive', language: 'en', category: 'Science & Technology', title: 'stale getting-ready', prelive_since: iso(now - 45 * MIN) });
     if (login === prelive[1]) Object.assign(s, { status: 'prelive', language: langs[i % langs.length], category: 'Science & Technology', title: 'Red team lab: AD attack paths with BloodHound', prelive_since: iso(now - 2 * MIN) });
     return s;
   });
@@ -41,7 +43,9 @@ export function generate(now = Date.now()) {
   const segments = Array.from({ length: 14 }, (_, i) => {
     const login = active[(i * 5 + 1) % active.length];
     const s = start + (i * 11 + 1) * H + (i % 2) * 30 * MIN;
-    return { id: `seg-${i}`, login: login.toLowerCase(), display_name: login, start: iso(s), end: iso(s + 2 * H), title: titles[i % titles.length], category: 'Science & Technology', canceled: false };
+    return { id: `seg-${i}`, login: login.toLowerCase(), display_name: login, start: iso(s), end: iso(s + 2 * H), title: titles[i % titles.length], category: 'Science & Technology', canceled: false,
+      // Half proven (kept 9 of 10), half not (kept 1 of 10): only the proven ones may show.
+      track_record: i % 2 ? { kept: 1, total: 10 } : { kept: 9, total: 10 } };
   });
   // Like the real schedule.json: today's segments that already started (one
   // whose streamer never went live, one in progress) come first.

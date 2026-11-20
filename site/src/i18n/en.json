@@ -49,7 +49,7 @@
     "addToCalendar": "Add to calendar",
     "noScript": "Turn on JavaScript to see who is live and the schedule.",
     "legendLive": "streaming now in an infosec category",
-    "legendPrelive": "just switched to an infosec category; usually live within the hour",
+    "legendPrelive": "switched to an infosec category or retitled the stream; shown for 20 minutes at most",
     "onTwitch": "{name} on Twitch",
     "onYouTube": "{name} on YouTube",
     "source": "Source on GitHub",
@@ -57,7 +57,16 @@
     "streamers": "{n} streamers",
     "keyHint": "Press / to search",
     "startsIn": "starts {t}",
-    "nextUp": "Next up: {name}, {t}"
+    "nextUp": "Next up: {name}, {t}",
+    "colNow": "Now streaming",
+    "colViewers": "Viewers",
+    "colHours": "30-day hours",
+    "sortBy": "Sort by {col}",
+    "justLive": "Just live",
+    "scheduleHeading": "Regular schedules",
+    "scheduleNote": "Only streamers who kept at least 3 of every 4 of their scheduled streams.",
+    "summary": "{live} live · {pre} getting ready · {n} streamers",
+    "watchShort": "Watch"
   },
   "home": {
     "title": "InfoSec Streams",
