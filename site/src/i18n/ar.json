@@ -27,7 +27,7 @@
     "faqNav": "الأسئلة الشائعة",
     "resourcesNav": "الموارد",
     "liveNow": "{n} في بث مباشر الآن",
-    "nobodyLive": "لا أحد في بث مباشر الآن.",
+    "nobodyLive": "",
     "checking": "جارٍ التحقق من البث المباشر…",
     "unavailable": "حالة البث المباشر غير متاحة الآن. القائمة الكاملة أدناه.",
     "live": "مباشر",
@@ -55,7 +55,7 @@
     "streamers": "{n} صانع محتوى",
     "keyHint": "اضغط / للبحث",
     "startsIn": "يبدأ {t}",
-    "nextUp": "التالي: {name}، {t}",
+    "nextUp": "",
     "colHours": "ساعات البث، آخر 30 يومًا",
     "scheduleHeading": "الجدول",
     "watchShort": "شاهد",
@@ -68,7 +68,9 @@
     "rackLabel": "خزانة خوادم: درج لكل صانع محتوى. اختر صانع محتوى بمفاتيح الأسهم، واضغط Enter لفتح وحدة التحكم الخاصة به.",
     "copyLink": "نسخ الرابط",
     "linkCopied": "تم نسخ الرابط",
-    "colHoursShort": ""
+    "colHoursShort": "",
+    "checkingLive": "",
+    "keptOf": ""
   },
   "home": {
     "title": "بث InfoSec",
@@ -80,7 +82,11 @@
   "inactive": {
     "title": "البث غير النشط",
     "intro": "",
-    "listHeading": ""
+    "listHeading": "",
+    "groupRecent": "",
+    "groupEarlier": "",
+    "groupNone": "",
+    "groupNoneUndated": ""
   },
   "credits": {
     "heading": "الاعتمادات",
