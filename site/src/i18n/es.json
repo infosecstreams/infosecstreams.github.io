@@ -67,19 +67,20 @@
     "livePlayer": "Directo de {name}",
     "rackLabel": "Rack de servidores: una bandeja por streamer. Las flechas eligen un streamer; Enter abre su consola.",
     "copyLink": "Copiar enlace",
-    "linkCopied": "Enlace copiado"
+    "linkCopied": "Enlace copiado",
+    "colHoursShort": ""
   },
   "home": {
     "title": "Streams de InfoSec",
-    "intro": "¡Felicidades! Has descubierto una lista actualizada en tiempo real con streams de Twitch sobre la Seguridad Informática. ¡La lista está `organizada` según la `actividad de los últimos 30 días` para que te sea más fácil encontrar streams activos!",
+    "intro": "",
     "inactiveNote": "Los streamers que no han tenido actividad en el último mes se han movido a la página de [streamers inactivos](/inactive).",
     "questions": "¿Preguntas? ¿Contribuciones? ¿Algo más? ¡Por favor lee las [FAQ](/faq)!",
     "listHeading": "Lista de los Streams (ordenada)"
   },
   "inactive": {
     "title": "Streamers Inactivos",
-    "intro": "¡Hola! Esta página contiene streamers que no han transmitido en el último mes.",
-    "listHeading": "Streams"
+    "intro": "",
+    "listHeading": ""
   },
   "credits": {
     "heading": "Créditos",
