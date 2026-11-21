@@ -2,8 +2,3 @@ files:
   # Astro site (site/): UI strings and page text, one JSON file per language.
   - source: /site/src/i18n/en.json
     translation: /site/src/i18n/%two_letters_code%.json
-  # Jekyll templates: remove with the Jekyll site at cutover.
-  - source: /templates/*.md
-    ignore:
-      - README
-    translation: /templates/%two_letters_code%/%original_file_name%
