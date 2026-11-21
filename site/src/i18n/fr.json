@@ -20,10 +20,12 @@
     "colActivity": "Activité",
     "colLinks": "Liens",
     "liveSection": "En direct",
+    "preliveSection": "",
     "skip": "Aller à la liste",
     "language": "Langue",
     "home": "Streams",
     "inactiveNav": "Inactifs",
+    "statsNav": "",
     "faqNav": "FAQ",
     "resourcesNav": "Ressources",
     "liveNow": "{n} en direct",
@@ -57,6 +59,7 @@
     "startsIn": "commence {t}",
     "nextUp": "",
     "colHours": "Heures de stream, 30 derniers jours",
+    "colLastLive": "",
     "scheduleHeading": "Programme",
     "watchShort": "Regarder",
     "allSection": "Tous les streamers",
@@ -70,7 +73,9 @@
     "linkCopied": "Lien copié",
     "colHoursShort": "",
     "checkingLive": "",
-    "keptOf": ""
+    "keptOf": "",
+    "termLabel": "",
+    "termHint": ""
   },
   "home": {
     "title": "Streams InfoSec",
@@ -224,5 +229,29 @@
     "peakShort": "pic",
     "metaDesc": "{name} streame sur la sécurité de l’information sur Twitch. Statut en direct, heures de stream, horaires habituels, streams récents, VOD et clips.",
     "moved": "Cette page a été déplacée : ouvrez la page du streamer depuis la liste."
+  },
+  "stats": {
+    "title": "",
+    "lede": "",
+    "totals": "",
+    "hours30": "",
+    "streams30": "",
+    "active30": "",
+    "watched30": "",
+    "hours7": "",
+    "raids30": "",
+    "top": "",
+    "nStreams": "",
+    "when": "",
+    "topics": "",
+    "streaks": "",
+    "streaksNote": "",
+    "weeks": "",
+    "raids": "",
+    "raidsNote": "",
+    "raided": "",
+    "viewersN": "",
+    "clips": "",
+    "views": ""
   }
 }
