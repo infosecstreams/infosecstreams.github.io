@@ -20,10 +20,12 @@
     "colActivity": "Atividade",
     "colLinks": "Links",
     "liveSection": "Ao vivo agora",
+    "preliveSection": "",
     "skip": "Ir para a lista",
     "language": "Idioma",
     "home": "Streams",
     "inactiveNav": "Inativos",
+    "statsNav": "",
     "faqNav": "Perguntas",
     "resourcesNav": "Recursos",
     "liveNow": "{n} ao vivo agora",
@@ -57,6 +59,7 @@
     "startsIn": "começa {t}",
     "nextUp": "",
     "colHours": "Horas transmitidas, últimos 30 dias",
+    "colLastLive": "",
     "scheduleHeading": "Agenda",
     "watchShort": "Assistir",
     "allSection": "Todos os streamers",
@@ -70,7 +73,9 @@
     "linkCopied": "Link copiado",
     "colHoursShort": "",
     "checkingLive": "",
-    "keptOf": ""
+    "keptOf": "",
+    "termLabel": "",
+    "termHint": ""
   },
   "home": {
     "title": "Streams de InfoSec",
@@ -224,5 +229,29 @@
     "peakShort": "pico",
     "metaDesc": "{name} faz lives sobre segurança da informação na Twitch. Status ao vivo, horas transmitidas, quando costuma estar ao vivo, lives recentes, VODs e clipes.",
     "moved": "Esta página mudou de lugar: abra a página do streamer pela lista."
+  },
+  "stats": {
+    "title": "",
+    "lede": "",
+    "totals": "",
+    "hours30": "",
+    "streams30": "",
+    "active30": "",
+    "watched30": "",
+    "hours7": "",
+    "raids30": "",
+    "top": "",
+    "nStreams": "",
+    "when": "",
+    "topics": "",
+    "streaks": "",
+    "streaksNote": "",
+    "weeks": "",
+    "raids": "",
+    "raidsNote": "",
+    "raided": "",
+    "viewersN": "",
+    "clips": "",
+    "views": ""
   }
 }
