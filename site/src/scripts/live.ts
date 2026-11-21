@@ -86,6 +86,11 @@ function start(app: HTMLElement) {
   // Each row's own list (the inactive page has several groups): rows return there.
   const origin = new Map(rows.map((li) => [li, li.parentElement!]));
   const sched = $('#sched'), regular = $('#regular'), badge = $('#badge');
+  // Dates built in UTC (the inactive page's "last live"): the visitor's own timezone.
+  {
+    const local = new Intl.DateTimeFormat(lang, { year: 'numeric', month: 'short', day: 'numeric' });
+    for (const t of app.querySelectorAll<HTMLTimeElement>('.list.past time[datetime]')) t.textContent = local.format(new Date(t.dateTime));
+  }
 
   // ---- sort (column headers; kept in the URL) ----
   // Home: 30-day hours. Inactive page: when they were last live (its column).

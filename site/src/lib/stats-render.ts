@@ -94,7 +94,7 @@ export function renderCommunity(st: Community | null, raids: Raids | null, c: Ct
     + `<span class="h">${v.views != null ? esc(f('views', { n: n(v.views) })) : ''}</span>`
     + `<a class="tw-ic" href="${esc(v.url)}" target="_blank" rel="noopener" aria-label="${esc(ui.onTwitch)}: ${esc(v.title)}">${icon('twitch')}</a></li>`).join('')}</ol>` : '', 'wide'));
 
-  if (st.recording_since) out.push(`<p class="since">${esc(f('since', { d: new Intl.DateTimeFormat(lang, { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }).format(new Date(st.recording_since)) }))}</p>`);
+  if (st.recording_since) out.push(`<p class="since">${esc(f('since', { d: new Intl.DateTimeFormat(lang, { year: 'numeric', month: 'long', day: 'numeric', ...(utc ? { timeZone: 'UTC' } : {}) }).format(new Date(st.recording_since)) }))}</p>`);
   return out.join('');
 }
 
