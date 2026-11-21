@@ -4,6 +4,8 @@ Félicitations ! Vous avez trouvé une liste de flux Twitch activement maintenue
 
 Les streamers qui n'ont pas eu d'activité au cours du dernier mois sont déplacés vers la page des [streamers inactifs](/fr/inactive).
 
+🟢 signifie vivre maintenant. 🟡 signifie que le streamer vient de passer à une catégorie infosec et est probablement sur le point de passer en direct; il se vide après une heure si ce n'est pas le cas.
+
 Des questions ? Des contributions ? Autre chose ? Veuillez lire la [FAQ](/fr/faq) !
 
 ## Liste des Streams (triée) <a href="#" class="btn" id="settings-button">Paramètres</a>
@@ -26,11 +28,7 @@ Voici [quelques bonnes ressources](/fr/resources) pour votre voyage de piratage.
 Des problèmes avec un lien ? Le site ne se met pas à jour correctement ? Des questions ? Des contributions ? Autre chose ? Veuillez lire la [FAQ](/fr/faq) !
 
 <script src="https://infosecstreams.com/js/sort.js" async="" defer=""></script>
-
 <script defer data-domain="infosecstreams.github.io" src="https://p.infosecstreams.com/js/plausible.outbound-links.js"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/brands.min.js" integrity="sha512-KYlRezs7yAa59UnX6zAvY7I96Te02kycQn02Sr6FU/fBpxcXAwumRe5DHVrqVnWTt9HY/PktrAPZzSe9UE1Yxg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/solid.min.js" integrity="sha512-apZ8JDL5kA1iqvafDdTymV4FWUlJd8022mh46oEMMd/LokNx9uVAzhHk5gRll+JBE6h0alB2Upd3m+ZDAofbaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/fontawesome.min.js" integrity="sha512-c41hNYfKMuxafVVmh5X3N/8DiGFFAV/tU2oeNk+upk/dfDAdcbx5FrjFOkFhe4MOLaKlujjkyR4Yn7vImrXjzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
