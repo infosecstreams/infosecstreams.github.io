@@ -76,7 +76,9 @@ RAIL = 22                      # rail width each side, with mounting holes
 GAP = 6
 SLED_W = (FRAME_W - 2 * RAIL - GAP * (COLS + 1)) / COLS
 SLED_H = (FRAME_H - 2 * 10 - 2 * (ROWS - 1)) / ROWS
-BAR_X, BAR_W, BAR_H = 26, SLED_W - 26 - 14, 4
+# the bar sits right of the name plate (the page writes names there: .rack-names)
+NAME_X, NAME_W = 22, 92
+BAR_X, BAR_W, BAR_H = 120, SLED_W - 120 - 14, 4
 
 VOID, CARBON, GRAPHITE, LINE, LINE_HI = '#0b0e12', '#121519', '#1a1d21', '#2a2d31', '#3a3d42'
 LED, LED_DIM, AMBER = '#00d892', '#0f3d30', '#f5b83d'
@@ -370,7 +372,7 @@ def write_geometry(path):
     for i in range(COLS * ROWS):
         col, row = i % COLS, i // COLS
         sleds.append([round(FRAME_X + RAIL + GAP + col * (SLED_W + GAP), 2), round(FRAME_Y + 10 + row * (SLED_H + 2), 2)])
-    json.dump({'width': W, 'height': H, 'sledW': SLED_W, 'sledH': SLED_H, 'sleds': sleds}, open(path, 'w'))
+    json.dump({'width': W, 'height': H, 'sledW': SLED_W, 'sledH': SLED_H, 'sleds': sleds, 'name': [NAME_X, NAME_W]}, open(path, 'w'))
 
 if __name__ == '__main__':
     riv, svg, geo = sys.argv[1], sys.argv[2], sys.argv[3]

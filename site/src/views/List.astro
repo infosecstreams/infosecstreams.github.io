@@ -4,7 +4,7 @@
 import Base from '../layouts/Base.astro';
 import Roster from '../components/Roster.astro';
 import Hero from '../components/Hero.astro';
-import { md, strings, type Lang } from '../lib/i18n';
+import { md, pathFor, strings, type Lang } from '../lib/i18n';
 import { active, inactive } from '../lib/roster';
 import { API_BASE, CALENDAR_URL, THUMB_TEMPLATE } from '../lib/api';
 
@@ -18,7 +18,7 @@ const text = home ? all.home : all.inactive;
 const description = home ? all.meta.description : `${all.inactive.title}. ${all.inactive.intro}`;
 ---
 <Base lang={lang} page={page} title={home ? 'InfoSec Streams' : text.title} description={description} live>
-  <div id="app" data-api={API_BASE} data-thumb={THUMB_TEMPLATE} data-ui={JSON.stringify(t)}>
+  <div id="app" data-page={pathFor(lang, 'streamer')} data-api={API_BASE} data-thumb={THUMB_TEMPLATE} data-ui={JSON.stringify(t)}>
     {home ? <Hero lang={lang} /> : (
       <div class="head">
         <h1>{text.title}</h1>
@@ -35,7 +35,7 @@ const description = home ? all.meta.description : `${all.inactive.title}. ${all.
       <h2 class="panel-h" id="list-h">{home ? t.allSection : text.listHeading} <span class="n">{streamers.length}</span></h2>
       <div class="cols" id="cols">
         <button type="button" data-sort="name" class="c-name">{t.colStreamer}<svg class="ar" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 4l3-3 3 3M2 6l3 3 3-3" /></svg></button>
-        <button type="button" data-sort="hours" class="c-hours" aria-pressed="true">{t.colHours}<svg class="ar" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 4l3-3 3 3M2 6l3 3 3-3" /></svg></button>
+        <button type="button" data-sort="hours" class="c-hours" aria-pressed="true"><span class="lg">{t.colHours}</span><span class="sm">{t.colHoursShort}</span><svg class="ar" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 4l3-3 3 3M2 6l3 3 3-3" /></svg></button>
       </div>
       <p class="status" id="badge" role="status"></p>
       <Roster lang={lang} streamers={streamers} />

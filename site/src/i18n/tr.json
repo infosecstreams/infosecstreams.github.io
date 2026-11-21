@@ -71,7 +71,7 @@
   },
   "home": {
     "title": "InfoSec Yayınları",
-    "intro": "Tebrikler! Aktif olarak güncellenen Bilgi Güvenliği ile ilgili Twitch yayınları listesini buldunuz. Bu liste, aktif yayınları daha kolay bulmanız için `30 günlük aktiviteye` göre `sıralanmıştır`!",
+    "intro": "Tebrikler! Aktif olarak güncellenen Bilgi Güvenliği ile ilgili Twitch yayınları listesini buldunuz. Bu liste, aktif yayınları daha kolay bulmanız için 30 günlük aktiviteye göre sıralanmıştır!",
     "inactiveNote": "Son bir ay içinde aktivitesi olmayan yayıncılar [aktif olmayan yayıncılar](/inactive) sayfasına taşınmıştır.",
     "questions": "Sorularınız mı var? Katkıda bulunmak mı istiyorsunuz? Başka bir şey mi var? Lütfen [SSS](/faq) sayfasını okuyun!",
     "listHeading": "Yayın Listesi (sıralı)"

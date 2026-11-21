@@ -38,6 +38,7 @@ if (app) start(app);
 function start(app: HTMLElement) {
   const API = app.dataset.api!;
   const THUMB = app.dataset.thumb!;
+  const PAGE = app.dataset.page!;          // a streamer's page here: PAGE/<login>
   const lang = document.documentElement.lang;
   const ui: UI = JSON.parse(app.dataset.ui!);
   const $ = <T extends Element = HTMLElement>(s: string) => app.querySelector<T>(s);
@@ -63,7 +64,6 @@ function start(app: HTMLElement) {
     if (D) return new D(lang, { style: 'narrow' }).format(h ? { hours: h, minutes: m } : { minutes: m });
     return h ? `${h}h ${m}m` : `${m}m`;
   };
-  const twitch = (login: string) => `https://www.twitch.tv/${encodeURIComponent(login)}`;
   // Twitch refreshes previews about every 5 minutes; the bucket lets the browser cache in between.
   const thumb = (login: string, w: number, h: number) =>
     THUMB.replace('{login}', encodeURIComponent(login.toLowerCase())).replace('{w}', String(w)).replace('{h}', String(h))
@@ -177,11 +177,14 @@ function start(app: HTMLElement) {
     const n = vals.filter((s) => s.status === 'online' && listed.has(s.login.toLowerCase())).length;
     document.title = n ? `${f('liveNow', { n })} · ${baseTitle}` : baseTitle;
     // The hero (src/scripts/hero.ts) draws the same data: listed streamers, most hours first.
-    document.dispatchEvent(new CustomEvent('streams', { detail: {
+    // The latest is also kept on window, for a listener that starts later.
+    const detail = {
       ok: statusOk !== false,
       streamers: rows.map((r) => byLogin.get(r.dataset.login!) ?? ({ id: '', login: r.dataset.login!, status: 'offline' } as Streamer))
         .sort((a, b) => (b.hours_30d ?? -1) - (a.hours_30d ?? -1)),
-    } }));
+    };
+    (window as unknown as { __streams?: typeof detail }).__streams = detail;
+    document.dispatchEvent(new CustomEvent('streams', { detail }));
     document.documentElement.classList.toggle('on-air', n > 0);
     // Only when the data is missing; an absent Live now panel already says nobody is live.
     if (badge) badge.textContent = statusOk === false ? ui.unavailable : '';
@@ -206,7 +209,7 @@ function start(app: HTMLElement) {
       const head = label !== day ? `<li class="day">${esc(label)}</li>` : '';
       day = label;
       return `${head}<li class="ev"><time datetime="${esc(s.start)}">${esc(clock(d))}</time>`
-        + `<a href="${twitch(s.login)}" target="_blank" rel="noopener">${name(s)}</a><span class="what">${esc(s.title ?? '')}</span></li>`;
+        + `<a href="${PAGE}/${encodeURIComponent(s.login.toLowerCase())}" dir="auto">${name(s)}</a><span class="what" dir="auto">${esc(s.title ?? '')}</span></li>`;
     }).join('');
   }
 

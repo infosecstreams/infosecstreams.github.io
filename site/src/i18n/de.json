@@ -71,7 +71,7 @@
   },
   "home": {
     "title": "InfoSec Streams",
-    "intro": "Glückwunsch! Du hast eine aktiv gepflegte Liste von Twitch-Streamern zum Thema Informationssicherheit gefunden. Diese liste ist `sortiert` basierend auf der `30-Tage-Aktivität` sie hilft dir aktive Streamer leichter zu finden!",
+    "intro": "Glückwunsch! Du hast eine aktiv gepflegte Liste von Twitch-Streamern zum Thema Informationssicherheit gefunden. Diese liste ist sortiert basierend auf der 30-Tage-Aktivität sie hilft dir aktive Streamer leichter zu finden!",
     "inactiveNote": "Streamer, die im letzten Monat nicht aktiv waren, werden auf die Seite [inaktive Streamer](/inactive) verschoben.",
     "questions": "Fragen? Beiträge? Sonstiges? Bitte lese das [FAQ](/faq)!",
     "listHeading": "Liste der Streamer (sortiert)"

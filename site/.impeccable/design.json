@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-21T00:00:00Z",
+  "title": "Design System: InfoSec Streams",
+  "extensions": {
+    "colorMeta": {
+      "void":        { "role": "neutral",  "displayName": "Void",          "canonical": "#0b0e12", "tonalRamp": ["#0b0e12", "#121519", "#1a1d21", "#2a2d31", "#3a3d42", "#8a8b8e", "#bababb", "#e4e4e4"] },
+      "carbon":      { "role": "neutral",  "displayName": "Carbon",        "canonical": "#121519", "tonalRamp": ["#0b0e12", "#121519", "#1a1d21", "#2a2d31", "#3a3d42", "#8a8b8e", "#bababb", "#e4e4e4"] },
+      "graphite":    { "role": "neutral",  "displayName": "Graphite",      "canonical": "#1a1d21", "tonalRamp": ["#0b0e12", "#121519", "#1a1d21", "#2a2d31", "#3a3d42", "#8a8b8e", "#bababb", "#e4e4e4"] },
+      "line":        { "role": "neutral",  "displayName": "Line",          "canonical": "#2a2d31", "tonalRamp": ["#0b0e12", "#121519", "#1a1d21", "#2a2d31", "#3a3d42", "#8a8b8e", "#bababb", "#e4e4e4"] },
+      "line-hi":     { "role": "neutral",  "displayName": "Line Hi",       "canonical": "#3a3d42", "tonalRamp": ["#0b0e12", "#121519", "#1a1d21", "#2a2d31", "#3a3d42", "#8a8b8e", "#bababb", "#e4e4e4"] },
+      "bone":        { "role": "neutral",  "displayName": "Bone",          "canonical": "#e4e4e4", "tonalRamp": ["#0b0e12", "#121519", "#1a1d21", "#2a2d31", "#3a3d42", "#8a8b8e", "#bababb", "#e4e4e4"] },
+      "silver":      { "role": "neutral",  "displayName": "Silver",        "canonical": "#bababb", "tonalRamp": ["#0b0e12", "#121519", "#1a1d21", "#2a2d31", "#3a3d42", "#8a8b8e", "#bababb", "#e4e4e4"] },
+      "steel":       { "role": "neutral",  "displayName": "Steel",         "canonical": "#8a8b8e", "tonalRamp": ["#0b0e12", "#121519", "#1a1d21", "#2a2d31", "#3a3d42", "#8a8b8e", "#bababb", "#e4e4e4"] },
+      "led":         { "role": "primary",  "displayName": "LED Green",     "canonical": "#00d892", "tonalRamp": ["#002923", "#00402f", "#0f3d30", "#00845a", "#00d892", "#5ce8b5", "#a8f3d6", "#e0fbf0"] },
+      "led-mid":     { "role": "primary",  "displayName": "LED Green, half lit", "canonical": "#00845a", "tonalRamp": ["#002923", "#00402f", "#0f3d30", "#00845a", "#00d892", "#5ce8b5", "#a8f3d6", "#e0fbf0"] },
+      "led-dim":     { "role": "primary",  "displayName": "LED Green, unlit", "canonical": "#0f3d30", "tonalRamp": ["#002923", "#00402f", "#0f3d30", "#00845a", "#00d892", "#5ce8b5", "#a8f3d6", "#e0fbf0"] },
+      "led-fill":    { "role": "primary",  "displayName": "LED Fill",      "canonical": "#002923", "tonalRamp": ["#002923", "#00402f", "#0f3d30", "#00845a", "#00d892", "#5ce8b5", "#a8f3d6", "#e0fbf0"] },
+      "led-fill-hi": { "role": "primary",  "displayName": "LED Fill Hi",   "canonical": "#00402f", "tonalRamp": ["#002923", "#00402f", "#0f3d30", "#00845a", "#00d892", "#5ce8b5", "#a8f3d6", "#e0fbf0"] },
+      "amber":       { "role": "secondary","displayName": "Standby Amber", "canonical": "#f5b83d", "tonalRamp": ["#3d2a05", "#5e420c", "#8a6215", "#b8841f", "#f5b83d", "#f8cb70", "#fbdea3", "#fdf0d6"] },
+      "fault":       { "role": "tertiary", "displayName": "Fault Red",     "canonical": "#ff6285", "tonalRamp": ["#3d0a17", "#66132a", "#99203f", "#cc3a5c", "#ff6285", "#ff8ca5", "#ffb8c8", "#ffe3ea"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "One page heading per page; light, large, system sans." },
+      "headline-handle": { "displayName": "Headline, handle", "purpose": "The streamer page name, in mono because a login is a machine identifier." },
+      "title": { "displayName": "Title", "purpose": "Live stream titles in rows and the console." },
+      "body": { "displayName": "Body", "purpose": "Prose and lede; tabular numerals." },
+      "handle": { "displayName": "Handle", "purpose": "Streamer logins in the table and schedule." },
+      "data": { "displayName": "Data", "purpose": "Hours, meta lines, timestamps, chips." },
+      "terminal": { "displayName": "Terminal", "purpose": "The hero terminal replay; always left-to-right." },
+      "label": { "displayName": "Label", "purpose": "Nav, panel headings, column headers, buttons; uppercase, tracked (Latin only)." },
+      "micro": { "displayName": "Micro", "purpose": "LIVE / READY pill and viewer count on thumbnails." }
+    },
+    "shadows": [
+      { "name": "led-glow", "value": "0 0 0 2px rgb(0 216 146 / 0.15), 0 0 8px rgb(0 216 146 / 0.55)", "purpose": "A lit status LED only." },
+      { "name": "heat-glow", "value": "0 0 6px rgb(0 216 146 / 0.45)", "purpose": "The hottest heatmap cell." },
+      { "name": "pinned-ring", "value": "inset 0 0 0 1px #0f3d30", "purpose": "A table row pinned from the rack." },
+      { "name": "indicator-rule", "value": "inset 0 -1px 0 #00d892", "purpose": "Current nav item and active terminal tab." },
+      { "name": "console-lid", "value": "inset 0 1px 0 rgb(255 255 255 / 0.09), inset 0 0 0 1px #33373d, inset 0 -2px 0 rgb(0 0 0 / 0.35), 0 40px 90px -30px rgb(0 0 0 / 0.85)", "purpose": "The KVM console bezel; the only physical depth in the system." },
+      { "name": "focus", "value": "outline: 1px solid #00d892; outline-offset: 2px", "purpose": "Every keyboard focus." }
+    ],
+    "motion": [
+      { "name": "spring-fly-open", "value": "stiffness 170, damping 23", "purpose": "Sled flies from its rack slot to the middle of the window." },
+      { "name": "spring-unfold-open", "value": "stiffness 120, damping 15", "purpose": "Keyboard deck pulls out and lid swings past upright, then settles." },
+      { "name": "spring-unfold-close", "value": "stiffness 300, damping 36", "purpose": "Lid folds first on close." },
+      { "name": "spring-fly-close", "value": "stiffness 320, damping 36", "purpose": "Drawer flies home on close." },
+      { "name": "led-breathe", "value": "2.4s ease-in-out infinite alternate, opacity 1 to 0.45", "purpose": "Lit LEDs; off under reduced motion." },
+      { "name": "caret-blink", "value": "1.1s steps(1) infinite", "purpose": "Terminal caret; off under reduced motion." },
+      { "name": "lamp-fade", "value": "fill 0.4s", "purpose": "The [•] mark lamp lighting when anyone goes live." },
+      { "name": "canvas-fade", "value": "opacity 0.4s", "purpose": "Rive canvas replacing the static rack SVG; player iframe fading in." }
+    ],
+    "breakpoints": [
+      { "name": "phone", "value": "40rem" },
+      { "name": "streamer-stack", "value": "48rem" },
+      { "name": "hero-stack", "value": "52rem" },
+      { "name": "rack-names (container)", "value": "440px" },
+      { "name": "console-narrow (container)", "value": "640px" },
+      { "name": "console-stack (container)", "value": "900px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Carbon box with a label-type header strip and hairline-divided rows.",
+      "html": "<section class=\"ds-panel\"><h2 class=\"ds-panel-h\"><span class=\"ds-led ds-on\"></span>Live now <span class=\"ds-n\">3</span></h2><div class=\"ds-row\"><a class=\"ds-nm\" href=\"#\">0xdf</a><span class=\"ds-h\">41 h</span></div><div class=\"ds-row\"><a class=\"ds-nm\" href=\"#\">ippsec</a><span class=\"ds-h\">28 h</span></div></section>",
+      "css": ".ds-panel { background: var(--carbon, #121519); border: 1px solid var(--line, #2a2d31); border-radius: 2px; color: #bababb; font: 15px/1.55 system-ui, sans-serif; } .ds-panel-h { display: flex; align-items: center; gap: 0.6rem; height: 2.5rem; margin: 0; padding: 0 1rem; border-bottom: 1px solid #2a2d31; font: 500 0.72rem/1 'JetBrains Mono', ui-monospace, monospace; letter-spacing: 0.1em; text-transform: uppercase; color: #bababb; } .ds-n { color: #8a8b8e; } .ds-led { width: 0.45rem; height: 0.45rem; border-radius: 50%; background: #3a3d42; } .ds-led.ds-on { background: #00d892; box-shadow: 0 0 0 2px rgb(0 216 146 / 0.15), 0 0 8px rgb(0 216 146 / 0.55); } .ds-row { display: flex; justify-content: space-between; align-items: center; min-height: 2.75rem; padding: 0.3rem 1rem; border-top: 1px solid #2a2d31; } .ds-row:first-of-type { border-top: 0; } .ds-row:hover { background: #1a1d21; } .ds-nm { font: 500 0.9rem 'JetBrains Mono', ui-monospace, monospace; color: #e4e4e4; text-decoration: none; } .ds-nm:hover { color: #00d892; } .ds-nm:focus-visible { outline: 1px solid #00d892; outline-offset: 2px; } .ds-h { font: 0.8rem 'JetBrains Mono', ui-monospace, monospace; color: #8a8b8e; }"
+    },
+    {
+      "name": "Sortable column header",
+      "kind": "custom",
+      "refersTo": "sort-header",
+      "description": "The table's only control: click to sort, again to reverse; active column is green.",
+      "html": "<div class=\"ds-cols\"><button class=\"ds-sort\">Streamer</button><button class=\"ds-sort\" aria-pressed=\"true\">Hours, 30 days</button></div>",
+      "css": ".ds-cols { display: flex; justify-content: space-between; padding: 0 1rem; border-bottom: 1px solid #2a2d31; background: #121519; } .ds-sort { height: 2.25rem; padding: 0; border: 0; background: none; cursor: pointer; font: 500 0.72rem/1 'JetBrains Mono', ui-monospace, monospace; letter-spacing: 0.08em; text-transform: uppercase; color: #8a8b8e; } .ds-sort:hover { color: #e4e4e4; } .ds-sort[aria-pressed=\"true\"] { color: #00d892; } .ds-sort:focus-visible { outline: 1px solid #00d892; outline-offset: 2px; }"
+    },
+    {
+      "name": "Outline button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Quiet hardware switch: hairline border, label type, no fill.",
+      "html": "<button class=\"ds-btn\">Copy link</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: 0.5rem; height: 2.4rem; padding: 0 0.85rem; border: 1px solid #2a2d31; border-radius: 2px; background: none; cursor: pointer; font: 500 0.72rem/1 'JetBrains Mono', ui-monospace, monospace; letter-spacing: 0.08em; text-transform: uppercase; color: #bababb; } .ds-btn:hover { color: #e4e4e4; border-color: #3a3d42; } .ds-btn:focus-visible { outline: 1px solid #00d892; outline-offset: 2px; }"
+    },
+    {
+      "name": "Twitch logo link",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "One of the only two ways off-site; brand colour on hover only.",
+      "html": "<a class=\"ds-lk\" href=\"#\" aria-label=\"On Twitch\"><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path fill=\"currentColor\" d=\"M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z\"/></svg></a>",
+      "css": ".ds-lk { display: inline-flex; align-items: center; justify-content: center; width: 2rem; height: 2rem; border-radius: 2px; color: #8a8b8e; } .ds-lk:hover { color: #a970ff; background: #2a2d31; } .ds-lk:focus-visible { outline: 1px solid #00d892; outline-offset: 2px; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Full-height label-type links; current page green with a 1px inset underline.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" aria-current=\"page\">Home</a><a href=\"#\">Inactive</a><a href=\"#\">FAQ</a><a href=\"#\">Resources</a></nav>",
+      "css": ".ds-nav { display: flex; gap: 0.25rem; height: 3.5rem; border-bottom: 1px solid #2a2d31; background: #0b0e12; } .ds-nav a { display: flex; align-items: center; padding: 0 0.6rem; font: 500 0.72rem/1 'JetBrains Mono', ui-monospace, monospace; letter-spacing: 0.08em; text-transform: uppercase; color: #8a8b8e; text-decoration: none; } .ds-nav a:hover { color: #e4e4e4; } .ds-nav a[aria-current=\"page\"] { color: #00d892; box-shadow: inset 0 -1px 0 #00d892; } .ds-nav a:focus-visible { outline: 1px solid #00d892; outline-offset: 2px; }"
+    },
+    {
+      "name": "Status pill",
+      "kind": "chip",
+      "refersTo": "status-pill",
+      "description": "LIVE (green) or READY (amber) on a thumbnail, with its lamp.",
+      "html": "<span class=\"ds-pill\">Live</span> <span class=\"ds-pill ds-pre\">Ready</span>",
+      "css": ".ds-pill { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.2rem 0.4rem; border-radius: 2px; background: rgb(11 14 18 / 0.85); color: #00d892; font: 600 0.66rem/1 'JetBrains Mono', ui-monospace, monospace; letter-spacing: 0.1em; text-transform: uppercase; } .ds-pill::before { content: ''; width: 0.4rem; height: 0.4rem; border-radius: 50%; background: currentColor; } .ds-pill.ds-pre { color: #f5b83d; }"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Static fact (category, tag) with a steel sub-value. Not a filter.",
+      "html": "<span class=\"ds-chip\">Hack The Box <b>62 h</b></span>",
+      "css": ".ds-chip { display: inline-block; padding: 0.25rem 0.55rem; border: 1px solid #2a2d31; border-radius: 2px; font: 0.75rem 'JetBrains Mono', ui-monospace, monospace; color: #bababb; } .ds-chip b { color: #8a8b8e; font-weight: 400; }"
+    },
+    {
+      "name": "Load meter",
+      "kind": "custom",
+      "refersTo": "row",
+      "description": "Ten segments of 30-day activity, lit like a load meter; full green on row hover.",
+      "html": "<span class=\"ds-m\"><i class=\"ds-lit\"></i><i class=\"ds-lit\"></i><i class=\"ds-lit\"></i><i class=\"ds-lit\"></i><i></i><i></i><i></i><i></i><i></i><i></i></span>",
+      "css": ".ds-m { display: inline-flex; gap: 2px; } .ds-m i { width: 4px; height: 10px; background: #1a1d21; } .ds-m i.ds-lit { background: #0f3d30; } .ds-m:hover i.ds-lit { background: #00d892; }"
+    },
+    {
+      "name": "Terminal",
+      "kind": "custom",
+      "refersTo": "terminal",
+      "description": "Hero terminal replaying realistic security tool sessions; fixed height.",
+      "html": "<div class=\"ds-term\"><div class=\"ds-term-bar\"><span class=\"ds-on\">shell</span><span>~/infosec-streams</span></div><div class=\"ds-term-body\"><p><span class=\"ds-ps\">~&gt;</span> <span class=\"ds-cmd\">nmap -sCV -p- --min-rate 5000 10.10.11.42</span></p><p class=\"ds-out\">Starting Nmap 7.95 ( https://nmap.org )</p><p><span class=\"ds-ps\">~&gt;</span> <span class=\"ds-caret\"></span></p></div></div>",
+      "css": ".ds-term { border: 1px solid #2a2d31; border-radius: 2px; background: #121519; direction: ltr; } .ds-term-bar { display: flex; align-items: center; gap: 1.25rem; height: 2.25rem; padding: 0 1rem; border-bottom: 1px solid #2a2d31; font: 500 0.72rem/1 'JetBrains Mono', ui-monospace, monospace; letter-spacing: 0.1em; text-transform: uppercase; color: #8a8b8e; } .ds-term-bar .ds-on { color: #00d892; height: 100%; display: flex; align-items: center; box-shadow: inset 0 -1px 0 #00d892; } .ds-term-bar span:last-child { margin-inline-start: auto; text-transform: none; letter-spacing: 0; } .ds-term-body { height: 8rem; overflow: hidden; padding: 0.85rem 1rem; font: 0.75rem/1.6 'JetBrains Mono', ui-monospace, monospace; color: #bababb; } .ds-term-body p { margin: 0; white-space: pre; } .ds-ps { color: #00d892; } .ds-cmd { color: #e4e4e4; } .ds-out { color: #8a8b8e; } .ds-caret { display: inline-block; width: 0.55em; height: 1.05em; vertical-align: -0.15em; background: #00d892; animation: ds-caret 1.1s steps(1) infinite; } @keyframes ds-caret { 50% { opacity: 0; } } @media (prefers-reduced-motion: reduce) { .ds-caret { animation: none; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Rack at Night",
+    "overview": "The site is a server rack in a dark machine room, read from the front panel. Near-black flat surfaces, 1px hairlines, square corners, and colour that behaves only like status LEDs: green means online, amber means getting ready, and nothing else glows. The reference points are Oxide, Depot and Axiom: engineered hardware and a working terminal, not a hacker costume. It must not read as cheesy or AI-made.\n\nDensity is operational. One table holds every streamer: whoever is live comes first, then everyone sorted by streamed hours over the last 30 days. The hero is equipment: a terminal replaying realistic security tool sessions beside a Rive-drawn rack with one sled per streamer. Clicking a sled slides it out in 3D and opens it into a full-window rack-mount KVM console. Everything technical (navigation, labels, handles, figures, buttons) is set in mono. Anything human (headings, stream titles, prose) is set in a plain sans.\n\nTrust is a visual rule as much as a data rule. When the data is unsure, the interface shows nothing: no speculative next-stream text, no countdowns, no placeholder dashes in empty cells, schedules only for streamers with a proven record, and \"getting ready\" for at most 20 minutes. Empty means absent, never a guess.",
+    "keyCharacteristics": [
+      "Flat, tonal near-black layers separated by 1px hairlines; 2px corners everywhere.",
+      "LED semantics: green = live, amber = getting ready, red only for faults and falling figures.",
+      "Mono for machine facts, sans for human words; tabular numerals throughout.",
+      "One sortable table, live first, then 30-day hours. No toolbar, search or filters.",
+      "Hardware hero: terminal plus Rive rack, and a sled that opens into a KVM console.",
+      "Spring motion that respects reduced motion; every page works without JavaScript.",
+      "Dark only; 10 languages, Arabic laid out right to left."
+    ],
+    "rules": [
+      { "name": "The Status Lamp Rule", "body": "Green and amber are signals, not brand colours. If nothing is live, the page has almost no green. Never use green or amber for decoration, emphasis or illustration.", "section": "colors" },
+      { "name": "The Brand Hover Rule", "body": "Twitch purple and YouTube red appear only as the hover state of their own logo links. They are never fills, never resting states, and never on anything else.", "section": "colors" },
+      { "name": "The One Ground Rule", "body": "Dark only. There is no light theme, and the system is not designed for one.", "section": "colors" },
+      { "name": "The Machine/Human Rule", "body": "If it could appear on a terminal or a panel label, it is mono. If a person wrote it as a sentence, it is sans.", "section": "typography" },
+      { "name": "The Tabular Rule", "body": "Numerals are tabular everywhere (font-variant-numeric: tabular-nums on body), so columns of figures never shimmer when sorted or refreshed.", "section": "typography" },
+      { "name": "The Joined Script Rule", "body": "Uppercase tracking is for Latin labels. In Arabic, Hindi and Chinese, letter-spacing is zero so the script keeps its shape.", "section": "typography" },
+      { "name": "The Stillness Rule", "body": "Nothing moves the page after first paint. The terminal has a fixed height, the rack has a fixed aspect ratio with a static SVG until Rive has drawn, the list stays hidden until the first live status arrives (or 2.5s), streamer stats reserve their space, and the mono font is optional. Target CLS is 0.", "section": "layout" },
+      { "name": "The Emitted Light Rule", "body": "A glow means a lamp is on. Surfaces do not float; only the console, which is a real object you pulled out, has physical depth.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep every surface flat on void / carbon / graphite with 1px line hairlines and the 2px radius.",
+      "Do use green only for \"live / on / active\" and amber only for \"getting ready\" (at most 20 minutes).",
+      "Do set handles, figures, labels and buttons in JetBrains Mono, and titles and prose in the system sans.",
+      "Do keep one table: live first, then 30-day hours, sortable by its column headers, and call the order \"sorted\".",
+      "Do omit a field, cell or panel when the data cannot back it up. Show schedules only for streamers with a proven record.",
+      "Do animate with springs, and give every animation a still reduced-motion path (LED breathing, caret blink, lamp fade and console flight all stop or cut).",
+      "Do make every page work without JavaScript and reserve space for anything that arrives later (CLS 0).",
+      "Do use logical properties so Arabic mirrors correctly; keep the terminal and logo left-to-right.",
+      "Do keep it fast: CSS inlined, prerender on hover, a service worker, content-hashed Rive assets, and no Rive on Save-Data or slow networks."
+    ],
+    "donts": [
+      "Don't add a toolbar, search box, filters or topic chips above the table.",
+      "Don't use the word \"ranked\", show countdowns or \"next stream in…\", or render \"—\" for unknown values.",
+      "Don't link a streamer anywhere off-site except through the Twitch and YouTube logo links.",
+      "Don't go for a stereotypical hacker look (the green-on-black costume), use red-team / blue-team colour coding, or add anything cheesy or AI-sounding.",
+      "Don't add drop shadows, gradients or glows to page surfaces. Physical depth belongs to the console only.",
+      "Don't add a light theme, a spotlight hero for one live streamer, or horizontal card strips.",
+      "Don't add parallax to the rack."
+    ]
+  }
+}

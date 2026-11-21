@@ -37,6 +37,24 @@ export const esc = (s = '') => s.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)
 export const dur = (ms: number) => { const h = Math.floor(ms / 36e5), m = Math.floor((ms % 36e5) / 6e4); return h ? `${h}h ${m}m` : `${m}m`; };
 const icon = (id: string) => `<svg class="ic" aria-hidden="true"><use href="#i-${id}"/></svg>`;
 
+/** The "usually live" grid: 7 days x 24 hours from the 90-day heatmap (UTC,
+ * Monday first), shifted by tzOffset hours; '' when there is nothing to show. */
+export function heatmap(heat: number[][] | undefined, lang: string, tzOffset: number | undefined, label: string): string {
+  if (heat?.length !== 7 || !heat.some((r) => r.some((v) => v > 0))) return '';
+  const off = Math.round(tzOffset ?? 0);
+  const at = (d: number, hr: number) => { const i = (((d * 24 + hr - off) % 168) + 168) % 168; return heat[Math.floor(i / 24)][i % 24] ?? 0; };
+  const max = Math.max(...heat.flat(), 0.01);
+  const wk = new Intl.DateTimeFormat(lang, { weekday: 'short', timeZone: 'UTC' });
+  const monday = new Date(Date.UTC(2024, 0, 1));                      // a Monday
+  const rows = Array.from({ length: 7 }, (_, d) => {
+    const name = wk.format(new Date(monday.getTime() + d * 864e5));
+    const cells = Array.from({ length: 24 }, (_, hr) => { const v = at(d, hr) / max; return `<i class="l${v > 0.66 ? 3 : v > 0.33 ? 2 : v > 0.02 ? 1 : 0}"></i>`; }).join('');
+    return `<div class="hm-row"><span>${esc(name)}</span>${cells}</div>`;
+  }).join('');
+  const axis = `<div class="hm-row hm-axis"><span></span>${Array.from({ length: 24 }, (_, hr) => `<b>${hr % 6 === 0 ? hr : ''}</b>`).join('')}</div>`;
+  return `<div class="hm" role="img" aria-label="${esc(label)}">${rows}${axis}</div>`;
+}
+
 export function renderStats(stats: Stats | null, live: Live | null, c: Ctx): string {
   const { lang, ui } = c;
   const utc = c.tzOffset == null;
@@ -50,8 +68,9 @@ export function renderStats(stats: Stats | null, live: Live | null, c: Ctx): str
   const date = new Intl.DateTimeFormat(lang, { year: 'numeric', month: 'short', day: 'numeric', ...tz });
 
   const out: string[] = [];
-  const panel = (title: string, inner: string, cls = '', note = '') => `<section class="panel ${cls}"><h2 class="panel-h">${esc(title)}${note ? `<small>${esc(note)}</small>` : ''}</h2>${inner}</section>`;
-  const kv = (rows: [string, string][]) => `<dl class="kv">${rows.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${v}</dd></div>`).join('')}</dl>`;
+  const panel = (title: string, inner: string, cls = '', note = '') => !inner ? '' : `<section class="panel ${cls}"><h2 class="panel-h">${esc(title)}${note ? `<small>${esc(note)}</small>` : ''}</h2>${inner}</section>`;
+  // "When unsure, show nothing": rows (and panels) without a value are left out.
+  const kv = (rows: [string, string][]) => { const r = rows.filter(([, v]) => v && v !== '—'); return r.length ? `<dl class="kv">${r.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${v}</dd></div>`).join('')}</dl>` : ''; };
 
   const online = live?.status === 'online', pre = live?.status === 'prelive';
   if (live && (online || pre)) {
@@ -66,7 +85,7 @@ export function renderStats(stats: Stats | null, live: Live | null, c: Ctx): str
   // ---- numbers ----
   const h = stats.hours ?? {};
   out.push(panel(ui.activity, kv([
-    [ui.hours, `<span class="hrow"><span><small>${esc(ui.h7)}</small>${hrs(h['7d'])}</span><span><small>${esc(ui.h30)}</small>${hrs(h['30d'])}</span><span><small>${esc(ui.h90)}</small>${hrs(h['90d'])}</span><span><small>${esc(ui.hAll)}</small>${hrs(h.all)}</span></span>`],
+    [ui.hours, `<span class="hrow">${([[ui.h7, h['7d']], [ui.h30, h['30d']], [ui.h90, h['90d']], [ui.hAll, h.all]] as [string, number | undefined][]).filter(([, v]) => v != null).map(([k, v]) => `<span><small>${esc(k)}</small>${hrs(v)}</span>`).join('')}</span>`],
     [ui.streams30, n(stats.streams_30d)],
     [ui.avgLen, hrs(stats.median_stream_hours_30d ?? stats.avg_stream_hours_30d)],
     [ui.longest, hrs(stats.longest_stream_hours_all ?? stats.longest_stream_hours_30d)],
@@ -76,28 +95,15 @@ export function renderStats(stats: Stats | null, live: Live | null, c: Ctx): str
   const trend = stats.avg_viewers_30d != null && stats.avg_viewers_prev_30d
     ? ` <span class="${stats.avg_viewers_30d >= stats.avg_viewers_prev_30d ? 'up' : 'down'}">${stats.avg_viewers_30d >= stats.avg_viewers_prev_30d ? '+' : ''}${num.format(Math.round((stats.avg_viewers_30d / stats.avg_viewers_prev_30d - 1) * 100))}%</span>` : '';
   out.push(panel(ui.audience, kv([
-    [ui.followers, `${n(stats.followers)}${stats.followers_gained_30d ? ` <span class="up">+${n(stats.followers_gained_30d)}</span>` : ''}`],
-    [ui.avgViewers, `${n(stats.avg_viewers_30d)}${trend}`],
+    [ui.followers, stats.followers == null ? '' : `${n(stats.followers)}${stats.followers_gained_30d ? ` <span class="up">+${n(stats.followers_gained_30d)}</span>` : ''}`],
+    [ui.avgViewers, stats.avg_viewers_30d == null ? '' : `${n(stats.avg_viewers_30d)}${trend}`],
     [ui.peakViewers, n(stats.peak_viewers_30d)],
     [ui.hoursWatched, hrs(stats.hours_watched_30d || undefined)],
   ])));
 
   // ---- usually live: the 90-day heatmap (UTC, Monday first), shifted to the viewer's timezone ----
-  const heat = stats.heatmap_90d;
-  if (heat?.length === 7 && heat.some((r) => r.some((v) => v > 0))) {
-    const off = Math.round(c.tzOffset ?? 0);
-    const at = (d: number, hr: number) => { const i = (((d * 24 + hr - off) % 168) + 168) % 168; return heat[Math.floor(i / 24)][i % 24] ?? 0; };
-    const max = Math.max(...heat.flat(), 0.01);
-    const wk = new Intl.DateTimeFormat(lang, { weekday: 'short', timeZone: 'UTC' });
-    const monday = new Date(Date.UTC(2024, 0, 1));                      // a Monday
-    const rows = Array.from({ length: 7 }, (_, d) => {
-      const label = wk.format(new Date(monday.getTime() + d * 864e5));
-      const cells = Array.from({ length: 24 }, (_, hr) => { const v = at(d, hr) / max; return `<i class="l${v > 0.66 ? 3 : v > 0.33 ? 2 : v > 0.02 ? 1 : 0}"></i>`; }).join('');
-      return `<div class="hm-row"><span>${esc(label)}</span>${cells}</div>`;
-    }).join('');
-    const axis = `<div class="hm-row hm-axis"><span></span>${Array.from({ length: 24 }, (_, hr) => `<b>${hr % 6 === 0 ? hr : ''}</b>`).join('')}</div>`;
-    out.push(panel(ui.usually, `<div class="hm" role="img" aria-label="${esc(ui.usually)}">${rows}${axis}</div>`, '', utc ? 'UTC' : ui.localTime));
-  }
+  const hm = heatmap(stats.heatmap_90d, lang, c.tzOffset, ui.usually);
+  if (hm) out.push(panel(ui.usually, hm, '', utc ? 'UTC' : ui.localTime));
 
   // ---- recent streams ----
   if (stats.recent_streams?.length) {

@@ -1,5 +1,6 @@
 import { SESSIONS } from './sessions';
 import { makeConsole } from './console';
+import { heatmap } from '../lib/streamer-render';
 import type { RiveGlobal, RvArtboard, RvNode, RvRenderer, RvRuntime, RvSM } from './rv';
 // Home hero: the rack, drawn with Rive's low-level renderer (the rivekit route:
 // RuntimeLoader -> rt.load -> artboardByName -> StateMachineInstance ->
@@ -39,10 +40,17 @@ function startHero(hero: HTMLElement) {
   const slotOf = new Map<string, number>();
   const free = [...geo.sleds.keys()];
   for (let i = free.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [free[i], free[j]] = [free[j], free[i]]; }
-  document.addEventListener('streams', (e) => {
-    const d = (e as CustomEvent<{ ok: boolean; streamers: Streamer[] }>).detail;
+  type Detail = { ok: boolean; streamers: Streamer[] };
+  document.addEventListener('streams', (e) => onStreams((e as CustomEvent<Detail>).detail));
+  // live.ts may have sent its first data before this script started listening.
+  queueMicrotask(() => { const d = (window as unknown as { __streams?: Detail }).__streams; if (d && !list.length) onStreams(d); });
+  function onStreams(d: Detail) {
     list = new Array(geo.sleds.length);
-    for (const s of d.streamers) {
+    // More streamers than sleds: the one in a shared link (?s=) gets a sled
+    // first, then whoever is live, then by 30-day hours (the list's order).
+    const rank = (x: Streamer) => (x.login.toLowerCase() === deep ? 0 : x.status === 'online' ? 1 : x.status === 'prelive' ? 2 : 3);
+    const order = d.streamers.map((x, i) => [x, i] as const).sort((a, b) => rank(a[0]) - rank(b[0]) || a[1] - b[1]).map(([x]) => x);
+    for (const s of order) {
       const id = s.login.toLowerCase();
       let k = slotOf.get(id);
       if (k == null) { k = free.shift(); if (k == null) continue; slotOf.set(id, k); }
@@ -60,7 +68,7 @@ function startHero(hero: HTMLElement) {
       const i = slotOf.get(deep); deep = '';
       if (i != null && list[i]) { go(); void Promise.race([riveReady, sleep(1500)]).then(() => { if (!con.busy) con.open(i); }); }
     }
-  });
+  }
   let deep = (new URLSearchParams(location.search).get('s') ?? '').trim().toLowerCase();
 
   // ---- terminal (plain HTML; decorative: the list below carries the data) ----
@@ -184,6 +192,7 @@ function startHero(hero: HTMLElement) {
     last_live_at?: string; streams_30d?: number; median_stream_hours_30d?: number; avg_stream_hours_30d?: number;
     stream_days_per_week_30d?: number; avg_viewers_30d?: number; followers?: number; peak_viewers_30d?: number;
     recent_streams?: { started_at: string; ended_at?: string; hours: number; categories?: string[] }[];
+    heatmap_90d?: number[][];
   }
   const day = new Intl.DateTimeFormat(lang, { weekday: 'short', month: 'short', day: 'numeric' });
   const n0 = (x?: number) => (x == null ? '—' : numF.format(x));
@@ -195,7 +204,8 @@ function startHero(hero: HTMLElement) {
     const name = esc(s.display_name || s.login);
     const row = app.querySelector(`li[data-login="${CSS.escape(login)}"]`);
     const tw = row?.querySelector<HTMLAnchorElement>('a.tw'), yt = row?.querySelector<HTMLAnchorElement>('a.yt[href]');
-    const kv = (k: string, v: string) => `<div><dt>${esc(k)}</dt><dd>${v}</dd></div>`;
+    // tiles without a value are left out ("when unsure, show nothing")
+    const kv = (k: string, v: string) => (v === '—' ? '' : `<div><dt>${esc(k)}</dt><dd>${v}</dd></div>`);
     const state = s.status === 'online'
       ? `<span class="con-st on"><i class="led"></i>${esc(f('live'))}</span>`
       : s.status === 'prelive' ? `<span class="con-st pre"><i class="led pre"></i>${esc(f('prelive'))}</span>`
@@ -213,7 +223,9 @@ function startHero(hero: HTMLElement) {
         ? `<div class="con-pl"><img src="${esc(thumb(login, 640, 360))}" srcset="${esc(thumb(login, 1280, 720))} 2x" width="640" height="360" alt="" decoding="async"></div>` : ''}
         <div class="con-d"><p class="con-t">${esc(s.title || '')}</p><p class="con-m">${meta}</p>${live ? `<p class="con-m">${live}</p>` : ''}${rec}</div></div>`;
     } else {
-      now = `<p class="con-last">${st === undefined ? esc(f('loading')) : st?.last_live_at ? esc(f('lastLive', { t: ago(st.last_live_at) })) : esc(f('neverLive'))}</p>${rec}`;
+      const hm = heatmap(st?.heatmap_90d, lang, -new Date().getTimezoneOffset() / 60, f('usually'));
+      now = `<p class="con-last">${st === undefined ? esc(f('loading')) : st?.last_live_at ? esc(f('lastLive', { t: ago(st.last_live_at) })) : esc(f('neverLive'))}</p>
+        <div class="con-off">${rec}${hm ? `<div class="con-heat"><h3>${esc(f('usually'))} <small>${esc(f('localTime'))}</small></h3>${hm}</div>` : ''}</div>`;
     }
     const facts = `<dl class="con-kv">
         ${kv(f('h30'), hrs(s.hours_30d))}
@@ -284,7 +296,7 @@ function startHero(hero: HTMLElement) {
     share: (i) => (list[i]?.hours_30d ? Math.max(0.02, list[i]!.hours_30d! / maxH) : 0),
     onOpen: (i) => { conKey = ''; select(-1); fill(i); conEl.querySelector('.con-tag')!.textContent = list[i]?.login ?? ''; },
     onShown: (i) => embed(i),
-    onSlot: (i) => { slot = i; paintHole(); kick(); setUrl(i >= 0 ? list[i]?.login.toLowerCase() ?? null : null); },
+    onSlot: (i) => { slot = i; paintHole(); paintNames(); kick(); setUrl(i >= 0 ? list[i]?.login.toLowerCase() ?? null : null); },
   });
 
   // The open console's address: ?s=<login>, so it can be shared (and Back/reload keeps it).
@@ -386,7 +398,17 @@ function startHero(hero: HTMLElement) {
   const cur = { x: 0, y: 0, s: 0, bar: 0 };
 
   // Before the runtime loads, the static SVG rack shows the same LEDs and bars.
+  const plates = [...box.querySelectorAll<HTMLElement>('.rack-names span')];
+  function paintNames() {
+    plates.forEach((el, i) => {
+      const s = i === slot ? undefined : list[i];
+      const name = s ? s.display_name || s.login : '';
+      if (el.textContent !== name) el.textContent = name;
+      el.className = s?.status === 'online' ? 'on' : s?.status === 'prelive' ? 'pre' : '';
+    });
+  }
   function paintSvg() {
+    paintNames();
     const svg = box.querySelector('svg');
     if (!svg) return;
     for (let i = 0; i < geo.sleds.length; i++) {

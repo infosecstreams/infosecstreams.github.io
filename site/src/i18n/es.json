@@ -71,7 +71,7 @@
   },
   "home": {
     "title": "Streams de InfoSec",
-    "intro": "¡Felicidades! Has descubierto una lista actualizada en tiempo real con streams de Twitch sobre la Seguridad Informática. ¡La lista está `organizada` según la `actividad de los últimos 30 días` para que te sea más fácil encontrar streams activos!",
+    "intro": "¡Felicidades! Has descubierto una lista actualizada en tiempo real con streams de Twitch sobre la Seguridad Informática. ¡La lista está organizada según la actividad de los últimos 30 días para que te sea más fácil encontrar streams activos!",
     "inactiveNote": "Los streamers que no han tenido actividad en el último mes se han movido a la página de [streamers inactivos](/inactive).",
     "questions": "¿Preguntas? ¿Contribuciones? ¿Algo más? ¡Por favor lee las [FAQ](/faq)!",
     "listHeading": "Lista de los Streams (ordenada)"

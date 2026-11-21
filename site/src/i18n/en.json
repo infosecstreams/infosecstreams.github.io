@@ -67,19 +67,20 @@
     "livePlayer": "{name}'s live stream",
     "rackLabel": "Server rack: one sled per streamer. Arrow keys choose a streamer; Enter opens their console.",
     "copyLink": "Copy link",
-    "linkCopied": "Link copied"
+    "linkCopied": "Link copied",
+    "colHoursShort": "30-day hours"
   },
   "home": {
     "title": "InfoSec Streams",
-    "intro": "Congrats! You've found an actively maintained list of Information Security-related Twitch streams. This list is `sorted` based on `30-day activity` to help you find active streams more easily!",
+    "intro": "Congrats! You've found an actively maintained list of Information Security-related Twitch streams. This list is sorted based on 30-day activity to help you find active streams more easily!",
     "inactiveNote": "Streamers that haven't had activity in the last month are moved to the [inactive streamers](/inactive) page.",
     "questions": "Questions? Contributions? Something else? Please read the [FAQ](/faq)!",
     "listHeading": "List of Streams (sorted)"
   },
   "inactive": {
     "title": "Inactive InfoSec Streams",
-    "intro": "Hey there! This page contains streamers that have not streamed in the last month.",
-    "listHeading": "Streams"
+    "intro": "Streamers on the list who haven't been streaming regularly lately. Hours are for the last 30 days.",
+    "listHeading": "Streamers"
   },
   "credits": {
     "heading": "Credits",
