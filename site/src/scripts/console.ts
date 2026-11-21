@@ -40,11 +40,14 @@ export function makeConsole(o: Opts) {
   const cv = el.querySelector<HTMLCanvasElement>('canvas')!;
   const lid = el.querySelector<HTMLElement>('.con-lid')!;
   const scr = el.querySelector<HTMLElement>('.con-scr')!;
+  const floor = el.querySelector<HTMLElement>('.con-floor')!;
+  const tag = el.querySelector<HTMLElement>('.con-tag')!;
 
   let rt: RvRuntime | null = null, ab: RvArtboard | null = null, rend: RvRenderer | null = null, mat: RvMat | null = null;
   const N: Record<string, RvNode> = {};
-  const NAMES = ['console', 'deck', 'dk', 'dkL', 'dkR', 'keys',
-    'front', 'hdl0', 'hdl1', 'fc', 'fcT', 'fcB', 'fcL', 'fcR', 'v0', 'v1', 'v2', 'trk', 'bar', 'led', 'on', 'pre'];
+  const NAMES = ['console', 'deck', 'dk', 'dkGlow', 'dkShade', 'dkLip', 'dkLipHi', 'dkL', 'dkR', 'keys', 'pad',
+    'front', 'ear0', 'ear1', 'fc', 'fcHi', 'fcT', 'fcB', 'fcL', 'fcR', 'hd0', 'hd1', 'plate', 'plateEdge', 'vents',
+    'pwr', 'pwrCore', 'led', 'on', 'pre', ...[...Array(10).keys()].flatMap((k) => [`mo${k}`, `mi${k}`])];
 
   let idx = -1, closing = false, running = false, shown = false, prev = 0, prevFocus: Element | null = null;
   const fly: Spring = { x: 0, v: 0, t: 0 }, unf: Spring = { x: 0, v: 0, t: 0 };
@@ -53,8 +56,8 @@ export function makeConsole(o: Opts) {
   const L = { W: 0, LH: 0, DH: 0, FH: 0, cx: 0, cy: 0, dpr: 1, vw: 0, vh: 0 };
   function layout() {
     const vw = document.documentElement.clientWidth, vh = innerHeight;
-    const W = Math.round(Math.min(1080, vw - (vw < 640 ? 20 : 64)));
-    const FH = Math.round(clamp(W / 15, 24, 60)), DH = Math.round(clamp(W / 26, 14, 38));
+    const W = Math.round(Math.min(1080, vw - (vw < 640 ? 36 : 80)));   // room for the rack ears
+    const FH = Math.round(clamp(W / 15, 24, 60)), DH = Math.round(clamp(W / 16, 18, 66));
     // wide windows get a landscape screen; phones a tall one
     const LH = Math.round(Math.max(220, Math.min(W * (vw < 640 ? 1.45 : 0.6), vh - (vh < 600 ? 24 : 72) - DH - FH)));
     Object.assign(L, { vw, vh, W, FH, DH, LH, cx: Math.round((vw - W) / 2), cy: Math.round(Math.max(12, (vh - LH - DH - FH) / 2)), dpr: Math.min(2, devicePixelRatio || 1) });
@@ -63,38 +66,64 @@ export function makeConsole(o: Opts) {
     l.setProperty('--b', `${Math.round(clamp(W * 0.02, 8, 18))}px`);
     // the eye: level with the middle of the screen
     el.style.perspectiveOrigin = `${L.cx + W / 2}px ${L.cy + LH * 0.45}px`;
+    const fl = floor.style;                    // the console's shadow on the "floor"
+    fl.left = `${L.cx - W * 0.06}px`; fl.width = `${W * 1.12}px`; fl.top = `${L.cy + LH + DH + FH - 10}px`;
     if (rt) {
       const w = Math.round(vw * L.dpr), h = Math.round(vh * L.dpr);
       if (cv.width !== w || cv.height !== h) { cv.width = w; cv.height = h; }
       place();
+      const p = plateRect(), ts = tag.style;
+      ts.left = `${p.x}px`; ts.top = `${p.y}px`; ts.width = `${p.w}px`; ts.height = `${p.h}px`;
     }
   }
   // Each piece is a unit square (or circle) in the artboard: set its box.
   const R = (n: string, x: number, y: number, w: number, h: number) => { const k = N[n]; k.x = x; k.y = y; k.scaleX = w; k.scaleY = h; };
   const D = (n: string, x: number, y: number, d: number) => R(n, x, y, d, d);
-  const bar = () => { const tx = L.FH * 1.35; return [tx, L.W - tx - L.FH * 1.5]; };
+  const S = (n: string, x: number, y: number, k: number) => { const g = N[n]; g.x = x; g.y = y; g.scaleX = g.scaleY = k; };
+  // Front panel, left to right: ear | handle | LEDs | label plate | meter … vents | handle | ear
+  const F = () => {
+    const { W, FH } = L, k = FH / 100;
+    const plate = { x: FH * 0.95, y: FH * 0.24, w: Math.min(W * 0.24, FH * 5), h: FH * 0.52 };
+    const seg = { x: plate.x + plate.w + FH * 0.55, w: FH * 0.3, gap: FH * 0.1, h: FH * 0.16 };
+    return { k, plate, seg, hd1: W - FH * 0.18 - 16 * k };
+  };
   function place() {
     const { W, LH, DH, FH } = L;
     N.deck.x = 0; N.deck.y = LH + DH;                  // pulls out downwards from the hinge
-    R('dk', 0, -DH, W, DH); R('dkL', 0, -DH, 1, DH); R('dkR', W - 1, -DH, 1, DH);
-    const k = N.keys; k.scaleX = (W * 0.84) / 884; k.scaleY = (DH * 0.62) / 30; k.x = W * 0.08; k.y = -DH * 0.81;
+    R('dk', 0, -DH, W, DH); R('dkShade', 0, -DH, W, Math.max(2, DH * 0.12));
+    R('dkLip', 0, -3, W, 3); R('dkLipHi', 0, -3, W, 1);
+    R('dkL', 0, -DH, 1, DH); R('dkR', W - 1, -DH, 1, DH);
+    const ky = -DH * 0.83, kh = DH * 0.66;
+    const kk = N.keys; kk.x = W * 0.045; kk.y = ky; kk.scaleX = (W * 0.69) / 1000; kk.scaleY = kh / 196;
+    const pd = N.pad; pd.x = W * 0.77; pd.y = ky; pd.scaleX = (W * 0.185) / 300; pd.scaleY = kh / 196;
     N.front.x = 0; N.front.y = LH + DH;
-    R('fc', 0, 0, W, FH); R('fcT', 0, 0, W, 1); R('fcB', 0, FH - 1, W, 1); R('fcL', 0, 0, 1, FH); R('fcR', W - 1, 0, 1, FH);
-    const hw = Math.max(5, FH * 0.24);
-    R('hdl0', -hw, FH * 0.2, hw, FH * 0.6); R('hdl1', W, FH * 0.2, hw, FH * 0.6);
-    D('led', FH * 0.72, FH / 2, FH * 0.24); D('pre', FH * 0.72, FH / 2, FH * 0.24);
-    const [tx, tw] = bar();
-    R('trk', tx, FH / 2 - FH * 0.07, tw, FH * 0.14);
-    for (let v = 0; v < 3; v++) R(`v${v}`, W - FH * 1.05 + v * FH * 0.3, FH * 0.22, Math.max(1.5, FH * 0.07), FH * 0.56);
+    const { k, plate, hd1 } = F();
+    S('ear0', -40 * k, 0, k); S('ear1', W, 0, k);
+    R('fc', 0, 0, W, FH); R('fcHi', 0, 0, W, FH * 0.45);
+    R('fcT', 0, 0, W, 1); R('fcB', 0, FH - 1, W, 1); R('fcL', 0, 0, 1, FH); R('fcR', W - 1, 0, 1, FH);
+    S('hd0', FH * 0.18, 0, k); S('hd1', hd1, 0, k);
+    R('plateEdge', plate.x - 1, plate.y - 1, plate.w + 2, plate.h + 2); R('plate', plate.x, plate.y, plate.w, plate.h);
+    const vk = k * 0.8;
+    S('vents', hd1 - FH * 0.4 - 240 * vk, FH * 0.1, vk);
+    D('pwr', FH * 0.64, FH * 0.32, FH * 0.13); D('pwrCore', FH * 0.64, FH * 0.32, FH * 0.06);
+    D('led', FH * 0.64, FH * 0.68, FH * 0.17); D('pre', FH * 0.64, FH * 0.68, FH * 0.17);
   }
-  function lights(t: number) {
-    const { FH } = L, d = FH * 0.24, st = o.led(idx);
+  function lights(t: number, screen: number) {
+    const { FH, W, DH } = L, d = FH * 0.17, st = o.led(idx);
     const pulse = st === 'online' && !o.reduce.matches ? 1 + 0.08 * Math.sin(t / 420) : 1;
-    D('on', FH * 0.72, FH / 2, st === 'online' ? d * 2.2 * pulse : 0);
+    D('on', FH * 0.64, FH * 0.68, st === 'online' ? d * 1.7 * pulse : 0);
     N.pre.scaleX = N.pre.scaleY = st === 'prelive' ? d : 0;
-    const [tx, tw] = bar();
-    R('bar', tx, FH / 2 - FH * 0.07, Math.max(0.5, tw * o.share(idx)), FH * 0.14);
+    // the 30-day meter: ten segments, lit in proportion
+    const { seg } = F(), share = o.share(idx), lit = share > 0 ? Math.max(1, Math.round(share * 10)) : 0;
+    for (let i = 0; i < 10; i++) {
+      const x = seg.x + i * (seg.w + seg.gap), y = FH / 2 - seg.h / 2;
+      R(`mo${i}`, x, y, seg.w, seg.h);
+      R(`mi${i}`, x, y, i < lit ? seg.w : 0, i < lit ? seg.h : 0);
+    }
+    R('dkGlow', W * 0.03, -DH, W * 0.94, Math.max(0.01, DH * 0.35 * screen));
   }
+  // where the label plate sits once the console is out (the page writes the name there)
+  const plateRect = () => { const { plate } = F(); return { x: L.cx + plate.x, y: L.cy + L.LH + L.DH + plate.y, w: plate.w, h: plate.h }; };
 
   // ---- one frame: the canvas (drawer, deck) and the 3D lid ----
   function draw(t: number) {
@@ -104,7 +133,7 @@ export function makeConsole(o: Opts) {
     const sx = lerp(S.w / L.W, 1, f), sy = lerp(S.h / L.FH, 1, f);
     const tx = lerp(S.x, L.cx, f), ty = lerp(S.y, L.cy + y0, f) - y0 * sy;
     N.deck.scaleY = clamp(unf.x * 1.8, 0, 1.04);
-    lights(t);
+    lights(t, smooth(0.35, 0.95, Math.max(0, (unf.x - 0.2) / 0.8)));
     ab.advance(0);
     rend.clear(); rend.save();
     mat.xx = sx * L.dpr; mat.xy = 0; mat.yx = 0; mat.yy = sy * L.dpr; mat.tx = tx * L.dpr; mat.ty = ty * L.dpr;
@@ -113,6 +142,7 @@ export function makeConsole(o: Opts) {
   }
   function dom() {
     bg.style.opacity = String(clamp(fly.x * 1.15));
+    floor.style.opacity = String(smooth(0.6, 1, fly.x));
     // The lid lies flat towards you (-90deg) and swings up on the hinge; the
     // spring lets it go a few degrees past upright before it settles.
     const u = Math.max(0, (unf.x - 0.2) / 0.8);

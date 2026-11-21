@@ -274,7 +274,7 @@ function startHero(hero: HTMLElement) {
     el: conEl, reduce, sledRect,
     led: (i) => list[i]?.status ?? 'offline',
     share: (i) => (list[i]?.hours_30d ? Math.max(0.02, list[i]!.hours_30d! / maxH) : 0),
-    onOpen: (i) => { conKey = ''; select(-1); fill(i); },
+    onOpen: (i) => { conKey = ''; select(-1); fill(i); conEl.querySelector('.con-tag')!.textContent = list[i]?.login ?? ''; },
     onShown: (i) => embed(i),
     onSlot: (i) => { slot = i; paintHole(); kick(); },
   });

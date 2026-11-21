@@ -133,15 +133,32 @@ input, select, button { font: inherit; color: inherit; }
 .con canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; pointer-events: none; }
 .con:not(.drawn) canvas { display: none; }
 /* The lid: hinged at its bottom edge, flipped by console.ts (rotateX). Front:
-   bezel and screen; back: the lid's shell, seen while it is still low. */
-.con-lid { position: absolute; transform-origin: 50% 100%; transform-style: preserve-3d; visibility: hidden; }
-.con-face, .con-back { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; border-radius: var(--r); }
-.con-face { background: var(--graphite); box-shadow: inset 0 0 0 1px var(--line-hi), 0 30px 80px -20px rgb(0 0 0 / 0.7); }
-.con-face::after { content: ""; position: absolute; right: calc(var(--b) + 1px); bottom: calc((var(--b) + 6px) / 2 - 2px); width: 4px; height: 4px; border-radius: 50%; background: var(--led); box-shadow: 0 0 6px rgb(0 216 146 / 0.7); }
-.con-back { transform: rotateX(180deg); background: repeating-linear-gradient(90deg, transparent 0 22px, rgb(255 255 255 / 0.025) 22px 23px), var(--carbon); box-shadow: inset 0 0 0 1px var(--line-hi); }
-.con.fade { animation: con-fade 0.2s ease-out both; }
-@keyframes con-fade { from { opacity: 0; } }
-.con-scr { position: absolute; inset: var(--b) var(--b) calc(var(--b) + 6px); border: 1px solid var(--line); container-type: inline-size; display: flex; flex-direction: column; padding: clamp(0.75rem, 2vw, 1.5rem) clamp(0.85rem, 2.4vw, 1.75rem) clamp(0.6rem, 1.6vw, 1.1rem); font: clamp(12px, 0.3vw + 10px, 14.5px)/1.5 var(--mono); color: var(--silver); pointer-events: none; background: radial-gradient(120% 80% at 50% 0%, rgb(0 216 146 / calc(var(--on, 0) * 0.06)), transparent 60%), #07090c; }
+   a bevelled bezel with recessed glass, a chin with the panel buttons and
+   power LED, hinge barrels; back: the lid's shell, seen while it is low. */
+.con-lid { position: absolute; transform-origin: 50% 100%; transform-style: preserve-3d; visibility: hidden; --chin: calc(var(--b) + 14px); }
+.con-face, .con-back { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; border-radius: 5px; }
+.con-face {
+  background: linear-gradient(180deg, #262a30 0%, #1d2126 9%, #181b1f 55%, #14171a 100%);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.09), inset 0 0 0 1px #33373d, inset 0 -2px 0 rgb(0 0 0 / 0.35), 0 40px 90px -30px rgb(0 0 0 / 0.85);
+}
+.con-chin { position: absolute; left: var(--b); right: var(--b); bottom: 0; height: var(--chin); display: flex; align-items: center; justify-content: flex-end; gap: 7px; padding-inline-end: 2px; }
+.con-chin i { width: 14px; height: 4px; border-radius: 2px; background: #0b0d10; box-shadow: inset 0 1px 0 rgb(0 0 0 / 0.6), 0 1px 0 rgb(255 255 255 / 0.05); }
+.con-chin b { width: 5px; height: 5px; margin-inline-start: 6px; border-radius: 50%; background: var(--led); box-shadow: 0 0 6px rgb(0 216 146 / 0.8); }
+.con-hinge { position: absolute; bottom: -3px; width: 9%; height: 7px; border-radius: 3px; background: linear-gradient(180deg, #3a3f46, #1b1e22 55%, #2a2e33); box-shadow: 0 0 0 1px #0b0d10; }
+.con-hinge:first-child { left: 7%; }
+.con-hinge + .con-hinge { right: 7%; }
+.con-back { transform: rotateX(180deg); background: linear-gradient(180deg, #1c2025, #121519); box-shadow: inset 0 0 0 1px #33373d; }
+.con-back::before { content: ""; position: absolute; inset: 22% 18%; border-radius: 3px; background: repeating-linear-gradient(90deg, #0b0d10 0 3px, transparent 3px 9px); opacity: 0.8; }
+.con-back i { position: absolute; width: 8px; height: 8px; border-radius: 50%; background: #0b0d10; box-shadow: inset 0 0 0 2px #2b3036; }
+.con-back i:nth-child(1) { left: 14px; top: 14px; } .con-back i:nth-child(2) { right: 14px; top: 14px; }
+.con-back i:nth-child(3) { left: 14px; bottom: 14px; } .con-back i:nth-child(4) { right: 14px; bottom: 14px; }
+.con-floor { position: absolute; height: 60px; border-radius: 50%; background: radial-gradient(closest-side, rgb(0 0 0 / 0.75), transparent); opacity: 0; pointer-events: none; }
+.con-tag { position: absolute; display: flex; align-items: center; padding: 0 0.7em; font: 500 clamp(9px, 0.35vw + 6px, 12px)/1 var(--mono); letter-spacing: 0.14em; text-transform: uppercase; color: #6f7378; text-shadow: 0 1px 0 rgb(0 0 0 / 0.8); white-space: nowrap; overflow: hidden; opacity: 0; transition: opacity 0.25s; pointer-events: none; }
+.con.drawn.lit .con-tag { opacity: 1; }
+.con:not(.drawn) .con-tag, .con:not(.drawn) .con-floor { display: none; }
+.con-scr { position: absolute; inset: var(--b) var(--b) var(--chin); border: 1px solid #050607; border-radius: 2px; box-shadow: 0 0 0 1px #2e3338, inset 0 2px 8px rgb(0 0 0 / 0.65); container-type: inline-size; display: flex; flex-direction: column; padding: clamp(0.75rem, 2vw, 1.5rem) clamp(0.85rem, 2.4vw, 1.75rem) clamp(0.6rem, 1.6vw, 1.1rem); font: clamp(12px, 0.3vw + 10px, 14.5px)/1.5 var(--mono); color: var(--silver); pointer-events: none; background: radial-gradient(120% 80% at 50% 0%, rgb(0 216 146 / calc(var(--on, 0) * 0.06)), transparent 60%), #07090c; }
+/* glass: a faint sheen across the top corner */
+.con-scr::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(160deg, rgb(255 255 255 / 0.035), transparent 32%); }
 /* the screen powers on as the lid rises (console.ts sets --on) */
 .con-scr > * { opacity: var(--on, 0); }
 .con.lit .con-scr { pointer-events: auto; }

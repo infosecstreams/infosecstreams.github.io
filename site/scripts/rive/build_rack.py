@@ -34,7 +34,7 @@ class defs:  # noqa: N801 — same shape as the header parser this was frozen fr
         c = _DEFS[name]
         return {'typeKey': c['typeKey'], 'props': {k: tuple(v) for k, v in c['props'].items()}}
 
-FALLBACK = {'name': 'String', 'parentId': 'Uint', 'objectId': 'Uint', 'animationId': 'Uint', 'stateToId': 'Uint',
+FALLBACK = {'cornerRadiusTL': 'Double', 'linkCornerRadius': 'Bool', 'name': 'String', 'parentId': 'Uint', 'objectId': 'Uint', 'animationId': 'Uint', 'stateToId': 'Uint',
             'defaultStateMachineId': 'Uint', 'interpolatorId': 'Uint'}
 
 def varuint(n):
@@ -166,23 +166,96 @@ def unit_dot(parent, name, color, a=255):
     add('Ellipse', sh, width=1, height=1)
     f = add('Fill', sh); add('SolidColor', f, colorValue=argb(color, a))
     return sh
+def box(parent, name, x, y, w, h, color, a=255, r=0):
+    """A fixed-size rect in a design-space group (scaled as a whole)."""
+    sh = add('Shape', parent, name=name, x=x, y=y)
+    add('Rectangle', sh, width=w, height=h, originX=0, originY=0, linkCornerRadius=True if r else None, cornerRadiusTL=r or None)
+    f = add('Fill', sh); add('SolidColor', f, colorValue=argb(color, a))
+    return sh
+def circ(parent, name, x, y, d, color, a=255):
+    sh = add('Shape', parent, name=name, x=x, y=y)
+    add('Ellipse', sh, width=d, height=d)
+    f = add('Fill', sh); add('SolidColor', f, colorValue=argb(color, a))
+    return sh
+
+KEY_BASE, KEY_CAP, KEY_TOP = '#050608', '#262b31', '#363c44'
 croot = add('Node', 0, name='console', x=0, y=0)
+
+# Deck: the keyboard tray, seen from the front and a little above, so it is
+# foreshortened. Unit pieces (placed by hero's console.ts) plus two design-
+# space groups: 'keys' (1000 x 200) and 'pad' (300 x 200).
 cdeck = add('Node', croot, name='deck', x=0, y=0, scaleY=0)
-unit(cdeck, 'dk', CARBON)
+unit(cdeck, 'dk', '#14171b')
+unit(cdeck, 'dkGlow', LED, 9)          # the screen's light on the deck
+unit(cdeck, 'dkShade', '#000000', 110)  # under the lid's hinge
+unit(cdeck, 'dkLip', '#20242a')         # the tray's front lip
+unit(cdeck, 'dkLipHi', LINE_HI)
 for n in ('dkL', 'dkR'): unit(cdeck, n, LINE)
 keys = add('Node', cdeck, name='keys', x=0, y=0)
-for r in range(3):
-    for k in range(26 - (r == 2) * 6):
-        sh = add('Shape', keys, name=f'k{r}_{k}', x=k * 34 + (r == 2) * 102, y=r * 11)
-        add('Rectangle', sh, width=30 if not (r == 2 and k == 7) else 30, height=8, originX=0, originY=0)
-        f = add('Fill', sh); add('SolidColor', f, colorValue=argb(GRAPHITE))
+U = 1000 / 15.5
+rows = [  # (height, [key widths in units; negative = gap])
+    (22, [1, -.5, 1, 1, 1, 1, -.25, 1, 1, 1, 1, -.25, 1, 1, 1, 1, -.25, 1.25]),
+    (30, [1] * 13 + [2.5]),
+    (30, [1.5] + [1] * 12 + [2]),
+    (30, [1.75] + [1] * 11 + [2.75]),
+    (30, [2.25] + [1] * 10 + [3.25]),
+    (30, [1.25, 1.25, 1.25, 6.25, 1.25, 1.25, 1, 1, 1]),
+]
+y = 0
+for r, (h, ws) in enumerate(rows):
+    x = 0
+    for k, w in enumerate(ws):
+        if w < 0: x += -w * U; continue
+        kw = w * U
+        box(keys, f'kb{r}_{k}', x + 2, y, kw - 4, h, KEY_BASE, r=3)
+        box(keys, f'kc{r}_{k}', x + 4, y + 1, kw - 8, h - 6, KEY_CAP, r=3)
+        box(keys, f'kt{r}_{k}', x + 5, y + 1, kw - 10, 3, KEY_TOP, r=1)
+        x += kw
+    y += h + 4
+pad = add('Node', cdeck, name='pad', x=0, y=0)
+box(pad, 'padEdge', 0, 0, 300, 150, LINE, r=8)
+box(pad, 'padFace', 3, 3, 294, 144, '#171a1e', r=6)
+box(pad, 'padHi', 6, 4, 288, 4, '#22262b', r=2)
+for b_ in range(2):
+    box(pad, f'padB{b_}', b_ * 152, 160, 148, 36, LINE, r=5)
+    box(pad, f'padBf{b_}', b_ * 152 + 2, 162, 144, 32, '#171a1e', r=4)
+
+# Front: the 1U drawer face. Rack ears with screws at both ends, pull
+# handles, power and status LEDs, a recessed label plate (the page writes
+# the name on it), a 10-segment 30-day meter like the list's, and a
+# perforated vent panel. Groups: ear0/ear1 (40 x 100), hd0/hd1 (16 x 100),
+# vents (240 x 100); everything else is a unit piece.
 cfront = add('Node', croot, name='front', x=0, y=0)
-for n in ('hdl0', 'hdl1'): unit(cfront, n, GRAPHITE)
-unit(cfront, 'fc', VOID)
-for n in ('fcT', 'fcB', 'fcL', 'fcR'): unit(cfront, n, LINE_HI)
-for n in ('v0', 'v1', 'v2'): unit(cfront, n, GRAPHITE)
-unit(cfront, 'trk', GRAPHITE)
-unit(cfront, 'bar', LED)
+for e in range(2):
+    ear = add('Node', cfront, name=f'ear{e}', x=0, y=0)
+    box(ear, f'earPlate{e}', 0, 0, 40, 100, '#1b1f24', r=3)
+    box(ear, f'earHi{e}', 0, 0, 40, 2, LINE_HI)
+    box(ear, f'earSh{e}', 0, 96, 40, 4, '#0b0d10')
+    for k, sy_ in enumerate((24, 76)):
+        circ(ear, f'scr{e}{k}', 20, sy_, 15, '#07090b')
+        circ(ear, f'scrr{e}{k}', 20, sy_, 11, '#2b3036')
+        box(ear, f'scrs{e}{k}', 15, sy_ - 1, 10, 2, '#07090b')
+unit(cfront, 'fc', '#111418')
+unit(cfront, 'fcHi', '#ffffff', 9)      # light from above on the upper half
+unit(cfront, 'fcT', LINE_HI)
+unit(cfront, 'fcB', '#050607')
+for n in ('fcL', 'fcR'): unit(cfront, n, LINE)
+for h_ in range(2):
+    hd = add('Node', cfront, name=f'hd{h_}', x=0, y=0)
+    box(hd, f'hdBase{h_}', 0, 6, 16, 88, '#07090b', r=4)
+    box(hd, f'hdBar{h_}', 2, 10, 12, 80, '#2a2f35', r=3)
+    box(hd, f'hdHi{h_}', 3, 12, 3, 76, '#3c4249', r=1)
+unit(cfront, 'plateEdge', LINE)
+unit(cfront, 'plate', '#090b0e')
+for k in range(10):
+    unit(cfront, f'mo{k}', '#1c2025')
+    unit(cfront, f'mi{k}', LED)
+vents = add('Node', cfront, name='vents', x=0, y=0)
+for r in range(4):
+    for c in range(16):
+        circ(vents, f'vh{r}_{c}', 8 + c * 15 + (r % 2) * 7.5, 14 + r * 24, 7, '#050607')
+unit_dot(cfront, 'pwr', '#0f3d30')
+unit_dot(cfront, 'pwrCore', LED)
 unit_dot(cfront, 'led', LINE_HI)
 halo = unit_dot(cfront, 'on', LED, 60)
 sh = add('Shape', halo, name='oncore', x=0, y=0)
