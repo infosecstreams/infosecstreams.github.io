@@ -35,7 +35,7 @@ jobs:
       LANGUAGES: "ar de es fr hi it pt tr zh"
       # Pinned by digest so the committed output only changes when this line
       # does; bump it when releasing secinfo.
-      SECINFO_IMAGE: ghcr.io/infosecstreams/secinfo@sha256:057796c143b134998a7e95b35f7c194df841847b7204be434ad7b7a607d0a6a7 # v0.1.8
+      SECINFO_IMAGE: ghcr.io/infosecstreams/secinfo@sha256:5739bdb43f74e064d06b4f1ea657b9b9da499eee4e9de5a9927108fef2843c46 # v0.1.9
       EVENT_NAME: ${{ github.event_name }}
     steps:
       - name: Checkout repository
@@ -59,8 +59,9 @@ jobs:
               git reset --hard origin/main
             fi
 
-            # Scheduled and manual runs always rescrape SullyGnome. Pushes do
-            # only when the CSVs and pages disagree on who is listed.
+            # Scheduled and manual runs always re-apply the roster rule from
+            # StreamStatus's stats.json. Pushes do only when the CSVs and
+            # pages disagree on who is listed.
             FULL=true
             if [ "$EVENT_NAME" = "push" ]; then
               FULL=$(python3 .github/scripts/needs_full_regen.py)
