@@ -21,14 +21,20 @@ const description = home ? all.meta.description : `${all.inactive.title}. ${all.
 // stats at build time): streamed in the last 30 days; earlier; and nothing
 // recorded since recording began (collapsed). Without stats: one list.
 let groups: (typeof inactive)[] | null = null, since = '';
+const last: Record<string, string> = {};
 if (!home) {
   const st = await Promise.all(inactive.map((s) => statsAtBuild(s.login.toLowerCase())));
   if (st.some(Boolean)) {
     groups = [[], [], []];
     inactive.forEach((s, i) => {
       const x = st[i];
+      if (x?.last_live_at) last[s.login.toLowerCase()] = x.last_live_at;
       groups![(x?.hours?.['30d'] ?? 0) > 0 ? 0 : x?.last_live_at ? 1 : 2].push(s);
     });
+    // Most recently live first; nothing recorded: by name.
+    const coll = new Intl.Collator(lang);
+    const when = (s: (typeof inactive)[number]) => Date.parse(last[s.login.toLowerCase()] ?? '') || 0;
+    for (const g of groups) g.sort((a, b) => when(b) - when(a) || coll.compare(a.login, b.login));
     const rec = st.find((x) => x?.recording_since)?.recording_since;
     since = rec ? new Intl.DateTimeFormat(lang, { year: 'numeric', month: 'long', day: 'numeric' }).format(new Date(rec)) : '';
   }
@@ -58,19 +64,22 @@ if (!home) {
       <h2 class="panel-h" id="list-h">{home ? t.allSection : text.listHeading} <span class="n">{streamers.length}</span></h2>
       <div class="cols" id="cols">
         <button type="button" data-sort="name" class="c-name">{t.colStreamer}<svg class="ar" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 4l3-3 3 3M2 6l3 3 3-3" /></svg></button>
-        <button type="button" data-sort="hours" class="c-hours" aria-pressed="true"><span class="lg">{t.colHours}</span><span class="sm">{t.colHoursShort}</span><svg class="ar" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 4l3-3 3 3M2 6l3 3 3-3" /></svg></button>
+        {home || !groups
+          ? <button type="button" data-sort="hours" class="c-hours" aria-pressed="true"><span class="lg">{t.colHours}</span><span class="sm">{t.colHoursShort}</span><svg class="ar" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 4l3-3 3 3M2 6l3 3 3-3" /></svg></button>
+          : <button type="button" data-sort="last" class="c-hours" aria-pressed="true"><span class="lg">{t.colLastLive}</span><span class="sm">{t.colLastLive}</span><svg class="ar" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 4l3-3 3 3M2 6l3 3 3-3" /></svg></button>}
+
       </div>
       <p class="status" id="badge" role="status"></p>
       {groups ? (
         <>
           {groups[0].length > 0 && <h3 class="grp-h">{all.inactive.groupRecent} <span class="n">{groups[0].length}</span></h3>}
-          <Roster lang={lang} streamers={groups[0]} id="rest" />
-          {groups[1].length > 0 && <h3 class="grp-h">{all.inactive.groupEarlier} <span class="n">{groups[1].length}</span></h3>}
-          <Roster lang={lang} streamers={groups[1]} offset={groups[0].length} />
+          <Roster lang={lang} streamers={groups[0]} id="rest" last={last} />
+          {groups[1].length > 0 && <h3 class="grp-h">{since ? fmt(all.inactive.groupEarlier, { date: since }) : t.colLastLive} <span class="n">{groups[1].length}</span></h3>}
+          <Roster lang={lang} streamers={groups[1]} offset={groups[0].length} last={last} />
           {groups[2].length > 0 && (
             <details class="grp">
               <summary class="grp-h">{since ? fmt(all.inactive.groupNone, { date: since }) : all.inactive.groupNoneUndated} <span class="n">{groups[2].length}</span></summary>
-              <Roster lang={lang} streamers={groups[2]} offset={groups[0].length + groups[1].length} />
+              <Roster lang={lang} streamers={groups[2]} offset={groups[0].length + groups[1].length} last={last} />
             </details>
           )}
         </>

@@ -88,17 +88,19 @@ function start(app: HTMLElement) {
   const sched = $('#sched'), regular = $('#regular'), badge = $('#badge');
 
   // ---- sort (column headers; kept in the URL) ----
-  type SortKey = 'name' | 'hours';
+  // Home: 30-day hours. Inactive page: when they were last live (its column).
+  type SortKey = 'name' | 'hours' | 'last';
+  const DEFAULT: SortKey = cols?.querySelector('[data-sort="last"]') ? 'last' : 'hours';
   const params = new URLSearchParams(location.search);
   const [sk, sd] = (params.get('sort') ?? '').split('-');
-  let sortKey: SortKey = sk === 'name' ? 'name' : 'hours';
+  let sortKey: SortKey = sk === 'name' ? 'name' : DEFAULT;
   // 1 = the column's natural order (A–Z, most hours first); -1 reversed.
   let sortDir = sd === 'rev' ? -1 : 1;
 
   function syncUrl() {
     const p = new URLSearchParams(location.search);
     p.delete('sort');
-    if (sortKey !== 'hours' || sortDir !== 1) p.set('sort', sortDir === 1 ? sortKey : `${sortKey}-rev`);
+    if (sortKey !== DEFAULT || sortDir !== 1) p.set('sort', sortDir === 1 ? sortKey : `${sortKey}-rev`);
     const q = p.toString();
     history.replaceState(history.state, '', q ? `?${q}${location.hash}` : location.pathname + location.hash);
   }
@@ -120,6 +122,8 @@ function start(app: HTMLElement) {
     const sa = byLogin.get(a.dataset.login!), sb = byLogin.get(b.dataset.login!);
     const rank = Number(a.dataset.rank) - Number(b.dataset.rank);
     const hours = (sb?.hours_30d ?? -1) - (sa?.hours_30d ?? -1);
+    const last = Number(b.dataset.last || 0) - Number(a.dataset.last || 0);
+    if (sortKey === 'last') return (last || collF().compare(a.dataset.login!, b.dataset.login!)) * sortDir;
     return (sortKey === 'name' ? collF().compare(a.dataset.login!, b.dataset.login!) : hours || rank) * sortDir;
   }
   // Live now: live before getting ready, then most viewers.
@@ -152,6 +156,7 @@ function start(app: HTMLElement) {
       // 30-day activity as a ten-segment LED meter, scaled to the most active streamer.
       const lit = s?.hours_30d ? Math.max(1, Math.round((s.hours_30d / maxHours) * 10)) : 0;
       li.querySelectorAll<HTMLElement>('.m i').forEach((seg, i) => seg.classList.toggle('lit', i < lit));
+      if (!li.querySelector('.m')) continue;          // inactive page: the column is "last live", set at build
       el('.h').textContent = s?.hours_30d != null ? f('hoursShort', { n: Math.round(s.hours_30d) }) : '';
       el('.h').title = s?.hours_30d != null ? f('hours30d', { n: Math.round(s.hours_30d) }) : '';
     }

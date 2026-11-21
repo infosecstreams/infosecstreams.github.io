@@ -58,6 +58,7 @@
     "startsIn": "empieza {t}",
     "nextUp": "Próximo programado:",
     "colHours": "Horas emitidas, últimos 30 días",
+    "colLastLive": "Último directo",
     "scheduleHeading": "Calendario",
     "watchShort": "Ver",
     "allSection": "Todos los streamers",
@@ -85,7 +86,7 @@
     "intro": "Streamers sin transmisiones de seguridad informática en los últimos 30 días. Vuelven a la lista principal en cuanto salen en directo.",
     "listHeading": "Streamers",
     "groupRecent": "Transmitieron en los últimos 30 días",
-    "groupEarlier": "En directo por última vez hace más de 30 días",
+    "groupEarlier": "En directo desde el {date}",
     "groupNone": "Sin transmisiones registradas desde el {date}",
     "groupNoneUndated": "Sin transmisiones registradas"
   },

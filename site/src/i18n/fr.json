@@ -58,6 +58,7 @@
     "startsIn": "commence {t}",
     "nextUp": "Prochain stream prévu :",
     "colHours": "Heures de stream, 30 derniers jours",
+    "colLastLive": "Dernier direct",
     "scheduleHeading": "Programme",
     "watchShort": "Regarder",
     "allSection": "Tous les streamers",
@@ -85,7 +86,7 @@
     "intro": "Les streamers sans stream infosec ces 30 derniers jours. Ils reviennent dans la liste principale dès qu'ils passent en direct.",
     "listHeading": "Streamers",
     "groupRecent": "Ont streamé ces 30 derniers jours",
-    "groupEarlier": "Dernier direct il y a plus de 30 jours",
+    "groupEarlier": "Vu en direct depuis le {date}",
     "groupNone": "Aucun stream enregistré depuis le {date}",
     "groupNoneUndated": "Aucun stream enregistré"
   },

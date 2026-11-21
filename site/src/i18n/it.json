@@ -58,6 +58,7 @@
     "startsIn": "inizia {t}",
     "nextUp": "Prossima diretta in programma:",
     "colHours": "Ore in streaming, ultimi 30 giorni",
+    "colLastLive": "Ultima diretta",
     "scheduleHeading": "Programma",
     "watchShort": "Guarda",
     "allSection": "Tutti gli streamer",
@@ -85,7 +86,7 @@
     "intro": "Streamer senza dirette infosec negli ultimi 30 giorni. Tornano nella lista principale appena vanno in diretta.",
     "listHeading": "Streamer",
     "groupRecent": "Hanno trasmesso negli ultimi 30 giorni",
-    "groupEarlier": "Ultima diretta più di 30 giorni fa",
+    "groupEarlier": "Visto in diretta dal {date}",
     "groupNone": "Nessuna diretta registrata dal {date}",
     "groupNoneUndated": "Nessuna diretta registrata"
   },

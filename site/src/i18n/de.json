@@ -58,6 +58,7 @@
     "startsIn": "beginnt {t}",
     "nextUp": "Als Nächstes geplant:",
     "colHours": "Gestreamte Stunden, letzte 30 Tage",
+    "colLastLive": "Zuletzt live",
     "scheduleHeading": "Zeitplan",
     "watchShort": "Ansehen",
     "allSection": "Alle Streamer",
@@ -85,7 +86,7 @@
     "intro": "Streamer ohne Infosec-Streams in den letzten 30 Tagen. Sobald sie live gehen, kommen sie zurück auf die Hauptliste.",
     "listHeading": "Streamer",
     "groupRecent": "In den letzten 30 Tagen gestreamt",
-    "groupEarlier": "Zuletzt vor mehr als 30 Tagen live",
+    "groupEarlier": "Live gesehen seit {date}",
     "groupNone": "Keine Streams seit {date} aufgezeichnet",
     "groupNoneUndated": "Keine Streams aufgezeichnet"
   },

@@ -58,6 +58,7 @@
     "startsIn": "{t} başlıyor",
     "nextUp": "Sıradaki planlı yayın:",
     "colHours": "Yayın saati, son 30 gün",
+    "colLastLive": "Son yayın",
     "scheduleHeading": "Program",
     "watchShort": "İzle",
     "allSection": "Tüm yayıncılar",
@@ -85,7 +86,7 @@
     "intro": "Son 30 günde siber güvenlik yayını yapmamış yayıncılar. Canlı yayına girdikleri anda ana listeye geri dönerler.",
     "listHeading": "Yayıncılar",
     "groupRecent": "Son 30 günde yayın yaptı",
-    "groupEarlier": "Son canlı yayın 30 günden önce",
+    "groupEarlier": "{date} tarihinden beri canlı görüldü",
     "groupNone": "{date} tarihinden beri kayıtlı yayın yok",
     "groupNoneUndated": "Kayıtlı yayın yok"
   },

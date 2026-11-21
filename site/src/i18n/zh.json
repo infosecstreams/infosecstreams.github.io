@@ -58,6 +58,7 @@
     "startsIn": "{t}开始",
     "nextUp": "下一场预定直播：",
     "colHours": "近 30 天直播时长",
+    "colLastLive": "上次直播",
     "scheduleHeading": "直播日程",
     "watchShort": "观看",
     "allSection": "全部主播",
@@ -85,7 +86,7 @@
     "intro": "最近 30 天没有信息安全直播的主播。一开播就会回到主列表。",
     "listHeading": "主播",
     "groupRecent": "最近 30 天内有直播",
-    "groupEarlier": "上次直播在 30 天前",
+    "groupEarlier": "自 {date} 起有直播",
     "groupNone": "自 {date} 起没有直播记录",
     "groupNoneUndated": "没有直播记录"
   },

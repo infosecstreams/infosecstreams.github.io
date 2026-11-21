@@ -3,24 +3,31 @@
 // ready) into the "Live now" list above and fills in the details.
 import { fmt, pathFor, strings, type Lang } from '../lib/i18n';
 import type { Streamer } from '../lib/roster';
-interface Props { lang: Lang; streamers: Streamer[]; id?: string; offset?: number; }
-const { lang, streamers, id, offset = 0 } = Astro.props;
+interface Props { lang: Lang; streamers: Streamer[]; id?: string; offset?: number; /** Inactive page: login → last live (ISO); shown instead of 30-day hours. */ last?: Record<string, string>; }
+const { lang, streamers, id, offset = 0, last } = Astro.props;
+const day = new Intl.DateTimeFormat(lang, { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
 const t = strings(lang).ui;
 const page = pathFor(lang, 'streamer');
 ---
-<ol class="list" id={id}>
+<ol class={last ? "list past" : "list"} id={id}>
   {streamers.map((s, i) => {
     const tw = `https://www.twitch.tv/${s.login}`;
     return (
-      <li data-login={s.login.toLowerCase()} data-rank={offset + i}>
+      <li data-login={s.login.toLowerCase()} data-rank={offset + i} data-last={last?.[s.login.toLowerCase()] ? Date.parse(last[s.login.toLowerCase()]) : undefined}>
         <span class="th" aria-hidden="true"></span>
         <span class="who">
           <a class="nm" dir="auto" href={`${page}/${encodeURIComponent(s.login.toLowerCase())}`}>{s.login}</a>
           <span class="t" dir="auto"></span>
           <span class="meta" dir="auto"></span>
         </span>
-        <span class="m" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
-        <span class="h"></span>
+        {last ? (
+          <span class="h">{last[s.login.toLowerCase()] ? <time datetime={last[s.login.toLowerCase()]}>{day.format(new Date(last[s.login.toLowerCase()]))}</time> : ''}</span>
+        ) : (
+          <>
+            <span class="m" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+            <span class="h"></span>
+          </>
+        )}
         <span class="lk">
           <a class="tw" href={tw} target="_blank" rel="noopener" aria-label={fmt(t.onTwitch, { name: s.login })}><svg class="ic" aria-hidden="true"><use href="#i-twitch" /></svg></a>
           {s.youtube ? <a class="yt" href={s.youtube} target="_blank" rel="noopener" aria-label={fmt(t.onYouTube, { name: s.login })}><svg class="ic" aria-hidden="true"><use href="#i-youtube" /></svg></a> : <span class="yt" aria-hidden="true"></span>}

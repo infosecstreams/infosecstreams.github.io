@@ -303,6 +303,9 @@ html.js #app:not(.ready) .list { visibility: hidden; }
 .list li.pre .nm::before { background: var(--amber); }
 
 /* Live now: preview, handle, title, one quiet line */
+/* inactive page: a last-live date in place of the hours meter */
+.list.past li { grid-template-columns: minmax(0, 1fr) auto auto; }
+.list.past .h { min-width: 7.5rem; text-align: end; white-space: nowrap; }
 .list.live li { grid-template-columns: 176px minmax(0, 1fr) auto; gap: 0 1.25rem; padding: 0.75rem 1rem; content-visibility: visible; }
 .list.live li .nm::before { display: none; }
 .list.live .th { display: block; position: relative; width: 176px; aspect-ratio: 16 / 9; border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; background: var(--graphite); }
