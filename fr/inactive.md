@@ -69,6 +69,7 @@ Bonjour ! Cette page contient des streamers qui n'ont pas été diffusés au cou
 `CyberInfoHQ` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberInfoHQ) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@Cyber-Info)
 `CyberReport` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberReport) &nbsp;
 `CybersecurityGrowth` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CybersecurityGrowth) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@cybersecuritygrowth)
+`CyberTechVibes` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberTechVibes) &nbsp;
 `CyberVikingUK` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/CyberVikingUK) &nbsp;
 `d0nutptr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/d0nutptr) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/d0nutptr)
 `DarkStar7471` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DarkStar7471) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UC0R_-7yQPoGpkPR9ITzDFFQ)
@@ -84,6 +85,7 @@ Bonjour ! Cette page contient des streamers qui n'ont pas été diffusés au cou
 `dimineko` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dimineko) &nbsp;
 `DISREL` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DISREL) &nbsp;
 `dj_chateau` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/dj_chateau) &nbsp;
+`DJax_1` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DJax_1) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@AlphaCybersecurity)
 `DOWRIGHT` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DOWRIGHT) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/dowrighttv)
 `Dragonar0123` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Dragonar0123) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UCeejhMe148sDFfMK4sXDFDA)
 `DrSn1p3r_Sec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/DrSn1p3r_Sec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://youtube.com/@drsn1p3r_sec)
@@ -162,6 +164,7 @@ Bonjour ! Cette page contient des streamers qui n'ont pas été diffusés au cou
 `k4l1_nathalie` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/k4l1_nathalie) &nbsp;
 `kaythecyberguy` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kaythecyberguy) &nbsp;
 `kegnsec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kegnsec) &nbsp;
+`kinslay3r` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kinslay3r) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@kinslay3r)
 `KiraSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KiraSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@JackintheD)
 `Kiwi_FruitBird` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Kiwi_FruitBird) &nbsp;
 `KOkenhacks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/KOkenhacks) &nbsp;
@@ -186,6 +189,7 @@ Bonjour ! Cette page contient des streamers qui n'ont pas été diffusés au cou
 `MDISEC` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MDISEC) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/channel/UClis21-nGFunHa9agc7Md_Q)
 `mell0wx` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mell0wx) &nbsp;
 `mentallychuuni` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mentallychuuni) &nbsp;
+`miloslavpalik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/miloslavpalik) &nbsp;
 `morehouse_hacks` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/morehouse_hacks) &nbsp;
 `MrCrumbs_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/MrCrumbs_) &nbsp;
 `mttaggart` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/mttaggart) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/taggarttech)
@@ -211,6 +215,7 @@ Bonjour ! Cette page contient des streamers qui n'ont pas été diffusés au cou
 `PowerBliz` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PowerBliz) &nbsp;
 `PRIMALmk` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PRIMALmk) &nbsp;
 `producerwolf` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/producerwolf) &nbsp;
+`ProfitzTV` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/ProfitzTV) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@profitztv)
 `pseudosarah` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/pseudosarah) &nbsp;
 `PwnSchool` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/PwnSchool) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/ThePwnSchoolProject)
 `RastaM0us3` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/RastaM0us3) &nbsp;
