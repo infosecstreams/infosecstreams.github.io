@@ -14,7 +14,9 @@ on:
       - inactive_streamers.csv
       - .github/workflows/site-astro.yaml
   # The daily regen re-ranks index.md/inactive.md with GITHUB_TOKEN, which
-  # doesn't trigger push workflows; rebuild when it finishes instead.
+  # doesn't trigger push workflows; rebuild when it finishes instead. The same
+  # workflow also runs on every bot status commit: those runs are skipped below
+  # (live status comes from the API, not from the build).
   workflow_run:
     workflows: ["Sort index.md by 30-day Activity"]
     types: [completed]
@@ -29,6 +31,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.event != 'push'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:

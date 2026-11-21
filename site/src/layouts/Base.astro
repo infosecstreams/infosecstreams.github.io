@@ -14,10 +14,14 @@ interface Props {
   jsonLd?: object[];
   /** Pages that show live status: start fetching status.json from the HTML. */
   live?: boolean;
-  /** Pages whose content depends on the query (the streamer page): keep them out of search. */
+  /** Keep the page out of search (e.g. a streamer with no recorded stats). */
   noindex?: boolean;
+  /** A sub-page of `page`, e.g. a streamer's login: /streamer/<slug>. */
+  slug?: string;
+  ogType?: string;
 }
-const { lang, page, title, description, jsonLd = [], live = false, noindex = false } = Astro.props;
+const { lang, page, title, description, jsonLd = [], live = false, noindex = false, slug, ogType = 'website' } = Astro.props;
+const href = (l: Lang) => pathFor(l, page) + (slug ? `/${encodeURIComponent(slug)}` : '');
 const PLAUSIBLE_HOST = 'p.infosecstreams.com';
 const apiOrigin = /^https?:/.test(API_BASE) ? new URL(API_BASE).origin : '';
 const boot = transformSync(
@@ -29,7 +33,7 @@ const boot = transformSync(
 ).code;
 const t = strings(lang);
 const site = Astro.site!.origin;
-const canonical = site + pathFor(lang, page);
+const canonical = site + href(lang);
 const fullTitle = page ? `${title} · InfoSec Streams` : title === 'InfoSec Streams' ? title : `${title} · InfoSec Streams`;
 const nav: [Page, string][] = [['', t.ui.home], ['inactive', t.ui.inactiveNav], ['faq', t.ui.faqNav], ['resources', t.ui.resourcesNav]];
 const ld = [
@@ -49,8 +53,8 @@ const ld = [
     <meta name="description" content={description} />
     {noindex && <meta name="robots" content="noindex" />}
     <link rel="canonical" href={canonical} />
-    {LANGS.map((l) => <link rel="alternate" hreflang={l} href={site + pathFor(l, page)} />)}
-    <link rel="alternate" hreflang="x-default" href={site + pathFor('en', page)} />
+    {LANGS.map((l) => <link rel="alternate" hreflang={l} href={site + href(l)} />)}
+    <link rel="alternate" hreflang="x-default" href={site + href('en')} />
     <meta name="color-scheme" content="dark" />
     <meta name="theme-color" content="#0b0e12" />
     <link rel="preload" href="/fonts/jetbrainsmono-latin.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
@@ -61,7 +65,7 @@ const ld = [
     {live && <link rel="preload" href={`${API_BASE}status.json`} as="fetch" crossorigin="anonymous" />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon.ico" sizes="32x32" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:site_name" content="InfoSec Streams" />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
@@ -99,7 +103,7 @@ const ld = [
           <summary><svg class="ic" aria-hidden="true"><use href="#i-globe" /></svg><span class="sr">{t.ui.language}: </span><span>{t.meta.languageName}</span></summary>
           <ul>
             {LANGS.map((l) => (
-              <li><a href={pathFor(l, page)} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}>{strings(l).meta.languageName}</a></li>
+              <li><a href={href(l)} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}>{strings(l).meta.languageName}</a></li>
             ))}
           </ul>
         </details>

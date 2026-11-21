@@ -22,7 +22,7 @@ state machine plays) and hole (the empty slot a clicked sled leaves).
 Second artboard, 'Console': the rack console a clicked sled slides out as,
 built from unit pieces hero.ts lays out at any size (see below).
 usage: build_rack.py <out.riv> <out.svg> <out.json>
-  run from site/: python3 scripts/rive/build_rack.py public/rive/rack.riv src/assets/rack.svg src/assets/rack.json
+  run from site/: python3 scripts/rive/build_rack.py src/assets/rive/rack.riv src/assets/rack.svg src/assets/rack.json
 """
 import json, os, struct, sys
 

@@ -15,7 +15,7 @@ const page = pathFor(lang, 'streamer');
       <li data-login={s.login.toLowerCase()} data-rank={i}>
         <span class="th" aria-hidden="true"></span>
         <span class="who">
-          <a class="nm" href={`${page}?u=${encodeURIComponent(s.login.toLowerCase())}`}>{s.login}</a>
+          <a class="nm" href={`${page}/${encodeURIComponent(s.login.toLowerCase())}`}>{s.login}</a>
           <span class="t"></span>
           <span class="meta"></span>
         </span>

@@ -1,0 +1,20 @@
+---
+// /streamer?u=<login> was the streamer page's first address; send it on to
+// /streamer/<login>.
+import Base from '../layouts/Base.astro';
+import { pathFor, strings, type Lang } from '../lib/i18n';
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+const t = strings(lang);
+const base = pathFor(lang, 'streamer');
+---
+<Base lang={lang} page="streamer" title="Streamer" description={t.meta.description} noindex>
+  <p class="status" data-base={base} id="moved"><a href={pathFor(lang, '')}>{t.streamer.moved}</a></p>
+  <script is:inline>
+    (function () {
+      var u = new URLSearchParams(location.search).get('u');
+      var b = document.getElementById('moved').dataset.base;
+      location.replace(u ? b + '/' + encodeURIComponent(u.trim().toLowerCase()) : b.replace(/streamer$/, ''));
+    })();
+  </script>
+</Base>

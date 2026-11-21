@@ -64,7 +64,10 @@
     "sortedBy": "Sort by {col}",
     "close": "Close",
     "allStats": "All stats",
-    "livePlayer": "{name}'s live stream"
+    "livePlayer": "{name}'s live stream",
+    "rackLabel": "Server rack: one sled per streamer. Arrow keys choose a streamer; Enter opens their console.",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied"
   },
   "home": {
     "title": "InfoSec Streams",
@@ -211,6 +214,8 @@
     "loading": "Loading…",
     "noScript": "Turn on JavaScript to see this streamer's stats.",
     "avgShort": "avg",
-    "peakShort": "peak"
+    "peakShort": "peak",
+    "metaDesc": "{name} streams information security on Twitch. Live status, hours streamed, when they're usually live, recent streams, VODs and clips.",
+    "moved": "This page has moved: open the streamer's page from the list."
   }
 }

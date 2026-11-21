@@ -1,0 +1,6 @@
+---
+import View from '../../../views/StreamerMoved.astro';
+import { OTHER_LANGS, type Lang } from '../../../lib/i18n';
+export const getStaticPaths = () => OTHER_LANGS.map((lang) => ({ params: { lang } }));
+---
+<View lang={Astro.params.lang as Lang} />

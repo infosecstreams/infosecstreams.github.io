@@ -4,8 +4,9 @@ import type { RiveGlobal, RvArtboard, RvNode, RvRenderer, RvRuntime, RvSM } from
 // Home hero: the rack, drawn with Rive's low-level renderer (the rivekit route:
 // RuntimeLoader -> rt.load -> artboardByName -> StateMachineInstance ->
 // makeRenderer, and we draw every frame ourselves). The high-level Rive() API
-// is never used. /rive/rive.js + rive.wasm are @rive-app/webgl2 2.51.0,
-// vendored; /rive/rack.riv comes from scripts/rive/build_rack.py.
+// is never used. rive.js + rive.wasm (src/assets/rive/) are @rive-app/webgl2
+// 2.51.0, vendored; rack.riv comes from scripts/rive/build_rack.py. All three
+// ship with content-hashed URLs (data-rive), so browsers keep them across deploys.
 //
 // One sled per listed streamer, in a random slot. live.ts sends the data in a
 // 'streams' event; this script lights LEDs, sizes bars, follows the cursor and
@@ -54,7 +55,13 @@ function startHero(hero: HTMLElement) {
     const key = s ? `${s.status}|${s.viewers}|${s.title}|${s.category}` : '';
     if (s && key !== conKey) { conKey = key; fill(con.index); }
     kick();
+    // A shared link (?s=<login>) opens that streamer's console once the data is in.
+    if (deep) {
+      const i = slotOf.get(deep); deep = '';
+      if (i != null && list[i]) { go(); void Promise.race([riveReady, sleep(1500)]).then(() => { if (!con.busy) con.open(i); }); }
+    }
   });
+  let deep = (new URLSearchParams(location.search).get('s') ?? '').trim().toLowerCase();
 
   // ---- terminal (plain HTML; decorative: the list below carries the data) ----
   const MAX_LINES = 10;
@@ -219,7 +226,8 @@ function startHero(hero: HTMLElement) {
     return `<div class="con-top"><h2 class="con-n" id="con-n">${name}</h2>${state}
         <button class="con-x" type="button" aria-label="${esc(f('close'))}"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8"/></svg></button></div>
       <div class="con-body">${now}${facts}</div>
-      <div class="con-ft"><a class="con-go" href="${pagePath}?u=${encodeURIComponent(login)}">${esc(f('allStats'))} <span aria-hidden="true">→</span></a>
+      <div class="con-ft"><a class="con-go" href="${pagePath}/${encodeURIComponent(login)}">${esc(f('allStats'))} <span aria-hidden="true">→</span></a>
+        <button class="con-share" type="button"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6.5 9.5l3-3M7 4.5l1.2-1.2a2.6 2.6 0 0 1 3.7 3.7L10.7 8.2M9 11.5l-1.2 1.2a2.6 2.6 0 0 1-3.7-3.7l1.2-1.2"/></svg><span>${esc(f('copyLink'))}</span></button>
         <span class="lk">${tw ? `<a class="tw" href="${esc(tw.href)}" target="_blank" rel="noopener" aria-label="${esc(tw.getAttribute('aria-label') || 'Twitch')}">${icon('twitch')}</a>` : ''}
         ${yt ? `<a class="yt" href="${esc(yt.href)}" target="_blank" rel="noopener" aria-label="${esc(yt.getAttribute('aria-label') || 'YouTube')}">${icon('youtube')}</a>` : ''}</span></div>`;
   }
@@ -276,8 +284,56 @@ function startHero(hero: HTMLElement) {
     share: (i) => (list[i]?.hours_30d ? Math.max(0.02, list[i]!.hours_30d! / maxH) : 0),
     onOpen: (i) => { conKey = ''; select(-1); fill(i); conEl.querySelector('.con-tag')!.textContent = list[i]?.login ?? ''; },
     onShown: (i) => embed(i),
-    onSlot: (i) => { slot = i; paintHole(); kick(); },
+    onSlot: (i) => { slot = i; paintHole(); kick(); setUrl(i >= 0 ? list[i]?.login.toLowerCase() ?? null : null); },
   });
+
+  // The open console's address: ?s=<login>, so it can be shared (and Back/reload keeps it).
+  function setUrl(login: string | null) {
+    const u = new URL(location.href);
+    if (login) u.searchParams.set('s', login); else u.searchParams.delete('s');
+    history.replaceState(history.state, '', u.pathname + u.search + u.hash);
+  }
+  scr.addEventListener('click', (e) => {
+    const b = (e.target as Element).closest<HTMLButtonElement>('.con-share');
+    const s = list[con.index];
+    if (!b || !s) return;
+    const url = `${location.origin}${location.pathname}?s=${encodeURIComponent(s.login.toLowerCase())}`;
+    const done = () => { const l = b.querySelector('span')!; l.textContent = f('linkCopied'); setTimeout(() => { l.textContent = f('copyLink'); }, 2000); };
+    if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, () => prompt('', url));
+    else prompt('', url);
+  });
+
+  // ---- keyboard: the rack is one focusable control; arrows choose, Enter opens ----
+  const say = document.getElementById('rack-say')!;
+  const hoursF = new Intl.NumberFormat(lang, { maximumFractionDigits: 1 });
+  function announce(i: number) {
+    const s = list[i];
+    if (!s) return;
+    const st = s.status === 'online'
+      ? [f('live'), s.viewers != null ? f('viewers', { n: numF.format(s.viewers) }) : ''].filter(Boolean).join(', ')
+      : s.status === 'prelive' ? f('prelive') : f('offline');
+    say.textContent = `${s.display_name || s.login}: ${st}. ${f('h30')}: ${f('hoursShort', { n: hoursF.format(s.hours_30d ?? 0) })}`;
+  }
+  function move(d: number) {
+    const n = geo.sleds.length;
+    let i = sel;
+    if (i < 0) i = d > 0 ? -1 : n;
+    do { i += d; } while (i >= 0 && i < n && !list[i]);
+    if (i < 0 || i >= n) {
+      // past the end of a row or column: wrap to the first/last streamer
+      i = d > 0 ? list.findIndex(Boolean) : n - 1 - [...list].reverse().findIndex(Boolean);
+    }
+    if (i < 0 || i >= n || !list[i]) return;
+    select(i); announce(i); kick();
+  }
+  box.addEventListener('keydown', (e) => {
+    if (con.busy) return;
+    const d = ({ ArrowRight: 1, ArrowLeft: -1, ArrowDown: 2, ArrowUp: -2 } as Record<string, number>)[e.key];
+    if (d) { e.preventDefault(); go(); move(document.documentElement.dir === 'rtl' && Math.abs(d) === 1 ? -d : d); return; }
+    if (e.key === 'Home' || e.key === 'End') { e.preventDefault(); select(-1); move(e.key === 'Home' ? 1 : -1); return; }
+    if ((e.key === 'Enter' || e.key === ' ') && sel >= 0 && list[sel]) { e.preventDefault(); con.open(sel); }
+  });
+  box.addEventListener('blur', () => { if (!con.busy) { select(-1); kick(); } });
 
   box.addEventListener('pointermove', (e) => {
     if (con.busy) return;
@@ -291,7 +347,11 @@ function startHero(hero: HTMLElement) {
     if (con.busy) return;
     const [x, y] = toArt(e as PointerEvent);
     const i = hit(x, y);
-    if (i >= 0 && list[i]) con.open(i);
+    if (i >= 0 && list[i]) {
+      // the runtime is usually on its way by now (pointing at the rack starts it): give it a moment
+      if (booting && !rt) void Promise.race([riveReady, sleep(400)]).then(() => { if (!con.busy) con.open(i); });
+      else con.open(i);
+    }
   });
 
   // ---- Rive (low-level) ----
@@ -433,15 +493,18 @@ function startHero(hero: HTMLElement) {
   }
   const force = new URLSearchParams(location.search).has('rive');
   let booting = false;
+  let readyNow: () => void = () => {};
+  const riveReady = new Promise<void>((r) => { readyNow = r; });
   async function boot() {
     if (booting) return; booting = true;
     // ?rive forces the runtime on (review and testing on machines without a GPU).
-    if (!force && softwareGL()) return;
+    if (!force && softwareGL()) return readyNow();
     try {
-      const bytes = fetch('/rive/rack.riv').then((r) => r.arrayBuffer());
-      await loadScript('/rive/rive.js');
+      const [jsUrl, wasmUrl, rivUrl] = JSON.parse(hero.dataset.rive!) as string[];
+      const bytes = fetch(rivUrl).then((r) => r.arrayBuffer());
+      await loadScript(jsUrl);
       const rive = (window as unknown as { rive: RiveGlobal }).rive;
-      rive.RuntimeLoader.setWasmUrl('/rive/rive.wasm');
+      rive.RuntimeLoader.setWasmUrl(wasmUrl);
       rt = await new Promise<RvRuntime>((res) => rive.RuntimeLoader.getInstance(res));
       const file = await rt.load(new Uint8Array(await bytes));
       ab = file.artboardByName('Rack');
@@ -456,14 +519,24 @@ function startHero(hero: HTMLElement) {
     } catch (e) {
       console.warn('Rive did not load; the static rack stays.', e);
     }
+    readyNow();
   }
-  // The runtime (~150 KB JS + ~1 MB WASM, gzipped) loads once the page has
-  // settled, or at once on the visitor's first move, touch, key or scroll.
-  // Until then the static rack above shows the same data.
-  const intents = ['pointermove', 'pointerdown', 'keydown', 'wheel', 'touchstart', 'scroll'] as const;
-  const go = () => { for (const ev of intents) removeEventListener(ev, go); void boot(); };
-  for (const ev of intents) addEventListener(ev, go, { passive: true });
-  const settled = () => setTimeout(() => ('requestIdleCallback' in window ? requestIdleCallback(go, { timeout: 1500 }) : go()), 1200);
-  if (document.readyState === 'complete') settled(); else addEventListener('load', settled, { once: true });
+  // The runtime (~150 KB JS + ~1 MB WASM, gzipped; cached across deploys)
+  // loads once the page has settled on a fast connection and a capable device,
+  // or as soon as the visitor reaches for the rack (pointer over it, focus,
+  // touch). Never when the browser asks to save data or the connection is slow:
+  // the static rack and the CSS console do the same job there.
+  const net = (navigator as Navigator & { connection?: { saveData?: boolean; effectiveType?: string } }).connection;
+  const lite = !force && (!!net?.saveData || /(^|-)2g|3g/.test(net?.effectiveType ?? ''));
+  const weak = ((navigator as Navigator & { deviceMemory?: number }).deviceMemory ?? 8) < 4 || (navigator.hardwareConcurrency || 8) < 4;
+  const go = () => { if (!lite) void boot(); };
+  if (lite) readyNow();
+  else {
+    for (const ev of ['pointerenter', 'focus', 'touchstart'] as const) box.addEventListener(ev, go, { passive: true, once: true });
+    if (!weak) {
+      const settled = () => setTimeout(() => ('requestIdleCallback' in window ? requestIdleCallback(go, { timeout: 1500 }) : go()), 1200);
+      if (document.readyState === 'complete') settled(); else addEventListener('load', settled, { once: true });
+    }
+  }
 }
 export {};

@@ -54,6 +54,8 @@ export function makeConsole(o: Opts) {
     'front', 'ear0', 'ear1', 'fc', 'fcHi', 'fcT', 'fcB', 'fcL', 'fcR', 'hd0', 'hd1', 'plate', 'plateEdge', 'vents',
     'pwr', 'pwrCore', 'led', 'on', 'pre', ...[...Array(10).keys()].flatMap((k) => [`mo${k}`, `mi${k}`])];
 
+  let cost = 0, frames = 0;
+  const force = new URLSearchParams(location.search).has('rive');
   let idx = -1, closing = false, running = false, shown = false, prev = 0, prevFocus: Element | null = null;
   const fly: Spring = { x: 0, v: 0, t: 0 }, unf: Spring = { x: 0, v: 0, t: 0 };
 
@@ -203,7 +205,14 @@ export function makeConsole(o: Opts) {
     else { step(fly, 170, 23, dt); step(unf, 120, 15, dt); }
     const done = still(fly) && still(unf) && (closing || unf.t === 1);
     if (done) { fly.x = fly.t; unf.x = unf.t; fly.v = unf.v = 0; }
+    const t0 = performance.now();
     draw(t); dom();
+    // Weak GPU: frames over ~40 ms on average hand the console to CSS (the lid
+    // still flips; the drawer and deck are no longer drawn).
+    if (rt) {
+      cost = cost ? cost * 0.75 + (performance.now() - t0) * 0.25 : performance.now() - t0;
+      if (++frames > 6 && cost > 40 && !force) { rt = null; el.classList.remove('drawn'); el.style.perspectiveOrigin = `${L.cx + L.W / 2}px ${L.cy + L.LH * 0.45}px`; }
+    }
     if (done && closing) return finish();
     if (done) {
       running = false; lid.style.willChange = '';

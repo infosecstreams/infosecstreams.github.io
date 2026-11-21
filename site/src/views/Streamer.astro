@@ -1,29 +1,48 @@
 ---
-// One streamer: everything the bot's stats API has on them (stats/<login>.json),
-// plus live state from status.json. The login comes from ?u=, so the page is
-// one static file per language, filled in by src/scripts/streamer.ts.
+// One streamer's page, /streamer/<login> in every language. Built with their
+// stats as they were at build time (src/lib/build-stats.ts), so it is a real,
+// indexable page; src/scripts/streamer.ts then refreshes it with fresh numbers,
+// live state and the visitor's timezone.
 import Base from '../layouts/Base.astro';
-import { pathFor, strings, type Lang } from '../lib/i18n';
+import { fmt, pathFor, strings, type Lang } from '../lib/i18n';
 import { active, inactive } from '../lib/roster';
 import { API_BASE, THUMB_TEMPLATE } from '../lib/api';
+import { statsAtBuild } from '../lib/build-stats';
+import { renderStats } from '../lib/streamer-render';
 
-interface Props { lang: Lang; }
-const { lang } = Astro.props;
+interface Props { lang: Lang; login: string; }
+const { lang, login } = Astro.props;
 const all = strings(lang);
 const t = all.streamer;
-// Roster spelling and YouTube link per login (the API has neither).
-const roster = Object.fromEntries([...active, ...inactive].map((s) => [s.login.toLowerCase(), [s.login, s.youtube ?? '']]));
+const roster = [...active, ...inactive];
+const entry = roster.find((s) => s.login.toLowerCase() === login)!;
+const listed = [...new Set(roster.map((s) => s.login.toLowerCase()))];
+const base = pathFor(lang, 'streamer');
+const stats = await statsAtBuild(login);
+const name = stats?.display_name || entry.login;
+const twitch = `https://www.twitch.tv/${encodeURIComponent(login)}`;
+const body = stats ? renderStats(stats, null, {
+  lang, ui: t as unknown as Record<string, string>,
+  page: (l) => (listed.includes(l) ? `${base}/${encodeURIComponent(l)}` : null),
+}) : '';
+const ld = [{
+  '@context': 'https://schema.org', '@type': 'ProfilePage', name: `${name} · InfoSec Streams`,
+  mainEntity: { '@type': 'Person', name, url: twitch, sameAs: [twitch, ...(entry.youtube ? [entry.youtube] : [])] },
+}];
 ---
-<Base lang={lang} page="streamer" title="Streamer" description={all.meta.description} live noindex>
-  <div id="sp" class="sp" data-api={API_BASE} data-thumb={THUMB_TEMPLATE} data-ui={JSON.stringify(t)} data-roster={JSON.stringify(roster)}>
+<Base lang={lang} page="streamer" slug={login} title={name} description={fmt(t.metaDesc, { name })} live noindex={!stats} ogType="profile" jsonLd={ld}>
+  <div id="sp" class="sp" data-api={API_BASE} data-thumb={THUMB_TEMPLATE} data-ui={JSON.stringify(t)} data-roster={JSON.stringify(listed)} data-base={base} data-login={login} data-built={stats ? '1' : ''}>
     <a class="back" href={pathFor(lang, '')}><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" /></svg>{t.back}</a>
     <header class="sp-head">
-      <h1 id="sp-name">&nbsp;</h1>
+      <h1 id="sp-name">{name}</h1>
       <p class="sp-status" id="sp-status">{t.loading}</p>
-      <p class="sp-links" id="sp-links"></p>
+      <p class="sp-links" id="sp-links">
+        <a class="ext tw" href={twitch} target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-twitch" /></svg>{t.onTwitch}</a>
+        {entry.youtube && <a class="ext yt" href={entry.youtube} target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-youtube" /></svg>{t.onYouTube}</a>}
+      </p>
     </header>
-    <noscript><p class="noscript">{t.noScript}</p></noscript>
-    <div class="sp-body" id="sp-body"></div>
+    {!stats && <noscript><p class="noscript">{t.noScript}</p></noscript>}
+    <div class="sp-body" id="sp-body" set:html={body}></div>
   </div>
   <script src="../scripts/streamer.ts"></script>
 </Base>

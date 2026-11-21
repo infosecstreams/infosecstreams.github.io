@@ -5,13 +5,17 @@
 // JS off) the same rack shows as a static SVG, so nothing moves on load.
 import rackSvg from '../assets/rack.svg?raw';
 import geo from '../assets/rack.json';
+// Content-hashed URLs: cached for good (service worker, cache-first), fetched again only when they change.
+import rivJs from '../assets/rive/rive.js?url';
+import rivWasm from '../assets/rive/rive.wasm?url';
+import rivFile from '../assets/rive/rack.riv?url';
 import { pathFor, strings, type Lang } from '../lib/i18n';
 interface Props { lang: Lang; }
 const { lang } = Astro.props;
 const S = strings(lang);
 const t = S.ui;
 ---
-<section class="hero" id="hero" aria-labelledby="hero-h" data-geo={JSON.stringify(geo)} data-page={pathFor(lang, 'streamer')}>
+<section class="hero" id="hero" aria-labelledby="hero-h" data-geo={JSON.stringify(geo)} data-page={pathFor(lang, 'streamer')} data-rive={JSON.stringify([rivJs, rivWasm, rivFile])}>
   <div class="hero-txt">
     <h1 id="hero-h"><span class="sr">InfoSec Streams: </span>{t.heading}</h1>
     <div class="term">
@@ -24,12 +28,13 @@ const t = S.ui;
     </div>
   </div>
   <div class="hero-rack">
-    <div class="rack-box" id="rack-box">
+    <div class="rack-box" id="rack-box" tabindex="0" role="application" aria-label={t.rackLabel}>
       <Fragment set:html={rackSvg} />
       <canvas id="rack-c" aria-hidden="true"></canvas>
     </div>
+    <p class="sr" id="rack-say" aria-live="polite"></p>
     <!-- The console a clicked sled slides out as (console.ts); fixed over the window. -->
-    <div class="con" id="con" role="dialog" aria-modal="true" aria-labelledby="con-n" tabindex="-1" hidden data-ui={JSON.stringify({ ...S.streamer, close: t.close, allStats: t.allStats, livePlayer: t.livePlayer })}>
+    <div class="con" id="con" role="dialog" aria-modal="true" aria-labelledby="con-n" tabindex="-1" hidden data-ui={JSON.stringify({ ...S.streamer, close: t.close, allStats: t.allStats, livePlayer: t.livePlayer, copyLink: t.copyLink, linkCopied: t.linkCopied, hoursShort: t.hoursShort })}>
       <div class="con-bg"></div>
       <div class="con-floor" aria-hidden="true"></div>
       <canvas aria-hidden="true"></canvas>
