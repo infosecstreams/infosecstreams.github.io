@@ -120,10 +120,57 @@ input, select, button { font: inherit; color: inherit; }
 @keyframes caret { 50% { opacity: 0; } }
 .hero-rack { margin: 0; }
 .rack-box { position: relative; aspect-ratio: 560 / 420; }
-.rack-box svg, .rack-box canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.rack-box > svg, .rack-box > canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
 .rack-box canvas { opacity: 0; transition: opacity 0.4s; }
 .rack-box.rive-on canvas { opacity: 1; }
-.rack-box.rive-on svg { visibility: hidden; transition: visibility 0s 0.4s; }
+.rack-box.rive-on > svg { visibility: hidden; transition: visibility 0s 0.4s; }
+/* The console a sled slides out as (hero.ts). With the runtime drawing, the
+   canvas draws the drawer, deck and lid and this is only the screen's HTML;
+   on the static rack CSS draws the lid and unfolds it. */
+.con { position: absolute; inset: 0; z-index: 2; outline: none; container-type: inline-size; }
+.con[hidden] { display: none; }
+.con-lid, .con-scr { position: absolute; }
+.rack-box.rive-on .con-lid { display: none; }
+.rack-box:not(.rive-on) .con { background: rgb(11 14 18 / 0.88); animation: con-fade 0.25s ease-out both; }
+.con-lid::before { content: ""; position: absolute; inset: -5.3% -3% -6.1%; background: var(--graphite); border: 1px solid var(--line-hi); border-radius: var(--r); }
+.con-lid::after { content: ""; position: absolute; inset: 0; background: #07090c; border: 1px solid var(--line); }
+.rack-box:not(.rive-on) .con-lid, .rack-box:not(.rive-on) .con-scr { transform-origin: 50% 106%; animation: con-lift 0.32s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+@keyframes con-fade { from { opacity: 0; } }
+@keyframes con-lift { from { transform: scaleY(0); } }
+.con-scr { display: flex; flex-direction: column; padding: 0.7em 0.85em 0.55em; font: max(10px, 2.15cqw)/1.45 var(--mono); color: var(--silver); opacity: 0; pointer-events: none; transition: opacity 0.16s; overflow: hidden; }
+.rack-box.rive-on .con-scr { background: linear-gradient(rgb(0 216 146 / 0.035), transparent 40%); }
+.con.lit .con-scr { opacity: 1; pointer-events: auto; }
+.rack-box:not(.rive-on) .con-scr { opacity: 1; pointer-events: auto; }
+.con-top { display: flex; align-items: center; gap: 0.75em; padding-bottom: 0.5em; border-bottom: 1px solid var(--line); }
+.con-n { margin: 0; font: 500 1.3em/1.2 var(--sans); color: var(--bone); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.con-st { display: inline-flex; align-items: center; gap: 0.45em; font-size: 0.78em; letter-spacing: 0.1em; text-transform: uppercase; color: var(--steel); white-space: nowrap; }
+.con-st.on { color: var(--led); }
+.con-st.pre { color: var(--amber); }
+.con-st .led { width: 0.55em; height: 0.55em; }
+.con-st.on .led { background: var(--led); box-shadow: 0 0 6px rgb(0 216 146 / 0.6); }
+.con-x { margin-inline-start: auto; flex: none; display: grid; place-items: center; width: 2.4em; height: 2.4em; min-width: 24px; min-height: 24px; padding: 0; border: 1px solid var(--line); border-radius: var(--r); background: none; color: var(--steel); cursor: pointer; }
+.con-x:hover { color: var(--bone); border-color: var(--line-hi); }
+.con-x svg { width: 0.85em; height: 0.85em; stroke: currentColor; stroke-width: 1.5; fill: none; }
+.con-body { flex: 1; min-height: 0; overflow: hidden; padding: 0.7em 0 0.4em; }
+.con-live { display: grid; grid-template-columns: 46% minmax(0, 1fr); gap: 0.85em; align-items: start; margin-bottom: 0.6em; }
+.con-live:not(:has(img)) { grid-template-columns: minmax(0, 1fr); }
+.con-th { width: 100%; height: auto; aspect-ratio: 16 / 9; display: block; border: 1px solid var(--line); background: var(--carbon); }
+.con-d { min-width: 0; }
+.con-t { margin: 0 0 0.35em; font: 1.05em/1.35 var(--sans); color: var(--bone); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.con-m { margin: 0; color: var(--steel); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.con-last { margin-bottom: 0.6em; color: var(--silver); }
+.con-kv { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 0.2em 1.2em; margin: 0; }
+.con-kv dt { color: var(--steel); }
+.con-kv dd { margin: 0; color: var(--bone); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.con-ft { display: flex; align-items: center; justify-content: space-between; gap: 1em; padding-top: 0.4em; border-top: 1px solid var(--line); }
+.con-go { color: var(--led); text-decoration: none; font-size: 0.85em; letter-spacing: 0.08em; text-transform: uppercase; display: inline-flex; align-items: center; gap: 0.5em; min-height: 24px; }
+.con-go:hover { text-decoration: underline; text-underline-offset: 0.25em; }
+.con-ft .lk a { width: 2.2em; height: 2.2em; min-width: 24px; min-height: 24px; }
+/* the screen is 71% of the rack's width */
+@container (max-width: 470px) {
+  .con-live { grid-template-columns: minmax(0, 1fr); }
+  .con-th { display: none; }
+}
 @media (max-width: 52rem) {
   .hero { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; margin-top: 2rem; }
 }

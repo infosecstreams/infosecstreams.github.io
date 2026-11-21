@@ -17,8 +17,10 @@ named nodes the page drives through the low-level API (artboard.node(name)):
   on{i} / pre{i}  status LED, green (live) / amber (getting ready); scale 0 = off
   bar{i}          30-day activity bar, scaleX = share of the most active streamer
 plus sel (the selection bracket that follows the cursor), selbar (its bright
-bar), rack (the sled group, nudged for parallax) and scan (a slow scan line,
-animated by the 'idle' animation the 'Rack' state machine plays).
+bar), scan (a slow scan line, animated by the 'idle' animation the 'Rack'
+state machine plays) and con, the console a clicked sled slides out as: hole
+(its empty slot), scrim, deck, lid (screen, glow) and cfront (the drawer front,
+which hero.ts moves out of the slot); the 'open' animation keys the rest.
 usage: build_rack.py <out.riv> <out.svg> <out.json>
   run from site/: python3 scripts/rive/build_rack.py public/rive/rack.riv src/assets/rack.svg src/assets/rack.json
 """
@@ -136,6 +138,47 @@ rect_shape(selbar, 'selbarfill', 0, 0, BAR_W, BAR_H, fill=LED)
 for cx, cy in ((-3, -3), (SLED_W + 3, -3), (-3, SLED_H + 3), (SLED_W + 3, SLED_H + 3)):
     rect_shape(sel, f'tick{cx}{cy}', cx - 1.5, cy - 1.5, 3, 3, fill=LED)
 
+# ---- console: the sled that slides out when a sled is clicked ----
+# A rack-mount KVM console: the 1U drawer front travels out of its slot
+# (hero.ts moves and scales 'cfront' from the slot to here), the keyboard deck
+# extends behind it and the screen lid lifts on its hinge; the 'open'
+# animation below keys the deck, lid, scrim and backlight. The page lays its
+# HTML screen over 'cscreen' (CON in rack.json).
+CW, CX = 420, 70
+FRONT_Y, FRONT_H = 330, 24
+DECK_H, LID_H, BEZEL = 26, 254, 12
+HINGE = FRONT_Y - DECK_H
+SX, SY = CW / SLED_W, FRONT_H / SLED_H          # front = a sled at console size
+con = add('Node', 0, name='con', x=0, y=0, scaleX=0, scaleY=0)
+hole = add('Node', con, name='hole', x=0, y=0)
+rect_shape(hole, 'holeface', 0, 0, SLED_W, SLED_H, fill='#050608', stroke=LINE)
+scrim = add('Node', con, name='scrim', x=0, y=0, opacity=0)
+rect_shape(scrim, 'scrimfill', 0, 0, W, H, fill=VOID, fill_a=225)
+deck = add('Node', con, name='deck', x=CX, y=FRONT_Y, scaleY=0)
+rect_shape(deck, 'deckface', 0, -DECK_H, CW, DECK_H, fill=CARBON, stroke=LINE)
+for r in range(2):
+    for k in range(24):
+        kx = 30 + k * 15
+        rect_shape(deck, f'key{r}_{k}', kx, -DECK_H + 5 + r * 9, 12, 6, fill=GRAPHITE)
+lid = add('Node', con, name='lid', x=CX, y=HINGE, scaleY=0)
+rect_shape(lid, 'bezel', 0, -LID_H, CW, LID_H, fill=GRAPHITE, stroke=LINE_HI)
+rect_shape(lid, 'cscreen', BEZEL, -LID_H + BEZEL, CW - 2 * BEZEL, LID_H - 2 * BEZEL - 2, fill='#07090c', stroke=LINE)
+glow = add('Node', lid, name='glow', x=0, y=0, opacity=0)
+rect_shape(glow, 'glowfill', BEZEL + 1, -LID_H + BEZEL + 1, CW - 2 * BEZEL - 2, LID_H - 2 * BEZEL - 4, fill=LED, fill_a=9)
+dot(glow, 'power', CW - BEZEL - 2, -BEZEL / 2 - 1, 4, LED)
+front = add('Node', con, name='cfront', x=CX, y=FRONT_Y)
+rect_shape(front, 'cface', 0, 0, CW, FRONT_H, fill=VOID, stroke=LINE_HI)
+for hx in (-7, CW):
+    rect_shape(front, f'handle{hx}', hx, 3, 7, FRONT_H - 6, fill=GRAPHITE, stroke=LINE)
+dot(front, 'cled', 11 * SX, FRONT_H / 2, 8, LINE_HI)
+chalo = dot(front, 'con_on', 11 * SX, FRONT_H / 2, 18, LED, 60)
+dot(chalo, 'con_oncore', 0, 0, 8, LED)
+dot(front, 'con_pre', 11 * SX, FRONT_H / 2, 8, AMBER)
+rect_shape(front, 'ctrack', BAR_X * SX, FRONT_H / 2 - 3, BAR_W * SX, 6, fill=GRAPHITE)
+rect_shape(front, 'con_bar', BAR_X * SX, FRONT_H / 2 - 3, BAR_W * SX, 6, fill=LED)
+CON = {'x': CX + BEZEL, 'y': HINGE - LID_H + BEZEL, 'w': CW - 2 * BEZEL, 'h': LID_H - 2 * BEZEL - 2,
+       'front': [CX, FRONT_Y], 'sx': SX, 'sy': SY, 'open': 0.6, 'travel': 0.3}
+
 scan_idx = scan
 
 def write(path):
@@ -159,6 +202,7 @@ def write(path):
     newidx = {old: n for n, old in enumerate(order, start=1)}; newidx[0] = 0
     global scan_idx
     scan_idx = newidx[scan]
+    write.newidx = newidx
     for old in order:
         typ, props, parent = comps[old - 1]
         o.obj(typ, parentId=newidx[parent], **props)
@@ -170,6 +214,20 @@ def write(path):
     o.obj('KeyFrameDouble', frame=0, value=FRAME_Y + 10, interpolationType=1)
     o.obj('KeyFrameDouble', frame=dur // 2, value=FRAME_Y + FRAME_H - 10, interpolationType=1)
     o.obj('KeyFrameDouble', frame=dur, value=FRAME_Y + 10, interpolationType=1)
+    # animation 1: open — scrim, deck, lid and backlight (hero.ts scrubs it,
+    # forwards to open and backwards to close, and moves the front itself)
+    dur = 36
+    o.obj('LinearAnimation', name='open', fps=fps, duration=dur, loopValue=0)
+    ease = lambda u: 1 - (1 - u) ** 3
+    def keyed(node, prop, f0, f1, v0, v1, cls='Node'):
+        o.obj('KeyedObject', objectId=newidx[node])
+        o.obj('KeyedProperty', propertyKey=defs.cls(cls)['props'][prop][0])
+        for f in range(f0, f1 + 1, 2):
+            o.obj('KeyFrameDouble', frame=f, value=v0 + (v1 - v0) * ease((f - f0) / (f1 - f0)), interpolationType=1)
+    keyed(scrim, 'opacity', 0, 18, 0, 1)
+    keyed(deck, 'scaleY', 8, 18, 0, 1)
+    keyed(lid, 'scaleY', 14, 30, 0, 1)
+    keyed(glow, 'opacity', 26, 36, 0, 1)
     # state machine: entry -> idle (loops)
     o.obj('StateMachine', name='Rack')
     o.obj('StateMachineLayer', name='Layer 1')
@@ -185,7 +243,7 @@ def write_svg(path):
     """The same rack as a static SVG: the poster the page shows before the
     runtime has drawn (and without JS). LEDs and bars carry ids (r-on3, r-bar3)
     and start hidden; hero.ts lights them from live data."""
-    hidden = {'sel', 'scan'}
+    hidden = {'sel', 'scan', 'con'}
     def hide(name): return name in hidden or name.startswith('oncore')
     def svg_id(name):
         for p in ('on', 'pre', 'bar'):
@@ -237,7 +295,7 @@ def write_geometry(path):
     for i in range(COLS * ROWS):
         col, row = i % COLS, i // COLS
         sleds.append([round(FRAME_X + RAIL + GAP + col * (SLED_W + GAP), 2), round(FRAME_Y + 10 + row * (SLED_H + 2), 2)])
-    json.dump({'width': W, 'height': H, 'sledW': SLED_W, 'sledH': SLED_H, 'sleds': sleds}, open(path, 'w'))
+    json.dump({'width': W, 'height': H, 'sledW': SLED_W, 'sledH': SLED_H, 'sleds': sleds, 'con': CON}, open(path, 'w'))
 
 if __name__ == '__main__':
     riv, svg, geo = sys.argv[1], sys.argv[2], sys.argv[3]

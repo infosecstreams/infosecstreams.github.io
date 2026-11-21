@@ -7,7 +7,11 @@ import { SESSIONS } from './sessions';
 //
 // One sled per listed streamer, in a random slot. live.ts sends the data in a
 // 'streams' event; this script lights LEDs, sizes bars, follows the cursor and
-// writes `whois` for the sled under it into the terminal (real text).
+// prints the record for the sled under it into the terminal (real text).
+// Clicking a sled slides it out as a rack console: the drawer front travels out
+// of its slot (moved here), the deck and lid unfold (the .riv's 'open'
+// animation, scrubbed forwards to open and backwards to close), and the
+// streamer's card shows on the console's screen (HTML laid over it).
 
 interface Streamer {
   login: string; display_name?: string; status: 'online' | 'prelive' | 'offline';
@@ -15,19 +19,22 @@ interface Streamer {
 }
 interface Bounds { minX: number; minY: number; maxX: number; maxY: number }
 interface RvNode { x: number; y: number; scaleX: number; scaleY: number }
-interface RvArtboard { bounds: Bounds; advance(dt: number): void; draw(r: RvRenderer): void; node(n: string): RvNode; stateMachineByName(n: string): unknown }
+interface RvArtboard { bounds: Bounds; advance(dt: number): void; draw(r: RvRenderer): void; node(n: string): RvNode; stateMachineByName(n: string): unknown; animationByName(n: string): unknown }
+interface RvAnim { time: number; apply(mix: number): void }
 interface RvSM { advance(dt: number): void }
 interface RvRenderer { clear(): void; save(): void; restore(): void; flush(): void; align(fit: unknown, al: unknown, frame: Bounds, b: Bounds): void }
 interface RvRuntime {
   load(b: Uint8Array): Promise<{ artboardByName(n: string): RvArtboard }>;
   makeRenderer(c: HTMLCanvasElement, useOffscreen?: boolean): RvRenderer;
   StateMachineInstance: new (sm: unknown, ab: RvArtboard) => RvSM;
+  LinearAnimationInstance: new (a: unknown, ab: RvArtboard) => RvAnim;
   Fit: { contain: unknown }; Alignment: { center: unknown };
   requestAnimationFrame(cb: (t: number) => void): number;
   resolveAnimationFrame?: () => void;
 }
 interface RiveGlobal { RuntimeLoader: { setWasmUrl(u: string): void; getInstance(cb: (rt: RvRuntime) => void): void } }
-interface Geo { width: number; height: number; sledW: number; sledH: number; sleds: [number, number][] }
+interface Con { x: number; y: number; w: number; h: number; front: [number, number]; sx: number; sy: number; open: number; travel: number }
+interface Geo { width: number; height: number; sledW: number; sledH: number; sleds: [number, number][]; con: Con }
 
 const hero = document.getElementById('hero');
 if (hero) startHero(hero);
@@ -59,6 +66,10 @@ function startHero(hero: HTMLElement) {
     }
     maxH = Math.max(1, ...list.map((s) => s?.hours_30d ?? 0));
     paintNodes();
+    // the card on an open console follows the live data
+    const s = list[conIdx];
+    const key = s ? `${s.status}|${s.viewers}|${s.title}|${s.category}` : '';
+    if (s && conDir >= 0 && key !== conKey) { conKey = key; fill(); }
     kick();
   });
 
@@ -151,31 +162,150 @@ function startHero(hero: HTMLElement) {
     box.style.cursor = i >= 0 && list[i] ? 'pointer' : '';
     if (i >= 0 && list[i]) showStreamer(list[i]!); else backToSession();
   }
-  // Click (or tap) opens that streamer's page here; touch: the first tap shows
-  // their record in the terminal, a second tap on the same sled opens it.
+  // ---- the console: click (or tap) a sled and it slides out ----
+  const conEl = document.getElementById('con')!;
+  const scr = conEl.querySelector<HTMLElement>('.con-scr')!;
+  const app = document.getElementById('app')!;
+  const API = app.dataset.api!, THUMB = app.dataset.thumb!;
+  const ui: Record<string, string> = JSON.parse(conEl.dataset.ui!);
+  const lang = document.documentElement.lang;
+  const f = (k: string, v: Record<string, string | number> = {}) => (ui[k] ?? k).replace(/\{(\w+)\}/g, (_, x) => String(v[x] ?? ''));
+  const numF = new Intl.NumberFormat(lang, { maximumFractionDigits: 1 });
+  const rel = new Intl.RelativeTimeFormat(lang, { numeric: 'auto' });
+  let names: Intl.DisplayNames | undefined;
+  try { names = new Intl.DisplayNames([lang], { type: 'language' }); } catch { /* old browser */ }
+  const ago = (iso: string) => {
+    const m = Math.round((Date.parse(iso) - Date.now()) / 60000);
+    return Math.abs(m) < 60 ? rel.format(m, 'minute') : Math.abs(m) < 2880 ? rel.format(Math.round(m / 60), 'hour') : rel.format(Math.round(m / 1440), 'day');
+  };
+  const dur = (ms: number) => { const h = Math.floor(ms / 36e5), m = Math.floor((ms % 36e5) / 6e4); return h ? `${h}h ${m}m` : `${m}m`; };
+  const hrs = (x?: number) => (x == null ? '—' : `${numF.format(x)} h`);
+  const thumb = (login: string, w: number, h: number) =>
+    THUMB.replace('{login}', encodeURIComponent(login)).replace('{w}', String(w)).replace('{h}', String(h))
+    + (/^https:/.test(THUMB) ? `?t=${Math.floor(Date.now() / 300000)}` : '');
+  interface Stats { last_live_at?: string; streams_30d?: number; median_stream_hours_30d?: number; avg_stream_hours_30d?: number; stream_days_per_week_30d?: number; avg_viewers_30d?: number }
+  const stats = new Map<string, Promise<Stats | null>>();
+  const statsFor = (login: string) => {
+    if (!stats.has(login)) stats.set(login, fetch(`${API}stats/${encodeURIComponent(login)}.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null));
+    return stats.get(login)!;
+  };
   const pagePath = hero.dataset.page!;
-  const open = (i: number) => { location.href = `${pagePath}?u=${encodeURIComponent(list[i]!.login.toLowerCase())}`; };
-  let armed = -1;
+  let conIdx = -1;        // the sled that is out (or on its way), -1: none
+  let conT = 0;           // seconds into the 'open' animation
+  let conDir = 0;         // +1 opening, -1 closing, 0 at rest
+  let conKey = '';
+  const CON = geo.con;
+
+  function card(s: Streamer, st?: Stats | null) {
+    const login = s.login.toLowerCase();
+    const name = esc(s.display_name || s.login);
+    const row = app.querySelector(`li[data-login="${CSS.escape(login)}"]`);
+    const tw = row?.querySelector<HTMLAnchorElement>('a.tw'), yt = row?.querySelector<HTMLAnchorElement>('a.yt[href]');
+    const kv = (k: string, v: string) => `<dt>${esc(k)}</dt><dd>${v}</dd>`;
+    const state = s.status === 'online'
+      ? `<span class="con-st on"><i class="led"></i>${esc(f('live'))}</span>`
+      : s.status === 'prelive' ? `<span class="con-st pre"><i class="led pre"></i>${esc(f('prelive'))}</span>`
+        : `<span class="con-st">${esc(f('offline'))}</span>`;
+    let body = '';
+    if (s.status !== 'offline') {
+      const meta = [s.category, s.language ? names?.of(s.language) ?? s.language : ''].filter(Boolean).map((x) => esc(x)).join(' · ');
+      const live = s.status === 'online'
+        ? [s.viewers != null ? esc(f('viewers', { n: numF.format(s.viewers) })) : '', s.started_at ? esc(f('upFor', { t: dur(Date.now() - Date.parse(s.started_at)) })) : ''].filter(Boolean).join(' · ')
+        : '';
+      body = `<div class="con-live">${s.status === 'online'
+        ? `<img class="con-th" src="${esc(thumb(login, 320, 180))}" srcset="${esc(thumb(login, 640, 360))} 2x" width="320" height="180" alt="" decoding="async">` : ''}
+        <div class="con-d"><p class="con-t">${esc(s.title || '')}</p><p class="con-m">${meta}</p>${live ? `<p class="con-m">${live}</p>` : ''}</div></div>
+        <dl class="con-kv">${kv(f('h30'), hrs(s.hours_30d))}</dl>`;
+    } else {
+      body = `<p class="con-m con-last">${st === undefined ? esc(f('loading')) : st?.last_live_at ? esc(f('lastLive', { t: ago(st.last_live_at) })) : esc(f('neverLive'))}</p>
+      <dl class="con-kv">
+        ${kv(f('h30'), hrs(s.hours_30d))}
+        ${st ? kv(f('streams30'), st.streams_30d != null ? numF.format(st.streams_30d) : '—') : ''}
+        ${st ? kv(f('avgLen'), hrs(st.median_stream_hours_30d ?? st.avg_stream_hours_30d)) : ''}
+        ${st ? kv(f('daysWeek'), st.stream_days_per_week_30d != null ? numF.format(st.stream_days_per_week_30d) : '—') : ''}
+      </dl>`;
+    }
+    const icon = (id: string) => `<svg class="ic" aria-hidden="true"><use href="#i-${id}"/></svg>`;
+    return `<div class="con-top"><h2 class="con-n" id="con-n">${name}</h2>${state}
+        <button class="con-x" type="button" aria-label="${esc(f('close'))}"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8"/></svg></button></div>
+      <div class="con-body">${body}</div>
+      <div class="con-ft"><a class="con-go" href="${pagePath}?u=${encodeURIComponent(login)}">${esc(f('allStats'))} <span aria-hidden="true">→</span></a>
+        <span class="lk">${tw ? `<a class="tw" href="${esc(tw.href)}" target="_blank" rel="noopener" aria-label="${esc(tw.getAttribute('aria-label') || 'Twitch')}">${icon('twitch')}</a>` : ''}
+        ${yt ? `<a class="yt" href="${esc(yt.href)}" target="_blank" rel="noopener" aria-label="${esc(yt.getAttribute('aria-label') || 'YouTube')}">${icon('youtube')}</a>` : ''}</span></div>`;
+  }
+  function fill() {
+    const s = list[conIdx];
+    if (!s) return;
+    const login = s.login.toLowerCase();
+    if (s.status !== 'offline') { scr.innerHTML = card(s); return; }
+    scr.innerHTML = card(s);
+    void statsFor(login).then((st) => { if (list[conIdx]?.login.toLowerCase() === login) scr.innerHTML = card(s, st); });
+  }
+  // With the runtime drawing, the HTML screen shows once the lid is up; on the
+  // static rack (no WebGL, or before the runtime loads) CSS unfolds it.
+  const showScreen = (on: boolean) => conEl.classList.toggle('lit', on);
+  function openCon(i: number) {
+    if (!list[i]) return;
+    select(-1);
+    conIdx = i; conKey = ''; fill();
+    conEl.hidden = false;
+    box.classList.add('con-open');
+    if (!rt || reduce.matches) { conT = CON.open; conDir = 0; requestAnimationFrame(() => showScreen(true)); }
+    else { conDir = 1; if (conT >= CON.open) conT = 0; }
+    conEl.focus({ preventScroll: true });
+    kick();
+  }
+  function closeCon() {
+    if (conIdx < 0 || conDir === -1) return;
+    showScreen(false);
+    box.classList.remove('con-open');
+    if (!rt || reduce.matches) { conT = 0; conDir = 0; conIdx = -1; conEl.hidden = true; kick(); return; }
+    conDir = -1; kick();
+  }
+  conEl.addEventListener('click', (e) => {
+    if ((e.target as Element).closest('.con-x')) closeCon();
+    else if (!(e.target as Element).closest('.con-scr')) closeCon();
+  });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && conIdx >= 0) closeCon(); });
+
   box.addEventListener('pointermove', (e) => {
+    if (conIdx >= 0) return;
     kick();
     const [x, y] = toArt(e);
     const i = hit(x, y);
     if (e.pointerType === 'mouse') select(i >= 0 && list[i] ? i : -1);
   });
-  box.addEventListener('pointerleave', (e) => { if (e.pointerType !== 'mouse') return; select(-1); kick(); });
-  box.addEventListener('pointerdown', (e) => {
-    const [x, y] = toArt(e);
+  box.addEventListener('pointerleave', (e) => { if (e.pointerType !== 'mouse' || conIdx >= 0) return; select(-1); kick(); });
+  box.addEventListener('click', (e) => {
+    if (conIdx >= 0 || (e.target as Element).closest('#con')) return;
+    const [x, y] = toArt(e as PointerEvent);
     const i = hit(x, y);
-    if (i < 0 || !list[i]) return;
-    if (e.pointerType === 'mouse' || armed === i) return open(i);
-    armed = i; select(i);
+    if (i >= 0 && list[i]) openCon(i);
   });
-
 
   // ---- Rive (low-level) ----
   let rt: RvRuntime | null = null, ab: RvArtboard | null = null, sm: RvSM | null = null, renderer: RvRenderer | null = null;
   const nodes: { on: RvNode; pre: RvNode; bar: RvNode }[] = [];
   let selNode: RvNode, selBar: RvNode, scanNode: RvNode;
+  let conNode: RvNode, holeNode: RvNode, frontNode: RvNode, conOn: RvNode, conPre: RvNode, conBar: RvNode, openAnim: RvAnim;
+  const ease = (u: number) => (u < 0.5 ? 4 * u * u * u : 1 - (-2 * u + 2) ** 3 / 2);
+  const lerp = (a: number, b: number, u: number) => a + (b - a) * u;
+  // The console's pose at conT: the front travels out of the slot, then the
+  // 'open' timeline (deck, lid, scrim, backlight) takes over.
+  function poseCon(pulse: number) {
+    const s = list[conIdx];
+    conNode.scaleX = conNode.scaleY = s ? 1 : 0;
+    if (!s) return;
+    const [sx, sy] = geo.sleds[conIdx];
+    const e = ease(Math.min(1, conT / CON.travel));
+    holeNode.x = sx; holeNode.y = sy;
+    frontNode.x = lerp(sx, CON.front[0], e); frontNode.y = lerp(sy, CON.front[1], e);
+    frontNode.scaleX = lerp(1 / CON.sx, 1, e); frontNode.scaleY = lerp(1 / CON.sy, 1, e);
+    conOn.scaleX = conOn.scaleY = s.status === 'online' ? pulse : 0;
+    conPre.scaleX = conPre.scaleY = s.status === 'prelive' ? 1 : 0;
+    conBar.scaleX = s.hours_30d ? Math.max(0.02, s.hours_30d / maxH) : 0.001;
+    openAnim.time = conT; openAnim.apply(1);
+  }
   // Frames are drawn only while something changes: a pointer move, new data, a
   // glide still settling, or the scan sweep. Otherwise the page is idle.
   let pending = false;
@@ -224,9 +354,10 @@ function startHero(hero: HTMLElement) {
     if (!rt || !ab || !renderer) return;
     if (!visible || document.hidden) return;   // kick() restarts it
     const tgt = sel >= 0 ? geo.sleds[sel] : null;
-    const moving = Math.abs(cur.s - (tgt ? 1 : 0)) > 0.002
+    let moving = Math.abs(cur.s - (tgt ? 1 : 0)) > 0.002
       || (!!tgt && (Math.abs(cur.x - tgt[0]) > 0.1 || Math.abs(cur.y - tgt[1]) > 0.1));
     const ambient = !reduce.matches && !lean;
+    if (conDir) moving = true;
     if (moving || t - lastDraw >= 33 || !lastDraw) {
       const t0 = performance.now();
       const dt = prev ? Math.min(0.05, (t - prev) / 1000) : 0; prev = t; lastDraw = t;
@@ -242,11 +373,19 @@ function startHero(hero: HTMLElement) {
         selNode.x = cur.x; selNode.y = cur.y; selNode.scaleX = selNode.scaleY = cur.s < 0.02 ? 0 : 1;
         selBar.scaleX = Math.max(0.001, cur.bar);
         scanNode.scaleY = ambient ? 1 : 0;
+        const pulse = ambient ? 0.88 + 0.14 * Math.sin(t / 420) : 1;
         if (ambient) {
           sm!.advance(dt);
-          const pulse = 0.88 + 0.14 * Math.sin(t / 420);
           nodes.forEach((n, i) => { if (list[i]?.status === 'online') n.on.scaleX = n.on.scaleY = pulse; });
         }
+        // the console: closing runs a little faster than opening
+        if (conDir) {
+          conT = Math.min(CON.open, Math.max(0, conT + dt * conDir * (conDir < 0 ? 1.6 : 1)));
+          if (conDir > 0 && conT >= CON.open - 0.1) showScreen(true);
+          if (conDir > 0 && conT >= CON.open) conDir = 0;
+          if (conDir < 0 && conT <= 0) { conDir = 0; conIdx = -1; conEl.hidden = true; }
+        }
+        poseCon(pulse);
         ab.advance(dt);
         renderer.clear(); renderer.save();
         renderer.align(rt.Fit.contain, rt.Alignment.center, { minX: 0, minY: 0, maxX: w, maxY: h }, ab.bounds);
@@ -257,7 +396,11 @@ function startHero(hero: HTMLElement) {
       // the ambient motion (frames only on interaction); over ~45 ms the
       // static rack takes over again.
       cost = cost ? cost * 0.8 + (performance.now() - t0) * 0.2 : performance.now() - t0;
-      if (!force && ++frames > 8 && cost > 45) { box.classList.remove('rive-on'); rt = null; return; }
+      if (!force && ++frames > 8 && cost > 45) {
+        box.classList.remove('rive-on'); rt = null;
+        if (conIdx >= 0) { if (conDir < 0) { conIdx = -1; conEl.hidden = true; } else showScreen(true); conT = CON.open; conDir = 0; }
+        return;
+      }
       if (!force && frames > 8 && cost > 16) lean = true;
     }
     rt.resolveAnimationFrame?.();
@@ -301,6 +444,9 @@ function startHero(hero: HTMLElement) {
       sm = new rt.StateMachineInstance(ab.stateMachineByName('Rack'), ab);
       for (let i = 0; i < geo.sleds.length; i++) nodes.push({ on: ab.node(`on${i}`), pre: ab.node(`pre${i}`), bar: ab.node(`bar${i}`) });
       selNode = ab.node('sel'); selBar = ab.node('selbar'); scanNode = ab.node('scan');
+      conNode = ab.node('con'); holeNode = ab.node('hole'); frontNode = ab.node('cfront');
+      conOn = ab.node('con_on'); conPre = ab.node('con_pre'); conBar = ab.node('con_bar');
+      openAnim = new rt.LinearAnimationInstance(ab.animationByName('open'), ab);
       paintNodes();
       renderer = rt.makeRenderer(canvas, false);
       kick();

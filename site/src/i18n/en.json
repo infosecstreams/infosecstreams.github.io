@@ -61,7 +61,9 @@
     "watchShort": "Watch",
     "allSection": "All streamers",
     "hoursShort": "{n} h",
-    "sortedBy": "Sort by {col}"
+    "sortedBy": "Sort by {col}",
+    "close": "Close",
+    "allStats": "All stats"
   },
   "home": {
     "title": "InfoSec Streams",
