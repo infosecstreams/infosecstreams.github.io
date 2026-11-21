@@ -81,7 +81,7 @@
   },
   "inactive": {
     "title": "Streamers Inactifs",
-    "intro": "Les streamers de la liste qui ne diffusent plus régulièrement ces derniers temps. Les heures portent sur les 30 derniers jours.",
+    "intro": "Les streamers sans stream infosec ces 30 derniers jours. Ils reviennent dans la liste principale dès qu'ils passent en direct.",
     "listHeading": "Streamers",
     "groupRecent": "Ont streamé ces 30 derniers jours",
     "groupEarlier": "Dernier direct il y a plus de 30 jours",

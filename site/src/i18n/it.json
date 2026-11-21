@@ -81,7 +81,7 @@
   },
   "inactive": {
     "title": "Stream InfoSec Inattivi",
-    "intro": "Streamer della lista che ultimamente non trasmettono con regolarità. Le ore si riferiscono agli ultimi 30 giorni.",
+    "intro": "Streamer senza dirette infosec negli ultimi 30 giorni. Tornano nella lista principale appena vanno in diretta.",
     "listHeading": "Streamer",
     "groupRecent": "Hanno trasmesso negli ultimi 30 giorni",
     "groupEarlier": "Ultima diretta più di 30 giorni fa",

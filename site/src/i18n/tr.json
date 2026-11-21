@@ -81,7 +81,7 @@
   },
   "inactive": {
     "title": "Aktif Olmayan InfoSec Yayınları",
-    "intro": "Listede olup son zamanlarda düzenli yayın yapmayan yayıncılar. Saatler son 30 güne aittir.",
+    "intro": "Son 30 günde siber güvenlik yayını yapmamış yayıncılar. Canlı yayına girdikleri anda ana listeye geri dönerler.",
     "listHeading": "Yayıncılar",
     "groupRecent": "Son 30 günde yayın yaptı",
     "groupEarlier": "Son canlı yayın 30 günden önce",

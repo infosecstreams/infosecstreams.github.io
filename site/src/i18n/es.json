@@ -81,7 +81,7 @@
   },
   "inactive": {
     "title": "Streamers Inactivos",
-    "intro": "Streamers de la lista que no han transmitido con regularidad últimamente. Las horas son de los últimos 30 días.",
+    "intro": "Streamers sin transmisiones de seguridad informática en los últimos 30 días. Vuelven a la lista principal en cuanto salen en directo.",
     "listHeading": "Streamers",
     "groupRecent": "Transmitieron en los últimos 30 días",
     "groupEarlier": "En directo por última vez hace más de 30 días",

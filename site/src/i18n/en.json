@@ -81,7 +81,7 @@
   },
   "inactive": {
     "title": "Inactive InfoSec Streams",
-    "intro": "Streamers on the list who haven't been streaming regularly lately. Hours are for the last 30 days.",
+    "intro": "Streamers with no infosec streams in the last 30 days. They move back to the main list as soon as they go live.",
     "listHeading": "Streamers",
     "groupRecent": "Streamed in the last 30 days",
     "groupEarlier": "Last live more than 30 days ago",
