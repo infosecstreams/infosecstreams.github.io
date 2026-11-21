@@ -317,6 +317,9 @@ html.js #app:not(.ready) .list { visibility: hidden; }
 .list.live .m, .list.live .h { display: none; }
 .list.live li.pre .t { color: var(--silver); }
 
+/* "Getting ready" under Live now: its own amber label */
+.pre-h { border-top: 1px solid var(--line); }
+.pre-h .led, .panel-h .led.pre { background: var(--amber); box-shadow: none; }
 /* Inactive page groups */
 .grp-h { display: flex; align-items: center; gap: 0.6rem; margin: 0; padding: 0.7rem 1rem; border-bottom: 1px solid var(--line); background: var(--carbon); font: var(--label); letter-spacing: 0.08em; text-transform: uppercase; color: var(--steel); }
 .grp-h .n { color: var(--silver); }

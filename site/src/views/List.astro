@@ -43,11 +43,16 @@ if (!home) {
       </div>
     )}
 
-    <section class="panel" id="live-sec" aria-labelledby="live-h" hidden={!home}>
-      <h2 class="panel-h" id="live-h"><span class="led on" aria-hidden="true"></span>{t.liveSection} <span class="n" id="live-n"></span></h2>
-      <ol class="list live" id="band"></ol>
-      {home && <p class="none" id="live-none" aria-live="polite">{t.checkingLive}</p>}
-    </section>
+    {home && (
+      <section class="panel" id="live-sec" aria-labelledby="live-h">
+        <h2 class="panel-h" id="live-h"><span class="led on" aria-hidden="true"></span><span id="live-t">{t.liveSection}</span> <span class="n" id="live-n"></span></h2>
+        <ol class="list live" id="band"></ol>
+        <!-- "Getting ready" is never shown as live: its own label and list. -->
+        <h3 class="grp-h pre-h" id="pre-h" hidden><span class="led pre" aria-hidden="true"></span>{t.preliveSection}</h3>
+        <ol class="list live" id="band-pre"></ol>
+        <p class="none" id="live-none" aria-live="polite">{t.checkingLive}</p>
+      </section>
+    )}
 
     <section class="panel" aria-labelledby="list-h">
       <h2 class="panel-h" id="list-h">{home ? t.allSection : text.listHeading} <span class="n">{streamers.length}</span></h2>

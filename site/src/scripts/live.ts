@@ -77,7 +77,11 @@ function start(app: HTMLElement) {
   let segments: Segment[] = [];
   const baseTitle = document.title;
 
-  const band = $('#band'), liveSec = $('#live-sec'), liveN = $('#live-n'), cols = $('#cols');
+  const band = $('#band'), bandPre = $('#band-pre'), preH = $('#pre-h'), liveT = $('#live-t'), liveSec = $('#live-sec'), liveN = $('#live-n'), cols = $('#cols');
+  // Live status is shown on the home page only: the inactive page lists people,
+  // and anyone who goes live moves to the main list within seconds anyway.
+  const showLive = !!band;
+  const shown = (s: Streamer): Streamer => (showLive ? trusted(s) : { ...trusted(s), status: 'offline' });
   const rows = [...app.querySelectorAll<HTMLLIElement>('li[data-login]')];
   // Each row's own list (the inactive page has several groups): rows return there.
   const origin = new Map(rows.map((li) => [li, li.parentElement!]));
@@ -152,15 +156,22 @@ function start(app: HTMLElement) {
       el('.h').title = s?.hours_30d != null ? f('hours30d', { n: Math.round(s.hours_30d) }) : '';
     }
     // Live and getting-ready streamers sit in "Live now"; everyone else below.
-    const lead = rows.filter((li) => statusRank(byLogin.get(li.dataset.login!)) < 2).sort(liveOrder);
-    const tail = rows.filter((li) => !lead.includes(li)).sort(compare);
+    // Live first; "getting ready" in its own list under its own label.
+    const lead = rows.filter((li) => statusRank(byLogin.get(li.dataset.login!)) === 0).sort(liveOrder);
+    const ready = rows.filter((li) => statusRank(byLogin.get(li.dataset.login!)) === 1).sort(liveOrder);
+    const tail = rows.filter((li) => !lead.includes(li) && !ready.includes(li)).sort(compare);
     const same = (list: Element | null, items: HTMLElement[]) => !!list && list.children.length === items.length && items.every((li, i) => list.children[i] === li);
     if (!same(band, lead)) band?.replaceChildren(...lead);
+    if (!same(bandPre, ready)) bandPre?.replaceChildren(...ready);
+    // The heading says "Live now" only when someone is; with only getting-ready
+    // streamers it says that instead.
+    if (liveT) liveT.textContent = !lead.length && ready.length ? ui.preliveSection : ui.liveSection;
+    if (preH) preH.hidden = !ready.length || !lead.length;
     for (const list of new Set(origin.values())) {
       const items = tail.filter((li) => origin.get(li) === list);
       if (!same(list, items)) list.replaceChildren(...items);
     }
-    renderNone(lead.length);
+    renderNone(lead.length, ready.length);
     if (liveN) liveN.textContent = String(lead.filter((li) => li.classList.contains('on')).length || '');
     for (const b of cols?.querySelectorAll<HTMLButtonElement>('button') ?? []) {
       const on = b.dataset.sort === sortKey;
@@ -203,12 +214,14 @@ function start(app: HTMLElement) {
   // Home: when nobody is live, "Live now" says so, and names the next stream
   // from someone with a proven schedule (the same rule as the schedule list).
   const none = $('#live-none');
-  function renderNone(live: number) {
-    if (liveSec) liveSec.hidden = live === 0 && !(none && statusOk);
-    liveSec?.querySelector('.panel-h .led')?.classList.toggle('on', live > 0);
+  function renderNone(live: number, ready = 0) {
+    if (liveSec) liveSec.hidden = live + ready === 0 && !(none && statusOk);
+    const led = liveSec?.querySelector('.panel-h .led');
+    led?.classList.toggle('on', live > 0);
+    led?.classList.toggle('pre', !live && ready > 0);
     if (!none) return;
-    none.hidden = live > 0;
-    if (live > 0) return;
+    none.hidden = live + ready > 0;
+    if (live + ready > 0) return;
     const now = Date.now();
     const next = segments.find((s) => !s.canceled && Date.parse(s.start) > now && Date.parse(s.start) - now < 7 * 864e5);
     const t = next?.track_record;
@@ -219,7 +232,7 @@ function start(app: HTMLElement) {
   }
 
   function renderSchedule(ok: boolean) {
-    renderNone(band?.children.length ?? 0);
+    renderNone(band?.children.length ?? 0, bandPre?.children.length ?? 0);
     if (!sched || !regular) return;
     const now = Date.now();
     // Proven schedules only, not yet started, not live now, next 7 days.
@@ -280,11 +293,11 @@ function start(app: HTMLElement) {
     let raw: Streamer[] = [];
     poller('status.json', 30_000, (text) => {
       // '' = unchanged; still re-check the 20-minute "getting ready" cap and uptimes.
-      if (text === '') { byLogin = new Map(raw.map((s) => [s.login.toLowerCase(), trusted(s)])); refreshTimes(); void renderStatus(); return; }
+      if (text === '') { byLogin = new Map(raw.map((s) => [s.login.toLowerCase(), shown(s)])); refreshTimes(); void renderStatus(); return; }
       try {
         if (!text) throw 0;
         raw = (JSON.parse(text) as { streamers?: Streamer[] }).streamers ?? [];
-        byLogin = new Map(raw.map((s) => [s.login.toLowerCase(), trusted(s)]));
+        byLogin = new Map(raw.map((s) => [s.login.toLowerCase(), shown(s)]));
         statusOk = true;
       } catch {
         // Keep the last good data on a transient failure; say so only if we never had any.
