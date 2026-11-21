@@ -30,7 +30,7 @@ const ld = [{
   mainEntity: { '@type': 'Person', name, url: twitch, sameAs: [twitch, ...(entry.youtube ? [entry.youtube] : [])] },
 }];
 ---
-<Base lang={lang} page="streamer" slug={login} title={name} description={fmt(t.metaDesc, { name })} live noindex={!stats} ogType="profile" jsonLd={ld}>
+<Base lang={lang} page="streamer" slug={login} title={name} description={fmt(t.metaDesc, { name })} live noindex={!stats} ogType="profile" jsonLd={ld} ogImage={stats && active.some((s) => s.login.toLowerCase() === login) ? `${Astro.site!.origin}/og/${encodeURIComponent(login)}.png` : undefined}>
   <div id="sp" class="sp" data-api={API_BASE} data-thumb={THUMB_TEMPLATE} data-ui={JSON.stringify(t)} data-roster={JSON.stringify(listed)} data-base={base} data-login={login} data-built={stats ? '1' : ''}>
     <a class="back" href={pathFor(lang, '')}><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" /></svg>{t.back}</a>
     <header class="sp-head">

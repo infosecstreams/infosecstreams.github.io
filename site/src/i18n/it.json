@@ -27,7 +27,7 @@
     "faqNav": "FAQ",
     "resourcesNav": "Risorse",
     "liveNow": "{n} in diretta ora",
-    "nobodyLive": "Nessuno è in diretta in questo momento.",
+    "nobodyLive": "Nessuno è in diretta adesso.",
     "checking": "Controllo chi è in diretta…",
     "unavailable": "Lo stato delle dirette non è disponibile al momento. L'elenco completo è qui sotto.",
     "live": "In diretta",
@@ -55,7 +55,7 @@
     "streamers": "{n} streamer",
     "keyHint": "Premi / per cercare",
     "startsIn": "inizia {t}",
-    "nextUp": "Prossimo: {name}, {t}",
+    "nextUp": "Prossima diretta in programma:",
     "colHours": "Ore in streaming, ultimi 30 giorni",
     "scheduleHeading": "Programma",
     "watchShort": "Guarda",
@@ -68,7 +68,9 @@
     "rackLabel": "Rack di server: un cassetto per streamer. Le frecce scelgono uno streamer; Invio apre la sua console.",
     "copyLink": "Copia link",
     "linkCopied": "Link copiato",
-    "colHoursShort": "Ore (30 gg)"
+    "colHoursShort": "Ore (30 gg)",
+    "checkingLive": "Controllo chi è in diretta…",
+    "keptOf": "è andato in diretta in {k} delle ultime {t} dirette in programma"
   },
   "home": {
     "title": "Stream InfoSec",
@@ -80,7 +82,11 @@
   "inactive": {
     "title": "Stream InfoSec Inattivi",
     "intro": "Streamer della lista che ultimamente non trasmettono con regolarità. Le ore si riferiscono agli ultimi 30 giorni.",
-    "listHeading": "Streamer"
+    "listHeading": "Streamer",
+    "groupRecent": "Hanno trasmesso negli ultimi 30 giorni",
+    "groupEarlier": "Ultima diretta più di 30 giorni fa",
+    "groupNone": "Nessuna diretta registrata dal {date}",
+    "groupNoneUndated": "Nessuna diretta registrata"
   },
   "credits": {
     "heading": "Crediti",

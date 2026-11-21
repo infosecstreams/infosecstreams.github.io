@@ -1,0 +1,6 @@
+---
+import View from '../../views/ShareConsole.astro';
+import { active } from '../../lib/roster';
+export const getStaticPaths = () => [...new Set(active.map((s) => s.login.toLowerCase()))].map((login) => ({ params: { login } }));
+---
+<View lang="en" login={Astro.params.login as string} />

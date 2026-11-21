@@ -1,0 +1,10 @@
+---
+import View from '../../../views/ShareConsole.astro';
+import { OTHER_LANGS, type Lang } from '../../../lib/i18n';
+import { active } from '../../../lib/roster';
+export const getStaticPaths = () => {
+  const logins = [...new Set(active.map((s) => s.login.toLowerCase()))];
+  return OTHER_LANGS.flatMap((lang) => logins.map((login) => ({ params: { lang, login } })));
+};
+---
+<View lang={Astro.params.lang as Lang} login={Astro.params.login as string} />

@@ -1,0 +1,44 @@
+---
+// /s/<login>: what the console's "Copy link" copies. A link preview shows the
+// streamer (their title, description and image); a visitor is sent straight
+// on to the home page with their console open (?s=<login>).
+import { fmt, pathFor, strings, type Lang } from '../lib/i18n';
+import { active } from '../lib/roster';
+import { statsAtBuild } from '../lib/build-stats';
+interface Props { lang: Lang; login: string; }
+const { lang, login } = Astro.props;
+const t = strings(lang);
+const site = Astro.site!.origin;
+const entry = active.find((s) => s.login.toLowerCase() === login)!;
+const stats = await statsAtBuild(login);
+const name = stats?.display_name || entry.login;
+const to = `${pathFor(lang, '')}?s=${encodeURIComponent(login)}`;
+const title = `${name} · InfoSec Streams`;
+const desc = fmt(t.streamer.metaDesc, { name });
+const img = stats ? `${site}/og/${encodeURIComponent(login)}.png` : `${site}/og.png`;
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="robots" content="noindex" />
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={`${site}${pathFor(lang, 'streamer')}/${encodeURIComponent(login)}`} />
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content="InfoSec Streams" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:url" content={`${site}${pathFor(lang, '')}s/${encodeURIComponent(login)}`} />
+    <meta property="og:image" content={img} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0b0e12" />
+    <meta http-equiv="refresh" content={`0;url=${to}`} />
+    <script is:inline define:vars={{ to }}>location.replace(to);</script>
+    <style>body{margin:0;background:#0b0e12;color:#bababb;font:15px/1.5 system-ui,sans-serif;padding:2rem}a{color:#e4e4e4}</style>
+  </head>
+  <body><a href={to}>{name}</a></body>
+</html>

@@ -4,8 +4,9 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "python3 scripts/rive/build_rack.py src/assets/rive/rack.riv src/assets/rack.svg src/assets/rack.json",
     "build": "astro build",
-    "build:mock": "PUBLIC_API_BASE=/mock-api/ PUBLIC_THUMB_TEMPLATE=/mock-api/thumbs/{login}.svg astro build && node scripts/write-mock.mjs",
+    "build:mock": "python3 scripts/rive/build_rack.py src/assets/rive/rack.riv src/assets/rack.svg src/assets/rack.json && PUBLIC_API_BASE=/mock-api/ PUBLIC_THUMB_TEMPLATE=/mock-api/thumbs/{login}.svg astro build && node scripts/write-mock.mjs",
     "preview": "astro preview",
     "check": "astro check",
     "i18n:migrate": "python3 scripts/migrate-templates.py"
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "0.9.12",
+    "@resvg/resvg-js": "2.6.2",
     "esbuild": "0.28.2",
     "simple-icons": "16.38.0",
     "typescript": "6.0.3"

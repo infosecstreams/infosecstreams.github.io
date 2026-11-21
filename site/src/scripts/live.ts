@@ -77,8 +77,10 @@ function start(app: HTMLElement) {
   let segments: Segment[] = [];
   const baseTitle = document.title;
 
-  const band = $('#band'), rest = $('#rest'), liveSec = $('#live-sec'), liveN = $('#live-n'), cols = $('#cols');
+  const band = $('#band'), liveSec = $('#live-sec'), liveN = $('#live-n'), cols = $('#cols');
   const rows = [...app.querySelectorAll<HTMLLIElement>('li[data-login]')];
+  // Each row's own list (the inactive page has several groups): rows return there.
+  const origin = new Map(rows.map((li) => [li, li.parentElement!]));
   const sched = $('#sched'), regular = $('#regular'), badge = $('#badge');
 
   // ---- sort (column headers; kept in the URL) ----
@@ -154,8 +156,11 @@ function start(app: HTMLElement) {
     const tail = rows.filter((li) => !lead.includes(li)).sort(compare);
     const same = (list: Element | null, items: HTMLElement[]) => !!list && list.children.length === items.length && items.every((li, i) => list.children[i] === li);
     if (!same(band, lead)) band?.replaceChildren(...lead);
-    if (!same(rest, tail)) rest?.replaceChildren(...tail);
-    if (liveSec) liveSec.hidden = lead.length === 0;
+    for (const list of new Set(origin.values())) {
+      const items = tail.filter((li) => origin.get(li) === list);
+      if (!same(list, items)) list.replaceChildren(...items);
+    }
+    renderNone(lead.length);
     if (liveN) liveN.textContent = String(lead.filter((li) => li.classList.contains('on')).length || '');
     for (const b of cols?.querySelectorAll<HTMLButtonElement>('button') ?? []) {
       const on = b.dataset.sort === sortKey;
@@ -195,7 +200,26 @@ function start(app: HTMLElement) {
     if (seq !== renderSeq) return;
   }
 
+  // Home: when nobody is live, "Live now" says so, and names the next stream
+  // from someone with a proven schedule (the same rule as the schedule list).
+  const none = $('#live-none');
+  function renderNone(live: number) {
+    if (liveSec) liveSec.hidden = live === 0 && !(none && statusOk);
+    liveSec?.querySelector('.panel-h .led')?.classList.toggle('on', live > 0);
+    if (!none) return;
+    none.hidden = live > 0;
+    if (live > 0) return;
+    const now = Date.now();
+    const next = segments.find((s) => !s.canceled && Date.parse(s.start) > now && Date.parse(s.start) - now < 7 * 864e5);
+    const t = next?.track_record;
+    none.innerHTML = esc(ui.nobodyLive) + (next && t ? ` <span class="next">${esc(ui.nextUp)} `
+      + `<a href="${PAGE}/${encodeURIComponent(next.login.toLowerCase())}" dir="auto">${name(next)}</a>`
+      + ` · <time datetime="${esc(next.start)}">${esc(`${dayF().format(new Date(next.start))}, ${clock(new Date(next.start))}`)}</time>`
+      + ` · ${esc(f('keptOf', { k: t.kept, t: t.total }))}</span>` : '');
+  }
+
   function renderSchedule(ok: boolean) {
+    renderNone(band?.children.length ?? 0);
     if (!sched || !regular) return;
     const now = Date.now();
     // Proven schedules only, not yet started, not live now, next 7 days.

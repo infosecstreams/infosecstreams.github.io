@@ -27,7 +27,7 @@
     "faqNav": "FAQ",
     "resourcesNav": "Resources",
     "liveNow": "{n} live now",
-    "nobodyLive": "Nobody is live right now.",
+    "nobodyLive": "Nobody's live right now.",
     "checking": "Checking who's live…",
     "unavailable": "Live status is unavailable right now. The full list is below.",
     "live": "Live",
@@ -55,7 +55,7 @@
     "streamers": "{n} streamers",
     "keyHint": "Press / to search",
     "startsIn": "starts {t}",
-    "nextUp": "Next up: {name}, {t}",
+    "nextUp": "Next scheduled:",
     "colHours": "Hours streamed, last 30 days",
     "scheduleHeading": "Schedule",
     "watchShort": "Watch",
@@ -68,7 +68,9 @@
     "rackLabel": "Server rack: one sled per streamer. Arrow keys choose a streamer; Enter opens their console.",
     "copyLink": "Copy link",
     "linkCopied": "Link copied",
-    "colHoursShort": "30-day hours"
+    "colHoursShort": "30-day hours",
+    "checkingLive": "Checking who's live…",
+    "keptOf": "went live for {k} of their last {t} scheduled streams"
   },
   "home": {
     "title": "InfoSec Streams",
@@ -80,7 +82,11 @@
   "inactive": {
     "title": "Inactive InfoSec Streams",
     "intro": "Streamers on the list who haven't been streaming regularly lately. Hours are for the last 30 days.",
-    "listHeading": "Streamers"
+    "listHeading": "Streamers",
+    "groupRecent": "Streamed in the last 30 days",
+    "groupEarlier": "Last live more than 30 days ago",
+    "groupNone": "No streams recorded since {date}",
+    "groupNoneUndated": "No streams recorded"
   },
   "credits": {
     "heading": "Credits",

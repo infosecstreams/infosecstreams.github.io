@@ -3,16 +3,16 @@
 // ready) into the "Live now" list above and fills in the details.
 import { fmt, pathFor, strings, type Lang } from '../lib/i18n';
 import type { Streamer } from '../lib/roster';
-interface Props { lang: Lang; streamers: Streamer[]; }
-const { lang, streamers } = Astro.props;
+interface Props { lang: Lang; streamers: Streamer[]; id?: string; offset?: number; }
+const { lang, streamers, id, offset = 0 } = Astro.props;
 const t = strings(lang).ui;
 const page = pathFor(lang, 'streamer');
 ---
-<ol class="list" id="rest">
+<ol class="list" id={id}>
   {streamers.map((s, i) => {
     const tw = `https://www.twitch.tv/${s.login}`;
     return (
-      <li data-login={s.login.toLowerCase()} data-rank={i}>
+      <li data-login={s.login.toLowerCase()} data-rank={offset + i}>
         <span class="th" aria-hidden="true"></span>
         <span class="who">
           <a class="nm" dir="auto" href={`${page}/${encodeURIComponent(s.login.toLowerCase())}`}>{s.login}</a>

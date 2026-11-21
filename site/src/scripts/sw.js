@@ -1,6 +1,8 @@
 // Service worker, served as /sw.js with a per-deploy version (src/pages/sw.js.ts).
-// - Pages and other same-origin files: stale-while-revalidate, so repeat visits
-//   render from cache instantly while a fresh copy is fetched for next time.
+// - Pages: network first (a cached page may point at assets a later deploy
+//   removed); the cached copy is the fallback when offline or the network is
+//   very slow. Prerender-on-hover keeps navigation instant.
+// - Other same-origin files: stale-while-revalidate.
 // - /_astro/* (content-hashed): cache-first, never revalidated.
 // - The live API (cross-origin p.infosecstreams.com/streamstatus/) is never touched,
 //   so live status is never stale.
@@ -41,13 +43,29 @@ self.addEventListener('fetch', (event) => {
 
   // Filters live in the query string; the page itself doesn't vary with it.
   const key = url.origin + url.pathname;
+  const html = req.mode === 'navigate' || (req.headers.get('accept') || '').includes('text/html');
   event.respondWith((async () => {
     const cache = await caches.open(PAGES);
-    const hit = await cache.match(key);
     const fresh = fetch(req).then((res) => {
       if (res.ok && res.type === 'basic') return cache.put(key, res.clone()).then(() => res);
       return res;
     });
+    // Pages: network first. A saved page can point at script files a later
+    // deploy removed, so it is only served when the network fails or is very
+    // slow (offline, flaky Wi-Fi). Speed comes from prerender-on-hover.
+    if (html) {
+      const slow = new Promise((r) => setTimeout(r, 3000));
+      try {
+        const res = await Promise.race([fresh, slow.then(() => { throw new Error('slow'); })]);
+        return res;
+      } catch {
+        const hit = await cache.match(key);
+        if (hit) { event.waitUntil(fresh.catch(() => {})); return hit; }
+        return fresh;
+      }
+    }
+    // Other files (fonts, images): stale-while-revalidate.
+    const hit = await cache.match(key);
     if (hit) {
       event.waitUntil(fresh.catch(() => {}));
       return hit;

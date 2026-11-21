@@ -55,7 +55,7 @@
     "streamers": "{n} streamers",
     "keyHint": "Appuyez sur / pour rechercher",
     "startsIn": "commence {t}",
-    "nextUp": "Prochain : {name}, {t}",
+    "nextUp": "Prochain stream prévu :",
     "colHours": "Heures de stream, 30 derniers jours",
     "scheduleHeading": "Programme",
     "watchShort": "Regarder",
@@ -68,7 +68,9 @@
     "rackLabel": "Baie serveur : un tiroir par streamer. Les flèches choisissent un streamer ; Entrée ouvre sa console.",
     "copyLink": "Copier le lien",
     "linkCopied": "Lien copié",
-    "colHoursShort": "Heures (30 j)"
+    "colHoursShort": "Heures (30 j)",
+    "checkingLive": "Vérification des streams en direct…",
+    "keptOf": "était en direct pour {k} de ses {t} derniers streams prévus"
   },
   "home": {
     "title": "Streams InfoSec",
@@ -80,7 +82,11 @@
   "inactive": {
     "title": "Streamers Inactifs",
     "intro": "Les streamers de la liste qui ne diffusent plus régulièrement ces derniers temps. Les heures portent sur les 30 derniers jours.",
-    "listHeading": "Streamers"
+    "listHeading": "Streamers",
+    "groupRecent": "Ont streamé ces 30 derniers jours",
+    "groupEarlier": "Dernier direct il y a plus de 30 jours",
+    "groupNone": "Aucun stream enregistré depuis le {date}",
+    "groupNoneUndated": "Aucun stream enregistré"
   },
   "credits": {
     "heading": "Crédits",

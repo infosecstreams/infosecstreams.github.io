@@ -87,7 +87,7 @@ input, select, button { font: inherit; color: inherit; }
   .cols .c-hours .sm { display: inline; }
   .cols .c-hours { padding-inline-end: 0.5rem; }
   .term-body { height: 8rem; }
-  .rack-box { width: min(100%, 254px); margin-inline: auto; }
+  .rack-box { width: min(100%, 230px); margin-inline: auto; }
   .top-in { height: auto; flex-wrap: wrap; padding-top: 0.6rem; }
   .top nav { order: 3; flex-basis: 100%; height: 2.6rem; margin-inline: -0.6rem; }
   .langs { margin-inline-start: auto; }
@@ -125,9 +125,9 @@ input, select, button { font: inherit; color: inherit; }
 @media (prefers-reduced-motion: no-preference) { .caret { animation: caret 1.1s steps(1) infinite; } }
 @keyframes caret { 50% { opacity: 0; } }
 .hero-rack { margin: 0; }
-.rack-box { position: relative; aspect-ratio: 560 / 420; outline: none; container-type: inline-size; }
+.rack-box { position: relative; outline: none; container-type: inline-size; }   /* aspect-ratio: from rack.json, inline */
 /* keyboard focus: a ring that hugs the cabinet (rack.json's frame), not the box */
-.rack-box::after { content: ""; position: absolute; inset: 2.4% 6.4%; border: 1px solid var(--led); border-radius: 3px; opacity: 0; pointer-events: none; }
+.rack-box::after { content: ""; position: absolute; inset: var(--ring); border: 1px solid var(--led); border-radius: 3px; opacity: 0; pointer-events: none; }
 .rack-box:focus-visible::after { opacity: 1; }
 /* name plates on the sleds */
 .rack-names span { position: absolute; display: flex; align-items: center; overflow: hidden; font: 500 1.5cqw/1 var(--mono); letter-spacing: 0.03em; color: #6c7075; white-space: nowrap; pointer-events: none; z-index: 1; }
@@ -317,6 +317,21 @@ html.js #app:not(.ready) .list { visibility: hidden; }
 .list.live .m, .list.live .h { display: none; }
 .list.live li.pre .t { color: var(--silver); }
 
+/* Inactive page groups */
+.grp-h { display: flex; align-items: center; gap: 0.6rem; margin: 0; padding: 0.7rem 1rem; border-bottom: 1px solid var(--line); background: var(--carbon); font: var(--label); letter-spacing: 0.08em; text-transform: uppercase; color: var(--steel); }
+.grp-h .n { color: var(--silver); }
+.list + .grp-h, .list + .grp > .grp-h { border-top: 1px solid var(--line); }
+.grp > summary { cursor: pointer; list-style: none; }
+.grp > summary::-webkit-details-marker { display: none; }
+.grp > summary::after { content: ""; margin-inline-start: auto; width: 0.45rem; height: 0.45rem; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: translateY(-25%) rotate(45deg); transition: transform 0.15s; }
+.grp[open] > summary::after { transform: translateY(25%) rotate(-135deg); }
+.grp > summary:hover { color: var(--bone); }
+/* "Live now" when nobody is: one quiet line, and the next proven stream */
+html:not(.js) #live-sec { display: none; }
+.none { margin: 0; padding: 0.95rem 1rem; color: var(--silver); }
+.none .next { display: block; margin-top: 0.3rem; font: 0.8rem/1.6 var(--mono); color: var(--steel); }
+.none .next a { color: var(--bone); }
+.none[hidden] { display: none; }
 .noscript { margin: 0; padding: 0.75rem 1rem; color: var(--steel); font-size: 0.9rem; border-top: 1px solid var(--line); }
 @media (prefers-reduced-motion: reduce) { .lamp { transition: none; } }
 

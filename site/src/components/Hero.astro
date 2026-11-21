@@ -28,7 +28,7 @@ const t = S.ui;
     </div>
   </div>
   <div class="hero-rack">
-    <div class="rack-box" id="rack-box" tabindex="0" role="application" aria-label={t.rackLabel}>
+    <div class="rack-box" id="rack-box" style={`aspect-ratio:${geo.width}/${geo.height};--ring:${(geo.frame[1] / geo.height) * 100 - 0.8}% ${(geo.frame[0] / geo.width) * 100 - 0.8}%`} tabindex="0" role="application" aria-label={t.rackLabel}>
       <Fragment set:html={rackSvg} />
       <canvas id="rack-c" aria-hidden="true"></canvas>
       <!-- Each sled's name plate (hero.ts fills them in); over the SVG and the canvas alike. -->

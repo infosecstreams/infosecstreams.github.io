@@ -55,7 +55,7 @@
     "streamers": "{n} 位主播",
     "keyHint": "按 / 搜索",
     "startsIn": "{t}开始",
-    "nextUp": "下一场：{name}，{t}",
+    "nextUp": "下一场预定直播：",
     "colHours": "近 30 天直播时长",
     "scheduleHeading": "直播日程",
     "watchShort": "观看",
@@ -68,7 +68,9 @@
     "rackLabel": "服务器机架：每位主播一个托盘。用方向键选择主播，按 Enter 打开其控制台。",
     "copyLink": "复制链接",
     "linkCopied": "链接已复制",
-    "colHoursShort": "30 天时长"
+    "colHoursShort": "30 天时长",
+    "checkingLive": "正在查看谁在直播…",
+    "keptOf": "最近 {t} 次预定直播中开播了 {k} 次"
   },
   "home": {
     "title": "信息流",
@@ -80,7 +82,11 @@
   "inactive": {
     "title": "非活跃主播",
     "intro": "名单中近期没有定期直播的主播。时长为最近 30 天。",
-    "listHeading": "主播"
+    "listHeading": "主播",
+    "groupRecent": "最近 30 天内有直播",
+    "groupEarlier": "上次直播在 30 天前",
+    "groupNone": "自 {date} 起没有直播记录",
+    "groupNoneUndated": "没有直播记录"
   },
   "credits": {
     "heading": "致谢",

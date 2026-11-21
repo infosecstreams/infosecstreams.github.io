@@ -19,8 +19,10 @@ interface Props {
   /** A sub-page of `page`, e.g. a streamer's login: /streamer/<slug>. */
   slug?: string;
   ogType?: string;
+  /** Absolute URL of a page-specific preview image (1200 x 630); default /og.png. */
+  ogImage?: string;
 }
-const { lang, page, title, description, jsonLd = [], live = false, noindex = false, slug, ogType = 'website' } = Astro.props;
+const { lang, page, title, description, jsonLd = [], live = false, noindex = false, slug, ogType = 'website', ogImage } = Astro.props;
 const href = (l: Lang) => pathFor(l, page) + (slug ? `/${encodeURIComponent(slug)}` : '');
 const PLAUSIBLE_HOST = 'p.infosecstreams.com';
 const apiOrigin = /^https?:/.test(API_BASE) ? new URL(API_BASE).origin : '';
@@ -70,7 +72,7 @@ const ld = [
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={`${site}/og.png`} />
+    <meta property="og:image" content={ogImage ?? `${site}/og.png`} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:locale" content={OG_LOCALE[lang]} />

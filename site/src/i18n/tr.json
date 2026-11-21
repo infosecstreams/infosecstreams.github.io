@@ -27,7 +27,7 @@
     "faqNav": "SSS",
     "resourcesNav": "Kaynaklar",
     "liveNow": "Şu anda {n} canlı yayın",
-    "nobodyLive": "Şu anda kimse canlı yayında değil.",
+    "nobodyLive": "Şu anda kimse canlı değil.",
     "checking": "Canlı yayınlar kontrol ediliyor…",
     "unavailable": "Canlı durum şu anda alınamıyor. Tam liste aşağıda.",
     "live": "Canlı",
@@ -55,7 +55,7 @@
     "streamers": "{n} yayıncı",
     "keyHint": "Aramak için / tuşuna basın",
     "startsIn": "{t} başlıyor",
-    "nextUp": "Sıradaki: {name}, {t}",
+    "nextUp": "Sıradaki planlı yayın:",
     "colHours": "Yayın saati, son 30 gün",
     "scheduleHeading": "Program",
     "watchShort": "İzle",
@@ -68,7 +68,9 @@
     "rackLabel": "Sunucu rafı: her yayıncı için bir kızak. Ok tuşlarıyla yayıncı seçin; Enter konsolunu açar.",
     "copyLink": "Bağlantıyı kopyala",
     "linkCopied": "Bağlantı kopyalandı",
-    "colHoursShort": "30 günlük saat"
+    "colHoursShort": "30 günlük saat",
+    "checkingLive": "Kimin canlı olduğu kontrol ediliyor…",
+    "keptOf": "son {t} planlı yayınının {k} tanesinde canlıydı"
   },
   "home": {
     "title": "InfoSec Yayınları",
@@ -80,7 +82,11 @@
   "inactive": {
     "title": "Aktif Olmayan InfoSec Yayınları",
     "intro": "Listede olup son zamanlarda düzenli yayın yapmayan yayıncılar. Saatler son 30 güne aittir.",
-    "listHeading": "Yayıncılar"
+    "listHeading": "Yayıncılar",
+    "groupRecent": "Son 30 günde yayın yaptı",
+    "groupEarlier": "Son canlı yayın 30 günden önce",
+    "groupNone": "{date} tarihinden beri kayıtlı yayın yok",
+    "groupNoneUndated": "Kayıtlı yayın yok"
   },
   "credits": {
     "heading": "Emeği Geçenler",

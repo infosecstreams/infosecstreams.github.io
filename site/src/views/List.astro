@@ -4,7 +4,8 @@
 import Base from '../layouts/Base.astro';
 import Roster from '../components/Roster.astro';
 import Hero from '../components/Hero.astro';
-import { md, pathFor, strings, type Lang } from '../lib/i18n';
+import { fmt, md, pathFor, strings, type Lang } from '../lib/i18n';
+import { statsAtBuild } from '../lib/build-stats';
 import { active, inactive } from '../lib/roster';
 import { API_BASE, CALENDAR_URL, THUMB_TEMPLATE } from '../lib/api';
 
@@ -16,6 +17,22 @@ const home = page === '';
 const streamers = home ? active : inactive;
 const text = home ? all.home : all.inactive;
 const description = home ? all.meta.description : `${all.inactive.title}. ${all.inactive.intro}`;
+// The inactive page, grouped by when each streamer was last live (the bot's
+// stats at build time): streamed in the last 30 days; earlier; and nothing
+// recorded since recording began (collapsed). Without stats: one list.
+let groups: (typeof inactive)[] | null = null, since = '';
+if (!home) {
+  const st = await Promise.all(inactive.map((s) => statsAtBuild(s.login.toLowerCase())));
+  if (st.some(Boolean)) {
+    groups = [[], [], []];
+    inactive.forEach((s, i) => {
+      const x = st[i];
+      groups![(x?.hours?.['30d'] ?? 0) > 0 ? 0 : x?.last_live_at ? 1 : 2].push(s);
+    });
+    const rec = st.find((x) => x?.recording_since)?.recording_since;
+    since = rec ? new Intl.DateTimeFormat(lang, { year: 'numeric', month: 'long', day: 'numeric' }).format(new Date(rec)) : '';
+  }
+}
 ---
 <Base lang={lang} page={page} title={home ? 'InfoSec Streams' : text.title} description={description} live>
   <div id="app" data-page={pathFor(lang, 'streamer')} data-api={API_BASE} data-thumb={THUMB_TEMPLATE} data-ui={JSON.stringify(t)}>
@@ -26,9 +43,10 @@ const description = home ? all.meta.description : `${all.inactive.title}. ${all.
       </div>
     )}
 
-    <section class="panel" id="live-sec" aria-labelledby="live-h" hidden>
+    <section class="panel" id="live-sec" aria-labelledby="live-h" hidden={!home}>
       <h2 class="panel-h" id="live-h"><span class="led on" aria-hidden="true"></span>{t.liveSection} <span class="n" id="live-n"></span></h2>
       <ol class="list live" id="band"></ol>
+      {home && <p class="none" id="live-none" aria-live="polite">{t.checkingLive}</p>}
     </section>
 
     <section class="panel" aria-labelledby="list-h">
@@ -38,7 +56,20 @@ const description = home ? all.meta.description : `${all.inactive.title}. ${all.
         <button type="button" data-sort="hours" class="c-hours" aria-pressed="true"><span class="lg">{t.colHours}</span><span class="sm">{t.colHoursShort}</span><svg class="ar" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 4l3-3 3 3M2 6l3 3 3-3" /></svg></button>
       </div>
       <p class="status" id="badge" role="status"></p>
-      <Roster lang={lang} streamers={streamers} />
+      {groups ? (
+        <>
+          {groups[0].length > 0 && <h3 class="grp-h">{all.inactive.groupRecent} <span class="n">{groups[0].length}</span></h3>}
+          <Roster lang={lang} streamers={groups[0]} id="rest" />
+          {groups[1].length > 0 && <h3 class="grp-h">{all.inactive.groupEarlier} <span class="n">{groups[1].length}</span></h3>}
+          <Roster lang={lang} streamers={groups[1]} offset={groups[0].length} />
+          {groups[2].length > 0 && (
+            <details class="grp">
+              <summary class="grp-h">{since ? fmt(all.inactive.groupNone, { date: since }) : all.inactive.groupNoneUndated} <span class="n">{groups[2].length}</span></summary>
+              <Roster lang={lang} streamers={groups[2]} offset={groups[0].length + groups[1].length} />
+            </details>
+          )}
+        </>
+      ) : <Roster lang={lang} streamers={streamers} id="rest" />}
       <noscript><p class="noscript">{t.noScript}</p></noscript>
     </section>
 

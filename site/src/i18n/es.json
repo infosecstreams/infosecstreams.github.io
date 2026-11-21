@@ -55,7 +55,7 @@
     "streamers": "{n} streamers",
     "keyHint": "Pulsa / para buscar",
     "startsIn": "empieza {t}",
-    "nextUp": "A continuación: {name}, {t}",
+    "nextUp": "Próximo programado:",
     "colHours": "Horas emitidas, últimos 30 días",
     "scheduleHeading": "Calendario",
     "watchShort": "Ver",
@@ -68,7 +68,9 @@
     "rackLabel": "Rack de servidores: una bandeja por streamer. Las flechas eligen un streamer; Enter abre su consola.",
     "copyLink": "Copiar enlace",
     "linkCopied": "Enlace copiado",
-    "colHoursShort": "Horas (30 días)"
+    "colHoursShort": "Horas (30 días)",
+    "checkingLive": "Comprobando quién está en directo…",
+    "keptOf": "salió en directo en {k} de sus últimas {t} emisiones programadas"
   },
   "home": {
     "title": "Streams de InfoSec",
@@ -80,7 +82,11 @@
   "inactive": {
     "title": "Streamers Inactivos",
     "intro": "Streamers de la lista que no han transmitido con regularidad últimamente. Las horas son de los últimos 30 días.",
-    "listHeading": "Streamers"
+    "listHeading": "Streamers",
+    "groupRecent": "Transmitieron en los últimos 30 días",
+    "groupEarlier": "En directo por última vez hace más de 30 días",
+    "groupNone": "Sin transmisiones registradas desde el {date}",
+    "groupNoneUndated": "Sin transmisiones registradas"
   },
   "credits": {
     "heading": "Créditos",

@@ -309,7 +309,8 @@ function startHero(hero: HTMLElement) {
     const b = (e.target as Element).closest<HTMLButtonElement>('.con-share');
     const s = list[con.index];
     if (!b || !s) return;
-    const url = `${location.origin}${location.pathname}?s=${encodeURIComponent(s.login.toLowerCase())}`;
+    // /s/<login>: a page whose link preview shows this streamer, then opens their console
+    const url = `${location.origin}${location.pathname.replace(/\/?$/, '/')}s/${encodeURIComponent(s.login.toLowerCase())}`;
     const done = () => { const l = b.querySelector('span')!; l.textContent = f('linkCopied'); setTimeout(() => { l.textContent = f('copyLink'); }, 2000); };
     if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, () => prompt('', url));
     else prompt('', url);

@@ -55,7 +55,7 @@
     "streamers": "{n} Streamer",
     "keyHint": "Drücke / zum Suchen",
     "startsIn": "beginnt {t}",
-    "nextUp": "Als Nächstes: {name}, {t}",
+    "nextUp": "Als Nächstes geplant:",
     "colHours": "Gestreamte Stunden, letzte 30 Tage",
     "scheduleHeading": "Zeitplan",
     "watchShort": "Ansehen",
@@ -68,7 +68,9 @@
     "rackLabel": "Server-Rack: ein Einschub pro Streamer. Mit den Pfeiltasten wählst du einen Streamer, Enter öffnet seine Konsole.",
     "copyLink": "Link kopieren",
     "linkCopied": "Link kopiert",
-    "colHoursShort": "Stunden (30 T.)"
+    "colHoursShort": "Stunden (30 T.)",
+    "checkingLive": "Prüfe, wer live ist…",
+    "keptOf": "war bei {k} der letzten {t} geplanten Streams live"
   },
   "home": {
     "title": "InfoSec Streams",
@@ -80,7 +82,11 @@
   "inactive": {
     "title": "Inaktive InfoSec-Streams",
     "intro": "Streamer auf der Liste, die in letzter Zeit nicht regelmäßig gestreamt haben. Stunden beziehen sich auf die letzten 30 Tage.",
-    "listHeading": "Streamer"
+    "listHeading": "Streamer",
+    "groupRecent": "In den letzten 30 Tagen gestreamt",
+    "groupEarlier": "Zuletzt vor mehr als 30 Tagen live",
+    "groupNone": "Keine Streams seit {date} aufgezeichnet",
+    "groupNoneUndated": "Keine Streams aufgezeichnet"
   },
   "credits": {
     "heading": "Danksagung",

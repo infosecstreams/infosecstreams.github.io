@@ -69,13 +69,31 @@ def argb(hexrgb, a=255):
     return (a << 24) | int(hexrgb.lstrip('#'), 16)
 
 # ---- scene ----
-W, H = 560, 420
-COLS, ROWS = 2, 22
-FRAME_X, FRAME_Y, FRAME_W, FRAME_H = 40, 14, 480, 392
+# The rack follows the roster: one sled per active streamer (streamers.csv, read
+# at build time), two columns, between MIN_ROWS and MAX_ROWS rows so the
+# picture always reads as a rack (a short roster leaves empty sleds; a long one
+# fills the rack, and the page gives sleds to the most active first). Above the
+# sleds: two top-of-rack switches cabled into a horizontal cable manager.
+import csv, random
+ROSTER_DIR = os.environ.get('ROSTER_DIR', os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..'))
+try:
+    N_ACTIVE = sum(1 for r in csv.reader(open(os.path.join(ROSTER_DIR, 'streamers.csv'))) if r and r[0].strip())
+except OSError:
+    N_ACTIVE = 44
+MIN_ROWS, MAX_ROWS = 16, 28
+COLS = 2
+ROWS = max(MIN_ROWS, min(MAX_ROWS, -(-N_ACTIVE // COLS)))
+TOP_U = 3                      # switch, switch, cable manager
+U, SLED_H = 17, 15             # pitch per rack unit; sled face height
+W = 560
+FRAME_X, FRAME_Y, FRAME_W = 40, 14, 480
+FRAME_H = 10 + (TOP_U + ROWS) * U - 2 + 10
+H = FRAME_Y * 2 + FRAME_H
 RAIL = 22                      # rail width each side, with mounting holes
 GAP = 6
 SLED_W = (FRAME_W - 2 * RAIL - GAP * (COLS + 1)) / COLS
-SLED_H = (FRAME_H - 2 * 10 - 2 * (ROWS - 1)) / ROWS
+TOP_Y = FRAME_Y + 10                     # first unit
+SLEDS_Y = TOP_Y + TOP_U * U              # first sled row
 # the bar sits right of the name plate (the page writes names there: .rack-names)
 NAME_X, NAME_W = 22, 92
 BAR_X, BAR_W, BAR_H = 120, SLED_W - 120 - 14, 4
@@ -108,15 +126,15 @@ rect_shape(frame, 'cabinet', FRAME_X, FRAME_Y, FRAME_W, FRAME_H, fill=CARBON, st
 for side in (0, 1):
     rx = FRAME_X + (0 if side == 0 else FRAME_W - RAIL)
     rect_shape(frame, f'rail{side}', rx, FRAME_Y, RAIL, FRAME_H, fill=GRAPHITE, stroke=LINE)
-    for u in range(ROWS):
-        hy = FRAME_Y + 10 + u * (SLED_H + 2) + SLED_H / 2 - 1.5
+    for u in range(TOP_U + ROWS):
+        hy = TOP_Y + u * U + SLED_H / 2 - 1.5
         rect_shape(frame, f'hole{side}_{u}', rx + RAIL / 2 - 2, hy, 4, 3, fill=VOID)
 
 rack = add('Node', 0, name='rack', x=0, y=0)
 for i in range(COLS * ROWS):
     col, row = i % COLS, i // COLS
     sx = FRAME_X + RAIL + GAP + col * (SLED_W + GAP)
-    sy = FRAME_Y + 10 + row * (SLED_H + 2)
+    sy = SLEDS_Y + row * U
     sled = add('Node', rack, name=f'sled{i}', x=sx, y=sy)
     rect_shape(sled, f'face{i}', 0, 0, SLED_W, SLED_H, fill=VOID, stroke=LINE)
     dot(sled, f'led{i}', 11, SLED_H / 2, 5, LINE_HI)
@@ -128,6 +146,53 @@ for i in range(COLS * ROWS):
     # two vent slits at the right edge
     for v in range(2):
         rect_shape(sled, f'vent{i}_{v}', SLED_W - 10 + v * 4, 3, 1.5, SLED_H - 6, fill=GRAPHITE)
+
+# ---- top of rack: two switches, patch cables, a cable manager ----
+rng = random.Random(7)                    # same picture on every build
+TX, TW = FRAME_X + RAIL + GAP, 2 * SLED_W + GAP
+PORT_W, PORT_H, PITCH = 6, 4.5, 8
+tor = add('Node', 0, name='tor', x=0, y=0)
+flicker = []                              # port LEDs that flicker: (group, name, x, y, colour)
+ports = []                                # (x, y, switch) of patched ports
+for k in range(2):
+    sy = TOP_Y + k * U
+    sw = add('Node', tor, name=f'switch{k}', x=TX, y=sy)
+    rect_shape(sw, f'swface{k}', 0, 0, TW, SLED_H, fill=VOID, stroke=LINE)
+    dot(sw, f'swpwr{k}', 8, 4.5, 3, LED_DIM)
+    dot(sw, f'swsys{k}', 8, 10.5, 3, LED, 160)
+    for b in range(3):                    # three blocks of 12 x 2 copper ports
+        bx = 18 + b * (12 * PITCH + 10)
+        for c in range(12):
+            for r in range(2):
+                px, py = bx + c * PITCH, 2.5 + r * (PORT_H + 1.5)
+                rect_shape(sw, f'p{k}_{b}_{c}_{r}', px, py, PORT_W, PORT_H, fill='#050608', stroke=LINE)
+                if rng.random() < 0.62:
+                    ports.append((TX + px + PORT_W / 2, sy + py + PORT_H, k))
+                    col = AMBER if rng.random() < 0.06 else LED
+                    if rng.random() < 0.55:
+                        flicker.append((rng.randrange(4), f'pl{k}_{b}_{c}_{r}', TX + px + PORT_W - 2, sy + py + 0.6, col))
+                    else:
+                        rect_shape(sw, f'pl{k}_{b}_{c}_{r}', px + PORT_W - 2, py + 0.6, 1.6, 1.2, fill=col)
+    sx0 = 18 + 3 * (12 * PITCH + 10) + 4
+    for f in range(4):                    # SFP uplinks
+        rect_shape(sw, f'sfp{k}_{f}', sx0 + f * 13, 3.5, 11, 8, fill='#050608', stroke=LINE_HI)
+        ports.append((TX + sx0 + f * 13 + 5.5, sy + 11.5, k + 2))
+    rect_shape(sw, f'swvent{k}', TW - 14, 3, 8, SLED_H - 6, fill=GRAPHITE)
+blink = [add('Node', 0, name=f'blink{k}', x=0, y=0) for k in range(4)]  # keyed by the 'ports' animation
+for g, name, x, y, col in flicker:
+    rect_shape(blink[g], name, x, y, 1.6, 1.2, fill=col)
+# patch cables: from each patched port straight down into the manager
+cab = add('Node', 0, name='cables', x=0, y=0)
+MAN_Y = TOP_Y + 2 * U
+CABLE = ['#2b3138', '#343b44', '#262b31', '#30363d']
+for i, (cx, cy, k) in enumerate(ports):
+    col = '#1f4d45' if k >= 2 else CABLE[i % len(CABLE)]
+    rect_shape(cab, f'cab{i}', cx - 0.8, cy, 1.6, MAN_Y + 6 - cy, fill=col)
+man = add('Node', 0, name='manager', x=TX, y=MAN_Y)
+rect_shape(man, 'manface', 0, 0, TW, SLED_H, fill=GRAPHITE, stroke=LINE)
+for f in range(16):
+    rect_shape(man, f'finger{f}', 10 + f * ((TW - 20) / 16), 3, 2, SLED_H - 6, fill=CARBON)
+rect_shape(man, 'brush', 6, SLED_H / 2 - 1, TW - 12, 2, fill='#07090b')
 
 scan = add('Node', 0, name='scan', x=0, y=FRAME_Y + 10)
 rect_shape(scan, 'scanglow', FRAME_X + RAIL, -6, FRAME_W - 2 * RAIL, 12, fill=LED, fill_a=14)
@@ -194,7 +259,7 @@ unit(cdeck, 'dkLip', '#20242a')         # the tray's front lip
 unit(cdeck, 'dkLipHi', LINE_HI)
 for n in ('dkL', 'dkR'): unit(cdeck, n, LINE)
 keys = add('Node', cdeck, name='keys', x=0, y=0)
-U = 1000 / 15.5
+KU = 1000 / 15.5            # one key unit on the console keyboard
 rows = [  # (height, [key widths in units; negative = gap])
     (22, [1, -.5, 1, 1, 1, 1, -.25, 1, 1, 1, 1, -.25, 1, 1, 1, 1, -.25, 1.25]),
     (30, [1] * 13 + [2.5]),
@@ -207,8 +272,8 @@ y = 0
 for r, (h, ws) in enumerate(rows):
     x = 0
     for k, w in enumerate(ws):
-        if w < 0: x += -w * U; continue
-        kw = w * U
+        if w < 0: x += -w * KU; continue
+        kw = w * KU
         box(keys, f'kb{r}_{k}', x + 2, y, kw - 4, h, KEY_BASE, r=3)
         box(keys, f'kc{r}_{k}', x + 4, y + 1, kw - 8, h - 6, KEY_CAP, r=3)
         box(keys, f'kt{r}_{k}', x + 5, y + 1, kw - 10, 3, KEY_TOP, r=1)
@@ -302,14 +367,29 @@ def write(path):
     o.obj('KeyFrameDouble', frame=0, value=FRAME_Y + 10, interpolationType=1)
     o.obj('KeyFrameDouble', frame=dur // 2, value=FRAME_Y + FRAME_H - 10, interpolationType=1)
     o.obj('KeyFrameDouble', frame=dur, value=FRAME_Y + 10, interpolationType=1)
-    # state machine: entry -> idle (loops)
+    # animation 1: ports — switch link LEDs flicker with traffic, 4 groups on
+    # their own irregular rhythms (holds made with paired keyframes), 4 s loop
+    pdur = 240
+    o.obj('LinearAnimation', name='ports', fps=fps, duration=pdur, loopValue=1)
+    prng = random.Random(11)
+    for g in blink:
+        o.obj('KeyedObject', objectId=newidx[g])
+        o.obj('KeyedProperty', propertyKey=defs.cls('Node')['props']['opacity'][0])
+        f, on = 0, True
+        while f < pdur:
+            o.obj('KeyFrameDouble', frame=f, value=1 if on else 0.15, interpolationType=0)
+            f += prng.choice((3, 4, 6, 9, 14, 22))
+            on = not on
+        o.obj('KeyFrameDouble', frame=pdur, value=1, interpolationType=0)
+    # state machine: two layers, entry -> idle (scan) and entry -> ports
     o.obj('StateMachine', name='Rack')
-    o.obj('StateMachineLayer', name='Layer 1')
-    o.obj('EntryState')                       # state 0
-    o.obj('StateTransition', stateToId=3)     #   -> idle
-    o.obj('AnyState')                         # state 1
-    o.obj('ExitState')                        # state 2
-    o.obj('AnimationState', animationId=0)    # state 3
+    for name, anim in (('Layer 1', 0), ('Layer 2', 1)):
+        o.obj('StateMachineLayer', name=name)
+        o.obj('EntryState')                       # state 0
+        o.obj('StateTransition', stateToId=3)     #   -> the animation
+        o.obj('AnyState')                         # state 1
+        o.obj('ExitState')                        # state 2
+        o.obj('AnimationState', animationId=anim) # state 3
     # The console: no timeline; hero.ts lays it out and moves it with springs.
     o.obj('Artboard', name='Console', width=1, height=1, originX=0, originY=0, clip=False)
     emit(o, CONSOLE)
@@ -371,8 +451,8 @@ def write_geometry(path):
     sleds = []
     for i in range(COLS * ROWS):
         col, row = i % COLS, i // COLS
-        sleds.append([round(FRAME_X + RAIL + GAP + col * (SLED_W + GAP), 2), round(FRAME_Y + 10 + row * (SLED_H + 2), 2)])
-    json.dump({'width': W, 'height': H, 'sledW': SLED_W, 'sledH': SLED_H, 'sleds': sleds, 'name': [NAME_X, NAME_W]}, open(path, 'w'))
+        sleds.append([round(FRAME_X + RAIL + GAP + col * (SLED_W + GAP), 2), round(SLEDS_Y + row * U, 2)])
+    json.dump({'width': W, 'height': H, 'sledW': SLED_W, 'sledH': SLED_H, 'sleds': sleds, 'name': [NAME_X, NAME_W], 'frame': [FRAME_X, FRAME_Y, FRAME_W, FRAME_H]}, open(path, 'w'))
 
 if __name__ == '__main__':
     riv, svg, geo = sys.argv[1], sys.argv[2], sys.argv[3]
