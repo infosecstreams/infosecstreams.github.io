@@ -27,7 +27,7 @@
     "faqNav": "FAQ",
     "resourcesNav": "संसाधन",
     "liveNow": "अभी {n} लाइव",
-    "nobodyLive": "अभी कोई लाइव नहीं है।",
+    "nobodyLive": "",
     "checking": "देख रहे हैं कि कौन लाइव है…",
     "unavailable": "लाइव स्थिति अभी उपलब्ध नहीं है। पूरी सूची नीचे है।",
     "live": "लाइव",
@@ -55,7 +55,7 @@
     "streamers": "{n} स्ट्रीमर्स",
     "keyHint": "खोजने के लिए / दबाएं",
     "startsIn": "{t} शुरू",
-    "nextUp": "अगला: {name}, {t}",
+    "nextUp": "",
     "colHours": "स्ट्रीम किए गए घंटे, पिछले 30 दिन",
     "scheduleHeading": "शेड्यूल",
     "watchShort": "देखें",
@@ -68,7 +68,9 @@
     "rackLabel": "सर्वर रैक: हर स्ट्रीमर के लिए एक स्लेड। ऐरो कीज़ से स्ट्रीमर चुनें; Enter से उनका कंसोल खुलता है।",
     "copyLink": "लिंक कॉपी करें",
     "linkCopied": "लिंक कॉपी हो गया",
-    "colHoursShort": ""
+    "colHoursShort": "",
+    "checkingLive": "",
+    "keptOf": ""
   },
   "home": {
     "title": "InfoSec स्ट्रीम्स",
@@ -80,7 +82,11 @@
   "inactive": {
     "title": "निष्क्रिय स्ट्रीमर्स",
     "intro": "",
-    "listHeading": ""
+    "listHeading": "",
+    "groupRecent": "",
+    "groupEarlier": "",
+    "groupNone": "",
+    "groupNoneUndated": ""
   },
   "credits": {
     "heading": "क्रेडिट्स",
