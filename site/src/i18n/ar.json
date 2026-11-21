@@ -20,10 +20,12 @@
     "colActivity": "النشاط",
     "colLinks": "الروابط",
     "liveSection": "مباشر الآن",
+    "preliveSection": "",
     "skip": "انتقل إلى القائمة",
     "language": "اللغة",
     "home": "البث",
     "inactiveNav": "غير النشط",
+    "statsNav": "",
     "faqNav": "الأسئلة الشائعة",
     "resourcesNav": "الموارد",
     "liveNow": "{n} في بث مباشر الآن",
@@ -57,6 +59,7 @@
     "startsIn": "يبدأ {t}",
     "nextUp": "",
     "colHours": "ساعات البث، آخر 30 يومًا",
+    "colLastLive": "",
     "scheduleHeading": "الجدول",
     "watchShort": "شاهد",
     "allSection": "كل صانعي المحتوى",
@@ -70,7 +73,9 @@
     "linkCopied": "تم نسخ الرابط",
     "colHoursShort": "",
     "checkingLive": "",
-    "keptOf": ""
+    "keptOf": "",
+    "termLabel": "",
+    "termHint": ""
   },
   "home": {
     "title": "بث InfoSec",
@@ -224,5 +229,29 @@
     "peakShort": "ذروة",
     "metaDesc": "يبث {name} محتوى أمن المعلومات على Twitch. حالة البث المباشر، وساعات البث، والأوقات المعتادة للبث، والبثوث الأخيرة، والتسجيلات والمقاطع.",
     "moved": "نُقلت هذه الصفحة: افتح صفحة صانع المحتوى من القائمة."
+  },
+  "stats": {
+    "title": "",
+    "lede": "",
+    "totals": "",
+    "hours30": "",
+    "streams30": "",
+    "active30": "",
+    "watched30": "",
+    "hours7": "",
+    "raids30": "",
+    "top": "",
+    "nStreams": "",
+    "when": "",
+    "topics": "",
+    "streaks": "",
+    "streaksNote": "",
+    "weeks": "",
+    "raids": "",
+    "raidsNote": "",
+    "raided": "",
+    "viewersN": "",
+    "clips": "",
+    "views": ""
   }
 }
