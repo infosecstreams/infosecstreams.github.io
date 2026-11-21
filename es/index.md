@@ -54,6 +54,7 @@ Los streamers que no han tenido actividad en el último mes se han movido a la p
 &nbsp; | `OffSecOfficial` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/OffSecOfficial) &nbsp; |
 &nbsp; | `kinslay3r` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/kinslay3r) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@kinslay3r) |
 &nbsp; | `NahamSec` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/NahamSec) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/c/Nahamsec)
+🟢 | `freshforensics` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/freshforensics "Talk Shows & Podcasts, Tags: English, DropsEnabled") &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@DouglasHabian-tq5ck)| EN
 
 
 ### Créditos

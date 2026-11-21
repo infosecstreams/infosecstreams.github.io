@@ -106,7 +106,6 @@ Hallo! Diese Seite enthält Streamer die im letzten Monat nicht gestreamt wurden
 `Flangvik` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Flangvik) &nbsp;
 `Fluxxset` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/Fluxxset) &nbsp;
 `footpics4sale` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/footpics4sale) &nbsp;
-`freshforensics` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/freshforensics) &nbsp; [<i class="fab fa-youtube" style="color:#C00"></i>](https://www.youtube.com/@DouglasHabian-tq5ck)
 `FroMastr` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/FroMastr) &nbsp;
 `fungus_cyberpenguin` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/fungus_cyberpenguin) &nbsp;
 `g0lden1_` | [<i class="fab fa-twitch" style="color:#9146FF"></i>](https://www.twitch.tv/g0lden1_) &nbsp;
