@@ -67,19 +67,20 @@
     "livePlayer": "Live de {name}",
     "rackLabel": "Baie serveur : un tiroir par streamer. Les flèches choisissent un streamer ; Entrée ouvre sa console.",
     "copyLink": "Copier le lien",
-    "linkCopied": "Lien copié"
+    "linkCopied": "Lien copié",
+    "colHoursShort": ""
   },
   "home": {
     "title": "Streams InfoSec",
-    "intro": "Félicitations ! Vous avez trouvé une liste de flux Twitch activement maintenue en relation avec la sécurité de l'information. Cette liste est `triée` en fonction de `30 jours` pour vous aider à trouver plus facilement les flux actifs!",
+    "intro": "",
     "inactiveNote": "Les streamers qui n'ont pas eu d'activité au cours du dernier mois sont déplacés vers la page des [streamers inactifs](/inactive).",
     "questions": "Des questions ? Des contributions ? Autre chose ? Veuillez lire la [FAQ](/faq) !",
     "listHeading": "Liste des Streams (triée)"
   },
   "inactive": {
     "title": "Streamers Inactifs",
-    "intro": "Bonjour ! Cette page contient des streamers qui n'ont pas été diffusés au cours du mois dernier.",
-    "listHeading": "Streams"
+    "intro": "",
+    "listHeading": ""
   },
   "credits": {
     "heading": "Crédits",
