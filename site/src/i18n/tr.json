@@ -20,10 +20,12 @@
     "colActivity": "Etkinlik",
     "colLinks": "Bağlantılar",
     "liveSection": "Şu anda canlı",
+    "preliveSection": "",
     "skip": "Listeye geç",
     "language": "Dil",
     "home": "Yayınlar",
     "inactiveNav": "Pasif",
+    "statsNav": "",
     "faqNav": "SSS",
     "resourcesNav": "Kaynaklar",
     "liveNow": "Şu anda {n} canlı yayın",
@@ -57,6 +59,7 @@
     "startsIn": "{t} başlıyor",
     "nextUp": "",
     "colHours": "Yayın saati, son 30 gün",
+    "colLastLive": "",
     "scheduleHeading": "Program",
     "watchShort": "İzle",
     "allSection": "Tüm yayıncılar",
@@ -70,7 +73,9 @@
     "linkCopied": "Bağlantı kopyalandı",
     "colHoursShort": "",
     "checkingLive": "",
-    "keptOf": ""
+    "keptOf": "",
+    "termLabel": "",
+    "termHint": ""
   },
   "home": {
     "title": "InfoSec Yayınları",
@@ -224,5 +229,29 @@
     "peakShort": "zirve",
     "metaDesc": "{name}, Twitch'te bilgi güvenliği yayınları yapıyor. Canlı durum, yayın saatleri, genelde ne zaman canlı olduğu, son yayınlar, VOD'lar ve klipler.",
     "moved": "Bu sayfa taşındı: yayıncının sayfasını listeden açın."
+  },
+  "stats": {
+    "title": "",
+    "lede": "",
+    "totals": "",
+    "hours30": "",
+    "streams30": "",
+    "active30": "",
+    "watched30": "",
+    "hours7": "",
+    "raids30": "",
+    "top": "",
+    "nStreams": "",
+    "when": "",
+    "topics": "",
+    "streaks": "",
+    "streaksNote": "",
+    "weeks": "",
+    "raids": "",
+    "raidsNote": "",
+    "raided": "",
+    "viewersN": "",
+    "clips": "",
+    "views": ""
   }
 }
