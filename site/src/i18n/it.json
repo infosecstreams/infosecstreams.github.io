@@ -64,7 +64,10 @@
     "sortedBy": "Ordina per {col}",
     "close": "Chiudi",
     "allStats": "Tutte le statistiche",
-    "livePlayer": "Live di {name}"
+    "livePlayer": "Live di {name}",
+    "rackLabel": "Rack di server: un cassetto per streamer. Le frecce scelgono uno streamer; Invio apre la sua console.",
+    "copyLink": "Copia link",
+    "linkCopied": "Link copiato"
   },
   "home": {
     "title": "Stream InfoSec",
@@ -211,6 +214,8 @@
     "loading": "Caricamento…",
     "noScript": "Attiva JavaScript per vedere le statistiche di questo streamer.",
     "avgShort": "media",
-    "peakShort": "picco"
+    "peakShort": "picco",
+    "metaDesc": "{name} trasmette contenuti di sicurezza informatica su Twitch. Stato live, ore in streaming, quando è di solito in live, stream recenti, VOD e clip.",
+    "moved": "Questa pagina è stata spostata: apri la pagina dello streamer dalla lista."
   }
 }

@@ -64,7 +64,10 @@
     "sortedBy": "Sortieren nach {col}",
     "close": "Schließen",
     "allStats": "Alle Statistiken",
-    "livePlayer": "Livestream von {name}"
+    "livePlayer": "Livestream von {name}",
+    "rackLabel": "Server-Rack: ein Einschub pro Streamer. Mit den Pfeiltasten wählst du einen Streamer, Enter öffnet seine Konsole.",
+    "copyLink": "Link kopieren",
+    "linkCopied": "Link kopiert"
   },
   "home": {
     "title": "InfoSec Streams",
@@ -211,6 +214,8 @@
     "loading": "Lädt…",
     "noScript": "Aktiviere JavaScript, um die Statistiken dieses Streamers zu sehen.",
     "avgShort": "Ø",
-    "peakShort": "max."
+    "peakShort": "max.",
+    "metaDesc": "{name} streamt Informationssicherheit auf Twitch. Live-Status, gestreamte Stunden, übliche Streamzeiten, letzte Streams, VODs und Clips.",
+    "moved": "Diese Seite ist umgezogen: Öffne die Seite des Streamers über die Liste."
   }
 }

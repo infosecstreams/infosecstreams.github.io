@@ -64,7 +64,10 @@
     "sortedBy": "Sırala: {col}",
     "close": "Kapat",
     "allStats": "Tüm istatistikler",
-    "livePlayer": "{name} canlı yayını"
+    "livePlayer": "{name} canlı yayını",
+    "rackLabel": "Sunucu rafı: her yayıncı için bir kızak. Ok tuşlarıyla yayıncı seçin; Enter konsolunu açar.",
+    "copyLink": "Bağlantıyı kopyala",
+    "linkCopied": "Bağlantı kopyalandı"
   },
   "home": {
     "title": "InfoSec Yayınları",
@@ -211,6 +214,8 @@
     "loading": "Yükleniyor…",
     "noScript": "Bu yayıncının istatistiklerini görmek için JavaScript'i açın.",
     "avgShort": "ort.",
-    "peakShort": "zirve"
+    "peakShort": "zirve",
+    "metaDesc": "{name}, Twitch'te bilgi güvenliği yayınları yapıyor. Canlı durum, yayın saatleri, genelde ne zaman canlı olduğu, son yayınlar, VOD'lar ve klipler.",
+    "moved": "Bu sayfa taşındı: yayıncının sayfasını listeden açın."
   }
 }

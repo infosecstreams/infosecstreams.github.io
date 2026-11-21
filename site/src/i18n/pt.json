@@ -64,7 +64,10 @@
     "sortedBy": "Ordenar por {col}",
     "close": "Fechar",
     "allStats": "Todas as estatísticas",
-    "livePlayer": "Live de {name}"
+    "livePlayer": "Live de {name}",
+    "rackLabel": "Rack de servidores: uma gaveta por streamer. As setas escolhem um streamer; Enter abre o console dele.",
+    "copyLink": "Copiar link",
+    "linkCopied": "Link copiado"
   },
   "home": {
     "title": "Streams de InfoSec",
@@ -211,6 +214,8 @@
     "loading": "Carregando…",
     "noScript": "Ative o JavaScript para ver as estatísticas deste streamer.",
     "avgShort": "média",
-    "peakShort": "pico"
+    "peakShort": "pico",
+    "metaDesc": "{name} faz lives sobre segurança da informação na Twitch. Status ao vivo, horas transmitidas, quando costuma estar ao vivo, lives recentes, VODs e clipes.",
+    "moved": "Esta página mudou de lugar: abra a página do streamer pela lista."
   }
 }

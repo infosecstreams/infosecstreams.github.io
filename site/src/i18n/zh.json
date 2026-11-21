@@ -64,7 +64,10 @@
     "sortedBy": "按{col}排序",
     "close": "关闭",
     "allStats": "全部数据",
-    "livePlayer": "{name} 的直播"
+    "livePlayer": "{name} 的直播",
+    "rackLabel": "服务器机架：每位主播一个托盘。用方向键选择主播，按 Enter 打开其控制台。",
+    "copyLink": "复制链接",
+    "linkCopied": "链接已复制"
   },
   "home": {
     "title": "信息流",
@@ -211,6 +214,8 @@
     "loading": "加载中…",
     "noScript": "启用 JavaScript 以查看该主播的数据。",
     "avgShort": "平均",
-    "peakShort": "峰值"
+    "peakShort": "峰值",
+    "metaDesc": "{name} 在 Twitch 直播信息安全内容。直播状态、直播时长、常见开播时间、最近直播、录像和剪辑。",
+    "moved": "此页面已迁移：请从列表中打开主播页面。"
   }
 }

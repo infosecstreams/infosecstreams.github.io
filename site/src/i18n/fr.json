@@ -64,7 +64,10 @@
     "sortedBy": "Trier par {col}",
     "close": "Fermer",
     "allStats": "Toutes les stats",
-    "livePlayer": "Live de {name}"
+    "livePlayer": "Live de {name}",
+    "rackLabel": "Baie serveur : un tiroir par streamer. Les flèches choisissent un streamer ; Entrée ouvre sa console.",
+    "copyLink": "Copier le lien",
+    "linkCopied": "Lien copié"
   },
   "home": {
     "title": "Streams InfoSec",
@@ -211,6 +214,8 @@
     "loading": "Chargement…",
     "noScript": "Activez JavaScript pour voir les stats de ce streamer.",
     "avgShort": "moy.",
-    "peakShort": "pic"
+    "peakShort": "pic",
+    "metaDesc": "{name} streame sur la sécurité de l’information sur Twitch. Statut en direct, heures de stream, horaires habituels, streams récents, VOD et clips.",
+    "moved": "Cette page a été déplacée : ouvrez la page du streamer depuis la liste."
   }
 }
