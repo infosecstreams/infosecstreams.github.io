@@ -67,7 +67,8 @@
     "livePlayer": "Live di {name}",
     "rackLabel": "Rack di server: un cassetto per streamer. Le frecce scelgono uno streamer; Invio apre la sua console.",
     "copyLink": "Copia link",
-    "linkCopied": "Link copiato"
+    "linkCopied": "Link copiato",
+    "colHoursShort": "Ore (30 gg)"
   },
   "home": {
     "title": "Stream InfoSec",
@@ -78,8 +79,8 @@
   },
   "inactive": {
     "title": "Stream InfoSec Inattivi",
-    "intro": "Ciao! Questa pagina contiene gli streamer che non hanno trasmesso nell'ultimo mese.",
-    "listHeading": "Stream"
+    "intro": "Streamer della lista che ultimamente non trasmettono con regolarità. Le ore si riferiscono agli ultimi 30 giorni.",
+    "listHeading": "Streamer"
   },
   "credits": {
     "heading": "Crediti",

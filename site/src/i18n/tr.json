@@ -67,7 +67,8 @@
     "livePlayer": "{name} canlı yayını",
     "rackLabel": "Sunucu rafı: her yayıncı için bir kızak. Ok tuşlarıyla yayıncı seçin; Enter konsolunu açar.",
     "copyLink": "Bağlantıyı kopyala",
-    "linkCopied": "Bağlantı kopyalandı"
+    "linkCopied": "Bağlantı kopyalandı",
+    "colHoursShort": "30 günlük saat"
   },
   "home": {
     "title": "InfoSec Yayınları",
@@ -78,8 +79,8 @@
   },
   "inactive": {
     "title": "Aktif Olmayan InfoSec Yayınları",
-    "intro": "Merhaba! Bu sayfa son bir ay içinde yayın yapmamış yayıncıları içerir.",
-    "listHeading": "Streams"
+    "intro": "Listede olup son zamanlarda düzenli yayın yapmayan yayıncılar. Saatler son 30 güne aittir.",
+    "listHeading": "Yayıncılar"
   },
   "credits": {
     "heading": "Emeği Geçenler",

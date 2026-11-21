@@ -67,7 +67,8 @@
     "livePlayer": "Live de {name}",
     "rackLabel": "Baie serveur : un tiroir par streamer. Les flèches choisissent un streamer ; Entrée ouvre sa console.",
     "copyLink": "Copier le lien",
-    "linkCopied": "Lien copié"
+    "linkCopied": "Lien copié",
+    "colHoursShort": "Heures (30 j)"
   },
   "home": {
     "title": "Streams InfoSec",
@@ -78,8 +79,8 @@
   },
   "inactive": {
     "title": "Streamers Inactifs",
-    "intro": "Bonjour ! Cette page contient des streamers qui n'ont pas été diffusés au cours du mois dernier.",
-    "listHeading": "Streams"
+    "intro": "Les streamers de la liste qui ne diffusent plus régulièrement ces derniers temps. Les heures portent sur les 30 derniers jours.",
+    "listHeading": "Streamers"
   },
   "credits": {
     "heading": "Crédits",

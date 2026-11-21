@@ -67,7 +67,8 @@
     "livePlayer": "Livestream von {name}",
     "rackLabel": "Server-Rack: ein Einschub pro Streamer. Mit den Pfeiltasten wählst du einen Streamer, Enter öffnet seine Konsole.",
     "copyLink": "Link kopieren",
-    "linkCopied": "Link kopiert"
+    "linkCopied": "Link kopiert",
+    "colHoursShort": "Stunden (30 T.)"
   },
   "home": {
     "title": "InfoSec Streams",
@@ -78,8 +79,8 @@
   },
   "inactive": {
     "title": "Inaktive InfoSec-Streams",
-    "intro": "Hallo! Diese Seite enthält Streamer die im letzten Monat nicht gestreamt wurden.",
-    "listHeading": "Streams"
+    "intro": "Streamer auf der Liste, die in letzter Zeit nicht regelmäßig gestreamt haben. Stunden beziehen sich auf die letzten 30 Tage.",
+    "listHeading": "Streamer"
   },
   "credits": {
     "heading": "Danksagung",

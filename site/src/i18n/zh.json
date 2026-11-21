@@ -67,7 +67,8 @@
     "livePlayer": "{name} 的直播",
     "rackLabel": "服务器机架：每位主播一个托盘。用方向键选择主播，按 Enter 打开其控制台。",
     "copyLink": "复制链接",
-    "linkCopied": "链接已复制"
+    "linkCopied": "链接已复制",
+    "colHoursShort": "30 天时长"
   },
   "home": {
     "title": "信息流",
@@ -78,8 +79,8 @@
   },
   "inactive": {
     "title": "非活跃主播",
-    "intro": "你好！ 这个页面包含未在上个月流中流入。",
-    "listHeading": "流"
+    "intro": "名单中近期没有定期直播的主播。时长为最近 30 天。",
+    "listHeading": "主播"
   },
   "credits": {
     "heading": "致谢",

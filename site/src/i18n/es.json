@@ -67,7 +67,8 @@
     "livePlayer": "Directo de {name}",
     "rackLabel": "Rack de servidores: una bandeja por streamer. Las flechas eligen un streamer; Enter abre su consola.",
     "copyLink": "Copiar enlace",
-    "linkCopied": "Enlace copiado"
+    "linkCopied": "Enlace copiado",
+    "colHoursShort": "Horas (30 días)"
   },
   "home": {
     "title": "Streams de InfoSec",
@@ -78,8 +79,8 @@
   },
   "inactive": {
     "title": "Streamers Inactivos",
-    "intro": "¡Hola! Esta página contiene streamers que no han transmitido en el último mes.",
-    "listHeading": "Streams"
+    "intro": "Streamers de la lista que no han transmitido con regularidad últimamente. Las horas son de los últimos 30 días.",
+    "listHeading": "Streamers"
   },
   "credits": {
     "heading": "Créditos",
