@@ -20,10 +20,12 @@
     "colActivity": "动态",
     "colLinks": "链接",
     "liveSection": "正在直播",
+    "preliveSection": "",
     "skip": "跳到列表",
     "language": "语言",
     "home": "直播",
     "inactiveNav": "不活跃",
+    "statsNav": "",
     "faqNav": "常见问题",
     "resourcesNav": "资源",
     "liveNow": "{n} 人正在直播",
@@ -57,6 +59,7 @@
     "startsIn": "{t}开始",
     "nextUp": "",
     "colHours": "近 30 天直播时长",
+    "colLastLive": "",
     "scheduleHeading": "直播日程",
     "watchShort": "观看",
     "allSection": "全部主播",
@@ -70,7 +73,9 @@
     "linkCopied": "链接已复制",
     "colHoursShort": "",
     "checkingLive": "",
-    "keptOf": ""
+    "keptOf": "",
+    "termLabel": "",
+    "termHint": ""
   },
   "home": {
     "title": "信息流",
@@ -224,5 +229,29 @@
     "peakShort": "峰值",
     "metaDesc": "{name} 在 Twitch 直播信息安全内容。直播状态、直播时长、常见开播时间、最近直播、录像和剪辑。",
     "moved": "此页面已迁移：请从列表中打开主播页面。"
+  },
+  "stats": {
+    "title": "",
+    "lede": "",
+    "totals": "",
+    "hours30": "",
+    "streams30": "",
+    "active30": "",
+    "watched30": "",
+    "hours7": "",
+    "raids30": "",
+    "top": "",
+    "nStreams": "",
+    "when": "",
+    "topics": "",
+    "streaks": "",
+    "streaksNote": "",
+    "weeks": "",
+    "raids": "",
+    "raidsNote": "",
+    "raided": "",
+    "viewersN": "",
+    "clips": "",
+    "views": ""
   }
 }
