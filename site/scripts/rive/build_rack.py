@@ -18,9 +18,9 @@ named nodes the page drives through the low-level API (artboard.node(name)):
   bar{i}          30-day activity bar, scaleX = share of the most active streamer
 plus sel (the selection bracket that follows the cursor), selbar (its bright
 bar), scan (a slow scan line, animated by the 'idle' animation the 'Rack'
-state machine plays) and con, the console a clicked sled slides out as: hole
-(its empty slot), scrim, deck, lid (screen, glow) and cfront (the drawer front,
-which hero.ts moves out of the slot); the 'open' animation keys the rest.
+state machine plays) and hole (the empty slot a clicked sled leaves).
+Second artboard, 'Console': the rack console a clicked sled slides out as,
+built from unit pieces hero.ts lays out at any size (see below).
 usage: build_rack.py <out.riv> <out.svg> <out.json>
   run from site/: python3 scripts/rive/build_rack.py public/rive/rack.riv src/assets/rack.svg src/assets/rack.json
 """
@@ -138,56 +138,70 @@ rect_shape(selbar, 'selbarfill', 0, 0, BAR_W, BAR_H, fill=LED)
 for cx, cy in ((-3, -3), (SLED_W + 3, -3), (-3, SLED_H + 3), (SLED_W + 3, SLED_H + 3)):
     rect_shape(sel, f'tick{cx}{cy}', cx - 1.5, cy - 1.5, 3, 3, fill=LED)
 
-# ---- console: the sled that slides out when a sled is clicked ----
-# A rack-mount KVM console: the 1U drawer front travels out of its slot
-# (hero.ts moves and scales 'cfront' from the slot to here), the keyboard deck
-# extends behind it and the screen lid lifts on its hinge; the 'open'
-# animation below keys the deck, lid, scrim and backlight. The page lays its
-# HTML screen over 'cscreen' (CON in rack.json).
-CW, CX = 420, 70
-FRONT_Y, FRONT_H = 330, 24
-DECK_H, LID_H, BEZEL = 26, 254, 12
-HINGE = FRONT_Y - DECK_H
-SX, SY = CW / SLED_W, FRONT_H / SLED_H          # front = a sled at console size
+# ---- console ----
+# Clicking a sled slides it out as a rack-mount console that leaves the rack and
+# fills most of the window. In the rack only its empty slot ('hole') is drawn;
+# the console itself is a second artboard, 'Console', on a full-window canvas.
 con = add('Node', 0, name='con', x=0, y=0, scaleX=0, scaleY=0)
 hole = add('Node', con, name='hole', x=0, y=0)
 rect_shape(hole, 'holeface', 0, 0, SLED_W, SLED_H, fill='#050608', stroke=LINE)
-scrim = add('Node', con, name='scrim', x=0, y=0, opacity=0)
-rect_shape(scrim, 'scrimfill', 0, 0, W, H, fill=VOID, fill_a=225)
-deck = add('Node', con, name='deck', x=CX, y=FRONT_Y, scaleY=0)
-rect_shape(deck, 'deckface', 0, -DECK_H, CW, DECK_H, fill=CARBON, stroke=LINE)
-for r in range(2):
-    for k in range(24):
-        kx = 30 + k * 15
-        rect_shape(deck, f'key{r}_{k}', kx, -DECK_H + 5 + r * 9, 12, 6, fill=GRAPHITE)
-lid = add('Node', con, name='lid', x=CX, y=HINGE, scaleY=0)
-rect_shape(lid, 'bezel', 0, -LID_H, CW, LID_H, fill=GRAPHITE, stroke=LINE_HI)
-rect_shape(lid, 'cscreen', BEZEL, -LID_H + BEZEL, CW - 2 * BEZEL, LID_H - 2 * BEZEL - 2, fill='#07090c', stroke=LINE)
-glow = add('Node', lid, name='glow', x=0, y=0, opacity=0)
-rect_shape(glow, 'glowfill', BEZEL + 1, -LID_H + BEZEL + 1, CW - 2 * BEZEL - 2, LID_H - 2 * BEZEL - 4, fill=LED, fill_a=9)
-dot(glow, 'power', CW - BEZEL - 2, -BEZEL / 2 - 1, 4, LED)
-front = add('Node', con, name='cfront', x=CX, y=FRONT_Y)
-rect_shape(front, 'cface', 0, 0, CW, FRONT_H, fill=VOID, stroke=LINE_HI)
-for hx in (-7, CW):
-    rect_shape(front, f'handle{hx}', hx, 3, 7, FRONT_H - 6, fill=GRAPHITE, stroke=LINE)
-dot(front, 'cled', 11 * SX, FRONT_H / 2, 8, LINE_HI)
-chalo = dot(front, 'con_on', 11 * SX, FRONT_H / 2, 18, LED, 60)
-dot(chalo, 'con_oncore', 0, 0, 8, LED)
-dot(front, 'con_pre', 11 * SX, FRONT_H / 2, 8, AMBER)
-rect_shape(front, 'ctrack', BAR_X * SX, FRONT_H / 2 - 3, BAR_W * SX, 6, fill=GRAPHITE)
-rect_shape(front, 'con_bar', BAR_X * SX, FRONT_H / 2 - 3, BAR_W * SX, 6, fill=LED)
-CON = {'x': CX + BEZEL, 'y': HINGE - LID_H + BEZEL, 'w': CW - 2 * BEZEL, 'h': LID_H - 2 * BEZEL - 2,
-       'front': [CX, FRONT_Y], 'sx': SX, 'sy': SY, 'open': 0.6, 'travel': 0.3}
 
-scan_idx = scan
+RACK = comps
+comps = []
+# The Console artboard is built from unit squares and unit circles with fills
+# only (no strokes, hairlines are 1-unit rects), so hero.ts can lay it out at
+# any size by setting each named piece's x, y and scale: crisp at every width,
+# from a phone to a wide monitor. Units are CSS pixels. Nodes:
+#   lid   hinge at the deck's top edge; scaleY 0..1 lifts it
+#   deck  keyboard tray; scaleY 0..1 pulls it out
+#   front the drawer front: a sled at console size (LED, 30-day bar, handles)
+def unit(parent, name, color, a=255):
+    sh = add('Shape', parent, name=name, x=0, y=0)
+    add('Rectangle', sh, width=1, height=1, originX=0, originY=0)
+    f = add('Fill', sh); add('SolidColor', f, colorValue=argb(color, a))
+    return sh
+def unit_dot(parent, name, color, a=255):
+    sh = add('Shape', parent, name=name, x=0, y=0)
+    add('Ellipse', sh, width=1, height=1)
+    f = add('Fill', sh); add('SolidColor', f, colorValue=argb(color, a))
+    return sh
+croot = add('Node', 0, name='console', x=0, y=0)
+cdeck = add('Node', croot, name='deck', x=0, y=0, scaleY=0)
+unit(cdeck, 'dk', CARBON)
+for n in ('dkL', 'dkR'): unit(cdeck, n, LINE)
+keys = add('Node', cdeck, name='keys', x=0, y=0)
+for r in range(3):
+    for k in range(26 - (r == 2) * 6):
+        sh = add('Shape', keys, name=f'k{r}_{k}', x=k * 34 + (r == 2) * 102, y=r * 11)
+        add('Rectangle', sh, width=30 if not (r == 2 and k == 7) else 30, height=8, originX=0, originY=0)
+        f = add('Fill', sh); add('SolidColor', f, colorValue=argb(GRAPHITE))
+clid = add('Node', croot, name='lid', x=0, y=0, scaleY=0)
+unit(clid, 'bz', GRAPHITE)
+unit(clid, 'scr', '#07090c')
+for n in ('scT', 'scB', 'scL', 'scR'): unit(clid, n, LINE)
+for n in ('bzT', 'bzL', 'bzR'): unit(clid, n, LINE_HI)
+unit_dot(clid, 'pwr', LED)
+cfront = add('Node', croot, name='front', x=0, y=0)
+for n in ('hdl0', 'hdl1'): unit(cfront, n, GRAPHITE)
+unit(cfront, 'fc', VOID)
+for n in ('fcT', 'fcB', 'fcL', 'fcR'): unit(cfront, n, LINE_HI)
+for n in ('v0', 'v1', 'v2'): unit(cfront, n, GRAPHITE)
+unit(cfront, 'trk', GRAPHITE)
+unit(cfront, 'bar', LED)
+unit_dot(cfront, 'led', LINE_HI)
+halo = unit_dot(cfront, 'on', LED, 60)
+sh = add('Shape', halo, name='oncore', x=0, y=0)
+add('Ellipse', sh, width=0.45, height=0.45)
+f = add('Fill', sh); add('SolidColor', f, colorValue=argb(LED))
+unit_dot(cfront, 'pre', AMBER)
+CONSOLE = comps
+comps = RACK
 
-def write(path):
-    o = Out()
-    o.obj('Backboard')
-    o.obj('Artboard', name='Rack', width=W, height=H, originX=0, originY=0, clip=True, defaultStateMachineId=0)
-    # Rive paints earlier drawables on top; the scene above is built back to
-    # front, so emit sibling Nodes/Shapes in reverse (paths and paints keep
-    # their order) and re-index parents.
+
+def emit(o, comps):
+    """Emit one artboard's components. Rive paints earlier drawables on top;
+    scenes here are built back to front, so sibling Nodes/Shapes are emitted
+    in reverse (paths and paints keep their order) and parents re-indexed."""
     kids = {}
     for i, (typ, props, parent) in enumerate(comps, start=1):
         kids.setdefault(parent, []).append(i)
@@ -200,34 +214,24 @@ def write(path):
             order.append(c); visit(c)
     visit(0)
     newidx = {old: n for n, old in enumerate(order, start=1)}; newidx[0] = 0
-    global scan_idx
-    scan_idx = newidx[scan]
-    write.newidx = newidx
     for old in order:
         typ, props, parent = comps[old - 1]
         o.obj(typ, parentId=newidx[parent], **props)
+    return newidx
+
+def write(path):
+    o = Out()
+    o.obj('Backboard')
+    o.obj('Artboard', name='Rack', width=W, height=H, originX=0, originY=0, clip=True, defaultStateMachineId=0)
+    newidx = emit(o, RACK)
     # animation 0: idle — the scan line sweeps the rack top to bottom and back, 12 s
     fps, dur = 60, 720
     o.obj('LinearAnimation', name='idle', fps=fps, duration=dur, loopValue=1)
-    o.obj('KeyedObject', objectId=scan_idx)
+    o.obj('KeyedObject', objectId=newidx[scan])
     o.obj('KeyedProperty', propertyKey=defs.cls('Node')['props']['y'][0])
     o.obj('KeyFrameDouble', frame=0, value=FRAME_Y + 10, interpolationType=1)
     o.obj('KeyFrameDouble', frame=dur // 2, value=FRAME_Y + FRAME_H - 10, interpolationType=1)
     o.obj('KeyFrameDouble', frame=dur, value=FRAME_Y + 10, interpolationType=1)
-    # animation 1: open — scrim, deck, lid and backlight (hero.ts scrubs it,
-    # forwards to open and backwards to close, and moves the front itself)
-    dur = 36
-    o.obj('LinearAnimation', name='open', fps=fps, duration=dur, loopValue=0)
-    ease = lambda u: 1 - (1 - u) ** 3
-    def keyed(node, prop, f0, f1, v0, v1, cls='Node'):
-        o.obj('KeyedObject', objectId=newidx[node])
-        o.obj('KeyedProperty', propertyKey=defs.cls(cls)['props'][prop][0])
-        for f in range(f0, f1 + 1, 2):
-            o.obj('KeyFrameDouble', frame=f, value=v0 + (v1 - v0) * ease((f - f0) / (f1 - f0)), interpolationType=1)
-    keyed(scrim, 'opacity', 0, 18, 0, 1)
-    keyed(deck, 'scaleY', 8, 18, 0, 1)
-    keyed(lid, 'scaleY', 14, 30, 0, 1)
-    keyed(glow, 'opacity', 26, 36, 0, 1)
     # state machine: entry -> idle (loops)
     o.obj('StateMachine', name='Rack')
     o.obj('StateMachineLayer', name='Layer 1')
@@ -236,6 +240,9 @@ def write(path):
     o.obj('AnyState')                         # state 1
     o.obj('ExitState')                        # state 2
     o.obj('AnimationState', animationId=0)    # state 3
+    # The console: no timeline; hero.ts lays it out and moves it with springs.
+    o.obj('Artboard', name='Console', width=1, height=1, originX=0, originY=0, clip=False)
+    emit(o, CONSOLE)
     open(path, 'wb').write(bytes(o.buf))
     return len(o.buf)
 
@@ -295,7 +302,7 @@ def write_geometry(path):
     for i in range(COLS * ROWS):
         col, row = i % COLS, i // COLS
         sleds.append([round(FRAME_X + RAIL + GAP + col * (SLED_W + GAP), 2), round(FRAME_Y + 10 + row * (SLED_H + 2), 2)])
-    json.dump({'width': W, 'height': H, 'sledW': SLED_W, 'sledH': SLED_H, 'sleds': sleds, 'con': CON}, open(path, 'w'))
+    json.dump({'width': W, 'height': H, 'sledW': SLED_W, 'sledH': SLED_H, 'sleds': sleds}, open(path, 'w'))
 
 if __name__ == '__main__':
     riv, svg, geo = sys.argv[1], sys.argv[2], sys.argv[3]

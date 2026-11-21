@@ -1,4 +1,6 @@
 import { SESSIONS } from './sessions';
+import { makeConsole } from './console';
+import type { RiveGlobal, RvArtboard, RvNode, RvRenderer, RvRuntime, RvSM } from './rv';
 // Home hero: the rack, drawn with Rive's low-level renderer (the rivekit route:
 // RuntimeLoader -> rt.load -> artboardByName -> StateMachineInstance ->
 // makeRenderer, and we draw every frame ourselves). The high-level Rive() API
@@ -8,33 +10,14 @@ import { SESSIONS } from './sessions';
 // One sled per listed streamer, in a random slot. live.ts sends the data in a
 // 'streams' event; this script lights LEDs, sizes bars, follows the cursor and
 // prints the record for the sled under it into the terminal (real text).
-// Clicking a sled slides it out as a rack console: the drawer front travels out
-// of its slot (moved here), the deck and lid unfold (the .riv's 'open'
-// animation, scrubbed forwards to open and backwards to close), and the
-// streamer's card shows on the console's screen (HTML laid over it).
+// Clicking a sled slides it out of the rack as a console that fills most of
+// the window (console.ts); the streamer's card shows on its screen.
 
 interface Streamer {
   login: string; display_name?: string; status: 'online' | 'prelive' | 'offline';
   title?: string; category?: string; language?: string; viewers?: number; started_at?: string; hours_30d?: number;
 }
-interface Bounds { minX: number; minY: number; maxX: number; maxY: number }
-interface RvNode { x: number; y: number; scaleX: number; scaleY: number }
-interface RvArtboard { bounds: Bounds; advance(dt: number): void; draw(r: RvRenderer): void; node(n: string): RvNode; stateMachineByName(n: string): unknown; animationByName(n: string): unknown }
-interface RvAnim { time: number; apply(mix: number): void }
-interface RvSM { advance(dt: number): void }
-interface RvRenderer { clear(): void; save(): void; restore(): void; flush(): void; align(fit: unknown, al: unknown, frame: Bounds, b: Bounds): void }
-interface RvRuntime {
-  load(b: Uint8Array): Promise<{ artboardByName(n: string): RvArtboard }>;
-  makeRenderer(c: HTMLCanvasElement, useOffscreen?: boolean): RvRenderer;
-  StateMachineInstance: new (sm: unknown, ab: RvArtboard) => RvSM;
-  LinearAnimationInstance: new (a: unknown, ab: RvArtboard) => RvAnim;
-  Fit: { contain: unknown }; Alignment: { center: unknown };
-  requestAnimationFrame(cb: (t: number) => void): number;
-  resolveAnimationFrame?: () => void;
-}
-interface RiveGlobal { RuntimeLoader: { setWasmUrl(u: string): void; getInstance(cb: (rt: RvRuntime) => void): void } }
-interface Con { x: number; y: number; w: number; h: number; front: [number, number]; sx: number; sy: number; open: number; travel: number }
-interface Geo { width: number; height: number; sledW: number; sledH: number; sleds: [number, number][]; con: Con }
+interface Geo { width: number; height: number; sledW: number; sledH: number; sleds: [number, number][] }
 
 const hero = document.getElementById('hero');
 if (hero) startHero(hero);
@@ -66,10 +49,10 @@ function startHero(hero: HTMLElement) {
     }
     maxH = Math.max(1, ...list.map((s) => s?.hours_30d ?? 0));
     paintNodes();
-    // the card on an open console follows the live data
-    const s = list[conIdx];
+    // the card on an open console follows the live data (not while a player runs)
+    const s = con && con.index >= 0 ? list[con.index] : undefined;
     const key = s ? `${s.status}|${s.viewers}|${s.title}|${s.category}` : '';
-    if (s && conDir >= 0 && key !== conKey) { conKey = key; fill(); }
+    if (s && key !== conKey && !scr.querySelector('iframe')) { conKey = key; fill(con.index); }
     kick();
   });
 
@@ -183,128 +166,143 @@ function startHero(hero: HTMLElement) {
   const thumb = (login: string, w: number, h: number) =>
     THUMB.replace('{login}', encodeURIComponent(login)).replace('{w}', String(w)).replace('{h}', String(h))
     + (/^https:/.test(THUMB) ? `?t=${Math.floor(Date.now() / 300000)}` : '');
-  interface Stats { last_live_at?: string; streams_30d?: number; median_stream_hours_30d?: number; avg_stream_hours_30d?: number; stream_days_per_week_30d?: number; avg_viewers_30d?: number }
   const stats = new Map<string, Promise<Stats | null>>();
   const statsFor = (login: string) => {
     if (!stats.has(login)) stats.set(login, fetch(`${API}stats/${encodeURIComponent(login)}.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null));
     return stats.get(login)!;
   };
   const pagePath = hero.dataset.page!;
-  let conIdx = -1;        // the sled that is out (or on its way), -1: none
-  let conT = 0;           // seconds into the 'open' animation
-  let conDir = 0;         // +1 opening, -1 closing, 0 at rest
   let conKey = '';
-  const CON = geo.con;
+  interface Stats {
+    last_live_at?: string; streams_30d?: number; median_stream_hours_30d?: number; avg_stream_hours_30d?: number;
+    stream_days_per_week_30d?: number; avg_viewers_30d?: number; followers?: number; peak_viewers_30d?: number;
+    recent_streams?: { started_at: string; ended_at?: string; hours: number; categories?: string[] }[];
+  }
+  const day = new Intl.DateTimeFormat(lang, { weekday: 'short', month: 'short', day: 'numeric' });
+  const n0 = (x?: number) => (x == null ? '—' : numF.format(x));
+  const icon = (id: string) => `<svg class="ic" aria-hidden="true"><use href="#i-${id}"/></svg>`;
 
+  // The screen: who it is, what they are doing now, and the last 30 days.
   function card(s: Streamer, st?: Stats | null) {
     const login = s.login.toLowerCase();
     const name = esc(s.display_name || s.login);
     const row = app.querySelector(`li[data-login="${CSS.escape(login)}"]`);
     const tw = row?.querySelector<HTMLAnchorElement>('a.tw'), yt = row?.querySelector<HTMLAnchorElement>('a.yt[href]');
-    const kv = (k: string, v: string) => `<dt>${esc(k)}</dt><dd>${v}</dd>`;
+    const kv = (k: string, v: string) => `<div><dt>${esc(k)}</dt><dd>${v}</dd></div>`;
     const state = s.status === 'online'
       ? `<span class="con-st on"><i class="led"></i>${esc(f('live'))}</span>`
       : s.status === 'prelive' ? `<span class="con-st pre"><i class="led pre"></i>${esc(f('prelive'))}</span>`
         : `<span class="con-st">${esc(f('offline'))}</span>`;
-    let body = '';
+    const recent = (st?.recent_streams ?? []).slice(0, 4).map((r) =>
+      `<li><span>${esc(day.format(new Date(r.started_at)))}</span><span>${esc(dur(r.hours * 36e5))}</span><span>${esc(r.categories?.find((c) => !/backfill/i.test(c)) ?? '')}</span></li>`).join('');
+    const rec = recent ? `<div class="con-rec"><h3>${esc(f('recent'))}</h3><ol>${recent}</ol></div>` : '';
+    let now = '';
     if (s.status !== 'offline') {
       const meta = [s.category, s.language ? names?.of(s.language) ?? s.language : ''].filter(Boolean).map((x) => esc(x)).join(' · ');
       const live = s.status === 'online'
         ? [s.viewers != null ? esc(f('viewers', { n: numF.format(s.viewers) })) : '', s.started_at ? esc(f('upFor', { t: dur(Date.now() - Date.parse(s.started_at)) })) : ''].filter(Boolean).join(' · ')
         : '';
-      body = `<div class="con-live">${s.status === 'online'
-        ? `<img class="con-th" src="${esc(thumb(login, 320, 180))}" srcset="${esc(thumb(login, 640, 360))} 2x" width="320" height="180" alt="" decoding="async">` : ''}
-        <div class="con-d"><p class="con-t">${esc(s.title || '')}</p><p class="con-m">${meta}</p>${live ? `<p class="con-m">${live}</p>` : ''}</div></div>
-        <dl class="con-kv">${kv(f('h30'), hrs(s.hours_30d))}</dl>`;
+      now = `<div class="con-now">${s.status === 'online'
+        ? `<div class="con-pl"><img src="${esc(thumb(login, 640, 360))}" srcset="${esc(thumb(login, 1280, 720))} 2x" width="640" height="360" alt="" decoding="async">
+            <button class="con-play" type="button" hidden><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M3 1.5v9l7.5-4.5z"/></svg>${esc(f('watchHere'))}</button></div>` : ''}
+        <div class="con-d"><p class="con-t">${esc(s.title || '')}</p><p class="con-m">${meta}</p>${live ? `<p class="con-m">${live}</p>` : ''}${rec}</div></div>`;
     } else {
-      body = `<p class="con-m con-last">${st === undefined ? esc(f('loading')) : st?.last_live_at ? esc(f('lastLive', { t: ago(st.last_live_at) })) : esc(f('neverLive'))}</p>
-      <dl class="con-kv">
-        ${kv(f('h30'), hrs(s.hours_30d))}
-        ${st ? kv(f('streams30'), st.streams_30d != null ? numF.format(st.streams_30d) : '—') : ''}
-        ${st ? kv(f('avgLen'), hrs(st.median_stream_hours_30d ?? st.avg_stream_hours_30d)) : ''}
-        ${st ? kv(f('daysWeek'), st.stream_days_per_week_30d != null ? numF.format(st.stream_days_per_week_30d) : '—') : ''}
-      </dl>`;
+      now = `<p class="con-last">${st === undefined ? esc(f('loading')) : st?.last_live_at ? esc(f('lastLive', { t: ago(st.last_live_at) })) : esc(f('neverLive'))}</p>${rec}`;
     }
-    const icon = (id: string) => `<svg class="ic" aria-hidden="true"><use href="#i-${id}"/></svg>`;
+    const facts = `<dl class="con-kv">
+        ${kv(f('h30'), hrs(s.hours_30d))}
+        ${kv(f('streams30'), n0(st?.streams_30d))}
+        ${kv(f('avgLen'), hrs(st?.median_stream_hours_30d ?? st?.avg_stream_hours_30d))}
+        ${kv(f('daysWeek'), n0(st?.stream_days_per_week_30d))}
+        ${kv(f('avgViewers'), n0(st?.avg_viewers_30d))}
+        ${kv(f('followers'), n0(st?.followers))}
+      </dl>`;
     return `<div class="con-top"><h2 class="con-n" id="con-n">${name}</h2>${state}
         <button class="con-x" type="button" aria-label="${esc(f('close'))}"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8"/></svg></button></div>
-      <div class="con-body">${body}</div>
+      <div class="con-body">${now}${facts}</div>
       <div class="con-ft"><a class="con-go" href="${pagePath}?u=${encodeURIComponent(login)}">${esc(f('allStats'))} <span aria-hidden="true">→</span></a>
         <span class="lk">${tw ? `<a class="tw" href="${esc(tw.href)}" target="_blank" rel="noopener" aria-label="${esc(tw.getAttribute('aria-label') || 'Twitch')}">${icon('twitch')}</a>` : ''}
         ${yt ? `<a class="yt" href="${esc(yt.href)}" target="_blank" rel="noopener" aria-label="${esc(yt.getAttribute('aria-label') || 'YouTube')}">${icon('youtube')}</a>` : ''}</span></div>`;
   }
-  function fill() {
-    const s = list[conIdx];
+  // Twitch's player needs at least 400 x 300; offer it only where it fits.
+  function offerPlayer() {
+    const pl = scr.querySelector<HTMLElement>('.con-pl'), btn = pl?.querySelector<HTMLButtonElement>('.con-play');
+    if (pl && btn) btn.hidden = pl.offsetWidth < 534;
+  }
+  function fill(i: number) {
+    const s = list[i];
     if (!s) return;
     const login = s.login.toLowerCase();
-    if (s.status !== 'offline') { scr.innerHTML = card(s); return; }
-    scr.innerHTML = card(s);
-    void statsFor(login).then((st) => { if (list[conIdx]?.login.toLowerCase() === login) scr.innerHTML = card(s, st); });
+    scr.innerHTML = card(s); offerPlayer();
+    void statsFor(login).then((st) => {
+      if (con.index !== i || scr.querySelector('iframe')) return;
+      const keep = scr.contains(document.activeElement) ? document.activeElement?.className : '';
+      scr.innerHTML = card(list[i] ?? s, st); offerPlayer();
+      if (keep) scr.querySelector<HTMLElement>(`.${String(keep).split(' ')[0]}`)?.focus({ preventScroll: true });
+    });
   }
-  // With the runtime drawing, the HTML screen shows once the lid is up; on the
-  // static rack (no WebGL, or before the runtime loads) CSS unfolds it.
-  const showScreen = (on: boolean) => conEl.classList.toggle('lit', on);
-  function openCon(i: number) {
-    if (!list[i]) return;
-    select(-1);
-    conIdx = i; conKey = ''; fill();
-    conEl.hidden = false;
-    box.classList.add('con-open');
-    if (!rt || reduce.matches) { conT = CON.open; conDir = 0; requestAnimationFrame(() => showScreen(true)); }
-    else { conDir = 1; if (conT >= CON.open) conT = 0; }
-    conEl.focus({ preventScroll: true });
-    kick();
-  }
-  function closeCon() {
-    if (conIdx < 0 || conDir === -1) return;
-    showScreen(false);
-    box.classList.remove('con-open');
-    if (!rt || reduce.matches) { conT = 0; conDir = 0; conIdx = -1; conEl.hidden = true; kick(); return; }
-    conDir = -1; kick();
-  }
-  conEl.addEventListener('click', (e) => {
-    if ((e.target as Element).closest('.con-x')) closeCon();
-    else if (!(e.target as Element).closest('.con-scr')) closeCon();
+  scr.addEventListener('click', (e) => {
+    const b = (e.target as Element).closest('.con-play');
+    const s = list[con.index];
+    if (!b || !s) return;
+    const pl = b.parentElement!;
+    pl.innerHTML = `<iframe src="https://player.twitch.tv/?channel=${encodeURIComponent(s.login.toLowerCase())}&parent=${encodeURIComponent(location.hostname)}&autoplay=true" title="${esc(f('livePlayer', { name: s.display_name || s.login }))}" allowfullscreen allow="autoplay; fullscreen"></iframe>`;
+    pl.querySelector('iframe')!.focus();
   });
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && conIdx >= 0) closeCon(); });
+
+  const sledRect = (i: number) => {
+    const b = box.getBoundingClientRect(), s = Math.min(b.width / geo.width, b.height / geo.height);
+    const ox = b.left + (b.width - geo.width * s) / 2, oy = b.top + (b.height - geo.height * s) / 2;
+    return { x: ox + geo.sleds[i][0] * s, y: oy + geo.sleds[i][1] * s, w: geo.sledW * s, h: geo.sledH * s };
+  };
+  let slot = -1;   // the sled whose slot shows empty while it is out
+  const con = makeConsole({
+    el: conEl, reduce, sledRect,
+    led: (i) => list[i]?.status ?? 'offline',
+    share: (i) => (list[i]?.hours_30d ? Math.max(0.02, list[i]!.hours_30d! / maxH) : 0),
+    onOpen: (i) => { conKey = ''; select(-1); fill(i); },
+    onSlot: (i) => { slot = i; paintHole(); kick(); },
+  });
 
   box.addEventListener('pointermove', (e) => {
-    if (conIdx >= 0) return;
+    if (con.busy) return;
     kick();
     const [x, y] = toArt(e);
     const i = hit(x, y);
     if (e.pointerType === 'mouse') select(i >= 0 && list[i] ? i : -1);
   });
-  box.addEventListener('pointerleave', (e) => { if (e.pointerType !== 'mouse' || conIdx >= 0) return; select(-1); kick(); });
+  box.addEventListener('pointerleave', (e) => { if (e.pointerType !== 'mouse' || con.busy) return; select(-1); kick(); });
   box.addEventListener('click', (e) => {
-    if (conIdx >= 0 || (e.target as Element).closest('#con')) return;
+    if (con.busy) return;
     const [x, y] = toArt(e as PointerEvent);
     const i = hit(x, y);
-    if (i >= 0 && list[i]) openCon(i);
+    if (i >= 0 && list[i]) con.open(i);
   });
 
   // ---- Rive (low-level) ----
   let rt: RvRuntime | null = null, ab: RvArtboard | null = null, sm: RvSM | null = null, renderer: RvRenderer | null = null;
   const nodes: { on: RvNode; pre: RvNode; bar: RvNode }[] = [];
   let selNode: RvNode, selBar: RvNode, scanNode: RvNode;
-  let conNode: RvNode, holeNode: RvNode, frontNode: RvNode, conOn: RvNode, conPre: RvNode, conBar: RvNode, openAnim: RvAnim;
-  const ease = (u: number) => (u < 0.5 ? 4 * u * u * u : 1 - (-2 * u + 2) ** 3 / 2);
-  const lerp = (a: number, b: number, u: number) => a + (b - a) * u;
-  // The console's pose at conT: the front travels out of the slot, then the
-  // 'open' timeline (deck, lid, scrim, backlight) takes over.
-  function poseCon(pulse: number) {
-    const s = list[conIdx];
-    conNode.scaleX = conNode.scaleY = s ? 1 : 0;
-    if (!s) return;
-    const [sx, sy] = geo.sleds[conIdx];
-    const e = ease(Math.min(1, conT / CON.travel));
-    holeNode.x = sx; holeNode.y = sy;
-    frontNode.x = lerp(sx, CON.front[0], e); frontNode.y = lerp(sy, CON.front[1], e);
-    frontNode.scaleX = lerp(1 / CON.sx, 1, e); frontNode.scaleY = lerp(1 / CON.sy, 1, e);
-    conOn.scaleX = conOn.scaleY = s.status === 'online' ? pulse : 0;
-    conPre.scaleX = conPre.scaleY = s.status === 'prelive' ? 1 : 0;
-    conBar.scaleX = s.hours_30d ? Math.max(0.02, s.hours_30d / maxH) : 0.001;
-    openAnim.time = conT; openAnim.apply(1);
+  let conNode: RvNode, holeNode: RvNode;
+  // The slot a sled left while it is out as the console: empty, in the canvas
+  // and on the static rack.
+  function paintHole() {
+    if (ab) {
+      conNode.scaleX = conNode.scaleY = slot >= 0 ? 1 : 0;
+      if (slot >= 0) { holeNode.x = geo.sleds[slot][0]; holeNode.y = geo.sleds[slot][1]; }
+    }
+    const svg = box.querySelector('svg');
+    let r = svg?.querySelector<SVGRectElement>('#r-hole');
+    if (svg && !r) {
+      r = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+      r.id = 'r-hole'; r.setAttribute('fill', '#050608'); r.setAttribute('stroke', '#2a2d31');
+      r.setAttribute('width', String(geo.sledW)); r.setAttribute('height', String(geo.sledH));
+      svg.appendChild(r);
+    }
+    if (r) {
+      r.setAttribute('visibility', slot >= 0 ? 'visible' : 'hidden');
+      if (slot >= 0) { r.setAttribute('x', String(geo.sleds[slot][0])); r.setAttribute('y', String(geo.sleds[slot][1])); }
+    }
   }
   // Frames are drawn only while something changes: a pointer move, new data, a
   // glide still settling, or the scan sweep. Otherwise the page is idle.
@@ -354,10 +352,10 @@ function startHero(hero: HTMLElement) {
     if (!rt || !ab || !renderer) return;
     if (!visible || document.hidden) return;   // kick() restarts it
     const tgt = sel >= 0 ? geo.sleds[sel] : null;
-    let moving = Math.abs(cur.s - (tgt ? 1 : 0)) > 0.002
+    const moving = Math.abs(cur.s - (tgt ? 1 : 0)) > 0.002
       || (!!tgt && (Math.abs(cur.x - tgt[0]) > 0.1 || Math.abs(cur.y - tgt[1]) > 0.1));
-    const ambient = !reduce.matches && !lean;
-    if (conDir) moving = true;
+    // behind an open console the rack holds still
+    const ambient = !reduce.matches && !lean && !con.busy;
     if (moving || t - lastDraw >= 33 || !lastDraw) {
       const t0 = performance.now();
       const dt = prev ? Math.min(0.05, (t - prev) / 1000) : 0; prev = t; lastDraw = t;
@@ -378,14 +376,6 @@ function startHero(hero: HTMLElement) {
           sm!.advance(dt);
           nodes.forEach((n, i) => { if (list[i]?.status === 'online') n.on.scaleX = n.on.scaleY = pulse; });
         }
-        // the console: closing runs a little faster than opening
-        if (conDir) {
-          conT = Math.min(CON.open, Math.max(0, conT + dt * conDir * (conDir < 0 ? 1.6 : 1)));
-          if (conDir > 0 && conT >= CON.open - 0.1) showScreen(true);
-          if (conDir > 0 && conT >= CON.open) conDir = 0;
-          if (conDir < 0 && conT <= 0) { conDir = 0; conIdx = -1; conEl.hidden = true; }
-        }
-        poseCon(pulse);
         ab.advance(dt);
         renderer.clear(); renderer.save();
         renderer.align(rt.Fit.contain, rt.Alignment.center, { minX: 0, minY: 0, maxX: w, maxY: h }, ab.bounds);
@@ -397,8 +387,7 @@ function startHero(hero: HTMLElement) {
       // static rack takes over again.
       cost = cost ? cost * 0.8 + (performance.now() - t0) * 0.2 : performance.now() - t0;
       if (!force && ++frames > 8 && cost > 45) {
-        box.classList.remove('rive-on'); rt = null;
-        if (conIdx >= 0) { if (conDir < 0) { conIdx = -1; conEl.hidden = true; } else showScreen(true); conT = CON.open; conDir = 0; }
+        box.classList.remove('rive-on'); rt = null; con.detach();
         return;
       }
       if (!force && frames > 8 && cost > 16) lean = true;
@@ -444,10 +433,9 @@ function startHero(hero: HTMLElement) {
       sm = new rt.StateMachineInstance(ab.stateMachineByName('Rack'), ab);
       for (let i = 0; i < geo.sleds.length; i++) nodes.push({ on: ab.node(`on${i}`), pre: ab.node(`pre${i}`), bar: ab.node(`bar${i}`) });
       selNode = ab.node('sel'); selBar = ab.node('selbar'); scanNode = ab.node('scan');
-      conNode = ab.node('con'); holeNode = ab.node('hole'); frontNode = ab.node('cfront');
-      conOn = ab.node('con_on'); conPre = ab.node('con_pre'); conBar = ab.node('con_bar');
-      openAnim = new rt.LinearAnimationInstance(ab.animationByName('open'), ab);
-      paintNodes();
+      conNode = ab.node('con'); holeNode = ab.node('hole');
+      paintNodes(); paintHole();
+      con.attach(rt, file);
       renderer = rt.makeRenderer(canvas, false);
       kick();
     } catch (e) {
