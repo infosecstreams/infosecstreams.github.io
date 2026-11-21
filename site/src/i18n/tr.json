@@ -27,7 +27,7 @@
     "faqNav": "SSS",
     "resourcesNav": "Kaynaklar",
     "liveNow": "Şu anda {n} canlı yayın",
-    "nobodyLive": "Şu anda kimse canlı yayında değil.",
+    "nobodyLive": "",
     "checking": "Canlı yayınlar kontrol ediliyor…",
     "unavailable": "Canlı durum şu anda alınamıyor. Tam liste aşağıda.",
     "live": "Canlı",
@@ -55,7 +55,7 @@
     "streamers": "{n} yayıncı",
     "keyHint": "Aramak için / tuşuna basın",
     "startsIn": "{t} başlıyor",
-    "nextUp": "Sıradaki: {name}, {t}",
+    "nextUp": "",
     "colHours": "Yayın saati, son 30 gün",
     "scheduleHeading": "Program",
     "watchShort": "İzle",
@@ -68,7 +68,9 @@
     "rackLabel": "Sunucu rafı: her yayıncı için bir kızak. Ok tuşlarıyla yayıncı seçin; Enter konsolunu açar.",
     "copyLink": "Bağlantıyı kopyala",
     "linkCopied": "Bağlantı kopyalandı",
-    "colHoursShort": ""
+    "colHoursShort": "",
+    "checkingLive": "",
+    "keptOf": ""
   },
   "home": {
     "title": "InfoSec Yayınları",
@@ -80,7 +82,11 @@
   "inactive": {
     "title": "Aktif Olmayan InfoSec Yayınları",
     "intro": "",
-    "listHeading": ""
+    "listHeading": "",
+    "groupRecent": "",
+    "groupEarlier": "",
+    "groupNone": "",
+    "groupNoneUndated": ""
   },
   "credits": {
     "heading": "Emeği Geçenler",
