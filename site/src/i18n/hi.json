@@ -20,10 +20,12 @@
     "colActivity": "गतिविधि",
     "colLinks": "लिंक",
     "liveSection": "अभी लाइव",
+    "preliveSection": "",
     "skip": "सूची पर जाएं",
     "language": "भाषा",
     "home": "स्ट्रीम्स",
     "inactiveNav": "निष्क्रिय",
+    "statsNav": "",
     "faqNav": "FAQ",
     "resourcesNav": "संसाधन",
     "liveNow": "अभी {n} लाइव",
@@ -57,6 +59,7 @@
     "startsIn": "{t} शुरू",
     "nextUp": "",
     "colHours": "स्ट्रीम किए गए घंटे, पिछले 30 दिन",
+    "colLastLive": "",
     "scheduleHeading": "शेड्यूल",
     "watchShort": "देखें",
     "allSection": "सभी स्ट्रीमर्स",
@@ -70,7 +73,9 @@
     "linkCopied": "लिंक कॉपी हो गया",
     "colHoursShort": "",
     "checkingLive": "",
-    "keptOf": ""
+    "keptOf": "",
+    "termLabel": "",
+    "termHint": ""
   },
   "home": {
     "title": "InfoSec स्ट्रीम्स",
@@ -224,5 +229,29 @@
     "peakShort": "अधिकतम",
     "metaDesc": "{name} Twitch पर सूचना सुरक्षा स्ट्रीम करते हैं। लाइव स्थिति, स्ट्रीम किए गए घंटे, आमतौर पर कब लाइव होते हैं, हाल की स्ट्रीम्स, VOD और क्लिप्स।",
     "moved": "यह पृष्ठ स्थानांतरित हो गया है: सूची से स्ट्रीमर का पृष्ठ खोलें।"
+  },
+  "stats": {
+    "title": "",
+    "lede": "",
+    "totals": "",
+    "hours30": "",
+    "streams30": "",
+    "active30": "",
+    "watched30": "",
+    "hours7": "",
+    "raids30": "",
+    "top": "",
+    "nStreams": "",
+    "when": "",
+    "topics": "",
+    "streaks": "",
+    "streaksNote": "",
+    "weeks": "",
+    "raids": "",
+    "raidsNote": "",
+    "raided": "",
+    "viewersN": "",
+    "clips": "",
+    "views": ""
   }
 }
