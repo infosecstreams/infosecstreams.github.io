@@ -27,7 +27,7 @@
     "faqNav": "FAQ",
     "resourcesNav": "Ressources",
     "liveNow": "{n} en direct",
-    "nobodyLive": "Personne n'est en direct pour le moment.",
+    "nobodyLive": "",
     "checking": "Recherche des streams en direct…",
     "unavailable": "Le statut en direct est indisponible pour le moment. La liste complète est ci-dessous.",
     "live": "En direct",
@@ -55,7 +55,7 @@
     "streamers": "{n} streamers",
     "keyHint": "Appuyez sur / pour rechercher",
     "startsIn": "commence {t}",
-    "nextUp": "Prochain : {name}, {t}",
+    "nextUp": "",
     "colHours": "Heures de stream, 30 derniers jours",
     "scheduleHeading": "Programme",
     "watchShort": "Regarder",
@@ -68,7 +68,9 @@
     "rackLabel": "Baie serveur : un tiroir par streamer. Les flèches choisissent un streamer ; Entrée ouvre sa console.",
     "copyLink": "Copier le lien",
     "linkCopied": "Lien copié",
-    "colHoursShort": ""
+    "colHoursShort": "",
+    "checkingLive": "",
+    "keptOf": ""
   },
   "home": {
     "title": "Streams InfoSec",
@@ -80,7 +82,11 @@
   "inactive": {
     "title": "Streamers Inactifs",
     "intro": "",
-    "listHeading": ""
+    "listHeading": "",
+    "groupRecent": "",
+    "groupEarlier": "",
+    "groupNone": "",
+    "groupNoneUndated": ""
   },
   "credits": {
     "heading": "Crédits",
