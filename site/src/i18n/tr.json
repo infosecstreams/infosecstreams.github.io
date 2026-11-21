@@ -67,19 +67,20 @@
     "livePlayer": "{name} canlı yayını",
     "rackLabel": "Sunucu rafı: her yayıncı için bir kızak. Ok tuşlarıyla yayıncı seçin; Enter konsolunu açar.",
     "copyLink": "Bağlantıyı kopyala",
-    "linkCopied": "Bağlantı kopyalandı"
+    "linkCopied": "Bağlantı kopyalandı",
+    "colHoursShort": ""
   },
   "home": {
     "title": "InfoSec Yayınları",
-    "intro": "Tebrikler! Aktif olarak güncellenen Bilgi Güvenliği ile ilgili Twitch yayınları listesini buldunuz. Bu liste, aktif yayınları daha kolay bulmanız için `30 günlük aktiviteye` göre `sıralanmıştır`!",
+    "intro": "",
     "inactiveNote": "Son bir ay içinde aktivitesi olmayan yayıncılar [aktif olmayan yayıncılar](/inactive) sayfasına taşınmıştır.",
     "questions": "Sorularınız mı var? Katkıda bulunmak mı istiyorsunuz? Başka bir şey mi var? Lütfen [SSS](/faq) sayfasını okuyun!",
     "listHeading": "Yayın Listesi (sıralı)"
   },
   "inactive": {
     "title": "Aktif Olmayan InfoSec Yayınları",
-    "intro": "Merhaba! Bu sayfa son bir ay içinde yayın yapmamış yayıncıları içerir.",
-    "listHeading": "Streams"
+    "intro": "",
+    "listHeading": ""
   },
   "credits": {
     "heading": "Emeği Geçenler",
