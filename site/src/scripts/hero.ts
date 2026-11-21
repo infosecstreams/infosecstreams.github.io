@@ -347,7 +347,7 @@ function startHero(hero: HTMLElement) {
   document.addEventListener('visibilitychange', () => { if (!document.hidden) kick(); });
   let prev = 0, lastDraw = 0, cost = 0, frames = 0, lean = false;
   // Ambient (scan sweep, live LEDs breathing) at ~30 fps while the rack is on
-  // screen; full rate while the selection or parallax is still moving. Nothing
+  // screen; full rate while the selection or the console is still moving. Nothing
   // at all while it is off screen, the tab is hidden, or motion is reduced.
   function loop(t: number) {
     pending = false;
