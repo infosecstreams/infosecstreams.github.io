@@ -42,8 +42,13 @@ export function makeConsole(o: Opts) {
   const scr = el.querySelector<HTMLElement>('.con-scr')!;
   const floor = el.querySelector<HTMLElement>('.con-floor')!;
   const tag = el.querySelector<HTMLElement>('.con-tag')!;
+  // the travelling sled: a CSS 3D box whose front is a canvas Rive draws into
+  const sled = el.querySelector<HTMLElement>('.con-sled')!;
+  const sf = sled.querySelector<HTMLElement>('.con-sf')!;
+  const fcv = sf.querySelector<HTMLCanvasElement>('canvas')!;
+  const [faceT, faceL, faceR] = ['.sled-top', '.sled-l', '.sled-r'].map((q) => sled.querySelector<HTMLElement>(q)!);
 
-  let rt: RvRuntime | null = null, ab: RvArtboard | null = null, rend: RvRenderer | null = null, mat: RvMat | null = null;
+  let rt: RvRuntime | null = null, ab: RvArtboard | null = null, rend: RvRenderer | null = null, frend: RvRenderer | null = null, mat: RvMat | null = null;
   const N: Record<string, RvNode> = {};
   const NAMES = ['console', 'deck', 'dk', 'dkGlow', 'dkShade', 'dkLip', 'dkLipHi', 'dkL', 'dkR', 'keys', 'pad',
     'front', 'ear0', 'ear1', 'fc', 'fcHi', 'fcT', 'fcB', 'fcL', 'fcR', 'hd0', 'hd1', 'plate', 'plateEdge', 'vents',
@@ -53,27 +58,31 @@ export function makeConsole(o: Opts) {
   const fly: Spring = { x: 0, v: 0, t: 0 }, unf: Spring = { x: 0, v: 0, t: 0 };
 
   // ---- layout, in CSS px: the console centred in the window ----
-  const L = { W: 0, LH: 0, DH: 0, FH: 0, cx: 0, cy: 0, dpr: 1, vw: 0, vh: 0 };
+  const L = { W: 0, LH: 0, DH: 0, FH: 0, cx: 0, cy: 0, dpr: 1, vw: 0, vh: 0, ew: 0, Dmax: 0 };
   function layout() {
     const vw = document.documentElement.clientWidth, vh = innerHeight;
     const W = Math.round(Math.min(1080, vw - (vw < 640 ? 36 : 80)));   // room for the rack ears
     const FH = Math.round(clamp(W / 15, 24, 60)), DH = Math.round(clamp(W / 16, 18, 66));
     // wide windows get a landscape screen; phones a tall one
     const LH = Math.round(Math.max(220, Math.min(W * (vw < 640 ? 1.45 : 0.6), vh - (vh < 600 ? 24 : 72) - DH - FH)));
-    Object.assign(L, { vw, vh, W, FH, DH, LH, cx: Math.round((vw - W) / 2), cy: Math.round(Math.max(12, (vh - LH - DH - FH) / 2)), dpr: Math.min(2, devicePixelRatio || 1) });
+    Object.assign(L, { vw, vh, W, FH, DH, LH, ew: 0.4 * FH, Dmax: clamp(W * 0.3, 110, 300), cx: Math.round((vw - W) / 2), cy: Math.round(Math.max(12, (vh - LH - DH - FH) / 2)), dpr: Math.min(2, devicePixelRatio || 1) });
     const l = lid.style;
     l.left = `${L.cx}px`; l.top = `${L.cy}px`; l.width = `${W}px`; l.height = `${LH}px`;
     l.setProperty('--b', `${Math.round(clamp(W * 0.02, 8, 18))}px`);
-    // the eye: level with the middle of the screen
-    el.style.perspectiveOrigin = `${L.cx + W / 2}px ${L.cy + LH * 0.45}px`;
     const fl = floor.style;                    // the console's shadow on the "floor"
     fl.left = `${L.cx - W * 0.06}px`; fl.width = `${W * 1.12}px`; fl.top = `${L.cy + LH + DH + FH - 10}px`;
     if (rt) {
       const w = Math.round(vw * L.dpr), h = Math.round(vh * L.dpr);
       if (cv.width !== w || cv.height !== h) { cv.width = w; cv.height = h; }
       place();
-      const p = plateRect(), ts = tag.style;
-      ts.left = `${p.x}px`; ts.top = `${p.y}px`; ts.width = `${p.w}px`; ts.height = `${p.h}px`;
+      // the sled box at its final place: the drawer front plus its ears
+      const ss = sled.style, fw = W + 2 * L.ew;
+      ss.left = `${L.cx - L.ew}px`; ss.top = `${L.cy + LH + DH}px`; ss.width = `${fw}px`; ss.height = `${FH}px`;
+      ss.setProperty('--ew', `${L.ew}px`);
+      const w2 = Math.round(fw * L.dpr), h2 = Math.round(FH * L.dpr);
+      if (fcv.width !== w2 || fcv.height !== h2) { fcv.width = w2; fcv.height = h2; }
+      const { plate } = F(), ts = tag.style;
+      ts.left = `${L.ew + plate.x}px`; ts.top = `${plate.y}px`; ts.width = `${plate.w}px`; ts.height = `${plate.h}px`;
     }
   }
   // Each piece is a unit square (or circle) in the artboard: set its box.
@@ -122,23 +131,47 @@ export function makeConsole(o: Opts) {
     }
     R('dkGlow', W * 0.03, -DH, W * 0.94, Math.max(0.01, DH * 0.35 * screen));
   }
-  // where the label plate sits once the console is out (the page writes the name there)
-  const plateRect = () => { const { plate } = F(); return { x: L.cx + plate.x, y: L.cy + L.LH + L.DH + plate.y, w: plate.w, h: plate.h }; };
 
-  // ---- one frame: the canvas (drawer, deck) and the 3D lid ----
+  // ---- one frame: the sled (3D box), the deck (canvas) and the 3D lid ----
+  // fly 0..1 has three overlapping moves: the sled slides straight out of its
+  // slot towards you (its back stays at the rack's face, so you see its top
+  // and sides), then it travels to the middle of the window growing to full
+  // size, and its depth folds away as it turns into the console's front.
   function draw(t: number) {
-    if (!rt || !ab || !rend || !mat || idx < 0) return;
-    const S = o.sledRect(idx), f = fly.x, y0 = L.LH + L.DH;
-    // fly 0: the front sits exactly on the sled; fly 1: full size, centred.
-    const sx = lerp(S.w / L.W, 1, f), sy = lerp(S.h / L.FH, 1, f);
-    const tx = lerp(S.x, L.cx, f), ty = lerp(S.y, L.cy + y0, f) - y0 * sy;
-    N.deck.scaleY = clamp(unf.x * 1.8, 0, 1.04);
+    if (!rt || !ab || !rend || !frend || !mat || idx < 0) return;
+    const S = o.sledRect(idx), p = fly.x, y0 = L.LH + L.DH;
+    const u = smooth(0.14, 0.95, p);                                  // travel
+    const dz = L.Dmax * smooth(0, 0.32, p) * (1 - smooth(0.55, 0.97, p));   // pulled out
+    const sx = lerp(S.w / L.W, 1, u), sy = lerp(S.h / L.FH, 1, u);
+    const left = L.cx - L.ew, top = L.cy + y0;
+    const X = lerp(S.x - S.w / L.W * L.ew, left, u), Y = lerp(S.y, top, u);
+    sled.style.transform = `translate3d(${(X - left).toFixed(2)}px, ${(Y - top).toFixed(2)}px, 0) scale(${sx.toFixed(5)}, ${sy.toFixed(5)})`;
+    sf.style.transform = `translateZ(${dz.toFixed(2)}px)`;
+    const deep = dz > 0.5;
+    for (const f of [faceT, faceL, faceR]) f.style.display = deep ? '' : 'none';
+    if (deep) {
+      faceT.style.height = `${dz}px`; faceT.style.transform = `translateZ(${dz}px) rotateX(-90deg)`;
+      faceL.style.width = `${dz}px`; faceL.style.transform = `translateZ(${dz}px) rotateY(90deg)`;
+      faceR.style.width = `${dz}px`; faceR.style.transform = `translateZ(${dz}px) rotateY(-90deg)`;
+    }
+    // the eye: just above the sled while it comes out, then level with the screen
+    el.style.perspectiveOrigin = `${lerp(S.x + S.w / 2, L.cx + L.W / 2, u).toFixed(1)}px ${lerp(S.y - 140, L.cy + L.LH * 0.45, u).toFixed(1)}px`;
     lights(t, smooth(0.35, 0.95, Math.max(0, (unf.x - 0.2) / 0.8)));
+    // the window canvas: the deck only, following the sled
+    N.deck.scaleY = clamp(unf.x * 1.8, 0, 1.04);
+    N.front.scaleX = N.front.scaleY = 0;
     ab.advance(0);
     rend.clear(); rend.save();
-    mat.xx = sx * L.dpr; mat.xy = 0; mat.yx = 0; mat.yy = sy * L.dpr; mat.tx = tx * L.dpr; mat.ty = ty * L.dpr;
-    rend.transform(mat);
-    ab.draw(rend); rend.restore(); rend.flush();
+    mat.xx = sx * L.dpr; mat.xy = 0; mat.yx = 0; mat.yy = sy * L.dpr; mat.tx = (X + L.ew * sx) * L.dpr; mat.ty = (Y - y0 * sy) * L.dpr;
+    rend.transform(mat); ab.draw(rend); rend.restore(); rend.flush();
+    // the sled's canvas: the drawer front only, at full size (CSS scales it)
+    const deck = N.deck.scaleY;
+    N.deck.scaleY = 0; N.front.scaleX = N.front.scaleY = 1;
+    ab.advance(0);
+    frend.clear(); frend.save();
+    mat.xx = L.dpr; mat.yy = L.dpr; mat.tx = L.ew * L.dpr; mat.ty = -y0 * L.dpr;
+    frend.transform(mat); ab.draw(frend); frend.restore(); frend.flush();
+    N.deck.scaleY = deck;
   }
   function dom() {
     bg.style.opacity = String(clamp(fly.x * 1.15));
@@ -199,6 +232,7 @@ export function makeConsole(o: Opts) {
     el.hidden = false;
     el.classList.toggle('drawn', !!rt);
     layout();
+    if (!rt) el.style.perspectiveOrigin = `${L.cx + L.W / 2}px ${L.cy + L.LH * 0.45}px`;
     o.onOpen(i); o.onSlot(i);
     prevFocus = document.activeElement;
     el.focus({ preventScroll: true });
@@ -253,6 +287,7 @@ export function makeConsole(o: Opts) {
     if (idx < 0) return;
     layout();
     if (!running) { draw(performance.now()); dom(); }
+    if (!rt) el.style.perspectiveOrigin = `${L.cx + L.W / 2}px ${L.cy + L.LH * 0.45}px`;
   });
 
   return {
@@ -265,6 +300,7 @@ export function makeConsole(o: Opts) {
         ab = file.artboardByName('Console');
         for (const n of NAMES) N[n] = ab.node(n);
         rend = r.makeRenderer(cv, false);
+        frend = r.makeRenderer(fcv, false);
         mat = new r.Mat2D();
         rt = r;
       } catch (e) { rt = null; console.warn('Rive console unavailable; CSS fallback.', e); }
