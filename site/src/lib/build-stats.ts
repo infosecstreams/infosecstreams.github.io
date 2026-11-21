@@ -34,3 +34,23 @@ export function statsAtBuild(login: string): Promise<Stats | null> {
   if (!cache.has(login)) cache.set(login, get(login));
   return cache.get(login)!;
 }
+
+/** Any other API document at build time (stats.json, raids.json); null on failure. */
+const docs = new Map<string, Promise<unknown>>();
+export function jsonAtBuild<T>(path: string): Promise<T | null> {
+  if (!/^https?:/.test(API_BASE)) return Promise.resolve(null);
+  if (!docs.has(path)) {
+    docs.set(path, (async () => {
+      for (let i = 0; i < 4; i++) {
+        try {
+          const r = await fetch(`${API_BASE}${path}`, { signal: AbortSignal.timeout(15_000) });
+          if (r.ok) return await r.json();
+        } catch { /* retry */ }
+        await sleep(500 * 2 ** i);
+      }
+      console.warn(`[build-stats] ${path} unavailable`);
+      return null;
+    })());
+  }
+  return docs.get(path)! as Promise<T | null>;
+}

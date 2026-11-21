@@ -17,7 +17,7 @@ import type { RiveGlobal, RvArtboard, RvNode, RvRenderer, RvRuntime, RvSM } from
 
 interface Streamer {
   login: string; display_name?: string; status: 'online' | 'prelive' | 'offline';
-  title?: string; category?: string; language?: string; viewers?: number; started_at?: string; hours_30d?: number;
+  title?: string; category?: string; language?: string; viewers?: number; started_at?: string; hours_30d?: number; prelive_since?: string;
 }
 interface Geo { width: number; height: number; sledW: number; sledH: number; sleds: [number, number][] }
 
@@ -77,7 +77,9 @@ function startHero(hero: HTMLElement) {
   let lines: string[] = [];
   let job = 0;                       // bumping it cancels whatever is typing
   const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+  let interactive = false;            // the visitor is typing: the idle sessions stop
   const draw = (tail?: string) => {
+    if (interactive) { term.innerHTML = lines.slice(-200).join(''); term.scrollTop = term.scrollHeight; return; }
     term.innerHTML = [...lines, tail ?? `<p class="cmd">${PS}<span class="caret"></span></p>`].slice(-MAX_LINES).join('');
   };
   const tone = (l: string) => (/\[\+\]|Cracked|ESTABLISHED/.test(l) ? 'ok' : /\[-\]|error/i.test(l) ? 'bad' : '');
@@ -115,6 +117,15 @@ function startHero(hero: HTMLElement) {
       await sleep(2200);
       if (gen !== job) return;
       lines = [];
+      // between sessions: what actually happened lately (live status, raids)
+      const ev = await events(6);
+      if (gen !== job) return;
+      if (ev.length) {
+        if (!(await run('tail -n 6 /var/log/streams.log', ev, gen, 30))) return;
+        await sleep(3200);
+        if (gen !== job) return;
+        lines = [];
+      }
       si = (si + 1) % SESSIONS.length;
     }
   }
@@ -158,6 +169,7 @@ function startHero(hero: HTMLElement) {
     sel = i;
     kick();
     box.style.cursor = i >= 0 && list[i] ? 'pointer' : '';
+    if (interactive) return;               // typing in the terminal: pointing doesn't take it over
     if (i >= 0 && list[i]) showStreamer(list[i]!); else backToSession();
   }
   // ---- the console: click (or tap) a sled and it slides out ----
@@ -365,6 +377,210 @@ function startHero(hero: HTMLElement) {
       if (booting && !rt) void Promise.race([riveReady, sleep(400)]).then(() => { if (!con.busy) con.open(i); });
       else con.open(i);
     }
+  });
+
+  // ---- real events, for the idle terminal and `tail` ----
+  // From what the bot reports: who is live and since when, who is getting
+  // ready, and raids (raids.json, refreshed at most every 10 minutes).
+  interface RaidsDoc { nodes: { id: string; login: string; display_name?: string }[]; edges: { from: string; to: string; raids: number; viewers?: number; last_at?: string }[] }
+  let raidsDoc: RaidsDoc | null = null, raidsAt = 0;
+  async function raidsData() {
+    if (Date.now() - raidsAt > 600_000) {
+      raidsAt = Date.now();
+      raidsDoc = await fetch(`${API}raids.json`).then((r) => (r.ok ? (r.json() as Promise<RaidsDoc>) : null)).catch(() => null);
+    }
+    return raidsDoc;
+  }
+  const evTime = new Intl.DateTimeFormat('en', { month: 'short', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false });
+  const who = (s: { display_name?: string; login: string }) => s.display_name || s.login;
+  async function events(n: number): Promise<string[]> {
+    const ev: [number, string, string][] = [];
+    for (const s of list) {
+      if (s?.status === 'online' && s.started_at) ev.push([Date.parse(s.started_at), `${who(s)} went live${s.title ? `: ${s.title}` : ''}`, 'ok']);
+      if (s?.status === 'prelive' && s.prelive_since) ev.push([Date.parse(s.prelive_since), `${who(s)} is getting ready`, '']);
+    }
+    const r = await raidsData();
+    const byId = new Map(r?.nodes.map((x) => [x.id, x]) ?? []);
+    for (const e of r?.edges ?? []) {
+      const a = byId.get(e.from), b = byId.get(e.to);
+      if (a && b && e.last_at) ev.push([Date.parse(e.last_at), `${who(a)} raided ${who(b)}${e.viewers ? ` with ${e.viewers} viewers` : ''}`, '']);
+    }
+    return ev.filter(([t]) => t <= Date.now()).sort((a, b) => a[0] - b[0]).slice(-n)
+      .map(([t, text, cls]) => `<p class="out ${cls}">${esc(evTime.format(new Date(t)).replace(',', ''))}  ${esc(text)}</p>`);
+  }
+
+  // ---- the terminal is a shell: type commands (help) ----
+  const form = document.getElementById('term-in') as HTMLFormElement | null;
+  const cmdIn = document.getElementById('term-cmd') as HTMLInputElement | null;
+  const termSay = document.getElementById('term-say');
+  const typed: string[] = [];
+  let hpos = 0, idleBack = 0;
+  const out = (l: string, cls = '') => `<p class="out ${cls}">${esc(l)}</p>`;
+  const sayOut = (ls: string[]) => { if (termSay) termSay.textContent = ls.map((l) => l.replace(/<[^>]+>/g, '')).join('\n'); };
+  const streamers = () => list.filter((s): s is Streamer => !!s);
+  const rosterLogins = () => [...new Set([...app.querySelectorAll<HTMLElement>('li[data-login]')].map((li) => li.dataset.login!))];
+  function find(q: string) {
+    const k = q.trim().toLowerCase().replace(/^@/, '');
+    if (!k) return undefined;
+    const all = streamers();
+    return all.find((s) => s.login.toLowerCase() === k) ?? all.find((s) => (s.display_name ?? '').toLowerCase() === k)
+      ?? all.find((s) => s.login.toLowerCase().startsWith(k));
+  }
+  const pad = (s: string, n: number) => (s.length >= n ? `${s.slice(0, n - 1)} ` : s + ' '.repeat(n - s.length));
+  const HELP: [string, string][] = [
+    ['ls', "who's live, and who's getting ready"], ['top [n]', 'most hours streamed, last 30 days'],
+    ['whois <name>', "a streamer's record"], ['open <name>', 'slide their sled out of the rack'],
+    ['page <name>', 'go to their stats page'], ['next', 'next streams on a proven schedule'],
+    ['tail', 'recent events: went live, raids'], ['raids', 'raids, last 90 days'],
+    ['stats', 'the community, last 30 days'], ['sort hours|name', 'sort the list below'],
+    ['nmap, nxc, ffuf, …', 'replay a lab session'], ['clear, history', ''],
+  ];
+  const TOOLS = SESSIONS.flat().map(([cmd, o]) => [cmd.split(/\s+/)[0].replace(/\.py$/, ''), cmd, o] as const);
+  const proven = (t?: { kept: number; total: number }) => !!t && t.kept >= 4 && t.kept / t.total >= 0.75;
+  const fmtH = (h?: number) => `${Math.round((h ?? 0) * 10) / 10} h`;
+
+  async function exec(line: string): Promise<string[]> {
+    const [c0, ...args] = line.trim().split(/\s+/);
+    const c = (c0 ?? '').toLowerCase(), arg = args.join(' ');
+    switch (c) {
+      case '': return [];
+      case 'help': case '?': return [out('commands:'), ...HELP.map(([k, v]) => out(`  ${pad(k, 20)}${v}`))];
+      case 'ls': case 'live': {
+        const on = streamers().filter((s) => s.status === 'online').sort((a, b) => (b.viewers ?? 0) - (a.viewers ?? 0));
+        const pre = streamers().filter((s) => s.status === 'prelive');
+        if (!on.length && !pre.length) return [out('nobody is live right now. try: next')];
+        return [...on.map((s) => out(`● ${pad(who(s), 20)}${pad(`${s.viewers ?? 0} viewers`, 13)}${s.title ?? ''}`, 'ok')),
+          ...pre.map((s) => out(`◐ ${pad(who(s), 20)}getting ready`))];
+      }
+      case 'top': {
+        const n = Math.min(20, Math.max(1, Number(args[0]) || 10));
+        return streamers().filter((s) => s.hours_30d).sort((a, b) => (b.hours_30d ?? 0) - (a.hours_30d ?? 0)).slice(0, n)
+          .map((s, i) => out(`${pad(String(i + 1), 4)}${pad(who(s), 22)}${fmtH(s.hours_30d)}`));
+      }
+      case 'whois': case 'finger': {
+        const s = find(arg);
+        return s ? json(s) : [out(`whois: ${arg || '<name>'}: no such streamer on the list`, 'bad')];
+      }
+      case 'open': case 'ssh': case 'console': {
+        const s = find(arg);
+        const i = s ? slotOf.get(s.login.toLowerCase()) : undefined;
+        if (!s) return [out(`open: ${arg || '<name>'}: no such streamer on the list`, 'bad')];
+        if (i == null) return [out(`${who(s)} has no sled in the rack right now. try: page ${s.login}`)];
+        setTimeout(() => { cmdIn?.blur(); con.open(i); }, 250);
+        return [out(`sliding out ${who(s)}…`, 'ok')];
+      }
+      case 'page': case 'cd': case 'man': {
+        const k = (find(arg)?.login ?? arg).toLowerCase();
+        if (!k || !rosterLogins().includes(k)) return [out(`page: ${arg || '<name>'}: no such streamer on the list`, 'bad')];
+        setTimeout(() => { location.href = `${pagePath}/${encodeURIComponent(k)}`; }, 250);
+        return [out(`opening ${pagePath}/${k}`)];
+      }
+      case 'tail': case 'events': case 'log': {
+        const ev = await events(10);
+        return ev.length ? ev : [out('no events yet')];
+      }
+      case 'raids': {
+        const r = await raidsData();
+        if (!r?.edges.length) return [out('no raids recorded')];
+        const byId = new Map(r.nodes.map((x) => [x.id, x]));
+        return [...r.edges].sort((a, b) => Date.parse(b.last_at ?? '') - Date.parse(a.last_at ?? '')).slice(0, 8).map((e) => {
+          const a = byId.get(e.from), b = byId.get(e.to);
+          return out(`${e.last_at ? evTime.format(new Date(e.last_at)).replace(',', '') : ''}  ${a ? who(a) : '?'} → ${b ? who(b) : '?'}${e.viewers ? `  (${e.viewers} viewers)` : ''}`);
+        });
+      }
+      case 'stats': {
+        const st = await fetch(`${API}stats.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null) as { totals?: Record<string, number> } | null;
+        const t = st?.totals;
+        if (!t) return [out('stats: unavailable right now', 'bad')];
+        return [out('last 30 days'), out(`  hours streamed   ${fmtH(t.hours_30d)}`), out(`  streams          ${t.streams_30d ?? 0}`),
+          out(`  streamers live   ${t.active_streamers_30d ?? 0}`), out(`  hours, 7 days    ${fmtH(t.hours_7d)}`),
+          `<p class="out">more: <a href="${esc(statsPath)}">${esc(statsPath)}</a></p>`];
+      }
+      case 'next': case 'schedule': case 'cal': {
+        type Seg = { login: string; display_name?: string; start: string; title?: string; canceled?: boolean; track_record?: { kept: number; total: number } };
+        const d = await fetch(`${API}schedule.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null) as { segments?: Seg[] } | null;
+        const now = Date.now(), live = new Set(streamers().filter((s) => s.status === 'online').map((s) => s.login.toLowerCase()));
+        const segs = (d?.segments ?? []).filter((s) => proven(s.track_record) && !s.canceled && Date.parse(s.start) > now && Date.parse(s.start) - now < 7 * 864e5 && !live.has(s.login.toLowerCase()))
+          .sort((a, b) => Date.parse(a.start) - Date.parse(b.start)).slice(0, 5);
+        if (!segs.length) return [out('nothing scheduled by anyone with a proven schedule in the next 7 days')];
+        return segs.map((s) => out(`${evTime.format(new Date(s.start)).replace(',', '')}  ${pad(s.display_name || s.login, 20)}${s.title ?? ''}  (kept ${s.track_record!.kept}/${s.track_record!.total})`));
+      }
+      case 'sort': {
+        const k = args[0] === 'name' ? 'name' : args[0] === 'hours' ? 'hours' : '';
+        if (!k) return [out('usage: sort hours|name')];
+        app.querySelector<HTMLButtonElement>(`#cols [data-sort="${k}"]`)?.click();
+        return [out(`sorted by ${k}`)];
+      }
+      case 'clear': case 'cls': lines = []; return [];
+      case 'history': return typed.map((h, i) => out(`${pad(String(i + 1), 5)}${h}`));
+      case 'whoami': return [out('guest')];
+      case 'pwd': return [out('/home/guest/infosec-streams')];
+      case 'date': return [out(new Date().toString())];
+      case 'echo': return [out(arg)];
+      case 'uname': return [out('InfoSec Streams (Astro on GitHub Pages; status from StreamStatus)')];
+      case 'sudo': return [out('guest is not in the sudoers file. This incident will be reported.', 'bad')];
+      case 'exit': case 'logout': setTimeout(() => cmdIn?.blur(), 0); return [out('logout')];
+      default: {
+        const tool = TOOLS.find(([t]) => t.toLowerCase() === c.replace(/\.py$/, ''));
+        if (tool) return tool[2].map((l) => out(l, tone(l)));
+        return [out(`${c}: command not found (try help)`, 'bad')];
+      }
+    }
+  }
+  const statsPath = (pagePath.replace(/streamer$/, '') || '/') + 'stats';
+  function enter() {
+    if (interactive) return;
+    interactive = true;
+    clearTimeout(resume); clearTimeout(idleBack);
+    job++;                                    // stops the idle session mid-line
+    select(-1);
+    lines = [out("guest@infosecstreams. type help for commands.", 'ok')];
+    term.classList.add('live');
+    draw();
+  }
+  function leave() {
+    clearTimeout(idleBack);
+    idleBack = window.setTimeout(() => {
+      if (document.activeElement === cmdIn) return;
+      interactive = false; term.classList.remove('live'); lines = []; void session();
+    }, 30_000);
+  }
+  cmdIn?.addEventListener('focus', enter);
+  cmdIn?.addEventListener('blur', leave);
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (!cmdIn) return;
+    const line = cmdIn.value; cmdIn.value = '';
+    if (line.trim()) { typed.push(line.trim()); hpos = typed.length; }
+    lines.push(`<p class="cmd">${PS}${esc(line)}</p>`);
+    draw();
+    const res = await exec(line);
+    lines.push(...res); draw(); sayOut(res);
+  });
+  cmdIn?.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+      e.preventDefault();
+      hpos = Math.max(0, Math.min(typed.length, hpos + (e.key === 'ArrowUp' ? -1 : 1)));
+      cmdIn.value = typed[hpos] ?? '';
+    } else if (e.key === 'Tab') {
+      // complete a command, or a streamer's name after one
+      const parts = cmdIn.value.split(/\s+/);
+      const last = (parts.at(-1) ?? '').toLowerCase();
+      if (!last && parts.length < 2) return;
+      e.preventDefault();
+      const pool = parts.length < 2 ? ['help', 'ls', 'top', 'whois', 'open', 'page', 'next', 'tail', 'raids', 'stats', 'sort', 'clear', 'history']
+        : streamers().map((s) => s.login);
+      const hits = pool.filter((p) => p.toLowerCase().startsWith(last));
+      if (hits.length === 1) { parts[parts.length - 1] = hits[0]; cmdIn.value = parts.join(' ') + ' '; }
+      else if (hits.length > 1) { lines.push(out(hits.slice(0, 24).join('  '))); draw(); }
+    } else if (e.key === 'Escape') cmdIn.blur();
+  });
+  // Click anywhere on the terminal to type; "/" from anywhere on the page.
+  document.querySelector('.term')?.addEventListener('click', (e) => { if (!(e.target as Element).closest('a')) cmdIn?.focus(); });
+  addEventListener('keydown', (e) => {
+    const t = e.target as HTMLElement;
+    if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable || con.busy) return;
+    e.preventDefault(); cmdIn?.focus();
   });
 
   // ---- Rive (low-level) ----

@@ -25,6 +25,7 @@
     "language": "Idioma",
     "home": "Streams",
     "inactiveNav": "Inactivos",
+    "statsNav": "Estadísticas",
     "faqNav": "Preguntas",
     "resourcesNav": "Recursos",
     "liveNow": "{n} en directo ahora",
@@ -72,7 +73,9 @@
     "linkCopied": "Enlace copiado",
     "colHoursShort": "Horas (30 días)",
     "checkingLive": "Comprobando quién está en directo…",
-    "keptOf": "salió en directo en {k} de sus últimas {t} emisiones programadas"
+    "keptOf": "salió en directo en {k} de sus últimas {t} emisiones programadas",
+    "termLabel": "Terminal: escribe un comando, o help",
+    "termHint": "escribe help o pulsa /"
   },
   "home": {
     "title": "Streams de InfoSec",
@@ -226,5 +229,29 @@
     "peakShort": "pico",
     "metaDesc": "{name} transmite sobre seguridad de la información en Twitch. Estado en directo, horas emitidas, cuándo suele estar en directo, directos recientes, VODs y clips.",
     "moved": "Esta página se ha movido: abre la página del streamer desde la lista."
+  },
+  "stats": {
+    "title": "Estadísticas de la comunidad",
+    "lede": "Lo que han hecho los streamers de la lista, según las grabaciones de nuestro bot. Se actualiza cada 10 minutos.",
+    "totals": "Últimos 30 días",
+    "hours30": "Horas transmitidas",
+    "streams30": "Transmisiones",
+    "active30": "Streamers en directo",
+    "watched30": "Horas vistas",
+    "hours7": "Horas, últimos 7 días",
+    "raids30": "Raids",
+    "top": "Más activos, 30 días",
+    "nStreams": "{n} transmisiones",
+    "when": "Cuándo transmite la comunidad",
+    "topics": "Temas y categorías, 30 días",
+    "streaks": "Rachas semanales",
+    "streaksNote": "semanas seguidas con transmisión",
+    "weeks": "{n} semanas",
+    "raids": "Raids, 90 días",
+    "raidsNote": "las flechas apuntan a quien recibió el raid",
+    "raided": "hizo raid a",
+    "viewersN": "{n} espectadores",
+    "clips": "Mejores clips, 30 días",
+    "views": "{n} vistas"
   }
 }

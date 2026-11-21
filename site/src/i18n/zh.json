@@ -25,6 +25,7 @@
     "language": "语言",
     "home": "直播",
     "inactiveNav": "不活跃",
+    "statsNav": "统计",
     "faqNav": "常见问题",
     "resourcesNav": "资源",
     "liveNow": "{n} 人正在直播",
@@ -72,7 +73,9 @@
     "linkCopied": "链接已复制",
     "colHoursShort": "30 天时长",
     "checkingLive": "正在查看谁在直播…",
-    "keptOf": "最近 {t} 次预定直播中开播了 {k} 次"
+    "keptOf": "最近 {t} 次预定直播中开播了 {k} 次",
+    "termLabel": "终端：输入命令，或 help",
+    "termHint": "输入 help，或按 /"
   },
   "home": {
     "title": "信息流",
@@ -226,5 +229,29 @@
     "peakShort": "峰值",
     "metaDesc": "{name} 在 Twitch 直播信息安全内容。直播状态、直播时长、常见开播时间、最近直播、录像和剪辑。",
     "moved": "此页面已迁移：请从列表中打开主播页面。"
+  },
+  "stats": {
+    "title": "社区统计",
+    "lede": "名单上的主播最近在做什么，来自我们自己的机器人记录。每 10 分钟更新。",
+    "totals": "最近 30 天",
+    "hours30": "直播时长",
+    "streams30": "直播场次",
+    "active30": "开播主播",
+    "watched30": "观看时长",
+    "hours7": "时长，最近 7 天",
+    "raids30": "Raid",
+    "top": "最活跃，30 天",
+    "nStreams": "{n} 场",
+    "when": "社区什么时候直播",
+    "topics": "话题和分类，30 天",
+    "streaks": "每周连续",
+    "streaksNote": "连续有直播的周数",
+    "weeks": "{n} 周",
+    "raids": "Raid，90 天",
+    "raidsNote": "箭头指向被 raid 的一方",
+    "raided": "raid 了",
+    "viewersN": "{n} 名观众",
+    "clips": "热门剪辑，30 天",
+    "views": "{n} 次观看"
   }
 }

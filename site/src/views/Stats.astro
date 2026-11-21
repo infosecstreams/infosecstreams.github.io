@@ -1,0 +1,32 @@
+---
+// /stats: the community in numbers, from the bot's own recordings: the month's
+// totals, the most active streamers, when the community streams, topics,
+// weekly streaks, who raids whom, and top clips. Built with the data in the
+// HTML; src/scripts/stats.ts refreshes it with fresh numbers and local time.
+import Base from '../layouts/Base.astro';
+import { fmt, pathFor, strings, type Lang } from '../lib/i18n';
+import { active, inactive } from '../lib/roster';
+import { API_BASE } from '../lib/api';
+import { jsonAtBuild } from '../lib/build-stats';
+import { renderCommunity, type Community, type Raids } from '../lib/stats-render';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+const all = strings(lang);
+const t = { ...all.stats, unavailable: all.streamer.unavailable, onTwitch: all.streamer.onTwitch, localTime: all.streamer.localTime, since: all.streamer.since };
+const listed = [...new Set([...active, ...inactive].map((s) => s.login.toLowerCase()))];
+const base = pathFor(lang, 'streamer');
+const [st, raids] = await Promise.all([jsonAtBuild<Community>('stats.json'), jsonAtBuild<Raids>('raids.json')]);
+const body = st ? renderCommunity(st, raids, { lang, ui: t as Record<string, string>, page: (l) => (listed.includes(l) ? `${base}/${encodeURIComponent(l)}` : null) }) : '';
+---
+<Base lang={lang} page="stats" title={all.stats.title} description={all.stats.lede}>
+  <div id="stats" class="sp" data-api={API_BASE} data-ui={JSON.stringify(t)} data-roster={JSON.stringify(listed)} data-base={base} data-built={st ? '1' : ''}>
+    <div class="head">
+      <h1>{all.stats.title}</h1>
+      <p class="lede">{all.stats.lede}</p>
+    </div>
+    {!st && <noscript><p class="noscript">{all.streamer.noScript}</p></noscript>}
+    <div class="sp-body st-body" id="st-body" set:html={body}></div>
+  </div>
+  <script src="../scripts/stats.ts"></script>
+</Base>

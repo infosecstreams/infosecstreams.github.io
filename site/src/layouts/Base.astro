@@ -37,7 +37,7 @@ const t = strings(lang);
 const site = Astro.site!.origin;
 const canonical = site + href(lang);
 const fullTitle = page ? `${title} · InfoSec Streams` : title === 'InfoSec Streams' ? title : `${title} · InfoSec Streams`;
-const nav: [Page, string][] = [['', t.ui.home], ['inactive', t.ui.inactiveNav], ['faq', t.ui.faqNav], ['resources', t.ui.resourcesNav]];
+const nav: [Page, string][] = [['', t.ui.home], ['inactive', t.ui.inactiveNav], ['stats', t.ui.statsNav], ['faq', t.ui.faqNav], ['resources', t.ui.resourcesNav]];
 const ld = [
   {
     '@context': 'https://schema.org', '@type': 'WebSite', name: 'InfoSec Streams', url: `${site}/`,

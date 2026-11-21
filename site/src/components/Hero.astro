@@ -25,6 +25,13 @@ const t = S.ui;
         <p class="out">Starting Nmap 7.95 ( https://nmap.org )</p>
         <p class="cmd"><span class="ps">~&gt;</span> <span class="caret"></span></p>
       </div>
+      <!-- A real prompt: type commands (hero.ts). The animation above is decorative; results are read out below. -->
+      <form class="term-in" id="term-in" autocomplete="off">
+        <span class="ps" aria-hidden="true">~&gt;</span>
+        <label class="sr" for="term-cmd">{t.termLabel}</label>
+        <input id="term-cmd" type="text" spellcheck="false" autocapitalize="off" autocorrect="off" enterkeyhint="go" placeholder={t.termHint} />
+      </form>
+      <p class="sr" id="term-say" aria-live="polite"></p>
     </div>
   </div>
   <div class="hero-rack">

@@ -25,6 +25,7 @@
     "language": "Dil",
     "home": "Yayınlar",
     "inactiveNav": "Pasif",
+    "statsNav": "İstatistikler",
     "faqNav": "SSS",
     "resourcesNav": "Kaynaklar",
     "liveNow": "Şu anda {n} canlı yayın",
@@ -72,7 +73,9 @@
     "linkCopied": "Bağlantı kopyalandı",
     "colHoursShort": "30 günlük saat",
     "checkingLive": "Kimin canlı olduğu kontrol ediliyor…",
-    "keptOf": "son {t} planlı yayınının {k} tanesinde canlıydı"
+    "keptOf": "son {t} planlı yayınının {k} tanesinde canlıydı",
+    "termLabel": "Terminal: bir komut yazın ya da help",
+    "termHint": "help yazın ya da / tuşuna basın"
   },
   "home": {
     "title": "InfoSec Yayınları",
@@ -226,5 +229,29 @@
     "peakShort": "zirve",
     "metaDesc": "{name}, Twitch'te bilgi güvenliği yayınları yapıyor. Canlı durum, yayın saatleri, genelde ne zaman canlı olduğu, son yayınlar, VOD'lar ve klipler.",
     "moved": "Bu sayfa taşındı: yayıncının sayfasını listeden açın."
+  },
+  "stats": {
+    "title": "Topluluk istatistikleri",
+    "lede": "Listedeki yayıncıların neler yaptığı, kendi botumuzun kayıtlarından. 10 dakikada bir güncellenir.",
+    "totals": "Son 30 gün",
+    "hours30": "Yayın saati",
+    "streams30": "Yayınlar",
+    "active30": "Canlı yayın yapan yayıncılar",
+    "watched30": "İzlenme saati",
+    "hours7": "Saat, son 7 gün",
+    "raids30": "Raidler",
+    "top": "En aktifler, 30 gün",
+    "nStreams": "{n} yayın",
+    "when": "Topluluk ne zaman yayın yapıyor",
+    "topics": "Konular ve kategoriler, 30 gün",
+    "streaks": "Haftalık seriler",
+    "streaksNote": "üst üste yayın yapılan haftalar",
+    "weeks": "{n} hafta",
+    "raids": "Raidler, 90 gün",
+    "raidsNote": "oklar raid alanı gösterir",
+    "raided": "raid attı",
+    "viewersN": "{n} izleyici",
+    "clips": "En iyi klipler, 30 gün",
+    "views": "{n} görüntülenme"
   }
 }

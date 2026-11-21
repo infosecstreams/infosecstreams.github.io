@@ -25,6 +25,7 @@
     "language": "Language",
     "home": "Streams",
     "inactiveNav": "Inactive",
+    "statsNav": "Stats",
     "faqNav": "FAQ",
     "resourcesNav": "Resources",
     "liveNow": "{n} live now",
@@ -72,7 +73,9 @@
     "linkCopied": "Link copied",
     "colHoursShort": "30-day hours",
     "checkingLive": "Checking who's live…",
-    "keptOf": "went live for {k} of their last {t} scheduled streams"
+    "keptOf": "went live for {k} of their last {t} scheduled streams",
+    "termLabel": "Terminal: type a command, or help",
+    "termHint": "type help, or press /"
   },
   "home": {
     "title": "InfoSec Streams",
@@ -226,5 +229,29 @@
     "peakShort": "peak",
     "metaDesc": "{name} streams information security on Twitch. Live status, hours streamed, when they're usually live, recent streams, VODs and clips.",
     "moved": "This page has moved: open the streamer's page from the list."
+  },
+  "stats": {
+    "title": "Community stats",
+    "lede": "What the streamers on the list have been up to, from our bot's own recordings. Refreshed every 10 minutes.",
+    "totals": "Last 30 days",
+    "hours30": "Hours streamed",
+    "streams30": "Streams",
+    "active30": "Streamers live",
+    "watched30": "Hours watched",
+    "hours7": "Hours, last 7 days",
+    "raids30": "Raids",
+    "top": "Most active, 30 days",
+    "nStreams": "{n} streams",
+    "when": "When the community streams",
+    "topics": "Topics and categories, 30 days",
+    "streaks": "Weekly streaks",
+    "streaksNote": "weeks in a row with a stream",
+    "weeks": "{n} weeks",
+    "raids": "Raids, 90 days",
+    "raidsNote": "arrows point at who was raided",
+    "raided": "raided",
+    "viewersN": "{n} viewers",
+    "clips": "Top clips, 30 days",
+    "views": "{n} views"
   }
 }

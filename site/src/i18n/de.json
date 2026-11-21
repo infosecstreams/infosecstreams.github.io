@@ -25,6 +25,7 @@
     "language": "Sprache",
     "home": "Streams",
     "inactiveNav": "Inaktiv",
+    "statsNav": "Statistiken",
     "faqNav": "FAQ",
     "resourcesNav": "Ressourcen",
     "liveNow": "{n} jetzt live",
@@ -72,7 +73,9 @@
     "linkCopied": "Link kopiert",
     "colHoursShort": "Stunden (30 T.)",
     "checkingLive": "Prüfe, wer live ist…",
-    "keptOf": "war bei {k} der letzten {t} geplanten Streams live"
+    "keptOf": "war bei {k} der letzten {t} geplanten Streams live",
+    "termLabel": "Terminal: Befehl eingeben, oder help",
+    "termHint": "help eingeben oder / drücken"
   },
   "home": {
     "title": "InfoSec Streams",
@@ -226,5 +229,29 @@
     "peakShort": "max.",
     "metaDesc": "{name} streamt Informationssicherheit auf Twitch. Live-Status, gestreamte Stunden, übliche Streamzeiten, letzte Streams, VODs und Clips.",
     "moved": "Diese Seite ist umgezogen: Öffne die Seite des Streamers über die Liste."
+  },
+  "stats": {
+    "title": "Community-Statistiken",
+    "lede": "Was die Streamer auf der Liste so machen, aus den eigenen Aufzeichnungen unseres Bots. Alle 10 Minuten aktualisiert.",
+    "totals": "Letzte 30 Tage",
+    "hours30": "Gestreamte Stunden",
+    "streams30": "Streams",
+    "active30": "Streamer live",
+    "watched30": "Zuschauerstunden",
+    "hours7": "Stunden, letzte 7 Tage",
+    "raids30": "Raids",
+    "top": "Am aktivsten, 30 Tage",
+    "nStreams": "{n} Streams",
+    "when": "Wann die Community streamt",
+    "topics": "Themen und Kategorien, 30 Tage",
+    "streaks": "Wöchentliche Serien",
+    "streaksNote": "Wochen in Folge mit Stream",
+    "weeks": "{n} Wochen",
+    "raids": "Raids, 90 Tage",
+    "raidsNote": "Pfeile zeigen auf den geraideten Kanal",
+    "raided": "raidete",
+    "viewersN": "{n} Zuschauer",
+    "clips": "Top-Clips, 30 Tage",
+    "views": "{n} Aufrufe"
   }
 }
