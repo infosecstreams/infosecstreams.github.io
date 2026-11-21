@@ -127,16 +127,23 @@ input, select, button { font: inherit; color: inherit; }
 /* The console a clicked sled slides out as (console.ts): fixed over the
    window. With the runtime, the canvas draws the drawer, deck and lid and the
    HTML is only the screen; without it, .con-lid is the lid and CSS flies it. */
-.con { position: fixed; inset: 0; z-index: 60; outline: none; }
+.con { position: fixed; inset: 0; z-index: 60; outline: none; perspective: 1700px; }
 .con[hidden] { display: none; }
 .con-bg { position: absolute; inset: 0; background: rgb(6 8 10 / 0.86); opacity: 0; }
 .con canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; pointer-events: none; }
-.con.drawn .con-lid { display: none; }
 .con:not(.drawn) canvas { display: none; }
-.con-lid { position: absolute; background: #07090c; border: 1px solid var(--line-hi); outline: clamp(8px, 1.6vw, 18px) solid var(--graphite); box-shadow: 0 0 0 calc(clamp(8px, 1.6vw, 18px) + 1px) var(--line-hi); }
+/* The lid: hinged at its bottom edge, flipped by console.ts (rotateX). Front:
+   bezel and screen; back: the lid's shell, seen while it is still low. */
+.con-lid { position: absolute; transform-origin: 50% 100%; transform-style: preserve-3d; visibility: hidden; }
+.con-face, .con-back { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; border-radius: var(--r); }
+.con-face { background: var(--graphite); box-shadow: inset 0 0 0 1px var(--line-hi), 0 30px 80px -20px rgb(0 0 0 / 0.7); }
+.con-face::after { content: ""; position: absolute; right: calc(var(--b) + 1px); bottom: calc((var(--b) + 6px) / 2 - 2px); width: 4px; height: 4px; border-radius: 50%; background: var(--led); box-shadow: 0 0 6px rgb(0 216 146 / 0.7); }
+.con-back { transform: rotateX(180deg); background: repeating-linear-gradient(90deg, transparent 0 22px, rgb(255 255 255 / 0.025) 22px 23px), var(--carbon); box-shadow: inset 0 0 0 1px var(--line-hi); }
 .con.fade { animation: con-fade 0.2s ease-out both; }
 @keyframes con-fade { from { opacity: 0; } }
-.con-scr { position: absolute; container-type: inline-size; display: flex; flex-direction: column; padding: clamp(0.75rem, 2vw, 1.5rem) clamp(0.85rem, 2.4vw, 1.75rem) clamp(0.6rem, 1.6vw, 1.1rem); font: clamp(12px, 0.3vw + 10px, 14.5px)/1.5 var(--mono); color: var(--silver); opacity: 0; pointer-events: none; background: radial-gradient(120% 80% at 50% 0%, rgb(0 216 146 / 0.05), transparent 60%); }
+.con-scr { position: absolute; inset: var(--b) var(--b) calc(var(--b) + 6px); border: 1px solid var(--line); container-type: inline-size; display: flex; flex-direction: column; padding: clamp(0.75rem, 2vw, 1.5rem) clamp(0.85rem, 2.4vw, 1.75rem) clamp(0.6rem, 1.6vw, 1.1rem); font: clamp(12px, 0.3vw + 10px, 14.5px)/1.5 var(--mono); color: var(--silver); pointer-events: none; background: radial-gradient(120% 80% at 50% 0%, rgb(0 216 146 / calc(var(--on, 0) * 0.06)), transparent 60%), #07090c; }
+/* the screen powers on as the lid rises (console.ts sets --on) */
+.con-scr > * { opacity: var(--on, 0); }
 .con.lit .con-scr { pointer-events: auto; }
 .con-top { display: flex; align-items: center; gap: 0.9em; padding-bottom: 0.8em; border-bottom: 1px solid var(--line); }
 .con-n { margin: 0; font: 500 clamp(1.25rem, 1rem + 1.2vw, 2rem)/1.15 var(--sans); letter-spacing: -0.015em; color: var(--bone); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -149,14 +156,12 @@ input, select, button { font: inherit; color: inherit; }
 .con-x:hover { color: var(--bone); border-color: var(--line-hi); }
 .con-x svg { width: 0.8rem; height: 0.8rem; stroke: currentColor; stroke-width: 1.5; fill: none; }
 .con-body { flex: 1; min-height: 0; overflow: auto; overscroll-behavior: contain; padding: 1.1em 0 0.9em; scrollbar-width: thin; }
-.con-now { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 1.4em; align-items: start; margin-bottom: 1.3em; }
+.con-now { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 1.4em; align-items: start; margin-bottom: 1.3em; }
 .con-now:not(:has(.con-pl)) { grid-template-columns: minmax(0, 1fr); }
 .con-pl { position: relative; aspect-ratio: 16 / 9; border: 1px solid var(--line); background: var(--carbon); }
 .con-pl img, .con-pl iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display: block; }
-.con-play { position: absolute; inset-inline-start: 0.75em; bottom: 0.75em; display: inline-flex; align-items: center; gap: 0.55em; min-height: 2.4rem; padding: 0 0.9em; border: 1px solid var(--led); border-radius: var(--r); background: rgb(6 8 10 / 0.85); color: var(--led); font: inherit; font-size: 0.85em; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; }
-.con-play[hidden] { display: none; }
-.con-play:hover { background: var(--led-fill); }
-.con-play svg { width: 0.75em; height: 0.75em; fill: currentColor; }
+.con-pl iframe { opacity: 0; transition: opacity 0.4s; }
+.con-pl.playing iframe { opacity: 1; }
 .con-d { min-width: 0; }
 .con-t { margin: 0 0 0.6em; font: clamp(1rem, 0.9rem + 0.4vw, 1.25rem)/1.35 var(--sans); color: var(--bone); display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
 .con-m { margin: 0 0 0.2em; color: var(--steel); }
@@ -178,8 +183,10 @@ input, select, button { font: inherit; color: inherit; }
 @container (max-width: 860px) {
   .con-kv { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
-@container (max-width: 640px) {
+@container (max-width: 900px) {
   .con-now { grid-template-columns: minmax(0, 1fr); }
+}
+@container (max-width: 640px) {
   .con-kv { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .con-rec li { grid-template-columns: 7.5em 4.5em minmax(0, 1fr); }
 }

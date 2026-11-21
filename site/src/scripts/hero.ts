@@ -52,7 +52,7 @@ function startHero(hero: HTMLElement) {
     // the card on an open console follows the live data (not while a player runs)
     const s = con && con.index >= 0 ? list[con.index] : undefined;
     const key = s ? `${s.status}|${s.viewers}|${s.title}|${s.category}` : '';
-    if (s && key !== conKey && !scr.querySelector('iframe')) { conKey = key; fill(con.index); }
+    if (s && key !== conKey) { conKey = key; fill(con.index); }
     kick();
   });
 
@@ -203,8 +203,7 @@ function startHero(hero: HTMLElement) {
         ? [s.viewers != null ? esc(f('viewers', { n: numF.format(s.viewers) })) : '', s.started_at ? esc(f('upFor', { t: dur(Date.now() - Date.parse(s.started_at)) })) : ''].filter(Boolean).join(' · ')
         : '';
       now = `<div class="con-now">${s.status === 'online'
-        ? `<div class="con-pl"><img src="${esc(thumb(login, 640, 360))}" srcset="${esc(thumb(login, 1280, 720))} 2x" width="640" height="360" alt="" decoding="async">
-            <button class="con-play" type="button" hidden><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M3 1.5v9l7.5-4.5z"/></svg>${esc(f('watchHere'))}</button></div>` : ''}
+        ? `<div class="con-pl"><img src="${esc(thumb(login, 640, 360))}" srcset="${esc(thumb(login, 1280, 720))} 2x" width="640" height="360" alt="" decoding="async"></div>` : ''}
         <div class="con-d"><p class="con-t">${esc(s.title || '')}</p><p class="con-m">${meta}</p>${live ? `<p class="con-m">${live}</p>` : ''}${rec}</div></div>`;
     } else {
       now = `<p class="con-last">${st === undefined ? esc(f('loading')) : st?.last_live_at ? esc(f('lastLive', { t: ago(st.last_live_at) })) : esc(f('neverLive'))}</p>${rec}`;
@@ -224,31 +223,46 @@ function startHero(hero: HTMLElement) {
         <span class="lk">${tw ? `<a class="tw" href="${esc(tw.href)}" target="_blank" rel="noopener" aria-label="${esc(tw.getAttribute('aria-label') || 'Twitch')}">${icon('twitch')}</a>` : ''}
         ${yt ? `<a class="yt" href="${esc(yt.href)}" target="_blank" rel="noopener" aria-label="${esc(yt.getAttribute('aria-label') || 'YouTube')}">${icon('youtube')}</a>` : ''}</span></div>`;
   }
-  // Twitch's player needs at least 400 x 300; offer it only where it fits.
-  function offerPlayer() {
-    const pl = scr.querySelector<HTMLElement>('.con-pl'), btn = pl?.querySelector<HTMLButtonElement>('.con-play');
-    if (pl && btn) btn.hidden = pl.offsetWidth < 534;
+  // The stream itself plays on the screen once the lid is up: Twitch's player,
+  // muted (browsers only autoplay muted; its own controls unmute). Twitch
+  // asks for at least 400 x 300, so smaller screens keep the preview image.
+  function embed(i: number) {
+    const s = list[i], pl = scr.querySelector<HTMLElement>('.con-pl');
+    if (!s || s.status !== 'online' || !pl || pl.querySelector('iframe')) return;
+    if (pl.offsetWidth < 400 || pl.offsetHeight < 300) return;
+    const q = new URLSearchParams({ channel: s.login.toLowerCase(), parent: location.hostname, muted: 'true', autoplay: String(!reduce.matches) });
+    const fr = document.createElement('iframe');
+    fr.src = `https://player.twitch.tv/?${q}`;
+    fr.title = f('livePlayer', { name: s.display_name || s.login });
+    fr.allow = 'autoplay; fullscreen; picture-in-picture';
+    fr.allowFullscreen = true;
+    fr.addEventListener('load', () => pl.classList.add('playing'), { once: true });
+    pl.appendChild(fr);
   }
+  // New data while the console is open: swap the text parts, never the player.
+  function patch(html: string) {
+    const t = document.createElement('div'); t.innerHTML = html;
+    for (const sel of ['.con-st', '.con-d', '.con-kv', '.con-last']) {
+      const a = scr.querySelector(sel), b = t.querySelector(sel);
+      if (a && b) a.replaceWith(b);
+    }
+  }
+  const statsCache = new Map<string, Stats | null>();
   function fill(i: number) {
     const s = list[i];
     if (!s) return;
     const login = s.login.toLowerCase();
-    scr.innerHTML = card(s); offerPlayer();
+    const html = card(s, statsCache.get(login));
+    // keep a running player while the stream is still live
+    if (scr.querySelector('.con-pl iframe') && s.status === 'online') patch(html); else scr.innerHTML = html;
+    if (statsCache.has(login)) return;
     void statsFor(login).then((st) => {
-      if (con.index !== i || scr.querySelector('iframe')) return;
-      const keep = scr.contains(document.activeElement) ? document.activeElement?.className : '';
-      scr.innerHTML = card(list[i] ?? s, st); offerPlayer();
-      if (keep) scr.querySelector<HTMLElement>(`.${String(keep).split(' ')[0]}`)?.focus({ preventScroll: true });
+      statsCache.set(login, st);
+      if (con.index !== i) return;
+      const html = card(list[i] ?? s, st);
+      if (scr.querySelector('.con-pl iframe')) patch(html); else scr.innerHTML = html;
     });
   }
-  scr.addEventListener('click', (e) => {
-    const b = (e.target as Element).closest('.con-play');
-    const s = list[con.index];
-    if (!b || !s) return;
-    const pl = b.parentElement!;
-    pl.innerHTML = `<iframe src="https://player.twitch.tv/?channel=${encodeURIComponent(s.login.toLowerCase())}&parent=${encodeURIComponent(location.hostname)}&autoplay=true" title="${esc(f('livePlayer', { name: s.display_name || s.login }))}" allowfullscreen allow="autoplay; fullscreen"></iframe>`;
-    pl.querySelector('iframe')!.focus();
-  });
 
   const sledRect = (i: number) => {
     const b = box.getBoundingClientRect(), s = Math.min(b.width / geo.width, b.height / geo.height);
@@ -261,6 +275,7 @@ function startHero(hero: HTMLElement) {
     led: (i) => list[i]?.status ?? 'offline',
     share: (i) => (list[i]?.hours_30d ? Math.max(0.02, list[i]!.hours_30d! / maxH) : 0),
     onOpen: (i) => { conKey = ''; select(-1); fill(i); },
+    onShown: (i) => embed(i),
     onSlot: (i) => { slot = i; paintHole(); kick(); },
   });
 

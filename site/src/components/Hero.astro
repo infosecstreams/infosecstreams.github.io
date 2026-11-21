@@ -29,11 +29,13 @@ const t = S.ui;
       <canvas id="rack-c" aria-hidden="true"></canvas>
     </div>
     <!-- The console a clicked sled slides out as (console.ts); fixed over the window. -->
-    <div class="con" id="con" role="dialog" aria-modal="true" aria-labelledby="con-n" tabindex="-1" hidden data-ui={JSON.stringify({ ...S.streamer, close: t.close, allStats: t.allStats, watchHere: t.watchHere, livePlayer: t.livePlayer })}>
+    <div class="con" id="con" role="dialog" aria-modal="true" aria-labelledby="con-n" tabindex="-1" hidden data-ui={JSON.stringify({ ...S.streamer, close: t.close, allStats: t.allStats, livePlayer: t.livePlayer })}>
       <div class="con-bg"></div>
       <canvas aria-hidden="true"></canvas>
-      <div class="con-lid" aria-hidden="true"></div>
-      <div class="con-scr"></div>
+      <div class="con-lid">
+        <div class="con-back" aria-hidden="true"></div>
+        <div class="con-face"><div class="con-scr"></div></div>
+      </div>
     </div>
   </div>
 </section>

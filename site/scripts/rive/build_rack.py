@@ -152,8 +152,9 @@ comps = []
 # only (no strokes, hairlines are 1-unit rects), so hero.ts can lay it out at
 # any size by setting each named piece's x, y and scale: crisp at every width,
 # from a phone to a wide monitor. Units are CSS pixels. Nodes:
-#   lid   hinge at the deck's top edge; scaleY 0..1 lifts it
 #   deck  keyboard tray; scaleY 0..1 pulls it out
+# The screen lid is not here: it flips open in 3D, which a 2D renderer can't
+# do, so the page draws it as a CSS 3D panel hinged at the deck.
 #   front the drawer front: a sled at console size (LED, 30-day bar, handles)
 def unit(parent, name, color, a=255):
     sh = add('Shape', parent, name=name, x=0, y=0)
@@ -175,12 +176,6 @@ for r in range(3):
         sh = add('Shape', keys, name=f'k{r}_{k}', x=k * 34 + (r == 2) * 102, y=r * 11)
         add('Rectangle', sh, width=30 if not (r == 2 and k == 7) else 30, height=8, originX=0, originY=0)
         f = add('Fill', sh); add('SolidColor', f, colorValue=argb(GRAPHITE))
-clid = add('Node', croot, name='lid', x=0, y=0, scaleY=0)
-unit(clid, 'bz', GRAPHITE)
-unit(clid, 'scr', '#07090c')
-for n in ('scT', 'scB', 'scL', 'scR'): unit(clid, n, LINE)
-for n in ('bzT', 'bzL', 'bzR'): unit(clid, n, LINE_HI)
-unit_dot(clid, 'pwr', LED)
 cfront = add('Node', croot, name='front', x=0, y=0)
 for n in ('hdl0', 'hdl1'): unit(cfront, n, GRAPHITE)
 unit(cfront, 'fc', VOID)
