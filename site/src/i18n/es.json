@@ -27,7 +27,7 @@
     "faqNav": "Preguntas",
     "resourcesNav": "Recursos",
     "liveNow": "{n} en directo ahora",
-    "nobodyLive": "Nadie está en directo ahora mismo.",
+    "nobodyLive": "",
     "checking": "Comprobando quién está en directo…",
     "unavailable": "El estado en directo no está disponible ahora. La lista completa está abajo.",
     "live": "En directo",
@@ -55,7 +55,7 @@
     "streamers": "{n} streamers",
     "keyHint": "Pulsa / para buscar",
     "startsIn": "empieza {t}",
-    "nextUp": "A continuación: {name}, {t}",
+    "nextUp": "",
     "colHours": "Horas emitidas, últimos 30 días",
     "scheduleHeading": "Calendario",
     "watchShort": "Ver",
@@ -68,7 +68,9 @@
     "rackLabel": "Rack de servidores: una bandeja por streamer. Las flechas eligen un streamer; Enter abre su consola.",
     "copyLink": "Copiar enlace",
     "linkCopied": "Enlace copiado",
-    "colHoursShort": ""
+    "colHoursShort": "",
+    "checkingLive": "",
+    "keptOf": ""
   },
   "home": {
     "title": "Streams de InfoSec",
@@ -80,7 +82,11 @@
   "inactive": {
     "title": "Streamers Inactivos",
     "intro": "",
-    "listHeading": ""
+    "listHeading": "",
+    "groupRecent": "",
+    "groupEarlier": "",
+    "groupNone": "",
+    "groupNoneUndated": ""
   },
   "credits": {
     "heading": "Créditos",
