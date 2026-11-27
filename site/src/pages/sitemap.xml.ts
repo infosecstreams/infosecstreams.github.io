@@ -2,8 +2,9 @@
 import type { APIRoute } from 'astro';
 import { LANGS, PAGES, pathFor } from '../lib/i18n';
 import { active } from '../lib/roster';
+import { statsAtBuild } from '../lib/build-stats';
 
-export const GET: APIRoute = ({ site }) => {
+export const GET: APIRoute = async ({ site }) => {
   const origin = site!.origin;
   const urls = PAGES.flatMap((page) =>
     LANGS.map((lang) => {
@@ -12,8 +13,11 @@ export const GET: APIRoute = ({ site }) => {
       return `<url><loc>${origin}${pathFor(lang, page)}</loc>${alts}<changefreq>${page === '' ? 'hourly' : 'weekly'}</changefreq><priority>${page === '' ? '1.0' : '0.6'}</priority></url>`;
     }),
   );
-  // Active streamers' pages (inactive ones stay out of search).
-  const people = [...new Set(active.map((s) => s.login.toLowerCase()))].flatMap((login) =>
+  // Active streamers' pages (inactive ones stay out of search), less those
+  // with no stats: their pages are noindex (src/views/Streamer.astro).
+  const logins = [...new Set(active.map((s) => s.login.toLowerCase()))];
+  const has = await Promise.all(logins.map((l) => statsAtBuild(l)));
+  const people = logins.filter((_, i) => has[i]).flatMap((login) =>
     LANGS.map((lang) => {
       const at = (l: typeof lang) => `${origin}${pathFor(l, 'streamer')}/${encodeURIComponent(login)}`;
       const alts = LANGS.map((l) => `<xhtml:link rel="alternate" hreflang="${l}" href="${at(l)}"/>`).join('')

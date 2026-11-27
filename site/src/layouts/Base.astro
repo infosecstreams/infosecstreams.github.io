@@ -81,7 +81,7 @@ const ld = [
     <meta name="twitter:site" content="@infosecstreams" />
     <script is:inline type="application/ld+json" set:html={JSON.stringify(ld.length === 1 ? ld[0] : ld)} />
     <!-- Hovering a link prerenders the next page, so navigation is instant. -->
-    <script is:inline type="speculationrules">{"prerender":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/mock-api/*"}}]},"eagerness":"moderate"}]}</script>
+    <script is:inline type="speculationrules" set:html={JSON.stringify({ prerender: [{ where: !API_BASE.startsWith('/mock-api/') ? { href_matches: '/*' } : { and: [{ href_matches: '/*' }, { not: { href_matches: '/mock-api/*' } }] }, eagerness: 'moderate' }] })} />
     <script is:inline>document.documentElement.classList.add('js')</script>
     <!-- Prefetch fallback, web-vitals sampling, deferred analytics, service worker: src/scripts/boot.js -->
     <script is:inline set:html={boot} />
